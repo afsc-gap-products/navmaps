@@ -27,13 +27,13 @@ df_to_gpx <- function(x, gpx_file, name_col, description_col, lat_col, lon_col, 
   stopifnot("df_to_gpx: gpx_file extension must be .gpx"  = grepl(pattern = ".gpx", x = gpx_file))
   
   if(gpx_format == "timezero") {
-    lines = c("<?xml version=\"1.0\"?>",
+    lines <- c("<?xml version=\"1.0\"?>",
                "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\">")
     
     set_time = paste0(format(Sys.time(), "%Y-%m-%dT%H:%M:%S"), ".000000Z")
     
     for(ii in 1:nrow(x)) {
-      lines = c(lines, 
+      lines <- c(lines, 
                  paste0("  <wpt lat=\"", x[lat_col][ii,], "\" lon=\"", x[lon_col][ii,], "\">"),
                  paste0("    <time>", set_time, "</time>"),
                  paste0("    <name>", x[name_col][ii,], "</name>"),
@@ -46,7 +46,8 @@ df_to_gpx <- function(x, gpx_file, name_col, description_col, lat_col, lon_col, 
       )
       
     }
-    lines = c(lines, "</gpx>")
+    
+    lines <- c(lines, "</gpx>")
     
   }
   

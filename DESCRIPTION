@@ -5,7 +5,8 @@ Version: 0.0.1
 Authors@R: c(person("Sean", "Rohan", email = "sean.rohan@noaa.gov", role = c("aut", "cre")))
 Maintainer: Sean Rohan <sean.rohan@noaa.gov>
 Depends: R (>= 4.0.0),
-    akgfmaps
+    akgfmaps,
+    dplyr
 Imports: here, ggthemes
 Description: Make navigation charts for TimeZero
 License: GPL (>=2)
