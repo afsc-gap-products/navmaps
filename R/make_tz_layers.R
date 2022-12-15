@@ -30,18 +30,13 @@ make_tz_layers <- function(region) {
   
   # Setup survey grid marks layer --- Join with station allocation for the GOA/AI
   grid_centers <- sf::st_centroid(map_layers$survey.grid)
-  grid_centers[c('longitude', 'latitude')] = sf::st_coordinates(grid_centers)
-  grid_centers <- as.data.frame(grid_centers) |>
-    dplyr::select(-geometry)
   grid_centers$shape <- 3
   grid_centers$color <- 1
   grid_centers$description <- ""
   
-  df_to_gpx(x = grid_centers, 
+  sf_to_gpx(x = grid_centers, 
             name_col = "STATIONID",
             description_col = "description",
-            lat_col = "latitude", 
-            lon_col = "longitude", 
             color_col = "color", 
             shape_col = "shape", 
             gpx_format = "timezero", 

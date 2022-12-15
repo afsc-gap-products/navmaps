@@ -8,7 +8,7 @@ Depends: R (>= 4.0.0),
     akgfmaps,
     dplyr
 Imports: here, ggthemes
-Description: Make navigation charts for TimeZero
+Description: Make layers for TimeZero
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: true

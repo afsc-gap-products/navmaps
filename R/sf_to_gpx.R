@@ -1,30 +1,33 @@
-#' Write data.frame to .gpx waypoint file
+#' Write sf point data to a .gpx waypoint file
 #' 
 #' Used to convert data.frames into a gpx file that can be read into marine navigation software.
 #' 
 #' @param x data.frame containing latitude, longitude, name, color, and shape columns.
-#' @param gpx_file Output file.
-#' @param name_col Data frame column name to use for object names.
+#' @param gpx_file Output file with a .gpx extension.
+#' @param name_col Name of the column containing names.
 #' @param description_col Description column.
-#' @param lat_col Latitude column.
-#' @param lon_col Longitude column.
-#' @param color_col Color column with integer colors.
-#' @param shape_col Shape column with integer shapes.
-#' @param gpx_format Charactr vector indicating which marine navigation software output should be formatted for.
+#' @param color_col Name of the column containing integer colors.
+#' @param shape_col Name of the column containing integer shapes.
+#' @param gpx_format Character vector indicating which marine navigation software output should be formatted for.
 #' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
 #' @export
 
-df_to_gpx <- function(x, gpx_file, name_col, description_col, lat_col, lon_col, color_col, shape_col, gpx_format = "timezero", return_lines = FALSE) {
+sf_to_gpx <- function(x, gpx_file, name_col, description_col, color_col, shape_col, gpx_format = "timezero", return_lines = FALSE) {
   
-  var_cols <- c(name_col, description_col, lat_col, lon_col, color_col, shape_col)
+  x <- sf::st_transform(x, crs = "EPSG:4326")
+  x[c('longitude', 'latitude')] <- sf::st_coordinates(x)
+  x <- as.data.frame(x) |>
+    dplyr::select(-geometry)
+  
+  var_cols <- c(name_col, description_col, color_col, shape_col)
   missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
   
   if(length(missing_cols) >=1) {
-    stop("df_to_gpx: The following variable columns were not found in x: ", missing_cols)
+    stop("sf_to_gpx: The following variable columns were not found in x: ", missing_cols)
   }
 
-  stopifnot("df_to_gpx: gpx_format must be timezero" = !(gpx_format %in% c("timzero")))
-  stopifnot("df_to_gpx: gpx_file extension must be .gpx"  = grepl(pattern = ".gpx", x = gpx_file))
+  stopifnot("sf_to_gpx: gpx_format must be timezero" = !(gpx_format %in% c("timzero")))
+  stopifnot("sf_to_gpx: gpx_file extension must be .gpx"  = grepl(pattern = ".gpx", x = gpx_file))
   
   if(gpx_format == "timezero") {
     lines <- c("<?xml version=\"1.0\"?>",
@@ -34,7 +37,7 @@ df_to_gpx <- function(x, gpx_file, name_col, description_col, lat_col, lon_col, 
     
     for(ii in 1:nrow(x)) {
       lines <- c(lines, 
-                 paste0("  <wpt lat=\"", x[lat_col][ii,], "\" lon=\"", x[lon_col][ii,], "\">"),
+                 paste0("  <wpt lat=\"", x['latitude'][ii,], "\" lon=\"", x['longitude'][ii,], "\">"),
                  paste0("    <time>", set_time, "</time>"),
                  paste0("    <name>", x[name_col][ii,], "</name>"),
                  paste0("    <cmt>", x[description_col][ii,], "</cmt>"),
@@ -51,7 +54,7 @@ df_to_gpx <- function(x, gpx_file, name_col, description_col, lat_col, lon_col, 
     
   }
   
-  message("df_to_gpx: Writing ", length(lines), " lines to ", gpx_file)
+  message("sf_to_gpx: Writing ", length(lines), " lines to ", gpx_file)
   gpx_con <- file(gpx_file)
   
   writeLines(text = lines, 
