@@ -1,0 +1,21 @@
+Package: tzmaps
+Type: Package
+Title: Survey navigation maps
+Version: 0.0.1
+Authors@R: c(person("Sean", "Rohan", email = "sean.rohan@noaa.gov", role = c("aut", "cre")))
+Maintainer: Sean Rohan <sean.rohan@noaa.gov>
+Depends: R (>= 4.0.0),
+    akgfmaps
+Imports: here, ggthemes
+Description: Make navigation charts for TimeZero
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Suggests: 
+    RODBC,
+    getPass
+Remotes:
+    afsc-gap-products/akgfmaps
+VignetteBuilder: knitr
+Config/testthat/edition: 3
