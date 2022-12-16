@@ -1,8 +1,19 @@
-sf_to_gpx_track  <- function(x, file, name_col, description_col, color_col, format = "timezero", return_lines = FALSE) {
+#' Write sf to gpx route file
+#' 
+#' Write sf LINESTRING, POLYGON, MULTIPOLYGON, or MULTILINESTRING geometries to a gpx file
+#' 
+#' @param x sf object that contains a linestring geometry and fields with name, description, and color.
+#' @param file Output file with a .kml extension.
+#' @param name_col Name of the column containing names.
+#' @param description_col Description column.
+#' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
+#' @export
+
+sf_to_gpx_track  <- function(x, file, name_col, description_col, return_lines = FALSE) {
 
   stopifnot("sf_to_gpx_track: x must contain only LINESTRING, POLYGON, MULTIPOLYGON, or MULTILINESTRING geometries" = all(st_geometry_type(x) %in% c("LINESTRING", "POLYGON", "MULTIPOLYGON", "MULTILINESTRING")))
   
-  var_cols <- c(name_col, description_col, color_col)
+  var_cols <- c(name_col, description_col)
   missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
   
   if(length(missing_cols) >=1) {
@@ -16,8 +27,6 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, color_col, form
   
   lines <- c("<?xml version=\"1.0\"?>",
              "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\">")
-  
-  if(format == "timezero") {
     
     if(all(st_geometry_type(x) == "LINESTRING")) {
       
@@ -86,7 +95,6 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, color_col, form
         }
       }
     }
-  }
   
   lines <- c(lines,
              "</gpx>")

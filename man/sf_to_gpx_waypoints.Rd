@@ -2,7 +2,7 @@
 % Please edit documentation in R/sf_to_gpx_waypoints.R
 \name{sf_to_gpx_waypoints}
 \alias{sf_to_gpx_waypoints}
-\title{Write sf point data to a .gpx waypoint file}
+\title{Write sf point data to a gpx file}
 \usage{
 sf_to_gpx_waypoints(
   x,
@@ -33,5 +33,5 @@ sf_to_gpx_waypoints(
 \item{return_lines}{Should lines written to gpx file also be returned by the function. Used for debugging.}
 }
 \description{
-Used to convert data.frames into a gpx file that can be read into marine navigation software.
+Write sf POINT geometries to a gpx waypoint file.
 }

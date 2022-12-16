@@ -2,7 +2,7 @@
 % Please edit documentation in R/sf_to_kml_polygon.R
 \name{sf_to_kml_polygon}
 \alias{sf_to_kml_polygon}
-\title{Convert sf to kml polygons}
+\title{Write sf data to a kml polygon file}
 \usage{
 sf_to_kml_polygon(
   x,
@@ -33,5 +33,5 @@ sf_to_kml_polygon(
 \item{shape_col}{Name of the column containing integer shapes.}
 }
 \description{
-Convert sf to kml polygons
+Write sf POLYGON or MULTIPOLYGON geometries to a kml polygon file.
 }

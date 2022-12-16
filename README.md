@@ -2,7 +2,10 @@
 Convert spatial data to KML and GPX formats
 
 
-## Convert sf POINTS to gpx waypoints
+## Convert sf POINTS to .gpx waypoints
+
+GPX point files are supported in OpenCPN and TimeZero.
+
 ```
 library(navmaps)
 
@@ -27,6 +30,9 @@ sf_to_gpx_waypoints(x = grid_centers,
 
 
 ## Convert sf LINESTRINGS to .kml linestring
+
+KML linestring files are supported in TimeZero and ArcMap.
+
 ```
 library(tzmaps)
 
@@ -47,6 +53,9 @@ sf_to_kml_linestring(x = bathy_layer,
 
 
 ## Convert sf POLYGON/MULTIPOLYGON to .kml linestring
+
+KML polygon files are supported in TimeZero and ArcMap.
+
 ```
 library(tzmaps)
 
@@ -62,4 +71,31 @@ sf_to_kml_polygon(x = strata,
                   color_col = "color",
                   fill_col = "fill",
                   kml_file = "test_polygon.kml")
+```
+
+## Convert sf LINESTRING, MULTILINESTRING, POLYGON, or MULTIPOLYGON to .gpx track
+
+These files work in OpenCPN and TimeZero.
+
+```
+map_layers <- akgfmaps::get_base_layers(select.region = "sebs")
+
+bathy_layer <- map_layers$bathymetry
+bathy_layer$color <- sample(x = 1:11, 
+                            size = nrow(bathy_layer ), 
+                            replace = TRUE)
+
+sf_to_gpx_track(
+  x = bathy_layer,
+  name_col = "METERS",
+  description_col = "LAST_UPDAT",
+  file = "test_lines.gpx")
+
+strata <- map_layers$survey.strata
+
+sf_to_gpx_track(
+  x = strata,
+  name_col = "Stratum",
+  description_col = "SURVEY",
+  file = "test_polygon.gpx")
 ```
