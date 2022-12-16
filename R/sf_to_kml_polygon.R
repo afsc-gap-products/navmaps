@@ -1,4 +1,6 @@
-#' Convert sf to kml polygons
+#' Write sf data to a kml polygon file
+#' 
+#' Write sf POLYGON or MULTIPOLYGON geometries to a kml polygon file.
 #' 
 #' @param x sf object that contains a linestring geometry and fields with name, description, and color.
 #' @param file Output file with a .kml extension.
@@ -9,7 +11,6 @@
 #' @param shape_col Name of the column containing integer shapes.
 #' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
 #' @export
-#' 
 
 sf_to_kml_polygon <- function(x, file, name_col, description_col, color_col, fill_col, format = "timezero", return_lines = FALSE) {
   
@@ -94,13 +95,13 @@ sf_to_kml_polygon <- function(x, file, name_col, description_col, color_col, fil
                "  </Document>",
                "</kml>")
   
-  message("sf_to_gpx: Writing ", length(lines), " lines to ", file)
-  kml_con <- file(file)
+  message("sf_to_kml_polygon: Writing ", length(lines), " lines to ", file)
+  con <- file(file)
   
   writeLines(text = lines, 
-             con = kml_con)
+             con = con)
   
-  close(kml_con)
+  close(con)
   
   if(return_lines) {
     return(lines)

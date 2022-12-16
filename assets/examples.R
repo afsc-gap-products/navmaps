@@ -40,12 +40,6 @@ strata <- map_layers$survey.strata
 strata$color <- 5
 strata$fill <- 0
 
-dat <- sf::st_coordinates(strata$geometry[4])
-
-as.data.frame(dat)
-
-dat[,3]
-
 
 sf_to_kml_polygon(x = strata,
                   name_col = "Stratum",

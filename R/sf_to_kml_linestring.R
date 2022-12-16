@@ -1,4 +1,6 @@
-#' Write sf linestring data to a kml linestring file
+#' Write sf data to a kml linestring file
+#' 
+#' Write sf LINESTRING geometries to a kml linestring file
 #' 
 #' @param x sf object that contains a linestring geometry and fields with name, description, and color.
 #' @param file Output file with a .kml extension.
@@ -9,6 +11,8 @@
 #' @export
 
 sf_to_kml_linestring <- function(x, file, name_col, description_col, color_col, format = "timezero", return_lines = FALSE) {
+  
+  stopifnot("sf_to_gpx_track: x must contain only LINESTRING or MULTILINESTRING geometries" = all(st_geometry_type(x) == "LINESTRING"))
 
   var_cols <- c(name_col, description_col, color_col)
   missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
@@ -78,12 +82,12 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, color_col, 
             "</kml>")
   
   message("sf_to_kml_linestring: Writing ", length(lines), " lines to ", file)
-  kml_con <- file(file)
+  con <- file(file)
   
   writeLines(text = lines, 
-             con = kml_con)
+             con = con)
   
-  close(kml_con)
+  close(con)
   
   if(return_lines) {
     return(lines)

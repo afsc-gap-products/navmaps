@@ -1,6 +1,6 @@
-#' Write sf point data to a .gpx waypoint file
+#' Write sf point data to a gpx file
 #' 
-#' Used to convert data.frames into a gpx file that can be read into marine navigation software.
+#' Write sf POINT geometries to a gpx waypoint file.
 #' 
 #' @param x data.frame containing latitude, longitude, name, color, and shape columns.
 #' @param file Output file with a .gpx extension.
@@ -55,12 +55,12 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, color_col, s
   }
   
   message("sf_to_gpx: Writing ", length(lines), " lines to ", file)
-  gpx_con <- file(file)
+  con <- file(file)
   
   writeLines(text = lines, 
-             con = gpx_con)
+             con = con)
   
-  close(gpx_con)
+  close(con)
   
   return(lines)
 }
