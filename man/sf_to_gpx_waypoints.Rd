@@ -6,19 +6,19 @@
 \usage{
 sf_to_gpx_waypoints(
   x,
-  gpx_file,
+  file,
   name_col,
   description_col,
   color_col,
   shape_col,
-  gpx_format = "timezero",
+  format = "timezero",
   return_lines = FALSE
 )
 }
 \arguments{
 \item{x}{data.frame containing latitude, longitude, name, color, and shape columns.}
 
-\item{gpx_file}{Output file with a .gpx extension.}
+\item{file}{Output file with a .gpx extension.}
 
 \item{name_col}{Name of the column containing names.}
 
@@ -28,7 +28,7 @@ sf_to_gpx_waypoints(
 
 \item{shape_col}{Name of the column containing integer shapes.}
 
-\item{gpx_format}{Character vector indicating which marine navigation software output should be formatted for.}
+\item{format}{Character vector indicating which marine navigation software output should be formatted for.}
 
 \item{return_lines}{Should lines written to gpx file also be returned by the function. Used for debugging.}
 }

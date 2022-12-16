@@ -6,18 +6,19 @@
 \usage{
 sf_to_kml_polygon(
   x,
-  kml_file,
+  file,
   name_col,
   description_col,
   color_col,
   fill_col,
+  format = "timezero",
   return_lines = FALSE
 )
 }
 \arguments{
 \item{x}{sf object that contains a linestring geometry and fields with name, description, and color.}
 
-\item{kml_file}{Output file with a .kml extension.}
+\item{file}{Output file with a .kml extension.}
 
 \item{name_col}{Name of the column containing names.}
 

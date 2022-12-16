@@ -2624,6 +2624,28 @@
         -170.119994854845,56.490001396009
         -167.990005104605,57.7099989596957
         -167.880004975979,56.6699980690436
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>32</name>
+      <description>EBS_SHELF</description>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
         -169.510962438304,56.5653378167382
         -169.510137635427,56.5665813666082
         -169.509978355779,56.5683092208497
@@ -3231,6 +3253,28 @@
         -171.199997103243,58.1600000368317
         -168.029998715728,58.1599997906251
         -167.990005104605,57.7099989596957
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>42</name>
+      <description>EBS_SHELF</description>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
         -170.362775895572,57.2117926691641
         -170.363900984402,57.2100035778964
         -170.364551595461,57.2079317910919
@@ -5135,6 +5179,28 @@
         -174.562377930256,60.833332061864
         -174.654296874798,61.1666679386463
         -173.264434814551,61.1666679378065
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>41</name>
+      <description>EBS_SHELF</description>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
         -173.084346673859,60.6937199651969
         -173.086279324012,60.6924458330393
         -173.087474062399,60.6909806917074

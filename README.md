@@ -1,10 +1,10 @@
-# tzmaps
+# navmaps
 Convert spatial data to KML and GPX formats
 
 
 ## Convert sf POINTS to gpx waypoints
 ```
-library(tzmaps)
+library(navmaps)
 
 map_layers <- akgfmaps::get_base_layers(region = "sebs")
 
@@ -12,8 +12,6 @@ grid_centers <- sf::st_centroid(map_layers$survey.grid)
 
 grid_centers[c('longitude', 'latitude')] = sf::st_coordinates(grid_centers)
 
-grid_centers <- as.data.frame(grid_centers) |>
-  dplyr::select(-geometry)
 grid_centers$shape = 3
 grid_centers$color = 1
 

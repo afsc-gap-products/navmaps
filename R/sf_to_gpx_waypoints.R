@@ -3,16 +3,16 @@
 #' Used to convert data.frames into a gpx file that can be read into marine navigation software.
 #' 
 #' @param x data.frame containing latitude, longitude, name, color, and shape columns.
-#' @param gpx_file Output file with a .gpx extension.
+#' @param file Output file with a .gpx extension.
 #' @param name_col Name of the column containing names.
 #' @param description_col Description column.
 #' @param color_col Name of the column containing integer colors.
 #' @param shape_col Name of the column containing integer shapes.
-#' @param gpx_format Character vector indicating which marine navigation software output should be formatted for.
+#' @param format Character vector indicating which marine navigation software output should be formatted for.
 #' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
 #' @export
 
-sf_to_gpx_waypoints <- function(x, gpx_file, name_col, description_col, color_col, shape_col, gpx_format = "timezero", return_lines = FALSE) {
+sf_to_gpx_waypoints <- function(x, file, name_col, description_col, color_col, shape_col, format = "timezero", return_lines = FALSE) {
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x[c('longitude', 'latitude')] <- sf::st_coordinates(x)
@@ -26,10 +26,10 @@ sf_to_gpx_waypoints <- function(x, gpx_file, name_col, description_col, color_co
     stop("sf_to_gpx: The following variable columns were not found in x: ", missing_cols)
   }
 
-  stopifnot("sf_to_gpx: gpx_format must be timezero" = !(gpx_format %in% c("timzero")))
-  stopifnot("sf_to_gpx: gpx_file extension must be .gpx"  = grepl(pattern = ".gpx", x = gpx_file))
+  stopifnot("sf_to_gpx: format must be timezero" = !(format %in% c("timzero")))
+  stopifnot("sf_to_gpx: file extension must be .gpx"  = grepl(pattern = ".gpx", x = file))
   
-  if(gpx_format == "timezero") {
+  if(format == "timezero") {
     lines <- c("<?xml version=\"1.0\"?>",
                "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\">")
     
@@ -54,8 +54,8 @@ sf_to_gpx_waypoints <- function(x, gpx_file, name_col, description_col, color_co
     
   }
   
-  message("sf_to_gpx: Writing ", length(lines), " lines to ", gpx_file)
-  gpx_con <- file(gpx_file)
+  message("sf_to_gpx: Writing ", length(lines), " lines to ", file)
+  gpx_con <- file(file)
   
   writeLines(text = lines, 
              con = gpx_con)

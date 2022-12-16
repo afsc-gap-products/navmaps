@@ -1,4 +1,4 @@
-Package: tzmaps
+Package: navmaps
 Type: Package
 Title: Survey navigation maps
 Version: 0.0.1
@@ -12,7 +12,7 @@ Description: Make layers for TimeZero
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Suggests: 
     RODBC,
     getPass
