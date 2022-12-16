@@ -30,6 +30,8 @@ sf_to_gpx_waypoints(x = grid_centers,
 
 ## Convert sf LINESTRINGS to .kml linestring
 ```
+library(tzmaps)
+
 map_layers <- akgfmaps::get_base_layers(select.region = "sebs")
 
 bathy_layer <- map_layers$bathymetry
@@ -48,6 +50,8 @@ sf_to_kml_linestring(x = bathy_layer,
 
 ## Convert sf POLYGON/MULTIPOLYGON to .kml linestring
 ```
+library(tzmaps)
+
 map_layers <- akgfmaps::get_base_layers(region = "sebs")
 
 strata <- map_layers$survey.strata
