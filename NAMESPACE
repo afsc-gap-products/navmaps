@@ -2,6 +2,7 @@
 
 export(make_tz_layers)
 export(replace_kml_lines)
-export(sf_to_gpx)
+export(sf_to_gpx_waypoints)
 export(sf_to_kml_linestring)
+export(sf_to_kml_polygon)
 export(tz_pal)

@@ -12,7 +12,7 @@
 #' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
 #' @export
 
-sf_to_gpx <- function(x, gpx_file, name_col, description_col, color_col, shape_col, gpx_format = "timezero", return_lines = FALSE) {
+sf_to_gpx_waypoints <- function(x, gpx_file, name_col, description_col, color_col, shape_col, gpx_format = "timezero", return_lines = FALSE) {
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x[c('longitude', 'latitude')] <- sf::st_coordinates(x)

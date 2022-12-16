@@ -4,8 +4,7 @@
 #' @param kml_file Output file with a .kml extension.
 #' @param name_col Name of the column containing names.
 #' @param description_col Description column.
-#' @param color_col Name of the column containing integer colors.
-#' @param shape_col Name of the column containing integer shapes.
+#' @param color_col Name of the column containing eight-digit hex color.
 #' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
 #' @export
 
@@ -18,7 +17,7 @@ sf_to_kml_linestring <- function(x, kml_file, name_col, description_col, color_c
     stop("sf_to_kml_linestring: The following variable columns were not found in x: ", missing_cols)
   }
   
-  stopifnot("sf_to_kml_linestring: gpx_file extension must be .kml"  = grepl(pattern = ".kml", x = kml_file))
+  stopifnot("sf_to_kml_linestring: kml_file extension must be .kml"  = grepl(pattern = ".kml", x = kml_file))
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x_df <- as.data.frame(x)
@@ -61,7 +60,7 @@ sf_to_kml_linestring <- function(x, kml_file, name_col, description_col, color_c
              "  </Document>",
             "</kml>")
   
-  message("sf_to_gpx: Writing ", length(lines), " lines to ", kml_file)
+  message("sf_to_kml_linestring: Writing ", length(lines), " lines to ", kml_file)
   kml_con <- file(kml_file)
   
   writeLines(text = lines, 
