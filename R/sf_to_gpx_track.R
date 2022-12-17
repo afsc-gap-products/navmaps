@@ -15,7 +15,7 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, return_lines = 
   
   .check_valid_geometry(x, valid = c("LINESTRING", "POLYGON", "MULTIPOLYGON", "MULTILINESTRING"))
   
-  stopifnot("sf_to_gpx_track: file extension must be .kml"  = grepl(pattern = ".gpx", x = file))
+  .check_output_path(file = file, ext = ".gpx")
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x_df <- as.data.frame(x)

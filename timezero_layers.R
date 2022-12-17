@@ -1,20 +1,3 @@
-map_layers <- akgfmaps::get_base_layers(select.region = "sebs")
-
-bathy_layer <- map_layers$bathymetry
-bathy_layer$color <- sample(x = 1:11, 
-                            size = nrow(bathy_layer ), 
-                            replace = TRUE)
-
-sf_to_gpx_track(
-  x = bathy_layer,
-  name_col = "METERS",
-  description_col = "LAST_UPDAT",
-  color_col = "color",
-  file = "test_lines.gpx")
-
-sf::st_write(bathy_layer, "test.shp")
-
-
 # Making layers for TimeZero
 
 # Setup
@@ -32,7 +15,8 @@ sf_to_kml_polygon(x = strata,
                   description_col = "SURVEY",
                   color_col = "color",
                   fill_col = "fill",
-                  file = here::here("output", region, paste0(region, "_survey_strata.kml")))
+                  file = here::here("output", region, paste0(region, "_survey_strata.kml")), 
+                  software_format = "timezero")
 
 
 # Station marks as a .gpx waypoint file (EBS/NBS only) 
@@ -46,7 +30,7 @@ sf_to_gpx_waypoints(x = grid_centers,
                     description_col = "STATIONID",
                     color_col = "color", 
                     shape_col = "shape", 
-                    format = "timezero")
+                    software_format = "timezero")
 
 # Station grid without trawlable/untrawlable as a .kml linestring (EBS/NBS only) 
 survey_grid <- map_layers$survey.grid
@@ -54,10 +38,11 @@ survey_grid$color <- 5
 survey_grid$fill <- 0
 
 sf_to_kml_linestring(x = survey_grid,
-                  file = here::here("output", region, paste0(region, "_station_grid.kml")),
-                  name_col = "STATIONID",
-                  description_col = "STATIONID",
-                  color_col = "color")
+                     file = here::here("output", region, paste0(region, "_station_grid.kml")),
+                     name_col = "STATIONID",
+                     description_col = "STATIONID",
+                     color_col = "color", 
+                     software_format = "timezero")
 
 
 # Station grid with trawlable/untrawlable as .kml and .shp polygons (AI/GOA only)

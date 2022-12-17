@@ -119,3 +119,34 @@ get_connected <- function(channel = NULL, schema = NA){
                 ". All geometries must be one of ", paste(valid, collapse = ", ")))
   }
 }
+
+#' Check that filepath is valid and output directory exists
+#' 
+#' Internal function
+#' 
+#' @param file Path to directory
+#' @param ext Character vector of valid file extensions (e.g. c(".kml", ".gpx")).
+#' @export
+#' @keywords internal
+
+.check_output_path <- function(file, ext) {
+  
+  ext_check <- c()
+  for(hh in 1:length(ext)) {
+    ext_check <- c(ext_check, grepl(pattern = ext[hh], x = file, ignore.case = TRUE))
+  }
+  
+  if(!any(ext_check)) {
+    
+    if(length(ext) == 1) {
+      stop("File extension must be ", ext)
+    } else {
+      stop("File extension must be one of ", paste(ext, collapse = ", "))
+    }
+
+  }
+  
+  if(!dir.exists(dirname(file))) {
+    dir.create(dirname(file), recursive = TRUE)
+  }
+}
