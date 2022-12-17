@@ -6,7 +6,7 @@
 
 tz_pal <- function(n, full_code = TRUE) {
   
-  stopifnot("Number of colors (n) must be less than 12." = n < 12)
+  stopifnot("Number of colors (n) must be less than 13." = n < 13)
   if(full_code) {
     out <- c(
       "ffe6d8ad",
@@ -16,6 +16,7 @@ tz_pal <- function(n, full_code = TRUE) {
       "ffd30094",
       "ff90ee90",
       "ff008000",
+      "00008000",
       "ff00a5ff",
       "ff0000ff",
       "ff5d5d7f",
@@ -28,6 +29,7 @@ tz_pal <- function(n, full_code = TRUE) {
       "#ff0000",
       "#d30094",
       "#90ee90",
+      "#008000",
       "#008000",
       "#00a5ff",
       "#0000ff",

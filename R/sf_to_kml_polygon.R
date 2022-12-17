@@ -27,8 +27,8 @@ sf_to_kml_polygon <- function(x, file, name_col, description_col, color_col, fil
   x_df <- as.data.frame(x)
   
   if(format == "timezero") {
-    sel_color <- c(0, tz_pal(11))[x[[color_col]]+1]
-    sel_fill <- c(0, tz_pal(11))[x[[fill_col]]+1]
+    sel_color <- c(0, tz_pal(12))[x[[color_col]]+1]
+    sel_fill <- c(0, tz_pal(12))[x[[fill_col]]+1]
   }
 
   
@@ -38,6 +38,8 @@ sf_to_kml_polygon <- function(x, file, name_col, description_col, color_col, fil
              "  <Document>")
   
   for(ii in 1:nrow(x)) { 
+    
+    print(ii)
     
     coords_df <- as.data.frame(sf::st_coordinates(x$geometry[ii]))
     
