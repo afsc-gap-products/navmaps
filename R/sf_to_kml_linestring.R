@@ -12,14 +12,9 @@
 
 sf_to_kml_linestring <- function(x, file, name_col, description_col, color_col, format = "timezero", return_lines = FALSE) {
   
-  stopifnot("sf_to_gpx_track: x must contain only LINESTRING or MULTILINESTRING geometries" = all(st_geometry_type(x) == "LINESTRING"))
-
-  var_cols <- c(name_col, description_col, color_col)
-  missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
+  .check_cols_exist(x = x, var_cols = c(name_col, description_col, color_col))
   
-  if(length(missing_cols) >=1) {
-    stop("sf_to_kml_linestring: The following variable columns were not found in x: ", missing_cols)
-  }
+  .check_valid_geometry(x = x, valid = c("LINESTRING"))
   
   stopifnot("sf_to_kml_linestring: file extension must be .kml"  = grepl(pattern = ".kml", x = file))
   
@@ -57,15 +52,8 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, color_col, 
                paste0("      <name>", x_df[name_col][ii,], "</name>"),
                paste0("      <description>", x_df[description_col][ii,], "</description>"),
                "      <LineString>",
-               "        <coordinates>")
-    
-    for(kk in 1:length(coords_vec)) {
-      lines <- c(lines,
-                 paste0("        ", coords_vec[kk])
-      )
-    }
-    
-    lines <- c(lines, 
+               "        <coordinates>",
+               paste(coords_vec, collapse = " \n        "),
                "        </coordinates>",
                "      </LineString>",
                "      <Style>",

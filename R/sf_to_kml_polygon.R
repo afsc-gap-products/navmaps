@@ -14,12 +14,9 @@
 
 sf_to_kml_polygon <- function(x, file, name_col, description_col, color_col, fill_col, format = "timezero", return_lines = FALSE) {
   
-  var_cols <- c(name_col, description_col, color_col, fill_col)
-  missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
+  .check_cols_exist(x = x, var_cols = c(name_col, description_col, color_col, fill_col))
   
-  if(length(missing_cols) >=1) {
-    stop("sf_to_kml_polygon: The following variable columns were not found in x: ", missing_cols)
-  }
+  .check_valid_geometry(x = x, valid = c("POLYGON", "MULTIPOLYGON"))
   
   stopifnot("sf_to_kml_polygon: file extension must be .kml"  = grepl(pattern = ".kml", x = file))
   
@@ -31,15 +28,11 @@ sf_to_kml_polygon <- function(x, file, name_col, description_col, color_col, fil
     sel_fill <- c(0, tz_pal(12))[x[[fill_col]]+1]
   }
 
-  
-  
   lines <- c("<?xml version=\"1.0\" encoding=\"utf-8\"?>",
              "<kml xmlns:gx=\"http://www.google.com/kml/ext/2.2\" xmlns=\"http://www.opengis.net/kml/2.2\">",
              "  <Document>")
   
   for(ii in 1:nrow(x)) { 
-    
-    print(ii)
     
     coords_df <- as.data.frame(sf::st_coordinates(x$geometry[ii]))
     
@@ -74,15 +67,8 @@ sf_to_kml_polygon <- function(x, file, name_col, description_col, color_col, fil
                  "        <Polygon>",
                  "          <outerBoundaryIs>",
                  "            <LinearRing>",
-                 "              <coordinates>")
-      
-      for(kk in 1:length(coords_vec)) {
-        lines <- c(lines,
-                   paste0("        ", coords_vec[kk])
-        )
-      }
-      
-      lines <- c(lines, 
+                 "              <coordinates>",
+                 paste(coords_vec, collapse = " \n        "),
                  "              </coordinates>",
                  "            </LinearRing>",
                  "          </outerBoundaryIs>",

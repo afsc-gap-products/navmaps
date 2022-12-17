@@ -38,3 +38,9 @@ Meta
 *.png
 *.lock
 *.tzx
+/output/**/*.shp
+/output/**/*.gpx
+/output/**/*.kml
+/output/**/*.prj
+/output/**/*.shx
+/output/**/*.dbf

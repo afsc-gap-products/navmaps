@@ -14,17 +14,15 @@
 
 sf_to_gpx_waypoints <- function(x, file, name_col, description_col, color_col, shape_col, format = "timezero", return_lines = FALSE) {
   
+  .check_cols_exist(x = x, var_cols = c(name_col, description_col, color_col, shape_col))
+  
+  .check_valid_geometry(x = x, valid = c("POINT"))
+  
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x[c('longitude', 'latitude')] <- sf::st_coordinates(x)
   x <- as.data.frame(x) |>
     dplyr::select(-geometry)
   
-  var_cols <- c(name_col, description_col, color_col, shape_col)
-  missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
-  
-  if(length(missing_cols) >=1) {
-    stop("sf_to_gpx: The following variable columns were not found in x: ", missing_cols)
-  }
 
   stopifnot("sf_to_gpx: format must be timezero" = !(format %in% c("timzero")))
   stopifnot("sf_to_gpx: file extension must be .gpx"  = grepl(pattern = ".gpx", x = file))
@@ -47,7 +45,6 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, color_col, s
                  paste0("    </extensions>"),
                  paste0("  </wpt>")
       )
-      
     }
     
     lines <- c(lines, "</gpx>")
@@ -62,5 +59,9 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, color_col, s
   
   close(con)
   
-  return(lines)
+  if(return_lines) {
+    
+    return(lines)
+    
+  }
 }

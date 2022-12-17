@@ -10,15 +10,10 @@
 #' @export
 
 sf_to_gpx_track  <- function(x, file, name_col, description_col, return_lines = FALSE) {
-
-  stopifnot("sf_to_gpx_track: x must contain only LINESTRING, POLYGON, MULTIPOLYGON, or MULTILINESTRING geometries" = all(st_geometry_type(x) %in% c("LINESTRING", "POLYGON", "MULTIPOLYGON", "MULTILINESTRING")))
   
-  var_cols <- c(name_col, description_col)
-  missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
+  .check_cols_exist(x = x, var_cols = c(name_col, description_col))
   
-  if(length(missing_cols) >=1) {
-    stop("sf_to_gpx_track: The following variable columns were not found in x: ", missing_cols)
-  }
+  .check_valid_geometry(x, valid = c("LINESTRING", "POLYGON", "MULTIPOLYGON", "MULTILINESTRING"))
   
   stopifnot("sf_to_gpx_track: file extension must be .kml"  = grepl(pattern = ".gpx", x = file))
   
@@ -48,15 +43,8 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, return_lines = 
                      "<trk>",
                      paste0("  <name>", x_df[name_col][ii,], "</name>"),
                      paste0("  <desc>", x_df[description_col][ii,], "</desc>"),
-                     "  <trkseg>")
-          
-          for(kk in 1:nrow(coords_sel)) {
-            lines <- c(lines,
-                       paste0("<trkpt lat=\"", coords_sel[['Y']][kk], "\" lon=\"", coords_sel[['X']][kk],"\"></trkpt>")
-            )
-          }
-          
-          lines <- c(lines, 
+                     "  <trkseg>",
+                     paste(paste0("<trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"), 
                      "</trkseg>",
                      "</trk>")
         }
@@ -81,15 +69,8 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, return_lines = 
                      "<trk>",
                      paste0("  <name>", x_df[name_col][ii,], "</name>"),
                      paste0("  <desc>", x_df[description_col][ii,], "</desc>"),
-                     "  <trkseg>")
-          
-          for(kk in 1:nrow(coords_sel)) {
-            lines <- c(lines,
-                       paste0("<trkpt lat=\"", coords_sel[['Y']][kk], "\" lon=\"", coords_sel[['X']][kk],"\"></trkpt>")
-            )
-          }
-          
-          lines <- c(lines, 
+                     "  <trkseg>",
+                      paste(paste0("<trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"), 
                      "</trkseg>",
                      "</trk>")
         }

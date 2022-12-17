@@ -64,3 +64,58 @@ get_connected <- function(channel = NULL, schema = NA){
   }
   return(channel)
 }
+
+
+#' Check that columns exist in a data.frame/sf
+#' 
+#' Internal function
+#' 
+#' @param x data.frame or sf object
+#' @param var_cols Variable columns that must be included in the data.frame
+#' @param func_name Parent function name
+#' @export
+#' @keywords internal
+
+.check_cols_exist <- function(x, var_cols, func_name = NULL) {
+  missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
+  
+  if(length(missing_cols) >=1) {
+    stop(paste0(func_name, 
+                ": The following variable columns were not found in the input: ", 
+                paste(missing_cols, collapse = ", ")))
+  }
+}
+
+#' Check that region is valid
+#' 
+#' Internal function
+#' 
+#' @param x character vector
+#' @export
+#' @keywords internal
+
+.check_region <- function(x) {
+  if(!(x %in% c("sebs", "nbs", "ai", "goa"))) {
+    stop("Invalid region! Must be 'sebs', 'nbs', 'ai', or 'goa'")
+  }
+}
+
+#' Check that sf geometry is valid
+#' 
+#' Internal function
+#'
+#' @param x sf object
+#' @param valid character vector of valid geometries
+#' @export
+#' @keywords internal
+
+.check_valid_geometry <- function(x, valid) {
+  if(!all(sf::st_geometry_type(x) %in% valid)) {
+    unique_geometry <- unique(sf::st_geometry_type(x))
+    invalid_geometry <- unique_geometry[which(!(unique_geometry %in% valid))]
+    
+    stop(paste0("Invalid geometry type(s) found in x: ", 
+                paste(invalid_geometry, collapse = ", "), 
+                ". All geometries must be one of ", paste(valid, collapse = ", ")))
+  }
+}

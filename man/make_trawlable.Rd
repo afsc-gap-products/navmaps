@@ -4,7 +4,7 @@
 \alias{make_trawlable}
 \title{Make trawlable/untrawlable shapefile and KML}
 \usage{
-make_trawlable(region, channel = NULL, kml_format = "timezero")
+make_trawlable(region, channel = NULL, software_format = "timezero")
 }
 \arguments{
 \item{region}{Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"}
