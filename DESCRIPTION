@@ -1,13 +1,13 @@
 Package: navmaps
 Type: Package
-Title: Survey navigation maps
+Title: Survey navigation and planning maps
 Version: 0.0.1
 Authors@R: c(person("Sean", "Rohan", email = "sean.rohan@noaa.gov", role = c("aut", "cre")))
 Maintainer: Sean Rohan <sean.rohan@noaa.gov>
 Depends: R (>= 4.0.0),
     akgfmaps,
-    dplyr
-Imports: here, ggthemes
+    dplyr,
+    here
 Description: Make layers for marine navigation software
 License: GPL (>=2)
 Encoding: UTF-8
