@@ -4,7 +4,7 @@
 \alias{.check_output_path}
 \title{Check that filepath is valid and output directory exists}
 \usage{
-.check_output_path(file, ext)
+.check_output_path(file, ext = NULL)
 }
 \arguments{
 \item{file}{Path to directory}

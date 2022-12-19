@@ -39,8 +39,10 @@ Meta
 *.lock
 *.tzx
 /output/**/*.shp
+/output/*.kml
 /output/**/*.gpx
 /output/**/*.kml
 /output/**/*.prj
 /output/**/*.shx
 /output/**/*.dbf
+/output/**/*.rds

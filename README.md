@@ -108,4 +108,5 @@ sf_to_gpx_track(
 library(navmaps)
 
 show_col_nav(colors = "timezero")
+show_col_nav(colors = "globe")
 ```
