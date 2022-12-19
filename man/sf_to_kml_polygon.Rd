@@ -11,7 +11,7 @@ sf_to_kml_polygon(
   description_col,
   color_col,
   fill_col,
-  format = "timezero",
+  software_format = "timezero",
   return_lines = FALSE
 )
 }
@@ -27,6 +27,8 @@ sf_to_kml_polygon(
 \item{color_col}{Name of the column containing eight-digit hex color.}
 
 \item{fill_col}{Name of the column containing eight-digit hex color.}
+
+\item{software_format}{Character vector indicating which marine navigation software output should be formatted for.}
 
 \item{return_lines}{Should lines written to gpx file also be returned by the function. Used for debugging.}
 

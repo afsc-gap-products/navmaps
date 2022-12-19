@@ -101,3 +101,11 @@ sf_to_gpx_track(
   description_col = "SURVEY",
   file = here::here("output", "test_polygon.gpx"))
 ```
+
+
+## Visualize color palettes for marine navigation software
+```
+library(navmaps)
+
+show_col_nav(colors = "timezero")
+```

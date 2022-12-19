@@ -4,12 +4,12 @@
 \alias{tz_pal}
 \title{TimeZero default color palette}
 \usage{
-tz_pal(n, full_code = TRUE)
+tz_pal(n, software_code = TRUE)
 }
 \arguments{
 \item{n}{Number of colors to return}
 
-\item{full_code}{Should the full eight digit hex code (e.g., "#ffffff00") be returned? If not, returns the six digit hex equivalent (without transparency; e.g. "#ffff00").}
+\item{software_code}{Should the full eight digit hex code (e.g., "#ffffff00") be returned? If not, returns the six digit hex equivalent (without transparency; e.g. "#ffff00").}
 }
 \description{
 TimeZero default color palette

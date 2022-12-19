@@ -80,7 +80,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
                      description_col = "description",
                      color_col = "color",
                      fill_col = "fill",
-                     format = software_format,
+                     software_format = software_format,
                      file = kml_path)
 }
 
@@ -159,7 +159,7 @@ make_station_allocation <- function(allocation_df, region, survey_year = NULL, l
                         description_col = "description",
                         color_col = "color",
                         shape_col = "shape",
-                        format = software_format)
+                        software_format = software_format)
   }
   
 }
