@@ -11,33 +11,39 @@ get_gps_data <- function(region, channel = NULL) {
   channel <- get_connected(channel = channel)
   
   if(region == "ai") {
-    survey_definition_id <- 52
-    gear_codes <- c(160, 172)
+    survey_definition_id <- 52 # AI bottom-trawl survey
+    gear_codes <- c(160, 172) # Poly'noreastern
   }
   
   if(region == "goa") {
-    survey_definition_id <- 47
-    gear_codes <- c(160, 172)
+    survey_definition_id <- 47 # GOA bottom-trawl survey
+    gear_codes <- c(160, 172) # Poly'noreastern
   }
   
   if(region == "sebs") {
-    survey_definition_id <- 98
-    gear_codes <- 44
+    survey_definition_id <- 98 # EBS shelf bottom-trawl survey
+    gear_codes <- 44 # 83-112
   }
   
   if(region == "nbs") {
-    survey_definition_id <- 143
-    gear_codes <- 44
+    survey_definition_id <- 143 # NBS bottom-trawl survey
+    gear_codes <- 44 # 83-112
+  }
+  
+  if(region == "slope") {
+    survey_definition_id <- 78 # EBS slope bottom-trawl survey
+    gear_codes <- c(160, 172) # Poly'noreastern
   }
 
   
-  message("Querying haul start/end time and position")
-  path_hs <- here::here("output", region, "haul_start_end.rds")
-  
-  .check_output_path(file = path_hs)
-  
   # Haul start/end ----
   # Get haul start/end time and position and write to an rds file
+  
+  path_hs <- here::here("output", region, paste0(region, "_haul_start_end.rds"))
+  .check_output_path(file = path_hs)
+  
+  message("Querying haul start/end time and position")
+  
   dplyr::bind_rows(
     RODBC::sqlQuery(channel = channel, 
                     query = 
@@ -79,9 +85,8 @@ get_gps_data <- function(region, channel = NULL) {
     ) |>
       dplyr::mutate(EVENT = "end")
   ) |>
-    saveRDS(file = here::here("output", region, "haul_start_end.rds"))
-  message("Haul start/end saved to ", here::here("output", region, "haul_start_end.rds"))
-  
+    saveRDS(file = path_hs)
+  message("Haul start/end saved to ", path_hs)
   
   
   # Retrieve GPS data ----
@@ -106,7 +111,7 @@ get_gps_data <- function(region, channel = NULL) {
     
     temp_gps <- RODBC::sqlQuery(channel = channel,
                                 query = paste0(
-                                  "select c.vessel_id, c.cruise, h.haul, p.edit_date_time date_time, p.latitude, 
+                                  "select c.vessel_id vessel, c.cruise, h.haul, p.edit_date_time date_time, p.latitude, 
                   p.longitude 
                 from race_data.cruises c, 
                   race_data.hauls h, race_data.position_headers ph, race_data.positions p, 
@@ -124,7 +129,7 @@ get_gps_data <- function(region, channel = NULL) {
     if(nrow(temp_gps) == 0) {
       temp_gps <- RODBC::sqlQuery(channel = channel,
                                   query = paste0(
-                                    "select c.vessel_id, c.cruise, h.haul, p.edit_date_time date_time, 
+                                    "select c.vessel_id vessel, c.cruise, h.haul, p.edit_date_time date_time, 
                                     p.edit_latitude latitude, p.edit_longitude longitude 
                                   from race_data.cruises c, race_data.hauls h, 
                                     race_data.edit_position_headers ph, race_data.edit_positions p, 
@@ -150,7 +155,7 @@ get_gps_data <- function(region, channel = NULL) {
     
     if(nrow(temp_gps) > 0) {
       
-      temp_gps_path <- here::here("output", region, "gps", paste0("gps_", unique_vessel_cruise$CRUISE[ii], "_", unique_vessel_cruise$VESSEL[ii], ".rds"))
+      temp_gps_path <- here::here("output", region, "gps", paste0("raw_gps_", unique_vessel_cruise$CRUISE[ii], "_", unique_vessel_cruise$VESSEL[ii], ".rds"))
       
       .check_output_path(file = temp_gps_path)
       

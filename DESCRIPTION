@@ -8,7 +8,9 @@ Depends: R (>= 4.0.0),
     akgfmaps,
     dplyr,
     here,
-    sf
+    sf,
+    tidyr,
+    purrr
 Description: Make layers for marine navigation software
 License: GPL (>=2)
 Encoding: UTF-8
