@@ -10,7 +10,8 @@ Depends: R (>= 4.0.0),
     here,
     sf,
     tidyr,
-    purrr
+    purrr,
+    tibble
 Description: Make layers for marine navigation software
 License: GPL (>=2)
 Encoding: UTF-8

@@ -10,6 +10,8 @@ make_trawlable(region, channel = NULL, software_format = "timezero")
 \item{region}{Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"}
 
 \item{channel}{RODBC connection. Function will prompt for a connection if the user is not connected}
+
+\item{software_format}{Software to format output for.}
 }
 \description{
 Make trawlable/untrawlable shapefile and KML

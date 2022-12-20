@@ -46,3 +46,4 @@ Meta
 /output/**/*.shx
 /output/**/*.dbf
 /output/**/*.rds
+/plots/

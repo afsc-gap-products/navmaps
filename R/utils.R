@@ -36,6 +36,7 @@ tz_pal <- function(n, software_code = TRUE) {
 }
 
 
+
 #' Globe color palette
 #' 
 #' @param n Number of colors to return
@@ -68,6 +69,7 @@ globe_pal <- function(n, software_code = TRUE) {
 }
 
 
+
 #' Create a database connection using RODBC
 #'
 #' A function that accepts a data source name, username, and password to establish returns an Oracle DataBase Connection (ODBC) as an RODBC class in R.
@@ -93,6 +95,7 @@ get_connected <- function(channel = NULL, schema = NA){
 }
 
 
+
 #' Check that columns exist in a data.frame/sf
 #' 
 #' Internal function
@@ -113,6 +116,8 @@ get_connected <- function(channel = NULL, schema = NA){
   }
 }
 
+
+
 #' Check that region is valid
 #' 
 #' Internal function
@@ -126,6 +131,8 @@ get_connected <- function(channel = NULL, schema = NA){
     stop("Invalid region! Must be 'sebs', 'nbs', 'ai', or 'goa'")
   }
 }
+
+
 
 #' Check that sf geometry is valid
 #' 
@@ -180,6 +187,8 @@ get_connected <- function(channel = NULL, schema = NA){
   }
 }
 
+
+
 #' Show marine navigation software palette colors
 #' 
 #' Show colors in a plot; function code and documentation based on show_col() function from the scales package
@@ -232,6 +241,7 @@ dd_to_radians <- function(x) {
 }
 
 
+
 #' Convert decimal degrees to radians
 #' 
 #' @param x Numeric vector.
@@ -241,6 +251,8 @@ radians_to_dd <- function(x) {
   x*180/pi
 }
 
+
+
 #' Convert dmm format to decimal degrees
 #'
 #' Convert degree decimal minute coordinates to decimal degrees (e.g. 16530.5 to 165.5083)
@@ -249,6 +261,8 @@ dmm_to_dd <- function(x) {
   abs_x <- abs(x)
   sign(x) * (abs(abs_x) %/% 100 + (abs_x %% 100)/60)
 }
+
+
 
 #' Convert decimal to hex color
 #' 
@@ -284,6 +298,7 @@ d10_to_hex_color <- function(x) {
                            MARGIN = 1,
                            FUN = paste, collapse = "")))
 }
+
 
 
 #' Longitude to UTM zone

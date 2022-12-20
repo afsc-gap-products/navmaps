@@ -127,6 +127,7 @@ get_gps_data <- function(region, channel = NULL) {
     )
     
     if(nrow(temp_gps) == 0) {
+      
       temp_gps <- RODBC::sqlQuery(channel = channel,
                                   query = paste0(
                                     "select c.vessel_id vessel, c.cruise, h.haul, p.edit_date_time date_time, 
@@ -143,14 +144,26 @@ get_gps_data <- function(region, channel = NULL) {
                                     " and c.vessel_id = ", unique_vessel_cruise$VESSEL[ii],
                                     " and h.gear in (", paste(gear_codes, collapse = ", "), ")")
       )
+      
     }
     
     if(nrow(temp_gps) == 0) {
-      ### Approach 3
       
-      # "select vessel, cruise, haul, date_time, latitude, longitude
-      #                    from race_edit.rb2_gps where vessel = ", cruise$vessel, "and cruise =", cruise$cruise,
-      # " and datum_code = 1 order by date_time", sep = "")
+      temp_gps <- RODBC::sqlQuery(channel = channel,
+                                  query = paste0(
+                                    "select rbg.vessel, rbg.cruise, rbg.haul, rbg.date_time, 
+                                      rbg.latitude, rbg.longitude
+                                    from race_edit.rb2_gps rbg, racebase.haul r
+                                    where rbg.datum_code = 1
+                                      and r.haul = rbg.haul
+                                      and r.cruise = rbg.cruise
+                                      and r.vessel = rbg.vessel
+                                    and rbg.vessel = ", unique_vessel_cruise$VESSEL[ii],
+                                    " and rbg.cruise = ", unique_vessel_cruise$CRUISE[ii],
+                                    " and h.gear in (", paste(gear_codes, collapse = ", "), ")"
+                                  )
+      )
+      
     }
     
     if(nrow(temp_gps) > 0) {
@@ -160,10 +173,12 @@ get_gps_data <- function(region, channel = NULL) {
       .check_output_path(file = temp_gps_path)
       
       message("Writing GPS data to ", temp_gps_path)
+      
       saveRDS(object = temp_gps, file = temp_gps_path)
+      
     } else{
-      #!!!!!!! CONVERT THIS MESSAGE TO WARNING
-      message("No GPS data from cruise ", unique_vessel_cruise$CRUISE[ii], " vessel ",  unique_vessel_cruise$VESSEL[ii])
+      
+      warning("No GPS data from cruise ", unique_vessel_cruise$CRUISE[ii], " vessel ",  unique_vessel_cruise$VESSEL[ii])
     }
     
   }
