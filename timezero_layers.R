@@ -1,4 +1,4 @@
-# Making layers for TimeZero
+# Make layers for TimeZero
 
 # 1. Setup
 library(navmaps)
@@ -8,9 +8,8 @@ region <- "ai"
 map_layers <- akgfmaps::get_base_layers(select.region = region)
 channel <- get_connected(schema = "AFSC")
 
-# 2. Get data ...
-# Functions to retrieve data from RACEBASE
-
+# 2. Get data
+get_gps_data(region = region, channel = channel)
 
 # 3. Build layers
 # Strata as a .kml polygon file
@@ -63,9 +62,10 @@ make_trawlable(
   region = region, 
   channel = channel)
 
-allocation_csv_path <- here::here("data", "allocation", "AIallocation420.csv")
 
 # Station allocation as .gpx and .shp marks/points (AI/GOA only)
+allocation_csv_path <- here::here("data", "allocation", "AIallocation420.csv")
+
 make_station_allocation(
   allocation_df = read.csv(file = allocation_csv_path) |>
     tidyr::drop_na(Longitude, Latitude),
@@ -82,12 +82,10 @@ make_station_allocation(
 )
 
 
-# Historical tow start locations as .gpx and .shp marks/points
-
-
-
-# Historical tow paths as .kml linestring
-
+# Historical tow start and midpoint as .gpx and .shp marks/points and towpaths as .kml linestring
+make_towpaths(region = region, 
+              overwrite_midpoint = FALSE, 
+              software_format = "timezero")
 
 
 # SSL buffer zones as .kml polygon

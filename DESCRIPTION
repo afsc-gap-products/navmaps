@@ -11,7 +11,8 @@ Depends: R (>= 4.0.0),
     sf,
     tidyr,
     purrr,
-    tibble
+    tibble,
+    lubridate
 Description: Make layers for marine navigation software
 License: GPL (>=2)
 Encoding: UTF-8
