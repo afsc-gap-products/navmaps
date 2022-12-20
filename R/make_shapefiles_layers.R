@@ -173,11 +173,11 @@ make_station_allocation <- function(allocation_df, region, survey_year = NULL, l
 #' Make towpath, tow start, and midpoint from GPS rds files
 #' 
 #' @param region Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"
-#' @param overwrite Should files be overwritten?
+#' @param overwrite_midpoint Should files be overwritten?
 #' @param software_format Software format as a character vector.
 #' @export
 
-make_towpaths <- function(region, overwrite = FALSE, software_format = "timezero") {
+make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = "timezero") {
   
   .check_region(x = region)
   
@@ -200,7 +200,7 @@ make_towpaths <- function(region, overwrite = FALSE, software_format = "timezero
   
   for(ii in 1:length(raw_gps_paths)) {
     
-    if(overwrite & file.exists(midpoint_paths[ii])) {
+    if(overwrite_midpoint & file.exists(midpoint_paths[ii])) {
       message("make_towpaths: Skipping file that already exists: ", midpoint_paths[ii])
       next
     } else{
@@ -273,16 +273,61 @@ make_towpaths <- function(region, overwrite = FALSE, software_format = "timezero
   
   message("make_towpaths: Writing towpath shapefile to ", towpath_shp_path)
   
-  start_and_end |> 
+  towpath_sf <- start_and_end |> 
     sf::st_transform(crs = "EPSG:3338") |>
     dplyr::group_by(VESSEL, CRUISE, HAUL, PERFORMANCE, PERFORMANCE_DESCRIPTION) |> 
     dplyr::summarize(do_union = FALSE) |> 
-    sf::st_cast("LINESTRING") |>
+    sf::st_cast("LINESTRING")
+  
+  towpath_sf |>
     dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
     sf::st_write(dsn = towpath_shp_path, 
                  append = FALSE)
   
   ###### FORMAT FILES AND WRITE FOR EACH SOFTWARE
+  
+  if(software_format == "timezero") {
+    
+    # View timezero color palette
+    # show_col_nav(tz_pal(Inf, software_code = FALSE))
+    
+    sf_to_gpx_waypoints(x = start_and_end |>
+                          dplyr::filter(EVENT == "start") |>
+                          dplyr::mutate(name = paste0("Start ", CRUISE, "-", VESSEL),
+                                        desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
+                                        shape = factor(sign(PERFORMANCE)),
+                                        color = tz_pal(11)[c(10, 8, 4)][as.numeric(sign(PERFORMANCE)) + 1]),
+                        file = here::here("output", region, "navigation", paste0(region, "_towstart.gpx")),
+                        name_col = "name",
+                        description_col = "desc",
+                        color_col = "color",
+                        shape_col = "shape")
+    
+    
+    sf_to_gpx_waypoints(x = midpoint_sf |>
+                          dplyr::inner_join(as.data.frame(start_and_end) |>
+                                              dplyr::filter(EVENT == "start") |>
+                                              dplyr::select(-geometry, -HAULJOIN)) |>
+                          dplyr::mutate(name = paste0("MID ", CRUISE, "-", VESSEL),
+                                        desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
+                                        shape = factor(sign(PERFORMANCE)),
+                                        color = tz_pal(11)[c(10, 8, 4)][as.numeric(sign(PERFORMANCE)) + 1]),
+                        file = here::here("output", region, "navigation", paste0(region, "_towmid.gpx")),
+                        name_col = "name",
+                        description_col = "desc",
+                        color_col = "color",
+                        shape_col = "shape")
+    
+    
+    sf_to_kml_linestring(x = towpath_sf |>
+                           dplyr::mutate(name = paste0("Start ", CRUISE, "-", VESSEL),
+                                         desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
+                                         color = tz_pal(11)[c(10, 8, 4)][as.numeric(sign(PERFORMANCE)) + 1]),
+                         file = here::here("output", region, "navigation", paste0(region, "_towpath.kml")),
+                         name_col = "name",
+                         description_col = "desc",
+                         color_col = "color")
+  }
   
 }
 
