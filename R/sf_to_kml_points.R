@@ -60,7 +60,7 @@ sf_to_kml_points <- function(x, file, name_col, description_col, shape_col = NUL
                    "    <Placemark>",
                    paste0("      <name>", x_df[name_col][ii,], "</name>"),
                    paste0("      <description>", x_df[description_col][ii,], "</description>"),
-                   paste0("      <TimeStamp><when>", x_df[time_col][ii,], "</when></TimeStamp>"), # This doesn't work
+                   paste0("      <TimeStamp><when>", x_df[time_col][ii,], "</when></TimeStamp>"), # This doesn't work (?)
                    "      <Point>",
                    "        <coordinates>",
                    paste0(x_df['X'][ii,], ",", x_df['Y'][ii,]),

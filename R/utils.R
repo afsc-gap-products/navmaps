@@ -1,83 +1,71 @@
 #' TimeZero default color palette
 #' 
 #' @param n Number of colors to return
-#' @param values Color values as numeric or character of colors to choose.
-#' @param software_code Should the full eight digit hex code (e.g., "#ffffff00") be returned? If not, returns the six digit hex equivalent (without transparency; e.g. "#ffff00").
+#' @param values Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon"
+#' @param type Type of value to return (hex, gpx, or kml).
 #' @examples # View colors 
-#' show_nav_col(colors = tz_pal(n = Inf, software_code = FALSE))
+#' show_nav_col(colors = tz_pal(n = Inf, type = "hex"))
 #' 
 #' # Software color palette. Eight digit hex but the first two digits represent alpha channel.
-#' tz_pal(n = Inf, software_code = TRUE)
+#' tz_pal(n = Inf, type = "kml)
+#' 
+#' # TimeZero integer color palette
+#' tz_pal(n = Inf, type = "gpx)
 #' 
 #' # Return specific indexed color values
 #' tz_pal(values = c(1,3,7))
 #' 
+#' # Return color values by name.
+#' tz_pal(values = c("tan", "magenta", "darkgreen"))
 #' @export
 
-tz_pal <- function(n = NULL, values = NULL, software_code = TRUE) {
+tz_pal <- function(n = NULL, values = NULL, type = "kml") {
   
+  valid_colors <- c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon")
+
   stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
   
-  pal_vec <- c(
-    "#e6d8ad",
-    "#ffff00",
-    "#ff00ff",
-    "#ff0000",
-    "#d30094",
-    "#90ee90",
-    "#008000",
-    "#00ffff",
-    "#0000ff",
-    "#ff5a00",
-    "#5d5d7f",
-    "#000000", 
-    "#ffffff")
+  if(!(type %in% c("kml", "hex", "gpx"))) {
+    stop("Invalid type argument, ", type, "must be one of kml, hex, or gpx")
+  }
   
-  pal_code <- c(
-    "ffe6d8ad",
-    "ffffff00",
-    "ffff00ff",
-    "ffff0000",
-    "ffd30094",
-    "ff90ee90",
-    "ff008000",
-    "ffffff00",
-    "ff0000ff",
-    "ff00a5ff",
-    "ff5d5d7f",
-    "ff000000", 
-    "ffffffff")
+  pal_df <- data.frame(hex = c("#d2b48c", "#ffff00", "#ff00ff", "#ff0000", "#d30094", "#90ee90", 
+                               "#008000", "#00ffff", "#0000ff", "#ff5a00", "#a9a9a9", "#000000", 
+                               "#000080"),
+             kml = c("ff8cd4ff", "ff00ffff", "ffff00ff", "ffff0000", "ffd30094", "ff90ee90", 
+                     "ff008000", "ffffff00", "ffff0000", "ff00a5ff", "ffa9a9a9", "ff000000", 
+                     "ff000080"),
+             gpx = c(14, 9, 5, 1, 15, 8, 2, 4, 3, 11, 19, 6, 17))
   
   if(!is.null(values)) {
     
     if(class(values) == "character") {
+      
+      if(!all(values %in% valid_colors)) {
+        stop("tz_pal: Invalid colors passed to values argument: ", 
+             paste(values[!(values %in% valid_colors)], collapse = ", ") 
+             ,". Check function documentation for valid colors using help('tz_pal')")
+      }
+      
       values <- match(values,
-                      c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "grey", "black", "white"))
+                      valid_colors)
     }
     
-    out <- pal_vec[values]
-    out_code <- pal_code[values]
+    sel <- pal_df[values, ]
     
   } else {
-    
     if(is.infinite(n)) {
-      
-      n <- length(pal_vec)
-      
+      n <- nrow(pal_df)
     }
     
-    if(n > length(pal_vec)) {
-      stop(paste0("Number of colors (n) must be less than ", length(pal_vec) + 1))
+    if(n > nrow(pal_df)) {
+      stop(paste0("Number of colors (n) must be less than ", nrow(pal_df) + 1))
     }
     
-    out <- pal_vec[1:n]
-    out_code <- pal_code[values]
-    
+    sel <- pal_df[1:n, ]
   }
   
-  if(software_code) {
-    return(out_code)
-  }
+  out <- sel[[type]]
   
   return(out)
 }
@@ -101,7 +89,6 @@ globe_pal <- function(n = NULL, values = NULL, software_code = TRUE) {
     255,
     6684927,
     16737894)
-  
   
   if(!is.null(values)) {
     

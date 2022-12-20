@@ -4,26 +4,31 @@
 \alias{tz_pal}
 \title{TimeZero default color palette}
 \usage{
-tz_pal(n = NULL, values = NULL, software_code = TRUE)
+tz_pal(n = NULL, values = NULL, type = "kml")
 }
 \arguments{
 \item{n}{Number of colors to return}
 
-\item{values}{Color values as numeric or character of colors to choose.}
+\item{values}{Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon"}
 
-\item{software_code}{Should the full eight digit hex code (e.g., "#ffffff00") be returned? If not, returns the six digit hex equivalent (without transparency; e.g. "#ffff00").}
+\item{type}{Type of value to return (hex, gpx, or kml).}
 }
 \description{
 TimeZero default color palette
 }
 \examples{
 # View colors 
-show_nav_col(colors = tz_pal(n = Inf, software_code = FALSE))
+show_nav_col(colors = tz_pal(n = Inf, type = "hex"))
 
 # Software color palette. Eight digit hex but the first two digits represent alpha channel.
-tz_pal(n = Inf, software_code = TRUE)
+tz_pal(n = Inf, type = "kml)
+
+# TimeZero integer color palette
+tz_pal(n = Inf, type = "gpx)
 
 # Return specific indexed color values
 tz_pal(values = c(1,3,7))
 
+# Return color values by name.
+tz_pal(values = c("tan", "magenta", "darkgreen"))
 }

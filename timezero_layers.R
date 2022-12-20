@@ -2,7 +2,7 @@
 
 # 1. Setup
 library(navmaps)
-region <- "ai"
+region <- "sebs"
 
 # Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)
@@ -14,13 +14,13 @@ get_gps_data(region = region, channel = channel)
 # 3. Build layers
 # Strata as a .kml polygon file
 strata <- map_layers$survey.strata
-strata$color <- tz_pal(values = "darkgreen")
+strata$color <- tz_pal(values = "darkgreen", type = "kml")
 strata$fill <- 0
 
 sf_to_kml_polygon(
   x = strata,
-  name_col = "STRATUM",
-  description_col = "STRATUM",
+  name_col = "Stratum",
+  description_col = "Stratum",
   color_col = "color",
   fill_col = "fill",
   file = here::here("output", region, "navigation", paste0(region, "_survey_strata.kml")), 
@@ -31,27 +31,27 @@ sf_to_kml_polygon(
 # Station marks as a .gpx waypoint file (EBS/NBS only) 
 grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
 grid_centers$shape <- 3
-grid_centers$color <- tz_pal(values = "lightgreen")
+grid_centers$color <- tz_pal(values = "yellow", type = "gpx")
 
-# sf_to_gpx_waypoints(
+sf_to_gpx_waypoints(
+  x = grid_centers,
+  file = here::here("output", region, "navigation", paste0(region, "_marks.gpx")),
+  name_col = "STATIONID",
+  description_col = "STATIONID",
+  color_col = "color",
+  shape_col = "shape",
+  software_format = "timezero"
+)
+
+# sf_to_kml_points(
 #   x = grid_centers, 
-#   file = here::here("output", region, "navigation", paste0(region, "_marks.gpx")), 
-#   name_col = "ID",
-#   description_col = "STRATUM",
+#   file = here::here("output", region, "navigation", paste0(region, "_marks.kml")), 
+#   name_col = "STATIONID",
+#   description_col = "STATIONID",
 #   color_col = "color", 
 #   shape_col = "shape", 
 #   software_format = "timezero"
 # )
-
-sf_to_kml_points(
-  x = grid_centers, 
-  file = here::here("output", region, "navigation", paste0(region, "_marks.kml")), 
-  name_col = "ID",
-  description_col = "STRATUM",
-  color_col = "color", 
-  shape_col = "shape", 
-  software_format = "timezero"
-)
 
 # Station grid (no trawlable/untrawlable) as a .kml linestring (EBS/NBS only) 
 survey_grid <- map_layers$survey.grid
