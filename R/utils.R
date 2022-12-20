@@ -1,10 +1,22 @@
 #' TimeZero default color palette
 #' 
 #' @param n Number of colors to return
+#' @param values Color values as numeric or character of colors to choose.
 #' @param software_code Should the full eight digit hex code (e.g., "#ffffff00") be returned? If not, returns the six digit hex equivalent (without transparency; e.g. "#ffff00").
+#' @examples # View colors 
+#' show_nav_col(colors = tz_pal(n = Inf, software_code = FALSE))
+#' 
+#' # Software color palette. Eight digit hex but the first two digits represent alpha channel.
+#' tz_pal(n = Inf, software_code = TRUE)
+#' 
+#' # Return specific indexed color values
+#' tz_pal(values = c(1,3,7))
+#' 
 #' @export
 
-tz_pal <- function(n, software_code = TRUE) {
+tz_pal <- function(n = NULL, values = NULL, software_code = TRUE) {
+  
+  stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
   
   pal_vec <- c(
     "#e6d8ad",
@@ -14,24 +26,59 @@ tz_pal <- function(n, software_code = TRUE) {
     "#d30094",
     "#90ee90",
     "#008000",
-    "#00a5ff",
+    "#00ffff",
     "#0000ff",
+    "#ff5a00",
     "#5d5d7f",
-    "#000000")
+    "#000000", 
+    "#ffffff")
   
-  if(is.infinite(n)) {
-    n <- length(pal_vec)
-  }
+  pal_code <- c(
+    "ffe6d8ad",
+    "ffffff00",
+    "ffff00ff",
+    "ffff0000",
+    "ffd30094",
+    "ff90ee90",
+    "ff008000",
+    "ffffff00",
+    "ff0000ff",
+    "ff00a5ff",
+    "ff5d5d7f",
+    "ff000000", 
+    "ffffffff")
   
-  if(n > length(pal_vec)) {
-    stop(paste0("Number of colors (n) must be less than ", length(pal_vec) + 1))
+  if(!is.null(values)) {
+    
+    if(class(values) == "character") {
+      values <- match(values,
+                      c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "grey", "black", "white"))
+    }
+    
+    out <- pal_vec[values]
+    out_code <- pal_code[values]
+    
+  } else {
+    
+    if(is.infinite(n)) {
+      
+      n <- length(pal_vec)
+      
+    }
+    
+    if(n > length(pal_vec)) {
+      stop(paste0("Number of colors (n) must be less than ", length(pal_vec) + 1))
+    }
+    
+    out <- pal_vec[1:n]
+    out_code <- pal_code[values]
+    
   }
   
   if(software_code) {
-    out <- gsub(pattern = "#", replacement = "ff", x = pal_vec)[1:n]
-  } else {
-    out <- pal_vec[1:n]
+    return(out_code)
   }
+  
   return(out)
 }
 
@@ -40,10 +87,13 @@ tz_pal <- function(n, software_code = TRUE) {
 #' Globe color palette
 #' 
 #' @param n Number of colors to return
+#' @param values Index values of colors to choose.
 #' @param software_code Should the Globe decimal color be returned (e.g., 255 for red, 12632256 for grey) be returned? If not, returns the six digit hex equivalent (e.g. "#ff0000" for red, ).
 #' @export
 
-globe_pal <- function(n, software_code = TRUE) {
+globe_pal <- function(n = NULL, values = NULL, software_code = TRUE) {
+  
+  stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
   
   pal_vec <- c(
     12632256,
@@ -52,19 +102,31 @@ globe_pal <- function(n, software_code = TRUE) {
     6684927,
     16737894)
   
-  if(is.infinite(n)) {
-    n <- length(pal_vec)
-  }
   
-  if(n > length(pal_vec)) {
-    stop(paste0("Number of colors (n) must be less than ", length(pal_vec) + 1))
-  }
-  
-  if(software_code) {
-    out <- pal_vec[1:n]
+  if(!is.null(values)) {
+    
+    out <- pal_vec[values]
+    
   } else {
-    out <- d10_to_hex_color(pal_vec[1:n])
+    
+    if(is.infinite(n)) {
+      
+      n <- length(pal_vec)
+      
+    }
+    
+    if(n > length(pal_vec)) {
+      stop(paste0("Number of colors (n) must be less than ", length(pal_vec) + 1))
+    }
+    
+    out <- pal_vec[1:n]
+    
   }
+  
+  if(!software_code) {
+    out <- d10_to_hex_color(out)
+  }
+  
   return(out)
 }
 
@@ -201,8 +263,7 @@ get_connected <- function(channel = NULL, schema = NA){
 #' @export
 
 show_col_nav <- function(colors = NULL, labels = TRUE, borders = NULL, cex_label = 1, 
-                         ncol = NULL) 
-{
+                         ncol = NULL) {
   
   n <- length(colors)
   col_index <- 1:n
@@ -213,7 +274,7 @@ show_col_nav <- function(colors = NULL, labels = TRUE, borders = NULL, cex_label
 
   nrow <- ceiling(n/ncol)
   colors <- c(colors, rep(NA, nrow * ncol - length(colors)))
-  colors <- matrix(colors, ncol = ncol, byrow = TRUE)
+  colors <- matrix(colors, ncol = ncol, byrow = FALSE)
   old <- par(pty = "s", mar = c(0, 0, 0, 0))
   on.exit(par(old))
   size <- max(dim(colors))
@@ -224,7 +285,7 @@ show_col_nav <- function(colors = NULL, labels = TRUE, borders = NULL, cex_label
   if (labels) {
     hcl <- farver::decode_colour(colors, "rgb", "hcl")
     label_col <- ifelse(hcl[, "l"] > 50, "black", "white")
-    text(col(colors) - 0.5, -row(colors) + 0.5, paste0("Option: ", col_index, "\n", colors), 
+    text(col(colors) - 0.5, -row(colors) + 0.5, paste0("Value: ", col_index, "\n", colors), 
          cex = cex_label, col = label_col)
   }
 }

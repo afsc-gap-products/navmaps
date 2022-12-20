@@ -9,6 +9,7 @@ sf_to_gpx_waypoints(
   file,
   name_col,
   description_col,
+  time_col = NULL,
   color_col,
   shape_col,
   software_format = "timezero",
@@ -23,6 +24,8 @@ sf_to_gpx_waypoints(
 \item{name_col}{Name of the column containing names.}
 
 \item{description_col}{Description column.}
+
+\item{time_col}{Time column name. Optional. If not provided, writes the system time.}
 
 \item{color_col}{Name of the column containing integer colors.}
 

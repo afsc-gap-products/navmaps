@@ -69,9 +69,9 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
   # Set plot colors
   
   if(software_format == "timezero") {
-    trawlable_grid$color <- 1
-    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- 8
-    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- 4
+    trawlable_grid$color <- tz_pal(values = 1)
+    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- tz_pal(values = 7)
+    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- tz_pal(values = 4)
     trawlable_grid$fill <- 0
     trawlable_grid$description <- paste0("Trawlable? ", trawlable_grid$TRAWLABLE, "; Stratum: ", trawlable_grid$STRATUM)
     
@@ -186,7 +186,9 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   if(length(raw_gps_paths) < 1) {
     stop("make_towpaths: No GPS rds files found in ", here::here("output", region, "gps"))
   } else {
-    message("make_towpaths: ", length(raw_gps_paths), " raw_gps rds files found in ", raw_gps_paths)
+    message("make_towpaths: ", length(raw_gps_paths), 
+            " raw_gps rds files found in ", 
+            dirname(raw_gps_paths)[1])
   }
   
   midpoint_paths <- gsub(pattern = "raw_gps", replacement = "midpoint", x = raw_gps_paths)
@@ -293,10 +295,10 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
     
     sf_to_gpx_waypoints(x = start_and_end |>
                           dplyr::filter(EVENT == "start") |>
-                          dplyr::mutate(name = paste0("Start ", CRUISE, "-", VESSEL),
+                          dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
                                         desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
                                         shape = factor(sign(PERFORMANCE)),
-                                        color = tz_pal(11)[c(10, 8, 4)][as.numeric(sign(PERFORMANCE)) + 1]),
+                                        color = tz_pal(values = c(4, 6, 5))[as.numeric(sign(PERFORMANCE)) + 2]),
                         file = here::here("output", region, "navigation", paste0(region, "_towstart.gpx")),
                         name_col = "name",
                         description_col = "desc",
@@ -311,7 +313,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                           dplyr::mutate(name = paste0("MID ", CRUISE, "-", VESSEL),
                                         desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
                                         shape = factor(sign(PERFORMANCE)),
-                                        color = tz_pal(11)[c(10, 8, 4)][as.numeric(sign(PERFORMANCE)) + 1]),
+                                        color = tz_pal(values = c(4, 6, 5))[as.numeric(sign(PERFORMANCE)) + 2]),
                         file = here::here("output", region, "navigation", paste0(region, "_towmid.gpx")),
                         name_col = "name",
                         description_col = "desc",
@@ -322,7 +324,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
     sf_to_kml_linestring(x = towpath_sf |>
                            dplyr::mutate(name = paste0("Start ", CRUISE, "-", VESSEL),
                                          desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                                         color = tz_pal(11)[c(10, 8, 4)][as.numeric(sign(PERFORMANCE)) + 1]),
+                                         color = tz_pal(values = c(4, 6, 5))[as.numeric(sign(PERFORMANCE)) + 2]),
                          file = here::here("output", region, "navigation", paste0(region, "_towpath.kml")),
                          name_col = "name",
                          description_col = "desc",

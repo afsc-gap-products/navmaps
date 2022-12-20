@@ -14,16 +14,16 @@ get_gps_data(region = region, channel = channel)
 # 3. Build layers
 # Strata as a .kml polygon file
 strata <- map_layers$survey.strata
-strata$color <- 5
+strata$color <- tz_pal(values = "darkgreen")
 strata$fill <- 0
 
 sf_to_kml_polygon(
   x = strata,
-  name_col = "Stratum",
-  description_col = "SURVEY",
+  name_col = "STRATUM",
+  description_col = "STRATUM",
   color_col = "color",
   fill_col = "fill",
-  file = here::here("output", region, paste0(region, "_survey_strata.kml")), 
+  file = here::here("output", region, "navigation", paste0(region, "_survey_strata.kml")), 
   software_format = "timezero"
 )
 
@@ -31,26 +31,36 @@ sf_to_kml_polygon(
 # Station marks as a .gpx waypoint file (EBS/NBS only) 
 grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
 grid_centers$shape <- 3
-grid_centers$color <- 1
+grid_centers$color <- tz_pal(values = "lightgreen")
 
-sf_to_gpx_waypoints(
+# sf_to_gpx_waypoints(
+#   x = grid_centers, 
+#   file = here::here("output", region, "navigation", paste0(region, "_marks.gpx")), 
+#   name_col = "ID",
+#   description_col = "STRATUM",
+#   color_col = "color", 
+#   shape_col = "shape", 
+#   software_format = "timezero"
+# )
+
+sf_to_kml_points(
   x = grid_centers, 
-  file = here::here("output", region, paste0(region, "_marks.gpx")), 
-  name_col = "STATIONID",
-  description_col = "STATIONID",
+  file = here::here("output", region, "navigation", paste0(region, "_marks.kml")), 
+  name_col = "ID",
+  description_col = "STRATUM",
   color_col = "color", 
   shape_col = "shape", 
   software_format = "timezero"
 )
 
-# Station grid without trawlable/untrawlable as a .kml linestring (EBS/NBS only) 
+# Station grid (no trawlable/untrawlable) as a .kml linestring (EBS/NBS only) 
 survey_grid <- map_layers$survey.grid
 survey_grid$color <- 5
 survey_grid$fill <- 0
 
 sf_to_kml_linestring(
   x = survey_grid,
-  file = here::here("output", region, paste0(region, "_station_grid.kml")),
+  file = here::here("output", region, "navigation", paste0(region, "_station_grid.kml")),
   name_col = "STATIONID",
   description_col = "STATIONID",
   color_col = "color", 

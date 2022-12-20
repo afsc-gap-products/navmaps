@@ -9,6 +9,7 @@ sf_to_kml_linestring(
   file,
   name_col,
   description_col,
+  time_col = NULL,
   color_col,
   software_format = "timezero",
   return_lines = FALSE
@@ -22,6 +23,8 @@ sf_to_kml_linestring(
 \item{name_col}{Name of the column containing names.}
 
 \item{description_col}{Description column.}
+
+\item{time_col}{Time column name. Optional. If not provided, writes the system time.}
 
 \item{color_col}{Name of the column containing eight-digit hex color.}
 

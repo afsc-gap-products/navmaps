@@ -160,7 +160,7 @@ get_gps_data <- function(region, channel = NULL) {
                                       and r.vessel = rbg.vessel
                                     and rbg.vessel = ", unique_vessel_cruise$VESSEL[ii],
                                     " and rbg.cruise = ", unique_vessel_cruise$CRUISE[ii],
-                                    " and h.gear in (", paste(gear_codes, collapse = ", "), ")"
+                                    " and r.gear in (", paste(gear_codes, collapse = ", "), ")"
                                   )
       )
       

@@ -4,10 +4,12 @@
 \alias{globe_pal}
 \title{Globe color palette}
 \usage{
-globe_pal(n, software_code = TRUE)
+globe_pal(n = NULL, values = NULL, software_code = TRUE)
 }
 \arguments{
 \item{n}{Number of colors to return}
+
+\item{values}{Index values of colors to choose.}
 
 \item{software_code}{Should the Globe decimal color be returned (e.g., 255 for red, 12632256 for grey) be returned? If not, returns the six digit hex equivalent (e.g. "#ff0000" for red, ).}
 }
