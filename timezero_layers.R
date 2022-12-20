@@ -107,4 +107,3 @@ make_towpaths(region = region,
 # 4. Special projects
 
 
-scales::show_col
