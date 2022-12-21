@@ -46,8 +46,12 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_co
     write.csv(out, file = file, row.names = FALSE, na = "")
   }
   
-  if(file_type == ".mdb") {
-    #FUTURE
+  if(file_type %in%  c("mdb", "accdb")) {
+    write_to_access(x = out,
+                    dsn = file,
+                    tablename = tolower(strsplit(basename(file), split = "\\.")[[1]][-2]),
+                    append = FALSE,
+                    drop_existing = TRUE)
   }
 }
 
