@@ -6,17 +6,35 @@ library(navmaps)
 
 # Create a new table
 file.remove(here::here("output", "test.mdb"))
+file.remove(here::here("output", "test.accdb"))
 
-write_to_mdb(x = data.frame(x_val = 1, y_val = "test", datetime = Sys.time()),
+# Testng .mdb
+write_to_access(x = data.frame(x_val = 1, y_val = "test", datetime = Sys.time()),
              dsn = here::here("output", "test.mdb"),
              tablename = "output",
              append = FALSE,
              drop_existing = TRUE)
 
 
-# Overwrite
-write_to_mdb(x = data.frame(x_val = 1, y_val = "test", datetime = Sys.time()),
+# Overwrite .mdb
+write_to_access(x = data.frame(x_val = 1, y_val = "test", datetime = Sys.time()),
              dsn = here::here("output", "test.mdb"),
              tablename = "output",
              append = FALSE,
              drop_existing = TRUE)
+
+
+# Testing .accdb
+write_to_access(x = data.frame(x_val = 1, y_val = "test", datetime = Sys.time()),
+                dsn = here::here("output", "test.mdb"),
+                tablename = "output",
+                append = FALSE,
+                drop_existing = TRUE)
+
+
+# Overwrite .accdb
+write_to_access(x = data.frame(x_val = 1, y_val = "test", datetime = Sys.time()),
+                dsn = here::here("output", "test.mdb"),
+                tablename = "output",
+                append = FALSE,
+                drop_existing = TRUE)
