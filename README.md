@@ -1,6 +1,6 @@
 # navmaps
 
-Convert spatial data to .kml, .gpx, and .mdb formats for use in navigation software.
+Convert spatial data to .kml, .gpx, .csv, and .mdb formats for use in navigation software.
 
 
 ## Write sf POINTS to .gpx waypoint file
