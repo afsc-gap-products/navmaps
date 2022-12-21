@@ -13,7 +13,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
   
   .check_valid_geometry(x = x, valid = c("LINESTRING", "MULTILINESTRING"))
   
-  .check_output_path(file = file, ext = c(".csv", ".mdb"))
+  .check_output_path(file = file, ext = c(".csv", ".mdb", ".accdb"))
   
   file_type <- tolower(strsplit(basename(file), split = "\\.")[[1]][-1])
   
@@ -35,7 +35,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
     dplyr::mutate(Width = -1) |>
     as.data.frame()
   
-  x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %I %r"))
+  x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
   
   x <- dplyr::bind_rows(x,
                         dplyr::bind_rows(

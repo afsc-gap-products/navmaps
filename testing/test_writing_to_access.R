@@ -21,7 +21,7 @@ start_and_end <- readRDS(file = here::here("assets", paste0(region, "_haul_start
   sf::st_cast("LINESTRING") |>
   dplyr::rename(DEPTH = BOTTOM_DEPTH)
 
-start_and_end$color <- 255
+start_and_end$color <- 255 # Will replace with globe_pal to assign colors based on performance
 
 sf_to_globe_linestring(
   x = start_and_end,
@@ -55,12 +55,12 @@ sf_to_globe_points(x = start_only,
                    color_col = "color", 
                    shape_col = "shape", 
                    time_col = "DATE_TIME", 
-                   extra_cols = c("PERFORMANCE", "EVENT", "HAULJOIN"))
+                   extra_cols = c("PERFORMANCE", "EVENT"))
 
 sf_to_globe_points(x = start_only, 
                    file  = here::here("output", region, "navigation", paste0(region,  "_towstarts.accdb")), 
                    color_col = "color", 
                    shape_col = "shape", 
                    time_col = "DATE_TIME", 
-                   extra_cols = c("PERFORMANCE", "EVENT", "HAULJOIN"))
+                   extra_cols = c("PERFORMANCE", "EVENT"))
 
