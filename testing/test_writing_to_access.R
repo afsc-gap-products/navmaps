@@ -55,12 +55,12 @@ sf_to_globe_points(x = start_only,
                    color_col = "color", 
                    shape_col = "shape", 
                    time_col = "DATE_TIME", 
-                   extra_cols c("PERFORMANCE", "EVENT", "HAULJOIN"))
+                   extra_cols = c("PERFORMANCE", "EVENT", "HAULJOIN"))
 
 sf_to_globe_points(x = start_only, 
                    file  = here::here("output", region, "navigation", paste0(region,  "_towstarts.accdb")), 
                    color_col = "color", 
                    shape_col = "shape", 
                    time_col = "DATE_TIME", 
-                   extra_cols c("PERFORMANCE", "EVENT", "HAULJOIN"))
+                   extra_cols = c("PERFORMANCE", "EVENT", "HAULJOIN"))
 
