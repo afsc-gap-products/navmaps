@@ -411,7 +411,7 @@ st_line_midpoints <- function(sf_lines = NULL) {
   
   # Check for 32-bit version of R
   address_bytes <- .Machine$sizeof.pointer 
-  if(addtress_bytes != 4) {
+  if(address_bytes != 4) {
     stop("Must use 32-bit verion of R to write to .mdb or .accdb. Currently using ", address_bytes*8, "-bit version. 32-bit installations were available for R version <= 4.1.")
   }
   

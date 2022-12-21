@@ -4,6 +4,9 @@ rm(list = ls())
 
 library(navmaps)
 
+# Check R version and drivers
+.check_driver()
+
 # Create a new table
 file.remove(here::here("output", "test.mdb"))
 file.remove(here::here("output", "test.accdb"))
