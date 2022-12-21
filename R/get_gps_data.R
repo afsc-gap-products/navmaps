@@ -50,7 +50,7 @@ get_gps_data <- function(region, channel = NULL) {
                       paste0(
                         "select c.vessel_id vessel, c.cruise, h.haul, h.haul_id hauljoin, 
                         h.performance, p.description performance_description, e.date_time, 
-                        e.latitude latitude, e.longitude longitude 
+                        e.latitude latitude, e.longitude longitude, h.bottom_depth
                       from race_data.survey_definitions sd, race_data.surveys s, 
                         race_data.cruises c, race_data.hauls h, race_data.events e, 
                         racebase.performance p where sd.survey_definition_id = ", survey_definition_id, 
@@ -69,7 +69,7 @@ get_gps_data <- function(region, channel = NULL) {
                       paste0(
                         "select c.vessel_id vessel, c.cruise, h.haul, h.haul_id hauljoin, 
                         h.performance, p.description performance_description, e.date_time, 
-                        e.latitude latitude, e.longitude longitude
+                        e.latitude latitude, e.longitude longitude, h.bottom_depth
                       from race_data.survey_definitions sd, race_data.surveys s, 
                         race_data.cruises c, race_data.hauls h, race_data.events e, 
                         racebase.performance p 
@@ -176,9 +176,8 @@ get_gps_data <- function(region, channel = NULL) {
       
       saveRDS(object = temp_gps, file = temp_gps_path)
       
-    } else{
-      
-      warning("No GPS data from cruise ", unique_vessel_cruise$CRUISE[ii], " vessel ",  unique_vessel_cruise$VESSEL[ii])
+    } else {
+      message("No GPS data from cruise ", unique_vessel_cruise$CRUISE[ii], " vessel ",  unique_vessel_cruise$VESSEL[ii])
     }
     
   }

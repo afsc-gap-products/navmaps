@@ -17,7 +17,7 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, time_col = N
   
   .check_cols_exist(x = x, var_cols = c(name_col, description_col, color_col, shape_col))
   
-  .check_valid_geometry(x = x, valid = c("POINT"))
+  .check_valid_geometry(x = x, valid = "POINT")
   
   .check_output_path(file = file, ext = ".gpx")
   

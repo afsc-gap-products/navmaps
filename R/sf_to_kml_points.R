@@ -15,27 +15,9 @@
 
 sf_to_kml_points <- function(x, file, name_col, description_col, shape_col = NULL, time_col = NULL, color_col, software_format = "timezero", return_lines = FALSE) {
   
-  # library(navmaps)
-  # region <- "ai"
-  # 
-  # # Load shapefiles using the akgfmaps package
-  # map_layers <- akgfmaps::get_base_layers(select.region = region)
-  # grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
-  # grid_centers$shape <- 3
-  # grid_centers$color <- tz_pal(values = "yellow")
-  # 
-  #   x = grid_centers
-  #   file = here::here("output", region, "navigation", paste0(region, "_marks.kml"))
-  #   name_col = "ID"
-  #   description_col = "STRATUM"
-  #   color_col = "color"
-  #   shape_col = "shape"
-  #   time_col = NULL
-  #   software_format = "timezero"
-  
   .check_cols_exist(x = x, var_cols = c(name_col, description_col, color_col))
   
-  .check_valid_geometry(x = x, valid = c("POINT"))
+  .check_valid_geometry(x = x, valid = "POINT")
   
   .check_output_path(file = file, ext = ".kml")
   

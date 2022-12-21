@@ -277,7 +277,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   towpath_sf <- start_and_end |> 
     sf::st_transform(crs = "EPSG:3338") |>
-    dplyr::group_by(VESSEL, CRUISE, HAUL, PERFORMANCE, PERFORMANCE_DESCRIPTION) |> 
+    dplyr::group_by(VESSEL, CRUISE, HAUL, PERFORMANCE, PERFORMANCE_DESCRIPTION, BOTTOM_DEPTH) |> 
     dplyr::summarize(do_union = FALSE) |> 
     sf::st_cast("LINESTRING")
   
