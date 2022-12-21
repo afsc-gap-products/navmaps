@@ -11,7 +11,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
   
   .check_cols_exist(x = x, var_cols = c(time_col, color_col, extra_cols))
   
-  .check_valid_geometry(x = x, valid = c("LINESTRING", "MULTILINESTRING"))
+  .check_valid_geometry(x = x, valid = c("LINESTRING", "MULTILINESTRING", "POLYGON", "MULTIPOLYGON"))
   
   .check_output_path(file = file, ext = c(".csv", ".mdb", ".accdb"))
   
@@ -19,6 +19,15 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
   
   if(file_type %in% c("accdb", "mdb")) {
     .check_driver()
+  }
+  
+  # Convert complex polygon geometries
+  if(any(sf::st_geometry_type(x) %in% c("MULTIPOLYGON"))) {
+    x <- sf::st_cast(x, to = "POLYGON")
+  }
+  
+  if(any(sf::st_geometry_type(x) %in% c("MULTILINESTRING"))) {
+    x <- sf::st_cast(x, to = "LINESTRING")
   }
   
   x$ID <- 1:nrow(x)  
