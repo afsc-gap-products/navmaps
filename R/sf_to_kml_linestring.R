@@ -40,9 +40,6 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
       
       coords_df <- as.data.frame(sf::st_coordinates(x$geometry[ii]))
       
-      
-      
-      
       unique_objects <- dplyr::select(coords_df, L1) |>
         unique()
       
