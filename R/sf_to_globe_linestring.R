@@ -17,6 +17,10 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
   
   file_type <- tolower(strsplit(basename(file), split = "\\.")[[1]][-1])
   
+  if(file_type %in% c("accdb", "mdb")) {
+    .check_driver()
+  }
+  
   x$ID <- 1:nrow(x)  
   
   x <- sf::st_cast(x, to = "POINT")
@@ -48,7 +52,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
     write.csv(out, file = file, row.names = FALSE, na = "")
   }
   
-  if(file_type == ".mdb") {
+  if(file_type %in% c("mdb", "accdb")) {
     #FUTURE
   }
 }

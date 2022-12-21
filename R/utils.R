@@ -401,3 +401,21 @@ st_line_midpoints <- function(sf_lines = NULL) {
   
   return(out)
 }
+
+
+#' Check for 32-bit driver and installation of R
+#' 
+#' @export
+
+.check_driver <- function() {
+  
+  # Check for 32-bit version of R
+  address_bytes <- .Machine$sizeof.pointer 
+  if(addtress_bytes != 4) {
+    stop("Must use 32-bit verion of R to write to .mdb or .accdb. Currently using ", address_bytes*8, "-bit version. 32-bit installations were available for R version <= 4.1.")
+  }
+  
+  # Check for Microsoft Access Driver
+  stopifnot("Microsoft Access Driver not found. Check odbc::odbcListDrivers() for drivers that are currently installed." = "Microsoft Access Driver (*.mdb)" %in% odbc::odbcListDrivers()$name)
+  
+}

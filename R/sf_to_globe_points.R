@@ -18,6 +18,10 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_co
   
   file_type <- tolower(strsplit(basename(file), split = "\\.")[[1]][-1])
   
+  if(file_type %in% c("accdb", "mdb")) {
+    .check_driver()
+  }
+  
   # Rename columns and convert lat/lon to radians to match Globe input format
   x <- cbind(x, as.data.frame(sf::st_coordinates(x))) |>
     dplyr::rename(Longitude = X, 
@@ -46,3 +50,6 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_co
     #FUTURE
   }
 }
+
+
+here::here()
