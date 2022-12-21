@@ -21,7 +21,7 @@ write_to_mdb <- function(x, dsn, tablename, append = FALSE, drop_existing = TRUE
   
   if(drop_existing & (tablename %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)) {
     message("Dropping table ", tablename, " from ", dsn)
-    sqlDrop(channel = odbc_con, sqtable = tablename)
+    RODBC::sqlDrop(channel = odbc_con, sqtable = tablename)
   }
   
   sqlReturn <- RODBC::sqlSave(channel = odbc_con, 
