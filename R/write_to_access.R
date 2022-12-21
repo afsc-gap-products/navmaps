@@ -14,7 +14,7 @@ write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = T
   if(!file.exists(dsn)) {
     message("write_to_access: No existing dsn object found at ", dsn, ". Creating a new file.")
     
-    file_type <- tolower(strsplit(basename(file), split = "\\.")[[1]][-1])
+    file_type <- tolower(strsplit(basename(dsn), split = "\\.")[[1]][-1])
     
     if(file_type == "mdb") {
       file.copy(from = system.file(package = "navmaps", "extdata/blank.mdb"),

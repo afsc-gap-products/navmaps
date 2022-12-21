@@ -1,6 +1,6 @@
 rm(list = ls())
 
-devtools::install_github("sean-rohan-noaa/navmaps")
+# devtools::install_github("sean-rohan-noaa/navmaps")
 
 library(navmaps)
 
