@@ -37,13 +37,16 @@ write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = T
   
   # Write data to tablename in odbc_con
   message("write_to_access: Saving data to ", tablename, " table in ", dsn)
-  RODBC::sqlSave(channel = odbc_con, 
-                 dat = x, 
-                 tablename = tablename, 
-                 append = append,
-                 rownames = FALSE)
+  try_save <- try(RODBC::sqlSave(channel = odbc_con, 
+                                  dat = x, 
+                                  tablename = tablename, 
+                                  append = append,
+                                  rownames = FALSE), silent = TRUE)
   
   message("write_to_access: Closing connection to ", dsn)
   RODBC::odbcClose(odbc_con)
   
+  if(class(try_save) == "try-error") {
+    stop(attr(try_save, "condition"))
+  }
 }
