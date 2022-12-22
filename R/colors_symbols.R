@@ -155,17 +155,14 @@ globe_pal <- function(n = NULL, values = NULL, type = "decimal") {
 #' Globe symbol palette
 #' 
 #' @param n Optional. Number of shapes to return.
-#' @param values Shapes to return by integer index (0-55) or character (see examples for how to show valid names names).
+#' @param values Shapes to return by integer index value (0-55) or symbol name (see examples for how to show valid names names).
 #' @param type Type of value to return (integer, names).
 #' @examples 
 #' # List symbol names
 #' globe_sym_pal(n = Inf, type = "names")
 #' 
-#' # Return symbol integer values for cross and circle
-#' globe_sym_pal(values = c("cross", "circle"), type = "integer")
-#'  
-#' # Return symbol names by integer value
-#' globe_sym_pal(values = c(2, 5), type = "names")
+#' # Globe integer values for triangle1, cirle1, and
+#' globe_sym_pal(values = c("triangle1", "circle1", "star"), type = "integer")
 #' @export 
 
 globe_sym_pal <- function(n = NULL, values = NULL, type = "integer") {
@@ -176,12 +173,12 @@ globe_sym_pal <- function(n = NULL, values = NULL, type = "integer") {
     stop("Invalid type argument, ", type, "must be names or integer")
   }
   
-  sym_df <- data.frame(names = c("triangle", "diamond", "cross", "square1", "y", 
-                                 "circle", "headstone1", "headstone2", "star", "asterisk",
+  sym_df <- data.frame(names = c("triangle1", "diamond", "cross", "square1", "y", 
+                                 "circle1", "headstone1", "headstone2", "star", "asterisk",
                                  "anchor", "wreck1", "wreck2", "starsmall", "crab",
                                  "fish1", "waves", "wind", "cross", "flag",
-                                 "wk", "secchi", "fish2", "nofish", "eddy_right",
-                                 "eddy_left", "branch", "x", "jollyroger", "donut",
+                                 "wk", "marker", "fish2", "nofish", "eddy_right",
+                                 "eddy_left", "branch", "x", "skull", "donut",
                                  "crosshairs1", "crosshairs2", "warning", "question", "pound",
                                  "dollar", "smile", "frown", "banner1", "banner2",
                                  "club", "diamond2", "heart", "spade", "uparrow",
@@ -198,6 +195,72 @@ globe_sym_pal <- function(n = NULL, values = NULL, type = "integer") {
         stop("globe_sym_pal: Invalid colors passed to values argument: ", 
              paste(values[!(values %in% sym_df$names)], collapse = ", ") 
              ,". List valid symbol names using globe_sym_pal(n = Inf, type = 'names')")
+      }
+      
+      values <- match(values,
+                      sym_df$names)
+    }
+    
+    sel <- sym_df[values, ]
+    
+  } else {
+    if(is.infinite(n)) {
+      n <- nrow(sym_df)
+    }
+    
+    if(n > nrow(sym_df)) {
+      stop(paste0("Number of symbols (n) must be less than ", nrow(sym_df) + 1))
+    }
+    
+    sel <- sym_df[1:n, ]
+  }
+  
+  out <- sel[[type]]
+  
+  return(out)
+}
+
+
+
+#' TimeZero symbol palette
+#' 
+#' @param n Optional. Number of shapes to return.
+#' @param values Shapes to return by gpx value (integer), kml value (URL as a character) or symbol name (see examples for how to show valid names names).
+#' @param type Type of value to return (gpx, kml, names).
+#' @examples 
+#' # List symbol names
+#' tz_sym_pal(n = Inf, type = "names")
+#' 
+#' # gpx symbol values for triangle1, circle1, and star
+#' tz_sym_pal(values = c("triangle1", "circle1", "star"), type = "gpx")
+#'  
+#' # kml symbol values for triangle1, circle1, and star
+#' tz_sym_pal(values = c("triangle1", "circle1", "star"), type = "kml")
+#' @export 
+
+tz_sym_pal <- function(n = NULL, values = NULL, type = "names") {
+  
+  stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
+  
+  if(!(type %in% c("names", "kml", "gpx"))) {
+    stop("Invalid type argument, ", type, "must be names or integer")
+  }
+  
+  sym_df <- data.frame(names = c('circle2', 'square2', 'diamond', "star", 'fish1', 'fish2', 'fish3', 'fish4', 'shrimp', 'crab', 'wreck1', 'food', 'gas', 'anchor', 'warning', 'speaker', 'flag1', 'skull', 'house', 'x', 'banner1', 'bell', 'martini', 'boat2', 'boat1', 'reef', 'mark3', 'mark2', 'mark1', 'wind', 'waterski', 'fish5', 'triangle2', 'circle1', 'square1', 'triangle1', 'mark4', 'noanchor', 'bird2', 'bird1', 'circle3', 'circle4', 'crosshairs1', 'crosshairs3', 'marker', 'asterisk', 'crosshairs2', 'wreck2'),
+                       gpx = c(0:31, 50:57, 60:67),
+                       kml = paste0("http://www.maxsea.fr/TimeZero/Images/Icons/MaxSea_Rec_",  
+                                    c(paste0("0", c(0:9)), 10:31, 50:57, 60:67),
+                                    ".png")
+  )
+  
+  if(!is.null(values)) {
+    
+    if(class(values) == "character") {
+      
+      if(!all(values %in% sym_df$names)) {
+        stop("globe_sym_pal: Invalid symbol passed to values argument: ", 
+             paste(values[!(values %in% sym_df$names)], collapse = ", ") 
+             ,". List valid symbol names using tz_sym_pal(n = Inf, type = 'names')")
       }
       
       values <- match(values,
