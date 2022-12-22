@@ -4,15 +4,31 @@
 \alias{globe_pal}
 \title{Globe color palette}
 \usage{
-globe_pal(n = NULL, values = NULL, software_code = TRUE)
+globe_pal(n = NULL, values = NULL, type = "decimal")
 }
 \arguments{
 \item{n}{Number of colors to return}
 
-\item{values}{Index values of colors to choose.}
+\item{values}{Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"}
 
-\item{software_code}{Should the Globe decimal color be returned (e.g., 255 for red, 12632256 for grey) be returned? If not, returns the six digit hex equivalent (e.g. "#ff0000" for red, ).}
+\item{type}{Type of value to return (hex, Globe integer ("integer"), Globe decimal ("decimal"), or names).}
 }
 \description{
 Globe color palette
+}
+\examples{
+# View colors 
+show_col_nav(colors = globe_pal(n = Inf, type = "hex"))
+
+# Globe color palette. Decimal numbers.
+globe_pal(n = Inf, type = "decimal")
+
+# Globe integer color palette
+globe_pal(n = Inf, type = "integer")
+
+# Return specific indexed color values
+globe_pal(values = c(1,3,7))
+
+# Return color values by name.
+globe_pal(values = c("tan", "magenta", "darkgreen"))
 }

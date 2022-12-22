@@ -15,6 +15,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
   
   .check_output_path(file = file, ext = c(".csv", ".mdb", ".accdb"))
   
+  # Retrieve file extension as a character vector
   file_type <- tolower(strsplit(basename(file), split = "\\.")[[1]][-1])
   
   if(file_type %in% c("accdb", "mdb")) {
@@ -64,7 +65,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
   if(file_type %in%  c("mdb", "accdb")) {
     write_to_access(x = out,
                     dsn = file,
-                    tablename = tolower(strsplit(basename(file), split = "\\.")[[1]][-2]),
+                    tablename = "lines", #tolower(strsplit(basename(file), split = "\\.")[[1]][-2]), # File name without extension
                     append = FALSE,
                     drop_existing = TRUE)
   }

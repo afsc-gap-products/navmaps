@@ -6,22 +6,34 @@
 \usage{
 show_col_nav(
   colors = NULL,
+  custom_labels = NULL,
   labels = TRUE,
   borders = NULL,
   cex_label = 1,
-  ncol = NULL
+  ncol = NULL,
+  main = NULL,
+  xlab = "",
+  ylab = ""
 )
 }
 \arguments{
 \item{colors}{A character vector of colors.}
 
-\item{labels}{Label each colour with its hex name?}
+\item{custom_labels}{Optional. Character vector to use for labels (instead of automatically using hex)}
 
-\item{borders}{Border colour for each tile. Default uses par("fg"). Use border = NA to omit borders.}
+\item{labels}{Label each color with its hex name?}
+
+\item{borders}{Border color for each tile. Default uses par("fg"). Use border = NA to omit borders.}
 
 \item{cex_label}{Size of printed labels, as multiplier of default size.}
 
 \item{ncol}{Number of columns. If not supplied, tries to be as square as possible.}
+
+\item{main}{Plot title, passed to plot()}
+
+\item{xlab}{X-axis title, passed to plot()}
+
+\item{ylab}{Y-axis title, passed to plot()}
 }
 \description{
 Show colors in a plot; function code and documentation based on show_col() function from the scales package

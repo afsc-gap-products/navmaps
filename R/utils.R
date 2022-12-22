@@ -1,16 +1,16 @@
 #' TimeZero default color palette
 #' 
 #' @param n Number of colors to return
-#' @param values Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon"
-#' @param type Type of value to return (hex, gpx, or kml).
+#' @param values Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"
+#' @param type Type of value to return (hex, gpx, kml, names).
 #' @examples # View colors 
-#' show_nav_col(colors = tz_pal(n = Inf, type = "hex"))
+#' show_col_nav(colors = tz_pal(n = Inf, type = "hex"))
 #' 
 #' # Software color palette. Eight digit hex but the first two digits represent alpha channel.
-#' tz_pal(n = Inf, type = "kml)
+#' tz_pal(n = Inf, type = "kml")
 #' 
 #' # TimeZero integer color palette
-#' tz_pal(n = Inf, type = "gpx)
+#' tz_pal(n = Inf, type = "gpx")
 #' 
 #' # Return specific indexed color values
 #' tz_pal(values = c(1,3,7))
@@ -21,34 +21,33 @@
 
 tz_pal <- function(n = NULL, values = NULL, type = "kml") {
   
-  valid_colors <- c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon")
-
   stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
   
-  if(!(type %in% c("kml", "hex", "gpx"))) {
+  if(!(type %in% c("kml", "hex", "gpx", "names"))) {
     stop("Invalid type argument, ", type, "must be one of kml, hex, or gpx")
   }
   
-  pal_df <- data.frame(hex = c("#d2b48c", "#ffff00", "#ff00ff", "#ff0000", "#d30094", "#90ee90", 
+  pal_df <- data.frame(names = c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"),
+                         hex = c("#d2b48c", "#ffff00", "#ff00ff", "#ff0000", "#d30094", "#90ee90", 
                                "#008000", "#00ffff", "#0000ff", "#ff5a00", "#a9a9a9", "#000000", 
-                               "#000080"),
+                               "#000080", "#FFFFFF"),
              kml = c("ff8cd4ff", "ff00ffff", "ffff00ff", "ffff0000", "ffd30094", "ff90ee90", 
                      "ff008000", "ffffff00", "ffff0000", "ff00a5ff", "ffa9a9a9", "ff000000", 
-                     "ff000080"),
-             gpx = c(14, 9, 5, 1, 15, 8, 2, 4, 3, 11, 19, 6, 17))
+                     "ff000080", "ffffffff"),
+             gpx = c(14, 9, 5, 1, 15, 8, 2, 4, 3, 11, 19, 6, 17, 6))
   
   if(!is.null(values)) {
     
     if(class(values) == "character") {
       
-      if(!all(values %in% valid_colors)) {
+      if(!all(values %in% pal_df$names)) {
         stop("tz_pal: Invalid colors passed to values argument: ", 
-             paste(values[!(values %in% valid_colors)], collapse = ", ") 
+             paste(values[!(values %in% pal_df$names)], collapse = ", ") 
              ,". Check function documentation for valid colors using help('tz_pal')")
       }
       
       values <- match(values,
-                      valid_colors)
+                      pal_df$names)
     }
     
     sel <- pal_df[values, ]
@@ -75,46 +74,73 @@ tz_pal <- function(n = NULL, values = NULL, type = "kml") {
 #' Globe color palette
 #' 
 #' @param n Number of colors to return
-#' @param values Index values of colors to choose.
-#' @param software_code Should the Globe decimal color be returned (e.g., 255 for red, 12632256 for grey) be returned? If not, returns the six digit hex equivalent (e.g. "#ff0000" for red, ).
+#' @param values Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"
+#' @param type Type of value to return (hex, Globe integer ("integer"), Globe decimal ("decimal"), or names).
+#' @examples # View colors 
+#' show_col_nav(colors = globe_pal(n = Inf, type = "hex"))
+#' 
+#' # Globe color palette. Decimal numbers.
+#' globe_pal(n = Inf, type = "decimal")
+#' 
+#' # Globe integer color palette
+#' globe_pal(n = Inf, type = "integer")
+#' 
+#' # Return specific indexed color values
+#' globe_pal(values = c(1,3,7))
+#' 
+#' # Return color values by name.
+#' globe_pal(values = c("tan", "magenta", "darkgreen"))
 #' @export
 
-globe_pal <- function(n = NULL, values = NULL, software_code = TRUE) {
+globe_pal <- function(n = NULL, values = NULL, type = "decimal") {
   
   stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
   
-  pal_vec <- c(
-    12632256,
-    32768,
-    255,
-    6684927,
-    16737894)
+  stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
+  
+  if(!(type %in% c("decimal", "integer", "hex", "names"))) {
+    stop("Invalid type argument, ", type, "must be one of decimal, integer, or hex")
+  }
+  
+  pal_df <- data.frame(names = c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"),
+                      hex = c("#d2b48c", "#ffff00", "#ff00ff", "#ff0000", "#d30094", "#90ee90", 
+                                        "#008000", "#00ffff", "#0000ff", "#ff5a00", "#a9a9a9", "#000000", 
+                                        "#000080", "#FFFFFF"),
+                                        decimal = c(13808780, 65535, 16711935, 255, 16711808, 8454016, 32768, 16776960, 16711680, 33023, 8421504, 0, 4194432, 16777215),
+                       integer = c(6, 14, 13, 4, 5, 10, 2, 3, 1, 12, 7, 0, 9, 15))
   
   if(!is.null(values)) {
     
-    out <- pal_vec[values]
+    if(class(values) == "character") {
+      
+      if(!all(values %in% pal_df$names)) {
+        stop("globe_pal: Invalid colors passed to values argument: ", 
+             paste(values[!(values %in% pal_df$names)], collapse = ", ") 
+             ,". Check function documentation for valid colors using help('globe_pal')")
+      }
+      
+      values <- match(values,
+                      pal_df$names)
+    }
+    
+    sel <- pal_df[values, ]
     
   } else {
-    
     if(is.infinite(n)) {
-      
-      n <- length(pal_vec)
-      
+      n <- nrow(pal_df)
     }
     
-    if(n > length(pal_vec)) {
-      stop(paste0("Number of colors (n) must be less than ", length(pal_vec) + 1))
+    if(n > nrow(pal_df)) {
+      stop(paste0("Number of colors (n) must be less than ", nrow(pal_df) + 1))
     }
     
-    out <- pal_vec[1:n]
-    
+    sel <- pal_df[1:n, ]
   }
   
-  if(!software_code) {
-    out <- d10_to_hex_color(out)
-  }
+  out <- sel[[type]]
   
   return(out)
+
 }
 
 
@@ -243,14 +269,18 @@ get_connected <- function(channel = NULL, schema = NA){
 #' Show colors in a plot; function code and documentation based on show_col() function from the scales package
 #' 
 #' @param colors A character vector of colors.
-#' @param labels Label each colour with its hex name?
-#' @param borders Border colour for each tile. Default uses par("fg"). Use border = NA to omit borders.
+#' @param labels Label each color with its hex name?
+#' @param custom_labels Optional. Character vector to use for labels (instead of automatically using hex)
+#' @param borders Border color for each tile. Default uses par("fg"). Use border = NA to omit borders.
 #' @param cex_label Size of printed labels, as multiplier of default size.
 #' @param ncol Number of columns. If not supplied, tries to be as square as possible.
+#' @param main Plot title, passed to plot()
+#' @param xlab X-axis title, passed to plot()
+#' @param ylab Y-axis title, passed to plot()
 #' @export
 
-show_col_nav <- function(colors = NULL, labels = TRUE, borders = NULL, cex_label = 1, 
-                         ncol = NULL) {
+show_col_nav <- function(colors = NULL, custom_labels = NULL, labels = TRUE, borders = NULL, cex_label = 1, 
+                         ncol = NULL, main = NULL, xlab = "", ylab = "") {
   
   n <- length(colors)
   col_index <- 1:n
@@ -265,14 +295,22 @@ show_col_nav <- function(colors = NULL, labels = TRUE, borders = NULL, cex_label
   old <- par(pty = "s", mar = c(0, 0, 0, 0))
   on.exit(par(old))
   size <- max(dim(colors))
-  plot(c(0, size), c(0, -size), type = "n", xlab = "", ylab = "", 
-       axes = FALSE)
+  plot(c(0, size), c(0, -size), type = "n", xlab = xlab, ylab = ylab, 
+       axes = FALSE, main = main)
   rect(col(colors) - 1, -row(colors) + 1, col(colors), -row(colors), 
        col = colors, border = borders)
-  if (labels) {
+  if(labels) {
     hcl <- farver::decode_colour(colors, "rgb", "hcl")
     label_col <- ifelse(hcl[, "l"] > 50, "black", "white")
-    text(col(colors) - 0.5, -row(colors) + 0.5, paste0("Value: ", col_index, "\n", colors), 
+    
+    if(is.null(custom_labels)) {
+      color_label_text <- paste0("Value: ", col_index, "\n", colors)
+    } else {
+      color_label_text <- character(length = length(colors))
+      color_label_text[1:length(custom_labels)] <- custom_labels
+    }
+    
+    text(col(colors) - 0.5, -row(colors) + 0.5, color_label_text,
          cex = cex_label, col = label_col)
   }
 }
