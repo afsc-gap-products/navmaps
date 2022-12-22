@@ -7,9 +7,9 @@ This package generates geospatial layers for marine navigation and GIS software 
 
 Installation methods depend on whether you will be reading or writing Globe MS Access database files (.mdb and .accdb). Reading or writing from .mdb/.accdb requires a 32-bit version of R with Microsoft Access drivers for RODBC. The R Project has stopped producing 32-bit releases as of R version 4.2. The last 32-bit version of R is 4.1.3.
 
-### Installation for current versions
+### Regular installation
 
-This is the preferred installation method if you won't be reading or writing from .mdb and .accdb files. I'd suggest installing this on your latest version of R either way if you're producing charting layers for software other than Globe.
+This is the preferred installation method if you won't be reading or writing from .mdb and .accdb files. I'd suggest installing this for your latest version of R if you're producing layers for software other than Globe.
 
 ```
 library(remotes)
