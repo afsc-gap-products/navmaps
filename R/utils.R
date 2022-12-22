@@ -43,7 +43,7 @@ tz_pal <- function(n = NULL, values = NULL, type = "kml") {
       if(!all(values %in% pal_df$names)) {
         stop("tz_pal: Invalid colors passed to values argument: ", 
              paste(values[!(values %in% pal_df$names)], collapse = ", ") 
-             ,". Check function documentation for valid colors using help('tz_pal')")
+             ,". List valid color names using tz_pal(n = Inf, type = 'names')")
       }
       
       values <- match(values,
@@ -116,7 +116,7 @@ globe_pal <- function(n = NULL, values = NULL, type = "decimal") {
       if(!all(values %in% pal_df$names)) {
         stop("globe_pal: Invalid colors passed to values argument: ", 
              paste(values[!(values %in% pal_df$names)], collapse = ", ") 
-             ,". Check function documentation for valid colors using help('globe_pal')")
+             ,". List valid color names using globe_pal(n = Inf, type = 'names')")
       }
       
       values <- match(values,
@@ -141,6 +141,79 @@ globe_pal <- function(n = NULL, values = NULL, type = "decimal") {
   
   return(out)
 
+}
+
+
+
+#' Globe symbol palette
+#' 
+#' @param n Optional. Number of shapes to return.
+#' @param values Shapes to return by integer index (0-55) or character (see examples for how to show valid names names).
+#' @param type Type of value to return (integer, names).
+#' @examples 
+#' # List symbol names
+#' globe_sym_pal(n = Inf, type = "names")
+#' 
+#' # Return symbol integer values for cross and circle
+#' globe_sym_pal(values = c("cross", "circle"), type = "integer")
+#'  
+#' # Return symbol names by integer value
+#' globe_sym_pal(values = c(2, 5), type = "names")
+#' @export 
+
+globe_sym_pal <- function(n = NULL, values = NULL, type = "integer") {
+  
+  stopifnot("Only provide  'n' or 'values'. " = (is.null(n) + is.null(values)) == 1)
+  
+  if(!(type %in% c("names", "integer"))) {
+    stop("Invalid type argument, ", type, "must be names or integer")
+  }
+  
+  sym_df <- data.frame(names = c("triangle", "diamond", "cross", "square1", "y", 
+                                 "circle", "headstone1", "headstone2", "star", "asterisk",
+                                 "anchor", "wreck1", "wreck2", "starsmall", "crab",
+                                 "fish1", "waves", "wind", "cross", "flag",
+                                 "wk", "secchi", "fish2", "nofish", "eddy_right",
+                                 "eddy_left", "branch", "x", "jollyroger", "donut",
+                                 "crosshairs1", "crosshairs2", "warning", "question", "pound",
+                                 "dollar", "smile", "frown", "banner1", "banner2",
+                                 "club", "diamond2", "heart", "spade", "uparrow",
+                                 "rightarrow", "downarrow", "leftarrow", "wreck3", "wreck4",
+                                 "wreck5", "lane", "bearing1", "mark1", "mark2", "bearing2"),
+                       integer = c(0:55)
+  )
+  
+  if(!is.null(values)) {
+    
+    if(class(values) == "character") {
+      
+      if(!all(values %in% sym_df$names)) {
+        stop("globe_sym_pal: Invalid colors passed to values argument: ", 
+             paste(values[!(values %in% sym_df$names)], collapse = ", ") 
+             ,". List valid symbol names using globe_sym_pal(n = Inf, type = 'names')")
+      }
+      
+      values <- match(values,
+                      sym_df$names)
+    }
+    
+    sel <- sym_df[values, ]
+    
+  } else {
+    if(is.infinite(n)) {
+      n <- nrow(sym_df)
+    }
+    
+    if(n > nrow(sym_df)) {
+      stop(paste0("Number of symbols (n) must be less than ", nrow(sym_df) + 1))
+    }
+    
+    sel <- sym_df[1:n, ]
+  }
+  
+  out <- sel[[type]]
+  
+  return(out)
 }
 
 
