@@ -52,6 +52,3 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_co
                     drop_existing = TRUE)
   }
 }
-
-
-here::here()

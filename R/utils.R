@@ -147,8 +147,15 @@ get_connected <- function(channel = NULL, schema = NA){
 
 .check_extra_args <- function(...) {
   z <- list(...)
+  
   if(length(z) > 0) {
-    warning("Unused arguments: ", paste(names(as.list(match.call()[-1])), sep = ", "))
+    arg_names <- names(as.list(match.call()[-1]))
+    arg_names <- arg_names[!arg_names %in% c("software_format", "geometry")]
+    
+    if(length(arg_names) > 0) {
+      warning("Unused arguments: ", paste(arg_names, sep = ", "))
+    }
+
   }
 }
 

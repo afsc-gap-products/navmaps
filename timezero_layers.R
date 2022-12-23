@@ -3,7 +3,7 @@
 # 1. Setup
 library(navmaps)
 region <- "ai"
-software <- "timezero"
+software <- "globe"
 
 # Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)
@@ -22,8 +22,8 @@ strata$fill <- 0
 sf_to_nav_file(
   x = strata,
   file = here::here("output", region, "navigation", paste0(region, "_survey_strata.kml")), 
-  name_col = "Stratum",
-  description_col = "Stratum",
+  name_col = "AI_STRATA_",
+  description_col = "AI_STRATA_",
   color_col = "color",
   fill_col = "fill",
   software_format = software
@@ -64,8 +64,8 @@ sf_to_nav_file(
   x = survey_grid,
   geometry = "LINESTRING",
   file = here::here("output", region, "navigation", paste0(region, "_station_grid.kml")),
-  name_col = "STATIONID",
-  description_col = "STATIONID",
+  name_col = "ID",
+  description_col = "STRATUM",
   color_col = "color", 
   software_format = software
 )
@@ -77,6 +77,7 @@ make_trawlable(
 
 # Station allocation as .gpx and .shp marks/points (AI/GOA only)
 read.csv(here::here("data", "allocation", "AIallocation420.csv")) |>
+  dplyr::select(-Symbol, -Color) |>
   tidyr::drop_na(Longitude, Latitude) |>
   make_station_allocation(
     lon_col = "Longitude",
@@ -85,7 +86,7 @@ read.csv(here::here("data", "allocation", "AIallocation420.csv")) |>
     station_col = "stationid",
     stratum_col = "stratum",
     vessel_col = "vessel",
-    extra_col = "Priority",
+    extra_cols = "Priority",
     software_format = software
   )
 
