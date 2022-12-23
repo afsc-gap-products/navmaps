@@ -1,3 +1,73 @@
+#' Retrieve colors for a software and file format
+#' 
+#' @param values Color values as a character vector (see ?tz_pal or ?globe_pal for color options)
+#' @param software_format Software format as a character vector.
+#' @param file_type File type for OpenCPN or TimeZero ("kml" or "gpx")
+#' @export
+
+navmaps_pal <- function(values, software_format,  file_type = NULL) {
+  
+  stopifnot("navmaps_pal: values must be a character class. " = is.character(values))
+  
+  if(software_format == "globe") {
+    out_col <- globe_pal(values = values, type = "decimal")
+  }
+  
+  if(software_format == "timezero") {
+    
+    if(file_type == "kml") {
+      out_col <- tz_pal(values = values, type = "kml")
+    }
+    
+    if(file_type == "gpx") {
+      out_col <- tz_pal(values = values, type = "gpx")
+    }
+  }
+  
+  if(software_format == "opencpn") {
+    out_col <- globe_pal(values = values, type = "integer")
+  }
+  
+  return(out_col)
+}
+
+
+
+#' Retrieve colors for a software and file format
+#' 
+#' @param values Symbol values as a character vector (see ?tz_sym_pal or ?globe_sym_pal for shape options)
+#' @param software_format Software as a character vector.
+#' @param file_type File type for OpenCPN or TimeZero ("kml" or "gpx")
+#' @export
+
+navmaps_sym_pal <- function(values, software_format, file_type = NULL) {
+  
+  stopifnot("navmaps_sym_pal: values must be a character class. " = is.character(values))
+  
+  if(software_format == "globe") {
+    out_col <- globe_sym_pal(values = values, type = "integer")
+  }
+  
+  if(software_format == "timezero") {
+    
+    if(file_type == "kml") {
+      out_col <- tz_sym_pal(values = values, type = "kml")
+    }
+    
+    if(file_type == "gpx") {
+      out_col <- tz_sym_pal(values = values, type = "gpx")
+    }
+  }
+  
+  if(software_format == "opencpn") {
+    out_col <- globe_sym_pal(values = values, type = "integer")
+  }
+  
+  return(out_col)
+}
+
+
+
 #' TimeZero default color palette
 #' 
 #' @param n Number of colors to return
