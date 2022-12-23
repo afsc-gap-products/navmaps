@@ -7,7 +7,6 @@
 make_station_allocation(
   allocation_df,
   region,
-  survey_year = NULL,
   lon_col,
   lat_col,
   station_col,
@@ -22,8 +21,6 @@ make_station_allocation(
 
 \item{region}{Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"}
 
-\item{survey_year}{Year for the survey. Optional.}
-
 \item{lon_col}{Name of the longitude column as a character vector. Required.}
 
 \item{lat_col}{Name of the latitude column as a character vector. Required.}
@@ -37,6 +34,8 @@ make_station_allocation(
 \item{extra_col}{Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.}
 
 \item{software_format}{Software to format output for.}
+
+\item{survey_year}{Year for the survey. Optional.}
 }
 \description{
 Make station allocation shapefile and navigation plots
