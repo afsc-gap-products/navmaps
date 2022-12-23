@@ -4,7 +4,7 @@
 \alias{sf_to_globe_points}
 \title{Write sf data to a csv or mdb file formatted for globe}
 \usage{
-sf_to_globe_points(x, file, color_col, shape_col, time_col, extra_cols)
+sf_to_globe_points(x, file, color_col, shape_col, time_col, extra_cols, ...)
 }
 \arguments{
 \item{x}{sf object that contains a linestring geometry and fields with name, description, and color.}
@@ -18,6 +18,8 @@ sf_to_globe_points(x, file, color_col, shape_col, time_col, extra_cols)
 \item{time_col}{Time column name. Optional. If not provided, writes the system time.}
 
 \item{extra_cols}{Names of extra columns to include in output files, in the order the columns should be appended.}
+
+\item{...}{Ignored}
 }
 \description{
 Write sf data to a csv or mdb file formatted for globe

@@ -4,7 +4,7 @@
 \alias{sf_to_gpx_track}
 \title{Write sf to gpx route file}
 \usage{
-sf_to_gpx_track(x, file, name_col, description_col, return_lines = FALSE)
+sf_to_gpx_track(x, file, name_col, description_col, ...)
 }
 \arguments{
 \item{x}{sf object that contains a linestring geometry and fields with name, description, and color.}
@@ -15,7 +15,7 @@ sf_to_gpx_track(x, file, name_col, description_col, return_lines = FALSE)
 
 \item{description_col}{Description column.}
 
-\item{return_lines}{Should lines written to gpx file also be returned by the function. Used for debugging.}
+\item{...}{Ignored}
 }
 \description{
 Write sf LINESTRING, POLYGON, MULTIPOLYGON, or MULTILINESTRING geometries to a gpx file

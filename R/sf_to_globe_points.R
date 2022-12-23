@@ -6,15 +6,18 @@
 #' @param color_col Name of the column containing Globe color (decimal or rgb(?))
 #' @param shape_col Name of the column containing Globe shape as an integer.
 #' @param extra_cols Names of extra columns to include in output files, in the order the columns should be appended.
+#' @param ... Ignored
 #' @export
 
-sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_cols) {
+sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_cols, ...) {
   
   .check_cols_exist(x = x, var_cols = c(time_col, color_col, shape_col, extra_cols))
   
   .check_valid_geometry(x = x, valid = "POINT")
   
   .check_output_path(file = file, ext = c(".csv", ".mdb", ".accdb"))
+  
+  .check_extra_args(...)
   
   file_type <- tolower(strsplit(basename(file), split = "\\.")[[1]][-1])
   

@@ -8,17 +8,18 @@
 #' @param description_col Description column.
 #' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param color_col Name of the column containing eight-digit hex color.
-#' @param software_format Character vector indicating which marine navigation software output should be formatted for.
-#' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
+#' @param ... Ignored
 #' @export
 
-sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = NULL, color_col, software_format = "timezero", return_lines = FALSE) {
+sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = NULL, color_col, ...) {
   
   .check_cols_exist(x = x, var_cols = c(name_col, description_col, color_col))
   
   .check_valid_geometry(x = x, valid = c("LINESTRING", "MULTIPOLYGON", "POLYGON"))
   
   .check_output_path(file = file, ext = ".kml")
+  
+  .check_extra_args(...)
   
   if(is.null(time_col)) {
     time_col <- "time"
@@ -122,9 +123,5 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
              con = con)
   
   close(con)
-  
-  if(return_lines) {
-    return(lines)
-  }
   
 }

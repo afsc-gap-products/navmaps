@@ -11,8 +11,7 @@ sf_to_kml_linestring(
   description_col,
   time_col = NULL,
   color_col,
-  software_format = "timezero",
-  return_lines = FALSE
+  ...
 )
 }
 \arguments{
@@ -28,9 +27,7 @@ sf_to_kml_linestring(
 
 \item{color_col}{Name of the column containing eight-digit hex color.}
 
-\item{software_format}{Character vector indicating which marine navigation software output should be formatted for.}
-
-\item{return_lines}{Should lines written to gpx file also be returned by the function. Used for debugging.}
+\item{...}{Ignored}
 }
 \description{
 Write sf LINESTRING geometries to a kml linestring file

@@ -6,16 +6,18 @@
 #' @param file Output file with a .kml extension.
 #' @param name_col Name of the column containing names.
 #' @param description_col Description column.
-#' @param return_lines Should lines written to gpx file also be returned by the function. Used for debugging.
+#' @param ... Ignored
 #' @export
 
-sf_to_gpx_track  <- function(x, file, name_col, description_col, return_lines = FALSE) {
+sf_to_gpx_track  <- function(x, file, name_col, description_col, ...) {
   
   .check_cols_exist(x = x, var_cols = c(name_col, description_col))
   
   .check_valid_geometry(x, valid = c("LINESTRING", "POLYGON", "MULTIPOLYGON", "MULTILINESTRING"))
   
   .check_output_path(file = file, ext = ".gpx")
+  
+  .check_extra_args(...)
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x_df <- as.data.frame(x)
@@ -87,9 +89,5 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, return_lines = 
              con = con)
   
   close(con)
-  
-  if(return_lines) {
-    return(lines)
-  }
   
 }

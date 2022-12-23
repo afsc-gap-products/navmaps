@@ -5,15 +5,18 @@
 #' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param color_col Name of the column containing Globe color (decimal or rgb(?))
 #' @param extra_cols Names of extra columns to include in output files, in the order the columns should be appended.
+#' @param ... Ignored
 #' @export
 
-sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols) {
+sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols, ...) {
   
   .check_cols_exist(x = x, var_cols = c(time_col, color_col, extra_cols))
   
   .check_valid_geometry(x = x, valid = c("LINESTRING", "MULTILINESTRING", "POLYGON", "MULTIPOLYGON"))
   
   .check_output_path(file = file, ext = c(".csv", ".mdb", ".accdb"))
+  
+  .check_extra_args(...)
   
   # Retrieve file extension as a character vector
   file_type <- tolower(strsplit(basename(file), split = "\\.")[[1]][-1])
