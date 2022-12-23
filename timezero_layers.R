@@ -2,7 +2,8 @@
 
 # 1. Setup
 library(navmaps)
-region <- "sebs"
+region <- "ai"
+software <- "timezero"
 
 # Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)
@@ -14,57 +15,59 @@ get_gps_data(region = region, channel = channel)
 # 3. Build layers
 # Strata as a .kml polygon file
 strata <- map_layers$survey.strata
-strata$color <- tz_pal(values = "darkgreen", type = "kml")
+strata$color <- navmaps_pal(values = "yellow", software_format = software, file_type = "kml")
 strata$fill <- 0
 
-sf_to_kml_polygon(
+# Defaults to creating a kml POLYGON
+sf_to_nav_file(
   x = strata,
+  file = here::here("output", region, "navigation", paste0(region, "_survey_strata.kml")), 
   name_col = "Stratum",
   description_col = "Stratum",
   color_col = "color",
   fill_col = "fill",
-  file = here::here("output", region, "navigation", paste0(region, "_survey_strata.kml")), 
-  software_format = "timezero"
+  software_format = software
 )
 
-
-# Station marks as a .gpx waypoint file (EBS/NBS only) 
-grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
-grid_centers$shape <- 3
-grid_centers$color <- tz_pal(values = "yellow", type = "gpx")
-
-sf_to_gpx_waypoints(
-  x = grid_centers,
-  file = here::here("output", region, "navigation", paste0(region, "_marks.gpx")),
-  name_col = "STATIONID",
-  description_col = "STATIONID",
-  color_col = "color",
-  shape_col = "shape",
-  software_format = "timezero"
-)
-
-# sf_to_kml_points(
-#   x = grid_centers, 
-#   file = here::here("output", region, "navigation", paste0(region, "_marks.kml")), 
-#   name_col = "STATIONID",
-#   description_col = "STATIONID",
-#   color_col = "color", 
-#   shape_col = "shape", 
-#   software_format = "timezero"
+# Force to create a LINESTRING
+# sf_to_nav_file(
+#   x = strata,
+#   geometry = "LINESTRING", # <-- sets the sf geometry type
+#   file = here::here("output", region, "navigation", paste0(region, "_survey_strata.kml")), 
+#   name_col = "Stratum",
+#   description_col = "Stratum",
+#   color_col = "color",
+#   fill_col = "fill",
+#   software_format = software
 # )
+
+
+# Station marks in a .gpx waypoint file (EBS/NBS only) 
+grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
+grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = software, file_type = "gpx")
+grid_centers$color <- navmaps_pal(values = "yellow", software_format = software, file_type = "gpx")
+
+sf_to_nav_file(x = grid_centers,
+               file = here::here("output", region, "navigation", paste0(region, "_marks.gpx")),
+               name_col = "STATIONID",
+               description_col = "STATIONID",
+               color_col = "color",
+               shape_col = "shape",
+               software_format = software)
 
 # Station grid (no trawlable/untrawlable) as a .kml linestring (EBS/NBS only) 
 survey_grid <- map_layers$survey.grid
-survey_grid$color <- 5
+survey_grid$color <- navmaps_pal(values = "tan", software_format = software, file_type = "kml")
 survey_grid$fill <- 0
 
-sf_to_kml_linestring(
+sf_to_nav_file(
   x = survey_grid,
+  geometry = "LINESTRING",
   file = here::here("output", region, "navigation", paste0(region, "_station_grid.kml")),
   name_col = "STATIONID",
   description_col = "STATIONID",
   color_col = "color", 
-  software_format = "timezero"
+  software_format = software
 )
 
 # Station grid with trawlable/untrawlable cells as .kml and .shp polygons (AI/GOA only)
@@ -72,30 +75,25 @@ make_trawlable(
   region = region, 
   channel = channel)
 
-
 # Station allocation as .gpx and .shp marks/points (AI/GOA only)
-allocation_csv_path <- here::here("data", "allocation", "AIallocation420.csv")
-
-make_station_allocation(
-  allocation_df = read.csv(file = allocation_csv_path) |>
-    tidyr::drop_na(Longitude, Latitude),
-  lon_col = "Longitude",
-  lat_col = "Latitude",
-  region = region,
-  survey_year = NULL,
-  station_col = "stationid",
-  stratum_col = "stratum",
-  vessel_col = "vessel",
-  extra_col = "Priority",
-  file_format = "gpx",
-  software_format = "timezero"
-)
+read.csv(here::here("data", "allocation", "AIallocation420.csv")) |>
+  tidyr::drop_na(Longitude, Latitude) |>
+  make_station_allocation(
+    lon_col = "Longitude",
+    lat_col = "Latitude",
+    region = region,
+    station_col = "stationid",
+    stratum_col = "stratum",
+    vessel_col = "vessel",
+    extra_col = "Priority",
+    software_format = software
+  )
 
 
 # Historical tow start and midpoint as .gpx and .shp marks/points and towpaths as .kml linestring
 make_towpaths(region = region, 
               overwrite_midpoint = FALSE, 
-              software_format = "timezero")
+              software_format = software)
 
 
 # SSL buffer zones as .kml polygon
