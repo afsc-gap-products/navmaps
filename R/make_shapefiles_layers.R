@@ -100,14 +100,14 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
 #' @param station_col Name of the station ID column as a character vector. Required.
 #' @param stratum_col Name of the stratum column as a character vector. Required.
 #' @param vessel_col Name of the vessel ID column as a character vector Required.
-#' @param extra_col Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.
+#' @param extra_cols Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.
 #' @param software_format Software to format output for.
 #' @export
 
-make_station_allocation <- function(allocation_df, region, lon_col, lat_col, station_col, stratum_col, vessel_col, extra_col = NULL, software_format = "timezero") {
+make_station_allocation <- function(allocation_df, region, lon_col, lat_col, station_col, stratum_col, vessel_col, extra_cols = NULL, software_format = "timezero") {
   
   .check_cols_exist(x = allocation_df, 
-                    var_cols = c(lon_col, lat_col, station_col, stratum_col, vessel_col, extra_col))
+                    var_cols = c(lon_col, lat_col, station_col, stratum_col, vessel_col, extra_cols))
   
   .check_region(region)
   
@@ -131,16 +131,16 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
     sf::st_write(dsn = shp_path, 
                  append = FALSE)
   
-  if(is.null(extra_col)) {
+  if(is.null(extra_cols)) {
     allocation_sf$description <- paste0("Stratum: ", allocation_sf[[stratum_col]], "Vessel: ", allocation_sf[[vessel_col]])
   } else {
     
     allocation_sf$description <- paste0("Stratum: ", allocation_sf[[stratum_col]], "Vessel: ", allocation_sf[[vessel_col]])
     
-    for(ii in 1:length(extra_col)) {
+    for(ii in 1:length(extra_cols)) {
       allocation_sf$descripton <- paste0(allocation_sf$descripton, "; ", 
-                                         extra_col[ii], ": ", 
-                                         allocation_sf[[extra_col[ii]]])
+                                         extra_cols[ii], ": ", 
+                                         allocation_sf[[extra_cols[ii]]])
     }
   }
   
@@ -154,30 +154,21 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
                                            software_format = software_format,
                                            file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
     
-    gpx_path <- here::here("output", region, "navigation", paste0(region, "_station_allocation.", file_type))
+    allocation_sf$time <- Sys.time()
     
-    message("make_station_allocation: Writing station allocation gpx file to ", gpx_path)
+    fpath <- here::here("output", region, "navigation", paste0(region, "_station_allocation.", file_type))
     
-    print(environment())
-    print(ls())
-    print(parent.frame())
-    print(ls(envir = parent.frame()))
+    message("make_station_allocation: Writing station allocation file to ", fpath)
     
     sf_to_nav_file(x = allocation_sf, 
-                   file = gpx_path,
+                   file = fpath,
                    name_col = station_col,
                    description_col = "description",
                    color_col = "color",
                    shape_col = "shape",
+                   time_col = "time",
+                   extra_cols = extra_cols,
                    software_format = software_format)
-    
-    # sf_to_gpx_waypoints(x = allocation_sf, 
-    #                     file = gpx_path,
-    #                     name_col = station_col,
-    #                     description_col = "description",
-    #                     color_col = "color",
-    #                     shape_col = "shape",
-    #                     software_format = software_format)
   
 }
 

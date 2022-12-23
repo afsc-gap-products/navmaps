@@ -12,7 +12,7 @@ make_station_allocation(
   station_col,
   stratum_col,
   vessel_col,
-  extra_col = NULL,
+  extra_cols = NULL,
   software_format = "timezero"
 )
 }
@@ -31,7 +31,7 @@ make_station_allocation(
 
 \item{vessel_col}{Name of the vessel ID column as a character vector Required.}
 
-\item{extra_col}{Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.}
+\item{extra_cols}{Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.}
 
 \item{software_format}{Software to format output for.}
 
