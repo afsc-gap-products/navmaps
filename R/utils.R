@@ -31,8 +31,8 @@ get_connected <- function(channel = NULL, schema = NA){
 #' @param x data.frame or sf object
 #' @param var_cols Variable columns that must be included in the data.frame
 #' @param func_name Parent function name
-#' @export
 #' @keywords internal
+#' @export
 
 .check_cols_exist <- function(x, var_cols, func_name = NULL) {
   missing_cols <- var_cols[which(!(var_cols %in% names(x)))]
@@ -51,8 +51,9 @@ get_connected <- function(channel = NULL, schema = NA){
 #' Internal function
 #' 
 #' @param x character vector
-#' @export
 #' @keywords internal
+#' @export
+
 
 .check_region <- function(x) {
   if(!(x %in% c("sebs", "nbs", "ai", "goa"))) {
@@ -68,8 +69,8 @@ get_connected <- function(channel = NULL, schema = NA){
 #'
 #' @param x sf object
 #' @param valid character vector of valid geometries
-#' @export
 #' @keywords internal
+#' @export
 
 .check_valid_geometry <- function(x, valid) {
   if(!all(sf::st_geometry_type(x) %in% valid)) {
@@ -81,6 +82,8 @@ get_connected <- function(channel = NULL, schema = NA){
                 ". All geometries must be one of ", paste(valid, collapse = ", ")))
   }
 }
+
+
 
 #' Check that filepath is valid and output directory exists
 #' 
@@ -113,6 +116,92 @@ get_connected <- function(channel = NULL, schema = NA){
   if(!dir.exists(dirname(file))) {
     dir.create(dirname(file), recursive = TRUE)
   }
+}
+
+
+
+#' Check for 32-bit driver and installation of R
+#' 
+#' @export
+
+.check_driver <- function() {
+  
+  # Check for 32-bit version of R
+  address_bytes <- .Machine$sizeof.pointer 
+  if(address_bytes != 4) {
+    stop("Must use 32-bit verion of R to write to .mdb or .accdb. Currently using ", address_bytes*8, "-bit version. 32-bit installations were available for R version <= 4.1.")
+  }
+  
+  # Check for Microsoft Access Driver
+  stopifnot("Microsoft Access Driver not found. Check odbc::odbcListDrivers() for drivers that are currently installed." = "Microsoft Access Driver (*.mdb)" %in% odbc::odbcListDrivers()$name)
+  
+}
+
+
+
+#' Check ellipsis for arguments and throw a warning if any are detected
+#' 
+#' @param ... Passed from higher level function
+#' @keywords internal
+#' @export
+
+.check_extra_args <- function(...) {
+  z <- list(...)
+  if(length(z) > 0) {
+    warning("Unused arguments: ", paste(names(as.list(match.call()[-1])), sep = ", "))
+  }
+}
+
+
+
+#' Check that software type is valid
+#' 
+#' @param x Character vector of the selected software type
+#' @param valid_software Supported software options character vector.
+#' @export
+
+.check_software <- function(software_format, valid_software = c("globe", "timezero", "opencpn")) {
+  
+  if(length(software_format) > 1) {
+    stop("Only one software type can be set at once.")
+  }
+  
+  if(is.null(software_format)) {
+    stop("Software type must be provided. Valid options are: ", paste(valid_software, collapse = ", "))
+  }
+  
+  if(is.na(software_format)) {
+    stop("Software type must be provided. Valid options are: ", paste(valid_software, collapse = ", "))
+  }
+  
+  if(!(software_format %in% valid_software)) {
+    stop("Invalid software name (", software_format, "). Valid options are: ", paste(valid_software, collapse = ", "))
+  }
+}
+
+
+
+#' File type for a software format
+#' 
+#' @param software_format Character vector of the selected software type
+#' @param marks File format for marks (TRUE) or lines (FALSE)
+#' @export
+
+set_file_type <- function(software_format, marks = TRUE) {
+  
+  if(software_format == "timezero") {
+    ft <- ifelse(marks, "gpx", "kml")
+  }
+  
+  if(software_format == "opencpn") {
+    ft <- "gpx"
+  }
+  
+  if(software_format == "globe") {
+    ft <- "mdb"
+  }
+  
+  return(ft)
 }
 
 
@@ -294,19 +383,22 @@ st_line_midpoints <- function(sf_lines = NULL) {
 }
 
 
-#' Check for 32-bit driver and installation of R
+
+#' Detect geometry from an sf object
 #' 
+#' @param x sf object
 #' @export
 
-.check_driver <- function() {
+detect_geometry_type <- function(x) {
   
-  # Check for 32-bit version of R
-  address_bytes <- .Machine$sizeof.pointer 
-  if(address_bytes != 4) {
-    stop("Must use 32-bit verion of R to write to .mdb or .accdb. Currently using ", address_bytes*8, "-bit version. 32-bit installations were available for R version <= 4.1.")
+  geom_type <- table(sf::st_geometry_type(x))
+  main_geom <- names(geom_type)[which.max(geom_type)]
+  
+  if(sum(geom_type > 1) > 1) {
+    warning("Multiple geometry types detected (", names(which(geom_type > 0)), "). Using most common geometry in x (", main_geom, ")")
+  } else {
+    message("Geometry type detected: ", main_geom)
   }
   
-  # Check for Microsoft Access Driver
-  stopifnot("Microsoft Access Driver not found. Check odbc::odbcListDrivers() for drivers that are currently installed." = "Microsoft Access Driver (*.mdb)" %in% odbc::odbcListDrivers()$name)
-  
+  return(main_geom)
 }
