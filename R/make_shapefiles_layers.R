@@ -198,6 +198,30 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
             dirname(raw_gps_paths)[1])
   }
   
+  # Write start points to shapefile ----
+  start_and_end <- readRDS(file = here::here("output", region, paste0(region, "_haul_start_end.rds"))) |>
+    sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326")  
+  
+  start_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_towstart.shp"))
+  
+  .check_output_path(start_shp_path)
+  
+  message("make_towpaths: Writing tow starts shapefile to ", start_shp_path)
+  
+  # Select only start points and transform CRS for plotting
+  start_sf <- start_and_end |>
+    dplyr::filter(EVENT == "start") |>
+    dplyr::select(-EVENT) |>
+    dplyr::rename(START_TIME = DATE_TIME) |>
+    sf::st_transform(crs = "EPSG:3338")
+  
+  # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
+  start_sf |>
+    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |>
+    sf::st_write(dsn = start_shp_path, 
+                 append = FALSE)
+  
+  # Midpoints ----
   midpoint_paths <- gsub(pattern = "raw_gps", replacement = "midpoint", x = raw_gps_paths)
   
   # Calculating midpoints
@@ -209,8 +233,8 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   for(ii in 1:length(raw_gps_paths)) {
     
-    if(overwrite_midpoint & file.exists(midpoint_paths[ii])) {
-      message("make_towpaths: Skipping file that already exists: ", midpoint_paths[ii])
+    if(!overwrite_midpoint & file.exists(midpoint_paths[ii])) {
+      message("make_towpaths: overwrite_midpoint set to FALSE. Skipping file that already exists: ", midpoint_paths[ii])
       next
     } else{
       message("make_towpaths: Processing ", raw_gps_paths[ii])
@@ -246,9 +270,12 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                                     readRDS(file = midpoint_paths[jj]))
   }
   
-  # Convert to simple features and apply dateline wrap
+  # Convert to simple features, apply dateline wrap, and add start time and performance
   midpoint_sf <- sf::st_sf(midpoint_df) |>
-    sf::st_wrap_dateline()
+    sf::st_wrap_dateline() |>
+    dplyr::inner_join(as.data.frame(start_sf) |>
+                        dplyr::select(VESSEL, CRUISE, HAUL, START_TIME, PERFORMANCE, PERFORMANCE_DESCRIPTION, START_TIME, BOTTOM_DEPTH), 
+                      by = c("VESSEL", "CRUISE", "HAUL"))
   
   # Write midpoints to shapefile ----
   midpoint_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_midpoint.shp"))
@@ -257,87 +284,79 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   midpoint_sf |>
     sf::st_transform(crs = "EPSG:3338") |>
+    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> 
     sf::st_write(dsn = midpoint_shp_path, 
-                 append = FALSE)
-  
-  
-  # Write start points to shapefile ----
-  start_and_end <- readRDS(file = here::here("output", region, paste0(region, "_haul_start_end.rds"))) |>
-    sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326")  
-  
-  start_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_towstart.shp"))
-  .check_output_path(start_shp_path)
-  message("make_towpaths: Writing tow starts shapefile to ", start_shp_path)
-  
-  start_and_end |>
-    dplyr::filter(EVENT == "start") |>
-    dplyr::select(-EVENT) |>
-    sf::st_transform(crs = "EPSG:3338") |>
-    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
-    sf::st_write(dsn = start_shp_path, 
                  append = FALSE)
   
   # Write tow paths to shapefile ----
   towpath_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_towpath.shp"))
+  
   .check_output_path(towpath_shp_path)
+  
   message("make_towpaths: Writing towpath shapefile to ", towpath_shp_path)
   
   towpath_sf <- start_and_end |> 
     sf::st_transform(crs = "EPSG:3338") |>
     dplyr::group_by(VESSEL, CRUISE, HAUL, PERFORMANCE, PERFORMANCE_DESCRIPTION, BOTTOM_DEPTH) |> 
     dplyr::summarize(do_union = FALSE) |> 
-    sf::st_cast("LINESTRING")
+    sf::st_cast("LINESTRING") |>
+    dplyr::inner_join(as.data.frame(start_sf) |>
+                        dplyr::select(VESSEL, CRUISE, HAUL, START_TIME), 
+                      by = c("VESSEL", "CRUISE", "HAUL"))
   
+  # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
   towpath_sf |>
-    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
+    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> 
     sf::st_write(dsn = towpath_shp_path, 
                  append = FALSE)
   
-  sf_to_nav_file(x = start_and_end |>
-                   dplyr::filter(EVENT == "start") |>
-                   dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
-                                 desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                                 shape = factor(sign(PERFORMANCE)),
-                                 color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
-                                                     file_type = file_type_marks,
-                                                     software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]),
-                 file = here::here("output", region, "navigation", paste0(region, "_towstart.", file_type_marks)),
+  # Add symbol, color, description and name fields for nav software. 
+  # Specify required column names to sf_to_nav: file, name_col, description_col, color_col, shape_col, time_col, extra_cols, and software_format
+  midpoint_sf |>
+    dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
+                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
+                  shape = factor(sign(PERFORMANCE)),
+                  color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
+                                      file_type = file_type_marks,
+                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
+    sf_to_nav_file(file = here::here("output", region, "navigation", paste0(region, "_towmid.", file_type_marks)),
+                   name_col = "name",
+                   description_col = "desc",
+                   color_col = "color",
+                   shape_col = "shape",
+                   time_col = "START_TIME",
+                   extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
+                   software_format = software_format)
+  
+  start_sf |>
+    dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
+                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
+                  shape = factor(sign(PERFORMANCE)),
+                  color = navmaps_pal(values = c("red", "lightgreen", "purple"),
+                                      file_type = file_type_marks,
+                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>                                   
+  sf_to_nav_file(file = here::here("output", region, "navigation", paste0(region, "_towstart.", file_type_marks)),
                  name_col = "name",
                  description_col = "desc",
                  color_col = "color",
                  shape_col = "shape",
+                 time_col = "START_TIME",
+                 extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
                  software_format = software_format)
   
-  sf_to_nav_file(x = midpoint_sf |>
-                   dplyr::inner_join(as.data.frame(start_and_end) |>
-                                       dplyr::filter(EVENT == "start") |>
-                                       dplyr::select(-geometry, -HAULJOIN)) |>
-                   dplyr::mutate(name = paste0("MID ", CRUISE, "-", VESSEL),
-                                 desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                                 shape = factor(sign(PERFORMANCE)),
-                                 color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
-                                                     file_type = file_type_marks,
-                                                     software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]),
-                 file = here::here("output", region, "navigation", paste0(region, "_towmid.", file_type_marks)),
-                 name_col = "name",
-                 description_col = "desc",
-                 color_col = "color",
-                 shape_col = "shape",
-                 software_format = software_format)
-  
-  
-  sf_to_nav_file(x = towpath_sf |>
-                   dplyr::mutate(name = paste0("Start ", CRUISE, "-", VESSEL),
-                                 desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                                 color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
-                                                     file_type = file_type_lines,
-                                                     software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]),
-                 file = here::here("output", region, "navigation", paste0(region, "_towpath.", file_type_lines)),
-                 name_col = "name",
-                 description_col = "desc",
-                 color_col = "color",
-                 software_format = software_format)
-  
+  towpath_sf |>
+    dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
+                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
+                  color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
+                                      file_type = file_type_lines,
+                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
+    sf_to_nav_file(file = here::here("output", region, "navigation", paste0(region, "_towpath.", file_type_lines)),
+                   name_col = "name",
+                   description_col = "desc",
+                   color_col = "color",
+                   time_col = "START_TIME",
+                   extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
+                   software_format = software_format)
 }
 
 

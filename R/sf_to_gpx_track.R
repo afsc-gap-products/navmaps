@@ -5,11 +5,12 @@
 #' @param x sf object that contains a linestring geometry and fields with name, description, and color.
 #' @param file Output file with a .kml extension.
 #' @param name_col Name of the column containing names.
+#' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param description_col Description column.
 #' @param ... Ignored
 #' @export
 
-sf_to_gpx_track  <- function(x, file, name_col, description_col, ...) {
+sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, description_col, ...) {
   
   .check_cols_exist(x = x, var_cols = c(name_col, description_col))
   
@@ -18,6 +19,13 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, ...) {
   .check_output_path(file = file, ext = ".gpx")
   
   .check_extra_args(...)
+  
+  if(is.null(time_col)) {
+    time_col <- "time"
+    x$time <- paste0(format(Sys.time(), "%Y-%m-%dT%H:%M:%S"), ".000000Z")
+  } else {
+    x[[time_col]] <- paste0(format(x[[time_col]], "%Y-%m-%dT%H:%M:%S"), ".000000Z")
+  }
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x_df <- as.data.frame(x)
@@ -45,6 +53,7 @@ sf_to_gpx_track  <- function(x, file, name_col, description_col, ...) {
                      "<trk>",
                      paste0("  <name>", x_df[name_col][ii,], "</name>"),
                      paste0("  <desc>", x_df[description_col][ii,], "</desc>"),
+                     paste0("  <time>", x_df[time_col][ii,], "</time>"),
                      "  <trkseg>",
                      paste(paste0("<trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"), 
                      "</trkseg>",

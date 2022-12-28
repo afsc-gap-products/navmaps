@@ -4,7 +4,7 @@
 \alias{sf_to_gpx_track}
 \title{Write sf to gpx route file}
 \usage{
-sf_to_gpx_track(x, file, name_col, description_col, ...)
+sf_to_gpx_track(x, file, name_col, time_col = NULL, description_col, ...)
 }
 \arguments{
 \item{x}{sf object that contains a linestring geometry and fields with name, description, and color.}
@@ -12,6 +12,8 @@ sf_to_gpx_track(x, file, name_col, description_col, ...)
 \item{file}{Output file with a .kml extension.}
 
 \item{name_col}{Name of the column containing names.}
+
+\item{time_col}{Time column name. Optional. If not provided, writes the system time.}
 
 \item{description_col}{Description column.}
 

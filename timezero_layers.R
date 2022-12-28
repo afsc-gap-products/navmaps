@@ -3,7 +3,7 @@
 # 1. Setup
 library(navmaps)
 region <- "ai"
-software <- "globe"
+software <- "timezero"
 
 # Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)

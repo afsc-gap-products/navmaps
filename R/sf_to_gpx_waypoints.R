@@ -26,7 +26,7 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, time_col = N
     time_col <- "time"
     x$time <- paste0(format(Sys.time(), "%Y-%m-%dT%H:%M:%S"), ".000000Z")
   } else {
-    x[time_col] <- paste0(format(x[time_col], "%Y-%m-%dT%H:%M:%S"), ".000000Z")
+    x[[time_col]] <- paste0(format(x[[time_col]], "%Y-%m-%dT%H:%M:%S"), ".000000Z")
   }
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
