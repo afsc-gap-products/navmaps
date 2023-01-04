@@ -30,28 +30,38 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, time_col = N
   }
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
-  x[c('longitude', 'latitude')] <- sf::st_coordinates(x)
-  x <- as.data.frame(x) |>
-    dplyr::select(-geometry)
   
   lines <- c("<?xml version=\"1.0\"?>",
              "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\">")
   
-  for(ii in 1:nrow(x)) {
-    lines <- c(lines, 
-               paste0("  <wpt lat=\"", x['latitude'][ii,], "\" lon=\"", x['longitude'][ii,], "\">"),
-               paste0("    <time>", x[time_col][ii,], "</time>"),
-               paste0("    <name>", x[name_col][ii,], "</name>"),
-               paste0("    <cmt>", x[description_col][ii,], "</cmt>"),
-               paste0("    <extensions>"),
-               paste0("      <MxTimeZeroSymbol>", x[shape_col][ii,], "</MxTimeZeroSymbol>"),
-               paste0("      <T0Color>", x[color_col][ii,], "</T0Color>"),
-               paste0("    </extensions>"),
-               paste0("  </wpt>")
-    )
+  # Functions to make waypoints (vectorized)
+  make_lines <- paste <- function(x, time_col, name_col, description_col, shape_col, color_col) {
+    coords <- sf::st_coordinates(x[['geometry']])
+    
+    out <- paste0("  <wpt lat=\"", coords[, 2], "\" lon=\"", coords[, 1], "\">\n",
+                  "    <time>", x[time_col], "</time>\n",
+                  "    <name>", x[name_col], "</name>\n",
+                  "    <cmt>", x[description_col], "</cmt>\n",
+                  "    <extensions>\n",
+                  "      <MxTimeZeroSymbol>", x[shape_col], "</MxTimeZeroSymbol>\n",
+                  "      <T0Color>", x[color_col], "</T0Color>\n",
+                  "    </extensions>\n",
+                  "  </wpt>\n"
+                  )
+    return(out)
   }
   
-  lines <- c(lines, "</gpx>")
+  lines <- c(lines,
+             apply(X = x, 
+                   MARGIN = 1, 
+                   FUN = make_lines, 
+                   time_col = time_col, 
+                   name_col = name_col, 
+                   description_col = description_col, 
+                   shape_col = shape_col, 
+                   color_col = color_col), 
+             "</gpx>"
+  )
   
   message("sf_to_gpx: Writing ", length(lines), " lines to ", file)
   con <- file(file)

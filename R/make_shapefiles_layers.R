@@ -384,7 +384,7 @@ smooth_lat_lon_dist <- function(df, spar = NULL) {
   
   coords <- sf::st_coordinates(sf_obj)
   
-  # Calculate time elapsed
+  # Calculate time elapsed for each ping
   elapsed_sec <- cumsum(c(0, difftime(sf_obj $DATE_TIME[2:nrow(sf_obj )], sf_obj $DATE_TIME[1:(nrow(sf_obj)-1)])))
   
   # Correct GPS error using splines on latitude and longitude with time elapsed a predictor

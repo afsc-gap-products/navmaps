@@ -31,36 +31,47 @@ sf_to_kml_points <- function(x, file, name_col, description_col, shape_col = NUL
   }
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
-  x_df <- cbind(as.data.frame(x), 
-                as.data.frame(sf::st_coordinates(x$geometry)))
   
   lines <- c("<?xml version=\"1.0\" encoding=\"utf-8\"?>",
              "<kml xmlns:gx=\"http://www.google.com/kml/ext/2.2\" xmlns=\"http://www.opengis.net/kml/2.2\">",
              "  <Document>")
+  
+  # Function to make marks (vectorized)
+  make_lines <- paste <- function(x, time_col, name_col, description_col, shape_col, color_col) {
+    coords <- sf::st_coordinates(x[['geometry']])
     
-    for(ii in 1:nrow(x_df)) {
-      
-        lines <- c(lines, 
-                   "    <Placemark>",
-                   paste0("      <name>", x_df[name_col][ii,], "</name>"),
-                   paste0("      <description>", x_df[description_col][ii,], "</description>"),
-                   paste0("      <TimeStamp><when>", x_df[time_col][ii,], "</when></TimeStamp>"), # This doesn't work (?)
-                   "      <Point>",
-                   "        <coordinates>",
-                   paste0(x_df['X'][ii,], ",", x_df['Y'][ii,]),
-                   "        </coordinates>",
-                   "      </Point>",
-                   "      <Style>",
-                   "        <IconStyle>",
-                   paste0("        <color>", x_df[color_col][ii,], "</color>"),
-                   "        </IconStyle>",
-                   "      </Style>",
-                   "    </Placemark>")
-      }
+    out <- paste0("    <Placemark>\n",
+                  "    <name>", x[name_col], "</time>\n",
+                  "    <description>", x[description_col], "</description>\n",
+                  "      <TimeStamp><when>", x[time_col], "</when></TimeStamp>\n",
+                  "      <Point>\n",
+                  "        <coordinates>\n",
+                  paste0(coords[, 1], ",", coords[, 2], "\n"),
+                  "        </coordinates>\n",
+                  "      </Point>\n",
+                  "      <Style>\n",
+                  "        <IconStyle>\n",
+                  paste0("        <color>", x[color_col], "</color>\n"),
+                  "        </IconStyle>\n",
+                  "      </Style>\n",
+                  "    </Placemark>\n"
+    )
+    
+    return(out)
+  }
   
   lines <- c(lines,
+             apply(X = x, 
+                   MARGIN = 1, 
+                   FUN = make_lines, 
+                   time_col = time_col, 
+                   name_col = name_col, 
+                   description_col = description_col, 
+                   shape_col = shape_col, 
+                   color_col = color_col),
              "  </Document>",
-             "</kml>")
+             "</kml>"
+  )
   
   message("sf_to_kml_linestring: Writing ", length(lines), " lines to ", file)
   con <- file(file)

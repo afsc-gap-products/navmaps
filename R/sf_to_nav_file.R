@@ -69,7 +69,7 @@ sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col 
     if(is_point) {
       message("sf_to_nav_file: Using sf_to_gpx_waypoints()")
       do.call(sf_to_gpx_waypoints, args = args, envir = parent.frame())
-    } else if(is_linestring) {
+    } else {
       message("sf_to_nav_file: Using sf_to_gpx_track()")
       do.call(sf_to_gpx_track, args = args, envir = parent.frame())
     }

@@ -1,4 +1,4 @@
-#' Write sf to gpx route file
+#' Write sf to gpx track file
 #' 
 #' Write sf LINESTRING, POLYGON, MULTIPOLYGON, or MULTILINESTRING geometries to a gpx file
 #' 
@@ -7,10 +7,11 @@
 #' @param name_col Name of the column containing names.
 #' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param description_col Description column.
+#' @param color_col Color column name. Optional. If not provided, color is set to black.
 #' @param ... Ignored
 #' @export
 
-sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, description_col, ...) {
+sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, color_col = NULL, description_col, ...) {
   
   .check_cols_exist(x = x, var_cols = c(name_col, description_col))
   
@@ -27,11 +28,21 @@ sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, description_col
     x[[time_col]] <- paste0(format(x[[time_col]], "%Y-%m-%dT%H:%M:%S"), ".000000Z")
   }
   
+  if(is.null(color_col)) {
+    color_col <- "color"
+    x$color <- "Black"
+  }
+  
   x <- sf::st_transform(x, crs = "EPSG:4326")
   x_df <- as.data.frame(x)
   
-  lines <- c("<?xml version=\"1.0\"?>",
-             "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\">")
+  # if(software_format == "opencpn") {
+  #   lines <- c("<?xml version=\"1.0\"?>",
+  #              "<gpx xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" targetNamespace=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\" elementFormDefault=\"qualified\">")
+  # } else {
+    lines <- c("<?xml version=\"1.0\"?>",
+               "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">")
+  # }
     
     if(all(st_geometry_type(x) == "LINESTRING")) {
       
@@ -54,9 +65,14 @@ sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, description_col
                      paste0("  <name>", x_df[name_col][ii,], "</name>"),
                      paste0("  <desc>", x_df[description_col][ii,], "</desc>"),
                      paste0("  <time>", x_df[time_col][ii,], "</time>"),
+                     "  <extensions>",
+                     "    <gpxx:TrackExtension>",
+                     "      <gpxx:DisplayColor>", x_df[color_col][ii,], "</gpxx:DisplayColor>",
+                     "    </gpxx:TrackExtension>",
+                     "  </extensions>",
                      "  <trkseg>",
-                     paste(paste0("<trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"), 
-                     "</trkseg>",
+                     paste(paste0("    <trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"),
+                     "  </trkseg>",
                      "</trk>")
         }
       }
@@ -80,9 +96,14 @@ sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, description_col
                      "<trk>",
                      paste0("  <name>", x_df[name_col][ii,], "</name>"),
                      paste0("  <desc>", x_df[description_col][ii,], "</desc>"),
+                     "  <extensions>",
+                     "    <gpxx:TrackExtension>",
+                     "      <gpxx:DisplayColor>", x_df[color_col][ii,], "</gpxx:DisplayColor>",
+                     "    </gpxx:TrackExtension>",
+                     "  </extensions>",
                      "  <trkseg>",
-                      paste(paste0("<trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"), 
-                     "</trkseg>",
+                      paste(paste0("    <trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"), 
+                     "  </trkseg>",
                      "</trk>")
         }
       }
