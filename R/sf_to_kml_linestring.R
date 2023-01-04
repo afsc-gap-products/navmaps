@@ -29,90 +29,55 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
   }
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
-  x_df <- as.data.frame(x)
+  # x_df <- as.data.frame(x)
   
   lines <- c("<?xml version=\"1.0\" encoding=\"utf-8\"?>",
     "<kml xmlns:gx=\"http://www.google.com/kml/ext/2.2\" xmlns=\"http://www.opengis.net/kml/2.2\">",
     "  <Document>")
   
-  if(all(st_geometry_type(x) == "LINESTRING")) {
+  make_lines <- function(x, time_col, name_col, description_col, color_col) {
+    coords <- sf::st_coordinates(x[['geometry']])
     
-    for(ii in 1:nrow(x)) {
+    n_segments <- unique(coords[, 3])
+    
+    out <- character()
+    for(ii in 1:length(n_segments)) {
+      sel_coords <- coords[coords[, 3] == ii, ]
       
-      coords_df <- as.data.frame(sf::st_coordinates(x$geometry[ii]))
+      out <- paste0("    <Placemark>\n",
+                      "      <name>", x[name_col], "</name>\n",
+                      "      <description>", x[description_col], "</description>\n",
+                      "      <time>", x[time_col], "</time>\n",
+                      "      <LineString>\n",
+                      "        <coordinates>\n        ",
+                      paste(
+                        paste(sel_coords[ , 1], sel_coords[ , 2], sep = ", "), 
+                            collapse = "\n        "
+                        ), "\n",
+                      "        </coordinates>\n",
+                      "      </LineString>\n",
+                      "      <Style>\n",
+                      "        <LineStyle>\n",
+                      "        <color>", x[color_col], "</color>\n",
+                      "        </LineStyle>\n",
+                      "      </Style>\n",
+                      "    </Placemark>"
+                      )
       
-      unique_objects <- dplyr::select(coords_df, L1) |>
-        unique()
-      
-      for(jj in 1:nrow(unique_objects)) {
-        
-        coords_sel <- dplyr::filter(coords_df, 
-                                    L1 == unique_objects$L1[jj])
-        
-        coords_vec <- paste(
-          coords_sel[['X']],
-          coords_sel[['Y']], 
-          sep = ","
-        )
-        
-        lines <- c(lines, 
-                   "    <Placemark>",
-                   paste0("      <name>", x_df[name_col][ii,], "</name>"),
-                   paste0("      <description>", x_df[description_col][ii,], "</description>"),
-                   paste0("      <time>", x_df[time_col][ii,], "</time>"),
-                   "      <LineString>",
-                   "        <coordinates>",
-                   paste(coords_vec, collapse = " \n        "),
-                   "        </coordinates>",
-                   "      </LineString>",
-                   "      <Style>",
-                   "        <LineStyle>",
-                   paste0("        <color>", x_df[color_col][ii,], "</color>"),
-                   "        </LineStyle>",
-                   "      </Style>",
-                   "    </Placemark>")
-      }
     }
-  } else {
-    for(ii in 1:nrow(x)) {
-      
-      coords_df <- as.data.frame(sf::st_coordinates(x$geometry[ii]))
-      
-      unique_objects <- dplyr::select(coords_df, L1, L2) |>
-        unique()
-      
-      for(jj in 1:nrow(unique_objects)) {
-        
-        coords_sel <- dplyr::filter(coords_df, 
-                                    L1 == unique_objects$L1[jj], 
-                                    L2 == unique_objects$L2[jj])
-        
-        coords_vec <- paste(
-          coords_sel[['X']],
-          coords_sel[['Y']], 
-          sep = ","
-        )
-        
-        lines <- c(lines, 
-                   "    <Placemark>",
-                   paste0("      <name>", x_df[name_col][ii,], "</name>"),
-                   paste0("      <description>", x_df[description_col][ii,], "</description>"),
-                   "      <LineString>",
-                   "        <coordinates>",
-                   paste(coords_vec, collapse = " \n        "),
-                   "        </coordinates>",
-                   "      </LineString>",
-                   "      <Style>",
-                   "        <LineStyle>",
-                   paste0("        <color>", x_df[color_col][ii,], "</color>"),
-                   "        </LineStyle>",
-                   "      </Style>",
-                   "    </Placemark>")
-      }
-    }
+
+    out <- paste(out, collapse = "\n")
+    return(out)
   }
   
   lines <- c(lines,
+             apply(X = x, 
+                   MARGIN = 1, 
+                   FUN = make_lines, 
+                   time_col = time_col, 
+                   name_col = name_col, 
+                   description_col = description_col, 
+                   color_col = color_col),
              "  </Document>",
             "</kml>")
   
