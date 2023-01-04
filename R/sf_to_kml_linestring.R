@@ -29,11 +29,6 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
   }
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
-  # x_df <- as.data.frame(x)
-  
-  lines <- c("<?xml version=\"1.0\" encoding=\"utf-8\"?>",
-    "<kml xmlns:gx=\"http://www.google.com/kml/ext/2.2\" xmlns=\"http://www.opengis.net/kml/2.2\">",
-    "  <Document>")
   
   make_lines <- function(x, time_col, name_col, description_col, color_col) {
     coords <- sf::st_coordinates(x[['geometry']])
@@ -63,14 +58,15 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
                       "      </Style>\n",
                       "    </Placemark>"
                       )
-      
     }
 
     out <- paste(out, collapse = "\n")
     return(out)
   }
   
-  lines <- c(lines,
+  lines <- c("<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+             "<kml xmlns:gx=\"http://www.google.com/kml/ext/2.2\" xmlns=\"http://www.opengis.net/kml/2.2\">",
+             "  <Document>",
              apply(X = x, 
                    MARGIN = 1, 
                    FUN = make_lines, 

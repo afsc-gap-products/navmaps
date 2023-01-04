@@ -31,9 +31,6 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, time_col = N
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
   
-  lines <- c("<?xml version=\"1.0\"?>",
-             "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\">")
-  
   # Functions to make waypoints (vectorized)
   make_lines <- paste <- function(x, time_col, name_col, description_col, shape_col, color_col) {
     coords <- sf::st_coordinates(x[['geometry']])
@@ -51,7 +48,8 @@ sf_to_gpx_waypoints <- function(x, file, name_col, description_col, time_col = N
     return(out)
   }
   
-  lines <- c(lines,
+  lines <- c("<?xml version=\"1.0\"?>",
+             "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\" xsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd\" xmlns:opencpn=\"http://www.opencpn.org\">",
              apply(X = x, 
                    MARGIN = 1, 
                    FUN = make_lines, 

@@ -34,82 +34,49 @@ sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, color_col = NUL
   }
   
   x <- sf::st_transform(x, crs = "EPSG:4326")
-  x_df <- as.data.frame(x)
   
-  # if(software_format == "opencpn") {
-  #   lines <- c("<?xml version=\"1.0\"?>",
-  #              "<gpx xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" targetNamespace=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\" elementFormDefault=\"qualified\">")
-  # } else {
-    lines <- c("<?xml version=\"1.0\"?>",
-               "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\">")
-  # }
+  make_lines <- function(x, time_col, name_col, description_col, color_col) {
     
-    if(all(st_geometry_type(x) == "LINESTRING")) {
+    coords <- sf::st_coordinates(x[['geometry']])
+    
+    n_segments <- unique(coords[, 3])
+    
+    out <- character()
+    for(ii in 1:length(n_segments)) {
+      sel_coords <- coords[coords[, 3] == ii, ]
       
-      for(ii in 1:nrow(x)) {
-        
-        coords_df <- as.data.frame(sf::st_coordinates(x$geometry[ii]))
-        
-        
-        unique_objects <- dplyr::select(coords_df, L1) |>
-          unique()
-        
-        
-        for(jj in 1:nrow(unique_objects)) {
-          
-          coords_sel <- dplyr::filter(coords_df, 
-                                      L1 == unique_objects$L1[jj])
-          
-          lines <- c(lines, 
-                     "<trk>",
-                     paste0("  <name>", x_df[name_col][ii,], "</name>"),
-                     paste0("  <desc>", x_df[description_col][ii,], "</desc>"),
-                     paste0("  <time>", x_df[time_col][ii,], "</time>"),
-                     "  <extensions>",
-                     "    <gpxx:TrackExtension>",
-                     "      <gpxx:DisplayColor>", x_df[color_col][ii,], "</gpxx:DisplayColor>",
-                     "    </gpxx:TrackExtension>",
-                     "  </extensions>",
-                     "  <trkseg>",
-                     paste(paste0("    <trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"),
-                     "  </trkseg>",
-                     "</trk>")
-        }
-      }
-    } else {
-      for(ii in 1:nrow(x)) {
-        
-        coords_df <- as.data.frame(sf::st_coordinates(x$geometry[ii]))
-        
-        
-        unique_objects <- dplyr::select(coords_df, L1, L2) |>
-          unique()
-        
-        
-        for(jj in 1:nrow(unique_objects)) {
-          
-          coords_sel <- dplyr::filter(coords_df, 
-                                      L1 == unique_objects$L1[jj],
-                                      L2 == unique_objects$L2[jj])
-          
-          lines <- c(lines, 
-                     "<trk>",
-                     paste0("  <name>", x_df[name_col][ii,], "</name>"),
-                     paste0("  <desc>", x_df[description_col][ii,], "</desc>"),
-                     "  <extensions>",
-                     "    <gpxx:TrackExtension>",
-                     "      <gpxx:DisplayColor>", x_df[color_col][ii,], "</gpxx:DisplayColor>",
-                     "    </gpxx:TrackExtension>",
-                     "  </extensions>",
-                     "  <trkseg>",
-                      paste(paste0("    <trkpt lat=\"", coords_sel[['Y']], "\" lon=\"", coords_sel[['X']],"\"></trkpt>"), collapse = "\n"), 
-                     "  </trkseg>",
-                     "</trk>")
-        }
-      }
+      # Tags formatted for OpenCPN using https://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd
+      out <- paste0("<trk>\n",
+                    "  <name>", x[name_col], "</name>\n",
+                    "  <desc>", x[description_col], "</desc>\n",
+                    "  <time>", x[time_col], "</time>\n",
+                    "  <extensions>\n",
+                    "    <gpxx:TrackExtension>\n        ",
+                    "      <gpxx:DisplayColor>", x[color_col], "</gpxx:DisplayColor>\n",
+                    "    </gpxx:TrackExtension>\n",
+                    "  </extensions>",
+                    "  <trkseg>",
+                    paste(paste0("    <trkpt lat=\"", sel_coords[ , 2], "\" lon=\"", sel_coords[ , 1],"\"></trkpt>"), collapse = "\n"),
+                    "  </trkseg>\n",
+                    "</trk>")
+      
     }
+    
+    out <- paste(out, collapse = "\n")
+    
+    return(out)
+    
+  }
   
-  lines <- c(lines,
+  lines <- c("<?xml version=\"1.0\"?>",
+             "<gpx xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" version=\"1.1\" xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:gpxx=\"http://www.garmin.com/xmlschemas/GpxExtensions/v3\" xsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd\" xmlns:opencpn=\"http://www.opencpn.org\">",
+             apply(X = x, 
+                   MARGIN = 1, 
+                   FUN = make_lines, 
+                   time_col = time_col, 
+                   name_col = name_col, 
+                   description_col = description_col, 
+                   color_col = color_col),
              "</gpx>")
   
   message("sf_to_gpx_track: Writing ", length(lines), " lines to ", file)
