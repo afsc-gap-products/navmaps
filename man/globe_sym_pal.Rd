@@ -4,7 +4,7 @@
 \alias{globe_sym_pal}
 \title{Globe symbol palette}
 \usage{
-globe_sym_pal(n = NULL, values = NULL, type = "integer")
+globe_sym_pal(n = NULL, values = NULL, type = "integer", ...)
 }
 \arguments{
 \item{n}{Optional. Number of shapes to return.}
@@ -12,6 +12,8 @@ globe_sym_pal(n = NULL, values = NULL, type = "integer")
 \item{values}{Shapes to return by integer index value (0-55) or symbol name (see examples for how to show valid names names).}
 
 \item{type}{Type of value to return (integer, names).}
+
+\item{...}{Ignored}
 }
 \description{
 Globe symbol palette

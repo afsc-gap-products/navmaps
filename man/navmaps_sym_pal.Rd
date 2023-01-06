@@ -4,7 +4,7 @@
 \alias{navmaps_sym_pal}
 \title{Retrieve colors for a software and file format}
 \usage{
-navmaps_sym_pal(values, software_format, file_type = NULL)
+navmaps_sym_pal(values, software_format, color = NULL, file_type = NULL, ...)
 }
 \arguments{
 \item{values}{Symbol values as a character vector (see ?tz_sym_pal or ?globe_sym_pal for shape options)}
@@ -12,6 +12,8 @@ navmaps_sym_pal(values, software_format, file_type = NULL)
 \item{software_format}{Software as a character vector.}
 
 \item{file_type}{File type for OpenCPN or TimeZero ("kml" or "gpx")}
+
+\item{...}{Ignored}
 }
 \description{
 Retrieve colors for a software and file format

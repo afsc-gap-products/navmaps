@@ -4,7 +4,7 @@
 \alias{globe_pal}
 \title{Globe color palette}
 \usage{
-globe_pal(n = NULL, values = NULL, type = "decimal")
+globe_pal(n = NULL, values = NULL, type = "decimal", ...)
 }
 \arguments{
 \item{n}{Number of colors to return}
@@ -12,6 +12,8 @@ globe_pal(n = NULL, values = NULL, type = "decimal")
 \item{values}{Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"}
 
 \item{type}{Type of value to return (hex, Globe integer ("integer"), Globe decimal ("decimal"), or names).}
+
+\item{...}{Ignored}
 }
 \description{
 Globe color palette

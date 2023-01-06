@@ -12,6 +12,7 @@ sf_to_gpx_waypoints(
   time_col = NULL,
   color_col,
   shape_col,
+  software_format = "timezero",
   ...
 )
 }
@@ -29,6 +30,8 @@ sf_to_gpx_waypoints(
 \item{color_col}{Name of the column containing integer colors.}
 
 \item{shape_col}{Name of the column containing integer shapes.}
+
+\item{software_format}{"timezero" or "opencpn"}
 
 \item{...}{Ignored}
 }

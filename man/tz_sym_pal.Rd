@@ -4,7 +4,7 @@
 \alias{tz_sym_pal}
 \title{TimeZero symbol palette}
 \usage{
-tz_sym_pal(n = NULL, values = NULL, type = "names")
+tz_sym_pal(n = NULL, values = NULL, type = "names", ...)
 }
 \arguments{
 \item{n}{Optional. Number of shapes to return.}
@@ -12,6 +12,8 @@ tz_sym_pal(n = NULL, values = NULL, type = "names")
 \item{values}{Shapes to return by gpx value (integer), kml value (URL as a character) or symbol name (see examples for how to show valid names names).}
 
 \item{type}{Type of value to return (gpx, kml, names).}
+
+\item{...}{Ignored}
 }
 \description{
 TimeZero symbol palette

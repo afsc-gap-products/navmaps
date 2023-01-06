@@ -4,7 +4,7 @@
 \alias{tz_pal}
 \title{TimeZero default color palette}
 \usage{
-tz_pal(n = NULL, values = NULL, type = "kml")
+tz_pal(n = NULL, values = NULL, type = "kml", ...)
 }
 \arguments{
 \item{n}{Number of colors to return}
@@ -12,6 +12,8 @@ tz_pal(n = NULL, values = NULL, type = "kml")
 \item{values}{Color values as numeric or character of colors to choose. Valid color names: "tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"}
 
 \item{type}{Type of value to return (hex, gpx, kml, names).}
+
+\item{...}{Ignored}
 }
 \description{
 TimeZero default color palette
