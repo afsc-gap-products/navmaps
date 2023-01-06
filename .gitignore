@@ -61,5 +61,6 @@ Meta
 /data/*.dbt
 /data/*.exe
 /data/*.zic
+/data/*.dbh
 *.TzBackup
 

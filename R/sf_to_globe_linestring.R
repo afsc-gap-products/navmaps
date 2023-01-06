@@ -68,7 +68,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols, ...
   if(file_type %in%  c("mdb", "accdb")) {
     write_to_access(x = out,
                     dsn = file,
-                    tablename = "lines", #tolower(strsplit(basename(file), split = "\\.")[[1]][-2]), # File name without extension
+                    tablename = "lines",
                     append = FALSE,
                     drop_existing = TRUE)
   }

@@ -47,7 +47,7 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_co
   if(file_type %in%  c("mdb", "accdb")) {
     write_to_access(x = out,
                     dsn = file,
-                    tablename = "marks", #"tolower(strsplit(basename(file), split = "\\.")[[1]][-2])",
+                    tablename = "marks",
                     append = FALSE,
                     drop_existing = TRUE)
   }
