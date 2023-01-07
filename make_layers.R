@@ -136,6 +136,19 @@ sf_to_nav_file(x = buoys,
                software_format = SOFTWARE)
 
 # 13. North Pacific Right Whale Critical Habitat
+nprw <- sf::st_read(here::here("data", "NPRW", "NPRWCH.shp"))
+nprw$name <- "NPRW Critical Habitat"
+nprw$description <- "NPRW Critical Habitat"
+nprw$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+nprw$fill <- 0
+
+sf_to_nav_file(x = nprw,
+               file = here::here("output", region, "navigation", paste0("NPRW_Critical_Habitat.", FILE_TYPE_POLYGON)),
+               name_col = "name",
+               description_col = "description",
+               color_col = "color",
+               fill_col = "fill",
+               software_format = SOFTWARE)
 
 # 14. Crab pot storage (requires 32-bit R to open .mdb)
 
