@@ -23,7 +23,7 @@ sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col 
   
   .check_software(software_format)
   
-  valid_geometry <- c("POINT", "LINESTRING",  "POLYGON", "MULTIPOINT", "MULTISTRING", "MULTIPOLYGON")
+  valid_geometry <- c("POINT", "LINESTRING",  "POLYGON", "MULTIPOINT", "MULTILINESTRING", "MULTIPOLYGON")
   
   if(is.null(geometry)) {
     geometry <- detect_geometry_type(x)
