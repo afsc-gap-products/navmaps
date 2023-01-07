@@ -62,5 +62,6 @@ Meta
 /data/*.exe
 /data/*.zic
 /data/*.dbh
+/data/crabpots/
 *.TzBackup
 

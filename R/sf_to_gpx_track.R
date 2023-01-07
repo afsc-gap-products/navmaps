@@ -5,8 +5,8 @@
 #' @param x sf object that contains a linestring geometry and fields with name, description, and color.
 #' @param file Output file with a .kml extension.
 #' @param name_col Name of the column containing names.
-#' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param description_col Description column.
+#' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param color_col Color column name. Optional. If not provided, color is set to black.
 #' @param ... Ignored
 #' @export
