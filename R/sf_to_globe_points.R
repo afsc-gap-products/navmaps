@@ -9,7 +9,7 @@
 #' @param ... Ignored
 #' @export
 
-sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_cols, ...) {
+sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, extra_cols = NULL, ...) {
   
   .check_cols_exist(x = x, var_cols = c(time_col, color_col, shape_col, extra_cols))
   
@@ -34,6 +34,11 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col, extra_co
     dplyr::rename(Color = color_col,
                   Symbol = shape_col) |>
     as.data.frame()
+  
+  if(is.null(time_col)) {
+    time_col <- "time"
+    x$time <- Sys.time()
+  }
   
   x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
   

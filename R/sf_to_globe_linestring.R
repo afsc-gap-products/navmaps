@@ -8,7 +8,7 @@
 #' @param ... Ignored
 #' @export
 
-sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols, ...) {
+sf_to_globe_linestring <- function(x, file, color_col, time_col = NULL, extra_cols = NULL, ...) {
   
   .check_cols_exist(x = x, var_cols = c(time_col, color_col, extra_cols))
   
@@ -47,6 +47,11 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col, extra_cols, ...
     dplyr::rename(Color = color_col) |>
     dplyr::mutate(Width = -1) |>
     as.data.frame()
+  
+  if(is.null(time_col)) {
+    time_col <- "time"
+    x$time <- Sys.time()
+  }
   
   x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
   

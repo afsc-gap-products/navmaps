@@ -4,7 +4,15 @@
 \alias{sf_to_globe_points}
 \title{Write sf data to a csv or mdb file formatted for globe}
 \usage{
-sf_to_globe_points(x, file, color_col, shape_col, time_col, extra_cols, ...)
+sf_to_globe_points(
+  x,
+  file,
+  color_col,
+  shape_col,
+  time_col = NULL,
+  extra_cols = NULL,
+  ...
+)
 }
 \arguments{
 \item{x}{sf object that contains a linestring geometry and fields with name, description, and color.}
