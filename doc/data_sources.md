@@ -1,9 +1,5 @@
----
-title: "Data sources and output formats by region"
-output:
-  md_document:
-    variant: gfm
----
+# Layers, data formats, sources, and descriptions by region
+
 
 | Layer                                      | AI  | GOA | EBS | NBS | Slope | Plotter Format | Source                   | Description                                                                                                           |
 |--------|--------|--------|--------|--------|--------|--------|--------|-------------|

@@ -1,13 +1,8 @@
----
-  title: "Setting colors and symbols"
-output:
-  md_document:
-  variant: gfm
----
+# Color abd symbol palettes
 
-## Color palettes
+*In development (1/7/2023)*
 
-Color palettes and naming conventions differ among marine navigation software. The navmaps package includes color palette functions to simplify color selection and promote consistency among software. 
+Colors and symbols vary among navigation software, as do approaches for setting colors and symbols. The navmaps package simplifies color and symbol selection for each software by using a shared set of names for colors and symbols that can be passed to functions that return the corresponding color or symbol used by the software. For example, the color red is assigned as 255 in Globe, ffff0000 or 1 in TimeZero (depending on the output file format; gpx or kml), and Red for OpenCPN. For symbols, "circle1" is 5 in Globe, http://www.maxsea.fr/TimeZero/Images/Icons/MaxSea_Rec_51.png or 51 in TimeZero (depending on the output file format; gpx or kml), and Symbol-Circle-Black in OpenCPN.
 
 Each supported software has an associated color palette function in navmaps. Color names (e.g. "red", "cyan") in the functions are shared among color palettes for each navigation software. For example, yellow, lightgreen, and darkgreen are both in tz_pal and globe_pal:
 

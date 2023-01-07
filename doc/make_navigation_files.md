@@ -1,11 +1,6 @@
----
-  title: "Creating navigation layers"
-output:
-  md_document:
-  variant: gfm
----
-
 # Writing simple features objects to marine navigation software files
+
+*In development (1/7/2023)*
 
 ## POINTS to .gpx waypoint file
 
