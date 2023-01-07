@@ -3,7 +3,7 @@
 # 1. Setup
 library(navmaps)
 region <- "ai" # Options are sebs, nbs, ai, goa
-set_software("timezero") # Options are globe, opencpn, timezero
+set_software("opencpn") # Options are globe, opencpn, timezero
 
 # 2. Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)
@@ -12,7 +12,21 @@ channel <- get_connected(schema = "AFSC")
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
-# 4. Survey stratum layer
+# 4. Station grid with trawlable/untrawlable (AI/GOA only)
+make_trawlable(
+  region = region, 
+  channel = channel,
+  software_format = SOFTWARE
+)
+
+# 5. Historical tow start and midpoint
+make_towpaths(
+  region = region, 
+  overwrite_midpoint = FALSE, 
+  software_format = SOFTWARE
+)
+
+# 6. Survey stratum layer
 strata <- map_layers$survey.strata
 strata$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
 strata$fill <- 0
@@ -28,7 +42,7 @@ sf_to_nav_file(
   software_format = SOFTWARE
 )
 
-# 5. Station marks (EBS/NBS only) 
+# 7. Station marks (EBS/NBS only) 
 grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
 grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
 grid_centers$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
@@ -43,7 +57,7 @@ sf_to_nav_file(
   software_format = SOFTWARE
 )
 
-# 6. Station grid without trawlable/untrawlable (EBS/NBS only) 
+# 8. Station grid without trawlable/untrawlable (EBS/NBS only) 
 survey_grid <- map_layers$survey.grid
 survey_grid$color <- navmaps_pal(values = "tan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
 survey_grid$fill <- 0
@@ -58,14 +72,7 @@ sf_to_nav_file(
   software_format = SOFTWARE
 )
 
-# 7. Station grid with trawlable/untrawlable (AI/GOA only)
-make_trawlable(
-  region = region, 
-  channel = channel,
-  software_format = SOFTWARE
-)
-
-# 8. Station allocation (AI/GOA only)
+# 9. Station allocation (AI/GOA only)
 read.csv(here::here("data", "allocation", "AIallocation420.csv")) |>
   dplyr::select(-Symbol, -Color) |>
   tidyr::drop_na(Longitude, Latitude) |>
@@ -80,12 +87,7 @@ read.csv(here::here("data", "allocation", "AIallocation420.csv")) |>
     software_format = SOFTWARE
   )
 
-# 9. Historical tow start and midpoint
-make_towpaths(
-  region = region, 
-  overwrite_midpoint = FALSE, 
-  software_format = SOFTWARE
-)
+
 
 # 10. SSL buffer zones
 ssl <- sf::st_read(here::here("data", "SSLrookeries", "3nm_No_Transit.shp"))
@@ -135,7 +137,24 @@ sf_to_nav_file(x = buoys,
 
 # 13. North Pacific Right Whale Critical Habitat
 
-# 14. Crab pot storage
+# 14. Crab pot storage (requires 32-bit R to open .mdb)
+
+# Add an entry for every crab pot storage data set
+crabpots <- dplyr::bind_rows(
+  globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_AKTrojan_2022.mdb"),
+              grouping_col = "DateTime"),
+  globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_EarlyDawnEast_2022.mdb"),
+              grouping_col = NULL)
+)
+
+crabpots$description <- "Crab pot storage"
+crabpots$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+
+sf_to_nav_file(x = crabpots,
+               file = here::here("output", region, "navigation", paste0("crabpots_2022.", FILE_TYPE_LINESTRING)),
+               name_col = "id",
+               description_col = "description",
+               color_col = "color",
+               software_format = SOFTWARE)
 
 # 15. Special projects
-
