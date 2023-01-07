@@ -29,9 +29,8 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     
     trawlable_grid <- map_layers$survey.grid |>
       dplyr::select(AIGRID_ID, STRATUM, geometry) |>
-      dplyr::select(-STRATUM) |>
       dplyr::inner_join(trawlable, 
-                        by = c("AIGRID_ID"))
+                        by = c("AIGRID_ID", "STRATUM"))
   }
   
   if(region == "goa") {
@@ -42,9 +41,8 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     
     trawlable_grid <- map_layers$survey.grid |>
       dplyr::select(GOAGRID_ID, STRATUM, geometry) |>
-      dplyr::select(-STRATUM) |>
       dplyr::inner_join(trawlable,
-                        by = c("GOAGRID_ID"))
+                        by = c("GOAGRID_ID", "STRATUM"))
   }
   
   shp_path <- here::here("output", region, "shapefiles", paste0(region, "_trawlwable.shp"))
