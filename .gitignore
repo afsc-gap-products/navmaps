@@ -33,7 +33,6 @@
 *.utf8.md
 *.knit.md
 inst/doc
-doc
 Meta
 *.png
 *.lock
