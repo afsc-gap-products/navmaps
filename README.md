@@ -4,6 +4,7 @@ This package generates geospatial layers for marine navigation and GIS software 
 
 # Resources
 
+- [Installation](#installation)
 - [Data sources by region](./doc/data_sources.md)
 - [Creating navigation layers](./doc/make_navigation_files.md)
 - [Setting colors and symbols](./doc/colors_symbols.md)
