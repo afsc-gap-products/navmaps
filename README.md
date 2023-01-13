@@ -54,6 +54,16 @@ library(navmaps)
 odbc::odbcListDrivers()
 ```
 
+### Troubleshooting 32-bit installation
+
+If the 32-bit installation fails:
+
+1. In R Studio, navigate to Tools > Global Options.
+2. Switch to a 32-bit installation of R.
+3. Restart R Studio and check that the start-up messages show you're using a 32-bit version of R.
+4. Clone the navmaps repository locally.
+5. Create a new R Studio 'R Package' project in your local navmaps directory. 
+6. Install the package using Build > Install (Ctrl+Shift+B); you may need to first install dependencies individually.
 
 ## NOAA README
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
