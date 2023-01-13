@@ -21,7 +21,7 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
   odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=", dsn))
   
   if(is.null(tablename)) {
-    tablename <- c("lines", "marks")[which(c("lines", "marks") %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)]
+    tablename <- c("lines", "marks", "Lines", "Marks")[which(c("lines", "marks", "Lines", "Marks") %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)]
     
     stopifnot("read_globe: tablename argument was not specified and the Access database did not contain EXACTLY one table named lines or marks. Please provide the tablename argument in the read_globe() function call." = length(tablename) == 1)
   }
@@ -73,7 +73,18 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
     
     message("read_globe: Converting to LINESTRING")
     out <- dplyr::rename(out, id = grouping_col) |>
-      dplyr::select(id, geometry)
+      dplyr::select(id, geometry) |>
+      unique()
+    
+    n_obj <- out |>
+      dplyr::group_by(id) |>
+      dplyr::summarise(n = n()) |>
+      dplyr::filter(n < 2)
+    
+    if(nrow(n_obj) > 0) {
+      warning("read_globe: POINTS detected in globe lines table.", nrow(n_obj), " points removed)")
+      out <- dplyr::filter(out, !(id %in% c(n_obj$id)))
+    } 
     
     out <- out |>
       dplyr::group_by(id) |>
@@ -83,6 +94,8 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
       dplyr::mutate(id = as.character(id))
     
   }
+  
+  RODBC::odbcClose(odbc_con)
   
   return(out)
   
