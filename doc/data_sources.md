@@ -1,6 +1,5 @@
 # Layers, data formats, sources, and descriptions by region
 
-
 | Layer                                      | AI  | GOA | EBS | NBS | Slope | Plotter Format | Source                   | Description                                                                                                           |
 |--------|--------|--------|--------|--------|--------|--------|--------|-------------|
 | Historical Tow Paths                       | x   | x   | x   | x   | x     | line           | RACEBASE                 | Line between haul start and end coordinates from RACEBASE.HAUL                                                        |
