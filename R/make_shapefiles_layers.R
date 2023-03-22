@@ -385,6 +385,9 @@ smooth_lat_lon_dist <- function(df, spar = NULL) {
   # Calculate time elapsed for each ping
   elapsed_sec <- cumsum(c(0, difftime(sf_obj $DATE_TIME[2:nrow(sf_obj )], sf_obj $DATE_TIME[1:(nrow(sf_obj)-1)])))
   
+  # Handle case where smoothing isn't possible
+  if(length(unique(elapsed_sec)) >= 4) {
+  
   # Correct GPS error using splines on latitude and longitude with time elapsed a predictor
   lon_spline <- smooth.spline(x = elapsed_sec, y = coords[, 'X'], spar = spar)
   lat_spline <- smooth.spline(x = elapsed_sec, y = coords[, 'Y'], spar = spar)
@@ -396,6 +399,14 @@ smooth_lat_lon_dist <- function(df, spar = NULL) {
                                ELAPSED_SEC = elapsed_sec) |>
     sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"),
                  crs = utm_crs)
+  } else {
+    smoothed_df <- tidyr::tibble(LONGITUDE = coords[, 'X'],
+                  LATITUDE = coords[, 'Y'],
+                  DATE_TIME = df$DATE_TIME,
+                  ELAPSED_SEC = elapsed_sec) |>
+      sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"),
+                   crs = utm_crs)
+  }
   
   # Calculate distance between points in meters
   dist_sf <- smoothed_df |>

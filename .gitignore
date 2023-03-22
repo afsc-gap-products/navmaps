@@ -63,4 +63,15 @@ Meta
 /data/*.dbh
 /data/crabpots/
 *.TzBackup
+*.tfw
+/data/ex_pots/
+/data/ai_grid_100m/
+*.tzdb
+*.tif
+*.tif.aux.xml
+*tif.ovr
+*.ovr
+/data/aigoa_bathp1c/
+/data/AFSC_AI_bathy_Files/
+*.aux.xml
 
