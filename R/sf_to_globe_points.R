@@ -9,7 +9,7 @@
 #' @param ... Ignored
 #' @export
 
-sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, extra_cols = NULL, ...) {
+sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, name_col = NULL, description_col = NULL, extra_cols = NULL, ...) {
   
   .check_cols_exist(x = x, var_cols = c(time_col, color_col, shape_col, extra_cols))
   
@@ -40,10 +40,65 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, e
     x$time <- Sys.time()
   }
   
-  x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
+  x$DateTime <- x[[time_col]]
+  # x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
+  
+  if(is.null(description_col)) {
+    description_col <- "Comment"
+  } else {
+    x$Comment <- x[[description_col]] 
+  }
+  
+  if(is.null(name_col)) {
+    name_col <- "Name"
+  } else {
+    x$Name <- x[[name_col]] 
+  }
+  
+  extra_cols <- toupper(extra_cols)
+  
+  if("DEPTH" %in% extra_cols) {
+    x$Depth <- x$DEPTH
+  } else {
+    x$Depth <- as.numeric(NA)
+  }
+  
+  if("TEMPERATURE" %in% extra_cols) {
+    x$Temperature <- x$TEMPERATURE
+  } else {
+    x$Temperature <- as.numeric(NA)
+  }
+  
+  if("TIDE" %in% extra_cols) {
+    x$Tide <- x$TIDE
+  } else {
+    x$Tide <- as.numeric(NA)
+  }
+  
+  if("LASTMODIFIED" %in% extra_cols) {
+    x$LastModified <- x$LASTMODIFIED
+  } else {
+    x$LastModified <- Sys.time()
+  }
+  
+  # x$LastModified <- as.character(format(x[['LastModified']], "%m/%d/%Y %r"))
+  
+  if("FLAGS" %in% extra_cols) {
+    x$Flags <- x$FLAGS
+  } else {
+    x$Flags <- as.numeric(NA)
+  }
+  
+  if("CATCH" %in% extra_cols) {
+    x$Flags <- x$CATCH
+  } else {
+    x$Catch <- as.numeric(NA)
+  }
   
   out <- x |>
-    dplyr::select(dplyr::all_of(c("Latitude", "Longitude", "Symbol", "Color", "DateTime", extra_cols)))
+    dplyr::select(dplyr::all_of(c("Latitude", "Longitude", "Symbol", "Color", "DateTime", "Name", "Comment", "Depth", "Temperature", "Tide", "Catch", "Flags", "LastModified")))
+  
+  print(head(out))
    
   if(file_type == "csv") {
     write.csv(out, file = file, row.names = FALSE, na = "")
@@ -53,7 +108,7 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, e
     write_to_access(x = out,
                     dsn = file,
                     tablename = "marks",
-                    append = FALSE,
-                    drop_existing = TRUE)
+                    append = TRUE,
+                    drop_existing = FALSE)
   }
 }

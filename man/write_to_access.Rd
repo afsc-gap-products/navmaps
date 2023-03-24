@@ -4,7 +4,14 @@
 \alias{write_to_access}
 \title{Write data.frame or matrix to .mdb or .accdb}
 \usage{
-write_to_access(x, dsn, tablename, append = FALSE, drop_existing = TRUE)
+write_to_access(
+  x,
+  dsn,
+  tablename,
+  append = FALSE,
+  drop_existing = TRUE,
+  varTypes = NULL
+)
 }
 \arguments{
 \item{dsn}{Filepath to the .mdb or .accdb file}
@@ -14,6 +21,8 @@ write_to_access(x, dsn, tablename, append = FALSE, drop_existing = TRUE)
 \item{append}{logical. Should data be appended to an existing table? Passed to RODBC::sqlSave()}
 
 \item{drop_existing}{Logical. Should the existing table be dropped and rewritten if it exists.}
+
+\item{varTypes}{Optional list of variable types passed to RODBC::sqlSave(varTypes).}
 
 \item{data}{data.frame to be written to the table}
 }

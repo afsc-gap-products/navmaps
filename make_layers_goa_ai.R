@@ -43,7 +43,7 @@ sf_to_nav_file(
 )
 
 # 6. Station marks
-grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
+grid_centers <- sf::st_centroid(map_layers$survey.grid)# Points at the center of each grid cell
 grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
 grid_centers$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
 

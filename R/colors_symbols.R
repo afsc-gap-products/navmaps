@@ -13,7 +13,7 @@ navmaps_pal <- function(values, software_format, file_type = NULL, ...) {
   stopifnot("navmaps_pal: values must be a character class. " = is.character(values))
   
   if(software_format == "globe") {
-    out_col <- globe_pal(values = values, type = "decimal")
+    out_col <- globe_pal(values = values, type = "integer")
   }
   
   if(software_format == "timezero") {

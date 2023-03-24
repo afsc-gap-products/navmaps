@@ -7,25 +7,38 @@
 #' @param tablename character: a database table name accessible from the connected DSN. If missing, the name of dat. Passed to RODBC::sql
 #' @param append logical. Should data be appended to an existing table? Passed to RODBC::sqlSave()
 #' @param drop_existing Logical. Should the existing table be dropped and rewritten if it exists.
+#' @param varTypes Optional list of variable types passed to RODBC::sqlSave(varTypes).
 #' @export
 
-write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = TRUE) {
-  
-  if(!file.exists(dsn)) {
-    message("write_to_access: No existing dsn object found at ", dsn, ". Creating a new file.")
+write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = TRUE, varTypes = NULL) {
     
     file_type <- tolower(strsplit(basename(dsn), split = "\\.")[[1]][-1])
     
     if(file_type == "mdb") {
-      file.copy(from = system.file(package = "navmaps", "extdata/blank.mdb"),
-                to = dsn)
+      
+      if(tolower(tablename) == "marks") {
+        
+        message("write_to_access: Staring marks file.")
+        file.copy(from = system.file(package = "navmaps", "extdata/blank_marks.mdb"),
+                  to = dsn,
+                  overwrite = TRUE)
+      }
+      
+      if(tolower(tablename) == "lines") {
+        
+        message("write_to_access: Starting lines file.")
+        file.copy(from = system.file(package = "navmaps", "extdata/blank_lines.mdb"),
+                  to = dsn,
+                  overwrite = TRUE)
+        
+      }
+      
     }
     
     if(file_type == "accdb") {
       file.copy(from = system.file(package = "navmaps", "extdata/blank.accdb"),
                 to = dsn)
     }
-  }
 
   message("write_to_access: Connecting to ", dsn)
   odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=", dsn))
@@ -35,13 +48,17 @@ write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = T
     RODBC::sqlDrop(channel = odbc_con, sqtable = tablename)
   }
   
+  print(head(x))
+  
   # Write data to tablename in odbc_con
   message("write_to_access: Saving data to ", tablename, " table in ", dsn)
   try_save <- try(RODBC::sqlSave(channel = odbc_con, 
                                   dat = x, 
                                   tablename = tablename, 
                                   append = append,
-                                  rownames = FALSE), silent = TRUE)
+                                  rownames = FALSE,
+                                 varTypes = varTypes), 
+                  silent = TRUE)
   
   message("write_to_access: Closing connection to ", dsn)
   RODBC::odbcClose(odbc_con)

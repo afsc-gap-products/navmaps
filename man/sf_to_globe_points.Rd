@@ -10,6 +10,8 @@ sf_to_globe_points(
   color_col,
   shape_col,
   time_col = NULL,
+  name_col = NULL,
+  description_col = NULL,
   extra_cols = NULL,
   ...
 )

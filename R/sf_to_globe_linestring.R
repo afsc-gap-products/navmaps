@@ -48,12 +48,29 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col = NULL, extra_co
     dplyr::mutate(Width = -1) |>
     as.data.frame()
   
+  x <- dplyr::inner_join(x,
+                    data.frame(Color = globe_pal(n = Inf, type = "integer"),
+                               replacement = globe_pal(n = Inf, type = "decimal")),
+                    by = "Color")
+  
+  x$Color <- x$replacement
+  
   if(is.null(time_col)) {
     time_col <- "time"
     x$time <- Sys.time()
   }
   
-  x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
+  x$DateTime <- x[[time_col]]
+  
+  # x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
+  
+  extra_cols <- toupper(extra_cols)
+  
+  if("HAULJOIN" %in% extra_cols) {
+    x$hauljoin <- x$HAULJOIN
+  } else {
+    x$hauljoin <- as.numeric(NA)
+  }
   
   x <- dplyr::bind_rows(x,
                         dplyr::bind_rows(
@@ -64,7 +81,9 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col = NULL, extra_co
   x$index <- 1:nrow(x)
   
   out <- x |>
-    dplyr::select(dplyr::all_of(c("Latitude", "Longitude", "DateTime", "Color", "Width", "index", extra_cols)))
+    dplyr::select(dplyr::all_of(c("Latitude", "Longitude", "DateTime", "Color", "Width", "index", "hauljoin")))
+  
+  print(head(out))
   
   if(file_type == "csv") {
     write.csv(out, file = file, row.names = FALSE, na = "")
@@ -74,7 +93,7 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col = NULL, extra_co
     write_to_access(x = out,
                     dsn = file,
                     tablename = "lines",
-                    append = FALSE,
-                    drop_existing = TRUE)
+                    append = TRUE,
+                    drop_existing = FALSE)
   }
 }

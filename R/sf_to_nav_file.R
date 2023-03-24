@@ -15,7 +15,7 @@
 #' @param extra_cols Column names passed to sf_to_[output_type] functions. Only used for Globe .csv, .mdb, and .accdb files.
 #' @export
 
-sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col = NULL, shape_col = NULL, fill_col = NULL, time_col = NULL,  name_col = NULL, description_col = NULL, extra_cols = NULL, envir = environment()) {
+sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col = NULL, shape_col = NULL, fill_col = NULL, time_col = NULL, name_col = NULL, description_col = NULL, extra_cols = NULL, envir = environment()) {
   
   args <- as.list(match.call()[-1])
   
@@ -38,6 +38,9 @@ sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col 
   is_linestring <- geometry %in% c("LINESTRING", "MULTILINESTRING")
 
   if(software_format == "globe") {
+    
+    x$Name <- x[[name_col]]
+    x$Comment <- x[[description_col]]
     
     if(is_point) {
       message("sf_to_nav_file: Using sf_to_globe_points()")

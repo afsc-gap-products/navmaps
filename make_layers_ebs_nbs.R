@@ -36,16 +36,22 @@ sf_to_nav_file(
   x = survey_grid,
   geometry = "LINESTRING",
   file = here::here("output", region, "navigation", paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
-  name_col = "ID",
-  description_col = "STRATUM",
+  name_col = "STATIONID",
+  description_col = "STATIONID",
   color_col = "color", 
   software_format = SOFTWARE
 )
 
 # 6. Station marks
 grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
-grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
-grid_centers$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+grid_centers$shape <- navmaps_sym_pal(values = "circle1", 
+                                      software_format = SOFTWARE, 
+                                      file_type = FILE_TYPE_POINT, 
+                                      color = "yellow")
+
+grid_centers$color <- navmaps_pal(values = "yellow", 
+                                  software_format = SOFTWARE, 
+                                  file_type = FILE_TYPE_POINT)
 
 sf_to_nav_file(
   x = grid_centers,
@@ -76,13 +82,13 @@ sf_to_nav_file(
 strata <- map_layers$survey.strata
 strata$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
 strata$fill <- 0
-strata$name <- paste0("Stratum ", strata$STRATUM)
+strata$name <- paste0("Stratum ", strata$Stratum)
 
 sf_to_nav_file(
   x = strata,
   file = here::here("output", region, "navigation", paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)), 
   name_col = "name",
-  description_col = "STRATUM",
+  description_col = "Stratum",
   color_col = "color",
   fill_col = "fill",
   software_format = SOFTWARE
@@ -118,10 +124,11 @@ sf_to_nav_file(x = otters,
                software_format = SOFTWARE)
 
 # 11. North Pacific Right Whale Critical Habitat
-nprw <- sf::st_read(here::here("data", "NPRW", "NPRWCH.shp"))
+nprw <- sf::st_read(here::here("data", "NPRW", "NPRWCH.shp")) |>
+  sf::st_transform(crs = "EPSG:4326")
 nprw$name <- "NPRW Critical Habitat"
 nprw$description <- "NPRW Critical Habitat"
-nprw$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
 nprw$fill <- 0
 
 sf_to_nav_file(x = nprw,
@@ -134,6 +141,7 @@ sf_to_nav_file(x = nprw,
 
 # 12. Buoys
 buoys <- read.csv(file = here::here("data", "buoys", "Buoys_2022.csv")) |>
+  dplyr::select(-X) |>
   sf::st_as_sf(coords = c("Longitude", "Latitude"), crs = "EPSG:4326")
 buoys$shape <- navmaps_sym_pal(values = "warning", software_format = "globe", file_type = FILE_TYPE_POINT)
 buoys$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)

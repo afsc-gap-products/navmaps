@@ -342,6 +342,8 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                  extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
                  software_format = software_format)
   
+  print(here::here("output", region, "navigation", paste0(region, "_towpath.", file_type_lines)))
+  
   towpath_sf |>
     dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
