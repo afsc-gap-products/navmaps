@@ -211,7 +211,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
     dplyr::filter(EVENT == "start") |>
     dplyr::select(-EVENT) |>
     dplyr::rename(START_TIME = DATE_TIME) |>
-    sf::st_transform(crs = "EPSG:3338")
+    sf::st_transform(crs = "EPSG:4326")
   
   # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
   start_sf |>
@@ -273,7 +273,8 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
     sf::st_wrap_dateline() |>
     dplyr::inner_join(as.data.frame(start_sf) |>
                         dplyr::select(VESSEL, CRUISE, HAUL, START_TIME, PERFORMANCE, PERFORMANCE_DESCRIPTION, START_TIME, BOTTOM_DEPTH), 
-                      by = c("VESSEL", "CRUISE", "HAUL"))
+                      by = c("VESSEL", "CRUISE", "HAUL")) |>
+    sf::st_as_sf(crs = "EPSG:4326")
   
   # Write midpoints to shapefile ----
   midpoint_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_midpoint.shp"))
@@ -294,7 +295,6 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   message("make_towpaths: Writing towpath shapefile to ", towpath_shp_path)
   
   towpath_sf <- start_and_end |> 
-    sf::st_transform(crs = "EPSG:3338") |>
     dplyr::group_by(VESSEL, CRUISE, HAUL, PERFORMANCE, PERFORMANCE_DESCRIPTION, BOTTOM_DEPTH) |> 
     dplyr::summarize(do_union = FALSE) |> 
     sf::st_cast("LINESTRING") |>
@@ -304,6 +304,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
   towpath_sf |>
+    sf::st_transform(crs = "EPSG:3338") |>
     dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> 
     sf::st_write(dsn = towpath_shp_path, 
                  append = FALSE)
@@ -311,9 +312,10 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   # Add symbol, color, description and name fields for nav software. 
   # Specify required column names to sf_to_nav: file, name_col, description_col, color_col, shape_col, time_col, extra_cols, and software_format
   midpoint_sf |>
-    dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
+    dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                  shape = factor(sign(PERFORMANCE)),
+                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
+                                           software_format = software_format)[factor(sign(PERFORMANCE)+2)],
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
@@ -327,9 +329,10 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                    software_format = software_format)
   
   start_sf |>
-    dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
+    dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                  shape = factor(sign(PERFORMANCE)),
+                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
+                                          software_format = software_format)[factor(sign(PERFORMANCE)+2)],
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"),
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>                                   
@@ -345,7 +348,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   print(here::here("output", region, "navigation", paste0(region, "_towpath.", file_type_lines)))
   
   towpath_sf |>
-    dplyr::mutate(name = paste0(CRUISE, "-", VESSEL),
+    dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                       file_type = file_type_lines,
