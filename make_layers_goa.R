@@ -1,9 +1,9 @@
-# Example of creating layers for the GOA
+# Layers for the GOA
 
 # 1. Setup
 library(navmaps)
-region <- "ai" # Options are sebs, nbs, ai, goa
-set_software("timezero") # Options are globe, opencpn, timezero
+region <- "goa" # Options are sebs, nbs, ai, goa
+set_software("globe") # Options are globe, opencpn, timezero
 
 # 2. Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)
@@ -27,21 +27,6 @@ make_trawlable(
   software_format = SOFTWARE
 )
 
-#   b. Without trawlable/untrawlable (EBS/NBS)
-survey_grid <- map_layers$survey.grid
-survey_grid$color <- navmaps_pal(values = "tan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-survey_grid$fill <- 0
-
-sf_to_nav_file(
-  x = survey_grid,
-  geometry = "LINESTRING",
-  file = here::here("output", region, "navigation", paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
-  name_col = "ID",
-  description_col = "STRATUM",
-  color_col = "color", 
-  software_format = SOFTWARE
-)
-
 # 6. Station marks
 grid_centers <- sf::st_centroid(map_layers$survey.grid)# Points at the center of each grid cell
 grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
@@ -58,14 +43,14 @@ sf_to_nav_file(
 )
 
 # 7. Station allocation (AI/GOA/slope only)
-read.csv(here::here("data", "allocation", "AIallocation420.csv")) |> # Replace with path to station allocation file for the region
+read.csv(here::here("data", "allocation", "GOA2023_Station_allocation_520_EW.csv")) |> # Replace with path to station allocation file for the survey
   dplyr::select(-Symbol, -Color) |>
   tidyr::drop_na(Longitude, Latitude) |>
   make_station_allocation(
     lon_col = "Longitude",
     lat_col = "Latitude",
     region = region,
-    station_col = "stationid",
+    station_col = "id",
     stratum_col = "stratum",
     vessel_col = "vessel",
     extra_cols = c("Priority", "stationid", "stratum"),
