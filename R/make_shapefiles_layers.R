@@ -198,6 +198,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   # Write start points to shapefile ----
   start_and_end <- readRDS(file = here::here("output", region, paste0(region, "_haul_start_end.rds"))) |>
+    dplyr::filter(!is.na(LONGITUDE), !is.na(LATITUDE)) |>
     sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326")  
   
   start_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_towstart.shp"))
