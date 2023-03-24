@@ -2,7 +2,7 @@
 
 # 1. Setup
 library(navmaps)
-region <- "sebs" # Options are sebs, nbs, ai, goa
+region <- "nbs" # Options are sebs, nbs, ai, goa
 
 # 2. Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)
