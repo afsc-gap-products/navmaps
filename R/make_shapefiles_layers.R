@@ -130,10 +130,10 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
                  append = FALSE)
   
   if(is.null(extra_cols)) {
-    allocation_sf$description <- paste0("Stratum: ", allocation_sf[[stratum_col]], "Vessel: ", allocation_sf[[vessel_col]])
+    allocation_sf$description <- paste0("Stratum: ", allocation_sf[[stratum_col]], ", Vessel: ", allocation_sf[[vessel_col]])
   } else {
     
-    allocation_sf$description <- paste0("Stratum: ", allocation_sf[[stratum_col]], "Vessel: ", allocation_sf[[vessel_col]])
+    allocation_sf$description <- paste0("Stratum: ", allocation_sf[[stratum_col]], ", Vessel: ", allocation_sf[[vessel_col]])
     
     for(ii in 1:length(extra_cols)) {
       allocation_sf$descripton <- paste0(allocation_sf$descripton, "; ", 
@@ -144,7 +144,7 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
   
     message("make_station_allocation: Adding color, shape and description columns.")
     
-    allocation_sf$color <- navmaps_sym_pal(values = c("circle1", "triangle1"), 
+    allocation_sf$color <- navmaps_pal(values = c("yellow", "magenta"), 
                                            software_format = software_format,
                                            file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
     
@@ -153,6 +153,8 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
                                            file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
     
     allocation_sf$time <- Sys.time()
+    
+    # print(head(allocation_sf))
     
     fpath <- here::here("output", region, "navigation", paste0(region, "_station_allocation.", file_type))
     

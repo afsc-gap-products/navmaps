@@ -29,8 +29,8 @@ make_trawlable(
 
 # 6. Station marks
 grid_centers <- sf::st_centroid(map_layers$survey.grid)# Points at the center of each grid cell
-grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
-grid_centers$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "cyan")
+grid_centers$color <- navmaps_pal(values = "cyan", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
 
 sf_to_nav_file(
   x = grid_centers,
@@ -44,16 +44,16 @@ sf_to_nav_file(
 
 # 7. Station allocation (AI/GOA/slope only)
 read.csv(here::here("data", "allocation", "GOA2023_Station_allocation_520_EW.csv")) |> # Replace with path to station allocation file for the survey
-  dplyr::select(-Symbol, -Color) |>
-  tidyr::drop_na(Longitude, Latitude) |>
+  tidyr::drop_na(longitude, latitude) |>
+  dplyr::mutate(DEPTH = stratum) |>
   make_station_allocation(
-    lon_col = "Longitude",
-    lat_col = "Latitude",
+    lon_col = "longitude",
+    lat_col = "latitude",
     region = region,
     station_col = "id",
     stratum_col = "stratum",
     vessel_col = "vessel",
-    extra_cols = c("Priority", "stationid", "stratum"),
+    extra_col = "DEPTH",
     software_format = SOFTWARE
   )
 
@@ -91,8 +91,8 @@ sf_to_nav_file(
 # 10. Sea Otter Critical Habitat
 otters <- sf::st_read(here::here("data", "otters", "SeaOtterFinalCH_Project.shp"))
 otters$name <- "Otter Habitat"
-otters$color <- navmaps_pal(values = "cyan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-otters$fill <- navmaps_pal(values = "cyan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+otters$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+otters$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
 
 sf_to_nav_file(x = otters,
                file = here::here("output", region, "navigation", paste0("otter_habitat.", FILE_TYPE_POLYGON)),
@@ -106,7 +106,7 @@ sf_to_nav_file(x = otters,
 nprw <- sf::st_read(here::here("data", "NPRW", "NPRWCH.shp"))
 nprw$name <- "NPRW Critical Habitat"
 nprw$description <- "NPRW Critical Habitat"
-nprw$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
 nprw$fill <- 0
 
 sf_to_nav_file(x = nprw,
@@ -117,7 +117,23 @@ sf_to_nav_file(x = nprw,
                fill_col = "fill",
                software_format = SOFTWARE)
 
-# 12. Buoys
+# 12. Humpback Whale Critical Habitat
+nprw <- sf::st_read(here::here("data", "humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
+  sf::st_transform(crs = "EPSG:4326")
+nprw$name <- "Humpback Critical Habitat"
+nprw$description <- "Humpback Critical Habitat"
+nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+nprw$fill <- 0
+
+sf_to_nav_file(x = nprw,
+               file = here::here("output", region, "navigation", paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
+               name_col = "name",
+               description_col = "description",
+               color_col = "color",
+               fill_col = "fill",
+               software_format = SOFTWARE)
+
+# 13. Buoys
 buoys <- read.csv(file = here::here("data", "buoys", "Buoys_2022.csv")) |>
   sf::st_as_sf(coords = c("Longitude", "Latitude"), crs = "EPSG:4326")
 buoys$shape <- navmaps_sym_pal(values = "warning", software_format = "globe", file_type = FILE_TYPE_POINT)
