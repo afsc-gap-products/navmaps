@@ -11,7 +11,8 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
   
   .check_software(software_format)
   
-  file_type <- set_file_type(software_format, marks = FALSE)
+  file_type_grid <- set_file_type(software_format, marks = FALSE)
+  file_type_mark <- set_file_type(software_format, marks = TRUE)
   
   channel <- navmaps::get_connected(channel = channel)
   
@@ -31,6 +32,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
       dplyr::select(AIGRID_ID, STRATUM, geometry) |>
       dplyr::inner_join(trawlable, 
                         by = c("AIGRID_ID", "STRATUM"))
+    
   }
   
   if(region == "goa") {
@@ -45,10 +47,10 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
                         by = c("GOAGRID_ID", "STRATUM"))
   }
   
-  shp_path <- here::here("output", region, "shapefiles", paste0(region, "_trawlwable.shp"))
+  shp_path_grid <- here::here("output", region, "shapefiles", paste0(region, "_trawlwable_grid.shp"))
   
   .check_output_path(shp_path)
-  message("make_trawlable: Writing trawlable/untrawlable shapefile to ", shp_path)
+  message("make_trawlable: Writing trawlable/untrawlable shapefile to ", shp_path_grid)
   
   # Write output to shapefile
   sf::st_write(obj = trawlable_grid, 
@@ -62,26 +64,41 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
   # Set plot colors
     trawlable_grid$color <- navmaps_pal(values = "tan", 
                                         software_format = software_format, 
-                                        file_type = file_type)
+                                        file_type = file_type_grid)
     trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- navmaps_pal(values = "red", 
                                                                          software_format = software_format, 
-                                                                         file_type = file_type)
+                                                                         file_type = file_type_grid)
     trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- navmaps_pal(values = "lightgreen", 
                                                                          software_format = software_format, 
-                                                                         file_type = file_type)
+                                                                         file_type = file_type_grid)
     trawlable_grid$fill <- 0
     trawlable_grid$description <- paste0("Trawlable? ", trawlable_grid$TRAWLABLE, "; Stratum: ", trawlable_grid$STRATUM)
     
-    kml_path <- here::here("output", region, "navigation", paste0(region, "_trawlwable.", file_type))
+    grid_path <- here::here("output", region, "navigation", paste0(region, "_trawlwable_grid.", file_type_grid))
     
-    .check_output_path(kml_path)
-    message("make_trawlable: Writing trawlable/untrawlable kml to ", kml_path)
+    mark_path <- here::here("output", region, "navigation", paste0(region, "_trawlwable_mark.", file_type_mark))
+    
+    .check_output_path(grid_path)
+    
+    .check_output_path(mark_path)
+    
+    trawlable_mark <- sf::st_centroid(trawlable_grid)
+
+    message("make_trawlable: Writing trawlable/untrawlable grid file to ", grid_path)
     sf_to_nav_file(x = trawlable_grid,
-                   file = kml_path,
+                   file = grid_path,
                    name_col = "STATIONID",
                    description_col = "description",
                    color_col = "color",
                    fill_col = "fill",
+                   software_format = software_format)
+    
+    message("make_trawlable: Writing trawlable/untrawlable mark file to ", mark_path)
+    sf_to_nav_file(x = trawlable_mark,
+                   file = mark_path,
+                   name_col = "STATIONID",
+                   description_col = "description",
+                   color_col = "color",
                    software_format = software_format)
  
 }
