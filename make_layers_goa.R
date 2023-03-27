@@ -19,8 +19,7 @@ make_towpaths(
   software_format = SOFTWARE
 )
 
-# 5. Station grid 
-#   a. With trawlable/untrawlable (AI/GOA)
+# 5. Trawlable/untrawlable station grid (lines) and marks
 make_trawlable(
   region = region, 
   channel = channel,
