@@ -49,12 +49,12 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
   
   shp_path_grid <- here::here("output", region, "shapefiles", paste0(region, "_trawlwable_grid.shp"))
   
-  .check_output_path(shp_path)
+  .check_output_path(shp_path_grid)
   message("make_trawlable: Writing trawlable/untrawlable shapefile to ", shp_path_grid)
   
   # Write output to shapefile
   sf::st_write(obj = trawlable_grid, 
-               dsn = shp_path, 
+               dsn = shp_path_grid, 
                append = FALSE)
                          
   message("make_trawlable: Converting to WGS84 and adding color/fill columns.")
@@ -94,11 +94,17 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
                    software_format = software_format)
     
     message("make_trawlable: Writing trawlable/untrawlable mark file to ", mark_path)
+    
+    trawlable_mark$shape <- navmaps_sym_pal(values = "circle1", 
+                                            software_format = software_format,
+                                            file_type = file_type_mark)
+    
     sf_to_nav_file(x = trawlable_mark,
                    file = mark_path,
                    name_col = "STATIONID",
                    description_col = "description",
                    color_col = "color",
+                   shape_col = "shape",
                    software_format = software_format)
  
 }
