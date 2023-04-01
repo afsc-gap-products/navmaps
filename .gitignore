@@ -34,7 +34,6 @@
 *.knit.md
 inst/doc
 Meta
-*.png
 *.lock
 *.tzx
 *.dbf
