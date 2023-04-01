@@ -36,8 +36,8 @@ library(navmaps)
 dat <- readxl::read_xlsx(path = system.file("/extdata/ex_lnm.xlsx", package = "navmaps"))
 
 dat <- dplyr::mutate(dat,
-                     LONGITUDE = ddm_string_to_dd(POSITION)[,1],
-                     LATITUDE = ddm_string_to_dd(POSITION)[,2])
+                     LONGITUDE = dms_string_to_dd(POSITION)[,1],
+                     LATITUDE = dms_string_to_dd(POSITION)[,2])
 ```
 
 At this point, the moorings data can be converted to sf and passed to sf_to_nav_file() like any other spatial data in a data.frame.

@@ -163,7 +163,7 @@ for(ii in 1:length(software_types)) {
   buoys <- read.csv(file = here::here("data", "buoys", "Buoys_2022.csv")) |>
     dplyr::select(-X) |>
     sf::st_as_sf(coords = c("Longitude", "Latitude"), crs = "EPSG:4326")
-  buoys$shape <- navmaps_sym_pal(values = "warning", software_format = "globe", file_type = FILE_TYPE_POINT)
+  buoys$shape <- navmaps_sym_pal(values = "warning", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
   buoys$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
   buoys$description <- paste0("Top float: ", buoys$TOP.FLOAT.DEPTH, "; Depth: ", buoys$WATER.DEPTH)
   

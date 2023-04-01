@@ -299,14 +299,14 @@ dmm_to_dd <- function(x) {
 
 
 
-#' Function to convert degree-decimal minute coordinates to decimal degrees
+#' Function to convert degree-decimal minute degree-minute-second coordinates to decimal degrees
 #' 
 #' @param x Character string containing latitude and longitudes separated by a comma that includes hemisphere information (such as '72°30.500’N, 152°00.000’W').
 #' @returns Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (e.g. '72°30.500’N, 152°00.000’W' returns a 2L numeric vector -152.00000   80.83333)
 #' @examples ddm_string_to_dd('72°30.500’N, 152°00.000’W')
 #' @export
 
-ddm_string_to_dd <- function(x) {
+dms_string_to_dd <- function(x) {
   
   fn <- function(x) {
     stopifnot("dms_string_to_dd: x must be a character vector." = is.character(x))
@@ -343,11 +343,11 @@ ddm_string_to_dd <- function(x) {
 
 
 
-#' Internal function called by ddm_string_to_dd
+#' Internal function called by dms_string_to_dd
 #' 
-#' Converst decimal degree coordinates to decimal degree longitude latitude.
+#' Converts string to decimal degree longitude and latitude.
 #' 
-#' @param 
+#' @param string A character string of 
 #' @noRd
 
 calc_coords <- function(string) {
@@ -358,11 +358,20 @@ calc_coords <- function(string) {
     )
   )
   
-  stopifnot("dms_string_to_dd/calc_coords: string does not include degress, minutes, and decimal minutes." = length(split_string) == 3)
-  
+  if( !(length(split_string) %in% c(3, 4))) {
+    stop("dms_string_to_dd/calc_coords: string (", string, ") format unrecognized.")
+  }
+
   split_string <- as.numeric(split_string)
-  dd_string <- split_string[1] + (split_string[2] + split_string[3]) / 60
   
+  if(length(split_string) == 3) {
+    dd_string <- split_string[1] + (split_string[2] + split_string[3]/1000) / 60
+  }
+  
+  if(length(split_string) == 4) {
+    dd_string <- split_string[1] + split_string[2]/60 + (split_string[3] + split_string[4]/1000) / 3600
+  }
+
   return(dd_string)
 }
 

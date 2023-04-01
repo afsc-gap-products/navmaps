@@ -66,7 +66,9 @@ for(ii in 1:length(software_types)) {
   
   # 8. Survey stratum layer
   strata <- map_layers$survey.strata
-  strata$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  strata$color <- navmaps_pal(values = "yellow", 
+                              software_format = SOFTWARE, 
+                              file_type = FILE_TYPE_POLYGON)
   strata$fill <- 0
   strata$name <- paste0("Stratum ", strata$Stratum)
   

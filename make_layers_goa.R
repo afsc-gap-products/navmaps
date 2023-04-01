@@ -133,11 +133,17 @@ sf_to_nav_file(x = nprw,
                software_format = SOFTWARE)
 
 # 13. Buoys
-buoys <- read.csv(file = here::here("data", "buoys", "Buoys_2022.csv")) |>
-  sf::st_as_sf(coords = c("Longitude", "Latitude"), crs = "EPSG:4326")
-buoys$shape <- navmaps_sym_pal(values = "warning", software_format = "globe", file_type = FILE_TYPE_POINT)
-buoys$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
-buoys$description <- paste0("Top float: ", buoys$TOP.FLOAT.DEPTH, "; Depth: ", buoys$WATER.DEPTH)
+buoys <- readxl::read_xlsx(path = here::here("data", "buoys", "Buoys_2023_04_01.xlsx")) |>
+  dplyr::mutate(LONGITUDE = dms_string_to_dd(POSITION)[,1],
+                LATITUDE = dms_string_to_dd(POSITION)[,2]) |>
+  sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326")
+buoys$shape <- navmaps_sym_pal(values = "warning", 
+                               software_format = SOFTWARE, 
+                               file_type = FILE_TYPE_POINT)
+buoys$color <- navmaps_pal(values = "darkorange", 
+                           software_format = SOFTWARE, 
+                           file_type = FILE_TYPE_POINT)
+buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
 
 sf_to_nav_file(x = buoys,
                file = here::here("output", region, "navigation", paste0("buoys_2022.", FILE_TYPE_POINT)),
