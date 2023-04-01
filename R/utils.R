@@ -299,6 +299,75 @@ dmm_to_dd <- function(x) {
 
 
 
+#' Function to convert degree-decimal minute coordinates to decimal degrees
+#' 
+#' @param x Character string containing latitude and longitudes separated by a comma that includes hemisphere information (such as '72°30.500’N, 152°00.000’W').
+#' @returns Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (e.g. '72°30.500’N, 152°00.000’W' returns a 2L numeric vector -152.00000   80.83333)
+#' @examples ddm_string_to_dd('72°30.500’N, 152°00.000’W')
+#' @export
+
+ddm_string_to_dd <- function(x) {
+  
+  fn <- function(x) {
+    stopifnot("dms_string_to_dd: x must be a character vector." = is.character(x))
+    stopifnot("dms_string_to_dd: x must be a 1L character vector." = length(x) == 1)
+    
+    # Split latitude and longitude into separate character strings
+    pos_vec <- unlist(strsplit(x = x, split = ","))
+    pos_vec <- trimws(pos_vec) # Remove white space
+    
+    stopifnot("dms_string_to_dd: x must be a character string with latitude and longitude in degrees and decimal minutes that are separated by a comma, such as: 72°30.500’N, 152°00.000’W)" = length(pos_vec) == 2)
+    
+    hemispheres <- stringr::str_extract(pos_vec, "[A-Z]+")
+    
+    # Detect axis (latitude or longitude) and sign based on N,S,E,W in strings
+    axis_vec <- c(2, 2, 1, 1)[match(hemispheres, c("N", "S", "E", "W"))]
+    sign_vec <- c(1, -1, 1, -1)[match(hemispheres, c("N", "S", "E", "W"))]
+    
+    dd_vec <- unlist(lapply(X = pos_vec, FUN = navmaps:::calc_coords)) # Calculate coordinates
+    dd_vec <- dd_vec * sign_vec # Assign +/- based on hemisphere (east and north positive, west and south negative)
+    dd_vec <- as.matrix(dd_vec[axis_vec], ncol = 2) # Order coordinates to have longitude first then latitude
+    
+    return(dd_vec)
+  }
+  
+  out <- matrix(
+    unlist(
+      lapply(X = x, 
+             FUN = fn)), 
+         ncol = 2)
+  
+  return(out)
+  
+}
+
+
+
+#' Internal function called by ddm_string_to_dd
+#' 
+#' Converst decimal degree coordinates to decimal degree longitude latitude.
+#' 
+#' @param 
+#' @noRd
+
+calc_coords <- function(string) {
+  
+  split_string <- unlist(
+    strsplit(x = gsub("\\D+", " ", string),
+             split = " "
+    )
+  )
+  
+  stopifnot("dms_string_to_dd/calc_coords: string does not include degress, minutes, and decimal minutes." = length(split_string) == 3)
+  
+  split_string <- as.numeric(split_string)
+  dd_string <- split_string[1] + (split_string[2] + split_string[3]) / 60
+  
+  return(dd_string)
+}
+
+
+
 #' Convert decimal to hex color
 #' 
 #' Convert a base 16 decimal color to a hex color.
