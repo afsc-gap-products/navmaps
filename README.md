@@ -21,7 +21,7 @@ This is the preferred installation method if you won't be reading or writing fro
 
 ```
 library(remotes)
-install_github("sean-rohan-NOAA/navmaps", auth_token = gh::gh_token())
+install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
 ```
 
 
@@ -38,7 +38,7 @@ If you already have R version 4.1.0-4.1.3 and Rtools40 installed, you can skip t
 7. Install the navmaps package:
 ```
 library(remotes)
-install_github("sean-rohan-NOAA/navmaps", auth_token = gh::gh_token())
+install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
 ```
 8. Close the 64-bit installation of R.
 9. Open the 32-bit installation of R that has the same version number as the 64-bit installation you used to complete the steps above. 
