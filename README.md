@@ -5,7 +5,7 @@ This package generates geospatial layers for marine navigation and GIS software 
 # Resources
 
 -   [Installation](#installation)
--   [Map layers and data sources](#data-sources)
+-   [Map layers and data sources](#map-layers-and-data-sources)
 -   [Creating navigation layers](./doc/make_navigation_files.md)
 -   [Setting colors and symbols](./doc/colors_symbols.md)
 -   [How to add new navigation software](./doc/howto_add_new_file_formats.md)
@@ -35,20 +35,20 @@ If you already have R version 4.1.0-4.1.3 and Rtools40 installed, you can skip t
 6.  Install the purrr package (the binary, **DO NOT COMPILE/BUILD FROM SOURCE**).
 7.  Install the navmaps package:
 
-```{=html}
-<!-- -->
 ```
     library(remotes)
     install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
+```
+
 
 8.  Close the 64-bit installation of R.
 9.  Open the 32-bit installation of R that has the same version number as the 64-bit installation you used to complete the steps above.
 10. Check that the proper drivers are installed:
 
-```{=html}
-<!-- -->
 ```
     library(navmaps)
+```
+
 
     # Should return an error if drivers aren't detected or do nothing if .mdb or .accdb drivers are installed.
     .check_driver()
