@@ -48,10 +48,9 @@ write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = T
     RODBC::sqlDrop(channel = odbc_con, sqtable = tablename)
   }
   
-  print(head(x))
-  
   # Write data to tablename in odbc_con
-  message("write_to_access: Saving data to ", tablename, " table in ", dsn)
+  message("write_to_access: Saving data to ", tablename, " table in ", dsn, ". Header: ")
+  print(head(x))
   try_save <- try(RODBC::sqlSave(channel = odbc_con, 
                                   dat = x, 
                                   tablename = tablename, 

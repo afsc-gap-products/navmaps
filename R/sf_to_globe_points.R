@@ -35,8 +35,6 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
                   Symbol = shape_col) |>
     as.data.frame()
   
-  # print(head(x))
-  
   if(is.null(time_col)) {
     time_col <- "time"
     x$time <- Sys.time()
@@ -97,12 +95,18 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
     x$Catch <- as.numeric(NA)
   }
   
-  # print(head(x))
+
+  # Check for required columns
+  required_columns <- c("Latitude", "Longitude", "Symbol", "Color", "DateTime", "Name", "Comment", "Depth", "Temperature", "Tide", "Catch", "Flags", "LastModified")
+  
+  if(!(all(required_columns %in% names(x)))) {
+    
+    stop("sf_to_globe_points: Missing required column(s) ", paste(required_columns[which(!(required_columns %in% names(x)))], collapse = ", " ))
+  }  
   
   out <- x |>
     dplyr::select(dplyr::all_of(c("Latitude", "Longitude", "Symbol", "Color", "DateTime", "Name", "Comment", "Depth", "Temperature", "Tide", "Catch", "Flags", "LastModified")))
   
-  # print(head(out))
    
   if(file_type == "csv") {
     write.csv(out, file = file, row.names = FALSE, na = "")

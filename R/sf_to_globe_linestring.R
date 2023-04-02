@@ -80,10 +80,17 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col = NULL, extra_co
   
   x$index <- 1:nrow(x)
   
-  out <- x |>
-    dplyr::select(dplyr::all_of(c("Latitude", "Longitude", "DateTime", "Color", "Width", "index", "hauljoin")))
+  # Check for required columns
+  required_columns <- c("Latitude", "Longitude", "DateTime", "Color", "Width", "index", "hauljoin")
   
-  print(head(out))
+  if(!(all(required_columns %in% names(x)))) {
+    
+    stop("sf_to_globe_linestring: Missing required column(s) ", paste(required_columns[which(!(required_columns %in% names(x)))], collapse = ", " ))
+  }  
+  
+  
+  out <- x |>
+    dplyr::select(dplyr::all_of(required_columns))
   
   if(file_type == "csv") {
     write.csv(out, file = file, row.names = FALSE, na = "")
