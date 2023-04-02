@@ -5,7 +5,7 @@ This package generates geospatial layers for marine navigation and GIS software 
 # Resources
 
 -   [Installation](#installation)
--   [Data sources by region](./doc/data_sources.md)
+-   [Map layers and data sources](#data-sources)
 -   [Creating navigation layers](./doc/make_navigation_files.md)
 -   [Setting colors and symbols](./doc/colors_symbols.md)
 -   [How to add new navigation software](./doc/howto_add_new_file_formats.md)
@@ -67,9 +67,9 @@ If the 32-bit installation fails:
 5.  Create a new R Studio 'R Package' project in your local navmaps directory.
 6.  Install the package using Build \> Install (Ctrl+Shift+B); you may need to first install dependencies individually.
 
-## Data Sources
+# Map Layers and Data Sources
 
-| Name                                       | Description                                                                                                | Type                                       | Regions           | Sources                                                                                                                     | Update |
+| Layer Name                                       | Description                                                                                                | Type                                       | Regions           | Sources                                                                                                                     | Update |
 |------------|------------|------------|------------|------------|------------|
 | Survey Strata                              | Survey stratum polygons                                                                                    | Lines or polygons                          | EBS, NBS, AI, GOA | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package  |  See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
 | Survey Grid                                | Survey grid polygons with station name and stratum info.                                                    | Lines or polygons                          | EBS, NBS          | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package                                                                                                          | See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
@@ -81,6 +81,7 @@ If the 32-bit installation fails:
 | Historical Towpaths                        | Historical towpaths based on smoothed GPS data. Includes performance code, year/cruise, and vessel info.   | Lines                                      | EBS, NBS, AI, GOA | race_data.cruises, race_data.hauls, race_data.position_headers, race_data.positions, race_data.datum_codes                  |                   | Annual |
 | Station Allocation                         | Station allocation by vessel for the AI or GOA surveys.                                                    | Marks                                      | AI, GOA           | [StationAllocationAIGOA](https://github.com/afsc-gap-products/StationAllocationAIGOA) | Annual  |
 | Oceanographic Moorings (buoys)             |  Location, depth, and contact information about oceanographic moorings. |  Marks | EBS/NBS, AI, GOA  |  USCG. See [Download and format moorings data](./doc/import_lnm_moorings_data.md) | Annual (last update: April 1, 2023) |
+| Stellar Sea Lion No Transit Zones | No-transit zones around Steller Sea Lion Haulouts. | Lines or polygons | EBS, AI, GOA | AFSC Permits Coordinator | Last update: April 2022 | 
 | Humpback Whale Critical Habitat            | Humpback Whale Critical Habitat areas.  | Lines or polygons  | EBS, AI, GOA | NOAA Fisheries. [Link](https://www.fisheries.noaa.gov/resource/map/humpback-whale-critical-habitat-maps-and-gis-data)   | Last update: March 23,2023 |
 | North Pacific Right Whale Critical Habitat | North Pacific Right Whale Critical Habitat areas | Lines or polygons | EBS/NBS, AI, GOA  | NOAA Fisheries. [Link](https://www.fisheries.noaa.gov/resource/map/north-pacific-right-whale-critical-habitat-map-and-gis-data) | Last update: April 2022 |
 | Sea Otter Critical Habitat | Sea Otter Critical Habitat areas.  | Lines or polygons  | EBS/NBS, AI, GOA  | USFWS. [Link](https://ecos.fws.gov/ecp/species/2884) |  |
