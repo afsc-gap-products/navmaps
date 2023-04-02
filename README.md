@@ -20,8 +20,11 @@ Installation methods depend on whether you will be reading or writing Globe MS A
 
 This is the preferred installation method if you won't be reading or writing from .mdb and .accdb files. I'd suggest installing this for your latest version of R if you're producing layers for software other than Globe.
 
-    library(remotes)
-    install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
+```
+library(remotes)
+
+install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
+```
 
 ### Installation for 32-bit R (R version \<= 4.1.3)
 
@@ -36,8 +39,9 @@ If you already have R version 4.1.0-4.1.3 and Rtools40 installed, you can skip t
 7.  Install the navmaps package:
 
 ```
-    library(remotes)
-    install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
+library(remotes)
+
+install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
 ```
 
 
@@ -46,15 +50,15 @@ If you already have R version 4.1.0-4.1.3 and Rtools40 installed, you can skip t
 10. Check that the proper drivers are installed:
 
 ```
-    library(navmaps)
+library(navmaps)
+
+# Should return an error if drivers aren't detected or do nothing if .mdb or .accdb drivers are installed.
+.check_driver()
+
+# You can also view the list of drivers. The one you'll need is named 'Microsoft Access Driver (*.mdb)'
+odbc::odbcListDrivers()
 ```
 
-
-    # Should return an error if drivers aren't detected or do nothing if .mdb or .accdb drivers are installed.
-    .check_driver()
-
-    # You can also view the list of drivers. The one you'll need is named 'Microsoft Access Driver (*.mdb)'
-    odbc::odbcListDrivers()
 
 ### Troubleshooting 32-bit installation
 
