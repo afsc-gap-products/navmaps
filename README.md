@@ -26,7 +26,7 @@ library(remotes)
 install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
 ```
 
-### Installation for 32-bit R (R version \<= 4.1.3)
+### Installation for 32-bit R (R version <= 4.1.3)
 
 If you already have R version 4.1.0-4.1.3 and Rtools40 installed, you can skip to step 3.
 

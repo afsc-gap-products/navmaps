@@ -87,6 +87,8 @@ for(ii in 1:length(software_types)) {
   eider <- sf::st_read(here::here("data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp")) |>
     dplyr::filter(Unit_ID == "3 - Norton Sound")
   
+  sf::st_write(eider, here::here("output", region, "shapefiles", "SE_Only_Norton_Sound.shp"))
+  
   eider$color <- navmaps_pal(values = "red", 
                              software_format = SOFTWARE, 
                              file_type = FILE_TYPE_POLYGON)
