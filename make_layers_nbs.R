@@ -84,7 +84,9 @@ for(ii in 1:length(software_types)) {
   
   # 9. Spectacled Eider Critical Habitat
   
-  eider <- sf::st_read(here::here("data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp"))
+  eider <- sf::st_read(here::here("data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp")) |>
+    dplyr::filter(Unit_ID == "3 - Norton Sound")
+  
   eider$color <- navmaps_pal(values = "red", 
                              software_format = SOFTWARE, 
                              file_type = FILE_TYPE_POLYGON)
@@ -95,7 +97,7 @@ for(ii in 1:length(software_types)) {
     x = eider,
     file = here::here("output", region, "navigation", paste0("spectacled_eider_ch.", FILE_TYPE_POLYGON)),
     name_col = "name",
-    description_col = "UNIT_ID",
+    description_col = "Unit_ID",
     color_col = "color",
     fill_col = "fill",
     software_format = SOFTWARE
