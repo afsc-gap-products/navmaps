@@ -82,4 +82,23 @@ for(ii in 1:length(software_types)) {
     software_format = SOFTWARE
   )
   
+  # 9. Spectacled Eider Critical Habitat
+  
+  eider <- sf::st_read(here::here("data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp"))
+  eider$color <- navmaps_pal(values = "red", 
+                             software_format = SOFTWARE, 
+                             file_type = FILE_TYPE_POLYGON)
+  eider$fill <- 0
+  eider$name <- "Spectacled Eider Critical Habitat"
+  
+  sf_to_nav_file(
+    x = eider,
+    file = here::here("output", region, "navigation", paste0("spectacled_eider_ch.", FILE_TYPE_POLYGON)),
+    name_col = "name",
+    description_col = "UNIT_ID",
+    color_col = "color",
+    fill_col = "fill",
+    software_format = SOFTWARE
+  )
+  
 }
