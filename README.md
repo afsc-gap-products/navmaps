@@ -12,7 +12,7 @@ This package generates geospatial layers for marine navigation and GIS software 
 -   [Historical GLOBE repository](https://github.com/afsc-gap-products/Globe)
 -   [Download and format moorings data](./doc/import_lnm_moorings_data.md)
 
-# Installation {#installation}
+# Installation
 
 Installation methods depend on whether you will be reading or writing Globe MS Access database files (.mdb and .accdb). Reading or writing from .mdb/.accdb requires a 32-bit version of R with Microsoft Access drivers for RODBC. The R Project stopped producing 32-bit releases as of R version 4.2; the last 32-bit release was version 4.1.3.
 
