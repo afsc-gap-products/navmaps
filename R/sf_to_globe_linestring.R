@@ -34,9 +34,11 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col = NULL, extra_co
     x <- sf::st_cast(x, to = "LINESTRING")
   }
   
-  x$ID <- 1:nrow(x)  
+  # Handle multi-point geometry issues
+  x <- sf::st_cast(x, to = "MULTIPOINT")
+  x$ID <- 1:nrow(x) 
   
-  x <- sf::st_cast(x, to = "POINT")
+  x <- sf::st_cast(x, to = "POINT", group_or_split = TRUE)
   
   # Rename columns and convert lat/lon to radians to match Globe input format
   x <- cbind(x, as.data.frame(sf::st_coordinates(x))) |>

@@ -25,8 +25,9 @@ for(ii in 1:length(software_types)) {
   
   # Survey grid without trawlable/untrawlable (EBS/NBS)
   survey_grid <- map_layers$survey.grid |>
-    sf::st_make_valid() |> 
+    sf::st_make_valid() |>
     sf::st_cast("POLYGON", group_or_split = TRUE)
+  
   survey_grid$color <- navmaps_pal(values = "cyan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   survey_grid$fill <- 0
 
