@@ -44,7 +44,7 @@ get_gps_data <- function(region, channel = NULL) {
   
   message("Querying haul start/end time and position")
   
-  dplyr::bind_rows(
+  start_end <- dplyr::bind_rows(
     RODBC::sqlQuery(channel = channel, 
                     query = 
                       paste0(
@@ -84,8 +84,48 @@ get_gps_data <- function(region, channel = NULL) {
                       )
     ) |>
       dplyr::mutate(EVENT = "end")
-  ) |>
-    saveRDS(file = path_hs)
+  )
+  
+  start_end_rb <- dplyr::bind_rows(
+    RODBC::sqlQuery(channel = channel,
+                    query = 
+                      paste0(
+                        "select h.vessel, h.cruise, h.haul, h.start_longitude longitude, 
+                                  h.start_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth, 
+                                  p.description performance_description
+                                  from racebase.haul h, race_data.cruises c, race_data.surveys s, 
+                                  racebase.performance p
+                                  where s.survey_definition_id = ", survey_definition_id, 
+                        " and s.survey_id = c.survey_id 
+                                  and h.vessel = c.vessel_id 
+                                  and h.cruise = c.cruise 
+                                  and h.gear in (", paste(gear_codes, collapse = ", "),
+                        ") and h.performance = p.performance")) |>
+      dplyr::mutate(EVENT = "start"),
+    RODBC::sqlQuery(channel = channel,
+                    query = 
+                      paste0(
+                        "select h.vessel, h.cruise, h.haul, end_longitude longitude, 
+                          h.end_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth, 
+                           p.description performance_description 
+                           from racebase.haul h, race_data.cruises c, race_data.surveys s, racebase.performance p 
+                           where s.survey_definition_id = ", survey_definition_id, 
+                        " and s.survey_id = c.survey_id 
+                           and h.vessel = c.vessel_id 
+                           and h.cruise = c.cruise 
+                           and h.gear in (", paste(gear_codes, collapse = ", "),
+                        ") and h.performance = p.performance")) |>
+      dplyr::mutate(EVENT = "end")
+  ) |> dplyr::anti_join( dplyr::select(start_end, VESSEL, CRUISE, HAUL, EVENT))
+  
+  start_end <- dplyr::bind_rows(start_end, start_end_rb)
+  
+  saveRDS(object = start_end, 
+          file = path_hs)
+  
+  unique_start_end_hauls <- dplyr::select(start_end, VESSEL, CRUISE, HAUL) |>
+    unique()
+  
   message("Haul start/end saved to ", path_hs)
   
   
@@ -165,6 +205,29 @@ get_gps_data <- function(region, channel = NULL) {
       )
       
     }
+    
+    # Check for missing GPS data
+    
+    if(nrow(temp_gps) > 0) {
+      
+      sel_start_end <- dplyr::filter(unique_start_end_hauls, 
+                                     VESSEL == unique_vessel_cruise$VESSEL[ii], 
+                                     CRUISE == unique_vessel_cruise$CRUISE[ii])
+      
+      unique_gps_hauls <- dplyr::select(temp_gps, VESSEL, CRUISE, HAUL) |>
+        unique()
+      
+      missing_gps <- dplyr::anti_join(unique_gps_hauls, sel_start_end)
+      
+      
+      dplyr::filter(sel_start_end, VESSEL == 148, HAUL == 8)
+      
+    }
+    
+    
+    
+    
+    
     
     if(nrow(temp_gps) > 0) {
       
