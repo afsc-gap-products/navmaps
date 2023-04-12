@@ -44,79 +44,91 @@ get_gps_data <- function(region, channel = NULL) {
   
   message("Querying haul start/end time and position")
   
+  performance_codes_rb <- RODBC::sqlQuery(channel = channel,
+                                          query = "select performance, description performance_description from racebase.performance")
+  
+  performance_codes_rd <- RODBC::sqlQuery(channel = channel,
+                  query = "select hpn.note performance_description, hpc.haul_performance_code performance from race_data.haul_performance_notes hpn, 
+                  race_data.haul_performance_codes hpc 
+                  where hpc.HAUL_PERFORMANCE_NOTE_ID = hpn.HAUL_PERFORMANCE_NOTE_ID") |>
+    dplyr::filter(!(PERFORMANCE %in% performance_codes_rb$PERFORMANCE))
+  
+  performance_codes <- dplyr::bind_rows(performance_codes_rb,
+                                        performance_codes_rd)
+  
   start_end <- dplyr::bind_rows(
     RODBC::sqlQuery(channel = channel, 
                     query = 
                       paste0(
                         "select c.vessel_id vessel, c.cruise, h.haul, h.haul_id hauljoin, 
-                        h.performance, p.description performance_description, e.date_time, 
+                        h.performance, e.date_time, 
                         e.latitude latitude, e.longitude longitude, h.bottom_depth
                       from race_data.survey_definitions sd, race_data.surveys s, 
-                        race_data.cruises c, race_data.hauls h, race_data.events e, 
-                        racebase.performance p where sd.survey_definition_id = ", survey_definition_id, 
+                        race_data.cruises c, race_data.hauls h, race_data.events e 
+                        where sd.survey_definition_id = ", survey_definition_id, 
                         " and sd.survey_definition_id = s.survey_definition_id 
                         and h.gear in (", paste(gear_codes, collapse = ", "),
                         ") and s.survey_id = c.survey_id 
                         and c.cruise_id = h.cruise_id 
                         and h.haul_id = e.haul_id 
-                        and h.start_timelog = e.event_type_id
-                        and h.performance = p.performance"
+                        and h.start_timelog = e.event_type_id"
                       )
     ) |>
       dplyr::mutate(EVENT = "start"),
     RODBC::sqlQuery(channel = channel, 
                     query = 
                       paste0(
-                        "select c.vessel_id vessel, c.cruise, h.haul, h.haul_id hauljoin, 
-                        h.performance, p.description performance_description, e.date_time, 
-                        e.latitude latitude, e.longitude longitude, h.bottom_depth
+                        "select c.vessel_id vessel, c.cruise, h.haul, h.haul_id hauljoin, e.date_time, 
+                        h.performance, e.latitude latitude, e.longitude longitude, h.bottom_depth
                       from race_data.survey_definitions sd, race_data.surveys s, 
-                        race_data.cruises c, race_data.hauls h, race_data.events e, 
-                        racebase.performance p 
+                        race_data.cruises c, race_data.hauls h, race_data.events e
                       where sd.survey_definition_id = ", survey_definition_id, 
                         " and sd.survey_definition_id = s.survey_definition_id 
                         and h.gear in (", paste(gear_codes, collapse = ", "),
                         ") and s.survey_id = c.survey_id 
                       and c.cruise_id = h.cruise_id 
                       and h.haul_id = e.haul_id 
-                      and h.end_timelog = e.event_type_id
-                      and h.performance = p.performance"
+                      and h.end_timelog = e.event_type_id"
                       )
     ) |>
       dplyr::mutate(EVENT = "end")
-  )
+  ) |>
+    dplyr::inner_join(performance_codes, by = "PERFORMANCE")
   
   start_end_rb <- dplyr::bind_rows(
     RODBC::sqlQuery(channel = channel,
                     query = 
                       paste0(
                         "select h.vessel, h.cruise, h.haul, h.start_longitude longitude, 
-                                  h.start_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth, 
-                                  p.description performance_description
-                                  from racebase.haul h, race_data.cruises c, race_data.surveys s, 
-                                  racebase.performance p
+                                  h.start_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth
+                                  from racebase.haul h, race_data.cruises c, race_data.surveys s
                                   where s.survey_definition_id = ", survey_definition_id, 
                         " and s.survey_id = c.survey_id 
                                   and h.vessel = c.vessel_id 
                                   and h.cruise = c.cruise 
                                   and h.gear in (", paste(gear_codes, collapse = ", "),
-                        ") and h.performance = p.performance")) |>
+                        ")")) |>
       dplyr::mutate(EVENT = "start"),
     RODBC::sqlQuery(channel = channel,
                     query = 
                       paste0(
                         "select h.vessel, h.cruise, h.haul, end_longitude longitude, 
-                          h.end_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth, 
-                           p.description performance_description 
-                           from racebase.haul h, race_data.cruises c, race_data.surveys s, racebase.performance p 
+                          h.end_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth,
+                          h.duration
+                           from racebase.haul h, race_data.cruises c, race_data.surveys s
                            where s.survey_definition_id = ", survey_definition_id, 
                         " and s.survey_id = c.survey_id 
                            and h.vessel = c.vessel_id 
                            and h.cruise = c.cruise 
                            and h.gear in (", paste(gear_codes, collapse = ", "),
-                        ") and h.performance = p.performance")) |>
-      dplyr::mutate(EVENT = "end")
-  ) |> dplyr::anti_join( dplyr::select(start_end, VESSEL, CRUISE, HAUL, EVENT))
+                        ")")) |>
+      dplyr::mutate(EVENT = "end",
+                    DATE_TIME = DATE_TIME + DURATION * 3600) |>
+      dplyr::select(-DURATION)
+  ) |>
+    dplyr::inner_join(performance_codes, by = "PERFORMANCE") |> 
+    dplyr::anti_join(dplyr::select(start_end, VESSEL, CRUISE, HAUL, EVENT),
+                    by = c("VESSEL", "CRUISE", "HAUL", "EVENT"))
   
   start_end <- dplyr::bind_rows(start_end, start_end_rb)
   
@@ -127,7 +139,6 @@ get_gps_data <- function(region, channel = NULL) {
     unique()
   
   message("Haul start/end saved to ", path_hs)
-  
   
   # Retrieve GPS data ----
   # GPS data are not available from all tables. Some tables have higher quality data than others. 
@@ -207,8 +218,6 @@ get_gps_data <- function(region, channel = NULL) {
     }
     
     # Check for missing GPS data
-    
-    if(nrow(temp_gps) > 0) {
       
       sel_start_end <- dplyr::filter(unique_start_end_hauls, 
                                      VESSEL == unique_vessel_cruise$VESSEL[ii], 
@@ -217,17 +226,30 @@ get_gps_data <- function(region, channel = NULL) {
       unique_gps_hauls <- dplyr::select(temp_gps, VESSEL, CRUISE, HAUL) |>
         unique()
       
-      missing_gps <- dplyr::anti_join(unique_gps_hauls, sel_start_end)
+      if(nrow(unique_gps_hauls) == 0) {
+        missing_gps <- sel_start_end
+      } else {
+        missing_gps <- dplyr::anti_join(unique_gps_hauls, 
+                                        sel_start_end, 
+                                        by = c("VESSEL", "CRUISE", "HAUL"))
+      }
       
-      
-      dplyr::filter(sel_start_end, VESSEL == 148, HAUL == 8)
-      
-    }
-    
-    
-    
-    
-    
+      if(nrow(missing_gps) > 0) {
+        
+        fill_missing <- dplyr::inner_join(start_end, 
+                                          missing_gps, 
+                                          by = c("VESSEL", "CRUISE", "HAUL")) |>
+          dplyr::select(VESSEL, CRUISE, HAUL, DATE_TIME, LATITUDE, LONGITUDE, EVENT) |>
+          dplyr::arrange(VESSEL, CRUISE, HAUL, desc(EVENT)) |>
+          dplyr::select(-EVENT)
+        
+        if(nrow(temp_gps) > 0) {
+          temp_gps <- dplyr::bind_rows(temp_gps, fill_missing)
+        } else {
+          temp_gps <- fill_missing
+        }
+        
+      }
     
     if(nrow(temp_gps) > 0) {
       

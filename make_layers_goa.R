@@ -13,7 +13,7 @@ get_gps_data(region = region, channel = channel)
 
 software_types <- c("globe", "timezero", "opencpn") 
 
-for(ii in 2:length(software_types)) {
+for(ii in 1:length(software_types)) {
   
   set_software(software_types[ii])
   
@@ -115,7 +115,7 @@ for(ii in 2:length(software_types)) {
   nprw$fill <- 0
   
   sf_to_nav_file(x = nprw,
-                 file = here::here("output", region, "navigation", paste0("NPRW_Critical_Habitat.", FILE_TYPE_POLYGON)),
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("NPRW_Critical_Habitat.", FILE_TYPE_POLYGON)),
                  name_col = "name",
                  description_col = "description",
                  color_col = "color",
@@ -167,7 +167,8 @@ for(ii in 2:length(software_types)) {
                 grouping_col = "DateTime"),
     globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_EarlyDawnEast_2022.mdb"),
                 grouping_col = NULL)
-  )
+  ) |>
+    sf::st_cast("LINESTRING", group_or_split = TRUE)
   
   crabpots$description <- "Crab pot storage"
   crabpots$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)

@@ -178,8 +178,6 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
     
     allocation_sf$time <- Sys.time()
     
-    # print(head(allocation_sf))
-    
     fpath <- here::here("output", region, "navigation", software_format, paste0(region, "_station_allocation.", file_type))
     
     message("make_station_allocation: Writing station allocation file to ", fpath)
@@ -376,13 +374,16 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)))
   
-   towpath_sf |>
+  towpath_sf <- towpath_sf |>
     dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
-                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                  color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
+                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION))
+  
+  towpath_sf$color <- navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                       file_type = file_type_lines,
-                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
-    sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)),
+                                      software_format = software_format)[as.numeric(sign(towpath_sf$PERFORMANCE)) + 2]
+
+    sf_to_nav_file(x = towpath_sf,
+                   file = here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)),
                    name_col = "name",
                    description_col = "desc",
                    color_col = "color",

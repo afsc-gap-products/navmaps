@@ -287,13 +287,13 @@ opencpn_pal <- function(n = NULL, values = NULL, type = "gpx", fill_missing_colo
       values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
   }
   
-  if(fill_missing_color) {
-    warning("opencpn_pal: fill_missing_color = TRUE; any invalid color selections will return 'Black' (#000000)")
-    pal_df <- rbind(pal_df, 
-                    data.frame(names = c("tan", "purple", "lightgreen", "darkgreen", "cyan", "darkgrey", "maroon"),
-                               hex = rep("#000000", 7),
-                               gpx = rep("Black", 7)))
-  }
+  # if(fill_missing_color) {
+  #   warning("opencpn_pal: fill_missing_color = TRUE; any invalid color selections will return 'Black' (#000000)")
+  #   pal_df <- rbind(pal_df, 
+  #                   data.frame(names = c("tan", "purple", "lightgreen", "darkgreen", "cyan", "darkgrey", "maroon"),
+  #                              hex = rep("#000000", 7),
+  #                              gpx = rep("Black", 7)))
+  # }
   
   if(!is.null(values)) {
     
@@ -302,7 +302,7 @@ opencpn_pal <- function(n = NULL, values = NULL, type = "gpx", fill_missing_colo
       if(!all(values %in% pal_df$names)) {
         stop("opencpn_pal: Invalid colors passed to values argument: ", 
              paste(values[!(values %in% pal_df$names)], collapse = ", ") 
-             ,". List valid color names using opencpn_pal(n = Inf, type = 'names')")
+             , ". List valid color names using opencpn_pal(n = Inf, type = 'names')")
       }
       
       values <- match(values,
