@@ -39,8 +39,6 @@ sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col 
 
   if(software_format == "globe") {
     
-    # print(head(x))
-    
     x$Name <- x[[name_col]]
     x$Comment <- x[[description_col]]
     

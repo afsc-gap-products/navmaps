@@ -34,7 +34,7 @@ for(ii in 1:length(software_types)) {
   sf_to_nav_file(
     x = survey_grid,
     geometry = "LINESTRING",
-    file = here::here("output", region, "navigation", paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
     name_col = "STATIONID",
     description_col = "STATIONID",
     color_col = "color", 
@@ -57,7 +57,7 @@ for(ii in 1:length(software_types)) {
   
   sf_to_nav_file(
     x = grid_centers,
-    file = here::here("output", region, "navigation", paste0(region, "_marks.", FILE_TYPE_POINT)),
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_marks.", FILE_TYPE_POINT)),
     name_col = "STATIONID",
     description_col = "STATIONID",
     color_col = "color",
@@ -75,7 +75,7 @@ for(ii in 1:length(software_types)) {
   
   sf_to_nav_file(
     x = strata,
-    file = here::here("output", region, "navigation", paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)), 
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)), 
     name_col = "name",
     description_col = "Stratum",
     color_col = "color",
@@ -98,7 +98,7 @@ for(ii in 1:length(software_types)) {
   
   sf_to_nav_file(
     x = eider,
-    file = here::here("output", region, "navigation", paste0("spectacled_eider_ch.", FILE_TYPE_POLYGON)),
+    file = here::here("output", region, "navigation", SOFTWARE, paste0("spectacled_eider_ch.", FILE_TYPE_POLYGON)),
     name_col = "name",
     description_col = "Unit_ID",
     color_col = "color",

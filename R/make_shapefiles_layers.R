@@ -75,9 +75,9 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     trawlable_grid$fill <- 0
     trawlable_grid$description <- paste0("Trawlable? ", trawlable_grid$TRAWLABLE, "; Stratum: ", trawlable_grid$STRATUM)
     
-    grid_path <- here::here("output", region, "navigation", paste0(region, "_trawlwable_grid.", file_type_grid))
+    grid_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlwable_grid.", file_type_grid))
     
-    mark_path <- here::here("output", region, "navigation", paste0(region, "_trawlwable_mark.", file_type_mark))
+    mark_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlwable_mark.", file_type_mark))
     
     .check_output_path(grid_path)
     
@@ -180,7 +180,7 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
     
     # print(head(allocation_sf))
     
-    fpath <- here::here("output", region, "navigation", paste0(region, "_station_allocation.", file_type))
+    fpath <- here::here("output", region, "navigation", software_format, paste0(region, "_station_allocation.", file_type))
     
     message("make_station_allocation: Writing station allocation file to ", fpath)
     
@@ -347,7 +347,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
-    sf_to_nav_file(file = here::here("output", region, "navigation", paste0(region, "_towmid.", file_type_marks)),
+    sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towmid.", file_type_marks)),
                    name_col = "name",
                    description_col = "desc",
                    color_col = "color",
@@ -365,7 +365,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"),
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>                                   
-  sf_to_nav_file(file = here::here("output", region, "navigation", paste0(region, "_towstart.", file_type_marks)),
+  sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towstart.", file_type_marks)),
                  name_col = "name",
                  description_col = "desc",
                  color_col = "color",
@@ -374,7 +374,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                  extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
                  software_format = software_format)
   
-  print(here::here("output", region, "navigation", paste0(region, "_towpath.", file_type_lines)))
+  print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)))
   
   towpath_sf |>
     dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
@@ -382,7 +382,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                       file_type = file_type_lines,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
-    sf_to_nav_file(file = here::here("output", region, "navigation", paste0(region, "_towpath.", file_type_lines)),
+    sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)),
                    name_col = "name",
                    description_col = "desc",
                    color_col = "color",

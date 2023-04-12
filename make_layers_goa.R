@@ -3,7 +3,6 @@
 # 1. Setup
 library(navmaps)
 region <- "goa" # Options are sebs, nbs, ai, goa
-set_software("globe") # Options are globe, opencpn, timezero
 
 # 2. Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region)
@@ -12,7 +11,7 @@ channel <- get_connected(schema = "AFSC")
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
-software_types <- c("globe", "opencpn", "timezero") 
+software_types <- c("globe", "timezero", "opencpn") 
 
 for(ii in 1:length(software_types)) {
   
@@ -39,7 +38,7 @@ for(ii in 1:length(software_types)) {
   
   sf_to_nav_file(
     x = grid_centers,
-    file = here::here("output", region, "navigation", paste0(region, "_marks.", FILE_TYPE_POINT)),
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_marks.", FILE_TYPE_POINT)),
     name_col = "ID",
     description_col = "ID",
     color_col = "color",
@@ -70,7 +69,7 @@ for(ii in 1:length(software_types)) {
   
   sf_to_nav_file(
     x = strata,
-    file = here::here("output", region, "navigation", paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)), 
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)), 
     name_col = "name",
     description_col = "STRATUM",
     color_col = "color",
@@ -85,7 +84,7 @@ for(ii in 1:length(software_types)) {
   
   sf_to_nav_file(
     x = ssl,
-    file = here::here("output", region, "navigation", paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
     name_col = "Name",
     description_col = "Name",
     color_col = "color",
@@ -100,7 +99,7 @@ for(ii in 1:length(software_types)) {
   otters$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   
   sf_to_nav_file(x = otters,
-                 file = here::here("output", region, "navigation", paste0("otter_habitat.", FILE_TYPE_POLYGON)),
+                 file = here::here("output", region, "navigation",SOFTWARE, paste0("otter_habitat.", FILE_TYPE_POLYGON)),
                  name_col = "name",
                  description_col = "CH_Unit",
                  color_col = "color",
@@ -132,7 +131,7 @@ for(ii in 1:length(software_types)) {
   humpback$fill <- 0
   
   sf_to_nav_file(x = humpback,
-                 file = here::here("output", region, "navigation", paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
                  name_col = "name",
                  description_col = "description",
                  color_col = "color",
@@ -153,7 +152,7 @@ for(ii in 1:length(software_types)) {
   buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
   
   sf_to_nav_file(x = buoys,
-                 file = here::here("output", region, "navigation", paste0("buoys_2023_04_01.", FILE_TYPE_POINT)),
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("buoys_2023_04_01.", FILE_TYPE_POINT)),
                  name_col = "TYPE.NAME",
                  description_col = "description",
                  color_col = "color",
@@ -174,7 +173,7 @@ for(ii in 1:length(software_types)) {
   crabpots$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
   
   sf_to_nav_file(x = crabpots,
-                 file = here::here("output", region, "navigation", paste0("crabpots_2022.", FILE_TYPE_LINESTRING)),
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("crabpots_2022.", FILE_TYPE_LINESTRING)),
                  name_col = "id",
                  description_col = "description",
                  color_col = "color",
