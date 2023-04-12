@@ -342,7 +342,8 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
     dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
                   shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
-                                           software_format = software_format)[factor(sign(PERFORMANCE)+2)],
+                                           software_format = software_format,
+                                          file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
@@ -359,7 +360,8 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
     dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
                   shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
-                                          software_format = software_format)[factor(sign(PERFORMANCE)+2)],
+                                          software_format = software_format,
+                                          file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"),
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>                                   

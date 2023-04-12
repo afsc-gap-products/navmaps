@@ -11,9 +11,9 @@ channel <- get_connected(schema = "AFSC")
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
-software_types <- c("globe", "opencpn", "timezero") 
+software_types <- c("globe", "timezero", "opencpn") 
 
-for(ii in 1:length(software_types)) {
+for(ii in 3:length(software_types)) {
   set_software(software_types[ii]) # Options are globe, opencpn, timezero
   
   # 4. Historical towpath, tow start, and midpoint
@@ -23,15 +23,7 @@ for(ii in 1:length(software_types)) {
     software_format = SOFTWARE
   )
   
-  # 5. Station grid 
-  #   a. With trawlable/untrawlable (AI/GOA)
-  # make_trawlable(
-  #   region = region, 
-  #   channel = channel,
-  #   software_format = SOFTWARE
-  # )
-  
-  #   b. Without trawlable/untrawlable (EBS/NBS)
+  # 5. Station grid
   survey_grid <- map_layers$survey.grid
   survey_grid$color <- navmaps_pal(values = "tan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   survey_grid$fill <- 0
@@ -66,21 +58,6 @@ for(ii in 1:length(software_types)) {
     shape_col = "shape",
     software_format = SOFTWARE
   )
-  
-  # 7. Station allocation (AI/GOA/slope only)
-  # read.csv(here::here("data", "allocation", "AIallocation420.csv")) |> # Replace with path to station allocation file for the region
-  #   dplyr::select(-Symbol, -Color) |>
-  #   tidyr::drop_na(Longitude, Latitude) |>
-  #   make_station_allocation(
-  #     lon_col = "Longitude",
-  #     lat_col = "Latitude",
-  #     region = region,
-  #     station_col = "stationid",
-  #     stratum_col = "stratum",
-  #     vessel_col = "vessel",
-  #     extra_cols = c("Priority", "stationid", "stratum"),
-  #     software_format = SOFTWARE
-  #   )
   
   # 8. Survey stratum layer
   strata <- map_layers$survey.strata
@@ -179,27 +156,5 @@ for(ii in 1:length(software_types)) {
                  color_col = "color",
                  shape_col = "shape",
                  software_format = SOFTWARE)
-  
-  # 13. Crab pot storage (requires 32-bit R to open .mdb)
-  
-  # Add an entry for every crab pot storage data set
-  crabpots <- dplyr::bind_rows(
-    globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_AKTrojan_2022.mdb"),
-                grouping_col = "DateTime"),
-    globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_EarlyDawnEast_2022.mdb"),
-                grouping_col = NULL)
-  )
-  
-  crabpots$description <- "Crab pot storage"
-  crabpots$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
-  
-  sf_to_nav_file(x = crabpots,
-                 file = here::here("output", region, "navigation", paste0("crabpots_2022.", FILE_TYPE_LINESTRING)),
-                 name_col = "id",
-                 description_col = "description",
-                 color_col = "color",
-                 software_format = SOFTWARE)
-  
-  # 15. Special projects
   
 }

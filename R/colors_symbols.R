@@ -18,6 +18,8 @@ navmaps_pal <- function(values, software_format, file_type = NULL, ...) {
   
   if(software_format == "timezero") {
     
+    stopifnot("navmaps_pal: Must specify 'file_type' when software_format is 'timezero'" = is.character(file_type))
+    
     if(file_type == "kml") {
       out_col <- tz_pal(values = values, type = "kml")
     }
@@ -119,6 +121,10 @@ tz_pal <- function(n = NULL, values = NULL, type = "kml", ...) {
                                "ff000080", "ffffffff"),
                        gpx = c(14, 9, 5, 1, 15, 8, 2, 4, 3, 11, 19, 6, 17, 6))
   
+  if(class(values) == "character") {
+    values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
+  }
+  
   if(!is.null(values)) {
     
     if(class(values) == "character") {
@@ -198,6 +204,10 @@ globe_pal <- function(n = NULL, values = NULL, type = "decimal", ...) {
                                         decimal = c(13808780, 65535, 16711935, 255, 16711808, 8454016, 32768, 16776960, 16711680, 33023, 8421504, 0, 4194432, 16777215),
                        integer = c(6, 14, 13, 4, 5, 10, 2, 3, 1, 12, 7, 0, 9, 15))
   
+  if(class(values) == "character") {
+    values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
+  }
+  
   if(!is.null(values)) {
     
     if(class(values) == "character") {
@@ -272,6 +282,10 @@ opencpn_pal <- function(n = NULL, values = NULL, type = "gpx", fill_missing_colo
   pal_df <- data.frame(names = c("yellow", "magenta", "red", "green", "blue", "darkorange",  "black", "white"),
                        hex = c("#ffff00", "#ff00ff", "#ff0000", "#00ff00", "#0000ff", "#ff5a00",  "#000000", "#FFFFFF"),
                        gpx = c("Yellow", "Magenta", "Red", "Green", "Blue", "Orange", "Black", "White"))
+  
+  if(class(values) == "character") {
+      values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
+  }
   
   if(fill_missing_color) {
     warning("opencpn_pal: fill_missing_color = TRUE; any invalid color selections will return 'Black' (#000000)")
@@ -478,8 +492,8 @@ opencpn_sym_pal <- function(n = NULL, values = NULL, color = NULL, type = "names
     stop("Invalid type argument, ", type, "must be names or integer")
   }
   
-  sym_df <- data.frame(names = c('anchor', 'anchor1', 'anchor2', 'circle1', 'diamond', 'warning', 'circle2',  'circle3', 'crosshairs1', 'question', 'triangle1', 'square1', 'star',  'marker1', 'triangle2', 'x', 'marker'),
-                       gpx = c("Symbol-Anchor1", "Symbol-Anchor2", "Symbol-Anchor3", "Symbol-Circle-Black", "Symbol-Diamond-Black", "Symbol-Exclamation-Black", "Symbol-Glow-LargeBlack", "Symbol-Glow-Small-Black", "Symbol-Pin-Black", "Symbol-Question-Black", "Symbol-Spot-Black", "Symbol-Square-Black", "Symbol-Star-Black", "Symbol-Tick-Black", "Symbol-Triangle", "Symbol-X-Large-Black", "Symbol-X-Small-Black"))
+  sym_df <- data.frame(names = c('anchor', 'anchor1', 'anchor2', 'circle1', 'diamond', 'warning', 'circle2',  'circle3', 'crosshairs1', 'question', 'triangle1', 'square1', 'star',  'marker1', 'triangle2', 'x', 'marker', "asterisk"),
+                       gpx = c("Symbol-Anchor1", "Symbol-Anchor2", "Symbol-Anchor3", "Symbol-Circle-Black", "Symbol-Diamond-Black", "Symbol-Exclamation-Black", "Symbol-Glow-LargeBlack", "Symbol-Glow-Small-Black", "Symbol-Pin-Black", "Symbol-Question-Black", "Symbol-Spot-Black", "Symbol-Square-Black", "Symbol-Star-Black", "Symbol-Tick-Black", "Symbol-Triangle", "Symbol-X-Large-Black", "Symbol-X-Small-Black", "Symbol-X-Large-Black"))
   
   if(!is.null(values)) {
     
@@ -521,4 +535,42 @@ opencpn_sym_pal <- function(n = NULL, values = NULL, color = NULL, type = "names
   
   return(out)
   
+}
+
+
+
+#' Find closest color
+#' 
+#' Find the color that's closest to a user-provided input color in RGB space.
+#' 
+#' @param input_color Input color name as a character vector.
+#' @param valid_color_names Chracter vector of valid colors.
+#' @examples find_closest_color(input_color = "blue", valid_color_names = c("green", "red", "deepskyblue2"))
+#' find_closest_color(input_color = c("magenta", "darkgreen"), valid_color_names = c("green", "red", "deepskyblue2"))
+#' @export
+
+find_closest_color <- function(input_color, valid_color_names) {
+  
+  nn <- length(input_color)
+  
+  # Find RGB color
+  color_df <- data.frame(color = valid_color_names, 
+                         rgb = t(grDevices::col2rgb(valid_color_names)))
+  
+  # Convert input color to RGB
+  input_rgb <- grDevices::col2rgb(input_color)
+  
+  color_vec <- character(length = nn)
+  
+  for(ii in 1:nn) {
+    # Calculate the euclidean distance between the input color and each predefined color
+    distances <- apply(color_df[, 2:4], 1, function(x) {
+      sqrt(sum((as.numeric(input_rgb[,ii]) - x)^2))
+    })
+    
+    color_vec[ii] <- color_df$color[which.min(distances)]
+    
+  }
+
+  return(color_vec)
 }

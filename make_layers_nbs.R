@@ -14,7 +14,7 @@ get_gps_data(region = region, channel = channel)
 software_types <- c("globe", "opencpn", "timezero") 
 
 for(ii in 1:length(software_types)) {
-  set_software(software_types[ii]) # Options are globe, opencpn, timezero
+  set_software(software_types[ii])
   
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
