@@ -144,14 +144,14 @@ for(ii in 1:length(software_types)) {
                  software_format = SOFTWARE)
   
   # 12. Humpback Whale Critical Habitat
-  nprw <- sf::st_read(here::here("data", "humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
+  humpback <- sf::st_read(here::here("data", "humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
     sf::st_transform(crs = "EPSG:4326")
-  nprw$name <- "Humpback Critical Habitat"
-  nprw$description <- "Humpback Critical Habitat"
-  nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
-  nprw$fill <- 0
+  humpback$name <- "Humpback Critical Habitat"
+  humpback$description <- "Humpback Critical Habitat"
+  humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+  humpback$fill <- 0
   
-  sf_to_nav_file(x = nprw,
+  sf_to_nav_file(x = humpback,
                  file = here::here("output", region, "navigation", paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
                  name_col = "name",
                  description_col = "description",

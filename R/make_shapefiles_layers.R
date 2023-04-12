@@ -44,7 +44,8 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     trawlable_grid <- map_layers$survey.grid |>
       dplyr::select(GOAGRID_ID, STRATUM, geometry) |>
       dplyr::inner_join(trawlable,
-                        by = c("GOAGRID_ID", "STRATUM"))
+                        by = c("GOAGRID_ID", "STRATUM")) |>
+      dplyr::filter(!is.na(STATIONID))
   }
   
   shp_path_grid <- here::here("output", region, "shapefiles", paste0(region, "_trawlwable_grid.shp"))
@@ -62,13 +63,13 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     sf::st_wrap_dateline()
   
   # Set plot colors
-    trawlable_grid$color <- navmaps_pal(values = "tan", 
+    trawlable_grid$color <- navmaps_pal(values = "cyan", 
                                         software_format = software_format, 
                                         file_type = file_type_grid)
-    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- navmaps_pal(values = "red", 
+    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- navmaps_pal(values = "lightgreen", 
                                                                          software_format = software_format, 
                                                                          file_type = file_type_grid)
-    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- navmaps_pal(values = "lightgreen", 
+    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- navmaps_pal(values = "red", 
                                                                          software_format = software_format, 
                                                                          file_type = file_type_grid)
     trawlable_grid$fill <- 0
