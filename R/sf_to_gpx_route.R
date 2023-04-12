@@ -21,6 +21,9 @@ sf_to_gpx_route  <- function(x, file, name_col, time_col = NULL, color_col = NUL
   
   .check_extra_args(...)
   
+  # Remove invalid geometries
+  x <- remove_invalid_geometry(x = x)
+  
   if(is.null(time_col)) {
     time_col <- "time"
     x$time <- paste0(format(Sys.time(), "%Y-%m-%dT%H:%M:%S"), ".000000Z")
@@ -40,32 +43,35 @@ sf_to_gpx_route  <- function(x, file, name_col, time_col = NULL, color_col = NUL
     
     coords <- sf::st_coordinates(x[['geometry']])
     
+    if(nrow(coords) >= 2) {
+    
     n_segments <- unique(coords[, 3])
     
-    out <- character()
-    for(ii in 1:length(n_segments)) {
-      sel_coords <- coords[coords[, 3] == ii, ]
+      out <- character()
+      for(ii in 1:length(n_segments)) {
+        sel_coords <- coords[coords[, 3] == ii, ]
+        
+        # Tags formatted for OpenCPN using https://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd
+        out <- paste0("<trk>\n",
+                      "  <name>", x[name_col], "</name>\n",
+                      "  <desc>", x[description_col], "</desc>\n",
+                      "  <time>", x[time_col], "</time>\n",
+                      "  <extensions>\n",
+                      "    <gpxx:RouteExtension>\n        ",
+                      "      <gpxx:DisplayColor>", x[color_col], "</gpxx:DisplayColor>\n",
+                      "    </gpxx:RouteExtension>\n",
+                      "  </extensions>",
+                      "  <rteseg>",
+                      paste(paste0("    <rtept lat=\"", sel_coords[ , 2], "\" lon=\"", sel_coords[ , 1],"\"></rtept>"), collapse = "\n"),
+                      "  </rteseg>\n",
+                      "</rte>")
+        
+      }
       
-      # Tags formatted for OpenCPN using https://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd
-      out <- paste0("<trk>\n",
-                    "  <name>", x[name_col], "</name>\n",
-                    "  <desc>", x[description_col], "</desc>\n",
-                    "  <time>", x[time_col], "</time>\n",
-                    "  <extensions>\n",
-                    "    <gpxx:RouteExtension>\n        ",
-                    "      <gpxx:DisplayColor>", x[color_col], "</gpxx:DisplayColor>\n",
-                    "    </gpxx:RouteExtension>\n",
-                    "  </extensions>",
-                    "  <rteseg>",
-                    paste(paste0("    <rtept lat=\"", sel_coords[ , 2], "\" lon=\"", sel_coords[ , 1],"\"></rtept>"), collapse = "\n"),
-                    "  </rteseg>\n",
-                    "</rte>")
+      out <- paste(out, collapse = "\n")
       
+      return(out)
     }
-    
-    out <- paste(out, collapse = "\n")
-    
-    return(out)
     
   }
   
@@ -79,6 +85,9 @@ sf_to_gpx_route  <- function(x, file, name_col, time_col = NULL, color_col = NUL
                    description_col = description_col, 
                    color_col = color_col),
              "</gpx>")
+  
+  # Drop NULL
+  lines <- unlist(lines[sapply(lines, is.character)])
   
   message("sf_to_gpx_route: Writing ", length(lines), " lines to ", file)
   con <- file(file)

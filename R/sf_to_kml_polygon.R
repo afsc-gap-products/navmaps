@@ -23,6 +23,9 @@ sf_to_kml_polygon <- function(x, file, name_col, description_col, time_col = NUL
   
   .check_extra_args(...)
   
+  # Remove invalid geometries
+  x <- remove_invalid_geometry(x = x)
+  
   x <- sf::st_transform(x, crs = "EPSG:4326")
   
   make_lines <- function(x, time_col, name_col, description_col, color_col, fill_col) {

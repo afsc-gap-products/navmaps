@@ -21,6 +21,9 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
   
   .check_extra_args(...)
   
+  # Remove invalid geometries
+  x <- remove_invalid_geometry(x = x)
+  
   if(is.null(time_col)) {
     time_col <- "time"
     x$time <- paste0(format(Sys.time(), "%Y-%m-%dT%H:%M:%S"), ".000000Z")
@@ -33,6 +36,11 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
   make_lines <- function(x, time_col, name_col, description_col, color_col) {
     coords <- sf::st_coordinates(x[['geometry']])
     
+    # Handle invalid cases with single points
+    if(nrow(coords) < 2) {
+      return(NULL)
+    }
+    
     n_segments <- unique(coords[, 3])
     
     out <- character()
@@ -40,28 +48,29 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
       sel_coords <- coords[coords[, 3] == ii, ]
       
       out <- paste0("    <Placemark>\n",
-                      "      <name>", x[name_col], "</name>\n",
-                      "      <description>", x[description_col], "</description>\n",
-                      "      <time>", x[time_col], "</time>\n",
-                      "      <LineString>\n",
-                      "        <coordinates>\n        ",
-                      paste(
-                        paste(sel_coords[ , 1], sel_coords[ , 2], sep = ", "), 
-                            collapse = "\n        "
-                        ), "\n",
-                      "        </coordinates>\n",
-                      "      </LineString>\n",
-                      "      <Style>\n",
-                      "        <LineStyle>\n",
-                      "        <color>", x[color_col], "</color>\n",
-                      "        </LineStyle>\n",
-                      "      </Style>\n",
-                      "    </Placemark>"
-                      )
+                    "      <name>", x[name_col], "</name>\n",
+                    "      <description>", x[description_col], "</description>\n",
+                    "      <time>", x[time_col], "</time>\n",
+                    "      <LineString>\n",
+                    "        <coordinates>\n        ",
+                    paste(
+                      paste(sel_coords[ , 1], sel_coords[ , 2], sep = ", "), 
+                      collapse = "\n        "
+                    ), "\n",
+                    "        </coordinates>\n",
+                    "      </LineString>\n",
+                    "      <Style>\n",
+                    "        <LineStyle>\n",
+                    "        <color>", x[color_col], "</color>\n",
+                    "        </LineStyle>\n",
+                    "      </Style>\n",
+                    "    </Placemark>"
+      )
     }
-
+    
     out <- paste(out, collapse = "\n")
     return(out)
+    
   }
   
   lines <- c("<?xml version=\"1.0\" encoding=\"utf-8\"?>",
@@ -76,6 +85,9 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
                    color_col = color_col),
              "  </Document>",
             "</kml>")
+  
+  # Drop NULL
+  lines <- unlist(lines[sapply(lines, is.character)])
   
   message("sf_to_kml_linestring: Writing ", length(lines), " lines to ", file)
   con <- file(file)

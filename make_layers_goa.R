@@ -13,7 +13,7 @@ get_gps_data(region = region, channel = channel)
 
 software_types <- c("globe", "timezero", "opencpn") 
 
-for(ii in 1:length(software_types)) {
+for(ii in 2:length(software_types)) {
   
   set_software(software_types[ii])
   

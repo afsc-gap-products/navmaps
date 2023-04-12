@@ -376,7 +376,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)))
   
-  towpath_sf |>
+   towpath_sf |>
     dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"), 

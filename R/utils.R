@@ -487,3 +487,25 @@ detect_geometry_type <- function(x) {
   
   return(main_geom)
 }
+
+
+
+#' Function to remove invalid_geometries
+#' 
+#' Uses st_is_valid() to detect and remove invalid geometries, such as linestrings with one vertex.
+#' 
+#' @param x an sf object
+#' @export
+
+remove_invalid_geometry <- function(x) {
+  invalid_index <- !sf::st_is_valid(x)
+  
+  if(length(invalid_index) > 0){
+    warning("Excluding ", length(which(!sf::st_is_valid(x))), " invalid geometries.")
+    
+    x <- x[which(sf::st_is_valid(x)), ]
+    
+  }
+  
+  return(x)
+}
