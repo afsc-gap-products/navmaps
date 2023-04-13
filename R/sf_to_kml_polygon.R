@@ -23,6 +23,13 @@ sf_to_kml_polygon <- function(x, file, name_col, description_col, time_col = NUL
   
   .check_extra_args(...)
   
+  if(any(sf::st_geometry_type(x) == "MULTIPOLYGON")) {
+    x <- x |> 
+      sf::st_cast(to = "MULTILINESTRING") |> 
+      sf::st_cast(to = "LINESTRING") |> 
+      sf::st_cast("POLYGON")
+  }
+  
   # Remove invalid geometries
   x <- remove_invalid_geometry(x = x)
   

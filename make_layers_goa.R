@@ -111,7 +111,7 @@ for(ii in 1:length(software_types)) {
     sf::st_transform(crs = "EPSG:4326")
   nprw$name <- "NPRW Critical Habitat"
   nprw$description <- "NPRW Critical Habitat"
-  nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+  nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   nprw$fill <- 0
   
   sf_to_nav_file(x = nprw,
@@ -127,7 +127,7 @@ for(ii in 1:length(software_types)) {
     sf::st_transform(crs = "EPSG:4326")
   humpback$name <- "Humpback Critical Habitat"
   humpback$description <- "Humpback Critical Habitat"
-  humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+  humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   humpback$fill <- 0
   
   sf_to_nav_file(x = humpback,

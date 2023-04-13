@@ -24,6 +24,13 @@ sf_to_kml_linestring <- function(x, file, name_col, description_col, time_col = 
   # Remove invalid geometries
   x <- remove_invalid_geometry(x = x)
   
+  if(any(sf::st_geometry_type(x) == "MULTIPOLYGON")) {
+    x <- x |> 
+      sf::st_cast(to = "MULTILINESTRING") |> 
+      sf::st_cast(to = "LINESTRING") |> 
+      sf::st_cast("POLYGON")
+  }
+  
   if(is.null(time_col)) {
     time_col <- "time"
     x$time <- paste0(format(Sys.time(), "%Y-%m-%dT%H:%M:%S"), ".000000Z")

@@ -116,8 +116,8 @@ tz_pal <- function(n = NULL, values = NULL, type = "kml", ...) {
                        hex = c("#d2b48c", "#ffff00", "#ff00ff", "#ff0000", "#d30094", "#90ee90", 
                                "#008000", "#00ffff", "#0000ff", "#ff5a00", "#a9a9a9", "#000000", 
                                "#000080", "#FFFFFF"),
-                       kml = c("ff8cd4ff", "ff00ffff", "ffff00ff", "ffff0000", "ffd30094", "ff90ee90", 
-                               "ff008000", "ffffff00", "ffff0000", "ff00a5ff", "ffa9a9a9", "ff000000", 
+                       kml = c("ff8cd4ff", "ff00ffff", "ff00ffff", "ffff0000", "ffd30094", "ff90ee90", 
+                               "ff008000", "ffffff00", "ffff00ff", "ff00a5ff", "ffa9a9a9", "ff000000", 
                                "ff000080", "ffffffff"),
                        gpx = c(14, 9, 5, 1, 15, 8, 2, 4, 3, 11, 19, 6, 17, 6))
   

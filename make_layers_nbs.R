@@ -11,7 +11,7 @@ channel <- get_connected(schema = "AFSC")
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
-software_types <- c("globe", "opencpn", "timezero") 
+software_types <- c("globe", "timezero", "opencpn") 
 
 for(ii in 1:length(software_types)) {
   set_software(software_types[ii])
@@ -88,7 +88,7 @@ for(ii in 1:length(software_types)) {
   eider <- sf::st_read(here::here("data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp")) |>
     dplyr::filter(Unit_ID == "3 - Norton Sound")
   
-  sf::st_write(eider, here::here("output", region, "shapefiles", "SE_Only_Norton_Sound.shp"))
+  sf::st_write(eider, here::here("output", region, "shapefiles", "SE_Only_Norton_Sound.shp"), append = FALSE)
   
   eider$color <- navmaps_pal(values = "red", 
                              software_format = SOFTWARE, 
@@ -98,7 +98,7 @@ for(ii in 1:length(software_types)) {
   
   sf_to_nav_file(
     x = eider,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0("spectacled_eider_ch.", FILE_TYPE_POLYGON)),
+    file = here::here("output", region, "navigation", SOFTWARE, paste0("spectacled_eider_ch.", FILE_TYPE_LINESTRING)),
     name_col = "name",
     description_col = "Unit_ID",
     color_col = "color",
@@ -120,7 +120,7 @@ for(ii in 1:length(software_types)) {
   buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
   
   sf_to_nav_file(x = buoys,
-                 file = here::here("output", region, SOFTWARE, "navigation", paste0("buoys_2023_04_01.", FILE_TYPE_POINT)),
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("buoys_2023_04_01.", FILE_TYPE_POINT)),
                  name_col = "TYPE.NAME",
                  description_col = "description",
                  color_col = "color",
