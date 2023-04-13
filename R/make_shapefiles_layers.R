@@ -172,7 +172,7 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
                                            software_format = software_format,
                                            file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
     
-    allocation_sf$shape <- navmaps_sym_pal(values = c("circle1", "triangle1"), 
+    allocation_sf$shape <- navmaps_sym_pal(values = c("circle1", "square1"), 
                                            software_format = software_format,
                                            file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
     
@@ -337,9 +337,9 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   # Add symbol, color, description and name fields for nav software. 
   # Specify required column names to sf_to_nav: file, name_col, description_col, color_col, shape_col, time_col, extra_cols, and software_format
   midpoint_sf |>
-    dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
+    dplyr::mutate(name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
+                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
                                            software_format = software_format,
                                           file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
                   depth = BOTTOM_DEPTH,
@@ -352,16 +352,17 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                    color_col = "color",
                    shape_col = "shape",
                    time_col = "START_TIME",
-                   extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "depth"),
+                   extra_cols = "depth",
                    software_format = software_format)
   
   start_sf |>
-    dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
+    dplyr::mutate(name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
+                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
                                           software_format = software_format,
                                           file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
                   depth = BOTTOM_DEPTH,
+                  temperature = GEAR_TEMPERATURE,
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"),
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>    
@@ -371,13 +372,13 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                  color_col = "color",
                  shape_col = "shape",
                  time_col = "START_TIME",
-                 extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "depth"),
+                 extra_cols = c("temperature", "depth"),
                  software_format = software_format)
   
   print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)))
   
   towpath_sf <- towpath_sf |>
-    dplyr::mutate(name = paste0(floor(CRUISE/100), " - ", VESSEL),
+    dplyr::mutate(name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
                   desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION))
   
   towpath_sf$color <- navmaps_pal(values = c("red", "lightgreen", "purple"), 
@@ -390,7 +391,6 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                    description_col = "desc",
                    color_col = "color",
                    time_col = "START_TIME",
-                   extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
                    software_format = software_format)
 }
 
