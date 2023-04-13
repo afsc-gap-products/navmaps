@@ -64,11 +64,9 @@ sf_to_globe_linestring <- function(x, file, color_col, time_col = NULL, extra_co
   
   x$DateTime <- x[[time_col]]
   
-  # x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
+  names(x)[which(names(x) %in% extra_cols)] <- toupper(names(x)[which(names(x) %in% extra_cols)])
   
-  extra_cols <- toupper(extra_cols)
-  
-  if("HAULJOIN" %in% extra_cols) {
+  if("HAULJOIN" %in% names(x)) {
     x$hauljoin <- x$HAULJOIN
   } else {
     x$hauljoin <- as.numeric(NA)

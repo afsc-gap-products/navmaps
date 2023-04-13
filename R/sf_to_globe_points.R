@@ -41,7 +41,8 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
   }
   
   x$DateTime <- x[[time_col]]
-  # x$DateTime <- as.character(format(x[[time_col]], "%m/%d/%Y %r"))
+  
+  names(x)[which(names(x) %in% extra_cols)] <- toupper(names(x)[which(names(x) %in% extra_cols)])
   
   if(is.null(description_col)) {
     description_col <- "Comment"
@@ -55,27 +56,25 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
     x$Name <- x[[name_col]] 
   }
   
-  extra_cols <- toupper(extra_cols)
-  
-  if("DEPTH" %in% extra_cols) {
+  if("DEPTH" %in% names(x)) {
     x$Depth <- x$DEPTH
   } else {
     x$Depth <- as.numeric(NA)
   }
   
-  if("TEMPERATURE" %in% extra_cols) {
+  if("TEMPERATURE" %in% names(x)) {
     x$Temperature <- x$TEMPERATURE
   } else {
     x$Temperature <- as.numeric(NA)
   }
   
-  if("TIDE" %in% extra_cols) {
+  if("TIDE" %in% names(x)) {
     x$Tide <- x$TIDE
   } else {
     x$Tide <- as.numeric(NA)
   }
   
-  if("LASTMODIFIED" %in% extra_cols) {
+  if("LASTMODIFIED" %in% names(x)) {
     x$LastModified <- x$LASTMODIFIED
   } else {
     x$LastModified <- Sys.time()
@@ -83,18 +82,19 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
   
   # x$LastModified <- as.character(format(x[['LastModified']], "%m/%d/%Y %r"))
   
-  if("FLAGS" %in% extra_cols) {
+  if("FLAGS" %in% names(x)) {
     x$Flags <- x$FLAGS
   } else {
     x$Flags <- as.numeric(NA)
   }
   
-  if("CATCH" %in% extra_cols) {
+  if("CATCH" %in% names(x)) {
     x$Flags <- x$CATCH
   } else {
     x$Catch <- as.numeric(NA)
   }
   
+  print(names(x))
 
   # Check for required columns
   required_columns <- c("Latitude", "Longitude", "Symbol", "Color", "DateTime", "Name", "Comment", "Depth", "Temperature", "Tide", "Catch", "Flags", "LastModified")
@@ -102,6 +102,7 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
   if(!(all(required_columns %in% names(x)))) {
     
     stop("sf_to_globe_points: Missing required column(s) ", paste(required_columns[which(!(required_columns %in% names(x)))], collapse = ", " ))
+    
   }  
   
   out <- x |>

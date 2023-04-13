@@ -342,6 +342,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                   shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
                                            software_format = software_format,
                                           file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
+                  depth = BOTTOM_DEPTH,
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                       file_type = file_type_marks,
                                       software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
@@ -351,7 +352,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                    color_col = "color",
                    shape_col = "shape",
                    time_col = "START_TIME",
-                   extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
+                   extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "depth"),
                    software_format = software_format)
   
   start_sf |>
@@ -360,16 +361,17 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                   shape = navmaps_sym_pal(values = c("asterisk", "diamond", "triangle1"), 
                                           software_format = software_format,
                                           file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
+                  depth = BOTTOM_DEPTH,
                   color = navmaps_pal(values = c("red", "lightgreen", "purple"),
                                       file_type = file_type_marks,
-                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>                                   
+                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>    
   sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towstart.", file_type_marks)),
                  name_col = "name",
                  description_col = "desc",
                  color_col = "color",
                  shape_col = "shape",
                  time_col = "START_TIME",
-                 extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "BOTTOM_DEPTH"),
+                 extra_cols = c("PERFORMANCE", "PERFORMANCE_DESCRIPTION", "depth"),
                  software_format = software_format)
   
   print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)))
