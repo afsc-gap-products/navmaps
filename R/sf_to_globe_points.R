@@ -93,8 +93,6 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
   } else {
     x$Catch <- as.numeric(NA)
   }
-  
-  print(names(x))
 
   # Check for required columns
   required_columns <- c("Latitude", "Longitude", "Symbol", "Color", "DateTime", "Name", "Comment", "Depth", "Temperature", "Tide", "Catch", "Flags", "LastModified")
