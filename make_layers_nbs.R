@@ -19,7 +19,7 @@ for(ii in 1:length(software_types)) {
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region, 
-    overwrite_midpoint = FALSE, 
+    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE), 
     software_format = SOFTWARE
   )
   
