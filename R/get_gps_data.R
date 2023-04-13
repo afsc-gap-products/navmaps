@@ -62,7 +62,8 @@ get_gps_data <- function(region, channel = NULL) {
                       paste0(
                         "select c.vessel_id vessel, c.cruise, h.haul, h.haul_id hauljoin, 
                         h.performance, e.date_time, 
-                        e.latitude latitude, e.longitude longitude, h.bottom_depth
+                        e.latitude latitude, e.longitude longitude, h.bottom_depth, 
+                        h.gear_temperature
                       from race_data.survey_definitions sd, race_data.surveys s, 
                         race_data.cruises c, race_data.hauls h, race_data.events e 
                         where sd.survey_definition_id = ", survey_definition_id, 
@@ -79,7 +80,8 @@ get_gps_data <- function(region, channel = NULL) {
                     query = 
                       paste0(
                         "select c.vessel_id vessel, c.cruise, h.haul, h.haul_id hauljoin, e.date_time, 
-                        h.performance, e.latitude latitude, e.longitude longitude, h.bottom_depth
+                        h.performance, e.latitude latitude, e.longitude longitude, h.bottom_depth, 
+                        h.gear_temperature
                       from race_data.survey_definitions sd, race_data.surveys s, 
                         race_data.cruises c, race_data.hauls h, race_data.events e
                       where sd.survey_definition_id = ", survey_definition_id, 
@@ -100,7 +102,8 @@ get_gps_data <- function(region, channel = NULL) {
                     query = 
                       paste0(
                         "select h.vessel, h.cruise, h.haul, h.start_longitude longitude, 
-                                  h.start_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth
+                                  h.start_latitude latitude, h.performance, h.start_time date_time, 
+                                  h.bottom_depth, h.gear_temperature
                                   from racebase.haul h, race_data.cruises c, race_data.surveys s
                                   where s.survey_definition_id = ", survey_definition_id, 
                         " and s.survey_id = c.survey_id 
@@ -113,8 +116,8 @@ get_gps_data <- function(region, channel = NULL) {
                     query = 
                       paste0(
                         "select h.vessel, h.cruise, h.haul, end_longitude longitude, 
-                          h.end_latitude latitude, h.performance, h.start_time date_time, h.bottom_depth,
-                          h.duration
+                          h.end_latitude latitude, h.performance, h.start_time date_time, 
+                          h.bottom_depth, h.gear_temperature, h.duration
                            from racebase.haul h, race_data.cruises c, race_data.surveys s
                            where s.survey_definition_id = ", survey_definition_id, 
                         " and s.survey_id = c.survey_id 
