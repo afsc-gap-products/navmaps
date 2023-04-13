@@ -335,7 +335,7 @@ dms_string_to_dd <- function(x) {
     unlist(
       lapply(X = x, 
              FUN = fn)), 
-         ncol = 2)
+         ncol = 2, byrow = TRUE)
   
   return(out)
   
