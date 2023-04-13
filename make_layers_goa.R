@@ -33,7 +33,10 @@ for(ii in 1:length(software_types)) {
   
   # 6. Station marks
   grid_centers <- sf::st_centroid(map_layers$survey.grid)# Points at the center of each grid cell
-  grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "cyan")
+  grid_centers$shape <- navmaps_sym_pal(values = "circle1", 
+                                        software_format = SOFTWARE, 
+                                        file_type = FILE_TYPE_POINT, 
+                                        color = "cyan")
   grid_centers$color <- navmaps_pal(values = "cyan", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
   
   sf_to_nav_file(
@@ -138,7 +141,24 @@ for(ii in 1:length(software_types)) {
                  fill_col = "fill",
                  software_format = SOFTWARE)
   
-  # 13. Buoys
+  # 13 Cook Inlet Beluga Whale Critical Habitat
+  
+  beluga <- sf::st_read(here::here("data", "cibeluga", "cib_critical_habitat.shp")) |>
+    sf::st_transform(crs = "EPSG:4326")
+  beluga$name <- "Beluga Critical Habitat"
+  beluga$description <- "Beluga Critical Habitat"
+  beluga$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  beluga$fill <- 0
+  
+  sf_to_nav_file(x = beluga,
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("CIBeluga_Critical_Habitat.", FILE_TYPE_POLYGON)),
+                 name_col = "name",
+                 description_col = "description",
+                 color_col = "color",
+                 fill_col = "fill",
+                 software_format = SOFTWARE)
+  
+  # 14. Buoys
   buoys <- readxl::read_xlsx(path = here::here("data", "buoys", "Buoys_2023_04_01.xlsx")) |>
     dplyr::mutate(LONGITUDE = dms_string_to_dd(POSITION)[,1],
                   LATITUDE = dms_string_to_dd(POSITION)[,2]) |>
@@ -159,22 +179,19 @@ for(ii in 1:length(software_types)) {
                  shape_col = "shape",
                  software_format = SOFTWARE)
   
-  # 13. Crab pot storage (requires 32-bit R to open .mdb)
+  # 15. Crab pot storage (requires 32-bit R to open .mdb)
   
   # Add an entry for every crab pot storage data set
-  crabpots <- dplyr::bind_rows(
-    globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_AKTrojan_2022.mdb"),
-                grouping_col = "DateTime"),
-    globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_EarlyDawnEast_2022.mdb"),
-                grouping_col = NULL)
-  ) |>
-    sf::st_cast("LINESTRING", group_or_split = TRUE)
+  
+
+  crabpots <- sf::st_read("G:/GOA/GOA 2023/ArcMap/GIS/GOA_2023/Crab Pot Storage/ErlaN_Poly.shp")
   
   crabpots$description <- "Crab pot storage"
+  crabpots$id <- "Pot storage"
   crabpots$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
   
   sf_to_nav_file(x = crabpots,
-                 file = here::here("output", region, "navigation", SOFTWARE, paste0("crabpots_2022.", FILE_TYPE_LINESTRING)),
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("crabpots_2023.", FILE_TYPE_LINESTRING)),
                  name_col = "id",
                  description_col = "description",
                  color_col = "color",
