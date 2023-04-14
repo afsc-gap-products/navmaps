@@ -94,7 +94,7 @@ for(ii in 1:length(software_types)) {
   otters <- sf::st_read(here::here("data", "otters", "SeaOtterFinalCH_Project.shp"))
   otters$name <- "Otter Habitat"
   otters$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  otters$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  otters$fill <- 0
   
   sf_to_nav_file(x = otters,
                  file = here::here("output", region, "navigation", SOFTWARE, paste0("otter_habitat.", FILE_TYPE_POLYGON)),
