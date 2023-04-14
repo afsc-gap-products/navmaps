@@ -19,14 +19,16 @@ for(ii in 1:length(software_types)) {
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region, 
-    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE), 
+    overwrite_midpoint = ifelse(ii == 0, TRUE, FALSE), 
     software_format = SOFTWARE
   )
   
   # Survey grid without trawlable/untrawlable (EBS/NBS)
   survey_grid <- map_layers$survey.grid |>
-    sf::st_make_valid() |>
-    sf::st_cast("POLYGON", group_or_split = TRUE)
+    sf::st_make_valid() |> 
+    sf::st_cast(to = "MULTILINESTRING") |> 
+    sf::st_cast(to = "LINESTRING") |> 
+    sf::st_cast("POLYGON")
   
   survey_grid$color <- navmaps_pal(values = "cyan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   survey_grid$fill <- 0

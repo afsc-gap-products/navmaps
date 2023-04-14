@@ -20,7 +20,7 @@ for(ii in 1:length(software_types)) {
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region, 
-    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE), 
+    overwrite_midpoint = ifelse(ii == 0, TRUE, FALSE), 
     software_format = SOFTWARE
   )
   
@@ -96,7 +96,9 @@ for(ii in 1:length(software_types)) {
   )
   
   # 10. Sea Otter Critical Habitat
-  otters <- sf::st_read(here::here("data", "otters", "SeaOtterFinalCH_Project.shp"))
+  otters <- sf::st_read(here::here("data", "otters", "SeaOtterFinalCH_Project.shp")) |>
+    sf::st_make_valid()
+  
   otters$name <- "Otter Habitat"
   otters$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   otters$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
@@ -184,11 +186,12 @@ for(ii in 1:length(software_types)) {
   # Add an entry for every crab pot storage data set
   
 
-  crabpots <- sf::st_read("G:/GOA/GOA 2023/ArcMap/GIS/GOA_2023/Crab Pot Storage/ErlaN_Poly.shp")
+  crabpots <- sf::st_read("G:/GOA/GOA 2023/ArcMap/GIS/GOA_2023/Crab Pot Storage/ErlaN_Poly.shp") |>
+    sf::st_transform(crs = "EPSG:4326")
   
   crabpots$description <- "Crab pot storage"
   crabpots$id <- "Pot storage"
-  crabpots$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+  crabpots$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
   
   sf_to_nav_file(x = crabpots,
                  file = here::here("output", region, "navigation", SOFTWARE, paste0("crabpots_2023.", FILE_TYPE_LINESTRING)),
