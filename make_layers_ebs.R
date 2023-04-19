@@ -158,3 +158,7 @@ for(ii in 1:length(software_types)) {
                  software_format = SOFTWARE)
   
 }
+
+sf::st_write(obj =buoys, 
+             dsn = here::here("output", region,  "shapefiles", "buoys_2023_04_01.shp"), 
+             append = FALSE)
