@@ -61,6 +61,7 @@ Meta
 /data/*.zic
 /data/*.dbh
 /data/crabpots/
+/data/special_projects/
 *.TzBackup
 *.tfw
 /data/ex_pots/
