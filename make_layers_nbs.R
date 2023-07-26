@@ -122,7 +122,7 @@ for(ii in 1:length(software_types)) {
   buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
   
   sf_to_nav_file(x = buoys,
-                 file = here::here("output", region, "navigation", SOFTWARE, paste0("buoys_2023_04_01.", FILE_TYPE_POINT)),
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("buoys_2023_07_26.", FILE_TYPE_POINT)),
                  name_col = "TYPE.NAME",
                  description_col = "description",
                  color_col = "color",
