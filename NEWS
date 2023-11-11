@@ -1,0 +1,8 @@
+navmaps 1.1.0 (November 11, 2023)
+----------------------------------------------------------------
+
+NEW FEATURES
+
+- Added a start_end_to_midpoint() function to calculate the 
+  midpoint between pairs of coordinates in WGS84 (e.g. 
+  start latitudes/longitudes, end latitudes/longitudes).

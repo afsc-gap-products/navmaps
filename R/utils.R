@@ -509,3 +509,98 @@ remove_invalid_geometry <- function(x) {
   
   return(x)
 }
+
+
+
+#' Find midpoint between two points
+#' 
+#' Finds the midpoint between points. 
+#' 
+#' @param start_latitude Numeric vector of latitudes in decimal degrees.
+#' @param start_longitude Numeric vector of longitudes in decimal degrees.
+#' @param end_latitude Numeric vector of latitudes in decimal degrees.
+#' @param end_longitude Numeric vector of longitudes in decimal degrees.
+#' @param utm_zones Optional numeric vector indicating which UTM zone to use for coordinates. If provided, must be either 1L or the same length as coordinate vectors. If NULL (default), the UTM zones are automatically detected from the coordinates using navmaps::longitude_to_utm_zones().
+#' @export
+
+start_end_to_midpoint <- function(start_latitude,
+                                  start_longitude,
+                                  end_latitude,
+                                  end_longitude, 
+                                  utm_zones = NULL) {
+  
+  add_leading_zero <- function(value) {
+    if (value < 10) {
+      return(paste0("0", value))
+    } else {
+      return(as.character(value))
+    }
+  }
+  
+  n_values <- length(start_latitude)
+  mid_latitude <- as.numeric(rep(NA, length(n_values)))
+  mid_longitude <- as.numeric(rep(NA, length(n_values)))
+  
+  stopifnot("start_end_to_midpoint: start_latitude,
+            start_longitude, end_latitude, and end_longitude must all be the same length." =   all(c(length(start_longitude) == n_values,
+                                                                                                     length(end_latitude) == n_values,
+                                                                                                     length(end_longitude) == n_values)))
+  
+  if(is.null(utm_zones)) {
+    # Detect UTM zones
+    utm_zones <- navmaps::longitude_to_utm_zone(start_longitude)
+    utm_zones[is.na(utm_zones)] <- navmaps::longitude_to_utm_zone(end_longitude)[is.na(utm_zones)]
+    
+    if(any(is.na(utm_zones))) {
+      warning("No longitude values found for the following start_longitude or end_longitude indices: ", paste(which(is.na(utm_zones)), collapse = ", "))
+    }
+  } else {
+    stopifnot("start_end_to_midpoint: utm_zone must have length 1 or be the same length as start_latitude, start_longitude, end_latitude, and end_longitude if it's provided." = any(length(utm_zones) == 1, length(utm_zones) == n_values))
+  }
+  
+  if(length(utm_zones) == 1) {
+    utm_zones <- rep(utm_zones, n_values)
+  }
+  
+  for(ii in 1:length(start_latitude)) {
+    
+    if(any(is.na(start_longitude[ii]), 
+           is.na(start_latitude[ii]), 
+           is.na(end_longitude[ii]), 
+           is.na(end_latitude[ii]), 
+           is.na(utm_zones[ii]))) {
+      next
+    }
+    
+    utm_crs <- paste0("EPSG:326", add_leading_zero(utm_zones[ii]))
+    
+    start_pos <- sf::st_sfc(sf::st_point(c(start_longitude[ii], start_latitude[ii])), 
+                            crs = "WGS84") |>
+      sf::st_transform(crs = utm_crs)
+    
+    end_pos <- sf::st_sfc(sf::st_point(c(end_longitude[ii], end_latitude[ii])), 
+                          crs = "WGS84") |>
+      sf::st_transform(crs = utm_crs)
+    
+    approx_path <- sf::st_sfc(
+      sf::st_linestring(
+        rbind(
+          sf::st_coordinates(start_pos), 
+          sf::st_coordinates(end_pos)
+        )
+      ),
+      crs = utm_crs
+    )
+    
+    mid_coords <- navmaps::st_line_midpoints(approx_path) |>
+      sf::st_transform(crs = "WGS84") |>
+      sf::st_coordinates()
+    
+    mid_longitude[ii] <- mid_coords[1, 1]
+    mid_latitude[ii] <- mid_coords[1, 2]
+    
+  }
+  
+  return(cbind(mid_longitude, mid_latitude))
+  
+}
