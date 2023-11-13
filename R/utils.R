@@ -542,10 +542,14 @@ start_end_to_midpoint <- function(start_latitude,
   mid_longitude <- as.numeric(rep(NA, length(n_values)))
   
   stopifnot("start_end_to_midpoint: start_latitude,
-            start_longitude, end_latitude, and end_longitude must all be the same length." =   all(c(length(start_longitude) == n_values,
+            start_longitude, end_latitude, and end_longitude must all be the same length." = all(c(length(start_longitude) == n_values,
                                                                                                      length(end_latitude) == n_values,
                                                                                                      length(end_longitude) == n_values)))
   
+  stopifnot("start_end_to_midpoint: Invalid longitude value(s). Valid longitude range: [-180, 180]" = max(abs(c(start_longitude, end_longitude)), na.rm = TRUE) <= 180)
+  
+  stopifnot("start_end_to_midpoint: Invalid latitude value(s). Valid longitude range: [-90, 90]" =  max(abs(c(start_latitude, end_latitude)), na.rm = TRUE) <= 90)  
+
   if(is.null(utm_zones)) {
     # Detect UTM zones
     utm_zones <- navmaps::longitude_to_utm_zone(start_longitude)
