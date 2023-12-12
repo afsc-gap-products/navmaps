@@ -14,5 +14,4 @@ LazyData: true
 RoxygenNote: 7.2.3
 Remotes:
     afsc-gap-products/akgfmaps
-VignetteBuilder: knitr
 Config/testthat/edition: 3
