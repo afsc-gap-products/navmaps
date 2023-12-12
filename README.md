@@ -8,8 +8,7 @@ This package generates geospatial layers for marine navigation and GIS software 
 -   [Map layers and data sources](#map-layers-and-data-sources)
 -   [Creating navigation layers](./doc/make_navigation_files.md)
 -   [Setting colors and symbols](./doc/colors_symbols.md)
--   [How to add new navigation software](./doc/howto_add_new_file_formats.md)
--   [Historical GLOBE repository](https://github.com/afsc-gap-products/Globe)
+-   [How to add options for new navigation software](./doc/howto_add_new_file_formats.md)
 -   [Download and format moorings data](./doc/import_lnm_moorings_data.md)
 
 # Installation

@@ -287,14 +287,6 @@ opencpn_pal <- function(n = NULL, values = NULL, type = "gpx", fill_missing_colo
       values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
   }
   
-  # if(fill_missing_color) {
-  #   warning("opencpn_pal: fill_missing_color = TRUE; any invalid color selections will return 'Black' (#000000)")
-  #   pal_df <- rbind(pal_df, 
-  #                   data.frame(names = c("tan", "purple", "lightgreen", "darkgreen", "cyan", "darkgrey", "maroon"),
-  #                              hex = rep("#000000", 7),
-  #                              gpx = rep("Black", 7)))
-  # }
-  
   if(!is.null(values)) {
     
     if(class(values) == "character") {
