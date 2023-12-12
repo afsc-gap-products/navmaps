@@ -8,9 +8,11 @@
 #' @param append logical. Should data be appended to an existing table? Passed to RODBC::sqlSave()
 #' @param drop_existing Logical. Should the existing table be dropped and rewritten if it exists.
 #' @param varTypes Optional list of variable types passed to RODBC::sqlSave(varTypes).
+#' @param driver odcb driver default = Microsoft Access Driver (*.mdb)
 #' @export
 
-write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = TRUE, varTypes = NULL) {
+write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = TRUE, varTypes = NULL, 
+                            driver = "Microsoft Access Driver (*.mdb)") {
     
     file_type <- tolower(strsplit(basename(dsn), split = "\\.")[[1]][-1])
     
@@ -41,7 +43,7 @@ write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = T
     }
 
   message("write_to_access: Connecting to ", dsn)
-  odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=", dsn))
+  odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={", driver,  "};DBQ=", dsn))
   
   if(drop_existing & (tablename %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)) {
     message("write_to_access: Dropping table ", tablename, " from ", dsn)

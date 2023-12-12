@@ -6,10 +6,12 @@
 #' @param tablename Optional. tablename as a chracter vector (typically "marks" or "lines"). The function attempts to detect the layer type if not provided.
 #' @param wkt_geometry_type Optional. Geometry type for output as a character vector; must be either POINT or LINESTRING. Typically "POINT" for marks or "LINESTRING" for lines.
 #' @param grouping_col Grouping column for LINESTRINGS.
+#' @param driver odcb driver default = Microsoft Access Driver (*.mdb)
 #' @return A simple features object
 #' @export
 
-globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, grouping_col = NULL) {
+globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, grouping_col = NULL, 
+                        driver = "Microsoft Access Driver (*.mdb)") {
   
   .check_driver()
   
@@ -18,7 +20,7 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
   }
   
   message("write_to_access: Connecting to ", dsn)
-  odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=", dsn))
+  odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={", driver, "};DBQ=", dsn))
   
   if(is.null(tablename)) {
     tablename <- c("lines", "marks", "Lines", "Marks")[which(c("lines", "marks", "Lines", "Marks") %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)]

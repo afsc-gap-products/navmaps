@@ -1,6 +1,13 @@
 navmaps 1.1.1 (December 12, 2023)
 ----------------------------------------------------------------
 
+FUNCTIONALITY CHANGES
+
+- Added driver arguments to globe_to_sf() and write_to_access()
+  to accomodate differences in access drivers among users. The
+  default changed from "Microsoft Access Driver (*.mdb, *.accdb)"
+  to "Microsoft Access Driver (*.mdb)"
+
 IMPROVEMENTS
 
 - Remove purrr as a dependency; add farver (for color mapping).

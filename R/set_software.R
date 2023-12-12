@@ -1,9 +1,10 @@
 #' Set global variables for file extensions and software type
 #' 
 #' @param x software name as a character vector. Options: globe, opencpn, timezero
+#' @param globe_type File type for globe "mdb" (default) or "csv"
 #' @export
 
-set_software <- function(x) {
+set_software <- function(x, globe_type = "mdb") {
   
   .check_software(software_format = x)
   
@@ -27,6 +28,12 @@ set_software <- function(x) {
     assign("FILE_TYPE_POLYGON", value = "mdb", envir = .GlobalEnv)
     assign("FILE_TYPE_LINESTRING", value = "mdb", envir = .GlobalEnv)
     assign("FILE_TYPE_POINT", value = "mdb", envir = .GlobalEnv)
+  }
+  
+  if(x == "globe" & globe_type == "csv") {
+    assign("FILE_TYPE_POLYGON", value = "csv", envir = .GlobalEnv)
+    assign("FILE_TYPE_LINESTRING", value = "csv", envir = .GlobalEnv)
+    assign("FILE_TYPE_POINT", value = "csv", envir = .GlobalEnv)
   }
   
 }
