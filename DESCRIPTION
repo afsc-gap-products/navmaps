@@ -10,7 +10,7 @@ Imports: odbc, RODBC, getPass, purrr, stringr
 Description: Make layers for marine navigation software
 License: GPL (>=2)
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 RoxygenNote: 7.2.3
 Remotes:
     afsc-gap-products/akgfmaps

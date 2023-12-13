@@ -3,6 +3,7 @@
 #' @param region Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"
 #' @param channel RODBC connection. Function will prompt for a connection if the user is not connected
 #' @export
+#' @import RODBC
 
 get_gps_data <- function(region, channel = NULL) {
   
