@@ -306,9 +306,9 @@ dmm_to_dd <- function(x) {
 
 #' Function to convert degree-decimal minute degree-minute-second coordinates to decimal degrees
 #' 
-#' @param x Character string containing latitude and longitudes separated by a comma that includes hemisphere information (such as '72°30.500’N, 152°00.000’W').
-#' @returns Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (e.g. '72°30.500’N, 152°00.000’W' returns a 2L numeric vector -152.00000   80.83333)
-#' @examples dms_string_to_dd('72°30.500’N, 152°00.000’W')
+#' @param x Character string containing latitude and longitudes separated by a comma that includes hemisphere characters (see example)
+#' @returns Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (see example)
+#' @examples dms_string_to_dd("72 30.500'N, 152 00.000'W")
 #' @export
 #' @import stringr
 
@@ -322,7 +322,7 @@ dms_string_to_dd <- function(x) {
     pos_vec <- unlist(strsplit(x = x, split = ","))
     pos_vec <- trimws(pos_vec) # Remove white space
     
-    stopifnot("dms_string_to_dd: x must be a character string with latitude and longitude in degrees and decimal minutes that are separated by a comma, such as: 72°30.500’N, 152°00.000’W)" = length(pos_vec) == 2)
+    stopifnot("dms_string_to_dd: x must be a character string with latitude and longitude in degrees and decimal minutes that are separated by a comma, such as: 72 30.500'N, 152 00.000'W)" = length(pos_vec) == 2)
     
     hemispheres <- stringr::str_extract(pos_vec, "[A-Z]+")
     

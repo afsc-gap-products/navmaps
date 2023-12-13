@@ -7,14 +7,14 @@
 dms_string_to_dd(x)
 }
 \arguments{
-\item{x}{Character string containing latitude and longitudes separated by a comma that includes hemisphere information (such as '72°30.500’N, 152°00.000’W').}
+\item{x}{Character string containing latitude and longitudes separated by a comma that includes hemisphere characters (see example)}
 }
 \value{
-Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (e.g. '72°30.500’N, 152°00.000’W' returns a 2L numeric vector -152.00000   80.83333)
+Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (see example)
 }
 \description{
 Function to convert degree-decimal minute degree-minute-second coordinates to decimal degrees
 }
 \examples{
-dms_string_to_dd('72°30.500’N, 152°00.000’W')
+dms_string_to_dd("72 30.500'N, 152 00.000'W")
 }
