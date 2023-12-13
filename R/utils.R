@@ -303,7 +303,7 @@ dmm_to_dd <- function(x) {
 #' 
 #' @param x Character string containing latitude and longitudes separated by a comma that includes hemisphere information (such as '72°30.500’N, 152°00.000’W').
 #' @returns Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (e.g. '72°30.500’N, 152°00.000’W' returns a 2L numeric vector -152.00000   80.83333)
-#' @examples ddm_string_to_dd('72°30.500’N, 152°00.000’W')
+#' @examples dms_string_to_dd('72°30.500’N, 152°00.000’W')
 #' @export
 
 dms_string_to_dd <- function(x) {
