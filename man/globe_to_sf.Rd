@@ -8,7 +8,8 @@ globe_to_sf(
   dsn,
   tablename = NULL,
   wkt_geometry_type = NULL,
-  grouping_col = NULL
+  grouping_col = NULL,
+  driver = "Microsoft Access Driver (*.mdb)"
 )
 }
 \arguments{
@@ -19,6 +20,8 @@ globe_to_sf(
 \item{wkt_geometry_type}{Optional. Geometry type for output as a character vector; must be either POINT or LINESTRING. Typically "POINT" for marks or "LINESTRING" for lines.}
 
 \item{grouping_col}{Grouping column for LINESTRINGS.}
+
+\item{driver}{odcb driver default = Microsoft Access Driver (*.mdb)}
 }
 \value{
 A simple features object

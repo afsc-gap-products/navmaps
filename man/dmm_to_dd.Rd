@@ -6,6 +6,9 @@
 \usage{
 dmm_to_dd(x)
 }
+\arguments{
+\item{x}{Numeric degree decimal minute coordinats}
+}
 \description{
 Convert degree decimal minute coordinates to decimal degrees (e.g. 16530.5 to 165.5083)
 }

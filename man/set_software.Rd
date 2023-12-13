@@ -4,10 +4,12 @@
 \alias{set_software}
 \title{Set global variables for file extensions and software type}
 \usage{
-set_software(x)
+set_software(x, globe_type = "mdb")
 }
 \arguments{
 \item{x}{software name as a character vector. Options: globe, opencpn, timezero}
+
+\item{globe_type}{File type for globe "mdb" (default) or "csv"}
 }
 \description{
 Set global variables for file extensions and software type

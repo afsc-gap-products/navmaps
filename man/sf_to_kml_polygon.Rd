@@ -31,8 +31,6 @@ sf_to_kml_polygon(
 \item{fill_col}{Name of the column containing eight-digit hex color.}
 
 \item{...}{Ignored}
-
-\item{shape_col}{Name of the column containing integer shapes.}
 }
 \description{
 Write sf POLYGON or MULTIPOLYGON geometries to a kml polygon file.

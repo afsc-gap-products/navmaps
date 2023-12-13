@@ -31,8 +31,6 @@ sf_to_kml_points(
 \item{color_col}{Name of the column containing eight-digit hex color.}
 
 \item{...}{Ignored}
-
-\item{return_lines}{Should lines written to gpx file also be returned by the function. Used for debugging.}
 }
 \description{
 Write sf POINT geometries to a kml point file

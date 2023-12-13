@@ -10,10 +10,13 @@ write_to_access(
   tablename,
   append = FALSE,
   drop_existing = TRUE,
-  varTypes = NULL
+  varTypes = NULL,
+  driver = "Microsoft Access Driver (*.mdb)"
 )
 }
 \arguments{
+\item{x}{data.frame to write to the database.}
+
 \item{dsn}{Filepath to the .mdb or .accdb file}
 
 \item{tablename}{character: a database table name accessible from the connected DSN. If missing, the name of dat. Passed to RODBC::sql}
@@ -24,7 +27,7 @@ write_to_access(
 
 \item{varTypes}{Optional list of variable types passed to RODBC::sqlSave(varTypes).}
 
-\item{data}{data.frame to be written to the table}
+\item{driver}{odcb driver default = Microsoft Access Driver (*.mdb)}
 }
 \description{
 Write data to a table in an .mdb or .accdb file. Must be run on 32-bit R, which only exists for through R 4.1!

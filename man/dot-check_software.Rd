@@ -10,9 +10,9 @@
 )
 }
 \arguments{
-\item{valid_software}{Supported software options character vector.}
+\item{software_format}{Character vector of the selected software type}
 
-\item{x}{Character vector of the selected software type}
+\item{valid_software}{Supported software options character vector.}
 }
 \description{
 Check that software type is valid

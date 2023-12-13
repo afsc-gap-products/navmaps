@@ -28,7 +28,7 @@ The [United States Coast Guard Navigation Center](https://www.navcen.uscg.gov/) 
 ### 7. Save the Excel file.
 ### 8. Open R/RStudio and load the navmaps package.
 ### 9. Read the Excel file into R using readxl::read_xlsx(). The POSITION field is formatted as a degree and decimal minute (DDM) string that will be read as a character vector. It will need to be converted to decimal degree (DD) latitude and longitude values for use in navmaps.
-### 10. Use the ddm_string_to_dd() function from the navmaps package to convert strings from DDM to DD to decimal degree format:
+### 10. Use the dms_string_to_dd() function from the navmaps package to convert strings from DDM to DD to decimal degree format:
 
 ```
 library(navmaps)

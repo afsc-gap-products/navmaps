@@ -7,6 +7,8 @@
 get_connected(channel = NULL, schema = NA)
 }
 \arguments{
+\item{channel}{Open channel- used internally to handle connections.}
+
 \item{schema}{Data source name (DSN) as a character vector.}
 }
 \value{

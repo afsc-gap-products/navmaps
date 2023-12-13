@@ -27,6 +27,10 @@ sf_to_globe_points(
 
 \item{time_col}{Time column name. Optional. If not provided, writes the system time.}
 
+\item{name_col}{Name of the column containing names.}
+
+\item{description_col}{Description column.}
+
 \item{extra_cols}{Names of extra columns to include in output files, in the order the columns should be appended.}
 
 \item{...}{Ignored}

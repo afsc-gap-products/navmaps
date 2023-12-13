@@ -41,6 +41,8 @@ sf_to_nav_file(
 \item{description_col}{Column name passed to sf_to_[output_type] functions. Only used for .gpx and .kml files.}
 
 \item{extra_cols}{Column names passed to sf_to_[output_type] functions. Only used for Globe .csv, .mdb, and .accdb files.}
+
+\item{environment}{Only change for debugging.}
 }
 \description{
 This function uses the sf geometry type and software_format arguments to choose an sf_to_[output_type] for writing spatial data to a file formatted for marine navigation software. For example, if the sf object passed to x contains POINT geometries and the software_format is set to "globe", the function calls sf_to_globe_points() to write data to file (.mdb, .accdb, or .csv, depending on the extension for 'file'). If the sf object passed to x contains POINT geometries and the software_format is set to "opencpn" or "timezero", the function calls sf_to_gpx_points() to write data to a .gpx file.

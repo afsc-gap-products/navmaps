@@ -16,5 +16,5 @@ Decimal degree coordinates as a matrix with with longitude in the first column a
 Function to convert degree-decimal minute degree-minute-second coordinates to decimal degrees
 }
 \examples{
-ddm_string_to_dd('72°30.500’N, 152°00.000’W')
+dms_string_to_dd('72°30.500’N, 152°00.000’W')
 }

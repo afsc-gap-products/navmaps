@@ -4,13 +4,7 @@
 \alias{opencpn_pal}
 \title{OpenCPN color palette}
 \usage{
-opencpn_pal(
-  n = NULL,
-  values = NULL,
-  type = "gpx",
-  fill_missing_color = TRUE,
-  ...
-)
+opencpn_pal(n = NULL, values = NULL, type = "gpx", ...)
 }
 \arguments{
 \item{n}{Number of colors to return}
