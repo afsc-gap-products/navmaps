@@ -10,6 +10,7 @@
 #' @param varTypes Optional list of variable types passed to RODBC::sqlSave(varTypes).
 #' @param driver odcb driver default = Microsoft Access Driver (*.mdb)
 #' @export
+#' @import RODBC
 
 write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = TRUE, varTypes = NULL, 
                             driver = "Microsoft Access Driver (*.mdb)") {

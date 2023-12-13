@@ -4,6 +4,7 @@
 #' @param channel RODBC connection. Function will prompt for a connection if the user is not connected
 #' @param software_format Software to format output for.
 #' @export
+#' @import akgfmaps RODBC
 
 make_trawlable <- function(region, channel = NULL, software_format = "timezero") {
   
@@ -124,6 +125,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
 #' @param extra_cols Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.
 #' @param software_format Software to format output for.
 #' @export
+#' @import sf here
 
 make_station_allocation <- function(allocation_df, region, lon_col, lat_col, station_col, stratum_col, vessel_col, extra_cols = NULL, software_format = "timezero") {
   
@@ -403,6 +405,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
 #' @param spar Smoothing parameter argument passed to smooth.spline()
 #' @keywords internal
 #' @export
+#' @import tibble
 
 smooth_lat_lon_dist <- function(df, spar = NULL) {
   

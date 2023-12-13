@@ -6,6 +6,7 @@
 #' @param channel Open channel- used internally to handle connections.
 #' @return An RODBC class ODBC connection.
 #' @export
+#' @import getPass RODBC
 
 get_connected <- function(channel = NULL, schema = NA){
   if(is.null(channel)) {
