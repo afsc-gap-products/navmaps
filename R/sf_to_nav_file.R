@@ -13,6 +13,7 @@
 #' @param name_col Column name passed to sf_to_[output_type] functions. Only used for .gpx and .kml files.
 #' @param description_col Column name passed to sf_to_[output_type] functions. Only used for .gpx and .kml files.
 #' @param extra_cols Column names passed to sf_to_[output_type] functions. Only used for Globe .csv, .mdb, and .accdb files.
+#' @param environment Only change for debugging.
 #' @export
 
 sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col = NULL, shape_col = NULL, fill_col = NULL, time_col = NULL, name_col = NULL, description_col = NULL, extra_cols = NULL, envir = environment()) {

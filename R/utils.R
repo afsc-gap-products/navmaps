@@ -3,6 +3,7 @@
 #' A function that accepts a data source name, username, and password to establish returns an Oracle DataBase Connection (ODBC) as an RODBC class in R.
 #'
 #' @param schema Data source name (DSN) as a character vector.
+#' @param channel Open channel- used internally to handle connections.
 #' @return An RODBC class ODBC connection.
 #' @export
 
@@ -163,7 +164,7 @@ get_connected <- function(channel = NULL, schema = NA){
 
 #' Check that software type is valid
 #' 
-#' @param x Character vector of the selected software type
+#' @param software_format Character vector of the selected software type
 #' @param valid_software Supported software options character vector.
 #' @export
 
@@ -291,6 +292,8 @@ radians_to_dd <- function(x) {
 #' Convert dmm format to decimal degrees
 #'
 #' Convert degree decimal minute coordinates to decimal degrees (e.g. 16530.5 to 165.5083)
+#' @param x Numeric degree decimal minute coordinats
+#' @export
 
 dmm_to_dd <- function(x) {
   abs_x <- abs(x)

@@ -267,7 +267,7 @@ globe_pal <- function(n = NULL, values = NULL, type = "decimal", ...) {
 #' opencpn_pal(values = c(1,3,7))
 #' @export
 
-opencpn_pal <- function(n = NULL, values = NULL, type = "gpx", fill_missing_color = TRUE, ...) {
+opencpn_pal <- function(n = NULL, values = NULL, type = "gpx", ...) {
   
   .check_extra_args(...)
   
@@ -521,8 +521,7 @@ opencpn_sym_pal <- function(n = NULL, values = NULL, color = NULL, type = "names
     out <- gsub(x = out,
                 pattern = "Black", 
                 replacement = opencpn_pal(values = color, 
-                                          type = "gpx", 
-                                          fill_missing_color = TRUE))
+                                          type = "gpx"))
   }
   
   return(out)

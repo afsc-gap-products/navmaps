@@ -2,8 +2,8 @@
 #'
 #'  Write data to a table in an .mdb or .accdb file. Must be run on 32-bit R, which only exists for through R 4.1! 
 #' 
+#' @param x data.frame to write to the database.
 #' @param dsn Filepath to the .mdb or .accdb file
-#' @param data data.frame to be written to the table
 #' @param tablename character: a database table name accessible from the connected DSN. If missing, the name of dat. Passed to RODBC::sql
 #' @param append logical. Should data be appended to an existing table? Passed to RODBC::sqlSave()
 #' @param drop_existing Logical. Should the existing table be dropped and rewritten if it exists.

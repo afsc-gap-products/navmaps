@@ -5,6 +5,8 @@
 #' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param color_col Name of the column containing Globe color (decimal or rgb(?))
 #' @param shape_col Name of the column containing Globe shape as an integer.
+#' @param name_col Name of the column containing names.
+#' @param description_col Description column.
 #' @param extra_cols Names of extra columns to include in output files, in the order the columns should be appended.
 #' @param ... Ignored
 #' @export

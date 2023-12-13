@@ -9,7 +9,6 @@
 #' @param time_col Time column name. Optional. If not provided, writes the system time.
 #' @param color_col Name of the column containing eight-digit hex color.
 #' @param fill_col Name of the column containing eight-digit hex color. 
-#' @param shape_col Name of the column containing integer shapes.
 #' @param ... Ignored
 #' @export
 
