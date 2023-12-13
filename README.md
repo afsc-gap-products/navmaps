@@ -1,3 +1,7 @@
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/sean-rohan-NOAA/navmaps/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sean-rohan-NOAA/navmaps/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
+
 # navmaps
 
 This package generates geospatial layers for marine navigation and GIS software for use during bottom trawl surveys. The package retrieves and loads spatial data, conducts data processing steps to prepare layers for software, then writes data from simple features objects with well-known text (WKT) geometries to .kml, .gpx, .mdb, .accdb, and .shp formats that are used by Globe, OpenCPN, TimeZero, and ArcMap.
