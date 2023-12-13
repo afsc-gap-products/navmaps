@@ -11,6 +11,8 @@ navmaps_sym_pal(values, software_format, color = NULL, file_type = NULL, ...)
 
 \item{software_format}{Software as a character vector.}
 
+\item{color}{Optional color for OpenCPN symbols. Passed to opencpn_pal().}
+
 \item{file_type}{File type for OpenCPN or TimeZero ("kml" or "gpx")}
 
 \item{...}{Ignored}

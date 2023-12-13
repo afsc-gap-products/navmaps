@@ -34,8 +34,6 @@ make_station_allocation(
 \item{extra_cols}{Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.}
 
 \item{software_format}{Software to format output for.}
-
-\item{survey_year}{Year for the survey. Optional.}
 }
 \description{
 Make station allocation shapefile and navigation plots

@@ -25,9 +25,6 @@ opencpn_pal(n = Inf, type = "names")
 # View colors 
 show_col_nav(colors = opencpn_pal(n = Inf, type = "hex"))
 
-# Software color palette. Eight digit hex but the first two digits represent alpha channel.
-opencpn_pal(n = Inf, type = "kml")
-
 # OpenCPN named gpx color palette
 opencpn_pal(n = Inf, type = "gpx")
 
