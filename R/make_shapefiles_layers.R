@@ -115,7 +115,6 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
 #' Make station allocation shapefile and navigation plots
 #' 
 #' @param allocation_df Data.frame containing allocated station latitude, longitude, stratum, station ID, vessel ID, and optional additional description columns (e.g. station priority).
-#' @param survey_year Year for the survey. Optional.
 #' @param region Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"
 #' @param lon_col Name of the longitude column as a character vector. Required.
 #' @param lat_col Name of the latitude column as a character vector. Required.

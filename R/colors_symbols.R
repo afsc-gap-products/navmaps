@@ -43,6 +43,7 @@ navmaps_pal <- function(values, software_format, file_type = NULL, ...) {
 #' @param values Symbol values as a character vector (see ?tz_sym_pal or ?globe_sym_pal for shape options)
 #' @param software_format Software as a character vector.
 #' @param file_type File type for OpenCPN or TimeZero ("kml" or "gpx")
+#' @param color Optional color for OpenCPN symbols. Passed to opencpn_pal().
 #' @param ... Ignored
 #' @export
 
@@ -256,9 +257,6 @@ globe_pal <- function(n = NULL, values = NULL, type = "decimal", ...) {
 #' 
 #' # View colors 
 #' show_col_nav(colors = opencpn_pal(n = Inf, type = "hex"))
-#' 
-#' # Software color palette. Eight digit hex but the first two digits represent alpha channel.
-#' opencpn_pal(n = Inf, type = "kml")
 #' 
 #' # OpenCPN named gpx color palette
 #' opencpn_pal(n = Inf, type = "gpx")
