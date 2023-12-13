@@ -203,6 +203,7 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
 #' @param overwrite_midpoint Should files be overwritten?
 #' @param software_format Software format as a character vector.
 #' @export
+#' @import purrr tidyr dplyr
 
 make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = "timezero") {
   
@@ -405,7 +406,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
 #' @param spar Smoothing parameter argument passed to smooth.spline()
 #' @keywords internal
 #' @export
-#' @import tibble
+#' @import tibble tidyr dplyr
 
 smooth_lat_lon_dist <- function(df, spar = NULL) {
   

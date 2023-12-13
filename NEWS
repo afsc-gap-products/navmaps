@@ -10,7 +10,7 @@ FUNCTIONALITY CHANGES
 
 IMPROVEMENTS
 
-- Remove purrr as a dependency; add farver (for color mapping).
+- Add farver (for color mapping).
 - Update function documentation.
 
 

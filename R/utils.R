@@ -229,6 +229,7 @@ set_file_type <- function(software_format, marks = TRUE) {
 #' @param xlab X-axis title, passed to plot()
 #' @param ylab Y-axis title, passed to plot()
 #' @export
+#' @import farver
 
 show_col_nav <- function(colors = NULL, custom_labels = NULL, labels = TRUE, borders = NULL, cex_label = 1, 
                          ncol = NULL, main = NULL, xlab = "", ylab = "") {
@@ -309,6 +310,7 @@ dmm_to_dd <- function(x) {
 #' @returns Decimal degree coordinates as a matrix with with longitude in the first column and latitude in the second column (e.g. '72°30.500’N, 152°00.000’W' returns a 2L numeric vector -152.00000   80.83333)
 #' @examples dms_string_to_dd('72°30.500’N, 152°00.000’W')
 #' @export
+#' @import stringr
 
 dms_string_to_dd <- function(x) {
   

@@ -16,5 +16,6 @@ Find the color that's closest to a user-provided input color in RGB space.
 }
 \examples{
 find_closest_color(input_color = "blue", valid_color_names = c("green", "red", "deepskyblue2"))
-find_closest_color(input_color = c("magenta", "darkgreen"), valid_color_names = c("green", "red", "deepskyblue2"))
+find_closest_color(input_color = c("magenta", "darkgreen"), 
+valid_color_names = c("green", "red", "deepskyblue2"))
 }

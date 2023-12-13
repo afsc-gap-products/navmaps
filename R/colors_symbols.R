@@ -113,7 +113,8 @@ tz_pal <- function(n = NULL, values = NULL, type = "kml", ...) {
     stop("Invalid type argument, ", type, "must be one of kml, hex, or gpx")
   }
   
-  pal_df <- data.frame(names = c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"),
+  pal_df <- data.frame(names = c("tan", "yellow", "magenta", "red", "purple", "lightgreen", "darkgreen", 
+                                 "cyan", "blue", "darkorange", "darkgrey", "black", "maroon", "white"),
                        hex = c("#d2b48c", "#ffff00", "#ff00ff", "#ff0000", "#d30094", "#90ee90", 
                                "#008000", "#00ffff", "#0000ff", "#ff5a00", "#a9a9a9", "#000000", 
                                "#000080", "#FFFFFF"),
@@ -122,13 +123,13 @@ tz_pal <- function(n = NULL, values = NULL, type = "kml", ...) {
                                "ff000080", "ffffffff"),
                        gpx = c(14, 9, 5, 1, 15, 8, 2, 4, 3, 11, 19, 6, 17, 6))
   
-  if(class(values) == "character") {
+  if(is.character(values)) {
     values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
   }
   
   if(!is.null(values)) {
     
-    if(class(values) == "character") {
+    if(is.character(values)) {
       
       if(!all(values %in% pal_df$names)) {
         stop("tz_pal: Invalid colors passed to values argument: ", 
@@ -205,13 +206,13 @@ globe_pal <- function(n = NULL, values = NULL, type = "decimal", ...) {
                                         decimal = c(13808780, 65535, 16711935, 255, 16711808, 8454016, 32768, 16776960, 16711680, 33023, 8421504, 0, 4194432, 16777215),
                        integer = c(6, 14, 13, 4, 5, 10, 2, 3, 1, 12, 7, 0, 9, 15))
   
-  if(class(values) == "character") {
+  if(is.character(values)) {
     values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
   }
   
   if(!is.null(values)) {
     
-    if(class(values) == "character") {
+    if(is.character(values)) {
       
       if(!all(values %in% pal_df$names)) {
         stop("globe_pal: Invalid colors passed to values argument: ", 
@@ -281,13 +282,13 @@ opencpn_pal <- function(n = NULL, values = NULL, type = "gpx", ...) {
                        hex = c("#ffff00", "#ff00ff", "#ff0000", "#00ff00", "#0000ff", "#ff5a00",  "#000000", "#FFFFFF"),
                        gpx = c("Yellow", "Magenta", "Red", "Green", "Blue", "Orange", "Black", "White"))
   
-  if(class(values) == "character") {
+  if(is.character(values)) {
       values <- find_closest_color(input_color = values, valid_color_names = pal_df$names)
   }
   
   if(!is.null(values)) {
     
-    if(class(values) == "character") {
+    if(is.character(values)) {
       
       if(!all(values %in% pal_df$names)) {
         stop("opencpn_pal: Invalid colors passed to values argument: ", 
@@ -361,7 +362,7 @@ globe_sym_pal <- function(n = NULL, values = NULL, type = "integer", ...) {
   
   if(!is.null(values)) {
     
-    if(class(values) == "character") {
+    if(is.character(values)) {
       
       if(!all(values %in% sym_df$names)) {
         stop("globe_sym_pal: Invalid colors passed to values argument: ", 
@@ -430,7 +431,7 @@ tz_sym_pal <- function(n = NULL, values = NULL, type = "names", ...) {
   
   if(!is.null(values)) {
     
-    if(class(values) == "character") {
+    if(is.character(values)) {
       
       if(!all(values %in% sym_df$names)) {
         stop("globe_sym_pal: Invalid symbol passed to values argument: ", 
@@ -487,7 +488,7 @@ opencpn_sym_pal <- function(n = NULL, values = NULL, color = NULL, type = "names
   
   if(!is.null(values)) {
     
-    if(class(values) == "character") {
+    if(is.character(values)) {
       
       if(!all(values %in% sym_df$names)) {
         stop("opencpn_sym_pal: Invalid symbol passed to values argument: ", 
@@ -535,7 +536,8 @@ opencpn_sym_pal <- function(n = NULL, values = NULL, color = NULL, type = "names
 #' @param input_color Input color name as a character vector.
 #' @param valid_color_names Chracter vector of valid colors.
 #' @examples find_closest_color(input_color = "blue", valid_color_names = c("green", "red", "deepskyblue2"))
-#' find_closest_color(input_color = c("magenta", "darkgreen"), valid_color_names = c("green", "red", "deepskyblue2"))
+#' find_closest_color(input_color = c("magenta", "darkgreen"), 
+#' valid_color_names = c("green", "red", "deepskyblue2"))
 #' @export
 
 find_closest_color <- function(input_color, valid_color_names) {
