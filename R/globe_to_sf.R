@@ -23,9 +23,9 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
   odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={", driver, "};DBQ=", dsn))
   
   if(is.null(tablename)) {
-    tablename <- c("lines", "marks", "Lines", "Marks")[which(c("lines", "marks", "Lines", "Marks") %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)]
+    tablename <- c("lines", "marks", "Lines", "Marks", "track", "Track")[which(c("lines", "marks", "Lines", "Marks", "track", "Track") %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)]
     
-    stopifnot("read_globe: tablename argument was not specified and the Access database did not contain EXACTLY one table named lines or marks. Please provide the tablename argument in the read_globe() function call." = length(tablename) == 1)
+    stopifnot("read_globe: tablename argument was not specified and the Access database did not contain EXACTLY one table named lines, marks, or track. Please provide the tablename argument in the read_globe() function call." = length(tablename) == 1)
   }
   
   message("read_globe: Reading data from ", dsn)
