@@ -29,9 +29,9 @@ library(remotes)
 install_github("afsc-gap-products/navmaps", auth_token = gh::gh_token())
 ```
 
-### Installation for 32-bit R (R version <= 4.1.3)
+### Troubleshooting 32-bit R Installation (R version <= 4.1.3)
 
-If you already have R version 4.1.0-4.1.3 and Rtools40 installed, you can skip to step 3.
+Some users have had difficulties installing 32-bit R caused by issues installing/upgrading the rlang and purrr packages. If you already have R version 4.1.0-4.1.3 and Rtools40 installed, you can skip to step 3.
 
 1.  Install 64-bit and 32-bit versions of [R Version 4.1.X](https://cran.r-project.org/bin/windows/base/old/4.1.3/)
 2.  Install [Rtools40](https://cran.r-project.org/bin/windows/Rtools/rtools40.html).
