@@ -1,14 +1,14 @@
 #' Get Track Data from Timezero Database
 #'
-#' This function retrieves timezone data from a Timezero database file.
+#' This function retrieves timezone and position data from a Timezero database file.
 #'
-#' @param path_tzdb A character string specifying the path to the Timezero database file (.tzdb).
+#' @param path_tzdb A specific path to the Timezero database file (.tzdb).
 #' 
-#' @return A data frame containing the columns Date, x, and y from the database.
+#' @return A data frame containing the columns "Date", "X", and "Y" from the Timezero database.
 #' 
-#' @details The function checks if the specified file exists and if it has a .tzdb extension.
-#' It then connects to the database, queries the data, and disconnects. The resulting data frame
-#' should have at least one row; otherwise, an error is raised.
+#' @details The function checks if the specified file exists.
+#' It then connects to the database, selects "Date", "X", and "Y", queries the data, and 
+#' disconnects.
 #' 
 #' 
 #' @examples
@@ -28,7 +28,7 @@ get_tzdata <- function(path_tzdb){
   stopifnot("get_tzdata: path_tzdb file does not exist"=file.exists(path_tzdb))
 
   #check that the file is .tzdb
-  stopifnot("get_tzdata: path_tzdb: must be a timezero database (.tzdb)"=grepl(x= path_tzdb, pattern= ".tzdb", ignore.case = TRUE))
+  stopifnot("get_tzdata: path_tzdb: must be a timezero database (.tzdb)"=grepl(x= path_tzdb,     pattern= ".tzdb", ignore.case = TRUE))
  
    #connect to the database
   con <- RSQLite::dbConnect(RSQLite::SQLite(), path_tzdb)

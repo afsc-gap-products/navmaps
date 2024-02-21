@@ -7,18 +7,18 @@
 get_tzdata(path_tzdb)
 }
 \arguments{
-\item{path_tzdb}{A character string specifying the path to the Timezero database file (.tzdb).}
+\item{path_tzdb}{A specific path to the Timezero database file (.tzdb).}
 }
 \value{
-A data frame containing the columns Date, x, and y from the database.
+A data frame containing the columns "Date", "X", and "Y" from the Timezero database.
 }
 \description{
-This function retrieves timezone data from a Timezero database file.
+This function retrieves timezone and position data from a Timezero database file.
 }
 \details{
-The function checks if the specified file exists and if it has a .tzdb extension.
-It then connects to the database, queries the data, and disconnects. The resulting data frame
-should have at least one row; otherwise, an error is raised.
+The function checks if the specified file exists.
+It then connects to the database, selects "Date", "X", and "Y", queries the data, and 
+disconnects.
 }
 \examples{
 \dontrun{

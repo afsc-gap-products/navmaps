@@ -4,7 +4,7 @@
 \alias{convert_tz_date}
 \title{Create a test  function}
 \usage{
-convert_tz_date(x, output_timezone = "America/Anchorage")
+convert_tz_date(x)
 }
 \arguments{
 \item{a}{a numeric vector}

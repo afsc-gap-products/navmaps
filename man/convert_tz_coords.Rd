@@ -2,18 +2,16 @@
 % Please edit documentation in R/convert_tz_coords.R
 \name{convert_tz_coords}
 \alias{convert_tz_coords}
-\title{Create a test  function}
+\title{Transform Timezero coordinates into compatible coordinates.}
 \usage{
 convert_tz_coords(x)
 }
 \arguments{
-\item{a}{a numeric vector}
-
-\item{b}{a number vector}
+\item{x}{A data.frame containing "Date", "X", and "Y"}
 }
 \value{
-a number
+A data frame with transformed "X" and "Y" coordinates
 }
 \description{
-A function that adds numeric vector a and b
+This function converts the "X" and "Y" columns from the .tzdb database, converts to meters, transforms the coordinates from a coordinate reference system to a geographical coordinate system and replaces transformed "X" and "Y" back into data frame
 }

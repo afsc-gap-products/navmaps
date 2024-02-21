@@ -1,12 +1,13 @@
-#' Create a test  function
+#' Transform Timezero coordinates into compatible coordinates.
 #'
-#' A function that adds numeric vector a and b 
+#' This function converts the "X" and "Y" columns from the .tzdb database, converts to meters, transforms the coordinates from a coordinate reference system to a geographical coordinate system and replaces transformed "X" and "Y" back into data frame
 #'
-#' @param a a numeric vector
-#' @param b a number vector
-#' @return a number
-#' @export
+#' @param x A data.frame containing "Date", "X", and "Y"
+#' 
+#' @return A data frame with transformed "X" and "Y" coordinates
+#' 
 #' @import sf
+#' @export
 
 
 convert_tz_coords <- function(x){
@@ -22,6 +23,8 @@ convert_tz_coords <- function(x){
   #Convert X and Y from cm to m (divide x and y by 100)
   x$X <- x$X/100
   x$Y <- x$Y/100
+  
+  #Use transform_3857_to_4326 to replace simple features x[, c("X", "Y")]
   
   #Convert X to simple features object using sf::st_as_sf
   x_sf <- sf::st_as_sf(x=x, coords = c("X", "Y"), crs = "EPSG:3857")
