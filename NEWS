@@ -6,6 +6,10 @@ NEW FEATURES
 - Added transform_4326_to_3857() and transform_3857_to_4326()
   functions to convert between WGS84 Pseudo-mercator (used by
   Time Zero) and WGS84.
+  
+FUNCTIONALITY CHANGES
+- get_connected() causes an error if the RODBC connection is not
+  successfully established.
 
 
 navmaps 1.1.2 (January 11, 2024)

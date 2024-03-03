@@ -21,7 +21,11 @@ get_connected <- function(channel = NULL, schema = NA){
                                    pwd = paste(password),
                                    believeNRows = FALSE)
   }
+  
+  stopifnot("get_connected: RODBC did not successfully connect." =  class(channel) == "RODBC")
+  
   return(channel)
+  
 }
 
 
