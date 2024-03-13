@@ -22,25 +22,48 @@
 #' 
 #' @export
 
-get_tzdata <- function(path_tzdb){
+get_tzdata <- function(path_tzdb, start = NULL, end = NULL){
 
+  # start = "2024-01-25 00:00:00"
+  # 
+  # path_tzdb= here::here("assets", "data", "OwnShipRecorder.tzdb")
+  # 
+  # end = "2024-01-25 06:00:00"
+  
+  query <- "SELECT date, x, y FROM data"
+  
+  if(!is.null(start) & !is.null(end)){ 
+    
+    origin <- as.numeric(as.POSIXct("2000-01-01", tz = "UTC"))
+    
+    start <- as.POSIXct(start, tz = "America/Anchorage") + 3600*8
+    
+    end <- as.POSIXct(end, tz = "America/Anchorage") + 3600*8
+    
+    start <- as.numeric(start) - origin
+    
+    end <- as.numeric(end) - origin
+    
+    query <- paste0("SELECT date, x, y FROM data WHERE date >= ", start, " and date <= ", end)
+  }
+  
   #check that file exists
-  stopifnot("get_tzdata: path_tzdb file does not exist"=file.exists(path_tzdb))
+  stopifnot("get_tzdata: path_tzdb file does not exist" = file.exists(path_tzdb))
 
   #check that the file is .tzdb
-  stopifnot("get_tzdata: path_tzdb: must be a timezero database (.tzdb)"=grepl(x= path_tzdb,     pattern= ".tzdb", ignore.case = TRUE))
+  stopifnot("get_tzdata: path_tzdb: must be a timezero database (.tzdb)"= grepl(x = path_tzdb, pattern = ".tzdb", ignore.case = TRUE))
  
    #connect to the database
   con <- RSQLite::dbConnect(RSQLite::SQLite(), path_tzdb)
   
   #Query the database
-  output <- RSQLite::dbGetQuery(con, "SELECT date, x, y FROM data")
+  output <- RSQLite::dbGetQuery(con, query)
   
   #Disconnect from the database
   RSQLite::dbDisconnect(con)
   
   #Atleast one row in output
-  stopifnot("No data found in database"=nrow(output) > 0)
+  stopifnot("No data found in database" = nrow(output) > 0)
   
 
     return(output)

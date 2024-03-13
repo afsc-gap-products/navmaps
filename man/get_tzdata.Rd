@@ -4,7 +4,7 @@
 \alias{get_tzdata}
 \title{Get Track Data from Timezero Database}
 \usage{
-get_tzdata(path_tzdb)
+get_tzdata(path_tzdb, start = NULL, end = NULL)
 }
 \arguments{
 \item{path_tzdb}{A specific path to the Timezero database file (.tzdb).}

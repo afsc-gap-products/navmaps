@@ -24,16 +24,10 @@ convert_tz_coords <- function(x){
   x$X <- x$X/100
   x$Y <- x$Y/100
   
-  #Use transform_3857_to_4326 to replace simple features x[, c("X", "Y")]
+  #Convert to WGS84
+  xy_mat <- as.matrix(x[, c("X", "Y")])
+  xy_mat <- transform_3857_to_4326(xy_mat)
   
-  #Convert X to simple features object using sf::st_as_sf
-  x_sf <- sf::st_as_sf(x=x, coords = c("X", "Y"), crs = "EPSG:3857")
-  x_sf <- sf::st_transform(x_sf, crs= "WGS84")
-  
-  #Transform to WGS84
-  
-  xy_mat <- sf::st_coordinates(x_sf)
- 
   #replaced columns with converted X, Y
   x$X <- xy_mat[,1]
   
