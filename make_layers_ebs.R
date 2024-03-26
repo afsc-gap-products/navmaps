@@ -19,7 +19,7 @@ for(ii in 1:length(software_types)) {
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region,
-    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
+    overwrite_midpoint = FALSE, #ifelse(ii == 1, TRUE, FALSE),
     software_format = SOFTWARE
   )
 
@@ -61,15 +61,16 @@ for(ii in 1:length(software_types)) {
 
   # 8. Survey stratum layer
   strata <- map_layers$survey.strata
+  names(strata)[which(names(strata) != "geometry")] <- toupper(names(strata)[which(names(strata) != "geometry")]) 
   strata$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   strata$fill <- 0
-  strata$name <- paste0("Stratum ", strata$Stratum)
+  strata$name <- paste0("Stratum ", strata$STRATUM)
 
   sf_to_nav_file(
     x = strata,
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)),
     name_col = "name",
-    description_col = "Stratum",
+    description_col = "STRATUM",
     color_col = "color",
     fill_col = "fill",
     software_format = SOFTWARE
@@ -137,21 +138,27 @@ for(ii in 1:length(software_types)) {
                  software_format = SOFTWARE)
 
   # 13. Buoys
-  buoys <- read.csv(file = here::here("assets", "data", "buoys", "lnm_moorings_20240227.csv")) |>
+  
+
+  buoys <- readxl::read_xlsx(here::here("assets", "data", "buoys", "lnm_moorings_20240227.xlsx")) |>
+    as.data.frame() |>
     dplyr::mutate(LONGITUDE = dms_string_to_dd(POSITION)[,1],
                   LATITUDE = dms_string_to_dd(POSITION)[,2]) |>
-    sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326")
+    sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326") |>
+    dplyr::rename(TYPE_NAME = `TYPE/NAME`)
+  
   buoys$shape <- navmaps_sym_pal(values = "warning",
                                  software_format = SOFTWARE,
                                  file_type = FILE_TYPE_POINT)
   buoys$color <- navmaps_pal(values = "darkorange",
                              software_format = SOFTWARE,
                              file_type = FILE_TYPE_POINT)
+  
   buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
 
   sf_to_nav_file(x = buoys,
                  file = here::here("output", region,  "navigation", SOFTWARE, paste0("buoys_20240227.", FILE_TYPE_POINT)),
-                 name_col = "TYPE.NAME",
+                 name_col = "TYPE_NAME",
                  description_col = "description",
                  color_col = "color",
                  shape_col = "shape",
@@ -164,7 +171,7 @@ for(ii in 1:length(software_types)) {
 
   slope_sample_zones$color <- navmaps_pal(values = "cyan",
                                           software_format = SOFTWARE,
-                                          file_type = FILE_TYPE_POINT)
+                                          file_type = FILE_TYPE_POLYGON)
   slope_sample_zones$fill <- 0
   slope_sample_zones$name <- "Shelf_Slope"
   
@@ -191,7 +198,7 @@ for(ii in 1:length(software_types)) {
   sf_to_nav_file(x = slope_allocation,
                  file = here::here("output", region,  "navigation", SOFTWARE, paste0("2024_slope_allocation.", FILE_TYPE_POINT)),
                  name_col = "STATIONID",
-                 description_col = "PRIORITY",
+                 description_col = "PRIMARY",
                  color_col = "color",
                  shape_col = "shape",
                  software_format = SOFTWARE)
@@ -242,7 +249,7 @@ for(ii in 1:length(software_types)) {
   
   zones_15_30$color <- navmaps_pal(values = "yellow",
                                           software_format = SOFTWARE,
-                                          file_type = FILE_TYPE_POINT)
+                                          file_type = FILE_TYPE_POLYGON)
   zones_15_30$fill <- 0
   zones_15_30$name <- "15_30"
   

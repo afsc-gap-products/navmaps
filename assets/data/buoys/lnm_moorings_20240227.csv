@@ -37,7 +37,7 @@ ODAS-2,"70°16.663’N, 147°35.493’W",19 feet,17 feet,30/19,Carmen Lawrence 902-405
 BCE-19,"71°40.368’N, 154°59.923’W",344 feet,131 feet,42/19,Motoyo ITOH +81-46-867-9488
 BCC-19,"71°44.049’N, 155°09.624’W",951 feet,131 feet,42/19,Motoyo ITOH +81-46-867-9488
 BCW-19,"71°47.766’N, 155°20.777’W",554 feet,131 feet,42/19,Motoyo ITOH +81-46-867-9488
-Prudhoe,"70°50.085’N, 146°23.564’W",207 feet,191 feet,03/22,Steve Okkonen 907-283-3234
+Prudhoe,"70°50.085’N, 146°23.564’W",207 feet,191 feet,3/22,Steve Okkonen 907-283-3234
 AL23-AU-BF02,"71°45.243’N, 154°28.560’W",344 feet,312 feet,40/23,Catherine Berchok 206-526-6331
 AL23-AU-IC01,"70°50.100’N, 163°07.540’W",148 feet,115 feet,40/23,Catherine Berchok 206-526-6331
 Unnamed,"71°14.459’N, 164°18.067’W",138 feet,Surface,28/15,Noah Lawrence 206-526-6209
@@ -45,8 +45,8 @@ Unnamed,"71°14.459’N, 164°18.067’W",138 feet,Surface,28/15,Noah Lawrence 206-526
 CEM1-19,"71°35.971’N, 161°30.419’W",154 feet,108 feet,35/19,Peter Shipton 907-224-4319
 CEM2-19,"71°35.979’N, 161°31.648’W",154 feet,108 feet,35/19,Peter Shipton 907-224-4319
 AL21-AU-PH1,"67°54.507’N, 168°11.926’W",171 feet,138 feet,49/21,Catherine Berchok 206-526-6331
-W. Barrow Canyon,"71°37.868’N, 157°19.576’W",230 feet,214 feet,03/22,Steve Okkonen 907-283-3234
-WhoopDeeDo,"71°25.327’N, 152°44.103’W",269 feet,253 feet,03/22,Steve Okkonen 907-283-3234
+W. Barrow Canyon,"71°37.868’N, 157°19.576’W",230 feet,214 feet,45373,Steve Okkonen 907-283-3234
+WhoopDeeDo,"71°25.327’N, 152°44.103’W",269 feet,253 feet,45373,Steve Okkonen 907-283-3234
 AL23-AU-PB01,"71°12.258’N, 157°59.970’W",161 feet,128 feet,40/23,Catherine Berchok 206-526-6331
 AL23-AU-IC02,"71°12.880’N, 164°14.910’W",141 feet,108 feet,40/23,Catherine Berchok 206-526-6331
 AL23-AU-IC03,"71°49.840’N, 166°01.090’W",144 feet,112 feet,40/23,Catherine Berchok 206-526-6331
@@ -100,8 +100,8 @@ TRBM-1,"54°42.606’N, 162°37.872’W",407 feet,405 feet,48/16,Chris Wilson 206-526-
 TRBM-2,"54°37.151’N, 162°35.695’W",489 feet,487 feet,48/16,Chris Wilson 206-526-6435
 GA23-AU-SU01,"56°35.990’N, 157°00.000’W",427 feet ,400 feet,41/23,Catherine Berchok 206-526-6331
 GA23-AU-SE01,"58°42.540’N, 152°12.530’W",430 feet ,404 feet,41/23,Catherine Berchok 206-526-6331
-ADCP-A,"59°16’34.5168”N, 154°07’03.6837”W ",16 feet,13 feet,03/18,Jason Crockett 907-315-6513
-ADCP-B,"59°15’24.7255”N, 154°02’45.7066”W", 43 feet,39 feet,03/18,Jason Crockett 907-315-6513
+ADCP-A,"59°16’34.5168”N, 154°07’03.6837”W ",16 feet,13 feet,3/18,Jason Crockett 907-315-6513
+ADCP-B,"59°15’24.7255”N, 154°02’45.7066”W", 43 feet,39 feet,3/18,Jason Crockett 907-315-6513
 UAF GAK4M,"59°24.231’N, 149°00.731’W",656 feet,328 feet,45/16,Dr. Andrew McDonnell 907-474-7529
 WAVE YB-1,"59°27’22.248”N, 139°45’02.088”W",UNK,Surface,29/17,Jeremy Kasper 907-371-6510
 WAVE YB-2,"59°26’58.7349”N, 139°47’46.3194”W",UNK,Surface,29/17,Jeremy Kasper 907-371-6510
@@ -136,55 +136,55 @@ WTRT1,"60°44.253’N, 147°59.5596’W",504 feet ,488 feet ,11/14,Mary Anne Bishop 90
 WTRT2,"60°44.0994’N, 147°59.086’W",504 feet ,488 feet,11/14,Mary Anne Bishop 907-424-5800 x228
 WTRT3,"60°43.938’N, 147°59.448’W",316 feet ,300 feet,11/14,Mary Anne Bishop 907-424-5800 x228
 PWSSC-15,"60°36.791’N, 147°11.996’W",722 feet   ,197 feet (Surfacing 2X per day),15/16,R. W. Campbell 907-424-5800 x241
-H01,"60°20.550'N, 146°43.824'W",98 feet ,66 feet ,09/17,Mary Anne Bishop 907-424-5800 x228
-HA,"60°20.274'N, 146°43.248'W",591 feet ,532 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H02,"60°20.400'N, 146°44.520'W",879 feet  ,791 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-HB,"60°20.094'N, 146°43.974'W",830 feet ,747 feet ,09/17,Mary Anne Bishop 907-424-5800 x228
-H03,"60°20.250'N, 146°45.246'W",886 feet ,797 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H04,"60°20.112'N, 146°45.966'W",886 feet ,797 feet ,09/17,Mary Anne Bishop 907-424-5800 x228
-H05,"60°19.968'N, 146°46.710'W",886 feet ,797 feet ,09/17,Mary Anne Bishop 907-424-5800 x228
-H06,"60°19.812'N, 146°47.418'W",896 feet ,806 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H07,"60°19.668'N, 146°48.138'W",909 feet  ,818 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H08,"60°19.470'N, 146°48.954'W",935 feet ,842 feet ,09/17,Mary Anne Bishop 907-424-5800 x228
-H09,"60°19.320'N, 146°49.782'W",1007 feet ,906 feet ,09/17,Mary Anne Bishop 907-424-5800 x228
-H10,"60°19.188'N, 146°50.508'W",1060 feet,954 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H13,"60°18.738'N, 146°52.656'W",909 feet,818 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H14,"60°18.588'N, 146°53.340'W",522 feet,470 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H15,"60°18.468'N, 146°53.994'W",276 feet,244 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-HC,"60°18.120'N, 146°53.568'W",449 feet,404 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H11,"60°19.008'N, 146°51.228'W",1135 feet,1022 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H12,"60°18.888'N, 146°51.930'W",1194 feet,1075 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-H16,"60°18.540'N, 146°54.552'W",85 feet,53 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-HD,"60°17.982'N, 146°54.336'W",151 feet,119 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M01,"59°55.482'N, 147°48.630'W",295 feet,263 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-MA,"59°55.146'N, 147°49.092'W",220 feet,188 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M02,"59°55.848'N, 147°49.074'W",446 feet,401 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-MB,"59°55.512'N, 147°49.512'W",420 feet,378 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M03,"59°56.178'N, 147°49.518'W",509 feet,458 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M04,"59°56.556'N, 147°49.956'W",577 feet,519 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M05,"59°56.886'N, 147°50.382'W",640 feet,576 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M06,"59°57.222'N, 147°50.826'W",705 feet,635 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M07,"59°57.546'N, 147°51.234'W",741 feet,667 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M08,"59°57.864'N, 147°51.636'W",768 feet,691 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M09,"59°58.152'N, 147°52.008'W",784 feet,706 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M10,"59°58.536'N, 147°52.458'W",778 feet,700 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-MC,"59°58.182'N, 147°52.872'W",745 feet,671 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-M11,"59°58.842'N, 147°52.866'W",472 feet,425 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-MD,"59°58.518'N, 147°53.352'W",614 feet,553 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-LP01,"59°58.854'N, 148°01.920'W",112 feet,80 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-LPA,"59°58.488'N, 148°02.286'W",98 feet,66 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-EP04,"59°59.700'N, 148°06.072'W",276 feet,244 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-EPB,"59°59.364'N, 148°06.492'W",246 feet,214 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-POWP05,"60°02.778'N, 148°07.470'W",312 feet,280 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-LPB,"59°58.758'N, 148°02.676'W",289 feet,257 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-EP03,"59°59.472'N, 148°05.802'W",240 feet,208 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-EPA,"59°59.064'N, 148°05.952'W",331 feet,299 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-PWA,"60°02.394'N, 148°07.698'W",289 feet,257 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-LP02,"59°59.082'N, 148°02.208'W",148 feet,116 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-POWP06,"60°02.796'N, 148°07.902'W",177 feet,145 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-PWB,"60°02.418'N, 148°08.208'W",266 feet,234 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-BP07,"60°06.906'N, 148°14.118'W",174 feet,142 feet,09/17,Mary Anne Bishop 907-424-5800 x228
-BPA,"60°07.128'N, 148°13.458'W",167 feet,135 feet,09/17,Mary Anne Bishop 907-424-5800 x228
+H01,"60°20.550'N, 146°43.824'W",98 feet ,66 feet ,9/17,Mary Anne Bishop 907-424-5800 x228
+HA,"60°20.274'N, 146°43.248'W",591 feet ,532 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H02,"60°20.400'N, 146°44.520'W",879 feet  ,791 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+HB,"60°20.094'N, 146°43.974'W",830 feet ,747 feet ,9/17,Mary Anne Bishop 907-424-5800 x228
+H03,"60°20.250'N, 146°45.246'W",886 feet ,797 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H04,"60°20.112'N, 146°45.966'W",886 feet ,797 feet ,9/17,Mary Anne Bishop 907-424-5800 x228
+H05,"60°19.968'N, 146°46.710'W",886 feet ,797 feet ,9/17,Mary Anne Bishop 907-424-5800 x228
+H06,"60°19.812'N, 146°47.418'W",896 feet ,806 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H07,"60°19.668'N, 146°48.138'W",909 feet  ,818 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H08,"60°19.470'N, 146°48.954'W",935 feet ,842 feet ,9/17,Mary Anne Bishop 907-424-5800 x228
+H09,"60°19.320'N, 146°49.782'W",1007 feet ,906 feet ,9/17,Mary Anne Bishop 907-424-5800 x228
+H10,"60°19.188'N, 146°50.508'W",1060 feet,954 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H13,"60°18.738'N, 146°52.656'W",909 feet,818 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H14,"60°18.588'N, 146°53.340'W",522 feet,470 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H15,"60°18.468'N, 146°53.994'W",276 feet,244 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+HC,"60°18.120'N, 146°53.568'W",449 feet,404 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H11,"60°19.008'N, 146°51.228'W",1135 feet,1022 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H12,"60°18.888'N, 146°51.930'W",1194 feet,1075 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+H16,"60°18.540'N, 146°54.552'W",85 feet,53 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+HD,"60°17.982'N, 146°54.336'W",151 feet,119 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M01,"59°55.482'N, 147°48.630'W",295 feet,263 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+MA,"59°55.146'N, 147°49.092'W",220 feet,188 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M02,"59°55.848'N, 147°49.074'W",446 feet,401 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+MB,"59°55.512'N, 147°49.512'W",420 feet,378 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M03,"59°56.178'N, 147°49.518'W",509 feet,458 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M04,"59°56.556'N, 147°49.956'W",577 feet,519 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M05,"59°56.886'N, 147°50.382'W",640 feet,576 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M06,"59°57.222'N, 147°50.826'W",705 feet,635 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M07,"59°57.546'N, 147°51.234'W",741 feet,667 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M08,"59°57.864'N, 147°51.636'W",768 feet,691 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M09,"59°58.152'N, 147°52.008'W",784 feet,706 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M10,"59°58.536'N, 147°52.458'W",778 feet,700 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+MC,"59°58.182'N, 147°52.872'W",745 feet,671 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+M11,"59°58.842'N, 147°52.866'W",472 feet,425 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+MD,"59°58.518'N, 147°53.352'W",614 feet,553 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+LP01,"59°58.854'N, 148°01.920'W",112 feet,80 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+LPA,"59°58.488'N, 148°02.286'W",98 feet,66 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+EP04,"59°59.700'N, 148°06.072'W",276 feet,244 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+EPB,"59°59.364'N, 148°06.492'W",246 feet,214 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+POWP05,"60°02.778'N, 148°07.470'W",312 feet,280 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+LPB,"59°58.758'N, 148°02.676'W",289 feet,257 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+EP03,"59°59.472'N, 148°05.802'W",240 feet,208 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+EPA,"59°59.064'N, 148°05.952'W",331 feet,299 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+PWA,"60°02.394'N, 148°07.698'W",289 feet,257 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+LP02,"59°59.082'N, 148°02.208'W",148 feet,116 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+POWP06,"60°02.796'N, 148°07.902'W",177 feet,145 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+PWB,"60°02.418'N, 148°08.208'W",266 feet,234 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+BP07,"60°06.906'N, 148°14.118'W",174 feet,142 feet,9/17,Mary Anne Bishop 907-424-5800 x228
+BPA,"60°07.128'N, 148°13.458'W",167 feet,135 feet,9/17,Mary Anne Bishop 907-424-5800 x228
 Grav-1,"60°41.370’N, 146°23.956’W",16 feet,Surface,16/17,Mary Anne Bishop 907-424-5800 x228
 Grav-2,"60°41.454’N, 146°23.496’W",75 feet,55 feet,16/17,Mary Anne Bishop 907-424-5800 x228
 Grav-3,"60°40.925’N, 146°23.018’W",146 feet,126 feet,16/17,Mary Anne Bishop 907-424-5800 x228
@@ -253,7 +253,7 @@ Ommaney,"56° 5.3798’N, 134° 47.0233’W",1191 feet,1171 feet,33/10,Dave Carlile 90
 Ommaney,"56° 5.2783’N, 134° 46.9572’W",1191 feet,1171 feet,33/10,Dave Carlile 907-465-4216
 Ommaney,"55° 59.2270’N, 134° 57.1077’W",1220 feet,1200 feet,33/10,Dave Carlile 907-465-4216
 Ommaney,"55° 59.1256’N, 134° 57.0417’ W",1220 feet,1200 feet,33/10,Dave Carlile 907-465-4216
-20CSP-4A,"58°07.363’N, 136°35.604’W","1,099 feet","1,060 feet",06/20,David Strausz 206-526-4510
+20CSP-4A,"58°07.363’N, 136°35.604’W","1,099 feet","1,060 feet",6/20,David Strausz 206-526-4510
 HARP-CB,"58°40.409’N, 148°00.546’W","2,877 feet","2,779 feet",49/14,Josh Jones 858-822-1836
 HARP-PT,"56°14.635’N, 142°45.431’W","3,238 feet","3,140 feet",49/14,Josh Jones 858-822-1836
 MFM-A,"49°58.60’N, 144°14.77’W","13,540 feet",49 feet,24/15,Gabriella Chavez 858-822-4938
