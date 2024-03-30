@@ -55,9 +55,9 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
   message("make_trawlable: Writing trawlable/untrawlable shapefile to ", shp_path_grid)
   
   # Write output to shapefile
-  sf::st_write(obj = trawlable_grid, 
-               dsn = shp_path_grid, 
-               append = FALSE)
+  trawlable_grid |>
+    safe_st_write(dsn = shp_path_grid, 
+                  append = FALSE)
                          
   message("make_trawlable: Converting to WGS84 and adding color/fill columns.")
   trawlable_grid <- sf::st_transform(trawlable_grid, crs = "EPSG:4326") |>
@@ -151,8 +151,8 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
   
   allocation_sf |>
     sf::st_transform(crs = "EPSG:3338") |>
-    sf::st_write(dsn = shp_path, 
-                 append = FALSE)
+    safe_st_write(dsn = shp_path, 
+                  append = FALSE)
   
   if(is.null(extra_cols)) {
     allocation_sf$description <- paste0("Stratum: ", allocation_sf[[stratum_col]], ", Vessel: ", allocation_sf[[vessel_col]])
@@ -243,9 +243,8 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
   start_sf |>
     dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |>
-    sf::st_write(dsn = start_shp_path, 
-                 append = FALSE)
-  
+    safe_st_write(dsn = start_shp_path, 
+                  append = FALSE)
   # Midpoints ----
   midpoint_paths <- gsub(pattern = "raw_gps", replacement = "midpoint", x = raw_gps_paths)
   
@@ -310,9 +309,9 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   midpoint_sf |>
     sf::st_transform(crs = "EPSG:3338") |>
-    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> 
-    sf::st_write(dsn = midpoint_shp_path, 
-                 append = FALSE)
+    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |>
+    safe_st_write(dsn = midpoint_shp_path, 
+                  append = FALSE)
   
   # Write tow paths to shapefile ----
   towpath_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_towpath.shp"))
@@ -329,12 +328,14 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                         dplyr::select(VESSEL, CRUISE, HAUL, START_TIME), 
                       by = c("VESSEL", "CRUISE", "HAUL"))
   
+  towpath_sf <- towpath_sf[-which(is.na(sf::st_is_valid(towpath_sf))), ]
+  
   # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
   towpath_sf |>
     sf::st_transform(crs = "EPSG:3338") |>
-    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |> 
-    sf::st_write(dsn = towpath_shp_path, 
-                 append = FALSE)
+    dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |>
+    safe_st_write(dsn = towpath_shp_path, 
+                  append = FALSE)
   
   # Add symbol, color, description and name fields for nav software. 
   # Specify required column names to sf_to_nav: file, name_col, description_col, color_col, shape_col, time_col, extra_cols, and software_format

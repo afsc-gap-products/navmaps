@@ -1,3 +1,11 @@
+navmaps 1.1.5 (March 30, 2024)
+----------------------------------------------------------------
+
+- Added safe_st_write(). This function is used to correct geometry
+  issues and remove invalid geometries (e.g. linestrings with one
+  point), then write geometries to a file.
+
+
 navmaps 1.1.4 (March 29, 2024)
 ----------------------------------------------------------------
 

@@ -11,15 +11,16 @@ channel <- get_connected(schema = "AFSC_32")
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
+# Options are globe, opencpn, timezero
 software_types <- c("globe", "timezero", "opencpn") 
 
 for(ii in 1:length(software_types)) {
-  set_software(software_types[ii]) # Options are globe, opencpn, timezero
+  set_software(software_types[ii]) 
   
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region,
-    overwrite_midpoint = FALSE, #ifelse(ii == 1, TRUE, FALSE),
+    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
     software_format = SOFTWARE
   )
 
