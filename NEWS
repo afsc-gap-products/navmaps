@@ -1,3 +1,14 @@
+navmaps 1.1.4 (March 29, 2024)
+----------------------------------------------------------------
+
+NEW FEATURES
+
+- Added get_trawl_data_for_charts(). This function is used 
+  internally at AFSC to retrieve AI and GOA catch and haul data 
+  from RACEBASE and write it to csv files that Mark Zimmermann
+  uses to produce survey charts in ArcGIS.
+
+
 navmaps 1.1.3 (January 28, 2024)
 ----------------------------------------------------------------
 
