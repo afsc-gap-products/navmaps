@@ -13,12 +13,11 @@ safe_st_write <- function(obj, dsn, append, ...) {
   invalid <- which(is.na(sf::st_is_valid(obj)))
   
   if(length(invalid) > 0) {
-    message("safe_st_write: removing", length(invalid), " uncorrectable geometries from obj.")
-    obj <- obj[-which(invalid), ]
+    message("safe_st_write: removing ", length(invalid), " uncorrectable geometries from obj.")
+    obj <- obj[-invalid, ]
   }
   
   obj |>
-  sf::st_make_valid() |>
     sf::st_write(dsn = dsn, 
                  append = FALSE, 
                  ...)

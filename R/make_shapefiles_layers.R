@@ -328,13 +328,11 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                         dplyr::select(VESSEL, CRUISE, HAUL, START_TIME), 
                       by = c("VESSEL", "CRUISE", "HAUL"))
   
-  towpath_sf <- towpath_sf[-which(is.na(sf::st_is_valid(towpath_sf))), ]
-  
   # Rename PERFORMANCE_DESCRIPTION so PERFORMANCE and PERFORMANCE_DESCRIPTION have unique names when truncated to the maximum character length limit (7) for ESRI shapefile field names
-  towpath_sf |>
+  obj <- towpath_sf |>
     sf::st_transform(crs = "EPSG:3338") |>
     dplyr::rename(PERFDES = PERFORMANCE_DESCRIPTION) |>
-    safe_st_write(dsn = towpath_shp_path, 
+    safe_st_write(dsn = towpath_shp_path,
                   append = FALSE)
   
   # Add symbol, color, description and name fields for nav software. 
