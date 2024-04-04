@@ -10,7 +10,7 @@
 #' @return A simple features object
 #' @export
 
-globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, grouping_col = NULL, 
+globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, grouping_col = NULL,
                         driver = "Microsoft Access Driver (*.mdb)") {
   
   .check_driver()
