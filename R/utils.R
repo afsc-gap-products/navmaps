@@ -372,14 +372,14 @@ calc_coords <- function(string) {
     stop("dms_string_to_dd/calc_coords: string (", string, ") format unrecognized.")
   }
 
-  split_string <- as.numeric(split_string)
+  string_numeric <- as.numeric(split_string)
   
-  if(length(split_string) == 3) {
-    dd_string <- split_string[1] + (split_string[2] + split_string[3]/1000) / 60
+  if(length(string_numeric) == 3) {
+    dd_string <- string_numeric[1] + (string_numeric[2] + string_numeric[3]/(10^nchar(split_string[3]))) / 60
   }
   
-  if(length(split_string) == 4) {
-    dd_string <- split_string[1] + split_string[2]/60 + (split_string[3] + split_string[4]/1000) / 3600
+  if(length(string_numeric) == 4) {
+    dd_string <- string_numeric[1] + string_numeric[2]/60 + (string_numeric[3] + string_numeric[4]/(10^nchar(split_string[4]))) / 3600
   }
 
   return(dd_string)
