@@ -61,6 +61,7 @@ Meta
 /assets/data/*.zic
 /assets/data/*.dbh
 /assets/data/crabpots/
+/assets/edit_crabpot/
 *.TzBackup
 *.tfw
 /assets/data/ex_pots/
