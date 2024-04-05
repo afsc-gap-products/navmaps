@@ -9,6 +9,7 @@ globe_to_sf(
   tablename = NULL,
   wkt_geometry_type = NULL,
   grouping_col = NULL,
+  keep_index = TRUE,
   driver = "Microsoft Access Driver (*.mdb)"
 )
 }
@@ -19,7 +20,9 @@ globe_to_sf(
 
 \item{wkt_geometry_type}{Optional. Geometry type for output as a character vector; must be either POINT or LINESTRING. Typically "POINT" for marks or "LINESTRING" for lines.}
 
-\item{grouping_col}{Grouping column for LINESTRINGS.}
+\item{grouping_col}{Optional. Grouping column for LINESTRINGs.}
+
+\item{keep_index}{Logical. Should index values from database files be retained?}
 
 \item{driver}{odcb driver default = Microsoft Access Driver (*.mdb)}
 }

@@ -1,8 +1,16 @@
 navmaps 1.1.6 (April 3, 2024)
 ----------------------------------------------------------------
 
+IMPROVEMENTS
+
+- Added option to export GLOBE INDEX fields using globe_to_sf(),
+  by setting keep_index = TRUE.
+
 BUG FIX
 
+- Corrected issue with incorrect LINESTRING plotting order in 
+  globe_to_sf().
+  
 - Modified internal functions for dms_string_to_dd() to permit 
   varying numbers of decimal digits in degree decimal minute 
   and degree minute decimal second coordinate string.
