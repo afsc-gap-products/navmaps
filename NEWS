@@ -1,3 +1,12 @@
+navmaps 1.1.8 (April 12, 2024)
+----------------------------------------------------------------
+
+NEW FEATURE
+
+- Added a new extract_crabpot_unedited() function that extracts
+  linestrings and points from a Globe database.
+
+
 navmaps 1.1.7 (April 11, 2024)
 ----------------------------------------------------------------
 
