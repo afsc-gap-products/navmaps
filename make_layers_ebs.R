@@ -5,7 +5,9 @@ library(navmaps)
 region <- "sebs" # Options are sebs, nbs, ai, goa
 
 # 2. Load shapefiles using the akgfmaps package
-map_layers <- akgfmaps::get_base_layers(select.region = region)
+map_layers <- akgfmaps::get_base_layers(select.region = region, 
+                                        split.land.at.180 = FALSE)
+
 channel <- get_connected(schema = "AFSC_32")
 
 # 3. Get data
@@ -18,11 +20,11 @@ for(ii in 1:length(software_types)) {
   set_software(software_types[ii]) 
   
   # 4. Historical towpath, tow start, and midpoint
-  make_towpaths(
-    region = region,
-    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
-    software_format = SOFTWARE
-  )
+  # make_towpaths(
+  #   region = region,
+  #   overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
+  #   software_format = SOFTWARE
+  # )
 
   # 5. Station grid
   survey_grid <- map_layers$survey.grid
@@ -241,6 +243,26 @@ for(ii in 1:length(software_types)) {
                  color_col = "color",
                  time_col = "TIME",
                  shape_col = "shape",
+                 software_format = SOFTWARE)
+  
+  # Skate Nursery HAPC
+  
+  skate_hapc <- skate_hapc <- sf::st_read(here::here("assets", "data", "alaska_hapc", "alaska_hapc.shp")) |>
+    dplyr::filter(grepl(pattern = "Skate Nursery Areas", x = SITENAME_L)) |>
+    dplyr::mutate(name = "Skate Nursery (HAPC)")
+  
+  skate_hapc$color <- navmaps_pal(values = "red",
+                                  software_format = SOFTWARE,
+                                  file_type = FILE_TYPE_POLYGON)
+  skate_hapc$fill <- 0
+  
+  
+  sf_to_nav_file(x = skate_hapc,
+                 file = here::here("output", region,  "navigation", SOFTWARE, paste0("slope_skate_hapc.", FILE_TYPE_POLYGON)),
+                 name_col = "name",
+                 description_col = "name",
+                 color_col = "color",
+                 fill_col = "fill",
                  software_format = SOFTWARE)
 
 
