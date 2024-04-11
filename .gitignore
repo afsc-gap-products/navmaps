@@ -75,3 +75,4 @@ Meta
 /assets/data/AFSC_AI_bathy_Files/
 *.aux.xml
 
+*_crabpot_*
