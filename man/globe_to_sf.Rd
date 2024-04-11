@@ -14,9 +14,9 @@ globe_to_sf(
 )
 }
 \arguments{
-\item{dsn}{Path to a Globe .mdb or .accdb file.}
+\item{dsn}{Path to a Globe .mdb, .accdb, .csv., .xls, or .xlsx file.}
 
-\item{tablename}{Optional. tablename as a chracter vector (typically "marks" or "lines"). The function attempts to detect the layer type if not provided.}
+\item{tablename}{Optional. table name as a character vector (typically "marks" or "lines"). The function attempts to detect the layer type if not provided.}
 
 \item{wkt_geometry_type}{Optional. Geometry type for output as a character vector; must be either POINT or LINESTRING. Typically "POINT" for marks or "LINESTRING" for lines.}
 

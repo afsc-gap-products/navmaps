@@ -1,3 +1,12 @@
+navmaps 1.1.7 (April 11, 2024)
+----------------------------------------------------------------
+
+NEW FEATURES
+
+ - globe_to_sf() can now import spreadsheets (.csv, .xls, .xlsx)
+   exported from Globe databases.
+
+
 navmaps 1.1.6 (April 5, 2024)
 ----------------------------------------------------------------
 
