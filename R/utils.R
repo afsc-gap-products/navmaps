@@ -8,7 +8,8 @@
 #' @export
 #' @import getPass RODBC
 
-get_connected <- function(channel = NULL, schema = NA){
+get_connected <- function(channel = NULL, schema = NA) {
+  
   if(is.null(channel)) {
     (echo = FALSE)
     if(is.na(schema)) {
