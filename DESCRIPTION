@@ -7,7 +7,7 @@ Authors@R: c(person("Sean", "Rohan", email = "sean.rohan@noaa.gov", role = c("au
 Maintainer: Sean Rohan <sean.rohan@noaa.gov>
 Depends: R (>= 4.1.0), akgfmaps, dplyr, farver, here, sf, tidyr, tibble
 Imports: odbc, RODBC, getPass, purrr, stringr, readxl
-Description: Make layers for marine navigation software
+Description: Make layers for marine navigation software (Globe, TimeZero, OpenCPN, and others).
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: false
