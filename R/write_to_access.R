@@ -36,6 +36,15 @@ write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = T
         
       }
       
+      if(tolower(tablename) == "track") {
+        
+        message("write_to_access: Starting track file.")
+        file.copy(from = system.file(package = "navmaps", "extdata/blank_track.mdb"),
+                  to = dsn,
+                  overwrite = TRUE)
+  
+      }
+      
     }
     
     if(file_type == "accdb") {

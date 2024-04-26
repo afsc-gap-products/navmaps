@@ -12,11 +12,27 @@
 #' @param time_col Column name passed to sf_to_[output_type] functions.
 #' @param name_col Column name passed to sf_to_[output_type] functions. Only used for .gpx and .kml files.
 #' @param description_col Column name passed to sf_to_[output_type] functions. Only used for .gpx and .kml files.
+#' @param depth_col Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.
+#' @param index_col Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.
 #' @param extra_cols Column names passed to sf_to_[output_type] functions. Only used for Globe .csv, .mdb, and .accdb files.
 #' @param envir Only change for debugging.
 #' @export
 
-sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col = NULL, shape_col = NULL, fill_col = NULL, time_col = NULL, name_col = NULL, description_col = NULL, extra_cols = NULL, envir = environment()) {
+sf_to_nav_file <- function(x, 
+                           file, 
+                           software_format, 
+                           geometry = NULL, 
+                           color_col = NULL, 
+                           shape_col = NULL, 
+                           fill_col = NULL, 
+                           time_col = NULL, 
+                           name_col = NULL, 
+                           description_col = NULL, 
+                           extra_cols = NULL, 
+                           depth_col = NULL, 
+                           index_col = NULL, 
+                           globe_track = FALSE, 
+                           envir = environment()) {
   
   args <- as.list(match.call()[-1])
   
@@ -40,13 +56,22 @@ sf_to_nav_file <- function(x, file, software_format, geometry = NULL, color_col 
 
   if(software_format == "globe") {
     
-    x$Name <- x[[name_col]]
-    x$Comment <- x[[description_col]]
+    if(!globe_track) {
+      x$Name <- x[[name_col]]
+      x$Comment <- x[[description_col]]
+    }
+
+    if(is_point & globe_track) {
+        message("sf_to_nav_file: Using sf_to_globe_track()")
+        do.call(sf_to_globe_track, args = args, envir = parent.frame())
+      } 
     
-    if(is_point) {
-      message("sf_to_nav_file: Using sf_to_globe_points()")
-      do.call(sf_to_globe_points, args = args, envir = parent.frame())
-    } else {
+    if(is_point & !globe_track) {
+        message("sf_to_nav_file: Using sf_to_globe_points()")
+        do.call(sf_to_globe_points, args = args, envir = parent.frame())
+      }
+
+    if(!is_point) {
       message("sf_to_nav_file: Using sf_to_globe_linestring()")
       do.call(sf_to_globe_linestring, args = args, envir = parent.frame())
     }

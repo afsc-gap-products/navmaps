@@ -1,3 +1,22 @@
+navmaps 1.1.9 (April 26, 2024)
+----------------------------------------------------------------
+
+NEW FEATURE
+
+- Added a new sf_to_globe_track() function that adds data to a 
+  Globe file as a track. Globe track files can be generated from 
+  POINT geometries by setting arguments software_format = "globe"
+  and globe_track = TRUE. Valid output file types are .mdb,
+  .accdb, and .csv.
+  
+  Example:
+  
+  sf_to_nav_file(x = {sf object}, 
+                 file = {output_name}.mdb,
+                 globe_track = TRUE, 
+                 software_format = "globe")
+  
+
 navmaps 1.1.8 (April 12, 2024)
 ----------------------------------------------------------------
 
