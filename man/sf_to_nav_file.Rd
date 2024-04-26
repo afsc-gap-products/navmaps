@@ -49,6 +49,8 @@ sf_to_nav_file(
 
 \item{index_col}{Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.}
 
+\item{globe_track}{Logical. Should the output be a Globe track file?}
+
 \item{envir}{Only change for debugging.}
 }
 \description{

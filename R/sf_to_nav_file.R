@@ -15,6 +15,7 @@
 #' @param depth_col Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.
 #' @param index_col Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.
 #' @param extra_cols Column names passed to sf_to_[output_type] functions. Only used for Globe .csv, .mdb, and .accdb files.
+#' @param globe_track Logical. Should the output be a Globe track file?
 #' @param envir Only change for debugging.
 #' @export
 
