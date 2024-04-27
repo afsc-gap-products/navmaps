@@ -116,6 +116,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
 #' Make station allocation shapefile and navigation plots
 #' 
 #' @param allocation_df Data.frame containing allocated station latitude, longitude, stratum, station ID, vessel ID, and optional additional description columns (e.g. station priority).
+#' @param software_format Software format for output. One of "globe", "timezero", or "opencpn"
 #' @param region Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"
 #' @param lon_col Name of the longitude column as a character vector. Required.
 #' @param lat_col Name of the latitude column as a character vector. Required.
@@ -123,11 +124,22 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
 #' @param stratum_col Name of the stratum column as a character vector. Required.
 #' @param vessel_col Name of the vessel ID column as a character vector Required.
 #' @param extra_cols Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.
-#' @param software_format Software to format output for.
+#' @param vessel_colors A vector or named vector of colors, where names correspond with vessel names/codes from vessel_col. Passed to navmaps_pal()
+#' @param vessel_symbols A vector or named vector of colors, where names correspond with vessel names/codes from vessel_col. Passed to navmaps_sym_pal()
 #' @export
 #' @import sf here
 
-make_station_allocation <- function(allocation_df, region, lon_col, lat_col, station_col, stratum_col, vessel_col, extra_cols = NULL, software_format = "timezero") {
+make_station_allocation <- function(allocation_df, 
+                                    region, 
+                                    lon_col, 
+                                    lat_col, 
+                                    station_col, 
+                                    stratum_col, 
+                                    vessel_col, 
+                                    extra_cols = NULL, 
+                                    vessel_colors = c("cyan", "yellow"),
+                                    vessel_symbols = c("square1", "triangle1"),
+                                    software_format = "timezero") {
   
   .check_cols_exist(x = allocation_df, 
                     var_cols = c(lon_col, lat_col, station_col, stratum_col, vessel_col, extra_cols))
@@ -169,13 +181,44 @@ make_station_allocation <- function(allocation_df, region, lon_col, lat_col, sta
   
     message("make_station_allocation: Adding color, shape and description columns.")
     
-    allocation_sf$color <- navmaps_pal(values = c("yellow", "magenta"), 
-                                           software_format = software_format,
-                                           file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
     
-    allocation_sf$shape <- navmaps_sym_pal(values = c("circle1", "square1"), 
-                                           software_format = software_format,
-                                           file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
+    if(!is.null(names(vessel_symbols))) {
+      color_levels <- names(vessel_colors)
+    } else {
+      color_levels <- sort(unique(allocation_sf[[vessel_col]]))
+    }
+    
+    if(!is.null(names(vessel_symbols))) {
+      symbol_levels <- names(vessel_symbols)
+    } else {
+      symbol_levels <- sort(unique(allocation_sf[[vessel_col]]))
+    }
+    
+    color_index <- as.numeric(
+      factor(x = allocation_sf[[vessel_col]], 
+             level = color_levels)
+    )
+    
+    symbol_index <- as.numeric(
+      factor(x = allocation_sf[[vessel_col]], 
+             level = symbol_levels)
+    ) 
+    
+    allocation_sf$color <- navmaps_pal(values = vessel_colors, 
+                software_format = software_format,
+                file_type = file_type)[color_index]
+    
+    allocation_sf$shape <- navmaps_sym_pal(values = vessel_symbols, 
+                    software_format = software_format,
+                    file_type = file_type)[symbol_index]
+    
+    # allocation_sf$color <- navmaps_pal(values = vessel_colors, 
+    #                                        software_format = software_format,
+    #                                        file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
+    # 
+    # allocation_sf$shape <- navmaps_sym_pal(values = vessel_symbols, 
+    #                                        software_format = software_format,
+    #                                        file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
     
     allocation_sf$time <- Sys.time()
     

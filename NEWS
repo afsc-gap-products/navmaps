@@ -1,4 +1,4 @@
-navmaps 1.1.9 (April 26, 2024)
+navmaps 1.1.9 (April 27, 2024)
 ----------------------------------------------------------------
 
 NEW FEATURE
@@ -15,6 +15,14 @@ NEW FEATURE
                  file = {output_name}.mdb,
                  globe_track = TRUE, 
                  software_format = "globe")
+
+IMPROVEMENTS
+
+- make_station_allocation() now accepts arguments for vessel_color
+  and vessel_symbol, which allows uses to specify color and symbol
+  values. If passed as a named vector, colors and symbols can be
+  assigned to specific values in the vessel column field of the 
+  input.
   
 
 navmaps 1.1.8 (April 12, 2024)
