@@ -1,16 +1,15 @@
-#' Get Track Data from Timezero Database
+#' Get vessel track data from a from TimeZero Database
 #'
 #' This function retrieves timezone and position data from a Timezero database file.
 #'
 #' @param path_tzdb A specific path to the Timezero database file (.tzdb).
-#' 
+#' @param start Optional start time as character vector POSIXct object for filtering data from the TimeZero database.
+#' @param end Optional end time as character vector or POSIXct object for filtering ddata from the TimeZero database.
 #' @return A data frame containing the columns "Date", "X", and "Y" from the Timezero database.
 #' 
 #' @details The function checks if the specified file exists.
 #' It then connects to the database, selects "Date", "X", and "Y", queries the data, and 
 #' disconnects.
-#' 
-#' 
 #' @examples
 #' \dontrun{
 #' # Provide the path to a valid Timezero database file
@@ -22,13 +21,7 @@
 #' 
 #' @export
 
-get_tzdata <- function(path_tzdb, start = NULL, end = NULL){
-
-  # start = "2024-01-25 00:00:00"
-  # 
-  # path_tzdb= here::here("assets", "data", "OwnShipRecorder.tzdb")
-  # 
-  # end = "2024-01-25 06:00:00"
+get_tz_data <- function(path_tzdb, start = NULL, end = NULL){
   
   query <- "SELECT date, x, y FROM data"
   

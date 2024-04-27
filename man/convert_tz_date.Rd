@@ -2,18 +2,13 @@
 % Please edit documentation in R/convert_tz_date.R
 \name{convert_tz_date}
 \alias{convert_tz_date}
-\title{Create a test  function}
+\title{Convert TimeZero date to POSIXct}
 \usage{
 convert_tz_date(x)
 }
 \arguments{
-\item{a}{a numeric vector}
-
-\item{b}{a number vector}
-}
-\value{
-a number
+\item{x}{A data.frame with a 'Date' column from TimeZero.}
 }
 \description{
-A function that adds numeric vector a and b
+Converts integer 'Date' from a data.frame exported from a TimeZero SQLite database to a POSIXct formatted date.
 }
