@@ -1,13 +1,3 @@
-navmaps 1.1.10 (In progress)
-----------------------------------------------------------------
-
-NEW FEATURES
-
-- Added functions for extracting and converting data from a 
-  TimeZero database: get_tz_data(), convert_tz_coords(), 
-  convert_tz_date(), convert_tz_to_gps().
-
-
 navmaps 1.1.9 (April 27, 2024)
 ----------------------------------------------------------------
 
@@ -25,6 +15,10 @@ NEW FEATURES
                  file = {output_name}.mdb,
                  globe_track = TRUE, 
                  software_format = "globe")
+                 
+- Added functions for extracting and converting data from a 
+  TimeZero database: get_tz_data(), convert_tz_coords(), 
+  convert_tz_date(), convert_tz_to_gps().
 
 IMPROVEMENTS
 
