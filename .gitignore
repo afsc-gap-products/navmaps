@@ -61,7 +61,7 @@ Meta
 /assets/data/*.zic
 /assets/data/*.dbh
 /assets/data/crabpots/
-/assets/data/special_projects/
+/assets/edit_crabpot/
 *.TzBackup
 *.tfw
 /assets/data/ex_pots/
@@ -75,3 +75,4 @@ Meta
 /assets/data/AFSC_AI_bathy_Files/
 *.aux.xml
 
+*_crabpot_*

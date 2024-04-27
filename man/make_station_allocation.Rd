@@ -13,6 +13,8 @@ make_station_allocation(
   stratum_col,
   vessel_col,
   extra_cols = NULL,
+  vessel_colors = c("cyan", "yellow"),
+  vessel_symbols = c("square1", "triangle1"),
   software_format = "timezero"
 )
 }
@@ -33,7 +35,11 @@ make_station_allocation(
 
 \item{extra_cols}{Names of columns containing data that should be included in the comments/description fields (e.g. "priority" if there's a sampling station priority field). Optional.}
 
-\item{software_format}{Software to format output for.}
+\item{vessel_colors}{A vector or named vector of colors, where names correspond with vessel names/codes from vessel_col. Passed to navmaps_pal()}
+
+\item{vessel_symbols}{A vector or named vector of colors, where names correspond with vessel names/codes from vessel_col. Passed to navmaps_sym_pal()}
+
+\item{software_format}{Software format for output. One of "globe", "timezero", or "opencpn"}
 }
 \description{
 Make station allocation shapefile and navigation plots

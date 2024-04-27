@@ -16,6 +16,9 @@ sf_to_nav_file(
   name_col = NULL,
   description_col = NULL,
   extra_cols = NULL,
+  depth_col = NULL,
+  index_col = NULL,
+  globe_track = FALSE,
   envir = environment()
 )
 }
@@ -41,6 +44,12 @@ sf_to_nav_file(
 \item{description_col}{Column name passed to sf_to_[output_type] functions. Only used for .gpx and .kml files.}
 
 \item{extra_cols}{Column names passed to sf_to_[output_type] functions. Only used for Globe .csv, .mdb, and .accdb files.}
+
+\item{depth_col}{Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.}
+
+\item{index_col}{Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.}
+
+\item{globe_track}{Logical. Should the output be a Globe track file?}
 
 \item{envir}{Only change for debugging.}
 }

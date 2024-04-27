@@ -9,17 +9,20 @@ globe_to_sf(
   tablename = NULL,
   wkt_geometry_type = NULL,
   grouping_col = NULL,
+  keep_index = TRUE,
   driver = "Microsoft Access Driver (*.mdb)"
 )
 }
 \arguments{
-\item{dsn}{Path to a Globe .mdb or .accdb file.}
+\item{dsn}{Path to a Globe .mdb, .accdb, .csv., .xls, or .xlsx file.}
 
-\item{tablename}{Optional. tablename as a chracter vector (typically "marks" or "lines"). The function attempts to detect the layer type if not provided.}
+\item{tablename}{Optional. table name as a character vector (typically "marks" or "lines"). The function attempts to detect the layer type if not provided.}
 
 \item{wkt_geometry_type}{Optional. Geometry type for output as a character vector; must be either POINT or LINESTRING. Typically "POINT" for marks or "LINESTRING" for lines.}
 
-\item{grouping_col}{Grouping column for LINESTRINGS.}
+\item{grouping_col}{Optional. Grouping column for LINESTRINGs.}
+
+\item{keep_index}{Logical. Should index values from database files be retained?}
 
 \item{driver}{odcb driver default = Microsoft Access Driver (*.mdb)}
 }

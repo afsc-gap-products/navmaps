@@ -2,38 +2,58 @@
 #' 
 #' Read Globe marks or lines from a Microsoft Access Database (.mdb or .accdb) and convert to an sf POINT or LINESTRING object.
 #' 
-#' @param dsn Path to a Globe .mdb or .accdb file.
-#' @param tablename Optional. tablename as a chracter vector (typically "marks" or "lines"). The function attempts to detect the layer type if not provided.
+#' @param dsn Path to a Globe .mdb, .accdb, .csv., .xls, or .xlsx file.
+#' @param tablename Optional. table name as a character vector (typically "marks" or "lines"). The function attempts to detect the layer type if not provided.
 #' @param wkt_geometry_type Optional. Geometry type for output as a character vector; must be either POINT or LINESTRING. Typically "POINT" for marks or "LINESTRING" for lines.
-#' @param grouping_col Grouping column for LINESTRINGS.
+#' @param grouping_col Optional. Grouping column for LINESTRINGs.
+#' @param keep_index Logical. Should index values from database files be retained?
 #' @param driver odcb driver default = Microsoft Access Driver (*.mdb)
 #' @return A simple features object
 #' @export
 
 globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, grouping_col = NULL, 
-                        driver = "Microsoft Access Driver (*.mdb)") {
+                        keep_index = TRUE, driver = "Microsoft Access Driver (*.mdb)") {
   
-  .check_driver()
+  file_ext <- tolower(sub(pattern = ".*\\.", replacement = "", x = dsn))
   
   if(!file.exists(dsn)) {
     stop("read_globe: ", dsn, " not found.")
   }
   
-  message("write_to_access: Connecting to ", dsn)
-  odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={", driver, "};DBQ=", dsn))
-  
-  if(is.null(tablename)) {
-    tablename <- c("lines", "marks", "Lines", "Marks", "track", "Track")[which(c("lines", "marks", "Lines", "Marks", "track", "Track") %in% RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)]
+  if(file_ext %in% c("accdb", "mdb")) {
     
-    stopifnot("read_globe: tablename argument was not specified and the Access database did not contain EXACTLY one table named lines, marks, or track. Please provide the tablename argument in the read_globe() function call." = length(tablename) == 1)
+    .check_driver()
+    
+    message("write_to_access: Connecting to ", dsn)
+    odbc_con <- RODBC::odbcDriverConnect(paste0("Driver={", driver, "};DBQ=", dsn))
+    
+    if(is.null(tablename)) {
+      tablename <- c("lines", "marks", "Lines", "Marks", "track", "Track")[which(
+        c("lines", "marks", "Lines", "Marks", "track", "Track") %in% 
+          RODBC::sqlTables(channel = odbc_con)$TABLE_NAME)]
+      
+      stopifnot("read_globe: tablename argument was not specified and the Access database did not 
+               contain EXACTLY one table named lines, marks, or track. Please provide the tablename 
+               argument in the read_globe() function call." = length(tablename) == 1)
+    }
+    
+    message("read_globe: Reading data from ", dsn)
+    dat <- RODBC::sqlQuery(channel = odbc_con, query = paste0("select * from ", tablename))
+    
   }
   
-  message("read_globe: Reading data from ", dsn)
-  dat <- RODBC::sqlQuery(channel = odbc_con, query = paste0("select * from ", tablename))
+  if(file_ext %in% c("xlsx", "xls")) {
+    dat <- readxl::read_excel(dsn)
+  }
+  
+  if(file_ext == "csv") {
+    dat <- utils::read.csv(dsn)
+  }
   
   message("read_globe: Imported ", nrow(dat), " lines from ", dsn)
   
-  # When wkt_geometry_type is not provided, attempt to detect object type (LINESTRING or POINTS) automatically by checking for blank lines between coordinates
+  # When wkt_geometry_type is not provided, attempt to detect object type (LINESTRING or POINTS) 
+  # automatically by checking for blank lines between coordinates
   if(is.null(wkt_geometry_type)) {
     
     diff_lat <- is.na(diff(dat$Latitude))
@@ -51,18 +71,20 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
     
   }
   
-  # Convert latitude and longtiude to decimal degrees 
+  # Convert latitude and longitude from radians to decimal degrees 
   dat$Latitude <- radians_to_dd(dat$Latitude)
   dat$Longitude <- radians_to_dd(dat$Longitude)
   
-  if(any(c("Index", "index", "INDEX") %in% names(dat))) {
-    dat <- dat[, -which(names(dat) %in% c("Index", "index", "INDEX"))]
-  }
-  
   if(is.null(grouping_col)) {
     message("read_globe: Setting grouping column")
-    dat$temp_grp_col <- cumsum(is.na(dat$Latitude))
+    dat$temp_grp_col <- cumsum(is.na(dat$Latitude) & is.na(dat$Longitude))
     grouping_col <- "temp_grp_col"
+  }
+
+  if(any(c("Index", "index", "INDEX") %in% names(dat))) {
+    names(dat)[which(names(dat) %in% c("Index", "index", "INDEX"))[1]] <- "INDEX"
+  } else {
+    dat$INDEX <- 1:nrow(dat)
   }
   
   message("read_globe: Making sf POINT object")
@@ -75,7 +97,7 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
     
     message("read_globe: Converting to LINESTRING")
     out <- dplyr::rename(out, id = grouping_col) |>
-      dplyr::select(id, geometry) |>
+      dplyr::select(id, INDEX, geometry) |>
       unique()
     
     n_obj <- out |>
@@ -89,15 +111,22 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
     } 
     
     out <- out |>
+      dplyr::arrange(INDEX) |>
       dplyr::group_by(id) |>
-      dplyr::summarise() |>
+      dplyr::summarise(do_union = FALSE, 
+                       INDEX = paste(range(INDEX), collapse = "-")) |>
+      dplyr::group_by(id, INDEX) |>
       sf::st_cast(to = "LINESTRING") |>
       sf::st_wrap_dateline() |>
       dplyr::mutate(id = as.character(id))
     
   }
   
-  RODBC::odbcClose(odbc_con)
+  if(!keep_index & any(c("Index", "index", "INDEX") %in% names(out))) {
+    out <- out[, -which(names(out) %in% c("Index", "index", "INDEX"))]
+  }
+  
+  try(RODBC::odbcClose(odbc_con), silent = TRUE)
   
   return(out)
   
