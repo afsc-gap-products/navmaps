@@ -309,6 +309,22 @@ dmm_to_dd <- function(x) {
 
 
 
+#' Convert decimal degree to dmm
+#'
+#' Convert degree decimal coordinates to degree decimal minutes (e.g. 165.5083 to 16530.5)
+#' @param x numeric decimal degree coordinates
+#' @export
+
+dd_to_dmm <- function(x){
+  
+  output <- (floor(abs(x)) * 100 + (x %% 1) * 60) * sign(x)
+  
+  return(output)
+  
+}
+
+
+
 #' Function to convert degree-decimal minute degree-minute-second coordinates to decimal degrees
 #' 
 #' @param x Character string containing latitude and longitudes separated by a comma that includes hemisphere characters (see example)
