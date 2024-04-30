@@ -10,7 +10,7 @@ map_layers <- akgfmaps::get_base_layers(select.region = region, split.land.at.18
 channel <- get_connected(schema = "AFSC_32")
 
 # 3. Get data
-get_gps_data(region = region, channel = channel)
+# get_gps_data(region = region, channel = channel)
 
 software_types <- c("globe", "opencpn", "timezero") 
 
@@ -18,32 +18,37 @@ for(ii in 1:length(software_types)) {
   
   set_software(software_types[ii])
   
-  # # 4. Historical towpath, tow start, and midpoint
+  # 4. Historical towpath, tow start, and midpoint
   # make_towpaths(
   #   region = region, 
   #   overwrite_midpoint = FALSE, 
   #   software_format = SOFTWARE
   # )
-  # 
-  # 5. Station grid
+  
+  # 5. Station grid 
   #   a. With trawlable/untrawlable (AI/GOA)
   # make_trawlable(
-  #   region = region,
+  #   region = region, 
   #   channel = channel,
   #   software_format = SOFTWARE
   # )
-  
+  # 
+  # #   b. Without trawlable/untrawlable (EBS/NBS)
+  # survey_grid <- map_layers$survey.grid
+  # survey_grid$color <- navmaps_pal(values = "tan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # survey_grid$fill <- 0
+  # 
   # sf_to_nav_file(
   #   x = survey_grid,
   #   geometry = "LINESTRING",
   #   file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
   #   name_col = "ID",
   #   description_col = "STRATUM",
-  #   color_col = "color",
+  #   color_col = "color", 
   #   software_format = SOFTWARE
   # )
-  # 
-  # # 6. Station marks
+  
+  # 6. Station marks
   # grid_centers <- sf::st_centroid(map_layers$survey.grid)# Points at the center of each grid cell
   # grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
   # grid_centers$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
@@ -59,26 +64,29 @@ for(ii in 1:length(software_types)) {
   # )
   
   # 7. Station allocation
-  allocation_df <- readxl::read_xlsx(here::here("assets", "data", "allocation", "ai_2024_station_allocation_320stn.xlsx")) |> # Replace with path to station allocation file for the survey
-    tidyr::drop_na(LONGITUDE, LATITUDE) |>
+  allocation_df <- readxl::read_xlsx(here::here("assets", "data", "allocation", "ai_2024_station_allocation_320stn.xlsx")) |>
+    tidyr::drop_na(LONGITUDE, LATITUDE, VESSEL) |>
     dplyr::mutate(VESSEL = factor(VESSEL)) |>
     as.data.frame()
-
-    make_station_allocation(
-      allocation_df = allocation_df,
-      lon_col = "LONGITUDE",
-      lat_col = "LATITUDE",
-      region = region,
-      station_col = "STATIONID",
-      stratum_col = "STRATUM",
-      vessel_col = "VESSEL",
-      extra_cols = "STATION_TYPE",
-      vessel_colors = c("176" = "yellow", "148" = "cyan"),
-      vessel_symbols = c("176" = "triangle1", "148" = "square1"),
-      software_format = SOFTWARE
-    )
   
-  # # 8. Survey stratum layer
+  allocation_df$LONGITUDE
+  allocation_df$LATITUDE
+  
+  make_station_allocation(
+    allocation_df = allocation_df,
+    lon_col = "LONGITUDE",
+    lat_col = "LATITUDE",
+    region = region,
+    station_col = "STATIONID",
+    stratum_col = "STRATUM",
+    vessel_col = "VESSEL",
+    extra_cols = "STATION_TYPE",
+    vessel_colors = c("176" = "yellow", "148" = "cyan"),
+    vessel_symbols = c("176" = "triangle1", "148" = "square1"),
+    software_format = SOFTWARE
+  )
+  
+  # 8. Survey stratum layer
   # strata <- map_layers$survey.strata
   # strata$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   # strata$fill <- 0
@@ -93,9 +101,9 @@ for(ii in 1:length(software_types)) {
   #   fill_col = "fill",
   #   software_format = SOFTWARE
   # )
-  # 
-  # # 9. SSL buffer zones
-  # ssl <- sf::st_read(here::here("data", "SSLrookeries", "3nm_No_Transit.shp"))
+  
+  # 9. SSL buffer zones
+  # ssl <- sf::st_read(here::here("assets","data", "SSLrookeries", "3nm_No_Transit.shp"))
   # ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   # ssl$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   # 
@@ -108,9 +116,9 @@ for(ii in 1:length(software_types)) {
   #   fill_col = "fill",
   #   software_format = SOFTWARE
   # )
-  # 
-  # # 10. Sea Otter Critical Habitat
-  # otters <- sf::st_read(here::here("data", "otters", "SeaOtterFinalCH_Project.shp")) |>
+  
+  # 10. Sea Otter Critical Habitat
+  # otters <- sf::st_read(here::here("assets","data", "otters", "SeaOtterFinalCH_Project.shp")) |>
   #   sf::st_make_valid() |> dplyr::mutate(CH_Unit=NA)
   # 
   # otters$name <- "Otter Habitat"
@@ -124,12 +132,13 @@ for(ii in 1:length(software_types)) {
   #                color_col = "color",
   #                fill_col = "fill",
   #                software_format = SOFTWARE)
-  # 
-  # # 11. North Pacific Right Whale Critical Habitat
-  # nprw <- sf::st_read(here::here("data", "NPRW", "NPRWCH.shp"))
+  
+  # 11. North Pacific Right Whale Critical Habitat
+  # nprw <- sf::st_read(here::here("assets", "data", "NPRW", "NPRWCH.shp")) |>
+  #   sf::st_transform(crs = "EPSG:4326")
   # nprw$name <- "NPRW Critical Habitat"
   # nprw$description <- "NPRW Critical Habitat"
-  # nprw$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+  # nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   # nprw$fill <- 0
   # 
   # sf_to_nav_file(x = nprw,
@@ -140,15 +149,35 @@ for(ii in 1:length(software_types)) {
   #                fill_col = "fill",
   #                software_format = SOFTWARE)
   # 
-  # # 12. Buoys
-  # buoys <- readxl::read_xlsx(path = here::here("data", "buoys", "Buoys_2023_11_21.xlsx")) |>
+  # # 12. Humpback Whale Critical Habitat
+  # humpback <- sf::st_read(here::here("assets","humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
+  #   sf::st_transform(crs = "EPSG:4326")
+  # humpback$name <- "Humpback Critical Habitat"
+  # humpback$description <- "Humpback Critical Habitat"
+  # humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # humpback$fill <- 0
+  # 
+  # sf_to_nav_file(x = humpback,
+  #                file = here::here("output", region, "navigation", SOFTWARE, paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
+  #                name_col = "name",
+  #                description_col = "description",
+  #                color_col = "color",
+  #                fill_col = "fill",
+  #                software_format = SOFTWARE)
+  # 
+  # 
+  
+  
+  # 13. Buoys
+  # buoys <- read.csv(file = here::here("assets", "data", "buoys", "Buoys_2024.csv")) |>
   #   dplyr::mutate(LONGITUDE = dms_string_to_dd(POSITION)[,1],
   #                 LATITUDE = dms_string_to_dd(POSITION)[,2]) |>
   #   sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326")
   # 
-  # ggplot() + 
-  #   geom_sf(data=buoys) #+
-  # # geom_sf_text(data=buoys, mapping=aes(label=`TYPE/NAME`))
+  # # ggplot() +
+  # # geom_sf(data=buoys) +
+  # # geom_sf_text(data=buoys, mapping=aes(label=`TYPE.NAME`))
+  # 
   # buoys$shape <- navmaps_sym_pal(values = "warning",
   #                                software_format = SOFTWARE,
   #                                file_type = FILE_TYPE_POINT)
@@ -157,19 +186,19 @@ for(ii in 1:length(software_types)) {
   #                            file_type = FILE_TYPE_POINT)
   # buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
   # 
-  # sf::st_write(buoys, dsn = here::here("output", region,  "shapefiles", paste0("buoys_2023_11_21.shp")))
+  # sf::st_write(buoys, dsn = here::here("output", region,  "shapefiles", paste0("buoys_2024.shp")))
   # 
   # sf_to_nav_file(x = buoys,
-  #                file = here::here("output", region,  "navigation", SOFTWARE, paste0("buoys_2023_11_21.", FILE_TYPE_POINT)),
-  #                name_col = "TYPE/NAME",
+  #                file = here::here("output", region,  "navigation", SOFTWARE, paste0("buoys_2024.", FILE_TYPE_POINT)),
+  #                name_col = "TYPE.NAME",
   #                description_col = "description",
   #                color_col = "color",
   #                shape_col = "shape",
   #                software_format = SOFTWARE)
   # 
-  # # 13. Crab pot storage (requires 32-bit R to open .mdb)
-  # 
-  # # Add an entry for every crab pot storage data set
+  # 14. Crab pot storage (requires 32-bit R to open .mdb)
+  
+  # Add an entry for every crab pot storage data set
   # crabpots <- dplyr::bind_rows(
   #   globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_AKTrojan_2022.mdb"),
   #               grouping_col = "DateTime"),
@@ -186,7 +215,7 @@ for(ii in 1:length(software_types)) {
   #                description_col = "description",
   #                color_col = "color",
   #                software_format = SOFTWARE)
-  
-  # 14. Special projects
+
+  # 15. Special projects
   
 }
