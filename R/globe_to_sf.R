@@ -126,6 +126,10 @@ globe_to_sf <- function(dsn, tablename = NULL, wkt_geometry_type = NULL, groupin
     out <- out[, -which(names(out) %in% c("Index", "index", "INDEX"))]
   }
   
+  if("temp_grp_col" %in% names(out)) {
+    out <- out[, -which(names(out) %in% "temp_grp_col")]
+  }
+  
   try(RODBC::odbcClose(odbc_con), silent = TRUE)
   
   return(out)

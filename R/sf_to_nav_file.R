@@ -15,7 +15,7 @@
 #' @param depth_col Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.
 #' @param index_col Column name passed to sf_to_[output_type] functions. Only used for Globe tracks created from POINT and MULTIPOINT geometries.
 #' @param extra_cols Column names passed to sf_to_[output_type] functions. Only used for Globe .csv, .mdb, and .accdb files.
-#' @param globe_track Logical. Should the output be a Globe track file?
+#' @param tracks Logical. Should the output be a track file?
 #' @param envir Only change for debugging.
 #' @export
 
@@ -32,7 +32,7 @@ sf_to_nav_file <- function(x,
                            extra_cols = NULL, 
                            depth_col = NULL, 
                            index_col = NULL, 
-                           globe_track = FALSE, 
+                           tracks = FALSE, 
                            envir = environment()) {
   
   args <- as.list(match.call()[-1])
@@ -57,17 +57,17 @@ sf_to_nav_file <- function(x,
 
   if(software_format == "globe") {
     
-    if(!globe_track) {
+    if(!tracks) {
       x$Name <- x[[name_col]]
       x$Comment <- x[[description_col]]
     }
 
-    if(is_point & globe_track) {
-        message("sf_to_nav_file: Using sf_to_globe_track()")
-        do.call(sf_to_globe_track, args = args, envir = parent.frame())
+    if(is_point & tracks) {
+        message("sf_to_nav_file: Using sf_to_tracks()")
+        do.call(sf_to_tracks, args = args, envir = parent.frame())
       } 
     
-    if(is_point & !globe_track) {
+    if(is_point & !tracks) {
         message("sf_to_nav_file: Using sf_to_globe_points()")
         do.call(sf_to_globe_points, args = args, envir = parent.frame())
       }
@@ -81,13 +81,22 @@ sf_to_nav_file <- function(x,
   
   if(software_format == "timezero") {
     
-    if(is_point) {
+    if(tracks) {
+      message("sf_to_nav_file: Using sf_to_kml_track()")
+      do.call(sf_to_kml_track, args = args, envir = parent.frame())
+    }
+    
+    if(is_point & !tracks) {
       message("sf_to_nav_file: Using sf_to_gpx_waypoints()")
       do.call(sf_to_gpx_waypoints, args = args, envir = parent.frame())
-    } else if(is_linestring) {
+    }
+    
+    if(is_linestring & !tracks) {
       message("sf_to_nav_file: Using sf_to_kml_linestring()")
       do.call(sf_to_kml_linestring, args = args, envir = parent.frame())
-    } else {
+    }
+    
+    if(!is_point & !is_linestring & !tracks) {
       message("sf_to_nav_file: Using sf_to_kml_polygon()")
       do.call(sf_to_kml_polygon, args = args, envir = parent.frame())
     }

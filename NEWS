@@ -1,20 +1,27 @@
-navmaps 1.1.9 (April 27, 2024)
+navmaps 1.1.9 (April 29, 2024)
 ----------------------------------------------------------------
 
 NEW FEATURES
 
-- Added a new sf_to_globe_track() function that adds data to a 
-  Globe file as a track. Globe track files can be generated from 
-  POINT geometries by setting arguments software_format = "globe"
-  and globe_track = TRUE. Valid output file types are .mdb,
-  .accdb, and .csv.
+- Added new sf_to_globe_track() and sf_to_kml_track() functions 
+  that add POINT or LINESTRING data to Globe or TimeZero-formatted
+  kml track files. Track files can be generated from POINT or 
+  LINESTRING geometries by setting argument tracks = TRUE. 
+  Valid output file types are .mdb, .accdb, and .csv.
   
-  Example:
+  Globe example:
   
   sf_to_nav_file(x = {sf object}, 
-                 file = {output_name}.mdb,
-                 globe_track = TRUE, 
+                 file = "{output_name}.mdb"",
+                 tracks = TRUE, 
                  software_format = "globe")
+  
+  TimeZero example: 
+  
+  sf_to_nav_file(x = {sf object}, 
+                 file = "{output_name}.kml"",
+                 tracks = TRUE, 
+                 software_format = "timezero")
                  
 - Added functions for extracting and converting data from a 
   TimeZero database: get_tz_data(), convert_tz_coords(), 
