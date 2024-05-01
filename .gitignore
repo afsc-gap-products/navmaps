@@ -36,7 +36,6 @@ inst/doc
 Meta
 *.lock
 *.tzx
-*.dbf
 /output/**/*.shp
 /output/*.kml
 /output/**/*.gpx
