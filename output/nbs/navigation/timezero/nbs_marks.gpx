@@ -1,0 +1,1308 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="65.2996550870176" lon="-169.123942323239">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>FF-18</name>
+    <cmt>FF-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="65.3332178723312" lon="-168.421982500383">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>FF-01</name>
+    <cmt>FF-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="65.3070115132918" lon="-167.675538342821">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>FF-02</name>
+    <cmt>FF-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.9744290328158" lon="-169.87376817519">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>EE-19</name>
+    <cmt>EE-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="65.0003868732034" lon="-169.162421152653">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>EE-18</name>
+    <cmt>EE-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="65.0006236949623" lon="-168.394990658653">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>EE-01</name>
+    <cmt>EE-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="65.0003881188499" lon="-167.621538444204">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>EE-02</name>
+    <cmt>EE-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.6468207798039" lon="-170.606904294227">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>DD-20</name>
+    <cmt>DD-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.6670580060286" lon="-169.890164006148">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>DD-19</name>
+    <cmt>DD-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.6670583497483" lon="-169.126313428685">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>DD-18</name>
+    <cmt>DD-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.667057757738" lon="-168.362455099249">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>DD-01</name>
+    <cmt>DD-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.6670576607318" lon="-167.598554843566">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>DD-02</name>
+    <cmt>DD-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.6667614677399" lon="-166.837301880018">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>DD-03</name>
+    <cmt>DD-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3175288710515" lon="-171.323808562096">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-21</name>
+    <cmt>CC-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3337255977408" lon="-170.60481943846">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-20</name>
+    <cmt>CC-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3337254154696" lon="-169.847487715337">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-19</name>
+    <cmt>CC-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3337251944277" lon="-169.09020174474">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-18</name>
+    <cmt>CC-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3337257147574" lon="-168.332912060233">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-01</name>
+    <cmt>CC-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3337250593557" lon="-167.57557648321">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-02</name>
+    <cmt>CC-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3337237552662" lon="-166.81823983243">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-03</name>
+    <cmt>CC-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3329293036126" lon="-166.060699488599">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-04</name>
+    <cmt>CC-04</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3137203389773" lon="-165.320903861882">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-05</name>
+    <cmt>CC-05</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3237455315203" lon="-164.529327499679">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-06</name>
+    <cmt>CC-06</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3337134780987" lon="-163.789070967733">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-07</name>
+    <cmt>CC-07</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.2810094413467" lon="-163.078177087145">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-08</name>
+    <cmt>CC-08</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3280049144848" lon="-162.259247432895">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-09</name>
+    <cmt>CC-09</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.3010423711039" lon="-161.596920133308">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>CC-10</name>
+    <cmt>CC-10</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.9870919494614" lon="-172.025401458215">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-22</name>
+    <cmt>BB-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003953920369" lon="-171.306311030508">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-21</name>
+    <cmt>BB-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003947278417" lon="-170.555582158454">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-20</name>
+    <cmt>BB-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003945439941" lon="-169.804811356864">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-19</name>
+    <cmt>BB-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003948732536" lon="-169.054090209987">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-18</name>
+    <cmt>BB-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003942647557" lon="-168.303368934888">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-01</name>
+    <cmt>BB-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003941844776" lon="-167.552598086554">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-02</name>
+    <cmt>BB-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003946653615" lon="-166.801823446891">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-03</name>
+    <cmt>BB-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.000393946589" lon="-166.051109768244">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-04</name>
+    <cmt>BB-04</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003940325177" lon="-165.300392323881">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-05</name>
+    <cmt>BB-05</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003940326158" lon="-164.549613826118">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-06</name>
+    <cmt>BB-06</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003945164314" lon="-163.798892532341">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-07</name>
+    <cmt>BB-07</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0003941104151" lon="-163.048171297921">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-08</name>
+    <cmt>BB-08</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0004779402245" lon="-162.297240944033">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-09</name>
+    <cmt>BB-09</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="64.0014254200841" lon="-161.548872982499">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>BB-10</name>
+    <cmt>BB-10</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6563185372474" lon="-172.713143094531">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-23</name>
+    <cmt>AA-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6792406062391" lon="-172.062649013477">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-22</name>
+    <cmt>AA-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.7124314893791" lon="-171.64148039386">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-22</name>
+    <cmt>AA-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.7206746042491" lon="-171.227545349807">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-21</name>
+    <cmt>AA-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6695706782753" lon="-169.755129425912">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-19</name>
+    <cmt>AA-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6670656570978" lon="-169.017982336915">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-18</name>
+    <cmt>AA-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6670650604162" lon="-168.273829568924">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-01</name>
+    <cmt>AA-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6670649754145" lon="-167.529619627054">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-02</name>
+    <cmt>AA-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6670648860628" lon="-166.785409673775">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-03</name>
+    <cmt>AA-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6670652934886" lon="-166.041264595556">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-04</name>
+    <cmt>AA-04</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6670648258656" lon="-165.297111883067">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-05</name>
+    <cmt>AA-05</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6670648259614" lon="-164.552894266933">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-06</name>
+    <cmt>AA-06</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.6674055309225" lon="-163.809092678703">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-07</name>
+    <cmt>AA-07</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.667577082348" lon="-163.064503420487">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>AA-08</name>
+    <cmt>AA-08</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.3248293485103" lon="-173.386093219969">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-24</name>
+    <cmt>ZZ-24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.333736737333" lon="-172.669932064558">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-23</name>
+    <cmt>ZZ-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.3186278989351" lon="-171.969824659161">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-22</name>
+    <cmt>ZZ-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.2778063761169" lon="-171.146255735873">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-21</name>
+    <cmt>ZZ-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.3337355874519" lon="-168.244290133031">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-01</name>
+    <cmt>ZZ-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.3337355014813" lon="-167.506641132772">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-02</name>
+    <cmt>ZZ-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.3337359766172" lon="-166.768995965487">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-03</name>
+    <cmt>ZZ-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.3337352445043" lon="-166.031419383472">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-04</name>
+    <cmt>ZZ-04</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.3348467993285" lon="-165.295505442582">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>ZZ-05</name>
+    <cmt>ZZ-05</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.9924586824262" lon="-174.043885078902">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-25</name>
+    <cmt>Y-25</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004060208241" lon="-173.332065474154">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-24</name>
+    <cmt>Y-24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004052072518" lon="-172.600996522044">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-23</name>
+    <cmt>Y-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004049431373" lon="-171.869908572573">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-22</name>
+    <cmt>Y-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004051731494" lon="-171.138893147987">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-21</name>
+    <cmt>Y-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004045224733" lon="-170.407869901279">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-20</name>
+    <cmt>Y-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.9985434727159" lon="-168.946049110087">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-18</name>
+    <cmt>Y-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004046295127" lon="-168.214746912864">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-01</name>
+    <cmt>Y-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004039646196" lon="-167.48366262876">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-02</name>
+    <cmt>Y-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0004056867375" lon="-166.752586256068">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-03</name>
+    <cmt>Y-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="63.0016264815" lon="-166.022001791127">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>Y-04</name>
+    <cmt>Y-04</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6597195728871" lon="-174.687599627368">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-26</name>
+    <cmt>X-26</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670745506514" lon="-173.981004306823">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-25</name>
+    <cmt>X-25</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670737216285" lon="-173.256564966314">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-24</name>
+    <cmt>X-24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670735018844" lon="-172.532060868167">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-23</name>
+    <cmt>X-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670738072234" lon="-171.807537778137">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-22</name>
+    <cmt>X-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670728720234" lon="-171.083090732636">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-21</name>
+    <cmt>X-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670728113607" lon="-170.358632328637">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-20</name>
+    <cmt>X-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670726180535" lon="-169.634105237914">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-19</name>
+    <cmt>X-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670729290929" lon="-168.909650675914">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-18</name>
+    <cmt>X-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.66707231842" lon="-168.185203608436">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-01</name>
+    <cmt>X-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6670722488268" lon="-167.460684095501">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-02</name>
+    <cmt>X-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.6669641474483" lon="-166.73677341455">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>X-03</name>
+    <cmt>X-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.329378566796" lon="-175.318869438443">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-27</name>
+    <cmt>W-27</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3365747938837" lon="-174.617353082702">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-26</name>
+    <cmt>W-26</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3349937426875" lon="-173.89834033982">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-25</name>
+    <cmt>W-25</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337436791914" lon="-173.181068297014">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-24</name>
+    <cmt>W-24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337434527987" lon="-172.463125143311">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-23</name>
+    <cmt>W-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337437473535" lon="-171.745170622548">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-22</name>
+    <cmt>W-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337428201217" lon="-171.027292147071">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-21</name>
+    <cmt>W-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337427566252" lon="-170.309394712499">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-20</name>
+    <cmt>W-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337425581505" lon="-169.591428565621">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-19</name>
+    <cmt>W-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337422790633" lon="-168.873538693574">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-18</name>
+    <cmt>W-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337428451702" lon="-168.155660310859">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-01</name>
+    <cmt>W-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3337421894904" lon="-167.437705505229">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-02</name>
+    <cmt>W-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.3343621882708" lon="-166.723037717979">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>W-03</name>
+    <cmt>W-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004794351216" lon="-173.105152921151">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-24</name>
+    <cmt>V-24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004113738641" lon="-172.39418932662">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-23</name>
+    <cmt>V-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.000411071809" lon="-171.682799458473">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-22</name>
+    <cmt>V-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004113253734" lon="-170.971489770772">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-21</name>
+    <cmt>V-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004106721323" lon="-170.260157030624">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-20</name>
+    <cmt>V-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004104762548" lon="-169.548751837486">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-19</name>
+    <cmt>V-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004101892775" lon="-168.837422892599">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-18</name>
+    <cmt>V-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004107525041" lon="-168.126113087818">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-01</name>
+    <cmt>V-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0004101004678" lon="-167.414726884455">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-02</name>
+    <cmt>V-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.0000657324994" lon="-166.708298156466">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>V-03</name>
+    <cmt>V-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670793288047" lon="-173.029215284202">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-24</name>
+    <cmt>U-24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670791322394" lon="-172.325253407171">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-23</name>
+    <cmt>U-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670794281588" lon="-171.620428452813">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-22</name>
+    <cmt>U-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670784843197" lon="-170.915687163713">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-21</name>
+    <cmt>U-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670784250466" lon="-170.210919268273">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-20</name>
+    <cmt>U-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.667078231782" lon="-169.506075036101">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-19</name>
+    <cmt>U-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670785446535" lon="-168.801310956801">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-18</name>
+    <cmt>U-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670779015219" lon="-168.096569643197">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-01</name>
+    <cmt>U-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.6670778489331" lon="-167.391748262736">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-02</name>
+    <cmt>U-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.667056275718" lon="-166.689670291978">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>U-03</name>
+    <cmt>U-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3336815190698" lon="-172.95413342686">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-24</name>
+    <cmt>T-24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3341932615841" lon="-172.256721497356">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-23</name>
+    <cmt>T-23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3341935354665" lon="-171.557828360199">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-22</name>
+    <cmt>T-22</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3337485312594" lon="-170.85988465943">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-21</name>
+    <cmt>T-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3337478746643" lon="-170.161681446787">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-20</name>
+    <cmt>T-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.333747676163" lon="-169.463398182621">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-19</name>
+    <cmt>T-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3337479770359" lon="-168.765202720711">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-18</name>
+    <cmt>T-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3337473441404" lon="-168.067030025356">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-01</name>
+    <cmt>T-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3337472941788" lon="-167.368769613309">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-02</name>
+    <cmt>T-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.3335329055901" lon="-166.671678901856">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>T-03</name>
+    <cmt>T-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.0004159746521" lon="-170.804078179817">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>S-21</name>
+    <cmt>S-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.0004153186957" lon="-170.112443592525">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>S-20</name>
+    <cmt>S-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.0004151150114" lon="-169.420721303901">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>S-19</name>
+    <cmt>S-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.0004148087853" lon="-168.729090538385">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>S-18</name>
+    <cmt>S-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.0004153890324" lon="-168.037486563117">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>S-01</name>
+    <cmt>S-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.0004147339202" lon="-167.345790911872">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>S-02</name>
+    <cmt>S-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="61.0004809049375" lon="-166.654412812448">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>S-03</name>
+    <cmt>S-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.6674185926203" lon="-170.748252232063">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>R-21</name>
+    <cmt>R-21</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.6674317371884" lon="-170.063592453463">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>R-20</name>
+    <cmt>R-20</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.6685591343641" lon="-169.37861349188">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>R-19</name>
+    <cmt>R-19</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.6685915174915" lon="-168.692783748717">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>R-18</name>
+    <cmt>R-18</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.6688119333504" lon="-168.008635533664">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>R-01</name>
+    <cmt>R-01</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.669501796298" lon="-167.322916161092">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>R-02</name>
+    <cmt>R-02</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.6685682977531" lon="-166.638085007007">
+    <time>2023-04-13T16:37:45.000000Z</time>
+    <name>R-03</name>
+    <cmt>R-03</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+</gpx>

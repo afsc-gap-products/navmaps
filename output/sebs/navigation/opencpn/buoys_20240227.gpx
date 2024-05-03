@@ -1,0 +1,1563 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="72.4609166666667" lon="-157.396233333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 731 feet; Depth: 780 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.7989833333333" lon="-158.399016666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 1,017 feet; Depth: 1,066 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.12125" lon="-160.494966666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 115 feet; Depth: 131 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.16245" lon="-159.122483333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 85 feet; Depth: 167 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.18125" lon="-159.55195">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 95 feet; Depth: 184 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.69575" lon="-164.53225">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 151 feet; Depth: N/A</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.5252833333333" lon="-164.099066666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 164 feet; Depth: N/A</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.2808333333333" lon="-163.5339">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 131 feet; Depth: N/A</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.8025666666667" lon="-158.423066666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HARP C2</name>
+    <desc>Top float: 979 feet; Depth: 1,062 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.6154166666667" lon="-158.70295">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HARP D</name>
+    <desc>Top float: 237 feet; Depth: 323 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="75.10005" lon="-168.000066666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AIM16-1</name>
+    <desc>Top float: 142 feet; Depth: 535 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="74.5228333333333" lon="-161.931333333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>NAP-20t</name>
+    <desc>Top float: 141 feet; Depth: 5,528 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="77.4933333333333" lon="-140.18">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-VLF-1</name>
+    <desc>Top float: 230 feet; Depth: 12,264 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="76.4133333333333" lon="-142.47">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-C</name>
+    <desc>Top float: 131 feet; Depth: 12,326 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="76.1466666666667" lon="-145.283333333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-NW</name>
+    <desc>Top float: 328 feet; Depth: 12,441 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="75.7733333333333" lon="-141.513333333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-NE</name>
+    <desc>Top float: 328 feet; Depth: 12,251 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="75.5" lon="-144.14">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-B</name>
+    <desc>Top float: 328 feet; Depth: 12,379 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="74.875" lon="-143.086666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-SE</name>
+    <desc>Top float: 328 feet; Depth: 12,241 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="75.2166666666667" lon="-146.676666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-SW</name>
+    <desc>Top float: 328 feet; Depth: 12,464 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="74.5883333333333" lon="-145.545">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AMOS-A</name>
+    <desc>Top float: 131 feet; Depth: 12,339 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="68.9862166666667" lon="-105.883833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>ACW16-30</name>
+    <desc>Top float: 231 feet; Depth: 242 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.5628333333333" lon="-127.695166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>CB12</name>
+    <desc>Top float: 116 feet; Depth: 125 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.33385" lon="-133.739483333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>IBO16-1a</name>
+    <desc>Top float: 171 feet; Depth: 180 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.3339166666667" lon="-133.740866666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>IBO16-1b</name>
+    <desc>Top float: 171 feet; Depth: 180 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.9893166666667" lon="-133.743933333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>IBO16-2</name>
+    <desc>Top float: 146 feet; Depth: 365 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.0589" lon="-133.7153">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>IBO16-9a</name>
+    <desc>Top float: 106 feet; Depth: 116 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.05835" lon="-133.715616666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>IBO16-9b</name>
+    <desc>Top float: 106 feet; Depth: 116 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="69.7747166666667" lon="-137.04595">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>SIC16-11</name>
+    <desc>Top float: 107 feet; Depth: 117 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="69.6547333333333" lon="-138.921316666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HI16</name>
+    <desc>Top float: 125 feet; Depth: 134 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.5996666666667" lon="-161.505368333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>N/A</name>
+    <desc>Top float: 111 feet; Depth: 151 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.3943166666667" lon="-152.050766666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AON-BS3</name>
+    <desc>Top float: 115 feet; Depth: 482 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2056333333333" lon="-148.8003">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>UPE120</name>
+    <desc>Top float: 374 feet; Depth: 400 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.488024" lon="-147.500098">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>WAVE SS-1</name>
+    <desc>Top float: Surface; Depth: UNK</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.4148166666667" lon="-147.653433333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>ODAS-1</name>
+    <desc>Top float: 24 feet; Depth: 26 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.2777166666667" lon="-147.59155">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>ODAS-2</name>
+    <desc>Top float: 17 feet; Depth: 19 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.6728" lon="-154.998716666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>BCE-19</name>
+    <desc>Top float: 131 feet; Depth: 344 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.73415" lon="-155.1604">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>BCC-19</name>
+    <desc>Top float: 131 feet; Depth: 951 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.7961" lon="-155.346283333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>BCW-19</name>
+    <desc>Top float: 131 feet; Depth: 554 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.83475" lon="-146.392733333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Prudhoe</name>
+    <desc>Top float: 191 feet; Depth: 207 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.75405" lon="-154.476">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-BF02</name>
+    <desc>Top float: 312 feet; Depth: 344 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.835" lon="-163.125666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-IC01</name>
+    <desc>Top float: 115 feet; Depth: 148 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2409833333333" lon="-164.301116666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Unnamed</name>
+    <desc>Top float: Surface; Depth: 138 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.4965333333333" lon="-163.190816666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>2015MARU_2</name>
+    <desc>Top float: 140 feet; Depth: 144 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.5995166666667" lon="-161.506983333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>CEM1-19</name>
+    <desc>Top float: 108 feet; Depth: 154 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.59965" lon="-161.527466666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>CEM2-19</name>
+    <desc>Top float: 108 feet; Depth: 154 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.90845" lon="-168.198766666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL21-AU-PH1</name>
+    <desc>Top float: 138 feet; Depth: 171 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.6311333333333" lon="-157.326266666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>W. Barrow Canyon</name>
+    <desc>Top float: 214 feet; Depth: 230 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.4221166666667" lon="-152.73505">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>WhoopDeeDo</name>
+    <desc>Top float: 253 feet; Depth: 269 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2043" lon="-157.9995">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-PB01</name>
+    <desc>Top float: 128 feet; Depth: 161 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2146666666667" lon="-164.2485">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-IC02</name>
+    <desc>Top float: 108 feet; Depth: 141 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.8306666666667" lon="-166.018166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-IC03</name>
+    <desc>Top float: 112 feet; Depth: 144 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="50.8371666666667" lon="-163.12535">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-1A</name>
+    <desc>Top float: 115 feet; Depth: 144 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2155666666667" lon="-164.2504">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-2A</name>
+    <desc>Top float: 118 feet; Depth: 144 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.8276" lon="-166.018783333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-3A</name>
+    <desc>Top float: 121 feet; Depth: 144 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.045" lon="-160.490066666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-4A</name>
+    <desc>Top float: 135 feet; Depth: 167 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2083333333333" lon="-158">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-5A</name>
+    <desc>Top float: 141 feet; Depth: 161 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.4700166666667" lon="-156.57005">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-9A</name>
+    <desc>Top float: 886 feet; Depth: 3,018 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.9058" lon="-168.180883333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-12A</name>
+    <desc>Top float: 148 feet; Depth: 190 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.9104" lon="-168.18125">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKV-12A</name>
+    <desc>Top float: 108 feet; Depth: 190 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.3098333333333" lon="-167.270833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CKP-15A</name>
+    <desc>Top float: 128 feet; Depth: 157 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.1131833333333" lon="-163.772133333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>OTZ-N</name>
+    <desc>Top float: 27 feet; Depth: 37 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.0858" lon="-163.8047">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>OTZ-M</name>
+    <desc>Top float: 48 feet; Depth: 58 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.0560833333333" lon="-163.81165">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>OTZ-S</name>
+    <desc>Top float: 50 feet; Depth: 60 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.2391" lon="-166.865433333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>OTZ-Ch</name>
+    <desc>Top float: 41 feet; Depth: 51 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="65.0116666666667" lon="-169.453833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AOOS-AXYS</name>
+    <desc>Top float: Surface; Depth: - - - - - -</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="65.0647333333333" lon="-169.634083333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>NB-17t</name>
+    <desc>Top float: 89 feet; Depth: 171 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.2679166666667" lon="-168.901633333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>BS-17t</name>
+    <desc>Top float: 105 feet; Depth: 187 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="65.7808333333333" lon="-168.568166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>A2-21</name>
+    <desc>Top float: 49 feet; Depth: 187 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.3273333333333" lon="-168.949833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>A3-21</name>
+    <desc>Top float: 23 feet; Depth: 194 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="65.7456666666667" lon="-168.262833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>A4-21</name>
+    <desc>Top float: 49 feet; Depth: 164 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="64.47275" lon="-165.475416666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Station-241</name>
+    <desc>Top float: Surface; Depth: 66 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.4669166666667" lon="-162.07965">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GPS Tide Buoy</name>
+    <desc>Top float: Surface; Depth: 126 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="53.6295833333333" lon="-167.399083333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL19-AU-BS6</name>
+    <desc>Top float: 282 feet; Depth: 312 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.2556666666667" lon="-168.28935">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PUF-18</name>
+    <desc>Top float: 505feet; Depth: 506 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.4116666666667" lon="-167.615">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PUF-19</name>
+    <desc>Top float: 166 feet; Depth: 167 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.8636333333333" lon="-164.06155">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>22BSP-2A</name>
+    <desc>Top float: 203 feet; Depth: 230 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1293333333333" lon="-168.312783333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL22-AU-PC01</name>
+    <desc>Top float: 505 feet; Depth: 531 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="53.6311666666667" lon="-167.404533333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL22-AU-UM01</name>
+    <desc>Top float: 302 feet; Depth: 328 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1617" lon="-166.57845">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL22-AU-BS10</name>
+    <desc>Top float: 328 feet; Depth: 387 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="52.2015333333333" lon="-174.1855">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>SPOT-1048</name>
+    <desc>Top float: Surface; Depth: 60 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="52.1922" lon="-174.188283333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>SPOT-31042C</name>
+    <desc>Top float: Surface; Depth: 42 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="52.18585" lon="-174.089883333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>SPOT-1003</name>
+    <desc>Top float: Surface; Depth: 300 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="61.0838333333333" lon="-170.264166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-BS11</name>
+    <desc>Top float: 135 feet; Depth: 161 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.2047666666667" lon="-174.676416666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-M08</name>
+    <desc>Top float: 197 feet; Depth: 230 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.8605" lon="-164.054833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BS-2C</name>
+    <desc>Top float: 33 feet; Depth: 243 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.8663833333333" lon="-168.873866666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BS-4A</name>
+    <desc>Top float: 33 feet; Depth: 243 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.8705" lon="-168.886066666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BSP-4A</name>
+    <desc>Top float: 200 feet; Depth: 243 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="-59.9194666666667" lon="-59.9194666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BSP-5A</name>
+    <desc>Top float: 197 feet; Depth: 236 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.92795" lon="-171.702483333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BS-5A</name>
+    <desc>Top float: 49 feet; Depth: 236 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="64.0041833333333" lon="-167.919166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BSP-14A</name>
+    <desc>Top float: 92 feet; Depth: 138 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.2017833333333" lon="-174.661">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BSITAER-8A</name>
+    <desc>Top float: 66 feet; Depth: 240 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.19825" lon="-174.662666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BS-8A</name>
+    <desc>Top float: 43 feet; Depth: 240 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.2000333333333" lon="-174.6797">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BSST-8A</name>
+    <desc>Top float: 197 feet; Depth: 240 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.20565" lon="-174.675966666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BSP-8A</name>
+    <desc>Top float: 203 feet; Depth: 240 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.20565" lon="-174.664833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23BSV-8A</name>
+    <desc>Top float: 154 feet; Depth: 240 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="64.8580166666667" lon="-168.448033333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL23-AU-NM01</name>
+    <desc>Top float: 112 feet; Depth: 144 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.4358333333333" lon="-165.271833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AL22-AU-UN01</name>
+    <desc>Top float: 502 feet; Depth: 528 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.7101" lon="-162.6312">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>TRBM-1</name>
+    <desc>Top float: 405 feet; Depth: 407 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.6191833333333" lon="-162.594916666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>TRBM-2</name>
+    <desc>Top float: 487 feet; Depth: 489 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.5998333333333" lon="-157">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GA23-AU-SU01</name>
+    <desc>Top float: 400 feet; Depth: 427 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.709" lon="-152.208833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GA23-AU-SE01</name>
+    <desc>Top float: 404 feet; Depth: 430 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.2762546666667" lon="-154.117689916667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>ADCP-A</name>
+    <desc>Top float: 13 feet; Depth: 16 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.2568681944444" lon="-154.046029611111">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>ADCP-B</name>
+    <desc>Top float: 39 feet; Depth: 43 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.40385" lon="-149.012183333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>UAF GAK4M</name>
+    <desc>Top float: 328 feet; Depth: 656 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.45618" lon="-139.75058">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>WAVE YB-1</name>
+    <desc>Top float: Surface; Depth: UNK</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.4496485833333" lon="-139.796199833333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>WAVE YB-2</name>
+    <desc>Top float: Surface; Depth: UNK</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.0141666666667" lon="-148.690166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GEO1-2019</name>
+    <desc>Top float: Surface; Depth: 722 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.0152833333333" lon="-148.6934">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GEO2-2019</name>
+    <desc>Top float: 72 feet; Depth: 722 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.0164666666667" lon="-148.696616666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GEO3-2019</name>
+    <desc>Top float: Surface; Depth: 722 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.5975" lon="-151.8291">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>AOOS-204</name>
+    <desc>Top float: Surface; Depth: 111 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.0293333333333" lon="-152.994833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GA23-AU-BT01</name>
+    <desc>Top float: 230 feet; Depth: 253 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="53.9726666666667" lon="-161.667833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GA23-AU-SN01</name>
+    <desc>Top float: 243 feet; Depth: 1,375 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.5723333333333" lon="-154.974333333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GA23-AU-CR01</name>
+    <desc>Top float: 233 feet; Depth: 1,319 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="53.1326666666667" lon="-168.920166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GA23-AU-SM01</name>
+    <desc>Top float: 400 feet; Depth: 433 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.6366666666667" lon="-150.352666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GA23-AU-PT01</name>
+    <desc>Top float: 233 feet; Depth: 2,438 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.7242666666667" lon="-152.28335">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23CB-1A</name>
+    <desc>Top float: 472 feet; Depth: 545 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.85295" lon="-158.99135">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23SH-1A</name>
+    <desc>Top float: 203 feet; Depth: 256 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.3067" lon="-164.752166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>23UPP-3A</name>
+    <desc>Top float: 217 feet; Depth: 256 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9109861111111" lon="-149.349297222222">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GAKOA</name>
+    <desc>Top float: Surface; Depth: 171 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.85332" lon="-149.5011">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GAK1</name>
+    <desc>Top float: 66 feet; Depth: 869 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6516666666667" lon="-146.278033333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST1</name>
+    <desc>Top float: 138 feet; Depth: 154 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6556333333333" lon="-146.289216666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST2</name>
+    <desc>Top float: 210 feet; Depth: 226 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6594666666667" lon="-146.300666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST3</name>
+    <desc>Top float: 374 feet; Depth: 390 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6633" lon="-146.3121">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST4</name>
+    <desc>Top float: 410 feet; Depth: 427 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6671333333333" lon="-146.32355">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST5</name>
+    <desc>Top float: 404 feet; Depth: 420 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.67095" lon="-146.335">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST6</name>
+    <desc>Top float: 394 feet; Depth: 410 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6747833333333" lon="-146.346433333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST7</name>
+    <desc>Top float: 279 feet; Depth: 295 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6786166666667" lon="-146.357883333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST8</name>
+    <desc>Top float: 217 feet; Depth: 233 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.68245" lon="-146.369333333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST9</name>
+    <desc>Top float: 177 feet; Depth: 194 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6862666666667" lon="-146.380766666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PST10</name>
+    <desc>Top float: 125 feet; Depth: 141 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.37766" lon="-147.85245">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>LHRT1</name>
+    <desc>Top float: 209 feet; Depth: 225 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.37747" lon="-147.84587">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>LHRT2</name>
+    <desc>Top float: 348 feet; Depth: 364 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3778" lon="-147.84186">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>LHRT3</name>
+    <desc>Top float: 366 feet; Depth: 382 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.73755" lon="-147.99266">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>WTRT1</name>
+    <desc>Top float: 488 feet; Depth: 504 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.73499" lon="-147.984766666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>WTRT2</name>
+    <desc>Top float: 488 feet; Depth: 504 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.7323" lon="-147.9908">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>WTRT3</name>
+    <desc>Top float: 300 feet; Depth: 316 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6131833333333" lon="-147.199933333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PWSSC-15</name>
+    <desc>Top float: 197 feet (Surfacing 2X per day); Depth: 722 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3425" lon="-146.7304">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H01</name>
+    <desc>Top float: 66 feet; Depth: 98 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3379" lon="-146.7208">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HA</name>
+    <desc>Top float: 532 feet; Depth: 591 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.34" lon="-146.742">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H02</name>
+    <desc>Top float: 791 feet; Depth: 879 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3349" lon="-146.7329">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HB</name>
+    <desc>Top float: 747 feet; Depth: 830 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3375" lon="-146.7541">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H03</name>
+    <desc>Top float: 797 feet; Depth: 886 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3352" lon="-146.7661">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H04</name>
+    <desc>Top float: 797 feet; Depth: 886 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3328" lon="-146.7785">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H05</name>
+    <desc>Top float: 797 feet; Depth: 886 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3302" lon="-146.7903">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H06</name>
+    <desc>Top float: 806 feet; Depth: 896 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3278" lon="-146.8023">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H07</name>
+    <desc>Top float: 818 feet; Depth: 909 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3245" lon="-146.8159">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H08</name>
+    <desc>Top float: 842 feet; Depth: 935 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.322" lon="-146.8297">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H09</name>
+    <desc>Top float: 906 feet; Depth: 1007 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3198" lon="-146.8418">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H10</name>
+    <desc>Top float: 954 feet; Depth: 1060 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3123" lon="-146.8776">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H13</name>
+    <desc>Top float: 818 feet; Depth: 909 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3098" lon="-146.889">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H14</name>
+    <desc>Top float: 470 feet; Depth: 522 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3078" lon="-146.8999">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H15</name>
+    <desc>Top float: 244 feet; Depth: 276 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.302" lon="-146.8928">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HC</name>
+    <desc>Top float: 404 feet; Depth: 449 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3168" lon="-146.8538">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H11</name>
+    <desc>Top float: 1022 feet; Depth: 1135 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3148" lon="-146.8655">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H12</name>
+    <desc>Top float: 1075 feet; Depth: 1194 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.309" lon="-146.9092">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>H16</name>
+    <desc>Top float: 53 feet; Depth: 85 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.2997" lon="-146.9056">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HD</name>
+    <desc>Top float: 119 feet; Depth: 151 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9247" lon="-147.8105">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M01</name>
+    <desc>Top float: 263 feet; Depth: 295 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9191" lon="-147.8182">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MA</name>
+    <desc>Top float: 188 feet; Depth: 220 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9308" lon="-147.8179">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M02</name>
+    <desc>Top float: 401 feet; Depth: 446 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9252" lon="-147.8252">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MB</name>
+    <desc>Top float: 378 feet; Depth: 420 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9363" lon="-147.8253">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M03</name>
+    <desc>Top float: 458 feet; Depth: 509 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9426" lon="-147.8326">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M04</name>
+    <desc>Top float: 519 feet; Depth: 577 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9481" lon="-147.8397">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M05</name>
+    <desc>Top float: 576 feet; Depth: 640 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9537" lon="-147.8471">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M06</name>
+    <desc>Top float: 635 feet; Depth: 705 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9591" lon="-147.8539">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M07</name>
+    <desc>Top float: 667 feet; Depth: 741 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9644" lon="-147.8606">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M08</name>
+    <desc>Top float: 691 feet; Depth: 768 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9692" lon="-147.8668">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M09</name>
+    <desc>Top float: 706 feet; Depth: 784 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9756" lon="-147.8743">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M10</name>
+    <desc>Top float: 700 feet; Depth: 778 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9697" lon="-147.8812">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MC</name>
+    <desc>Top float: 671 feet; Depth: 745 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9807" lon="-147.8811">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>M11</name>
+    <desc>Top float: 425 feet; Depth: 472 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9753" lon="-147.8892">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MD</name>
+    <desc>Top float: 553 feet; Depth: 614 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9809" lon="-148.032">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>LP01</name>
+    <desc>Top float: 80 feet; Depth: 112 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9748" lon="-148.0381">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>LPA</name>
+    <desc>Top float: 66 feet; Depth: 98 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.995" lon="-148.1012">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>EP04</name>
+    <desc>Top float: 244 feet; Depth: 276 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9894" lon="-148.1082">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>EPB</name>
+    <desc>Top float: 214 feet; Depth: 246 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.0463" lon="-148.1245">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>POWP05</name>
+    <desc>Top float: 280 feet; Depth: 312 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9793" lon="-148.0446">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>LPB</name>
+    <desc>Top float: 257 feet; Depth: 289 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9912" lon="-148.0967">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>EP03</name>
+    <desc>Top float: 208 feet; Depth: 240 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9844" lon="-148.0992">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>EPA</name>
+    <desc>Top float: 299 feet; Depth: 331 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.0399" lon="-148.1283">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PWA</name>
+    <desc>Top float: 257 feet; Depth: 289 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9847" lon="-148.0368">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>LP02</name>
+    <desc>Top float: 116 feet; Depth: 148 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.0466" lon="-148.1317">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>POWP06</name>
+    <desc>Top float: 145 feet; Depth: 177 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.0403" lon="-148.1368">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PWB</name>
+    <desc>Top float: 234 feet; Depth: 266 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.1151" lon="-148.2353">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>BP07</name>
+    <desc>Top float: 142 feet; Depth: 174 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.1188" lon="-148.2243">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>BPA</name>
+    <desc>Top float: 135 feet; Depth: 167 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6895" lon="-146.399266666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-1</name>
+    <desc>Top float: Surface; Depth: 16 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6909" lon="-146.3916">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-2</name>
+    <desc>Top float: 55 feet; Depth: 75 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6820833333333" lon="-146.383633333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-3</name>
+    <desc>Top float: 126 feet; Depth: 146 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6782666666667" lon="-146.376016666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-4</name>
+    <desc>Top float: 176 feet; Depth: 195 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6876166666667" lon="-146.409666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-5</name>
+    <desc>Top float: Surface; Depth: 7 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6838833333333" lon="-146.401816666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-6</name>
+    <desc>Top float: 34 feet; Depth: 53 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6801833333333" lon="-146.393883333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-7</name>
+    <desc>Top float: 108 feet; Depth: 128 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6763333333333" lon="-146.3858">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-8</name>
+    <desc>Top float: 138 feet; Depth: 158 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6727" lon="-146.3782">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-9</name>
+    <desc>Top float: 192 feet; Depth: 212 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6828333333333" lon="-146.392616666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-10</name>
+    <desc>Top float: 86 feet; Depth: 106 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6842166666667" lon="-146.400066666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-RT1</name>
+    <desc>Top float: 40 feet; Depth: 59 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6845166666667" lon="-146.398266666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-RT2</name>
+    <desc>Top float: 53 feet; Depth: 72 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6848333333333" lon="-146.396083333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Grav-RT3</name>
+    <desc>Top float: 55 feet; Depth: 74 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.61645" lon="-146.623533333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>RH1</name>
+    <desc>Top float: 203 feet; Depth: 213 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.63625" lon="-146.497283333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>RH2</name>
+    <desc>Top float: 223 feet; Depth: 223 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3079333333333" lon="-147.6674">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>NMS1</name>
+    <desc>Top float: 131 feet; Depth: 131 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3046666666667" lon="-147.422166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>NMS2</name>
+    <desc>Top float: 154 feet; Depth: 154 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3776166666667" lon="-147.139016666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>NMS3</name>
+    <desc>Top float: 118 feet; Depth: 118 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.8630333333333" lon="-147.222816666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GISL1</name>
+    <desc>Top float: 154 feet; Depth: 164 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9764333333333" lon="-147.887566666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MR1</name>
+    <desc>Top float: 597 feet; Depth: 607 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9775833333333" lon="-147.886">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MR2</name>
+    <desc>Top float: 571 feet; Depth: 581 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9789666666667" lon="-147.883833333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MR3</name>
+    <desc>Top float: 554 feet; Depth: 564 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3009666666667" lon="-146.9047">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HRT1</name>
+    <desc>Top float: 102 feet; Depth: 112 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.30225" lon="-146.903783333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HRT2</name>
+    <desc>Top float: 111 feet; Depth: 121 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3037666666667" lon="-146.902416666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HRT3</name>
+    <desc>Top float: 141 feet; Depth: 151 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3020166666667" lon="-148.015733333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>KIP1</name>
+    <desc>Top float: 324 feet; Depth: 344 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3008333333333" lon="-147.927333333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>KIP2</name>
+    <desc>Top float: 324 feet; Depth: 344 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.5410833333333" lon="-146.1442">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>CP1</name>
+    <desc>Top float: 81 feet; Depth: 106 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.54555" lon="-146.112483333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>CP2</name>
+    <desc>Top float: 126 feet; Depth: 151 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.5594666666667" lon="-146.032966666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>CEDAR1</name>
+    <desc>Top float: 85 feet; Depth: 110 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.4894333333333" lon="-146.592066666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>JP1</name>
+    <desc>Top float: 71 feet; Depth: 74 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.812" lon="-146.5744">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>PF1</name>
+    <desc>Top float: 128 feet; Depth: 131 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.4567" lon="-139.7497">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Wave Buoy-1</name>
+    <desc>Top float: Surface; Depth: Unknown</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.4333" lon="-139.8061">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Wave Buoy-2</name>
+    <desc>Top float: Surface; Depth: Unknown</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.24352" lon="-136.121495333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Icy Strait</name>
+    <desc>Top float: 594 feet; Depth: 614 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.2417283333333" lon="-136.1211975">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Icy Strait</name>
+    <desc>Top float: 521 feet; Depth: 541 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.2399366666667" lon="-136.120899666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Icy Strait</name>
+    <desc>Top float: 502 feet; Depth: 522 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.238145" lon="-136.120601833333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Icy Strait</name>
+    <desc>Top float: 338 feet; Depth: 358 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.2363533333333" lon="-136.120304">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Icy Strait</name>
+    <desc>Top float: 246 feet; Depth: 266 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1601916666667" lon="-134.563046333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1795 feet; Depth: 1814 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1603483333333" lon="-134.566264">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1800 feet; Depth: 1820 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.160505" lon="-134.569481666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1791 feet; Depth: 1811 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1606616666667" lon="-134.572699166667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1791 feet; Depth: 1811 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1608183333333" lon="-134.575916833333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1778 feet; Depth: 1798 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1439366666667" lon="-134.4261305">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 417 feet; Depth: 1916 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.14425" lon="-134.432563166667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1910 feet; Depth: 1930 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1444066666667" lon="-134.435779333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1912 feet; Depth: 1932 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1445633333333" lon="-134.438995">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1916 feet; Depth: 1936 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.14472" lon="-134.442212">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1912 feet; Depth: 1932 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1448766666667" lon="-134.445428333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Chatham Strait</name>
+    <desc>Top float: 1912 feet; Depth: 1932 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.0556666666667" lon="-134.260666666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Frederick Sound</name>
+    <desc>Top float: 928 feet; Depth: 1180 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.0531233333333" lon="-134.255989666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Frederick Sound</name>
+    <desc>Top float: 1135 feet; Depth: 1155 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.0518516666667" lon="-134.253651166667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Frederick Sound</name>
+    <desc>Top float: 1135 feet; Depth: 1155 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.05058" lon="-134.251312833333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Frederick Sound</name>
+    <desc>Top float: 1135 feet; Depth: 1155 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.0493066666667" lon="-134.2489745">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Frederick Sound</name>
+    <desc>Top float: 1138 feet; Depth: 1158 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.0862816666667" lon="-134.781516666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1171 feet; Depth: 1191 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.0845916666667" lon="-134.780415">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1180 feet; Depth: 1200 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.0829016666667" lon="-134.779311666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1180 feet; Depth: 1200 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.9938783333333" lon="-134.956195">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1194 feet; Depth: 1214 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.9921883333333" lon="-134.955095">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1171 feet; Depth: 1191 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.9904966666667" lon="-134.953995">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1171 feet; Depth: 1191 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.9888066666667" lon="-134.952895">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1200 feet; Depth: 1220 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.048035" lon="-134.246636333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Frederick Sound</name>
+    <desc>Top float: 1138 feet; Depth: 1158 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.0913533333333" lon="-134.784825">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 912 feet; Depth: 1181 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.0896633333333" lon="-134.783721666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1171 feet; Depth: 1191 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.0879716666667" lon="-134.78262">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1171 feet; Depth: 1191 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.9871166666667" lon="-134.951795">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1200 feet; Depth: 1220 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.9854266666667" lon="-134.950695">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>Ommaney</name>
+    <desc>Top float: 1200 feet; Depth: 1220 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.1227166666667" lon="-136.5934">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>20CSP-4A</name>
+    <desc>Top float: 1,060 feet; Depth: 1,099 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.6734833333333" lon="-148.0091">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HARP-CB</name>
+    <desc>Top float: 2,779 feet; Depth: 2,877 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.2439166666667" lon="-142.757183333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>HARP-PT</name>
+    <desc>Top float: 3,140 feet; Depth: 3,238 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="49.9766666666667" lon="-144.246166666667">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MFM-A</name>
+    <desc>Top float: 49 feet; Depth: 13,540 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="50.3303333333333" lon="-144.398333333333">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>MFM-B</name>
+    <desc>Top float: 49 feet; Depth: 13,599 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="50.0798333333333" lon="-144.803">
+    <time>2024-04-11T15:01:34.000000Z</time>
+    <name>GHPM-1</name>
+    <desc>Top float: 483 feet; Depth: 13, 842 feet</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+</gpx>

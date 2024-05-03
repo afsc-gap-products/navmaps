@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Skate Nursery (HAPC)</name>
+      <description>Skate Nursery (HAPC)</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-165.633924578769, 54.8833102976235
+        -165.633795094705, 54.8174160191164
+        -165.766514463925, 54.8168047876525
+        -165.767090227429, 54.8834008222158
+        -165.633924578769, 54.8833102976235
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Skate Nursery (HAPC)</name>
+      <description>Skate Nursery (HAPC)</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-165.649765730102, 54.633104864015
+        -165.650309694142, 54.5497221720686
+        -165.751272399953, 54.5507353327161
+        -165.750946708561, 54.6341182768762
+        -165.649765730102, 54.633104864015
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Skate Nursery (HAPC)</name>
+      <description>Skate Nursery (HAPC)</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-167.566942073428, 55.35015164535
+        -167.566752475004, 55.2837606010359
+        -167.666725060404, 55.2837325706168
+        -167.66657961777, 55.3501840562207
+        -167.566942073428, 55.35015164535
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Skate Nursery (HAPC)</name>
+      <description>Skate Nursery (HAPC)</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-168.433368247431, 56.1833323888814
+        -168.433408164071, 56.1666988538045
+        -168.466645908635, 56.1667678279284
+        -168.466620959725, 56.1834013715803
+        -168.433368247431, 56.1833323888814
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Skate Nursery (HAPC)</name>
+      <description>Skate Nursery (HAPC)</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-173.349979411386, 56.9501165549842
+        -173.349987699243, 56.8999307701062
+        -173.383392988591, 56.899956605437
+        -173.383351655308, 56.9499985249016
+        -173.349979411386, 56.9501165549842
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Skate Nursery (HAPC)</name>
+      <description>Skate Nursery (HAPC)</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-177.56670048112, 59.4666607832563
+        -177.566815795158, 59.3667059827763
+        -177.71723731057, 59.3666405560063
+        -177.716856187734, 59.4669823768632
+        -177.56670048112, 59.4666607832563
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+  </Document>
+</kml>

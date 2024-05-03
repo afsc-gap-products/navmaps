@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+<trk>
+  <name>Skate Nursery (HAPC)</name>
+  <desc>Skate Nursery (HAPC)</desc>
+  <time>2024-04-23T10:00:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.8833102976235" lon="-165.633924578769"></trkpt>
+    <trkpt lat="54.8174160191164" lon="-165.633795094705"></trkpt>
+    <trkpt lat="54.8168047876525" lon="-165.766514463925"></trkpt>
+    <trkpt lat="54.8834008222158" lon="-165.767090227429"></trkpt>
+    <trkpt lat="54.8833102976235" lon="-165.633924578769"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Skate Nursery (HAPC)</name>
+  <desc>Skate Nursery (HAPC)</desc>
+  <time>2024-04-23T10:00:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.633104864015" lon="-165.649765730102"></trkpt>
+    <trkpt lat="54.5497221720686" lon="-165.650309694142"></trkpt>
+    <trkpt lat="54.5507353327161" lon="-165.751272399953"></trkpt>
+    <trkpt lat="54.6341182768762" lon="-165.750946708561"></trkpt>
+    <trkpt lat="54.633104864015" lon="-165.649765730102"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Skate Nursery (HAPC)</name>
+  <desc>Skate Nursery (HAPC)</desc>
+  <time>2024-04-23T10:00:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.35015164535" lon="-167.566942073428"></trkpt>
+    <trkpt lat="55.2837606010359" lon="-167.566752475004"></trkpt>
+    <trkpt lat="55.2837325706168" lon="-167.666725060404"></trkpt>
+    <trkpt lat="55.3501840562207" lon="-167.66657961777"></trkpt>
+    <trkpt lat="55.35015164535" lon="-167.566942073428"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Skate Nursery (HAPC)</name>
+  <desc>Skate Nursery (HAPC)</desc>
+  <time>2024-04-23T10:00:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="56.1833323888814" lon="-168.433368247431"></trkpt>
+    <trkpt lat="56.1666988538045" lon="-168.433408164071"></trkpt>
+    <trkpt lat="56.1667678279284" lon="-168.466645908635"></trkpt>
+    <trkpt lat="56.1834013715803" lon="-168.466620959725"></trkpt>
+    <trkpt lat="56.1833323888814" lon="-168.433368247431"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Skate Nursery (HAPC)</name>
+  <desc>Skate Nursery (HAPC)</desc>
+  <time>2024-04-23T10:00:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="56.9501165549842" lon="-173.349979411386"></trkpt>
+    <trkpt lat="56.8999307701062" lon="-173.349987699243"></trkpt>
+    <trkpt lat="56.899956605437" lon="-173.383392988591"></trkpt>
+    <trkpt lat="56.9499985249016" lon="-173.383351655308"></trkpt>
+    <trkpt lat="56.9501165549842" lon="-173.349979411386"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Skate Nursery (HAPC)</name>
+  <desc>Skate Nursery (HAPC)</desc>
+  <time>2024-04-23T10:00:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.4666607832563" lon="-177.56670048112"></trkpt>
+    <trkpt lat="59.3667059827763" lon="-177.566815795158"></trkpt>
+    <trkpt lat="59.3666405560063" lon="-177.71723731057"></trkpt>
+    <trkpt lat="59.4669823768632" lon="-177.716856187734"></trkpt>
+    <trkpt lat="59.4666607832563" lon="-177.56670048112"></trkpt>  </trkseg>
+</trk>
+</gpx>

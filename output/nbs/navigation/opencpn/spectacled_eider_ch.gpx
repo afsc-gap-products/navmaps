@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+<trk>
+  <name>Spectacled Eider Critical Habitat</name>
+  <desc>3 - Norton Sound</desc>
+  <time>2023-04-13T16:37:51.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3602868572659" lon="-161.170090669149"></trkpt>
+    <trkpt lat="64.3602843276202" lon="-161.17013930551"></trkpt>
+    <trkpt lat="64.3602380129169" lon="-161.170239048998"></trkpt>
+    <trkpt lat="64.3602148824153" lon="-161.170238798998"></trkpt>
+    <trkpt lat="64.3602147156022" lon="-161.170239069158"></trkpt>
+    <trkpt lat="64.3602145545153" lon="-161.170238805931"></trkpt>
+    <trkpt lat="64.3602110014219" lon="-161.170238761978"></trkpt>
+    <trkpt lat="64.3597023405123" lon="-161.169406986476"></trkpt>
+    <trkpt lat="64.3597041356629" lon="-161.169400751318"></trkpt>
+    <trkpt lat="64.3597035188463" lon="-161.169399727636"></trkpt>
+    <trkpt lat="64.3597493048558" lon="-161.169231886603"></trkpt>
+    <trkpt lat="64.3597755258623" lon="-161.169153223428"></trkpt>
+    <trkpt lat="64.3597790466228" lon="-161.169141003028"></trkpt>
+    <trkpt lat="64.3597795618805" lon="-161.169141109896"></trkpt>
+    <trkpt lat="64.3597798201185" lon="-161.169140327839"></trkpt>
+    <trkpt lat="64.3599247858549" lon="-161.169170870677"></trkpt>
+    <trkpt lat="64.3600110387442" lon="-161.16925713668"></trkpt>
+    <trkpt lat="64.3600631083962" lon="-161.16930597679"></trkpt>
+    <trkpt lat="64.3601298784883" lon="-161.169477610642"></trkpt>
+    <trkpt lat="64.3601536811175" lon="-161.169537126073"></trkpt>
+    <trkpt lat="64.360298650113" lon="-161.169903362366"></trkpt>
+    <trkpt lat="64.3602910196007" lon="-161.170040703913"></trkpt>
+    <trkpt lat="64.3602868572659" lon="-161.170090669149"></trkpt>  </trkseg>
+</trk>
+</gpx>

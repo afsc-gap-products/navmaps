@@ -1,0 +1,4683 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="54.2444" lon="-165.4627">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>55-47</name>
+    <cmt>Stratum: 10, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.76834" lon="-166.124">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>47-36</name>
+    <cmt>Stratum: 10, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.7243" lon="-168.9338">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>13-10</name>
+    <cmt>Stratum: 10, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.2506" lon="-167.281">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>33-23</name>
+    <cmt>Stratum: 10, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.32524" lon="-165.3802">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>56-49</name>
+    <cmt>Stratum: 10, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.04962" lon="-167.942">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>25-18</name>
+    <cmt>Stratum: 10, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.6618" lon="-165.876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>50-33</name>
+    <cmt>Stratum: 10, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9521" lon="-165.7107">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>52-40</name>
+    <cmt>Stratum: 10, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0354" lon="-165.215">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>58-42</name>
+    <cmt>Stratum: 10, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2025" lon="-162.2398">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>94-46</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2444" lon="-163.8928">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>74-47</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.99578" lon="-163.314">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>81-41</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3703" lon="-163.9753">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>73-50</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.11883" lon="-163.066">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>84-44</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9105" lon="-164.6363">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>65-39</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3283" lon="-162.0742">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>96-49</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.53875" lon="-163.6448">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>77-54</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.41232" lon="-163.7272">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>76-51</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.99372" lon="-164.1408">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>71-41</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.45442" lon="-163.7272">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>76-52</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0771" lon="-164.2233">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>70-43</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.16063" lon="-163.3968">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>80-45</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.45442" lon="-163.066">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>84-52</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3283" lon="-164.8843">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>62-49</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0771" lon="-163.7272">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>76-43</name>
+    <cmt>Stratum: 11, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.49657" lon="-163.314">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>81-53</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3983" lon="-162.405">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>92-51</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2444" lon="-164.8018">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>63-47</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3703" lon="-164.5537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>66-50</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.11883" lon="-164.5537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>66-44</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0771" lon="-163.2313">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>82-43</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0771" lon="-162.9833">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>85-43</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9105" lon="-164.058">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>72-39</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0354" lon="-163.1488">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>83-42</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.49657" lon="-162.9007">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>86-53</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2025" lon="-163.6448">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>77-46</name>
+    <cmt>Stratum: 11, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.38828" lon="-161.0827">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>108-74</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4781" lon="-160.4212">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>116-76</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.69473" lon="-159.7542">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>124-81</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.87782" lon="-162.9007">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>86-62</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0057" lon="-162.405">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>92-65</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4781" lon="-161.5788">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>102-76</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.56023" lon="-160.6019">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>114-78</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3057" lon="-161.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>107-72</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.08412" lon="-163.1488">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>83-67</name>
+    <cmt>Stratum: 12, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.60793" lon="-161.4132">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>104-79</name>
+    <cmt>Stratum: 12, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7928" lon="-163.2313">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>82-60</name>
+    <cmt>Stratum: 12, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.17682" lon="-162.5703">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>90-69</name>
+    <cmt>Stratum: 12, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.21972" lon="-161.8262">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>99-70</name>
+    <cmt>Stratum: 12, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7928" lon="-162.9007">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>86-60</name>
+    <cmt>Stratum: 12, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.44479" lon="-160.0908">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>120-75</name>
+    <cmt>Stratum: 12, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.96302" lon="-160.9173">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>110-64</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.62325" lon="-161.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>107-56</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.46703" lon="-161.2568">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>106-52</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.04843" lon="-159.6777">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>125-66</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.58097" lon="-161.9918">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>97-55</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0912" lon="-161.0827">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>108-67</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9204" lon="-159.595">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>126-63</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.134" lon="-159.347">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>129-68</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.134" lon="-161.0827">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>108-68</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.134" lon="-159.099">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>132-68</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.03615" lon="-159.9937">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>121-66</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.04843" lon="-159.9258">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>122-66</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.29238" lon="-160.3097">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>117-72</name>
+    <cmt>Stratum: 13, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.87782" lon="-159.6777">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>125-62</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.87782" lon="-160.504">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>115-62</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.96302" lon="-159.2643">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>130-64</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.96302" lon="-159.7602">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>124-64</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0912" lon="-160.9173">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>110-67</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.58097" lon="-160.0082">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>121-55</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.134" lon="-159.4297">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>128-68</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.62325" lon="-161.6612">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>101-56</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.96302" lon="-160.0082">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>121-64</name>
+    <cmt>Stratum: 13, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.53625" lon="-153.6448">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>198-144</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.98422" lon="-154.6519">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>186-132</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.42763" lon="-155.9587">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>170-120</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.33683" lon="-156.0413">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>169-118</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7071" lon="-157.1982">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>155-104</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5291" lon="-157.3637">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>153-100</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9126" lon="-158.851">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>135-86</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.57352" lon="-156.9502">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>158-101</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.04383" lon="-158.3552">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>141-89</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.09592" lon="-158.0419">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>145-90</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9563" lon="-158.438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>140-87</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.95187" lon="-157.942">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>146-87</name>
+    <cmt>Stratum: 20, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.96302" lon="-158.0247">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>145-64</name>
+    <cmt>Stratum: 21, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.60793" lon="-157.1157">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>156-79</name>
+    <cmt>Stratum: 21, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3918" lon="-157.4463">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>152-74</name>
+    <cmt>Stratum: 21, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2627" lon="-157.3637">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>153-71</name>
+    <cmt>Stratum: 21, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.43493" lon="-157.281">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>154-75</name>
+    <cmt>Stratum: 21, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.13162" lon="-156.7022">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>161-91</name>
+    <cmt>Stratum: 21, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1756" lon="-157.033">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>157-92</name>
+    <cmt>Stratum: 21, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.26362" lon="-156.715">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>161-94</name>
+    <cmt>Stratum: 21, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9563" lon="-157.6113">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>150-87</name>
+    <cmt>Stratum: 21, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.13145" lon="-156.785">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>160-91</name>
+    <cmt>Stratum: 21, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.60219" lon="-156.8678">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>159-79</name>
+    <cmt>Stratum: 21, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.89541" lon="-153.9863">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>194-108</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.88593" lon="-154.6363">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>186-108</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.84112" lon="-154.1403">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>192-107</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7964" lon="-155.0498">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>181-106</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-154.223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>191-105</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7071" lon="-155.1322">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>180-104</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7071" lon="-154.3883">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>189-104</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.57352" lon="-155.38">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>177-101</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5291" lon="-154.3883">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>189-100</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.48473" lon="-155.4627">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>176-99</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4404" lon="-155.2147">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>179-98</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4404" lon="-154.471">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>188-98</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.39613" lon="-155.5452">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>175-97</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.39613" lon="-155.38">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>177-97</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3519" lon="-154.6363">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>186-96</name>
+    <cmt>Stratum: 22, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.30772" lon="-155.0498">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>181-95</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.26362" lon="-155.628">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>174-94</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0877" lon="-155.1322">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>180-90</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.00002" lon="-155.4627">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>176-88</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.86893" lon="-155.7107">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>173-85</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8253" lon="-155.5375">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>175-84</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8253" lon="-155.876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>171-84</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7382" lon="-155.5452">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>175-82</name>
+    <cmt>Stratum: 22, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.222" lon="-152.3064">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>214-137</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.02372" lon="-152.5703">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>211-133</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.07" lon="-152.405">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>213-134</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.97752" lon="-152.3223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>214-132</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.31287" lon="-151.248">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>227-139</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.77398" lon="-152.2398">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>215-128</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7933" lon="-152.157">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>216-128</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.46463" lon="-152.9833">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>206-121</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.70152" lon="-152.3223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>214-126</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9757" lon="-153.3968">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>201-110</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.1096" lon="-152.9007">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>207-113</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.20998" lon="-152.5703">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>211-115</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.66253" lon="-153.8243">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>196-103</name>
+    <cmt>Stratum: 30, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.44222" lon="-150.6693">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>234-142</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3955" lon="-150.5868">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>235-141</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.34883" lon="-150.5868">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>235-140</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.47793" lon="-150.3388">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>238-143</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.21868" lon="-150.5868">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>235-137</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.02372" lon="-151.0827">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>229-133</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.83925" lon="-151.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>228-129</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.70152" lon="-151.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>224-126</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.47313" lon="-151.9918">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>218-121</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.70152" lon="-151.248">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>227-126</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.70152" lon="-151.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>228-126</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.33683" lon="-152.2398">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>215-118</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.42763" lon="-151.909">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>219-120</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.56433" lon="-151.248">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>227-123</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3822" lon="-151.7438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>221-119</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.33683" lon="-151.8262">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>220-118</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.33683" lon="-151.661">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>222-118</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.37698" lon="-151.5039">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>224-119</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7964" lon="-153.066">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>205-106</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.42763" lon="-151.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>228-120</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4404" lon="-153.81">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>196-98</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.02062" lon="-152.2398">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>215-111</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3822" lon="-151.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>228-119</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.42927" lon="-150.9173">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>231-120</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.20188" lon="-151.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>224-115</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.02062" lon="-151.8262">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>220-111</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.48473" lon="-153.1488">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>204-99</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5291" lon="-152.9007">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>207-100</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.84112" lon="-151.909">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>219-107</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.48473" lon="-152.7353">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>209-99</name>
+    <cmt>Stratum: 31, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6254" lon="-153.4792">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>200-167</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.92373" lon="-152.4878">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>212-173</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7775" lon="-152.6527">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>210-170</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.68035" lon="-152.818">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>208-168</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.48693" lon="-153.314">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>202-164</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.43872" lon="-153.314">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>202-163</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7775" lon="-152.157">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>216-170</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.00907" lon="-153.562">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>199-154</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.19885" lon="-152.6527">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>210-158</name>
+    <cmt>Stratum: 32, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.28016" lon="-151.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>228-160</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9726" lon="-149.1818">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>252-174</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.92373" lon="-149.4297">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>249-173</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.05573" lon="-151.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>224-155</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.92373" lon="-149.099">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>253-173</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.47311" lon="-150.256">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>239-164</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9316" lon="-148.7682">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>257-173</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1034" lon="-150.6693">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>234-156</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5352" lon="-149.6777">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>246-165</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.68035" lon="-148.1858">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>264-168</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7289" lon="-147.942">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>267-169</name>
+    <cmt>Stratum: 33, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.87965" lon="-153.81">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>196-130</name>
+    <cmt>Stratum: 35, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3822" lon="-154.8018">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>184-119</name>
+    <cmt>Stratum: 35, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.35963" lon="-154.727">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>185-119</name>
+    <cmt>Stratum: 35, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7933" lon="-153.5408">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>199-128</name>
+    <cmt>Stratum: 35, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.94464" lon="-152.9007">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>207-131</name>
+    <cmt>Stratum: 35, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.85359" lon="-152.818">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>208-129</name>
+    <cmt>Stratum: 35, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.68035" lon="-140.1732">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>361-168</name>
+    <cmt>Stratum: 40, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9132" lon="-138.19">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>385-152</name>
+    <cmt>Stratum: 40, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7775" lon="-141.413">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>346-170</name>
+    <cmt>Stratum: 40, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1511" lon="-138.851">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>377-157</name>
+    <cmt>Stratum: 40, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.69632" lon="-139.5156">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>369-168</name>
+    <cmt>Stratum: 40, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8185" lon="-138.2728">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>384-150</name>
+    <cmt>Stratum: 40, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.46936" lon="-139.6816">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>367-164</name>
+    <cmt>Stratum: 40, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.92373" lon="-143.975">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>315-173</name>
+    <cmt>Stratum: 40, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.58282" lon="-138.6858">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>379-145</name>
+    <cmt>Stratum: 40, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.96675" lon="-141.8262">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>341-174</name>
+    <cmt>Stratum: 40, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.07053" lon="-146.1237">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>289-176</name>
+    <cmt>Stratum: 41, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.95972" lon="-146.785">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>281-174</name>
+    <cmt>Stratum: 41, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6319" lon="-146.289">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>287-167</name>
+    <cmt>Stratum: 41, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8749" lon="-146.6198">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>283-172</name>
+    <cmt>Stratum: 41, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.26742" lon="-145.7107">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>294-180</name>
+    <cmt>Stratum: 41, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.16883" lon="-145.38">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>298-178</name>
+    <cmt>Stratum: 41, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.07" lon="-136.5602">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>405-134</name>
+    <cmt>Stratum: 50, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.13162" lon="-134.2809">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>432-91</name>
+    <cmt>Stratum: 50, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.179" lon="-134.7187">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>427-92</name>
+    <cmt>Stratum: 50, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.42763" lon="-136.041">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>411-120</name>
+    <cmt>Stratum: 50, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.91391" lon="-136.537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>405-131</name>
+    <cmt>Stratum: 50, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.21002" lon="-133.3968">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>443-70</name>
+    <cmt>Stratum: 50, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.30762" lon="-135.6233">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>416-117</name>
+    <cmt>Stratum: 50, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.49657" lon="-161.909">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>98-53</name>
+    <cmt>Stratum: 110, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.53875" lon="-160.752">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>112-54</name>
+    <cmt>Stratum: 110, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.49657" lon="-162.0742">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>96-53</name>
+    <cmt>Stratum: 110, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.46019" lon="-160.5868">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>114-52</name>
+    <cmt>Stratum: 110, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.45442" lon="-160.752">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>112-52</name>
+    <cmt>Stratum: 110, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.49657" lon="-159.6777">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>125-53</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.57923" lon="-165.628">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>53-31</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.12662" lon="-167.6113">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>29-20</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.538" lon="-166.2067">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>46-30</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.78598" lon="-165.2978">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>57-36</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.0057" lon="-167.7767">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>27-17</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.54914" lon="-169.8647">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>2-6</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.29152" lon="-166.785">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>39-24</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.0057" lon="-167.8592">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>26-17</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.41232" lon="-160.0908">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>120-51</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.61066" lon="-166.0413">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>48-32</name>
+    <cmt>Stratum: 111, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.5604" lon="-169.7389">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>3-6</name>
+    <cmt>Stratum: 111, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.78409" lon="-164.5537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>66-36</name>
+    <cmt>Stratum: 111, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3283" lon="-161.0827">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>108-49</name>
+    <cmt>Stratum: 111, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.14488" lon="-161.7438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>100-45</name>
+    <cmt>Stratum: 111, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.4557" lon="-166.2067">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>46-28</name>
+    <cmt>Stratum: 111, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.6205" lon="-166.2067">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>46-32</name>
+    <cmt>Stratum: 111, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.78198" lon="-164.3883">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>68-36</name>
+    <cmt>Stratum: 111, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.21972" lon="-159.1818">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>131-70</name>
+    <cmt>Stratum: 112, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.59764" lon="-160.0876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>120-79</name>
+    <cmt>Stratum: 112, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.43493" lon="-159.843">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>123-75</name>
+    <cmt>Stratum: 112, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.78172" lon="-157.7767">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>148-83</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.52132" lon="-158.851">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>135-77</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.87782" lon="-158.6032">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>138-62</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.78172" lon="-158.438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>140-83</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2196" lon="-157.8592">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>147-93</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4781" lon="-158.438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>140-76</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.60793" lon="-158.19">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>143-79</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2627" lon="-158.851">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>135-71</name>
+    <cmt>Stratum: 120, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.13162" lon="-157.942">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>146-91</name>
+    <cmt>Stratum: 120, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.39613" lon="-156.8678">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>159-97</name>
+    <cmt>Stratum: 120, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.39613" lon="-157.281">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>154-97</name>
+    <cmt>Stratum: 120, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.87782" lon="-158.19">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>143-62</name>
+    <cmt>Stratum: 120, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4781" lon="-158.6858">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>137-76</name>
+    <cmt>Stratum: 120, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.134" lon="-158.2728">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>142-68</name>
+    <cmt>Stratum: 120, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.00825" lon="-154.5537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>187-133</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.02372" lon="-153.81">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>196-133</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-156.8678">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>159-105</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-156.785">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>160-105</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.66502" lon="-156.9488">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>158-103</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.84112" lon="-156.1237">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>168-107</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.66253" lon="-156.4542">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>164-103</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.201" lon="-154.8925">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>183-115</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.52684" lon="-156.4542">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>164-100</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.39613" lon="-156.537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>163-97</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4404" lon="-156.3717">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>165-98</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.54015" lon="-155.5452">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>175-100</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2196" lon="-156.537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>163-93</name>
+    <cmt>Stratum: 121, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.39613" lon="-155.876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>171-97</name>
+    <cmt>Stratum: 121, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3519" lon="-155.876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>171-96</name>
+    <cmt>Stratum: 121, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.30772" lon="-155.876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>171-95</name>
+    <cmt>Stratum: 121, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.26362" lon="-155.876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>171-94</name>
+    <cmt>Stratum: 121, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.26362" lon="-155.8093">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>172-94</name>
+    <cmt>Stratum: 121, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9563" lon="-156.6198">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>162-87</name>
+    <cmt>Stratum: 121, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.86893" lon="-156.1237">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>168-85</name>
+    <cmt>Stratum: 121, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.66558" lon="-158.7682">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>136-57</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.58097" lon="-158.851">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>135-55</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76104" lon="-158.19">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>143-59</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.30739" lon="-154.1403">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>192-95</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.13162" lon="-154.5537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>187-91</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.26362" lon="-154.223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>191-94</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.134" lon="-157.1157">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>156-68</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.68687" lon="-155.4627">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>176-81</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7928" lon="-157.942">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>146-60</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2196" lon="-154.223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>191-93</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.42563" lon="-156.2062">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>167-75</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.95784" lon="-157.4318">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>152-64</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.88668" lon="-157.6113">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>150-62</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2196" lon="-154.1403">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>192-93</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.96302" lon="-157.3637">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>153-64</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3057" lon="-156.4542">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>164-72</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.05206" lon="-154.471">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>188-89</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.18304" lon="-156.7022">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>161-69</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0877" lon="-154.3057">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>190-90</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0877" lon="-154.223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>191-90</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.00002" lon="-154.223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>191-88</name>
+    <cmt>Stratum: 122, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.25172" lon="-151.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>228-138</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1627" lon="-150.6693">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>234-136</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.11633" lon="-150.6693">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>234-135</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.07" lon="-151.3307">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>226-134</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.07" lon="-151.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>224-134</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9314" lon="-150.504">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>236-131</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.90162" lon="-152.157">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>216-130</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7933" lon="-150.256">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>239-128</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.56433" lon="-151.909">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>219-123</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5187" lon="-151.5783">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>223-122</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.47313" lon="-151.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>224-121</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.06562" lon="-152.4079">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>213-112</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.06562" lon="-152.7353">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>209-112</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.02062" lon="-152.818">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>208-111</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.88593" lon="-153.2313">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>203-108</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-152.3223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>214-105</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-152.5703">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>211-105</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-152.4878">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>212-105</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7071" lon="-153.562">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>199-104</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.69848" lon="-153.066">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>205-104</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.49248" lon="-153.562">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>199-99</name>
+    <cmt>Stratum: 130, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9132" lon="-150.1732">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>240-152</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6769" lon="-149.9258">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>243-147</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5359" lon="-149.099">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>253-144</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.57425" lon="-150.752">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>233-145</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.58282" lon="-149.7602">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>245-145</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.62983" lon="-148.9338">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>255-146</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.71392" lon="-149.0163">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>254-148</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3022" lon="-149.4297">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>249-139</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.44222" lon="-149.099">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>253-142</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.62983" lon="-149.347">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>250-146</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.58282" lon="-149.2643">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>251-145</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.21891" lon="-148.9497">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>255-137</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6769" lon="-149.843">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>244-147</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8185" lon="-150.5868">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>235-150</name>
+    <cmt>Stratum: 131, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5359" lon="-150.0908">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>241-144</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.95692" lon="-150.4212">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>237-153</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3022" lon="-149.099">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>253-139</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5359" lon="-148.9338">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>255-144</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5359" lon="-149.6777">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>246-144</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5359" lon="-149.2643">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>251-144</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.77122" lon="-149.9258">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>243-149</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8185" lon="-150.752">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>233-150</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.58282" lon="-148.7682">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>257-145</name>
+    <cmt>Stratum: 131, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1034" lon="-152.6527">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>210-156</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.14619" lon="-152.0915">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>217-157</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9132" lon="-152.4878">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>212-152</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.00812" lon="-152.2398">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>215-154</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.48903" lon="-153.4792">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>200-143</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.86583" lon="-152.405">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>213-151</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.44222" lon="-153.4792">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>200-142</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.89912" lon="-151.9918">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>218-152</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.96062" lon="-151.7438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>221-153</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8185" lon="-152.0742">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>217-150</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.44222" lon="-153.066">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>205-142</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.25562" lon="-153.4792">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>200-138</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.72403" lon="-151.7438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>221-148</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.58282" lon="-151.8262">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>220-145</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6769" lon="-151.3307">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>226-147</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.77122" lon="-151.0147">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>230-149</name>
+    <cmt>Stratum: 132, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3426" lon="-149.7602">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>245-161</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1511" lon="-150.3388">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>238-157</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.19885" lon="-150.0082">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>242-158</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.81203" lon="-148.19">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>264-171</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.29462" lon="-149.7602">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>245-160</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.68035" lon="-148.851">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>256-168</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7289" lon="-148.6858">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>258-169</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2467" lon="-150.4212">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>237-159</name>
+    <cmt>Stratum: 133, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.39062" lon="-147.942">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>267-162</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.58352" lon="-147.942">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>267-166</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.62415" lon="-148.19">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>264-167</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.43872" lon="-147.694">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>270-163</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5352" lon="-148.8529">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>256-165</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1511" lon="-149.843">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>244-157</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7289" lon="-149.4208">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>249-169</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.39062" lon="-149.0163">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>254-162</name>
+    <cmt>Stratum: 133, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.05573" lon="-148.1072">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>265-155</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.00812" lon="-148.1072">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>265-154</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.57395" lon="-148.5895">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>259-145</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1889" lon="-148.851">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>256-137</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.24622" lon="-151.4053">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>225-116</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.41862" lon="-150.752">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>233-120</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3822" lon="-150.8348">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>232-119</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.47313" lon="-150.5868">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>235-121</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.33683" lon="-150.8348">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>232-118</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.02372" lon="-149.0163">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>254-133</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.34852" lon="-150.6737">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>234-118</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9757" lon="-151.5783">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>223-110</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7964" lon="-151.7468">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>221-106</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0347" lon="-153.7272">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>197-89</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.53473" lon="-152.3223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>214-100</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.00002" lon="-153.7272">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>197-88</name>
+    <cmt>Stratum: 134, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5352" lon="-145.9587">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>291-165</name>
+    <cmt>Stratum: 140, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.21385" lon="-146.1237">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>289-179</name>
+    <cmt>Stratum: 140, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4327" lon="-146.785">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>281-163</name>
+    <cmt>Stratum: 140, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.06267" lon="-145.2147">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>300-176</name>
+    <cmt>Stratum: 140, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8749" lon="-146.9502">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>279-172</name>
+    <cmt>Stratum: 140, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.62259" lon="-146.1237">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>289-167</name>
+    <cmt>Stratum: 140, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.68035" lon="-142.405">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>334-168</name>
+    <cmt>Stratum: 141, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5352" lon="-141.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>345-165</name>
+    <cmt>Stratum: 141, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.48693" lon="-141.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>345-164</name>
+    <cmt>Stratum: 141, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6319" lon="-143.7272">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>318-167</name>
+    <cmt>Stratum: 141, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5352" lon="-142.0742">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>338-165</name>
+    <cmt>Stratum: 141, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2467" lon="-140.0082">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>363-159</name>
+    <cmt>Stratum: 142, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6769" lon="-139.9258">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>364-147</name>
+    <cmt>Stratum: 142, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2467" lon="-139.843">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>365-159</name>
+    <cmt>Stratum: 142, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.96062" lon="-138.7682">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>378-153</name>
+    <cmt>Stratum: 142, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8185" lon="-139.347">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>371-150</name>
+    <cmt>Stratum: 142, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9132" lon="-138.6858">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>379-152</name>
+    <cmt>Stratum: 142, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.42311" lon="-140.256">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>360-163</name>
+    <cmt>Stratum: 142, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.48903" lon="-138.2728">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>384-143</name>
+    <cmt>Stratum: 143, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.34883" lon="-137.6113">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>392-140</name>
+    <cmt>Stratum: 143, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1627" lon="-138.0247">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>387-136</name>
+    <cmt>Stratum: 143, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5359" lon="-139.347">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>371-144</name>
+    <cmt>Stratum: 143, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.62983" lon="-138.2728">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>384-146</name>
+    <cmt>Stratum: 143, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.34883" lon="-137.5288">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>393-140</name>
+    <cmt>Stratum: 143, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.42529" lon="-139.2643">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>372-142</name>
+    <cmt>Stratum: 143, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.48903" lon="-137.6113">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>392-143</name>
+    <cmt>Stratum: 143, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5359" lon="-138.4378">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>382-144</name>
+    <cmt>Stratum: 143, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.48903" lon="-137.5288">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>393-143</name>
+    <cmt>Stratum: 143, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3955" lon="-138.4378">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>382-141</name>
+    <cmt>Stratum: 143, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.42684" lon="-135.068">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>423-98</name>
+    <cmt>Stratum: 150, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.56433" lon="-136.3717">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>407-123</name>
+    <cmt>Stratum: 150, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.61462" lon="-135.4627">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>418-102</name>
+    <cmt>Stratum: 150, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.201" lon="-136.041">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>411-115</name>
+    <cmt>Stratum: 150, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.47313" lon="-136.289">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>408-121</name>
+    <cmt>Stratum: 150, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5187" lon="-136.3717">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>407-122</name>
+    <cmt>Stratum: 150, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.39613" lon="-135.5452">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>417-97</name>
+    <cmt>Stratum: 150, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.74199" lon="-136.4657">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>406-127</name>
+    <cmt>Stratum: 150, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-135.5452">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>417-105</name>
+    <cmt>Stratum: 150, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.01739" lon="-136.6882">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>403-133</name>
+    <cmt>Stratum: 150, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.13154" lon="-134.3627">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>431-91</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8253" lon="-134.137">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>434-84</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0912" lon="-133.5617">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>441-67</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.71851" lon="-133.314">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>444-58</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.17682" lon="-133.6442">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>440-69</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.96302" lon="-133.5617">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>441-64</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9204" lon="-133.5617">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>441-63</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.51416" lon="-134.531">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>429-77</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.21713" lon="-133.5502">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>441-70</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.43493" lon="-134.0577">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>435-75</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8253" lon="-134.9668">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>424-84</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.31303" lon="-134.3883">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>431-72</name>
+    <cmt>Stratum: 151, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.98441" lon="-134.5532">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>429-88</name>
+    <cmt>Stratum: 151, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7526" lon="-134.636">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>428-82</name>
+    <cmt>Stratum: 151, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.85681" lon="-133.9885">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>436-85</name>
+    <cmt>Stratum: 151, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.09194" lon="-167.1157">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>35-19</name>
+    <cmt>Stratum: 210, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.64103" lon="-169.4297">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>7-8</name>
+    <cmt>Stratum: 210, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.2097" lon="-166.785">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>39-22</name>
+    <cmt>Stratum: 210, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.07783" lon="-161.6612">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>101-43</name>
+    <cmt>Stratum: 210, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.44906" lon="-166.0413">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>48-28</name>
+    <cmt>Stratum: 210, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.27774" lon="-161.3307">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>105-48</name>
+    <cmt>Stratum: 210, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.47714" lon="-169.926">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>1-4</name>
+    <cmt>Stratum: 210, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.09994" lon="-167.033">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>36-19</name>
+    <cmt>Stratum: 210, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.07902" lon="-167.1982">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>34-19</name>
+    <cmt>Stratum: 210, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.44361" lon="-159.595">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>126-52</name>
+    <cmt>Stratum: 210, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3822" lon="-155.2147">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>179-119</name>
+    <cmt>Stratum: 220, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.201" lon="-155.7107">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>173-115</name>
+    <cmt>Stratum: 220, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.75173" lon="-155.7107">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>173-105</name>
+    <cmt>Stratum: 220, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7071" lon="-156.0413">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>169-104</name>
+    <cmt>Stratum: 220, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7071" lon="-155.876">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>171-104</name>
+    <cmt>Stratum: 220, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.48473" lon="-156.2062">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>167-99</name>
+    <cmt>Stratum: 220, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7382" lon="-156.537">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>163-82</name>
+    <cmt>Stratum: 220, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.72607" lon="-158.2728">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>142-58</name>
+    <cmt>Stratum: 221, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.65777" lon="-158.438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>140-57</name>
+    <cmt>Stratum: 221, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.603" lon="-155.5366">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>175-79</name>
+    <cmt>Stratum: 221, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.13204" lon="-156.8678">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>159-68</name>
+    <cmt>Stratum: 221, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.00758" lon="-154.3883">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>189-88</name>
+    <cmt>Stratum: 221, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.63776" lon="-150.5868">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>235-146</name>
+    <cmt>Stratum: 230, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.00199" lon="-149.2643">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>251-154</name>
+    <cmt>Stratum: 230, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9132" lon="-148.9338">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>255-152</name>
+    <cmt>Stratum: 230, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.05541" lon="-148.438">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>261-155</name>
+    <cmt>Stratum: 230, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8185" lon="-149.099">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>253-150</name>
+    <cmt>Stratum: 230, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9132" lon="-148.3552">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>262-152</name>
+    <cmt>Stratum: 230, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.61" lon="-150.0908">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>241-124</name>
+    <cmt>Stratum: 231, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4404" lon="-152.5571">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>211-98</name>
+    <cmt>Stratum: 231, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.49388" lon="-152.3223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>214-99</name>
+    <cmt>Stratum: 231, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.99565" lon="-153.489">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>200-88</name>
+    <cmt>Stratum: 231, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7933" lon="-154.967">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>182-128</name>
+    <cmt>Stratum: 232, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.96688" lon="-154.471">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>188-132</name>
+    <cmt>Stratum: 232, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.07" lon="-154.1403">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>192-134</name>
+    <cmt>Stratum: 232, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.68035" lon="-143.2313">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>324-168</name>
+    <cmt>Stratum: 240, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7289" lon="-142.9007">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>328-169</name>
+    <cmt>Stratum: 240, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.52755" lon="-140.4212">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>358-165</name>
+    <cmt>Stratum: 240, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.58098" lon="-140.8348">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>353-166</name>
+    <cmt>Stratum: 240, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8749" lon="-143.7207">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>318-172</name>
+    <cmt>Stratum: 240, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.26246" lon="-146.785">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>281-159</name>
+    <cmt>Stratum: 241, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.62512" lon="-144.223">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>312-167</name>
+    <cmt>Stratum: 241, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.52096" lon="-139.595">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>368-144</name>
+    <cmt>Stratum: 241, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.29462" lon="-141.9918">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>339-160</name>
+    <cmt>Stratum: 241, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.38749" lon="-142.157">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>337-162</name>
+    <cmt>Stratum: 241, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6247" lon="-140.0082">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>363-146</name>
+    <cmt>Stratum: 241, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.66253" lon="-135.7933">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>414-103</name>
+    <cmt>Stratum: 250, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.16248" lon="-135.0492">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>423-92</name>
+    <cmt>Stratum: 250, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.56986" lon="-133.1488">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>446-55</name>
+    <cmt>Stratum: 251, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.96522" lon="-135.38">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>419-87</name>
+    <cmt>Stratum: 251, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.60793" lon="-134.636">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>428-79</name>
+    <cmt>Stratum: 251, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.50757" lon="-134.7187">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>427-77</name>
+    <cmt>Stratum: 251, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.75283" lon="-134.139">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>434-59</name>
+    <cmt>Stratum: 251, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.63333" lon="-132.9833">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>448-56</name>
+    <cmt>Stratum: 251, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.45442" lon="-133.5617">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>441-52</name>
+    <cmt>Stratum: 251, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.41232" lon="-159.347">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>129-51</name>
+    <cmt>Stratum: 310, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.29152" lon="-166.3717">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>44-24</name>
+    <cmt>Stratum: 310, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.30167" lon="-156.1237">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>168-72</name>
+    <cmt>Stratum: 320, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.20541" lon="-156.3717">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>165-70</name>
+    <cmt>Stratum: 320, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.24018" lon="-148.6839">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>258-138</name>
+    <cmt>Stratum: 330, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.56433" lon="-150.0104">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>242-123</name>
+    <cmt>Stratum: 330, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.35138" lon="-150.2668">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>239-118</name>
+    <cmt>Stratum: 330, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.12482" lon="-153.3968">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>201-91</name>
+    <cmt>Stratum: 330, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.19885" lon="-141.4958">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>345-158</name>
+    <cmt>Stratum: 340, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.43872" lon="-141.1652">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>349-163</name>
+    <cmt>Stratum: 340, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.01545" lon="-138.2728">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>384-133</name>
+    <cmt>Stratum: 341, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.80896" lon="-140.8348">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>353-150</name>
+    <cmt>Stratum: 341, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6319" lon="-142.6527">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>331-167</name>
+    <cmt>Stratum: 341, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.62038" lon="-133.1488">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>446-56</name>
+    <cmt>Stratum: 350, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.97752" lon="-136.9502">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>400-132</name>
+    <cmt>Stratum: 350, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.04383" lon="-135.4636">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>418-89</name>
+    <cmt>Stratum: 351, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.23199" lon="-134.5529">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>429-70</name>
+    <cmt>Stratum: 351, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.89608" lon="-168.1734">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>22-14</name>
+    <cmt>Stratum: 410, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.13833" lon="-166.6039">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>41-20</name>
+    <cmt>Stratum: 410, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.78172" lon="-154.8843">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>183-83</name>
+    <cmt>Stratum: 420, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.57765" lon="-155.2147">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>179-78</name>
+    <cmt>Stratum: 420, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9132" lon="-148.0247">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>266-152</name>
+    <cmt>Stratum: 430, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.34137" lon="-152.5703">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>211-96</name>
+    <cmt>Stratum: 430, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.11214" lon="-141.661">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>343-156</name>
+    <cmt>Stratum: 440, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.91167" lon="-141.0928">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>350-152</name>
+    <cmt>Stratum: 440, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.91807" lon="-135.4584">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>418-86</name>
+    <cmt>Stratum: 450, Vessel: AKP</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3425" lon="-135.6422">
+    <time>2023-04-18T07:53:05.000000Z</time>
+    <name>416-96</name>
+    <cmt>Stratum: 450, Vessel: OEX</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>52</MxTimeZeroSymbol>
+      <T0Color>5</T0Color>
+    </extensions>
+  </wpt>
+</gpx>
