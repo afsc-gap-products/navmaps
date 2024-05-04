@@ -149,7 +149,7 @@ ebs_chart <- ggplot() +
                      breaks = ebs_layers$lon.breaks) +
   scale_y_continuous(limits = ebs_layers$plot.boundary$y + c(-5e4, 5e4),
                      breaks = ebs_layers$lat.breaks) +
-  scale_fill_manual(values = c("Pollock high (5)" = "grey80", "Pollock low (3)" = "white")) +
+  scale_fill_manual(values = c("Pollock high (5)" = "grey85", "Pollock low (3)" = "white")) +
   theme_bw() +
   theme(axis.title = element_blank(),
         legend.title = element_blank(),
