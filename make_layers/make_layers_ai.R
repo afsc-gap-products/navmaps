@@ -7,7 +7,7 @@ region <- "ai" # Options are sebs, nbs, ai, goa
 
 # 2. Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region, split.land.at.180 = FALSE)
-channel <- get_connected(schema = "AFSC_32")
+# channel <- get_connected(schema = "AFSC_32")
 
 # 3. Get data
 # get_gps_data(region = region, channel = channel)
@@ -64,27 +64,27 @@ for(ii in 1:length(software_types)) {
   # )
   
   # 7. Station allocation
-  allocation_df <- readxl::read_xlsx(here::here("assets", "data", "allocation", "ai_2024_station_allocation_320stn.xlsx")) |>
-    tidyr::drop_na(LONGITUDE, LATITUDE, VESSEL) |>
-    dplyr::mutate(VESSEL = factor(VESSEL)) |>
-    as.data.frame()
-  
-  allocation_df$LONGITUDE
-  allocation_df$LATITUDE
-  
-  make_station_allocation(
-    allocation_df = allocation_df,
-    lon_col = "LONGITUDE",
-    lat_col = "LATITUDE",
-    region = region,
-    station_col = "STATIONID",
-    stratum_col = "STRATUM",
-    vessel_col = "VESSEL",
-    extra_cols = "STATION_TYPE",
-    vessel_colors = c("176" = "yellow", "148" = "cyan"),
-    vessel_symbols = c("176" = "triangle1", "148" = "square1"),
-    software_format = SOFTWARE
-  )
+  # allocation_df <- readxl::read_xlsx(here::here("assets", "data", "allocation", "ai_2024_station_allocation_320stn.xlsx")) |>
+  #   tidyr::drop_na(LONGITUDE, LATITUDE, VESSEL) |>
+  #   dplyr::mutate(VESSEL = factor(VESSEL)) |>
+  #   as.data.frame()
+  # 
+  # allocation_df$LONGITUDE
+  # allocation_df$LATITUDE
+  # 
+  # make_station_allocation(
+  #   allocation_df = allocation_df,
+  #   lon_col = "LONGITUDE",
+  #   lat_col = "LATITUDE",
+  #   region = region,
+  #   station_col = "STATIONID",
+  #   stratum_col = "STRATUM",
+  #   vessel_col = "VESSEL",
+  #   extra_cols = "STATION_TYPE",
+  #   vessel_colors = c("176" = "yellow", "148" = "cyan"),
+  #   vessel_symbols = c("176" = "triangle1", "148" = "square1"),
+  #   software_format = SOFTWARE
+  # )
   
   # 8. Survey stratum layer
   # strata <- map_layers$survey.strata
@@ -199,23 +199,67 @@ for(ii in 1:length(software_types)) {
   # 14. Crab pot storage (requires 32-bit R to open .mdb)
   
   # Add an entry for every crab pot storage data set
-  # crabpots <- dplyr::bind_rows(
-  #   globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_AKTrojan_2022.mdb"),
-  #               grouping_col = "DateTime"),
-  #   globe_to_sf(dsn = here::here("data", "crabpots", "crabpots_EarlyDawnEast_2022.mdb"),
-  #               grouping_col = NULL)
-  # )
-  # 
-  # crabpots$description <- "Crab pot storage"
-  # crabpots$color <- navmaps_pal(values = "darkorange", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
-  # 
-  # sf_to_nav_file(x = crabpots,
-  #                file = here::here("output", region, "navigation", paste0("crabpots_2022.", FILE_TYPE_LINESTRING)),
-  #                name_col = "id",
-  #                description_col = "description",
-  #                color_col = "color",
-  #                software_format = SOFTWARE)
+
+  crabpots <- sf::st_read(dsn = here::here("assets", "data", "crabpots", "2024", "edited_ED_crabpot_lines_2024.shp")) |>
+    dplyr::bind_rows(
+    sf::st_read(dsn = here::here("assets", "data", "crabpots", "2024", "edited_ai_AT_crabpot_lines_2024_full.shp")) |> 
+      dplyr::mutate(id = as.character(id))  |>
+      sf::st_cast(to = "MULTILINESTRING") |>
+      sf::st_cast(to = "LINESTRING")) |>
+    dplyr::bind_rows(sf::st_read(dsn = here::here("assets", "data", "crabpots", "2024", "edited_EN_crabpot_lines_2024.shp"))
+          ) |>
+    dplyr::bind_rows(sf::st_read(dsn = here::here("assets", "data", "crabpots", "2024", "edited_A1_crabpot_lines_2024.shp"))
+                     ) |>
+    dplyr::select(-length, -INDEX) |>
+    sf::st_transform(crs = "EPSG:3338")
+  
+  crabpots$description <- "Crab pot storage"
+  crabpots$color <- navmaps::navmaps_pal(values = "darkorange", 
+                                         software_format = SOFTWARE, 
+                                         file_type = FILE_TYPE_LINESTRING)
+  
+  sf::st_write(crabpots, here::here("output", region, "shapefiles", "crabpot_lines_2024.shp"),
+               append = FALSE)
+
+  sf_to_nav_file(x = crabpots,
+                 file = here::here("output", region, "navigation", SOFTWARE,  paste0("crabpot_lines_2024.", FILE_TYPE_LINESTRING)),
+                 name_col = "vessel",
+                 description_col = "description",
+                 color_col = "color",
+                 software_format = SOFTWARE)
+  
+  crabpot_marks <- dplyr::bind_rows(
+    lwgeom::st_startpoint(crabpots) |>
+      sf::st_as_sf() |>
+      dplyr::rename(geometry = x) |>
+      dplyr::mutate(vessel = crabpots$vessel),
+    lwgeom::st_endpoint(crabpots) |>
+      sf::st_as_sf() |>
+      dplyr::rename(geometry = x) |>
+      dplyr::mutate(vessel = crabpots$vessel)
+  ) |>
+    dplyr::mutate(color = navmaps::navmaps_pal(values = "darkorange", 
+                                               software_format = SOFTWARE, 
+                                               file_type = FILE_TYPE_POINT), 
+                  shape = navmaps::navmaps_sym_pal("asterisk", 
+                                                   software_format = SOFTWARE, 
+                                                   file_type = FILE_TYPE_POINT), 
+                  description = "Crab pot storage")
+  
+  sf_to_nav_file(x = crabpot_marks,
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("crabpot_marks_2024.", FILE_TYPE_POINT)),
+                 name_col = "vessel",
+                 description_col = "description",
+                 shape_col = "shape",
+                 color_col = "color",
+                 software_format = SOFTWARE)
+  
+  sf::st_transform(crabpot_marks, crs = "EPSG:3338") |>
+    sf::st_write(here::here("output", region, "shapefiles", "crabpot_marks_2024.shp"),
+                 append = FALSE)
+  
 
   # 15. Special projects
   
 }
+
