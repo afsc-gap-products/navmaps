@@ -64,18 +64,18 @@ ebs_layers$survey.grid$otoliths <- ifelse(ebs_layers$survey.grid$STATIONID %in% 
 ebs_centroid <- sf::st_centroid(ebs_layers$survey.grid) |>
   dplyr::mutate(station_label = "Index Station")
 
-outside_grid <- sf::st_read(system.file("/extdata/bs_grid.shp", package = "akgfmaps")) |>
-  dplyr::filter((!STATIONID %in% c(ebs_layers$survey.grid$STATIONID, "Z-04")))
-
-outside_grid$touches <- apply(
-  X = sf::st_is_within_distance(outside_grid, 
-                                ebs_layers$survey.grid, 
-                                dist = 1000, 
-                                sparse = FALSE), 
-  MARGIN = 1, 
-  FUN = any)
-
-outside_grid <- dplyr::filter(outside_grid, touches)
+outside_grid <- sf::st_read(system.file("/extdata/bs_grid.shp", package = "akgfmaps")) # |>
+#   dplyr::filter((!STATIONID %in% c(ebs_layers$survey.grid$STATIONID, "Z-04")))
+# 
+# outside_grid$touches <- apply(
+#   X = sf::st_is_within_distance(outside_grid, 
+#                                 ebs_layers$survey.grid, 
+#                                 dist = 1000, 
+#                                 sparse = FALSE), 
+#   MARGIN = 1, 
+#   FUN = any)
+# 
+# outside_grid <- dplyr::filter(outside_grid, touches)
 
 col_stations <- c("W-28", "W-27", "W-26", "W-25", "T-24", "T-23", "T-22", "R-21", "R-20", "R-19", "R-18", "R-01", 
                   "R-02", "R-03", "O-05", "O-06", "O-07", "N-08", "M-09", "L-10", "L-11", "L-12", "L-13", "L-14", 
@@ -116,7 +116,7 @@ ebs_chart <- ggplot() +
           mapping = aes(fill = otoliths)) +
   geom_sf(data = ebs_layers$survey.strata, 
           fill = NA,
-          color = "grey30") +
+          color = "grey50") +
   geom_sf(data = col_grid, fill = NA) +
   geom_sf(data = row_grid, fill = NA) +
   geom_sf(data = ebs_layers$akland, 
@@ -144,7 +144,7 @@ ebs_chart <- ggplot() +
                   color = "black", 
                   bg.color = "white",
                   fontface = "bold",
-                  size = rel(3.5*chart_scale)) +
+                  size = rel(4*chart_scale)) +
   scale_x_continuous(limits = ebs_layers$plot.boundary$x + c(-5e4, 5e4),
                      breaks = ebs_layers$lon.breaks) +
   scale_y_continuous(limits = ebs_layers$plot.boundary$y + c(-5e4, 5e4),
