@@ -1,3 +1,13 @@
+navmaps 1.1.10 (June 9, 2024)
+----------------------------------------------------------------
+
+IMPROVEMENTS
+
+- sf_to_globe_linestring(), sf_to_globe_points(), and 
+  sf_to_globe_track() automatically convert inputs to WGS84 
+  prior to writing to outputs to avoid unexpected behaviors.
+
+
 navmaps 1.1.9 (April 29, 2024)
 ----------------------------------------------------------------
 

@@ -27,6 +27,8 @@ sf_to_globe_points <- function(x, file, color_col, shape_col, time_col = NULL, n
     .check_driver()
   }
   
+  x <- sf::st_transform(x, crs = "WGS84")
+  
   # Rename columns and convert lat/lon to radians to match Globe input format
   x <- cbind(x, as.data.frame(sf::st_coordinates(x))) |>
     dplyr::rename(Longitude = X, 

@@ -210,14 +210,14 @@ for(ii in 1:length(software_types)) {
           ) |>
     dplyr::bind_rows(sf::st_read(dsn = here::here("assets", "data", "crabpots", "2024", "edited_A1_crabpot_lines_2024.shp"))
                      ) |>
-    dplyr::select(-length, -INDEX) |>
-    sf::st_transform(crs = "EPSG:3338")
+    dplyr::select(-length, -INDEX)
   
   crabpots$description <- "Crab pot storage"
   crabpots$color <- navmaps::navmaps_pal(values = "darkorange", 
                                          software_format = SOFTWARE, 
                                          file_type = FILE_TYPE_LINESTRING)
   
+  sf::st_transform(crabpots, crs = "EPSG:3338") |>
   sf::st_write(crabpots, here::here("output", region, "shapefiles", "crabpot_lines_2024.shp"),
                append = FALSE)
 
