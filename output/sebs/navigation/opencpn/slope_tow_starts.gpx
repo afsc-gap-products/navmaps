@@ -1,0 +1,1287 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="55.45632" lon="-168.19501">
+    <time>2002-06-09T00:00:00.000000Z</time>
+    <name>2002/57/15</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.28886" lon="-167.8972">
+    <time>2002-06-09T00:00:00.000000Z</time>
+    <name>2002/57/18</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.03179" lon="-167.33681">
+    <time>2002-06-10T00:00:00.000000Z</time>
+    <name>2002/57/21</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.18784" lon="-177.9353">
+    <time>2002-06-25T00:00:00.000000Z</time>
+    <name>2002/57/66</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.36537" lon="-177.6026">
+    <time>2002-06-25T00:00:00.000000Z</time>
+    <name>2002/57/67</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.50977" lon="-177.8262">
+    <time>2002-06-25T00:00:00.000000Z</time>
+    <name>2002/57/69</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.52314" lon="-178.0787">
+    <time>2002-06-26T00:00:00.000000Z</time>
+    <name>2002/57/71</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.48509" lon="-178.2709">
+    <time>2002-06-26T00:00:00.000000Z</time>
+    <name>2002/57/72</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.79431" lon="-178.6752">
+    <time>2002-06-27T00:00:00.000000Z</time>
+    <name>2002/57/75</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.94621" lon="-178.9305">
+    <time>2002-06-28T00:00:00.000000Z</time>
+    <name>2002/57/78</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.59889" lon="-178.8197">
+    <time>2002-06-29T00:00:00.000000Z</time>
+    <name>2002/57/84</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.38066" lon="-178.6524">
+    <time>2002-06-29T00:00:00.000000Z</time>
+    <name>2002/57/85</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.20232" lon="-166.24451">
+    <time>2002-07-17T00:00:00.000000Z</time>
+    <name>2002/57/124</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.81663" lon="-167.12289">
+    <time>2002-07-19T00:00:00.000000Z</time>
+    <name>2002/57/125</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.95425" lon="-167.17149">
+    <time>2002-07-19T00:00:00.000000Z</time>
+    <name>2002/57/126</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.05101" lon="-167.4409">
+    <time>2002-07-19T00:00:00.000000Z</time>
+    <name>2002/57/127</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.64301" lon="-166.73511">
+    <time>2002-07-21T00:00:00.000000Z</time>
+    <name>2002/57/133</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.68995" lon="-166.3755">
+    <time>2002-07-22T00:00:00.000000Z</time>
+    <name>2002/57/135</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73737" lon="-167.0047">
+    <time>2002-07-22T00:00:00.000000Z</time>
+    <name>2002/57/136</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.82401" lon="-166.8398">
+    <time>2002-07-22T00:00:00.000000Z</time>
+    <name>2002/57/137</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.8679" lon="-166.8195">
+    <time>2002-07-22T00:00:00.000000Z</time>
+    <name>2002/57/138</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.81826" lon="-166.7124">
+    <time>2002-07-22T00:00:00.000000Z</time>
+    <name>2002/57/139</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.80393" lon="-166.49339">
+    <time>2002-07-23T00:00:00.000000Z</time>
+    <name>2002/57/140</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.76426" lon="-165.86861">
+    <time>2002-07-23T00:00:00.000000Z</time>
+    <name>2002/57/142</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.67781" lon="-165.91071">
+    <time>2002-07-23T00:00:00.000000Z</time>
+    <name>2002/57/143</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.34093" lon="-165.8846">
+    <time>2002-07-25T00:00:00.000000Z</time>
+    <name>2002/57/149</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.51341" lon="-165.63091">
+    <time>2004-06-06T00:00:00.000000Z</time>
+    <name>2004/134/1</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.61066" lon="-165.69009">
+    <time>2004-06-07T00:00:00.000000Z</time>
+    <name>2004/134/2</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.68975" lon="-165.77969">
+    <time>2004-06-07T00:00:00.000000Z</time>
+    <name>2004/134/4</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.71818" lon="-165.5506">
+    <time>2004-06-07T00:00:00.000000Z</time>
+    <name>2004/134/5</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.74322" lon="-165.408">
+    <time>2004-06-07T00:00:00.000000Z</time>
+    <name>2004/134/6</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.67689" lon="-165.9133">
+    <time>2004-06-08T00:00:00.000000Z</time>
+    <name>2004/134/10</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.68628" lon="-166.3597">
+    <time>2004-06-09T00:00:00.000000Z</time>
+    <name>2004/134/11</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.79754" lon="-166.44279">
+    <time>2004-06-12T00:00:00.000000Z</time>
+    <name>2004/134/20</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73371" lon="-166.84039">
+    <time>2004-06-12T00:00:00.000000Z</time>
+    <name>2004/134/22</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.72525" lon="-166.98981">
+    <time>2004-06-12T00:00:00.000000Z</time>
+    <name>2004/134/23</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.94371" lon="-167.149">
+    <time>2004-06-16T00:00:00.000000Z</time>
+    <name>2004/134/37</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.0349" lon="-167.34509">
+    <time>2004-06-16T00:00:00.000000Z</time>
+    <name>2004/134/42</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.17145" lon="-167.7912">
+    <time>2004-06-17T00:00:00.000000Z</time>
+    <name>2004/134/43</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.40062" lon="-168.0256">
+    <time>2004-06-17T00:00:00.000000Z</time>
+    <name>2004/134/44</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.18926" lon="-177.9424">
+    <time>2004-07-07T00:00:00.000000Z</time>
+    <name>2004/134/107</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.63767" lon="-178.4613">
+    <time>2004-07-08T00:00:00.000000Z</time>
+    <name>2004/134/111</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.79277" lon="-178.6739">
+    <time>2004-07-08T00:00:00.000000Z</time>
+    <name>2004/134/114</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.59806" lon="-178.8204">
+    <time>2004-07-10T00:00:00.000000Z</time>
+    <name>2004/134/121</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.49509" lon="-178.842">
+    <time>2004-07-10T00:00:00.000000Z</time>
+    <name>2004/134/122</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.40621" lon="-178.6824">
+    <time>2004-07-10T00:00:00.000000Z</time>
+    <name>2004/134/123</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.24598" lon="-178.49409">
+    <time>2004-07-10T00:00:00.000000Z</time>
+    <name>2004/134/124</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.17766" lon="-178.86391">
+    <time>2004-07-10T00:00:00.000000Z</time>
+    <name>2004/134/125</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.09016" lon="-179.0674">
+    <time>2004-07-11T00:00:00.000000Z</time>
+    <name>2004/134/127</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.94329" lon="-178.9265">
+    <time>2004-07-12T00:00:00.000000Z</time>
+    <name>2004/134/132</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.85084" lon="-178.7887">
+    <time>2004-07-12T00:00:00.000000Z</time>
+    <name>2004/134/134</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.51374" lon="-178.157">
+    <time>2004-07-14T00:00:00.000000Z</time>
+    <name>2004/134/139</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.64364" lon="-177.8754">
+    <time>2004-07-14T00:00:00.000000Z</time>
+    <name>2004/134/140</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.50753" lon="-177.84689">
+    <time>2004-07-14T00:00:00.000000Z</time>
+    <name>2004/134/141</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.39652" lon="-177.60519">
+    <time>2004-07-14T00:00:00.000000Z</time>
+    <name>2004/134/143</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.57114" lon="-168.4711">
+    <time>2004-07-28T00:00:00.000000Z</time>
+    <name>2004/134/185</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.4595" lon="-168.2023">
+    <time>2004-07-28T00:00:00.000000Z</time>
+    <name>2004/134/186</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.30472" lon="-167.9303">
+    <time>2004-07-29T00:00:00.000000Z</time>
+    <name>2004/134/189</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.03708" lon="-167.4097">
+    <time>2004-07-30T00:00:00.000000Z</time>
+    <name>2004/134/196</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.1243" lon="-167.5251">
+    <time>2004-07-30T00:00:00.000000Z</time>
+    <name>2004/134/197</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.81839" lon="-167.1259">
+    <time>2004-08-04T00:00:00.000000Z</time>
+    <name>2004/134/216</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.88134" lon="-166.9675">
+    <time>2004-08-04T00:00:00.000000Z</time>
+    <name>2004/134/217</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.86826" lon="-166.82201">
+    <time>2004-08-04T00:00:00.000000Z</time>
+    <name>2004/134/218</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.82407" lon="-166.8405">
+    <time>2004-08-04T00:00:00.000000Z</time>
+    <name>2004/134/219</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.64337" lon="-166.74339">
+    <time>2004-08-04T00:00:00.000000Z</time>
+    <name>2004/134/220</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.67021" lon="-166.1181">
+    <time>2004-08-06T00:00:00.000000Z</time>
+    <name>2004/134/229</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.7333" lon="-166.1981">
+    <time>2004-08-07T00:00:00.000000Z</time>
+    <name>2004/134/230</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.77468" lon="-166.31731">
+    <time>2004-08-07T00:00:00.000000Z</time>
+    <name>2004/134/231</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.76067" lon="-166.0152">
+    <time>2004-08-07T00:00:00.000000Z</time>
+    <name>2004/134/232</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.76721" lon="-165.9174">
+    <time>2004-08-07T00:00:00.000000Z</time>
+    <name>2004/134/233</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.75563" lon="-165.7657">
+    <time>2004-08-07T00:00:00.000000Z</time>
+    <name>2004/134/234</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.72081" lon="-165.7149">
+    <time>2004-08-07T00:00:00.000000Z</time>
+    <name>2004/134/235</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.58627" lon="-165.7061">
+    <time>2004-08-08T00:00:00.000000Z</time>
+    <name>2004/134/239</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.63544" lon="-165.6394">
+    <time>2004-08-08T00:00:00.000000Z</time>
+    <name>2004/134/240</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.6925" lon="-165.73511">
+    <time>2002-07-23T00:00:00.000000Z</time>
+    <name>2002/57/141</name>
+    <desc>5: Unspecified gear performance problem</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="54.71655" lon="-165.53059">
+    <time>2008-06-06T00:00:00.000000Z</time>
+    <name>2008/94/1</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.75298" lon="-165.80949">
+    <time>2008-06-06T00:00:00.000000Z</time>
+    <name>2008/94/2</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.7219" lon="-165.7323">
+    <time>2008-06-06T00:00:00.000000Z</time>
+    <name>2008/94/3</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.69229" lon="-165.77901">
+    <time>2008-06-07T00:00:00.000000Z</time>
+    <name>2008/94/4</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73512" lon="-166.17999">
+    <time>2008-06-08T00:00:00.000000Z</time>
+    <name>2008/94/10</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.79546" lon="-166.4527">
+    <time>2008-06-08T00:00:00.000000Z</time>
+    <name>2008/94/11</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.648" lon="-166.76311">
+    <time>2008-06-09T00:00:00.000000Z</time>
+    <name>2008/94/15</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.72726" lon="-166.989">
+    <time>2008-06-13T00:00:00.000000Z</time>
+    <name>2008/94/30</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.94219" lon="-167.1357">
+    <time>2008-06-13T00:00:00.000000Z</time>
+    <name>2008/94/31</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.13428" lon="-167.5473">
+    <time>2008-06-13T00:00:00.000000Z</time>
+    <name>2008/94/33</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.39899" lon="-168.0161">
+    <time>2008-06-14T00:00:00.000000Z</time>
+    <name>2008/94/38</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.47115" lon="-168.2348">
+    <time>2008-06-14T00:00:00.000000Z</time>
+    <name>2008/94/39</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.55582" lon="-168.4315">
+    <time>2008-06-24T00:00:00.000000Z</time>
+    <name>2008/94/62</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.52314" lon="-178.07851">
+    <time>2008-07-01T00:00:00.000000Z</time>
+    <name>2008/94/88</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.19111" lon="-177.94859">
+    <time>2008-07-01T00:00:00.000000Z</time>
+    <name>2008/94/90</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.29689" lon="-177.6897">
+    <time>2008-07-01T00:00:00.000000Z</time>
+    <name>2008/94/91</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.49807" lon="-178.8443">
+    <time>2008-07-03T00:00:00.000000Z</time>
+    <name>2008/94/98</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.60577" lon="-178.82159">
+    <time>2008-07-03T00:00:00.000000Z</time>
+    <name>2008/94/99</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.31988" lon="-178.6835">
+    <time>2008-07-03T00:00:00.000000Z</time>
+    <name>2008/94/101</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.2491" lon="-178.4951">
+    <time>2008-07-03T00:00:00.000000Z</time>
+    <name>2008/94/102</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.38969" lon="-178.66521">
+    <time>2008-07-03T00:00:00.000000Z</time>
+    <name>2008/94/103</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.18257" lon="-178.8486">
+    <time>2008-07-05T00:00:00.000000Z</time>
+    <name>2008/94/108</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.08575" lon="-179.0174">
+    <time>2008-07-05T00:00:00.000000Z</time>
+    <name>2008/94/109</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.85213" lon="-178.79041">
+    <time>2008-07-06T00:00:00.000000Z</time>
+    <name>2008/94/113</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.63857" lon="-178.4622">
+    <time>2008-07-07T00:00:00.000000Z</time>
+    <name>2008/94/118</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.48424" lon="-178.2701">
+    <time>2008-07-07T00:00:00.000000Z</time>
+    <name>2008/94/120</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.30184" lon="-167.9248">
+    <time>2008-07-31T00:00:00.000000Z</time>
+    <name>2008/94/183</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.19332" lon="-167.82021">
+    <time>2008-07-31T00:00:00.000000Z</time>
+    <name>2008/94/185</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.04296" lon="-167.5392">
+    <time>2008-08-01T00:00:00.000000Z</time>
+    <name>2008/94/188</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.0349" lon="-167.35651">
+    <time>2008-08-01T00:00:00.000000Z</time>
+    <name>2008/94/189</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.82882" lon="-167.14391">
+    <time>2008-08-02T00:00:00.000000Z</time>
+    <name>2008/94/193</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.82299" lon="-166.8373">
+    <time>2008-08-03T00:00:00.000000Z</time>
+    <name>2008/94/194</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.7749" lon="-166.32069">
+    <time>2008-08-03T00:00:00.000000Z</time>
+    <name>2008/94/197</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.6178" lon="-165.6418">
+    <time>2008-08-04T00:00:00.000000Z</time>
+    <name>2008/94/199</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.6787" lon="-165.8783">
+    <time>2008-08-04T00:00:00.000000Z</time>
+    <name>2008/94/200</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6534" lon="-177.84743">
+    <time>2010-06-06T00:00:00.000000Z</time>
+    <name>2010/94/13</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.52867" lon="-177.85475">
+    <time>2010-06-06T00:00:00.000000Z</time>
+    <name>2010/94/14</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.19055" lon="-177.94617">
+    <time>2010-06-07T00:00:00.000000Z</time>
+    <name>2010/94/18</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.26228" lon="-178.49468">
+    <time>2010-06-08T00:00:00.000000Z</time>
+    <name>2010/94/23</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.50263" lon="-178.85597">
+    <time>2010-06-08T00:00:00.000000Z</time>
+    <name>2010/94/24</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.60875" lon="-178.8252">
+    <time>2010-06-08T00:00:00.000000Z</time>
+    <name>2010/94/25</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.10278" lon="-179.05655">
+    <time>2010-06-10T00:00:00.000000Z</time>
+    <name>2010/94/32</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.86932" lon="-178.8157">
+    <time>2010-06-10T00:00:00.000000Z</time>
+    <name>2010/94/34</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.80195" lon="-178.68562">
+    <time>2010-06-11T00:00:00.000000Z</time>
+    <name>2010/94/36</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.62662" lon="-178.4405">
+    <time>2010-06-12T00:00:00.000000Z</time>
+    <name>2010/94/40</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.50043" lon="-178.29215">
+    <time>2010-06-12T00:00:00.000000Z</time>
+    <name>2010/94/43</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.53132" lon="-178.25332">
+    <time>2010-06-12T00:00:00.000000Z</time>
+    <name>2010/94/44</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.39217" lon="-167.99772">
+    <time>2010-07-04T00:00:00.000000Z</time>
+    <name>2010/94/135</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.20958" lon="-167.64843">
+    <time>2010-07-05T00:00:00.000000Z</time>
+    <name>2010/94/137</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.19" lon="-167.81785">
+    <time>2010-07-05T00:00:00.000000Z</time>
+    <name>2010/94/140</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.05765" lon="-167.45113">
+    <time>2010-07-06T00:00:00.000000Z</time>
+    <name>2010/94/142</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.92483" lon="-167.34555">
+    <time>2010-07-07T00:00:00.000000Z</time>
+    <name>2010/94/148</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.82585" lon="-167.14757">
+    <time>2010-07-13T00:00:00.000000Z</time>
+    <name>2010/94/174</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.95407" lon="-167.18303">
+    <time>2010-07-13T00:00:00.000000Z</time>
+    <name>2010/94/175</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73788" lon="-166.84728">
+    <time>2010-07-14T00:00:00.000000Z</time>
+    <name>2010/94/178</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.88337" lon="-166.98167">
+    <time>2010-07-14T00:00:00.000000Z</time>
+    <name>2010/94/179</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.80985" lon="-166.65038">
+    <time>2010-07-14T00:00:00.000000Z</time>
+    <name>2010/94/180</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.6436" lon="-166.73152">
+    <time>2010-07-15T00:00:00.000000Z</time>
+    <name>2010/94/182</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.74018" lon="-166.58717">
+    <time>2010-07-15T00:00:00.000000Z</time>
+    <name>2010/94/183</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.79538" lon="-166.44425">
+    <time>2010-07-15T00:00:00.000000Z</time>
+    <name>2010/94/184</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.77367" lon="-166.2787">
+    <time>2010-07-15T00:00:00.000000Z</time>
+    <name>2010/94/185</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.7348" lon="-166.1726">
+    <time>2010-07-16T00:00:00.000000Z</time>
+    <name>2010/94/186</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.67092" lon="-166.09122">
+    <time>2010-07-16T00:00:00.000000Z</time>
+    <name>2010/94/187</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.76522" lon="-165.8654">
+    <time>2010-07-16T00:00:00.000000Z</time>
+    <name>2010/94/188</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.77623" lon="-165.55782">
+    <time>2010-07-16T00:00:00.000000Z</time>
+    <name>2010/94/191</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.70715" lon="-165.49793">
+    <time>2010-07-16T00:00:00.000000Z</time>
+    <name>2010/94/192</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.65058" lon="-165.64245">
+    <time>2010-07-17T00:00:00.000000Z</time>
+    <name>2010/94/193</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.78437" lon="-178.66084">
+    <time>2016-06-27T00:00:00.000000Z</time>
+    <name>2016/178/44</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.22931" lon="-178.50024">
+    <time>2016-06-29T00:00:00.000000Z</time>
+    <name>2016/178/54</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.37937" lon="-178.65654">
+    <time>2016-06-29T00:00:00.000000Z</time>
+    <name>2016/178/55</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.58248" lon="-178.81399">
+    <time>2016-06-30T00:00:00.000000Z</time>
+    <name>2016/178/56</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.64748" lon="-178.47237">
+    <time>2016-06-30T00:00:00.000000Z</time>
+    <name>2016/178/59</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.48338" lon="-178.26982">
+    <time>2016-07-01T00:00:00.000000Z</time>
+    <name>2016/178/62</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.54158" lon="-178.26719">
+    <time>2016-07-02T00:00:00.000000Z</time>
+    <name>2016/178/64</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.51372" lon="-178.15614">
+    <time>2016-07-02T00:00:00.000000Z</time>
+    <name>2016/178/66</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.50877" lon="-177.8334">
+    <time>2016-07-02T00:00:00.000000Z</time>
+    <name>2016/178/67</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.64435" lon="-177.87138">
+    <time>2016-07-02T00:00:00.000000Z</time>
+    <name>2016/178/68</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.43294" lon="-177.66346">
+    <time>2016-07-03T00:00:00.000000Z</time>
+    <name>2016/178/72</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.45713" lon="-168.19724">
+    <time>2016-07-22T00:00:00.000000Z</time>
+    <name>2016/178/133</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.40497" lon="-168.03556">
+    <time>2016-07-23T00:00:00.000000Z</time>
+    <name>2016/178/134</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.81669" lon="-167.1202">
+    <time>2016-07-24T00:00:00.000000Z</time>
+    <name>2016/178/142</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.94082" lon="-167.13558">
+    <time>2016-07-25T00:00:00.000000Z</time>
+    <name>2016/178/143</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73772" lon="-166.84844">
+    <time>2016-07-28T00:00:00.000000Z</time>
+    <name>2016/178/155</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.72349" lon="-165.39767">
+    <time>2016-07-29T00:00:00.000000Z</time>
+    <name>2016/178/162</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.72035" lon="-165.69072">
+    <time>2016-07-29T00:00:00.000000Z</time>
+    <name>2016/178/163</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.76216" lon="-165.86258">
+    <time>2016-07-29T00:00:00.000000Z</time>
+    <name>2016/178/164</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.67028" lon="-166.08589">
+    <time>2016-07-30T00:00:00.000000Z</time>
+    <name>2016/178/166</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73379" lon="-166.19586">
+    <time>2016-07-30T00:00:00.000000Z</time>
+    <name>2016/178/167</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.6872" lon="-166.36544">
+    <time>2016-07-30T00:00:00.000000Z</time>
+    <name>2016/178/168</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73554" lon="-166.56689">
+    <time>2016-07-31T00:00:00.000000Z</time>
+    <name>2016/178/169</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.04238" lon="-167.5333">
+    <time>2016-08-03T00:00:00.000000Z</time>
+    <name>2016/178/175</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.93757" lon="-167.37269">
+    <time>2016-08-03T00:00:00.000000Z</time>
+    <name>2016/178/176</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.76027" lon="-166.02028">
+    <time>2016-08-04T00:00:00.000000Z</time>
+    <name>2016/178/178</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.75574" lon="-165.76692">
+    <time>2016-08-04T00:00:00.000000Z</time>
+    <name>2016/178/179</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.63331" lon="-165.63851">
+    <time>2016-08-04T00:00:00.000000Z</time>
+    <name>2016/178/180</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.77494" lon="-165.54919">
+    <time>2012-06-08T00:00:00.000000Z</time>
+    <name>2012/94/1</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.74907" lon="-165.42688">
+    <time>2012-06-08T00:00:00.000000Z</time>
+    <name>2012/94/2</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.71713" lon="-165.54935">
+    <time>2012-06-08T00:00:00.000000Z</time>
+    <name>2012/94/3</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.63245" lon="-165.64072">
+    <time>2012-06-09T00:00:00.000000Z</time>
+    <name>2012/94/4</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.9253" lon="-167.34335">
+    <time>2012-06-11T00:00:00.000000Z</time>
+    <name>2012/94/13</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.52788" lon="-178.25208">
+    <time>2012-06-16T00:00:00.000000Z</time>
+    <name>2012/94/35</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.50305" lon="-178.30178">
+    <time>2012-06-16T00:00:00.000000Z</time>
+    <name>2012/94/36</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.52798" lon="-178.0648">
+    <time>2012-06-16T00:00:00.000000Z</time>
+    <name>2012/94/37</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.51275" lon="-177.78427">
+    <time>2012-06-16T00:00:00.000000Z</time>
+    <name>2012/94/38</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.29955" lon="-177.69013">
+    <time>2012-06-18T00:00:00.000000Z</time>
+    <name>2012/94/48</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.19" lon="-177.9422">
+    <time>2012-06-19T00:00:00.000000Z</time>
+    <name>2012/94/49</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.60923" lon="-178.82987">
+    <time>2012-06-20T00:00:00.000000Z</time>
+    <name>2012/94/52</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.50607" lon="-178.8626">
+    <time>2012-06-20T00:00:00.000000Z</time>
+    <name>2012/94/53</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.31417" lon="-178.67923">
+    <time>2012-06-22T00:00:00.000000Z</time>
+    <name>2012/94/60</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.18083" lon="-178.85553">
+    <time>2012-06-22T00:00:00.000000Z</time>
+    <name>2012/94/61</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.10113" lon="-179.0607">
+    <time>2012-06-22T00:00:00.000000Z</time>
+    <name>2012/94/63</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.95135" lon="-178.93342">
+    <time>2012-06-23T00:00:00.000000Z</time>
+    <name>2012/94/65</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.87167" lon="-178.82015">
+    <time>2012-06-23T00:00:00.000000Z</time>
+    <name>2012/94/67</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.80037" lon="-178.68437">
+    <time>2012-06-23T00:00:00.000000Z</time>
+    <name>2012/94/68</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.62265" lon="-178.43533">
+    <time>2012-06-24T00:00:00.000000Z</time>
+    <name>2012/94/71</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.57663" lon="-168.48733">
+    <time>2012-07-13T00:00:00.000000Z</time>
+    <name>2012/94/142</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.48143" lon="-168.26048">
+    <time>2012-07-14T00:00:00.000000Z</time>
+    <name>2012/94/143</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.39493" lon="-167.99998">
+    <time>2012-07-14T00:00:00.000000Z</time>
+    <name>2012/94/147</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.20178" lon="-167.83182">
+    <time>2012-07-15T00:00:00.000000Z</time>
+    <name>2012/94/149</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.68438" lon="-165.76423">
+    <time>2012-07-17T00:00:00.000000Z</time>
+    <name>2012/94/157</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.75942" lon="-166.00678">
+    <time>2012-07-18T00:00:00.000000Z</time>
+    <name>2012/94/158</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.67247" lon="-166.08735">
+    <time>2012-07-18T00:00:00.000000Z</time>
+    <name>2012/94/161</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.78985" lon="-166.44193">
+    <time>2012-07-18T00:00:00.000000Z</time>
+    <name>2012/94/163</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.64437" lon="-166.74622">
+    <time>2012-07-19T00:00:00.000000Z</time>
+    <name>2012/94/165</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.81105" lon="-166.659">
+    <time>2012-07-19T00:00:00.000000Z</time>
+    <name>2012/94/166</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.87062" lon="-166.9282">
+    <time>2012-07-19T00:00:00.000000Z</time>
+    <name>2012/94/167</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.94748" lon="-167.1587">
+    <time>2012-07-19T00:00:00.000000Z</time>
+    <name>2012/94/168</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.02885" lon="-167.34093">
+    <time>2012-07-20T00:00:00.000000Z</time>
+    <name>2012/94/169</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.13682" lon="-167.55865">
+    <time>2012-07-21T00:00:00.000000Z</time>
+    <name>2012/94/174</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.73135" lon="-166.98532">
+    <time>2012-07-24T00:00:00.000000Z</time>
+    <name>2012/94/188</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.72368" lon="-165.74005">
+    <time>2010-07-16T00:00:00.000000Z</time>
+    <name>2010/94/190</name>
+    <desc>1.1: Minor hang(s)</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="59.93416" lon="-178.91705">
+    <time>2016-06-28T00:00:00.000000Z</time>
+    <name>2016/178/47</name>
+    <desc>1.1: Minor hang(s)</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="54.71782" lon="-165.66777">
+    <time>2010-07-16T00:00:00.000000Z</time>
+    <name>2010/94/189</name>
+    <desc>-3.13: Alaskan crab pot</desc>
+    <sym>Symbol-X-Large-Red</sym>
+  </wpt>
+  <wpt lat="54.6838" lon="-166.33881">
+    <time>2008-06-08T00:00:00.000000Z</time>
+    <name>2008/94/12</name>
+    <desc>4: Caught unspecified object</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="59.77732" lon="-178.6521">
+    <time>2008-07-06T00:00:00.000000Z</time>
+    <name>2008/94/115</name>
+    <desc>5: Unspecified gear performance problem</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="54.73468" lon="-166.17778">
+    <time>2012-07-18T00:00:00.000000Z</time>
+    <name>2012/94/162</name>
+    <desc>5: Unspecified gear performance problem</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="54.76186" lon="-165.987">
+    <time>2008-06-08T00:00:00.000000Z</time>
+    <name>2008/94/9</name>
+    <desc>6: Unspecified problems</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="60.09017" lon="-179.0703">
+    <time>2008-07-05T00:00:00.000000Z</time>
+    <name>2008/94/110</name>
+    <desc>6: Unspecified problems</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="54.74332" lon="-165.41341">
+    <time>2008-08-04T00:00:00.000000Z</time>
+    <name>2008/94/198</name>
+    <desc>6.12: Depth range of tow exceeds limits of stratum</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+</gpx>

@@ -2,7 +2,7 @@
 % Please edit documentation in R/convert_tz_coords.R
 \name{convert_tz_coords}
 \alias{convert_tz_coords}
-\title{Transform Timezero coordinates into compatible coordinates.}
+\title{Transform TimeZero coordinates to WGS84}
 \usage{
 convert_tz_coords(x)
 }
@@ -13,5 +13,5 @@ convert_tz_coords(x)
 A data frame with transformed "X" and "Y" coordinates
 }
 \description{
-This function converts the "X" and "Y" columns from the .tzdb database, converts to meters, transforms the coordinates from a coordinate reference system to a geographical coordinate system and replaces transformed "X" and "Y" back into data frame
+This function converts the X and Y coordinates from a .tzdb database to WGS84 coordinates.
 }

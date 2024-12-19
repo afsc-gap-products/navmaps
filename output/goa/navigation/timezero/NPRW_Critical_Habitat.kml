@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>NPRW Critical Habitat</name>
+      <description>NPRW Critical Habitat</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-163.000000005341, 58.0000000042989
+        -161.750000001769, 56.5000000014493
+        -166.000000000159, 55.0000000005586
+        -168.000000000142, 56.0000000006229
+        -168.000000000689, 58.0000000006975
+        -167.027618727561, 58.0041509688408
+        -165.994108882634, 58.0006174430545
+        -165.003062993603, 58.008179076068
+        -163.000000005341, 58.0000000042989
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>NPRW Critical Habitat</name>
+      <description>NPRW Critical Habitat</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-153.000000000902, 56.7500000010719
+        -153.000000000431, 57.0500000012359
+        -151.499999997701, 57.3000000045021
+        -151.500000003589, 57.0000000021471
+        -153.000000000902, 56.7500000010719
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+  </Document>
+</kml>

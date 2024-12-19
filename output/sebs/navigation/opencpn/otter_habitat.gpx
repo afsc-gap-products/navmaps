@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+<trk>
+  <name>Otter Habitat</name>
+  <desc>4a</desc>
+  <time>2024-04-11T15:01:33.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.4304352772145" lon="-163.181834798278"></trkpt>
+    <trkpt lat="55.4304737858685" lon="-163.181903748036"></trkpt>
+    <trkpt lat="55.430429140816" lon="-163.181912438341"></trkpt>
+    <trkpt lat="55.4304158136759" lon="-163.181889546529"></trkpt>
+    <trkpt lat="55.4304352772145" lon="-163.181834798278"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Otter Habitat</name>
+  <desc>4b</desc>
+  <time>2024-04-11T15:01:33.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.1786819337974" lon="-162.934751265449"></trkpt>
+    <trkpt lat="55.1789147649318" lon="-162.934672102588"></trkpt>
+    <trkpt lat="55.1791336250392" lon="-162.934693057731"></trkpt>
+    <trkpt lat="55.1796318826854" lon="-162.935538232383"></trkpt>
+    <trkpt lat="55.1796085994624" lon="-162.936334513445"></trkpt>
+    <trkpt lat="55.1793198898104" lon="-162.936409020067"></trkpt>
+    <trkpt lat="55.1789147643403" lon="-162.936572000392"></trkpt>
+    <trkpt lat="55.1784095218514" lon="-162.936227411385"></trkpt>
+    <trkpt lat="55.1783094045525" lon="-162.935717511718"></trkpt>
+    <trkpt lat="55.178335016317" lon="-162.934918903915"></trkpt>
+    <trkpt lat="55.1786819337974" lon="-162.934751265449"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Otter Habitat</name>
+  <desc>4c</desc>
+  <time>2024-04-11T15:01:33.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.9906601791218" lon="-160.544635271436"></trkpt>
+    <trkpt lat="55.9907742670757" lon="-160.544323279281"></trkpt>
+    <trkpt lat="55.9908301454349" lon="-160.543988003293"></trkpt>
+    <trkpt lat="55.9907533115828" lon="-160.543550281229"></trkpt>
+    <trkpt lat="55.9907672820655" lon="-160.543240617417"></trkpt>
+    <trkpt lat="55.9907649527811" lon="-160.54277728361"></trkpt>
+    <trkpt lat="55.990834801951" lon="-160.542260399647"></trkpt>
+    <trkpt lat="55.990918620769" lon="-160.541794738774"></trkpt>
+    <trkpt lat="55.9910327079669" lon="-160.541508356949"></trkpt>
+    <trkpt lat="55.9911747348485" lon="-160.541247586871"></trkpt>
+    <trkpt lat="55.9913190895158" lon="-160.541091590126"></trkpt>
+    <trkpt lat="55.9914355047871" lon="-160.541242929954"></trkpt>
+    <trkpt lat="55.9915100108537" lon="-160.541473431898"></trkpt>
+    <trkpt lat="55.9915542490419" lon="-160.5418087085"></trkpt>
+    <trkpt lat="55.9916287548744" lon="-160.542272040857"></trkpt>
+    <trkpt lat="55.991747498128" lon="-160.542656212358"></trkpt>
+    <trkpt lat="55.9918662416923" lon="-160.543119544346"></trkpt>
+    <trkpt lat="55.9920408649357" lon="-160.543424553404"></trkpt>
+    <trkpt lat="55.9922015192175" lon="-160.543680666296"></trkpt>
+    <trkpt lat="55.992331902623" lon="-160.543780784193"></trkpt>
+    <trkpt lat="55.9924925558668" lon="-160.543932123488"></trkpt>
+    <trkpt lat="55.9926532101017" lon="-160.544239460227"></trkpt>
+    <trkpt lat="55.9927556548085" lon="-160.54475401584"></trkpt>
+    <trkpt lat="55.9928022207569" lon="-160.545063680318"></trkpt>
+    <trkpt lat="55.9927742810634" lon="-160.545424568052"></trkpt>
+    <trkpt lat="55.9927905797629" lon="-160.545862288894"></trkpt>
+    <trkpt lat="55.9928231761994" lon="-160.546197566486"></trkpt>
+    <trkpt lat="55.9928115351235" lon="-160.546635288167"></trkpt>
+    <trkpt lat="55.9928115339699" lon="-160.546791283527"></trkpt>
+    <trkpt lat="55.9927556546184" lon="-160.547024114428"></trkpt>
+    <trkpt lat="55.9925530918833" lon="-160.54705205392"></trkpt>
+    <trkpt lat="55.9922760238906" lon="-160.546903043128"></trkpt>
+    <trkpt lat="55.9920874308725" lon="-160.546674867952"></trkpt>
+    <trkpt lat="55.9919570458779" lon="-160.54644436556"></trkpt>
+    <trkpt lat="55.9918965099956" lon="-160.546290698074"></trkpt>
+    <trkpt lat="55.9917079181525" lon="-160.545855304734"></trkpt>
+    <trkpt lat="55.9915169958408" lon="-160.545601519004"></trkpt>
+    <trkpt lat="55.991258553452" lon="-160.545631787176"></trkpt>
+    <trkpt lat="55.9910257241443" lon="-160.54571327867"></trkpt>
+    <trkpt lat="55.990767282095" lon="-160.545664383589"></trkpt>
+    <trkpt lat="55.9906205977646" lon="-160.545384986399"></trkpt>
+    <trkpt lat="55.9906042995712" lon="-160.545049709992"></trkpt>
+    <trkpt lat="55.9906601791218" lon="-160.544635271436"></trkpt>  </trkseg>
+</trk>
+</gpx>

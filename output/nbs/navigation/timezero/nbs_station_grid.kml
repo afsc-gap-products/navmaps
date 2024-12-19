@@ -1,0 +1,3234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>FF-18</name>
+      <description>FF-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.5788641, 65.2644195
+        -169.5674133, 65.1666641
+        -168.7937164, 65.1666641
+        -168.8265381, 65.5
+        -168.9910708, 65.5003336
+        -169.5788641, 65.2644195
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>FF-01</name>
+      <description>FF-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.7192396, 65.5002378
+        -168.8265381, 65.5
+        -168.7937164, 65.1666641
+        -168.0199585, 65.1666641
+        -168.0460345, 65.497689
+        -168.7192396, 65.5002378
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>FF-02</name>
+      <description>FF-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.9541088, 65.4971093
+        -168.0460345, 65.497689
+        -168.0199585, 65.1666641
+        -167.2462006, 65.1666641
+        -167.258105, 65.3690474
+        -167.9541088, 65.4971093
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>EE-19</name>
+      <description>EE-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.3126087, 64.9606022
+        -170.2951965, 64.8333359
+        -169.5280151, 64.8333359
+        -169.5674133, 65.1666641
+        -169.8166811, 65.167099
+        -170.3126087, 64.9606022
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>EE-18</name>
+      <description>EE-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.5674133, 65.1666641
+        -169.5280151, 64.8333359
+        -168.7608948, 64.8333359
+        -168.7937164, 65.1666641
+        -169.5674133, 65.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>EE-01</name>
+      <description>EE-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.7937164, 65.1666641
+        -168.7608948, 64.8333359
+        -167.9936981, 64.8333359
+        -168.0199585, 65.1666641
+        -168.7937164, 65.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>EE-01</name>
+      <description>EE-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.0433285, 64.9923335
+        -168.0267869, 64.9938344
+        -168.0265369, 64.9937656
+        -168.0231152, 64.9867535
+        -168.0195698, 64.9797528
+        -168.0158991, 64.9727636
+        -168.0124752, 64.9657522
+        -168.0125473, 64.9656992
+        -168.0290495, 64.9641531
+        -168.0386854, 64.9629625
+        -168.0410213, 64.9624537
+        -168.0423999, 64.9618694
+        -168.0430891, 64.9610958
+        -168.0432232, 64.9599827
+        -168.0418274, 64.9557634
+        -168.0385258, 64.9487412
+        -168.0385269, 64.9487404
+        -168.0385288, 64.9487409
+        -168.0413016, 64.953209
+        -168.0423234, 64.9541686
+        -168.0434859, 64.954691
+        -168.0451058, 64.9549184
+        -168.0476246, 64.9549129
+        -168.0585367, 64.9541326
+        -168.0588286, 64.954216
+        -168.0615978, 64.9587481
+        -168.0625847, 64.9597022
+        -168.0636992, 64.9602153
+        -168.0652613, 64.9604349
+        -168.0677197, 64.960424
+        -168.0726801, 64.9600628
+        -168.0733789, 64.9598693
+        -168.0739748, 64.9599685
+        -168.0786093, 64.9596307
+        -168.0951568, 64.9581808
+        -168.1116952, 64.9567149
+        -168.1116967, 64.9567154
+        -168.1116958, 64.956716
+        -168.09976, 64.9579062
+        -168.0977333, 64.9582192
+        -168.0967815, 64.9585552
+        -168.0964661, 64.959069
+        -168.096642, 64.9599972
+        -168.0990557, 64.9651945
+        -168.1026177, 64.9721934
+        -168.1061795, 64.9791924
+        -168.1094315, 64.9862199
+        -168.1094306, 64.9862206
+        -168.1094288, 64.9862202
+        -168.106618, 64.9819968
+        -168.1054737, 64.9810157
+        -168.1041614, 64.9804537
+        -168.102392, 64.9801869
+        -168.0997758, 64.9801567
+        -168.0893856, 64.9808296
+        -168.0741565, 64.9822728
+        -168.0735621, 64.9829631
+        -168.0679627, 64.9845349
+        -168.0605891, 64.9841927
+        -168.0594124, 64.9846837
+        -168.0587085, 64.9854529
+        -168.0585617, 64.9865572
+        -168.0599283, 64.9907318
+        -168.0598459, 64.9907865
+        -168.0433285, 64.9923335
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>EE-02</name>
+      <description>EE-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.2296296, 64.8868254
+        -167.2462006, 65.1666641
+        -168.0199585, 65.1666641
+        -167.9936981, 64.8333359
+        -167.2265015, 64.8333359
+        -167.2267039, 64.8368037
+        -167.2268397, 64.8368036
+        -167.2296296, 64.8868254
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>DD-20</name>
+      <description>DD-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.0335987, 64.651602
+        -171.0098724, 64.5
+        -170.2492371, 64.5
+        -170.2951965, 64.8333359
+        -170.6114335, 64.8338149
+        -171.0335987, 64.651602
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>DD-19</name>
+      <description>DD-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.2951965, 64.8333359
+        -170.2492371, 64.5
+        -169.4886169, 64.5
+        -169.5280151, 64.8333359
+        -170.2951965, 64.8333359
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>DD-18</name>
+      <description>DD-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.5280151, 64.8333359
+        -169.4886169, 64.5
+        -168.7280731, 64.5
+        -168.7608948, 64.8333359
+        -169.5280151, 64.8333359
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>DD-01</name>
+      <description>DD-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.7608948, 64.8333359
+        -168.7280731, 64.5
+        -167.9674377, 64.5
+        -167.9936981, 64.8333359
+        -168.7608948, 64.8333359
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>DD-02</name>
+      <description>DD-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.9936981, 64.8333359
+        -167.9674377, 64.5
+        -167.2068024, 64.5
+        -167.2265015, 64.8333359
+        -167.9936981, 64.8333359
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>DD-03</name>
+      <description>DD-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.4570507, 64.7095234
+        -166.4740135, 64.7296976
+        -166.476822, 64.7367168
+        -166.4647366, 64.7569584
+        -166.4650577, 64.7672654
+        -166.473938, 64.791702
+        -166.4698482, 64.7957842
+        -166.4605189, 64.7984872
+        -166.461884, 64.8333425
+        -167.2265015, 64.8333359
+        -167.2068024, 64.5
+        -166.448972, 64.5000072
+        -166.4570507, 64.7095234
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-21</name>
+      <description>CC-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.7414819, 64.337722
+        -171.7113342, 64.1666641
+        -170.9573517, 64.1666641
+        -171.0098724, 64.5
+        -171.3773842, 64.5004898
+        -171.7414819, 64.337722
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-20</name>
+      <description>CC-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.0098724, 64.5
+        -170.9573517, 64.1666641
+        -170.2032776, 64.1666641
+        -170.2492371, 64.5
+        -171.0098724, 64.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-19</name>
+      <description>CC-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.2492371, 64.5
+        -170.2032776, 64.1666641
+        -169.4492187, 64.1666641
+        -169.4886169, 64.5
+        -170.2492371, 64.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-18</name>
+      <description>CC-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.4886169, 64.5
+        -169.4492187, 64.1666641
+        -168.6952362, 64.1666641
+        -168.7280731, 64.5
+        -169.4886169, 64.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-01</name>
+      <description>CC-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.7280731, 64.5
+        -168.6952362, 64.1666641
+        -167.9411774, 64.1666641
+        -167.9674377, 64.5
+        -168.7280731, 64.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-02</name>
+      <description>CC-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.9674377, 64.5
+        -167.9411774, 64.1666641
+        -167.1871033, 64.1666641
+        -167.2068024, 64.5
+        -167.9674377, 64.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-03</name>
+      <description>CC-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.448972, 64.5000072
+        -167.2068024, 64.5
+        -167.1871033, 64.1666641
+        -166.4330292, 64.1666641
+        -166.4461405, 64.4993358
+        -166.4489461, 64.4993303
+        -166.448972, 64.5000072
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-04</name>
+      <description>CC-04</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.4461405, 64.4993358
+        -166.4330292, 64.1666641
+        -165.6790771, 64.1666641
+        -165.6856077, 64.4984558
+        -165.6897287, 64.4988814
+        -166.4461405, 64.4993358
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-04</name>
+      <description>CC-04</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.1903077, 64.4920957
+        -166.1932529, 64.4774775
+        -166.2000881, 64.471596
+        -166.2060239, 64.4709396
+        -166.2187341, 64.4793243
+        -166.2254949, 64.4883725
+        -166.2219537, 64.4920498
+        -166.2104033, 64.4942089
+        -166.1957542, 64.4943688
+        -166.1903077, 64.4920957
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-05</name>
+      <description>CC-05</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.6856077, 64.4984558
+        -165.6790771, 64.1666641
+        -164.9250031, 64.1666641
+        -164.9250031, 64.4180698
+        -164.9262011, 64.4178267
+        -165.6856077, 64.4984558
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-06</name>
+      <description>CC-06</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -164.9250031, 64.4180698
+        -164.9250031, 64.1666641
+        -164.170929, 64.1666641
+        -164.1643677, 64.5
+        -164.2844779, 64.500255
+        -164.5206212, 64.499336
+        -164.9250031, 64.4180698
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-07</name>
+      <description>CC-07</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -163.4128365, 64.500023
+        -164.1643677, 64.5
+        -164.170929, 64.1666641
+        -163.4169617, 64.1666641
+        -163.403986, 64.4959357
+        -163.4128365, 64.500023
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-08</name>
+      <description>CC-08</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -163.403986, 64.4959357
+        -163.4169617, 64.1666641
+        -162.6628876, 64.1666641
+        -162.6523791, 64.3454379
+        -162.8069404, 64.3083424
+        -162.8600652, 64.3724776
+        -163.1574066, 64.3813559
+        -163.403986, 64.4959357
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-09</name>
+      <description>CC-09</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -162.6523791, 64.3454379
+        -162.6628876, 64.1666641
+        -161.9088287, 64.1666641
+        -161.8825684, 64.5
+        -161.9280663, 64.5001099
+        -162.5005697, 64.4984563
+        -162.6493799, 64.3461551
+        -162.6523791, 64.3454379
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>CC-10</name>
+      <description>CC-10</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -161.8052986, 64.500175
+        -161.8825684, 64.5
+        -161.9088287, 64.1666641
+        -161.1547699, 64.1666641
+        -161.1435086, 64.2818469
+        -161.5573124, 64.3657097
+        -161.5540171, 64.4999896
+        -161.8052986, 64.500175
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-22</name>
+      <description>BB-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.4364972, 64.02095
+        -172.3997345, 63.8333321
+        -171.6522369, 63.8333321
+        -171.7113342, 64.1666641
+        -172.1163513, 64.167148
+        -172.1340405, 64.159023
+        -172.4364972, 64.02095
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-21</name>
+      <description>BB-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.7113342, 64.1666641
+        -171.6522369, 63.8333321
+        -170.9048309, 63.8333321
+        -170.9573517, 64.1666641
+        -171.7113342, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-20</name>
+      <description>BB-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.9573517, 64.1666641
+        -170.9048309, 63.8333321
+        -170.1573181, 63.8333321
+        -170.2032776, 64.1666641
+        -170.9573517, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-19</name>
+      <description>BB-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.2032776, 64.1666641
+        -170.1573181, 63.8333321
+        -169.4098206, 63.8333321
+        -169.4492187, 64.1666641
+        -170.2032776, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-18</name>
+      <description>BB-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.4492187, 64.1666641
+        -169.4098206, 63.8333321
+        -168.6624146, 63.8333321
+        -168.6952362, 64.1666641
+        -169.4492187, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-01</name>
+      <description>BB-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.6952362, 64.1666641
+        -168.6624146, 63.8333321
+        -167.914917, 63.8333321
+        -167.9411774, 64.1666641
+        -168.6952362, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-02</name>
+      <description>BB-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.9411774, 64.1666641
+        -167.914917, 63.8333321
+        -167.1674042, 63.8333321
+        -167.1871033, 64.1666641
+        -167.9411774, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-03</name>
+      <description>BB-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.1871033, 64.1666641
+        -167.1674042, 63.8333321
+        -166.4199066, 63.8333321
+        -166.4330292, 64.1666641
+        -167.1871033, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-04</name>
+      <description>BB-04</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.4330292, 64.1666641
+        -166.4199066, 63.8333321
+        -165.6725159, 63.8333321
+        -165.6790771, 64.1666641
+        -166.4330292, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-05</name>
+      <description>BB-05</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.6790771, 64.1666641
+        -165.6725159, 63.8333321
+        -164.9250031, 63.8333321
+        -164.9250031, 64.1666641
+        -165.6790771, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-06</name>
+      <description>BB-06</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -164.9250031, 64.1666641
+        -164.9250031, 63.8333321
+        -164.1774902, 63.8333321
+        -164.170929, 64.1666641
+        -164.9250031, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-07</name>
+      <description>BB-07</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -164.170929, 64.1666641
+        -164.1774902, 63.8333321
+        -163.4300995, 63.8333321
+        -163.4169617, 64.1666641
+        -164.170929, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-08</name>
+      <description>BB-08</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -163.4169617, 64.1666641
+        -163.4300995, 63.8333321
+        -162.6825867, 63.8333321
+        -162.6628876, 64.1666641
+        -163.4169617, 64.1666641
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-09</name>
+      <description>BB-09</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -162.4705861, 63.8337242
+        -161.9350891, 63.8333321
+        -161.9088287, 64.1666641
+        -162.6628876, 64.1666641
+        -162.6825867, 63.8333321
+        -162.6824921, 63.8333323
+        -162.6824215, 63.8345157
+        -162.4705861, 63.8337242
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-10</name>
+      <description>BB-10</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -161.1868361, 63.8410939
+        -161.1547699, 64.1666641
+        -161.9088287, 64.1666641
+        -161.9350891, 63.8333321
+        -161.7270253, 63.8337197
+        -161.1868361, 63.8410939
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>BB-10</name>
+      <description>BB-10</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -161.3233185, 64.1230779
+        -161.31691, 64.1345219
+        -161.3101043, 64.138733
+        -161.3005672, 64.1410596
+        -161.2926481, 64.1401063
+        -161.289993, 64.1380156
+        -161.2978208, 64.1309052
+        -161.2928314, 64.1201862
+        -161.2939148, 64.1143191
+        -161.3062138, 64.1096347
+        -161.3116301, 64.1093591
+        -161.3228761, 64.1160503
+        -161.3233185, 64.1230779
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-23</name>
+      <description>AA-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.1188237, 63.7030809
+        -173.0750275, 63.5
+        -172.3340759, 63.5
+        -172.3997345, 63.8333321
+        -172.8404313, 63.8337991
+        -172.8417512, 63.8331827
+        -172.8445151, 63.8318922
+        -173.1188237, 63.7030809
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-22</name>
+      <description>AA-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.7506861, 63.6590381
+        -171.7512817, 63.6702039
+        -171.763321, 63.6907952
+        -171.762788, 63.6921082
+        -171.7593538, 63.700565
+        -171.7331995, 63.7258681
+        -171.7327578, 63.7370259
+        -171.7402607, 63.7539069
+        -171.750244, 63.7763369
+        -171.7504888, 63.7834014
+        -171.7426757, 63.7858422
+        -171.7353349, 63.7850112
+        -171.7124479, 63.7824174
+        -171.6990657, 63.7825349
+        -171.6818997, 63.7869567
+        -171.6705772, 63.786636
+        -171.6665187, 63.7852325
+        -171.6635645, 63.7800676
+        -171.6622007, 63.7776826
+        -171.6591249, 63.7765029
+        -171.6530911, 63.7741883
+        -171.6456447, 63.7677497
+        -171.6471414, 63.7634931
+        -171.6474004, 63.7627564
+        -171.6377714, 63.7512363
+        -171.6375011, 63.7509131
+        -171.6522369, 63.8333321
+        -172.3997345, 63.8333321
+        -172.3340759, 63.5
+        -171.8444126, 63.5004121
+        -171.8462221, 63.5080339
+        -171.8447554, 63.5094192
+        -171.8419041, 63.5121118
+        -171.83948, 63.5143968
+        -171.8383184, 63.5154916
+        -171.8337247, 63.5298124
+        -171.8375661, 63.5335851
+        -171.842605, 63.5385322
+        -171.8453371, 63.5478929
+        -171.8372653, 63.5742608
+        -171.829757, 63.5837744
+        -171.8275516, 63.5848736
+        -171.8229977, 63.5871432
+        -171.8191994, 63.5930369
+        -171.8089908, 63.5925104
+        -171.8043368, 63.5940709
+        -171.7935333, 63.6094782
+        -171.7950739, 63.6155823
+        -171.7953193, 63.6165546
+        -171.8031615, 63.6261333
+        -171.8041387, 63.6273269
+        -171.8022846, 63.6289081
+        -171.8004302, 63.6304892
+        -171.7901309, 63.6322326
+        -171.7771145, 63.6380582
+        -171.767877, 63.639154
+        -171.7663114, 63.6393397
+        -171.7609, 63.6430712
+        -171.756835, 63.6458735
+        -171.7506861, 63.6590381
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-22</name>
+      <description>AA-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.6255441, 63.6836984
+        -171.636225, 63.7437543
+        -171.6395723, 63.7415042
+        -171.640446, 63.7413062
+        -171.6540979, 63.738212
+        -171.6518093, 63.719284
+        -171.6580659, 63.7049868
+        -171.6464986, 63.6942363
+        -171.6437222, 63.6916546
+        -171.6467135, 63.6893699
+        -171.6490319, 63.6875987
+        -171.6476085, 63.6866155
+        -171.6470328, 63.6862178
+        -171.6469675, 63.6862207
+        -171.634186, 63.68679
+        -171.6309132, 63.6856193
+        -171.6255441, 63.6836984
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-21</name>
+      <description>AA-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.8658942, 63.586931
+        -170.9048309, 63.8333321
+        -171.6522369, 63.8333321
+        -171.6375011, 63.7509131
+        -171.633209, 63.7457813
+        -171.636225, 63.7437543
+        -171.6255441, 63.6836984
+        -171.5983271, 63.6739538
+        -171.5455175, 63.6622318
+        -171.5293583, 63.6584626
+        -171.4338072, 63.6409837
+        -171.4068456, 63.6372949
+        -171.3921818, 63.6335027
+        -171.3771674, 63.6267436
+        -171.3763535, 63.6263639
+        -171.3731684, 63.6248778
+        -171.369766, 63.6259617
+        -171.3669285, 63.6268655
+        -171.3516085, 63.6260179
+        -171.3062543, 63.6201939
+        -171.3033136, 63.6198157
+        -171.2698979, 63.6130717
+        -171.2345725, 63.6133609
+        -171.1860811, 63.6021
+        -171.1596219, 63.5995137
+        -171.1535498, 63.5985909
+        -171.114673, 63.5926762
+        -171.1043703, 63.5911066
+        -171.086655, 63.5896429
+        -171.068756, 63.5881617
+        -171.0561377, 63.5855028
+        -171.0561971, 63.5846075
+        -171.0562585, 63.5836827
+        -171.0604245, 63.582363
+        -171.069138, 63.582016
+        -171.1057438, 63.5854262
+        -171.1370089, 63.59264
+        -171.1715088, 63.5973736
+        -171.1792068, 63.596418
+        -171.1849059, 63.5957102
+        -171.1873834, 63.5934701
+        -171.1881413, 63.5927847
+        -171.1878814, 63.5920588
+        -171.1868287, 63.5891188
+        -171.1898188, 63.5870057
+        -171.1981815, 63.5856817
+        -171.1994249, 63.5841665
+        -171.2010201, 63.5822224
+        -171.1749224, 63.5855655
+        -171.1716611, 63.5859829
+        -171.1676537, 63.585936
+        -171.1282352, 63.5854682
+        -171.0969384, 63.5787122
+        -171.0946504, 63.5721325
+        -171.0909726, 63.5701032
+        -171.0895348, 63.572719
+        -171.0874937, 63.5764317
+        -171.0567318, 63.5759358
+        -171.0421289, 63.5805431
+        -170.9770513, 63.574696
+        -170.9700469, 63.5725554
+        -170.9700769, 63.5721057
+        -170.9701379, 63.5711893
+        -170.9876407, 63.569138
+        -171.0017855, 63.5715982
+        -171.0074311, 63.5712164
+        -171.0081023, 63.5687184
+        -170.988007, 63.5634463
+        -170.969987, 63.5640347
+        -170.9680325, 63.5640984
+        -170.9584199, 63.5626024
+        -170.9450069, 63.5647044
+        -170.9147488, 63.5663567
+        -170.9136198, 63.5679361
+        -170.9166101, 63.5691146
+        -170.9508667, 63.5688854
+        -170.954804, 63.5712165
+        -170.9515839, 63.5734515
+        -170.9069675, 63.5755962
+        -170.8993834, 63.5818705
+        -170.8910214, 63.584721
+        -170.890806, 63.5847271
+        -170.8746194, 63.5851826
+        -170.8658942, 63.586931
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-19</name>
+      <description>AA-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.0612547, 63.5001159
+        -169.3704224, 63.5
+        -169.4098206, 63.8333321
+        -170.1573181, 63.8333321
+        -170.1269484, 63.6139061
+        -170.1053162, 63.6125601
+        -170.1019749, 63.6099891
+        -170.1046869, 63.6061538
+        -170.1061093, 63.6041417
+        -170.0967355, 63.5955309
+        -170.0863488, 63.5859829
+        -170.0866089, 63.5777818
+        -170.0834968, 63.5729336
+        -170.064713, 63.5554771
+        -170.0626374, 63.5504189
+        -170.0700072, 63.5428086
+        -170.0693206, 63.5393755
+        -170.0503996, 63.5235104
+        -170.0479587, 63.5170786
+        -170.0489706, 63.514577
+        -170.0499721, 63.5121006
+        -170.0636451, 63.50256
+        -170.0612547, 63.5001159
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-18</name>
+      <description>AA-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.4098206, 63.8333321
+        -169.3704224, 63.5
+        -168.6295929, 63.5
+        -168.6624146, 63.8333321
+        -169.4098206, 63.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-01</name>
+      <description>AA-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.6624146, 63.8333321
+        -168.6295929, 63.5
+        -167.8886566, 63.5
+        -167.914917, 63.8333321
+        -168.6624146, 63.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-02</name>
+      <description>AA-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.914917, 63.8333321
+        -167.8886566, 63.5
+        -167.1477051, 63.5
+        -167.1674042, 63.8333321
+        -167.914917, 63.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-03</name>
+      <description>AA-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.1674042, 63.8333321
+        -167.1477051, 63.5
+        -166.4067688, 63.5
+        -166.4199066, 63.8333321
+        -167.1674042, 63.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-04</name>
+      <description>AA-04</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.4199066, 63.8333321
+        -166.4067688, 63.5
+        -165.6659546, 63.5
+        -165.6725159, 63.8333321
+        -166.4199066, 63.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-05</name>
+      <description>AA-05</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.6725159, 63.8333321
+        -165.6659546, 63.5
+        -164.9250031, 63.5
+        -164.9250031, 63.8333321
+        -165.6725159, 63.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-06</name>
+      <description>AA-06</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -164.9250031, 63.8333321
+        -164.9250031, 63.5
+        -164.1840515, 63.5
+        -164.1774902, 63.8333321
+        -164.9250031, 63.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-07</name>
+      <description>AA-07</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -163.4431702, 63.5017225
+        -163.4300995, 63.8333321
+        -164.1774902, 63.8333321
+        -164.1840515, 63.5
+        -164.0287373, 63.5003169
+        -163.4431702, 63.5017225
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>AA-08</name>
+      <description>AA-08</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -162.7022813, 63.5000763
+        -162.6981229, 63.5710629
+        -162.7143859, 63.5723571
+        -162.7219851, 63.5772633
+        -162.7196811, 63.5794109
+        -162.6975827, 63.580261
+        -162.6825867, 63.8333321
+        -163.4300995, 63.8333321
+        -163.4431702, 63.5017225
+        -162.7022813, 63.5000763
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-24</name>
+      <description>ZZ-24</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.7876469, 63.3812097
+        -173.7371521, 63.1666679
+        -173.0028076, 63.1666679
+        -173.0750275, 63.5
+        -173.5431543, 63.500445
+        -173.6573292, 63.4452105
+        -173.7876469, 63.3812097
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-23</name>
+      <description>ZZ-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.0750275, 63.5
+        -173.0028076, 63.1666679
+        -172.2684174, 63.1666679
+        -172.3340759, 63.5
+        -173.0750275, 63.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-22</name>
+      <description>ZZ-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.8526308, 63.4855228
+        -171.8468312, 63.4927714
+        -171.843567, 63.4968494
+        -171.8444126, 63.5004121
+        -172.3340759, 63.5
+        -172.2684174, 63.1666679
+        -171.5340424, 63.1666679
+        -171.5610195, 63.3197484
+        -171.5619818, 63.3197826
+        -171.5656615, 63.3265318
+        -171.5713504, 63.3369598
+        -171.5787654, 63.3413585
+        -171.5796349, 63.3450122
+        -171.5867768, 63.3439366
+        -171.5885622, 63.3380284
+        -171.5941932, 63.3367123
+        -171.6098324, 63.338673
+        -171.6293333, 63.3449975
+        -171.6425327, 63.3446537
+        -171.6554408, 63.3511426
+        -171.6740417, 63.3551714
+        -171.6943208, 63.3555681
+        -171.7208257, 63.3651275
+        -171.7304079, 63.3665734
+        -171.739609, 63.3648223
+        -171.7773592, 63.4002071
+        -171.7933965, 63.406483
+        -171.821396, 63.4333492
+        -171.8301694, 63.443893
+        -171.8260045, 63.4607243
+        -171.8287206, 63.4700851
+        -171.8368686, 63.4701462
+        -171.8526308, 63.4855228
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-21</name>
+      <description>ZZ-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.4753111, 63.3098524
+        -171.4879454, 63.32114
+        -171.4944003, 63.3239405
+        -171.5044553, 63.3256307
+        -171.5242307, 63.3255883
+        -171.5533908, 63.3194766
+        -171.5610195, 63.3197484
+        -171.5340424, 63.1666679
+        -170.7997894, 63.1666679
+        -170.8376493, 63.4076946
+        -170.8509071, 63.4102747
+        -170.8549829, 63.4108449
+        -170.858947, 63.4113994
+        -170.8962408, 63.4165996
+        -170.9518601, 63.4211591
+        -170.9660344, 63.4223174
+        -171.0083494, 63.4232411
+        -171.0437315, 63.4240039
+        -171.1069026, 63.4222753
+        -171.132141, 63.4168855
+        -171.1659854, 63.4031567
+        -171.1916965, 63.3977581
+        -171.2514957, 63.3916057
+        -171.275668, 63.3860806
+        -171.2828676, 63.3844338
+        -171.289094, 63.3820907
+        -171.2958223, 63.379558
+        -171.2964177, 63.3683971
+        -171.2884818, 63.3648945
+        -171.2891846, 63.3610271
+        -171.3249353, 63.3472858
+        -171.3308258, 63.3414226
+        -171.330475, 63.3405949
+        -171.329468, 63.3382185
+        -171.3336789, 63.3352999
+        -171.3388208, 63.3337591
+        -171.3570244, 63.3346362
+        -171.3598071, 63.3342829
+        -171.3703002, 63.33295
+        -171.3838045, 63.3301462
+        -171.3964232, 63.3275225
+        -171.4082775, 63.3226565
+        -171.4424443, 63.308617
+        -171.4485928, 63.3073115
+        -171.4578127, 63.3078167
+        -171.4586946, 63.307865
+        -171.4753111, 63.3098524
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-01</name>
+      <description>ZZ-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.6295929, 63.5
+        -168.5967712, 63.1666679
+        -167.8623962, 63.1666679
+        -167.8886566, 63.5
+        -168.6295929, 63.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-02</name>
+      <description>ZZ-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.8886566, 63.5
+        -167.8623962, 63.1666679
+        -167.128006, 63.1666679
+        -167.1477051, 63.5
+        -167.8886566, 63.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-03</name>
+      <description>ZZ-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.1477051, 63.5
+        -167.128006, 63.1666679
+        -166.3936462, 63.1666679
+        -166.4067688, 63.5
+        -167.1477051, 63.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-04</name>
+      <description>ZZ-04</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.4067688, 63.5
+        -166.3936462, 63.1666679
+        -165.6593933, 63.1666679
+        -165.6659546, 63.5
+        -166.4067688, 63.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>ZZ-05</name>
+      <description>ZZ-05</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -164.9250031, 63.4938035
+        -164.9250031, 63.5
+        -165.6659546, 63.5
+        -165.6593933, 63.1666679
+        -165.6526803, 63.1666851
+        -165.6526573, 63.1694402
+        -164.9334097, 63.1671183
+        -164.9250031, 63.4938035
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-25</name>
+      <description>Y-25</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -174.4425984, 63.0549691
+        -174.3860626, 62.8333321
+        -173.6583557, 62.8333321
+        -173.7371521, 63.1666679
+        -174.2180371, 63.1670962
+        -174.4425984, 63.0549691
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-24</name>
+      <description>Y-24</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.7371521, 63.1666679
+        -173.6583557, 62.8333321
+        -172.9305878, 62.8333321
+        -173.0028076, 63.1666679
+        -173.7371521, 63.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-23</name>
+      <description>Y-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.0028076, 63.1666679
+        -172.9305878, 62.8333321
+        -172.2027588, 62.8333321
+        -172.2684174, 63.1666679
+        -173.0028076, 63.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-22</name>
+      <description>Y-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.2684174, 63.1666679
+        -172.2027588, 62.8333321
+        -171.4749451, 62.8333321
+        -171.5340424, 63.1666679
+        -172.2684174, 63.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-21</name>
+      <description>Y-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.5340424, 63.1666679
+        -171.4749451, 62.8333321
+        -170.7472687, 62.8333321
+        -170.7997894, 63.1666679
+        -171.5340424, 63.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-20</name>
+      <description>Y-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.7997894, 63.1666679
+        -170.7472687, 62.8333321
+        -170.0194397, 62.8333321
+        -170.0653992, 63.1666679
+        -170.7997894, 63.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-18</name>
+      <description>Y-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.899673, 63.1453055
+        -168.9248201, 63.1496465
+        -168.984344, 63.1651798
+        -168.9958365, 63.1671209
+        -169.2783377, 63.1667895
+        -169.3098448, 63.1615945
+        -169.33002, 63.1582624
+        -169.291626, 62.8333321
+        -168.5639343, 62.8333321
+        -168.5967712, 63.1666679
+        -168.8105606, 63.1670447
+        -168.8115077, 63.1663739
+        -168.8171796, 63.1635562
+        -168.8402098, 63.1521071
+        -168.8544614, 63.1474805
+        -168.878662, 63.1438145
+        -168.8995412, 63.1452961
+        -168.899673, 63.1453055
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-18</name>
+      <description>Y-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.8045047, 63.0810085
+        -168.8139044, 63.074879
+        -168.8269352, 63.0752448
+        -168.8352208, 63.0773049
+        -168.8333739, 63.0797652
+        -168.8197331, 63.0800667
+        -168.8057097, 63.0833248
+        -168.8045047, 63.0810085
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-01</name>
+      <description>Y-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.5967712, 63.1666679
+        -168.5639343, 62.8333321
+        -167.8361359, 62.8333321
+        -167.8623962, 63.1666679
+        -168.5967712, 63.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-02</name>
+      <description>Y-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.8623962, 63.1666679
+        -167.8361359, 62.8333321
+        -167.1083069, 62.8333321
+        -167.128006, 63.1666679
+        -167.8623962, 63.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-03</name>
+      <description>Y-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3805756, 62.835057
+        -166.3936462, 63.1666679
+        -167.128006, 63.1666679
+        -167.1083069, 62.8333321
+        -166.3820703, 62.8333361
+        -166.3821241, 62.8350505
+        -166.3805756, 62.835057
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Y-04</name>
+      <description>Y-04</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.6546635, 62.9271466
+        -165.6593933, 63.1666679
+        -166.3936462, 63.1666679
+        -166.3805756, 62.835057
+        -165.6554077, 62.8362392
+        -165.6546635, 62.9271466
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-26</name>
+      <description>X-26</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -175.0837347, 62.7248042
+        -175.0219727, 62.5
+        -174.300705, 62.5
+        -174.3860626, 62.8333321
+        -174.8754982, 62.8337457
+        -175.0837347, 62.7248042
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-25</name>
+      <description>X-25</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -174.3860626, 62.8333321
+        -174.300705, 62.5
+        -173.5795746, 62.5
+        -173.6583557, 62.8333321
+        -174.3860626, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-24</name>
+      <description>X-24</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.6583557, 62.8333321
+        -173.5795746, 62.5
+        -172.8583679, 62.5
+        -172.9305878, 62.8333321
+        -173.6583557, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-23</name>
+      <description>X-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.9305878, 62.8333321
+        -172.8583679, 62.5
+        -172.1371002, 62.5
+        -172.2027588, 62.8333321
+        -172.9305878, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-22</name>
+      <description>X-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.2027588, 62.8333321
+        -172.1371002, 62.5
+        -171.415863, 62.5
+        -171.4749451, 62.8333321
+        -172.2027588, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-21</name>
+      <description>X-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.4749451, 62.8333321
+        -171.415863, 62.5
+        -170.6947479, 62.5
+        -170.7472687, 62.8333321
+        -171.4749451, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-20</name>
+      <description>X-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.7472687, 62.8333321
+        -170.6947479, 62.5
+        -169.9734802, 62.5
+        -170.0194397, 62.8333321
+        -170.7472687, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-19</name>
+      <description>X-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.0194397, 62.8333321
+        -169.9734802, 62.5
+        -169.2522278, 62.5
+        -169.291626, 62.8333321
+        -170.0194397, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-18</name>
+      <description>X-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.291626, 62.8333321
+        -169.2522278, 62.5
+        -168.5311127, 62.5
+        -168.5639343, 62.8333321
+        -169.291626, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-01</name>
+      <description>X-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.5639343, 62.8333321
+        -168.5311127, 62.5
+        -167.8098755, 62.5
+        -167.8361359, 62.8333321
+        -168.5639343, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-02</name>
+      <description>X-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.8361359, 62.8333321
+        -167.8098755, 62.5
+        -167.0886078, 62.5
+        -167.1083069, 62.8333321
+        -167.8361359, 62.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>X-03</name>
+      <description>X-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3820703, 62.8333361
+        -167.1083069, 62.8333321
+        -167.0886078, 62.5
+        -166.3673859, 62.5
+        -166.3709816, 62.5920846
+        -166.378244, 62.7108158
+        -166.3820703, 62.8333361
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-27</name>
+      <description>W-27</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -174.9317753, 62.1729799
+        -175.0219727, 62.5
+        -175.5129746, 62.5004041
+        -175.6241957, 62.4423078
+        -175.7117907, 62.3943605
+        -175.6459121, 62.1706105
+        -174.9317753, 62.1729799
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-26</name>
+      <description>W-26</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -174.2166142, 62.1716701
+        -174.300705, 62.5
+        -175.0219727, 62.5
+        -174.9317753, 62.1729799
+        -174.2166142, 62.1716701
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-25</name>
+      <description>W-25</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.5007935, 62.1666679
+        -173.5795746, 62.5
+        -174.300705, 62.5
+        -174.2166142, 62.1716701
+        -173.5007935, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-24</name>
+      <description>W-24</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.5795746, 62.5
+        -173.5007935, 62.1666679
+        -172.7861481, 62.1666679
+        -172.8583679, 62.5
+        -173.5795746, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-23</name>
+      <description>W-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.8583679, 62.5
+        -172.7861481, 62.1666679
+        -172.0714417, 62.1666679
+        -172.1371002, 62.5
+        -172.8583679, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-22</name>
+      <description>W-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.1371002, 62.5
+        -172.0714417, 62.1666679
+        -171.356781, 62.1666679
+        -171.415863, 62.5
+        -172.1371002, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-21</name>
+      <description>W-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.415863, 62.5
+        -171.356781, 62.1666679
+        -170.6422272, 62.1666679
+        -170.6947479, 62.5
+        -171.415863, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-20</name>
+      <description>W-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.6947479, 62.5
+        -170.6422272, 62.1666679
+        -169.9275208, 62.1666679
+        -169.9734802, 62.5
+        -170.6947479, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-19</name>
+      <description>W-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.9734802, 62.5
+        -169.9275208, 62.1666679
+        -169.2128296, 62.1666679
+        -169.2522278, 62.5
+        -169.9734802, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-18</name>
+      <description>W-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.2522278, 62.5
+        -169.2128296, 62.1666679
+        -168.4982758, 62.1666679
+        -168.5311127, 62.5
+        -169.2522278, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-01</name>
+      <description>W-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.5311127, 62.5
+        -168.4982758, 62.1666679
+        -167.7836151, 62.1666679
+        -167.8098755, 62.5
+        -168.5311127, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-02</name>
+      <description>W-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.8098755, 62.5
+        -167.7836151, 62.1666679
+        -167.0689087, 62.1666679
+        -167.0886078, 62.5
+        -167.8098755, 62.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>W-03</name>
+      <description>W-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3659458, 62.4638227
+        -166.3673859, 62.5
+        -167.0886078, 62.5
+        -167.0689087, 62.1666679
+        -166.3686368, 62.1667042
+        -166.3688009, 62.1691695
+        -166.3659458, 62.4638227
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-24</name>
+      <description>V-24</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.4202865, 61.8333364
+        -172.7139282, 61.8333321
+        -172.7861481, 62.1666679
+        -173.5007935, 62.1666679
+        -173.4202865, 61.8333364
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-23</name>
+      <description>V-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.7861481, 62.1666679
+        -172.7139282, 61.8333321
+        -172.0057831, 61.8333321
+        -172.0714417, 62.1666679
+        -172.7861481, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-22</name>
+      <description>V-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.0714417, 62.1666679
+        -172.0057831, 61.8333321
+        -171.2976837, 61.8333321
+        -171.356781, 62.1666679
+        -172.0714417, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-21</name>
+      <description>V-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.356781, 62.1666679
+        -171.2976837, 61.8333321
+        -170.5897064, 61.8333321
+        -170.6422272, 62.1666679
+        -171.356781, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-20</name>
+      <description>V-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.6422272, 62.1666679
+        -170.5897064, 61.8333321
+        -169.8815613, 61.8333321
+        -169.9275208, 62.1666679
+        -170.6422272, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-19</name>
+      <description>V-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.9275208, 62.1666679
+        -169.8815613, 61.8333321
+        -169.1734314, 61.8333321
+        -169.2128296, 62.1666679
+        -169.9275208, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-18</name>
+      <description>V-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.2128296, 62.1666679
+        -169.1734314, 61.8333321
+        -168.4654388, 61.8333321
+        -168.4982758, 62.1666679
+        -169.2128296, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-01</name>
+      <description>V-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.4982758, 62.1666679
+        -168.4654388, 61.8333321
+        -167.7573547, 61.8333321
+        -167.7836151, 62.1666679
+        -168.4982758, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-02</name>
+      <description>V-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.7836151, 62.1666679
+        -167.7573547, 61.8333321
+        -167.0492096, 61.8333321
+        -167.0689087, 62.1666679
+        -167.7836151, 62.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>V-03</name>
+      <description>V-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3686368, 62.1667042
+        -167.0689087, 62.1666679
+        -167.0492096, 61.8333321
+        -166.3469096, 61.8333468
+        -166.3472834, 61.842327
+        -166.3686368, 62.1667042
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-24</name>
+      <description>U-24</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -173.341521, 61.5000043
+        -172.6417084, 61.5
+        -172.7139282, 61.8333321
+        -173.4202865, 61.8333364
+        -173.341521, 61.5000043
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-23</name>
+      <description>U-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.7139282, 61.8333321
+        -172.6417084, 61.5
+        -171.9401245, 61.5
+        -172.0057831, 61.8333321
+        -172.7139282, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-22</name>
+      <description>U-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.0057831, 61.8333321
+        -171.9401245, 61.5
+        -171.2386017, 61.5
+        -171.2976837, 61.8333321
+        -172.0057831, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-21</name>
+      <description>U-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.2976837, 61.8333321
+        -171.2386017, 61.5
+        -170.5371857, 61.5
+        -170.5897064, 61.8333321
+        -171.2976837, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-20</name>
+      <description>U-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.5897064, 61.8333321
+        -170.5371857, 61.5
+        -169.8356018, 61.5
+        -169.8815613, 61.8333321
+        -170.5897064, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-19</name>
+      <description>U-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.8815613, 61.8333321
+        -169.8356018, 61.5
+        -169.1340332, 61.5
+        -169.1734314, 61.8333321
+        -169.8815613, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-18</name>
+      <description>U-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.1734314, 61.8333321
+        -169.1340332, 61.5
+        -168.4326172, 61.5
+        -168.4654388, 61.8333321
+        -169.1734314, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-01</name>
+      <description>U-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.4654388, 61.8333321
+        -168.4326172, 61.5
+        -167.7310944, 61.5
+        -167.7573547, 61.8333321
+        -168.4654388, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-02</name>
+      <description>U-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.7573547, 61.8333321
+        -167.7310944, 61.5
+        -167.0295105, 61.5
+        -167.0492096, 61.8333321
+        -167.7573547, 61.8333321
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>U-03</name>
+      <description>U-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3469096, 61.8333468
+        -167.0492096, 61.8333321
+        -167.0295105, 61.5
+        -166.3330875, 61.500013
+        -166.3334467, 61.5063789
+        -166.3469096, 61.8333468
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-24</name>
+      <description>T-24</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -172.5694885, 61.1666679
+        -172.6417084, 61.5
+        -173.341521, 61.5000043
+        -173.2644348, 61.1666679
+        -172.5694885, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-23</name>
+      <description>T-23</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.874813, 61.1684487
+        -171.9401245, 61.5
+        -172.6417084, 61.5
+        -172.5694885, 61.1666679
+        -171.874813, 61.1684487
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-22</name>
+      <description>T-22</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.1795044, 61.1666679
+        -171.2386017, 61.5
+        -171.9401245, 61.5
+        -171.874813, 61.1684487
+        -171.1795044, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-21</name>
+      <description>T-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.2386017, 61.5
+        -171.1795044, 61.1666679
+        -170.4846649, 61.1666679
+        -170.5371857, 61.5
+        -171.2386017, 61.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-20</name>
+      <description>T-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.5371857, 61.5
+        -170.4846649, 61.1666679
+        -169.7896423, 61.1666679
+        -169.8356018, 61.5
+        -170.5371857, 61.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-19</name>
+      <description>T-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.8356018, 61.5
+        -169.7896423, 61.1666679
+        -169.094635, 61.1666679
+        -169.1340332, 61.5
+        -169.8356018, 61.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-18</name>
+      <description>T-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.1340332, 61.5
+        -169.094635, 61.1666679
+        -168.3997955, 61.1666679
+        -168.4326172, 61.5
+        -169.1340332, 61.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-01</name>
+      <description>T-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.4326172, 61.5
+        -168.3997955, 61.1666679
+        -167.704834, 61.1666679
+        -167.7310944, 61.5
+        -168.4326172, 61.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-02</name>
+      <description>T-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.7310944, 61.5
+        -167.704834, 61.1666679
+        -167.0098114, 61.1666679
+        -167.0295105, 61.5
+        -167.7310944, 61.5
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>T-03</name>
+      <description>T-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3330875, 61.500013
+        -167.0295105, 61.5
+        -167.0098114, 61.1666679
+        -166.3148651, 61.1666679
+        -166.3157833, 61.1902237
+        -166.3330875, 61.500013
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>S-21</name>
+      <description>S-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -171.1795044, 61.1666679
+        -171.1204071, 60.8333321
+        -170.4321442, 60.8333321
+        -170.4846649, 61.1666679
+        -171.1795044, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>S-20</name>
+      <description>S-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.4846649, 61.1666679
+        -170.4321442, 60.8333321
+        -169.7436829, 60.8333321
+        -169.7896423, 61.1666679
+        -170.4846649, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>S-19</name>
+      <description>S-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.7896423, 61.1666679
+        -169.7436829, 60.8333321
+        -169.0552368, 60.8333321
+        -169.094635, 61.1666679
+        -169.7896423, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>S-18</name>
+      <description>S-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.094635, 61.1666679
+        -169.0552368, 60.8333321
+        -168.3669586, 60.8333321
+        -168.3997955, 61.1666679
+        -169.094635, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>S-01</name>
+      <description>S-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.3997955, 61.1666679
+        -168.3669586, 60.8333321
+        -167.6785736, 60.8333321
+        -167.704834, 61.1666679
+        -168.3997955, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>S-02</name>
+      <description>S-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.704834, 61.1666679
+        -167.6785736, 60.8333321
+        -166.9901123, 60.8333321
+        -167.0098114, 61.1666679
+        -167.704834, 61.1666679
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>S-03</name>
+      <description>S-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3126805, 61.1117239
+        -166.3148651, 61.1666679
+        -167.0098114, 61.1666679
+        -166.9901123, 60.8333321
+        -166.3031731, 60.8333358
+        -166.3034319, 60.8399764
+        -166.3126805, 61.1117239
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>R-21</name>
+      <description>R-21</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -170.3796921, 60.5004405
+        -170.4321442, 60.8333321
+        -171.1204071, 60.8333321
+        -171.0614834, 60.5009027
+        -170.3796921, 60.5004405
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>R-20</name>
+      <description>R-20</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.6979769, 60.501858
+        -169.7436829, 60.8333321
+        -170.4321442, 60.8333321
+        -170.3796921, 60.5004405
+        -170.3034351, 60.5001726
+        -170.1930805, 60.5003456
+        -169.6979769, 60.501858
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>R-19</name>
+      <description>R-19</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -169.0163128, 60.5040529
+        -169.0552368, 60.8333321
+        -169.7436829, 60.8333321
+        -169.6979769, 60.501858
+        -169.6974783, 60.5018586
+        -169.0163128, 60.5040529
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>R-18</name>
+      <description>R-18</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.3343301, 60.5019819
+        -168.3669586, 60.8333321
+        -169.0552368, 60.8333321
+        -169.0163128, 60.5040529
+        -169.0161031, 60.504053
+        -168.3343301, 60.5019819
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>R-01</name>
+      <description>R-01</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.6527046, 60.5050189
+        -167.6785736, 60.8333321
+        -168.3669586, 60.8333321
+        -168.3343301, 60.5019819
+        -168.3281775, 60.5019474
+        -167.6527046, 60.5050189
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>R-02</name>
+      <description>R-02</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.9706857, 60.5046575
+        -166.9901123, 60.8333321
+        -167.6785736, 60.8333321
+        -167.6527046, 60.5050189
+        -166.9706857, 60.5046575
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>R-03</name>
+      <description>R-03</description>
+      <time>2023-04-13T16:37:45.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3031731, 60.8333358
+        -166.9901123, 60.8333321
+        -166.9706857, 60.5046575
+        -166.3783167, 60.5015202
+        -166.2904751, 60.5040587
+        -166.3031731, 60.8333358
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffffff00</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

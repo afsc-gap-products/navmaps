@@ -61,7 +61,14 @@ sf_to_gpx_track  <- function(x, file, name_col, time_col = NULL, color_col = NUL
                       "    </gpxx:TrackExtension>\n",
                       "  </extensions>",
                       "  <trkseg>",
-                      paste(paste0("    <trkpt lat=\"", sel_coords[ , 2], "\" lon=\"", sel_coords[ , 1],"\"></trkpt>"), collapse = "\n"),
+                      paste(
+                        paste0("    <trkpt lat=\"", 
+                                   sel_coords[ , 2], 
+                               "\" lon=\"", 
+                               sel_coords[ , 1],
+                               "\"></trkpt>"), 
+                        collapse = "\n"
+                        ),
                       "  </trkseg>\n",
                       "</trk>")
         

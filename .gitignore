@@ -36,19 +36,10 @@ inst/doc
 Meta
 *.lock
 *.tzx
-*.dbf
-/output/**/*.shp
-/output/*.kml
-/output/**/*.gpx
-/output/**/*.kml
-/output/**/*.prj
-/output/**/*.shx
-/output/**/*.dbf
-/output/**/*.rds
+/output/**/*crabpot*
 /output/**/*.csv
-/output/**/*.mdb
-/output/**/*.accdb
 /output/*.csv
+/output/**/*.rds
 /plots/
 /testing/*.zip
 /assets/data/*.dbv
@@ -76,3 +67,4 @@ Meta
 *.aux.xml
 
 *_crabpot_*
+*buffered_towpath*

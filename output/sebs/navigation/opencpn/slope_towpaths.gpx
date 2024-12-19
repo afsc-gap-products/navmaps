@@ -1,0 +1,2357 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+<trk>
+  <name>2002/57/15</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-09T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.45632" lon="-168.19501"></trkpt>
+    <trkpt lat="55.44368" lon="-168.16319"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/18</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-09T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.28886" lon="-167.8972"></trkpt>
+    <trkpt lat="55.30305" lon="-167.9267"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/21</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.03179" lon="-167.33681"></trkpt>
+    <trkpt lat="55.0452" lon="-167.3669"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/66</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-25T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.18784" lon="-177.9353"></trkpt>
+    <trkpt lat="59.18243" lon="-177.8988"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/67</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-25T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.36537" lon="-177.6026"></trkpt>
+    <trkpt lat="59.38694" lon="-177.6011"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/69</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-25T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.50977" lon="-177.8262"></trkpt>
+    <trkpt lat="59.5144" lon="-177.78439"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/71</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-26T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.52314" lon="-178.0787"></trkpt>
+    <trkpt lat="59.51807" lon="-178.12219"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/72</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-26T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.48509" lon="-178.2709"></trkpt>
+    <trkpt lat="59.50217" lon="-178.30119"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/75</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-27T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.79431" lon="-178.6752"></trkpt>
+    <trkpt lat="59.77658" lon="-178.64751"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/78</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-28T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.94621" lon="-178.9305"></trkpt>
+    <trkpt lat="59.92792" lon="-178.90981"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/84</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.59889" lon="-178.8197"></trkpt>
+    <trkpt lat="60.57635" lon="-178.8107"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/85</name>
+  <desc>0: Good performance</desc>
+  <time>2002-06-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.38066" lon="-178.6524"></trkpt>
+    <trkpt lat="60.40032" lon="-178.67171"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/124</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-17T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.20232" lon="-166.24451"></trkpt>
+    <trkpt lat="54.19738" lon="-166.2823"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/125</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.81663" lon="-167.12289"></trkpt>
+    <trkpt lat="54.83226" lon="-167.149"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/126</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.95425" lon="-167.17149"></trkpt>
+    <trkpt lat="54.94216" lon="-167.1412"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/127</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.05101" lon="-167.4409"></trkpt>
+    <trkpt lat="55.03733" lon="-167.4111"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/133</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-21T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.64301" lon="-166.73511"></trkpt>
+    <trkpt lat="54.64007" lon="-166.6987"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/135</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.68995" lon="-166.3755"></trkpt>
+    <trkpt lat="54.68522" lon="-166.3389"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/136</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73737" lon="-167.0047"></trkpt>
+    <trkpt lat="54.72087" lon="-166.97951"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/137</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.82401" lon="-166.8398"></trkpt>
+    <trkpt lat="54.81533" lon="-166.8026"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/138</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.8679" lon="-166.8195"></trkpt>
+    <trkpt lat="54.85937" lon="-166.78529"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/139</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.81826" lon="-166.7124"></trkpt>
+    <trkpt lat="54.81184" lon="-166.67641"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/140</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.80393" lon="-166.49339"></trkpt>
+    <trkpt lat="54.79986" lon="-166.4563"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/141</name>
+  <desc>5: Unspecified gear performance problem</desc>
+  <time>2002-07-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.6925" lon="-165.73511"></trkpt>
+    <trkpt lat="54.69006" lon="-165.70309"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/142</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.76426" lon="-165.86861"></trkpt>
+    <trkpt lat="54.76689" lon="-165.9072"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/143</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.67781" lon="-165.91071"></trkpt>
+    <trkpt lat="54.67553" lon="-165.94839"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2002/57/149</name>
+  <desc>0: Good performance</desc>
+  <time>2002-07-25T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.34093" lon="-165.8846"></trkpt>
+    <trkpt lat="54.32513" lon="-165.9093"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/1</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.71655" lon="-165.53059"></trkpt>
+    <trkpt lat="54.72309" lon="-165.56911"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/2</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.75298" lon="-165.80949"></trkpt>
+    <trkpt lat="54.75428" lon="-165.76939"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/3</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.7219" lon="-165.7323"></trkpt>
+    <trkpt lat="54.7166" lon="-165.69479"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/4</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.69229" lon="-165.77901"></trkpt>
+    <trkpt lat="54.68908" lon="-165.7402"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/9</name>
+  <desc>6: Unspecified problems</desc>
+  <time>2008-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.76186" lon="-165.987"></trkpt>
+    <trkpt lat="54.75945" lon="-166.0287"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/10</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73512" lon="-166.17999"></trkpt>
+    <trkpt lat="54.73431" lon="-166.2197"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/11</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.79546" lon="-166.4527"></trkpt>
+    <trkpt lat="54.7988" lon="-166.4915"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/12</name>
+  <desc>4: Caught unspecified object</desc>
+  <time>2008-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.6838" lon="-166.33881"></trkpt>
+    <trkpt lat="54.68548" lon="-166.3768"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/15</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-09T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.648" lon="-166.76311"></trkpt>
+    <trkpt lat="54.6412" lon="-166.72639"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/30</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-13T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.72726" lon="-166.989"></trkpt>
+    <trkpt lat="54.73974" lon="-167.0183"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/31</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-13T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.94219" lon="-167.1357"></trkpt>
+    <trkpt lat="54.95257" lon="-167.1673"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/33</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-13T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.13428" lon="-167.5473"></trkpt>
+    <trkpt lat="55.11786" lon="-167.523"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/38</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.39899" lon="-168.0161"></trkpt>
+    <trkpt lat="55.41287" lon="-168.04829"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/39</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.47115" lon="-168.2348"></trkpt>
+    <trkpt lat="55.45775" lon="-168.1983"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/62</name>
+  <desc>0: Good performance</desc>
+  <time>2008-06-24T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.55582" lon="-168.4315"></trkpt>
+    <trkpt lat="55.56626" lon="-168.4617"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/88</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-01T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.52314" lon="-178.07851"></trkpt>
+    <trkpt lat="59.51934" lon="-178.1194"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/90</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-01T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.19111" lon="-177.94859"></trkpt>
+    <trkpt lat="59.18326" lon="-177.90379"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/91</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-01T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.29689" lon="-177.6897"></trkpt>
+    <trkpt lat="59.31663" lon="-177.6687"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/98</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.49807" lon="-178.8443"></trkpt>
+    <trkpt lat="60.48056" lon="-178.8136"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/99</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.60577" lon="-178.82159"></trkpt>
+    <trkpt lat="60.58359" lon="-178.8134"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/101</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.31988" lon="-178.6835"></trkpt>
+    <trkpt lat="60.33811" lon="-178.71159"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/102</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.2491" lon="-178.4951"></trkpt>
+    <trkpt lat="60.22886" lon="-178.5022"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/103</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.38969" lon="-178.66521"></trkpt>
+    <trkpt lat="60.40868" lon="-178.6869"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/108</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-05T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.18257" lon="-178.8486"></trkpt>
+    <trkpt lat="60.17149" lon="-178.8878"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/109</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-05T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.08575" lon="-179.0174"></trkpt>
+    <trkpt lat="60.06447" lon="-179.0163"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/110</name>
+  <desc>6: Unspecified problems</desc>
+  <time>2008-07-05T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.09017" lon="-179.0703"></trkpt>
+    <trkpt lat="60.06924" lon="-179.07249"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/113</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.85213" lon="-178.79041"></trkpt>
+    <trkpt lat="59.86816" lon="-178.81799"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/115</name>
+  <desc>5: Unspecified gear performance problem</desc>
+  <time>2008-07-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.77732" lon="-178.6521"></trkpt>
+    <trkpt lat="59.79617" lon="-178.67889"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/118</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.63857" lon="-178.4622"></trkpt>
+    <trkpt lat="59.65658" lon="-178.48599"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/120</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.48424" lon="-178.2701"></trkpt>
+    <trkpt lat="59.50076" lon="-178.29649"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/183</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-31T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.30184" lon="-167.9248"></trkpt>
+    <trkpt lat="55.28773" lon="-167.89751"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/185</name>
+  <desc>0: Good performance</desc>
+  <time>2008-07-31T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.19332" lon="-167.82021"></trkpt>
+    <trkpt lat="55.17683" lon="-167.7997"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/188</name>
+  <desc>0: Good performance</desc>
+  <time>2008-08-01T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.04296" lon="-167.5392"></trkpt>
+    <trkpt lat="55.02962" lon="-167.5135"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/189</name>
+  <desc>0: Good performance</desc>
+  <time>2008-08-01T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.0349" lon="-167.35651"></trkpt>
+    <trkpt lat="55.04866" lon="-167.3846"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/193</name>
+  <desc>0: Good performance</desc>
+  <time>2008-08-02T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.82882" lon="-167.14391"></trkpt>
+    <trkpt lat="54.81394" lon="-167.1201"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/194</name>
+  <desc>0: Good performance</desc>
+  <time>2008-08-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.82299" lon="-166.8373"></trkpt>
+    <trkpt lat="54.81527" lon="-166.80409"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/197</name>
+  <desc>0: Good performance</desc>
+  <time>2008-08-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.7749" lon="-166.32069"></trkpt>
+    <trkpt lat="54.77355" lon="-166.2831"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/198</name>
+  <desc>6.12: Depth range of tow exceeds limits of stratum</desc>
+  <time>2008-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.74332" lon="-165.41341"></trkpt>
+    <trkpt lat="54.72395" lon="-165.40199"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/199</name>
+  <desc>0: Good performance</desc>
+  <time>2008-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.6178" lon="-165.6418"></trkpt>
+    <trkpt lat="54.63821" lon="-165.6409"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2008/94/200</name>
+  <desc>0: Good performance</desc>
+  <time>2008-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.6787" lon="-165.8783"></trkpt>
+    <trkpt lat="54.67834" lon="-165.91389"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/13</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.6534" lon="-177.84743"></trkpt>
+    <trkpt lat="59.6393" lon="-177.88305"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/14</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.52867" lon="-177.85475"></trkpt>
+    <trkpt lat="59.50885" lon="-177.83828"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/18</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.19055" lon="-177.94617"></trkpt>
+    <trkpt lat="59.18328" lon="-177.90412"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/23</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.26228" lon="-178.49468"></trkpt>
+    <trkpt lat="60.23848" lon="-178.49588"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/24</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.50263" lon="-178.85597"></trkpt>
+    <trkpt lat="60.4848" lon="-178.82478"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/25</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.60875" lon="-178.8252"></trkpt>
+    <trkpt lat="60.58738" lon="-178.81365"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/32</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.10278" lon="-179.05655"></trkpt>
+    <trkpt lat="60.08202" lon="-179.06837"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/34</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.86932" lon="-178.8157"></trkpt>
+    <trkpt lat="59.85093" lon="-178.78737"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/36</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-11T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.80195" lon="-178.68562"></trkpt>
+    <trkpt lat="59.78457" lon="-178.65783"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/40</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.62662" lon="-178.4405"></trkpt>
+    <trkpt lat="59.64573" lon="-178.46448"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/43</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.50043" lon="-178.29215"></trkpt>
+    <trkpt lat="59.48233" lon="-178.26887"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/44</name>
+  <desc>0: Good performance</desc>
+  <time>2010-06-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.53132" lon="-178.25332"></trkpt>
+    <trkpt lat="59.5147" lon="-178.22435"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/135</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.39217" lon="-167.99772"></trkpt>
+    <trkpt lat="55.40215" lon="-168.02577"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/137</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-05T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.20958" lon="-167.64843"></trkpt>
+    <trkpt lat="55.22823" lon="-167.67907"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/140</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-05T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.19" lon="-167.81785"></trkpt>
+    <trkpt lat="55.17342" lon="-167.79488"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/142</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.05765" lon="-167.45113"></trkpt>
+    <trkpt lat="55.04258" lon="-167.42257"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/148</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.92483" lon="-167.34555"></trkpt>
+    <trkpt lat="54.9379" lon="-167.37593"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/174</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-13T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.82585" lon="-167.14757"></trkpt>
+    <trkpt lat="54.815" lon="-167.11397"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/175</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-13T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.95407" lon="-167.18303"></trkpt>
+    <trkpt lat="54.94608" lon="-167.14977"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/178</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73788" lon="-166.84728"></trkpt>
+    <trkpt lat="54.72488" lon="-166.82048"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/179</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.88337" lon="-166.98167"></trkpt>
+    <trkpt lat="54.87615" lon="-166.94773"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/180</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.80985" lon="-166.65038"></trkpt>
+    <trkpt lat="54.81822" lon="-166.68407"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/182</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-15T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.6436" lon="-166.73152"></trkpt>
+    <trkpt lat="54.64" lon="-166.69577"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/183</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-15T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.74018" lon="-166.58717"></trkpt>
+    <trkpt lat="54.73188" lon="-166.55425"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/184</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-15T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.79538" lon="-166.44425"></trkpt>
+    <trkpt lat="54.8" lon="-166.47753"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/185</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-15T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.77367" lon="-166.2787"></trkpt>
+    <trkpt lat="54.77622" lon="-166.32157"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/186</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.7348" lon="-166.1726"></trkpt>
+    <trkpt lat="54.73512" lon="-166.21167"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/187</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.67092" lon="-166.09122"></trkpt>
+    <trkpt lat="54.66957" lon="-166.12723"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/188</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.76522" lon="-165.8654"></trkpt>
+    <trkpt lat="54.76417" lon="-165.893"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/189</name>
+  <desc>-3.13: Alaskan crab pot</desc>
+  <time>2010-07-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.71782" lon="-165.66777"></trkpt>
+    <trkpt lat="54.71782" lon="-165.70227"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/190</name>
+  <desc>1.1: Minor hang(s)</desc>
+  <time>2010-07-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.72368" lon="-165.74005"></trkpt>
+    <trkpt lat="54.71957" lon="-165.70348"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/191</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.77623" lon="-165.55782"></trkpt>
+    <trkpt lat="54.7762" lon="-165.59595"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/192</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.70715" lon="-165.49793"></trkpt>
+    <trkpt lat="54.71682" lon="-165.52822"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2010/94/193</name>
+  <desc>0: Good performance</desc>
+  <time>2010-07-17T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.65058" lon="-165.64245"></trkpt>
+    <trkpt lat="54.63073" lon="-165.63695"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/1</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.77494" lon="-165.54919"></trkpt>
+    <trkpt lat="54.77132" lon="-165.58701"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/2</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.74907" lon="-165.42688"></trkpt>
+    <trkpt lat="54.73002" lon="-165.40942"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/3</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.71713" lon="-165.54935"></trkpt>
+    <trkpt lat="54.7058" lon="-165.51728"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/4</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-09T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.63245" lon="-165.64072"></trkpt>
+    <trkpt lat="54.61123" lon="-165.6403"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/13</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-11T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.9253" lon="-167.34335"></trkpt>
+    <trkpt lat="54.9362" lon="-167.37397"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/35</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.52788" lon="-178.25208"></trkpt>
+    <trkpt lat="59.51185" lon="-178.22417"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/36</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.50305" lon="-178.30178"></trkpt>
+    <trkpt lat="59.48718" lon="-178.27502"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/37</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.52798" lon="-178.0648"></trkpt>
+    <trkpt lat="59.52137" lon="-178.10617"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/38</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.51275" lon="-177.78427"></trkpt>
+    <trkpt lat="59.50607" lon="-177.82067"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/48</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-18T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.29955" lon="-177.69013"></trkpt>
+    <trkpt lat="59.31832" lon="-177.67715"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/49</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.19" lon="-177.9422"></trkpt>
+    <trkpt lat="59.18397" lon="-177.90127"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/52</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-20T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.60923" lon="-178.82987"></trkpt>
+    <trkpt lat="60.58957" lon="-178.81995"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/53</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-20T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.50607" lon="-178.8626"></trkpt>
+    <trkpt lat="60.49213" lon="-178.83618"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/60</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.31417" lon="-178.67923"></trkpt>
+    <trkpt lat="60.33192" lon="-178.70537"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/61</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.18083" lon="-178.85553"></trkpt>
+    <trkpt lat="60.16972" lon="-178.88928"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/63</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.10113" lon="-179.0607"></trkpt>
+    <trkpt lat="60.08287" lon="-179.0745"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/65</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.95135" lon="-178.93342"></trkpt>
+    <trkpt lat="59.93302" lon="-178.91413"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/67</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.87167" lon="-178.82015"></trkpt>
+    <trkpt lat="59.85518" lon="-178.79982"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/68</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.80037" lon="-178.68437"></trkpt>
+    <trkpt lat="59.78442" lon="-178.66103"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/71</name>
+  <desc>0: Good performance</desc>
+  <time>2012-06-24T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.62265" lon="-178.43533"></trkpt>
+    <trkpt lat="59.63883" lon="-178.45938"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/142</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-13T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.57663" lon="-168.48733"></trkpt>
+    <trkpt lat="55.56623" lon="-168.45377"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/143</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.48143" lon="-168.26048"></trkpt>
+    <trkpt lat="55.46958" lon="-168.23088"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/147</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.39493" lon="-167.99998"></trkpt>
+    <trkpt lat="55.40393" lon="-168.0335"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/149</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-15T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.20178" lon="-167.83182"></trkpt>
+    <trkpt lat="55.18555" lon="-167.80957"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/157</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-17T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.68438" lon="-165.76423"></trkpt>
+    <trkpt lat="54.68392" lon="-165.7282"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/158</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-18T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.75942" lon="-166.00678"></trkpt>
+    <trkpt lat="54.75998" lon="-165.96985"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/161</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-18T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.67247" lon="-166.08735"></trkpt>
+    <trkpt lat="54.67013" lon="-166.1226"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/162</name>
+  <desc>5: Unspecified gear performance problem</desc>
+  <time>2012-07-18T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73468" lon="-166.17778"></trkpt>
+    <trkpt lat="54.73487" lon="-166.21188"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/163</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-18T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.78985" lon="-166.44193"></trkpt>
+    <trkpt lat="54.79167" lon="-166.47822"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/165</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.64437" lon="-166.74622"></trkpt>
+    <trkpt lat="54.64037" lon="-166.71067"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/166</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.81105" lon="-166.659"></trkpt>
+    <trkpt lat="54.81778" lon="-166.69302"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/167</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.87062" lon="-166.9282"></trkpt>
+    <trkpt lat="54.88332" lon="-166.95672"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/168</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-19T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.94748" lon="-167.1587"></trkpt>
+    <trkpt lat="54.95733" lon="-167.18803"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/169</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-20T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.02885" lon="-167.34093"></trkpt>
+    <trkpt lat="55.041" lon="-167.37005"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/174</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-21T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.13682" lon="-167.55865"></trkpt>
+    <trkpt lat="55.12872" lon="-167.54623"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2012/94/188</name>
+  <desc>0: Good performance</desc>
+  <time>2012-07-24T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73135" lon="-166.98532"></trkpt>
+    <trkpt lat="54.74373" lon="-167.01448"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/1</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.51341" lon="-165.63091"></trkpt>
+    <trkpt lat="54.53591" lon="-165.61"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/2</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.61066" lon="-165.69009"></trkpt>
+    <trkpt lat="54.58242" lon="-165.68449"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/4</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.68975" lon="-165.77969"></trkpt>
+    <trkpt lat="54.6908" lon="-165.8201"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/5</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.71818" lon="-165.5506"></trkpt>
+    <trkpt lat="54.7086" lon="-165.5126"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/6</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.74322" lon="-165.408"></trkpt>
+    <trkpt lat="54.72005" lon="-165.3958"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/10</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.67689" lon="-165.9133"></trkpt>
+    <trkpt lat="54.67704" lon="-165.8681"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/11</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-09T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.68628" lon="-166.3597"></trkpt>
+    <trkpt lat="54.68728" lon="-166.3963"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/20</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.79754" lon="-166.44279"></trkpt>
+    <trkpt lat="54.80106" lon="-166.4836"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/22</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73371" lon="-166.84039"></trkpt>
+    <trkpt lat="54.7176" lon="-166.8062"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/23</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.72525" lon="-166.98981"></trkpt>
+    <trkpt lat="54.74073" lon="-167.01421"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/37</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.94371" lon="-167.149"></trkpt>
+    <trkpt lat="54.95669" lon="-167.181"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/42</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-16T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.0349" lon="-167.34509"></trkpt>
+    <trkpt lat="55.05096" lon="-167.3779"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/43</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-17T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.17145" lon="-167.7912"></trkpt>
+    <trkpt lat="55.19078" lon="-167.81689"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/44</name>
+  <desc>0: Good performance</desc>
+  <time>2004-06-17T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.40062" lon="-168.0256"></trkpt>
+    <trkpt lat="55.41005" lon="-168.0493"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/107</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.18926" lon="-177.9424"></trkpt>
+    <trkpt lat="59.18312" lon="-177.90311"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/111</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.63767" lon="-178.4613"></trkpt>
+    <trkpt lat="59.65533" lon="-178.48511"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/114</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.79277" lon="-178.6739"></trkpt>
+    <trkpt lat="59.77554" lon="-178.64819"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/121</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.59806" lon="-178.8204"></trkpt>
+    <trkpt lat="60.57672" lon="-178.8127"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/122</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.49509" lon="-178.842"></trkpt>
+    <trkpt lat="60.47863" lon="-178.8119"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/123</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.40621" lon="-178.6824"></trkpt>
+    <trkpt lat="60.39474" lon="-178.67191"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/124</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.24598" lon="-178.49409"></trkpt>
+    <trkpt lat="60.2248" lon="-178.50169"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/125</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-10T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.17766" lon="-178.86391"></trkpt>
+    <trkpt lat="60.16566" lon="-178.9046"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/127</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-11T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.09016" lon="-179.0674"></trkpt>
+    <trkpt lat="60.06836" lon="-179.0708"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/132</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.94329" lon="-178.9265"></trkpt>
+    <trkpt lat="59.92415" lon="-178.9059"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/134</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-12T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.85084" lon="-178.7887"></trkpt>
+    <trkpt lat="59.86783" lon="-178.81689"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/139</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.51374" lon="-178.157"></trkpt>
+    <trkpt lat="59.51933" lon="-178.1151"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/140</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.64364" lon="-177.8754"></trkpt>
+    <trkpt lat="59.65971" lon="-177.8447"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/141</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.50753" lon="-177.84689"></trkpt>
+    <trkpt lat="59.51231" lon="-177.8044"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/143</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-14T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.39652" lon="-177.60519"></trkpt>
+    <trkpt lat="59.37294" lon="-177.605"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/185</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-28T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.57114" lon="-168.4711"></trkpt>
+    <trkpt lat="55.55871" lon="-168.4373"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/186</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-28T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.4595" lon="-168.2023"></trkpt>
+    <trkpt lat="55.445" lon="-168.17261"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/189</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.30472" lon="-167.9303"></trkpt>
+    <trkpt lat="55.29066" lon="-167.9012"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/196</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-30T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.03708" lon="-167.4097"></trkpt>
+    <trkpt lat="55.05104" lon="-167.4402"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/197</name>
+  <desc>0: Good performance</desc>
+  <time>2004-07-30T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.1243" lon="-167.5251"></trkpt>
+    <trkpt lat="55.10819" lon="-167.4966"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/216</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.81839" lon="-167.1259"></trkpt>
+    <trkpt lat="54.83447" lon="-167.15311"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/217</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.88134" lon="-166.9675"></trkpt>
+    <trkpt lat="54.87196" lon="-166.9321"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/218</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.86826" lon="-166.82201"></trkpt>
+    <trkpt lat="54.85925" lon="-166.7867"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/219</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.82407" lon="-166.8405"></trkpt>
+    <trkpt lat="54.81605" lon="-166.80479"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/220</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.64337" lon="-166.74339"></trkpt>
+    <trkpt lat="54.6404" lon="-166.70531"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/229</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-06T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.67021" lon="-166.1181"></trkpt>
+    <trkpt lat="54.66798" lon="-166.1566"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/230</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.7333" lon="-166.1981"></trkpt>
+    <trkpt lat="54.73457" lon="-166.23779"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/231</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.77468" lon="-166.31731"></trkpt>
+    <trkpt lat="54.77306" lon="-166.27901"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/232</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.76067" lon="-166.0152"></trkpt>
+    <trkpt lat="54.75959" lon="-165.9762"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/233</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.76721" lon="-165.9174"></trkpt>
+    <trkpt lat="54.76446" lon="-165.879"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/234</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.75563" lon="-165.7657"></trkpt>
+    <trkpt lat="54.75536" lon="-165.72749"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/235</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-07T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.72081" lon="-165.7149"></trkpt>
+    <trkpt lat="54.71975" lon="-165.67571"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/239</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.58627" lon="-165.7061"></trkpt>
+    <trkpt lat="54.57425" lon="-165.7068"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2004/134/240</name>
+  <desc>0: Good performance</desc>
+  <time>2004-08-08T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.63544" lon="-165.6394"></trkpt>
+    <trkpt lat="54.61127" lon="-165.64169"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/44</name>
+  <desc>0: Good performance</desc>
+  <time>2016-06-27T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.78437" lon="-178.66084"></trkpt>
+    <trkpt lat="59.79021" lon="-178.66897"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/47</name>
+  <desc>1.1: Minor hang(s)</desc>
+  <time>2016-06-28T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.93416" lon="-178.91705"></trkpt>
+    <trkpt lat="59.94934" lon="-178.93472"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/54</name>
+  <desc>0: Good performance</desc>
+  <time>2016-06-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.22931" lon="-178.50024"></trkpt>
+    <trkpt lat="60.24681" lon="-178.49504"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/55</name>
+  <desc>0: Good performance</desc>
+  <time>2016-06-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.37937" lon="-178.65654"></trkpt>
+    <trkpt lat="60.3986" lon="-178.67299"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/56</name>
+  <desc>0: Good performance</desc>
+  <time>2016-06-30T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.58248" lon="-178.81399"></trkpt>
+    <trkpt lat="60.59546" lon="-178.81847"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/59</name>
+  <desc>0: Good performance</desc>
+  <time>2016-06-30T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.64748" lon="-178.47237"></trkpt>
+    <trkpt lat="59.62988" lon="-178.45116"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/62</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-01T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.48338" lon="-178.26982"></trkpt>
+    <trkpt lat="59.49448" lon="-178.28849"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/64</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-02T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.54158" lon="-178.26719"></trkpt>
+    <trkpt lat="59.52479" lon="-178.24133"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/66</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-02T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.51372" lon="-178.15614"></trkpt>
+    <trkpt lat="59.51639" lon="-178.12858"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/67</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-02T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.50877" lon="-177.8334"></trkpt>
+    <trkpt lat="59.51305" lon="-177.79163"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/68</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-02T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.64435" lon="-177.87138"></trkpt>
+    <trkpt lat="59.65906" lon="-177.83996"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/72</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="59.43294" lon="-177.66346"></trkpt>
+    <trkpt lat="59.40984" lon="-177.66601"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/133</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-22T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.45713" lon="-168.19724"></trkpt>
+    <trkpt lat="55.44513" lon="-168.16873"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/134</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-23T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.40497" lon="-168.03556"></trkpt>
+    <trkpt lat="55.39298" lon="-168.0059"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/142</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-24T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.81669" lon="-167.1202"></trkpt>
+    <trkpt lat="54.82804" lon="-167.1501"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/143</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-25T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.94082" lon="-167.13558"></trkpt>
+    <trkpt lat="54.95114" lon="-167.16835"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/155</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-28T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73772" lon="-166.84844"></trkpt>
+    <trkpt lat="54.72528" lon="-166.82035"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/162</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.72349" lon="-165.39767"></trkpt>
+    <trkpt lat="54.74371" lon="-165.41093"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/163</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.72035" lon="-165.69072"></trkpt>
+    <trkpt lat="54.7204" lon="-165.72615"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/164</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-29T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.76216" lon="-165.86258"></trkpt>
+    <trkpt lat="54.76383" lon="-165.88355"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/166</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-30T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.67028" lon="-166.08589"></trkpt>
+    <trkpt lat="54.67052" lon="-166.12246"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/167</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-30T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73379" lon="-166.19586"></trkpt>
+    <trkpt lat="54.73334" lon="-166.23267"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/168</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-30T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.6872" lon="-166.36544"></trkpt>
+    <trkpt lat="54.68895" lon="-166.40167"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/169</name>
+  <desc>0: Good performance</desc>
+  <time>2016-07-31T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.73554" lon="-166.56689"></trkpt>
+    <trkpt lat="54.74323" lon="-166.60214"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/175</name>
+  <desc>0: Good performance</desc>
+  <time>2016-08-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55.04238" lon="-167.5333"></trkpt>
+    <trkpt lat="55.02792" lon="-167.5072"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/176</name>
+  <desc>0: Good performance</desc>
+  <time>2016-08-03T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.93757" lon="-167.37269"></trkpt>
+    <trkpt lat="54.92416" lon="-167.34521"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/178</name>
+  <desc>0: Good performance</desc>
+  <time>2016-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.76027" lon="-166.02028"></trkpt>
+    <trkpt lat="54.76166" lon="-165.98995"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/179</name>
+  <desc>0: Good performance</desc>
+  <time>2016-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.75574" lon="-165.76692"></trkpt>
+    <trkpt lat="54.75633" lon="-165.73337"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2016/178/180</name>
+  <desc>0: Good performance</desc>
+  <time>2016-08-04T00:00:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.63331" lon="-165.63851"></trkpt>
+    <trkpt lat="54.6124" lon="-165.63959"></trkpt>  </trkseg>
+</trk>
+</gpx>

@@ -212,14 +212,6 @@ make_station_allocation <- function(allocation_df,
                     software_format = software_format,
                     file_type = file_type)[symbol_index]
     
-    # allocation_sf$color <- navmaps_pal(values = vessel_colors, 
-    #                                        software_format = software_format,
-    #                                        file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
-    # 
-    # allocation_sf$shape <- navmaps_sym_pal(values = vessel_symbols, 
-    #                                        software_format = software_format,
-    #                                        file_type = file_type)[as.numeric(factor(allocation_sf[[vessel_col]]))]
-    
     allocation_sf$time <- Sys.time()
     
     fpath <- here::here("output", region, "navigation", software_format, paste0(region, "_station_allocation.", file_type))
