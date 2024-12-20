@@ -11,5 +11,5 @@ graph TD
     G["Are GPS data available from a backup data source?"]--> |Yes| H["Import .gps file into Poseidon"]
     G["Are GPS data available from a backup data source?"]--> |No| I["Manually enters coordinates from paper forms."]
   end
-  I["Manually enters coordinates from paper forms."]--> A["User enters new event time"]
+  H["Import .gps file into Poseidon"]--> A["User enters new event time"]
 ```
