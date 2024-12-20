@@ -9,7 +9,7 @@ graph TD
   F["No automatic GPS fix (leave blank)"]--> G["Are GPS data available from a backup data source?"]
   subgraph User steps
     G["Are GPS data available from a backup data source?"]--> |Yes| H["Import .gps file into Poseidon"]
-    G["Are GPS data available from a backup data source?"]--> |No| I["Manually enters coordinates from paper forms."]
+    G["Are GPS data available from a backup data source?"]--> |No| I["Manually enter coordinates from paper forms."]
   end
   H["Import .gps file into Poseidon"]--> A["User enters new event time"]
 ```
