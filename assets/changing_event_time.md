@@ -22,6 +22,6 @@ graph TD
   A["User imports .gps file"]-->B["Are there already position data for the date/time?"]
   subgraph For each fix in the .gps file
     B["Are there already position data for the date/time?"]--> |Yes| C["Do nothing."]
-    B["Are there already position data for the date/time?"]--> |No| C["Insert location and date/time from .gps file."]
+    B["Are there already position data for the date/time?"]--> |No| D["Insert location and date/time from .gps file."]
   end
 ```
