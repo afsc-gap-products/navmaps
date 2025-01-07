@@ -59,7 +59,7 @@ ebs_layers <- akgfmaps::get_base_layers(select.region = "sebs",
                                         set.crs = map_crs,
                                         include.corners = FALSE)
 
-ebs_layers$survey.grid$otoliths <- ifelse(ebs_layers$survey.grid$STATIONID %in% high_pollock_stations, "Pollock high (5)", "Pollock low (3)")
+ebs_layers$survey.grid$otoliths <- ifelse(ebs_layers$survey.grid$STATION %in% high_pollock_stations, "Pollock high (5)", "Pollock low (3)")
 
 ebs_centroid <- sf::st_centroid(ebs_layers$survey.grid) |>
   dplyr::mutate(station_label = "Index Station")
@@ -86,8 +86,8 @@ row_stations <- c("V-29", "U-30", "T-31", "S-32", "R-33", "Q-33", "P-33", "O-33"
                   "Z-03")
 
 col_grid <- dplyr::filter(outside_grid, 
-                          STATIONID %in% col_stations) |>
-  dplyr::mutate(label = gsub(pattern = "[^0-9]", replacement = "", x = STATIONID))
+                          STATION %in% col_stations) |>
+  dplyr::mutate(label = gsub(pattern = "[^0-9]", replacement = "", x = STATION))
 
 col_grid_labels <- col_grid |> 
   sf::st_drop_geometry() |>
@@ -98,8 +98,8 @@ col_grid_labels <- col_grid |>
   )
 
 row_grid <- dplyr::filter(outside_grid, 
-                          STATIONID %in% row_stations) |>
-  dplyr::mutate(label = gsub(pattern = "[^[:alpha:]]", replacement = "", x = STATIONID))
+                          STATION %in% row_stations) |>
+  dplyr::mutate(label = gsub(pattern = "[^[:alpha:]]", replacement = "", x = STATION))
 
 row_grid_labels <- row_grid |> 
   sf::st_drop_geometry() |>

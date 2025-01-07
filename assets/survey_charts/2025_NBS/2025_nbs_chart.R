@@ -46,7 +46,8 @@ nbs_layers <- akgfmaps::get_base_layers(select.region = "nbs",
 nbs_centroid <- sf::st_centroid(nbs_layers$survey.grid) |>
   dplyr::mutate(station_label = "Index Station")
 
-outside_grid <- sf::st_read(system.file("/extdata/bs_grid.shp", package = "akgfmaps"))
+outside_grid <- sf::st_read(system.file("/extdata/bs_grid.shp", package = "akgfmaps")) |>
+  dplyr::rename(STATION = STATIONID)
 
 col_stations <- c(paste0("V-", 25:27), 
                   paste0("S-", 22:24),
@@ -62,8 +63,8 @@ col_stations <- c(paste0("V-", 25:27),
 row_stations <- c("FF-19", "EE-20", "DD-21", "CC-22", "BB-23", "AA-24", "ZZ-25", "Y-26", "X-27", "W-28")
 
 col_grid <- dplyr::filter(outside_grid, 
-                          STATIONID %in% col_stations) |>
-  dplyr::mutate(label = gsub(pattern = "[^0-9]", replacement = "", x = STATIONID))
+                          STATION %in% col_stations) |>
+  dplyr::mutate(label = gsub(pattern = "[^0-9]", replacement = "", x = STATION))
 
 col_grid_labels <- col_grid |> 
   sf::st_drop_geometry() |>
@@ -74,8 +75,8 @@ col_grid_labels <- col_grid |>
   )
 
 row_grid <- dplyr::filter(outside_grid, 
-                          STATIONID %in% row_stations) |>
-  dplyr::mutate(label = gsub(pattern = "[^[:alpha:]]", replacement = "", x = STATIONID))
+                          STATION %in% row_stations) |>
+  dplyr::mutate(label = gsub(pattern = "[^[:alpha:]]", replacement = "", x = STATION))
 
 row_grid_labels <- row_grid |> 
   sf::st_drop_geometry() |>
