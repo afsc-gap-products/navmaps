@@ -11,7 +11,7 @@ demo_station <- "228-30"
 
 map_layers <- akgfmaps::get_base_layers(select.region = "AI", set.crs = "EPSG:3338")
 
-station_cell <- dplyr::filter(map_layers$survey.grid, STATIONID == demo_station)
+station_cell <- dplyr::filter(map_layers$survey.grid, ID == demo_station)
 
 station_bbox <- sf::st_bbox(station_cell)
 

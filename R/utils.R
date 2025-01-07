@@ -4,11 +4,12 @@
 #'
 #' @param schema Data source name (DSN) as a character vector.
 #' @param channel Open channel- used internally to handle connections.
+#' @param check_connections If TRUE, checks that the user has access to the necessary tables.
 #' @return An RODBC class ODBC connection.
 #' @export
 #' @import getPass RODBC
 
-get_connected <- function(channel = NULL, schema = NA) {
+get_connected <- function(channel = NULL, schema = NA, check_connections = TRUE) {
   
   if(is.null(channel)) {
     (echo = FALSE)
@@ -24,6 +25,14 @@ get_connected <- function(channel = NULL, schema = NA) {
   }
   
   stopifnot("get_connected: RODBC did not successfully connect." =  class(channel) == "RODBC")
+  
+  # if(check_connections) {
+  #   
+  #   odbcTables(channel)
+  #   
+  #   RODBC::sqlFetch(channel = channel, sqtable = "racebase.haul", max = 1)
+  #   
+  # }
   
   return(channel)
   
