@@ -64,7 +64,8 @@ ebs_layers$survey.grid$otoliths <- ifelse(ebs_layers$survey.grid$STATION %in% hi
 ebs_centroid <- sf::st_centroid(ebs_layers$survey.grid) |>
   dplyr::mutate(station_label = "Index Station")
 
-outside_grid <- sf::st_read(system.file("/extdata/bs_grid.shp", package = "akgfmaps")) # |>
+outside_grid <- sf::st_read(system.file("/extdata/bs_grid.shp", package = "akgfmaps")) |>
+  dplyr::rename(STATION = STATIONID) # |>
 #   dplyr::filter((!STATIONID %in% c(ebs_layers$survey.grid$STATIONID, "Z-04")))
 # 
 # outside_grid$touches <- apply(
