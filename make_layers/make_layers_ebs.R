@@ -10,8 +10,8 @@ map_layers <- akgfmaps::get_base_layers(select.region = region,
 
 saveRDS(object = map_layers, file = here::here("assets", "data", paste0(region, "_map_layers.rds")))
 
-# channel <- get_connected(schema = "AFSC_32")
-channel <- get_connected(schema = "AFSC")
+channel <- get_connected(schema = "AFSC_32")
+# channel <- get_connected(schema = "AFSC")
 
 # 3. Get data
 get_gps_data(region = region, channel = channel)

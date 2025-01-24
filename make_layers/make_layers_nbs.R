@@ -18,6 +18,10 @@ software_types <- c("globe", "timezero", "opencpn")
 for(ii in 1:length(software_types)) {
   set_software(software_types[ii])
   
+  if(SOFTWARE == "globe") {
+    map_layers <- readRDS(here::here("assets", "data", paste0(region, "_map_layers.rds")))
+  }
+  
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region, 
@@ -39,8 +43,8 @@ for(ii in 1:length(software_types)) {
     x = survey_grid,
     geometry = "LINESTRING",
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
-    name_col = "STATIONID",
-    description_col = "STATIONID",
+    name_col = "STATION",
+    description_col = "STATION",
     color_col = "color", 
     software_format = SOFTWARE
   )
@@ -62,8 +66,8 @@ for(ii in 1:length(software_types)) {
   sf_to_nav_file(
     x = grid_centers,
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_marks.", FILE_TYPE_POINT)),
-    name_col = "STATIONID",
-    description_col = "STATIONID",
+    name_col = "STATION",
+    description_col = "STATION",
     color_col = "color",
     shape_col = "shape",
     software_format = SOFTWARE
@@ -81,7 +85,7 @@ for(ii in 1:length(software_types)) {
     x = strata,
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)), 
     name_col = "name",
-    description_col = "Stratum",
+    description_col = "STRATUM",
     color_col = "color",
     fill_col = "fill",
     software_format = SOFTWARE
@@ -89,7 +93,7 @@ for(ii in 1:length(software_types)) {
   
   # 9. Spectacled Eider Critical Habitat
   
-  eider <- sf::st_read(here::here("data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp")) |>
+  eider <- sf::st_read(here::here("assets", "data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp")) |>
     dplyr::filter(Unit_ID == "3 - Norton Sound")
   
   sf::st_write(eider, here::here("output", region, "shapefiles", "SE_Only_Norton_Sound.shp"), append = FALSE)
@@ -110,29 +114,16 @@ for(ii in 1:length(software_types)) {
     software_format = SOFTWARE
   )
   
-  # 13. Buoys
-  buoys <- readxl::read_xlsx(path = here::here("data", "buoys", "Buoys_2023_04_01.xlsx")) |>
-    dplyr::mutate(LONGITUDE = dms_string_to_dd(POSITION)[,1],
-                  LATITUDE = dms_string_to_dd(POSITION)[,2]) |>
-    sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326")
-  buoys$shape <- navmaps_sym_pal(values = "warning", 
-                                 software_format = SOFTWARE, 
-                                 file_type = FILE_TYPE_POINT)
-  buoys$color <- navmaps_pal(values = "darkorange", 
-                             software_format = SOFTWARE, 
-                             file_type = FILE_TYPE_POINT)
-  buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
-  
-  sf_to_nav_file(x = buoys,
-                 file = here::here("output", region, "navigation", SOFTWARE, paste0("buoys_2023_07_26.", FILE_TYPE_POINT)),
-                 name_col = "TYPE.NAME",
-                 description_col = "description",
-                 color_col = "color",
-                 shape_col = "shape",
-                 software_format = SOFTWARE)
-  
 }
 
-file.copy(from = here::here("output", region),
+file.copy(from = here::here("output", region, "navigation"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("output", region, "shapefiles"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("output", region, "gps"),
           to = paste0("G:/RACE_CHARTS/", region),
           recursive = TRUE)
