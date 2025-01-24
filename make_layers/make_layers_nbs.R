@@ -8,6 +8,8 @@ region <- "nbs" # Options are sebs, nbs, ai, goa
 map_layers <- akgfmaps::get_base_layers(select.region = region)
 channel <- get_connected(schema = "AFSC")
 
+saveRDS(object = map_layers, file = here::here("assets", "data", paste0(region, "_map_layers.rds")))
+
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
@@ -130,3 +132,7 @@ for(ii in 1:length(software_types)) {
                  software_format = SOFTWARE)
   
 }
+
+file.copy(from = here::here("output", region),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)

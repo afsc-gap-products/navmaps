@@ -3,17 +3,17 @@
 <trk>
   <name>NPRW Critical Habitat</name>
   <desc>NPRW Critical Habitat</desc>
-  <time>2023-04-18T07:54:40.000000Z</time>
+  <time>2025-01-24T09:53:03.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
     </gpxx:TrackExtension>
   </extensions>  <trkseg>    <trkpt lat="58.0000000042989" lon="-163.000000005341"></trkpt>
-    <trkpt lat="56.5000000014493" lon="-161.750000001769"></trkpt>
+    <trkpt lat="56.5000000014492" lon="-161.750000001769"></trkpt>
     <trkpt lat="55.0000000005586" lon="-166.000000000159"></trkpt>
-    <trkpt lat="56.0000000006229" lon="-168.000000000142"></trkpt>
+    <trkpt lat="56.0000000006228" lon="-168.000000000142"></trkpt>
     <trkpt lat="58.0000000006975" lon="-168.000000000689"></trkpt>
-    <trkpt lat="58.0041509688408" lon="-167.027618727561"></trkpt>
+    <trkpt lat="58.0041509688407" lon="-167.027618727561"></trkpt>
     <trkpt lat="58.0006174430545" lon="-165.994108882634"></trkpt>
     <trkpt lat="58.008179076068" lon="-165.003062993603"></trkpt>
     <trkpt lat="58.0000000042989" lon="-163.000000005341"></trkpt>  </trkseg>
@@ -21,15 +21,15 @@
 <trk>
   <name>NPRW Critical Habitat</name>
   <desc>NPRW Critical Habitat</desc>
-  <time>2023-04-18T07:54:40.000000Z</time>
+  <time>2025-01-24T09:53:03.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
     </gpxx:TrackExtension>
-  </extensions>  <trkseg>    <trkpt lat="56.7500000010719" lon="-153.000000000902"></trkpt>
+  </extensions>  <trkseg>    <trkpt lat="56.7500000010718" lon="-153.000000000902"></trkpt>
     <trkpt lat="57.0500000012359" lon="-153.000000000431"></trkpt>
     <trkpt lat="57.3000000045021" lon="-151.499999997701"></trkpt>
     <trkpt lat="57.0000000021471" lon="-151.500000003589"></trkpt>
-    <trkpt lat="56.7500000010719" lon="-153.000000000902"></trkpt>  </trkseg>
+    <trkpt lat="56.7500000010718" lon="-153.000000000902"></trkpt>  </trkseg>
 </trk>
 </gpx>

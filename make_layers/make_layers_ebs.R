@@ -8,6 +8,8 @@ region <- "sebs" # Options are sebs, nbs, ai, goa
 map_layers <- akgfmaps::get_base_layers(select.region = region, 
                                         split.land.at.180 = FALSE)
 
+saveRDS(object = map_layers, file = here::here("assets", "data", paste0(region, "_map_layers.rds")))
+
 # channel <- get_connected(schema = "AFSC_32")
 channel <- get_connected(schema = "AFSC")
 
@@ -15,10 +17,14 @@ channel <- get_connected(schema = "AFSC")
 get_gps_data(region = region, channel = channel)
 
 # Options are globe, opencpn, timezero
-software_types <- c("timezero", "globe") 
+software_types <- c("timezero", "opencpn", "globe") 
 
 for(ii in 1:length(software_types)) {
   set_software(software_types[ii]) 
+  
+  if(SOFTWARE == "globe") {
+    map_layers <- readRDS(here::here("assets", "data", paste0(region, "_map_layers.rds")))
+  }
   
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
@@ -167,3 +173,15 @@ for(ii in 1:length(software_types)) {
                  software_format = SOFTWARE)
   
 }
+
+file.copy(from = here::here("output", region, "navigation"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("output", region, "shapefiles"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("output", region, "gps"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)

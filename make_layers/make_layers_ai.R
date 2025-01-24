@@ -18,7 +18,7 @@ for(ii in 1:length(software_types)) {
   
   set_software(software_types[ii])
   
-  4. Historical towpath, tow start, and midpoint
+  # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region,
     overwrite_midpoint = FALSE,

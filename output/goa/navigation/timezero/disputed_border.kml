@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Dixon Entrance disputed border</name>
+      <description>Dixon Entrance disputed border</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff00a5ff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-130.588897705757, 54.739799498974
+        -128.68033825536, 55.4373501852421
+        -123.285745135132, 49.2938142470101
+        -129.127502457772, 46.5297007887294
+        -138.755599852573, 53.4742011350458
+        -134.285174265232, 54.2391810522164
+        -132.694335800123, 54.6704250704319
+        -132.104034423419, 54.6898002628848
+        -130.588897705757, 54.739799498974
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+  </Document>
+</kml>
