@@ -6,9 +6,9 @@ map_crs <- "EPSG:3338"
 dir.create(here::here("assets", "survey_charts", "2025_NBS"))
 
 # Setup for two charts: one 42x34, one 17x11
-chart_width_in <- 42
-chart_height_in <- 34
-chart_scale <- 3
+chart_width_in <- c(42, 17)
+chart_height_in <- c(34, 11)
+chart_scale <- c(3, 1)
 
 landmark_label <- data.frame(label = c("St. Lawrence", "Nunivak", "Nome"),
                              x = c(-170.27, -166.4, -165.05),
@@ -88,60 +88,64 @@ row_grid_labels <- row_grid |>
 
 grid_labels <- dplyr::bind_rows(row_grid_labels, col_grid_labels)
 
-nbs_chart <-
-  ggplot() +
-  geom_sf(data = nbs_layers$survey.grid, fill = NA) +
-  geom_sf(data = nbs_layers$survey.strata, 
-          fill = NA,
-          color = "grey30") +
-  geom_sf(data = nbs_layers$akland,
-          fill = "white",
-          color = "black") +
-  geom_text(data = alaska_label,
-            mapping = aes(x = x, y = y, label = label),
-            size = rel(alaska_label$rel_size*chart_scale)) +
-  geom_shadowtext(data = landmark_label,
-                  mapping = aes(x = x, y = y, label = label),
-                  size = rel(landmark_label$rel_size*chart_scale),
-                  color = "black", 
-                  bg.color = "white") +
-  geom_sf(data = nbs_centroid, 
-          mapping = aes(shape = station_label),
-          size = rel(3*chart_scale)) +
-  geom_shadowtext(data = title_label,
-                  mapping = aes(x = x, y = y, label = label),
-                  size = rel(title_label$rel_size*chart_scale),
-                  fontface = "bold",
-                  color = "black", 
-                  bg.color = "white") +
-  geom_shadowtext(data = grid_labels,
-                  mapping = aes(x = X, y = Y, label = label),
-                  color = "black", 
-                  bg.color = "white",
-                  fontface = "bold",
-                  size = rel(5*chart_scale)) +
-  geom_sf(data = nome_pin,
-          shape = 23,
-          fill = "limegreen",
-          size = rel(nome_pin$rel_size*chart_scale)) +
-  scale_x_continuous(limits = nbs_layers$plot.boundary$x + c(-5e4, 5e4),
-                     breaks = nbs_layers$lon.breaks) +
-  scale_y_continuous(limits = nbs_layers$plot.boundary$y + c(-5e4, 5e4),
-                     breaks = nbs_layers$lat.breaks) +
-  theme_bw() +
-  theme(axis.title = element_blank(),
-        legend.title = element_blank(),
-        legend.position = c(0.13, 0.07),
-        axis.text = element_text(size = 18*chart_scale),
-        legend.text = element_text(size = 22*chart_scale),
-        legend.key.spacing.y = unit(0.1*chart_scale, "in"),
-        legend.key.size = unit(0.3*chart_scale, "in"))
-
-pdf(file = here::here("assets", 
-                      "survey_charts", 
-                      "2025_NBS", 
-                      paste0("2025_nbs_chart_", chart_width_in, "_", chart_height_in, ".pdf")), 
-    width = chart_width_in, 
-    height = chart_height_in)
-print(nbs_chart)
-dev.off()
+for(ii in 1:length(chart_width_in)) {
+  
+  nbs_chart <-
+    ggplot() +
+    geom_sf(data = nbs_layers$survey.grid, fill = NA) +
+    geom_sf(data = nbs_layers$survey.strata, 
+            fill = NA,
+            color = "grey30") +
+    geom_sf(data = nbs_layers$akland,
+            fill = "white",
+            color = "black") +
+    geom_text(data = alaska_label,
+              mapping = aes(x = x, y = y, label = label),
+              size = rel(alaska_label$rel_size*chart_scale[ii])) +
+    geom_shadowtext(data = landmark_label,
+                    mapping = aes(x = x, y = y, label = label),
+                    size = rel(landmark_label$rel_size*chart_scale[ii]),
+                    color = "black", 
+                    bg.color = "white") +
+    geom_sf(data = nbs_centroid, 
+            mapping = aes(shape = station_label),
+            size = rel(3*chart_scale[ii])) +
+    geom_shadowtext(data = title_label,
+                    mapping = aes(x = x, y = y, label = label),
+                    size = rel(title_label$rel_size*chart_scale[ii]),
+                    fontface = "bold",
+                    color = "black", 
+                    bg.color = "white") +
+    geom_shadowtext(data = grid_labels,
+                    mapping = aes(x = X, y = Y, label = label),
+                    color = "black", 
+                    bg.color = "white",
+                    fontface = "bold",
+                    size = rel(5*chart_scale[ii])) +
+    geom_sf(data = nome_pin,
+            shape = 23,
+            fill = "limegreen",
+            size = rel(nome_pin$rel_size*chart_scale[ii])) +
+    scale_x_continuous(limits = nbs_layers$plot.boundary$x + c(-5e4, 5e4),
+                       breaks = nbs_layers$lon.breaks) +
+    scale_y_continuous(limits = nbs_layers$plot.boundary$y + c(-5e4, 5e4),
+                       breaks = nbs_layers$lat.breaks) +
+    theme_bw() +
+    theme(axis.title = element_blank(),
+          legend.title = element_blank(),
+          legend.position = c(0.13, 0.07),
+          axis.text = element_text(size = 18*chart_scale[ii]),
+          legend.text = element_text(size = 22*chart_scale[ii]),
+          legend.key.spacing.y = unit(0.1*chart_scale[ii], "in"),
+          legend.key.size = unit(0.3*chart_scale[ii], "in"))
+  
+  pdf(file = here::here("assets", 
+                        "survey_charts", 
+                        "2025_NBS", 
+                        paste0("2025_nbs_chart_", chart_width_in[ii], "_", chart_height_in[ii], ".pdf")), 
+      width = chart_width_in[ii], 
+      height = chart_height_in[ii])
+  print(nbs_chart)
+  dev.off()
+  
+}
