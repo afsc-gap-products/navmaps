@@ -168,7 +168,8 @@ for(ii in 1:length(software_types)) {
   
   buoys |>
     sf::st_transform(crs = "EPSG:3338") |>
-    sf::st_write(delete_dsn = TRUE, here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"))
+    sf::st_write(dsn = here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"), 
+                 delete_dsn = TRUE)
   
 }
 
