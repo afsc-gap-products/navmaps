@@ -3,18 +3,18 @@
 <trk>
   <name>Dixon Entrance disputed border</name>
   <desc>Dixon Entrance disputed border</desc>
-  <time>2025-01-24T09:53:04.000000Z</time>
+  <time>2025-01-29T10:39:23.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Orange</gpxx:DisplayColor>
     </gpxx:TrackExtension>
   </extensions>  <trkseg>    <trkpt lat="54.739799498974" lon="-130.588897705757"></trkpt>
     <trkpt lat="55.4373501852421" lon="-128.68033825536"></trkpt>
-    <trkpt lat="49.2938142470101" lon="-123.285745135132"></trkpt>
+    <trkpt lat="49.2938142470102" lon="-123.285745135132"></trkpt>
     <trkpt lat="46.5297007887294" lon="-129.127502457772"></trkpt>
     <trkpt lat="53.4742011350458" lon="-138.755599852573"></trkpt>
     <trkpt lat="54.2391810522164" lon="-134.285174265232"></trkpt>
-    <trkpt lat="54.6704250704319" lon="-132.694335800123"></trkpt>
+    <trkpt lat="54.670425070432" lon="-132.694335800123"></trkpt>
     <trkpt lat="54.6898002628848" lon="-132.104034423419"></trkpt>
     <trkpt lat="54.739799498974" lon="-130.588897705757"></trkpt>  </trkseg>
 </trk>

@@ -148,29 +148,27 @@ for(ii in 1:length(software_types)) {
                  software_format = SOFTWARE)
 
   # 13. Buoys
-  buoys <- readxl::read_xlsx(here::here("assets", "data", "buoys", "lnm_moorings_20240227.xlsx")) |>
-    as.data.frame() |>
-    dplyr::mutate(LONGITUDE = dms_string_to_dd(POSITION)[,1],
-                  LATITUDE = dms_string_to_dd(POSITION)[,2]) |>
-    sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = "EPSG:4326") |>
-    dplyr::rename(TYPE_NAME = `TYPE/NAME`)
-
+  buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
+    dplyr::filter(ATU == 17)
+  
   buoys$shape <- navmaps_sym_pal(values = "warning",
                                  software_format = SOFTWARE,
                                  file_type = FILE_TYPE_POINT)
   buoys$color <- navmaps_pal(values = "darkorange",
                              software_format = SOFTWARE,
                              file_type = FILE_TYPE_POINT)
-
-  buoys$description <- paste0("Top float: ", buoys$`TOP FLOAT DEPTH`, "; Depth: ", buoys$`WATER DEPTH`)
-
+  
   sf_to_nav_file(x = buoys,
-                 file = here::here("output", region,  "navigation", SOFTWARE, paste0("buoys_20240227.", FILE_TYPE_POINT)),
-                 name_col = "TYPE_NAME",
-                 description_col = "description",
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("hazards_buoys_20250121.", FILE_TYPE_POINT)),
+                 name_col = "SUB_CATEGORY",
+                 description_col = "DESCRIPTION",
                  color_col = "color",
                  shape_col = "shape",
                  software_format = SOFTWARE)
+  
+  buoys |>
+    sf::st_transform(crs = "EPSG:3338") |>
+    sf::st_write(delete_dsn = TRUE, here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"))
   
 }
 

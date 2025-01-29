@@ -1,0 +1,2757 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="75.1000500000001" lon="-168.00007">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-03 To: 2026-10-03
+
+Location:
+75.10005° N / 168.00007° W
+Submerged Data Mooring
+Name:  AIM16-1
+Water Depth:  535'
+Top Float Depth:  142'
+POC:  Dr. Humfrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.0705" lon="-164.2485">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-03 To: 2026-10-03
+
+Location:
+67.0705° N / 164.2485° W
+Submerged Data Mooring
+Name:  ZA23-ST-KS01
+Water Depth:  55'
+Top Float Depth: 48' 
+POC:  Dr. Manuel Castellote
+Phone:  206-526-6866
+Email:  manuel.castellote@noaa.gov
+
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.6835300000001" lon="-164.45487">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-03 To: 2026-10-03
+
+Location:
+66.68353° N / 164.45487° W
+Submerged Data Mooring
+Name:  XA23-ST-KS03
+Water Depth:  59’
+Top Float Depth: 52’ 
+POC:  Dr. Manuel Castellote
+Phone:  206-526-6866
+Email:  manuel.castellote@noaa.gov
+
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.78135" lon="-163.75167">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-03 To: 2026-10-03
+
+Location:
+66.78135° N / 163.75167° W
+
+Submerged Data Mooring
+Name:  XA23-ST-KS02
+Water Depth:  80’
+Top Float Depth: 73’ 
+POC:  Dr. Manuel Castellote
+Phone:  206-526-6866
+Email:  manuel.castellote@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.6101300000001" lon="-164.63417">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-03 To: 2025-04-01
+
+Location:
+66.61013° N / 164.63417° W
+
+Submerged Data Mooring
+Name:  XA23-ST-KS04
+Water Depth:  49’
+Top Float Depth: 42’ 
+POC:  Dr. Manuel Castellote
+Phone:  206-526-6866
+Email:  manuel.castellote@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.2289000000001" lon="-162.16302">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-03 To: 2026-10-03
+
+Location:
+66.2289° N / 162.16302° W
+
+Submerged Data Mooring
+Name:  XA23-ST-KS07
+Water Depth:  46’
+Top Float Depth: 39’ 
+POC:  Dr. Manuel Castellote
+Phone:  206-526-6866
+Email:  manuel.castellote@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.2047700000001" lon="-174.67642">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-04 To: 2026-10-04
+
+Location:
+62.20477° N / 174.67642° W
+
+Submerged Data Mooring
+Name:  AL23-AU-M08
+Water Depth:  230’
+Top Float Depth: 197’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.8677700000001" lon="-164.05852">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-04 To: 2026-10-04
+
+Location:
+56.86777° N / 164.05852° W
+
+Submerged Data Mooring
+Name:  24BSPR-2A
+Water Depth:  Unknown
+Top Float Depth: Surface
+Light Characteristic:  Fl Y 4s
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.2618800000001" lon="-163.55735">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-04 To: 2026-10-04
+
+Location:
+58.26188° N / 163.55735° W
+
+Submerged Data Mooring
+Name:  24KUM-2A
+Water Depth:  131’
+Top Float Depth: Surface
+Light Characteristic:  Fl Y 4s
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.6730800000001" lon="-154.9998">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2025-04-13
+
+Location:
+71.67308° N / 154.9998° W
+
+Submerged Data Mooring
+Name:  BCE-22
+Water Depth:  384’
+Top Float Depth: 62’
+POC:  Motoyo ITOH
+Phone:  +81-46-867-9488
+Email:  motoyo@jamstec.go.jp
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.73445" lon="-155.164">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.73445° N / 155.164° W
+
+Submerged Data Mooring
+Name:  BCC-22
+Water Depth:  951’
+Top Float Depth: 66’
+POC:  Motoyo ITOH
+Phone:  +81-46-867-9488
+Email:  motoyo@jamstec.go.jp
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.7963500000001" lon="-155.34687">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.79635° N / 155.34687° W
+
+Submerged Data Mooring
+Name:  BCW-22
+Water Depth:  554’
+Top Float Depth: 115’
+POC:  Motoyo ITOH
+Phone:  +81-46-867-9488
+Email:  motoyo@jamstec.go.jp
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.8340000000001" lon="-163.126">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+70.834° N / 163.126° W
+
+Submerged Data Mooring
+Name:  AL24-AU-IC01
+Water Depth:  148’
+Top Float Depth: 121’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.7540000000001" lon="-154.475">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.754° N / 154.475° W
+
+Submerged Data Mooring
+Name:  AL24-AU-BF02
+Water Depth:  344’
+Top Float Depth: 312’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.30823" lon="-152.13573">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.30823° N / 152.13573° W
+
+Submerged Data Mooring
+Name:  AON-BS1
+Water Depth:  554’
+Top Float Depth: 115’
+POC:  Dr. Robert Pickart
+Phone:  508-289-2858
+Email:  rpickart@whoi.edu</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.3941" lon="-152.05118">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.3941° N / 152.05118° W
+
+Submerged Data Mooring
+Name:  AON-BS3a
+Water Depth:  479’
+Top Float Depth: 115’
+POC:  Dr. Robert Pickart
+Phone:  508-289-2858
+Email:  rpickart@whoi.edu</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.3968" lon="-152.0032">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.3968° N / 152.0032° W
+
+Submerged Data Mooring
+Name:  AON-BS3b
+Water Depth:  502’
+Top Float Depth: 115’
+POC:  Dr. Robert Pickart
+Phone:  508-289-2858
+Email:  rpickart@whoi.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2146700000001" lon="-164.2485">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.21467° N / 164.2485° W
+
+Submerged Data Mooring
+Name:  AL23-AU-IC02
+Water Depth:  141’
+Top Float Depth: 108’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.8310000000001" lon="-166.018">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.831° N / 166.018° W
+
+Submerged Data Mooring
+Name:  AL24-AU-IC03
+Water Depth:  148’
+Top Float Depth: 121’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2040000000001" lon="-157.999">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.204° N / 157.999° W
+
+Submerged Data Mooring
+Name:  AL24-AU-PB01
+Water Depth:  157’
+Top Float Depth: 131’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.59952" lon="-161.50698">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.59952° N / 161.50698° W
+
+Submerged Data Mooring
+Name:  CEM1-24
+Water Depth:  154’
+Top Float Depth: 108’
+POC:  Peter Shipton
+Phone:  907-224-4319
+Email:  pshipton@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.5996500000001" lon="-161.52747">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.59965° N / 161.52747° W
+
+Submerged Data Mooring
+Name:  CEM2-24
+Water Depth:  154’
+Top Float Depth: 108’
+POC:  Peter Shipton
+Phone:  907-224-4319
+Email:  pshipton@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.5837300000001" lon="-161.49948">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.58373° N / 161.49948° W
+
+Submerged Data Mooring
+Name:  CEO1-24
+Water Depth:  154’
+Top Float Depth: 111’
+POC:  Peter Shipton
+Phone:  907-224-4319
+Email:  pshipton@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.6006300000001" lon="-161.5408">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-15 To: 2026-10-15
+
+Location:
+71.60063° N / 161.5408° W
+
+Submerged Data Mooring
+Name:  CEO2-24
+Water Depth:  151’
+Top Float Depth: 108’
+POC:  Peter Shipton
+Phone:  907-224-4319
+Email:  pshipton@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="65.7805000000001" lon="-168.568">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+65.7805° N / 168.568° W
+
+Submerged Data Mooring
+Name:  A2-24
+Water Depth:  184’
+Top Float Depth: 49’
+POC:  Rebecca Woodgate
+Phone:  206-221-3268
+Email:  woodgate@uw.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="66.3270000000001" lon="-168.949">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+66.327° N / 168.949° W
+
+Submerged Data Mooring
+Name:  A3-24
+Water Depth:  190’
+Top Float Depth: 23’
+POC:  Rebecca Woodgate
+Phone:  206-221-3268
+Email:  woodgate@uw.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="65.746" lon="-168.2625">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+65.746° N / 168.2625° W
+
+Submerged Data Mooring
+Name:  A4-24
+Water Depth:  161’
+Top Float Depth: 49’
+POC:  Rebecca Woodgate
+Phone:  206-221-3268
+Email:  woodgate@uw.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1293700000001" lon="-168.313">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+56.12937° N / 168.313° W
+
+Submerged Data Mooring
+Name:  AL24-AU-PC01
+Water Depth:  561’
+Top Float Depth: 535’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="64.8580000000001" lon="-168.448">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+64.858° N / 168.448° W
+
+Submerged Data Mooring
+Name:  AL24-AU-NM01
+Water Depth:  144’
+Top Float Depth: 118’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1600000000001" lon="-166.582">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+56.16° N / 166.582° W
+
+Submerged Data Mooring
+Name:  AL24-AU-BS10
+Water Depth:  384’
+Top Float Depth: 358’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="61.0840000000001" lon="-170.264">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+61.084° N / 170.264° W
+
+Submerged Data Mooring
+Name:  AL24-AU-BS11
+Water Depth:  161’
+Top Float Depth: 135’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.8602000000001" lon="-164.05528">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+56.8602° N / 164.05528° W
+
+Submerged Data Mooring
+Name:  24BS-2C
+Water Depth:  240’
+Top Float Depth: 25’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.8665700000001" lon="-168.87157">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+57.86657° N / 168.87157° W
+
+Submerged Data Mooring
+Name:  24BS-4A
+Water Depth:  236’
+Top Float Depth: 16’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.8706500000001" lon="-168.8866">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+57.87065° N / 168.8866° W
+
+Submerged Data Mooring
+Name:  24BSP-4A
+Water Depth:  233’
+Top Float Depth: 197’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9281500000001" lon="-171.274">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.92815° N / 171.274° W
+
+Submerged Data Mooring
+Name:  24BS-5A
+Water Depth:  226’
+Top Float Depth: 33’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9195300000001" lon="-171.71442">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.91953° N / 171.71442° W
+
+Submerged Data Mooring
+Name:  24BSP-5A
+Water Depth:  230’
+Top Float Depth: 194’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.434" lon="-165.274">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+54.434° N / 165.274° W
+
+Submerged Data Mooring
+Name:  AL24-AU-UN01b
+Water Depth:  528’
+Top Float Depth: 502’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.6000000000001" lon="-156.999">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+56.6° N / 156.999° W
+
+Submerged Data Mooring
+Name:  GA24-AU-SU01
+Water Depth:  469’
+Top Float Depth: 443’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.7020000000001" lon="-152.187">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+58.702° N / 152.187° W
+
+Submerged Data Mooring
+Name:  GA24-AU-SE01
+Water Depth:  423’
+Top Float Depth: 384’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.63667" lon="-150.35267">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+54.63667° N / 150.35267° W
+
+Submerged Data Mooring
+Name:  GA23-AU-PT01
+Water Depth:  2,438’
+Top Float Depth: 233’
+POC:  Catherine Berchok
+Phone:  206-526-6331
+Email:  catherine.berchok@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.72427" lon="-152.28335">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+57.72427° N / 152.28335° W
+
+Submerged Data Mooring
+Name:  23CB-1A
+Water Depth:  545’
+Top Float Depth: 472’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.8529500000001" lon="-158.99135">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+54.85295° N / 158.99135° W
+
+Submerged Data Mooring
+Name:  23SH-1A
+Water Depth:  256’
+Top Float Depth: 203’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.3066700000001" lon="-164.75167">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+54.30667° N / 164.75167° W
+
+Submerged Data Mooring
+Name:  24UPP-3A
+Water Depth:  243’
+Top Float Depth: 217’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="50.0416700000001" lon="-145.17">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+50.04167° N / 145.17° W
+
+Submerged Data Mooring
+Name:  UWAPL24
+Water Depth:  Unknown
+Top Float Depth: Surface
+POC:  Joe Talbert
+Phone:  907-409-4627
+Email:  talbertj@uw.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.0267000000001" lon="-148.6707">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.0267° N / 148.6707° W
+
+Submerged Data Mooring
+Name:  GEO2-24
+Water Depth:  758’
+Top Float Depth: 82’
+POC:  Peter Shipton
+Phone:  907-224-4319
+Email:  pshipton@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9322300000001" lon="-139.60566">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.93223° N / 139.60566° W
+
+Submerged Data Mooring
+Name:  DB1-24
+Water Depth:  754’
+Top Float Depth: 164’
+POC:  Peter Shipton
+Phone:  907-224-4319
+Email:  pshipton@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.91099" lon="-149.3493">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.91099° N / 149.3493° W
+
+Submerged Data Mooring
+Name:  GAKOA
+Water Depth:  171’
+Top Float Depth: Surface
+Light Characteristic: Fl Y 4s
+POC:  Natalie Monacci
+Phone:  907-474-7956
+Email:  nmonacci@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.8504500000001" lon="-149.50063">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.85045° N / 149.50063° W
+
+Submerged Data Mooring
+Name:  GAK1-24
+Water Depth:  860’
+Top Float Depth: 65’
+POC:  Peter Shipton
+Phone:  907-224-4319
+Email:  pshipton@alaska.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.6131800000001" lon="-147.19993">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.61318° N / 147.19993° W
+
+Submerged Data Mooring
+Name:  PWSSC-15
+Water Depth:  722’
+Top Float Depth: 197’
+***Surfaces twice daily***
+POC:  Dr. Rob Campbell
+Phone:  907-424-5800
+Email:  rcampbell@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3425" lon="-146.7304">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3425° N / 146.7304° W
+
+Submerged Data Mooring
+Name:  H01
+Water Depth:  98’
+Top Float Depth: 66’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.34" lon="-146.742">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.34° N / 146.742° W
+
+Submerged Data Mooring
+Name:  H02
+Water Depth:  879’
+Top Float Depth: 791’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3349000000001" lon="-146.7329">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3349° N / 146.7329° W
+
+Submerged Data Mooring
+Name:  HB
+Water Depth:  830’
+Top Float Depth: 747’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3352" lon="-146.7661">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3352° N / 146.7661° W
+
+Submerged Data Mooring
+Name:  H04
+Water Depth:  886’
+Top Float Depth: 797’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3328000000001" lon="-146.7785">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3328° N / 146.7785° W
+
+Submerged Data Mooring
+Name:  H05
+Water Depth:  886’
+Top Float Depth: 797’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3302" lon="-146.7903">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3302° N / 146.7903° W
+
+Submerged Data Mooring
+Name:  H06
+Water Depth:  896’
+Top Float Depth: 806’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3278000000001" lon="-146.8023">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3278° N / 146.8023° W
+
+Submerged Data Mooring
+Name:  H07
+Water Depth:  909’
+Top Float Depth: 818’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3245000000001" lon="-146.8159">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3245° N / 146.8159° W
+
+Submerged Data Mooring
+Name:  H08
+Water Depth:  935’
+Top Float Depth: 842’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3220000000001" lon="-146.8297">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.322° N / 146.8297° W
+
+Submerged Data Mooring
+Name:  H09
+Water Depth:  1,007’
+Top Float Depth: 906’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3198" lon="-146.8418">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3198° N / 146.8418° W
+
+Submerged Data Mooring
+Name:  H10
+Water Depth:  1,060’
+Top Float Depth: 954’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3123000000001" lon="-146.8776">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3123° N / 146.8776° W
+
+Submerged Data Mooring
+Name:  H13
+Water Depth:  909’
+Top Float Depth: 818’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3098000000001" lon="-146.889">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3098° N / 146.889° W
+
+Submerged Data Mooring
+Name:  H14
+Water Depth:  522’
+Top Float Depth: 470’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3078" lon="-146.8999">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3078° N / 146.8999° W
+
+Submerged Data Mooring
+Name:  H15
+Water Depth:  276’
+Top Float Depth: 244’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3020000000001" lon="-146.8928">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.302° N / 146.8928° W
+
+Submerged Data Mooring
+Name:  HC
+Water Depth:  449’
+Top Float Depth: 404’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3168000000001" lon="-146.8538">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3168° N / 146.8538° W
+
+Submerged Data Mooring
+Name:  H11
+Water Depth:  1,135’
+Top Float Depth: 1,022’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3090000000001" lon="-146.9092">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.309° N / 146.9092° W
+
+Submerged Data Mooring
+Name:  H16
+Water Depth:  85’
+Top Float Depth: 53’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.2997" lon="-146.9056">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.2997° N / 146.9056° W
+
+Submerged Data Mooring
+Name:  HD
+Water Depth:  151’
+Top Float Depth: 119’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9247" lon="-147.8105">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9247° N / 147.8105° W
+
+Submerged Data Mooring
+Name:  M01
+Water Depth:  295’
+Top Float Depth: 263’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9308" lon="-147.8179">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9308° N / 147.8179° W
+
+Submerged Data Mooring
+Name:  M02
+Water Depth:  446’
+Top Float Depth: 401’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9363000000001" lon="-147.8253">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9363° N / 147.8253° W
+
+Submerged Data Mooring
+Name:  M03
+Water Depth:  509’
+Top Float Depth: 458’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9426" lon="-147.8326">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9426° N / 147.8326° W
+
+Submerged Data Mooring
+Name:  M04
+Water Depth:  577’
+Top Float Depth: 519’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9481000000001" lon="-147.8397">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9481° N / 147.8397° W
+
+Submerged Data Mooring
+Name:  M05
+Water Depth:  640’
+Top Float Depth: 576’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9591" lon="-147.8539">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2025-04-15
+
+Location:
+59.9591° N / 147.8539° W
+
+Submerged Data Mooring
+Name:  M07
+Water Depth:  741’
+Top Float Depth: 667’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9697" lon="-146.8812">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9697° N / 146.8812° W
+
+Submerged Data Mooring
+Name:  MC
+Water Depth:  745’
+Top Float Depth: 671’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9807000000001" lon="-147.8811">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9807° N / 147.8811° W
+
+Submerged Data Mooring
+Name:  M11
+Water Depth:  472’
+Top Float Depth: 425’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9753000000001" lon="-147.8892">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9753° N / 147.8892° W
+
+Submerged Data Mooring
+Name:  MD
+Water Depth:  614’
+Top Float Depth: 553’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.1149" lon="-148.2353">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.1149° N / 148.2353° W
+
+Submerged Data Mooring
+Name:  BP07
+Water Depth:  171’
+Top Float Depth: 154’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.0464000000001" lon="-148.1247">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.0464° N / 148.1247° W
+
+Submerged Data Mooring
+Name:  POWP05
+Water Depth:  315’
+Top Float Depth: 299’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.0465" lon="-148.12982">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.0465° N / 148.12982° W
+
+Submerged Data Mooring
+Name:  POWP06
+Water Depth:  154’
+Top Float Depth: 138’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9911000000001" lon="-148.0963">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9911° N / 148.0963° W
+
+Submerged Data Mooring
+Name:  EP03
+Water Depth:  207’
+Top Float Depth: 190’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9951" lon="-148.101">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9951° N / 148.101° W
+
+Submerged Data Mooring
+Name:  EP04
+Water Depth:  276’
+Top Float Depth: 259’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9808" lon="-148.0319">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9808° N / 148.0319° W
+
+Submerged Data Mooring
+Name:  LP01
+Water Depth:  112’
+Top Float Depth: 95’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9847" lon="-148.03698">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9847° N / 148.03698° W
+
+Submerged Data Mooring
+Name:  LP02
+Water Depth:  144’
+Top Float Depth: 128’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9537000000001" lon="-147.8473">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9537° N / 147.8473° W
+
+Submerged Data Mooring
+Name:  M06
+Water Depth:  702’
+Top Float Depth: 686’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9643" lon="-147.8605">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9643° N / 147.8605° W
+
+Submerged Data Mooring
+Name:  M08
+Water Depth:  758’
+Top Float Depth: 741’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9691000000001" lon="-147.8668">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9691° N / 147.8668° W
+
+Submerged Data Mooring
+Name:  M09
+Water Depth:  643’
+Top Float Depth: 617’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.9752" lon="-147.8739">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+59.9752° N / 147.8739° W
+
+Submerged Data Mooring
+Name:  M10
+Water Depth:  784’
+Top Float Depth: 768’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3376000000001" lon="-146.7544">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3376° N / 146.7544° W
+
+Submerged Data Mooring
+Name:  H03
+Water Depth:  876’
+Top Float Depth: 860’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.3148" lon="-146.8653">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+60.3148° N / 146.8653° W
+
+Submerged Data Mooring
+Name:  H12
+Water Depth:  1,194’
+Top Float Depth: 1,079’
+POC:  Mary Anne Bishop
+Phone:  907-424-5800 x228
+Email:  mbishop@pwssc.org
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.1227200000001" lon="-136.5934">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+58.12272° N / 136.5934° W
+
+Submerged Data Mooring
+Name:  20CSP-4A
+Water Depth:  1,099’
+Top Float Depth: 1,069’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="50.02322" lon="-144.36115">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+50.02322° N / 144.36115° W
+
+Submerged Data Mooring
+Name:  FLMA
+Water Depth:  9,361’
+Top Float Depth: 68’
+POC:  Derek Buffit
+Phone:  508-548-1401
+Email:  dbuffitt@whoi.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="50.3760800000001" lon="-144.51397">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+50.37608° N / 144.51397° W
+
+Submerged Data Mooring
+Name:  FLMB
+Water Depth:  9,523’
+Top Float Depth: 68’
+POC:  Derek Buffit
+Phone:  508-548-1401
+Email:  dbuffitt@whoi.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="50.1143000000001" lon="-144.91743">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-17 To: 2026-10-17
+
+Location:
+50.1143° N / 144.91743° W
+
+Submerged Data Mooring
+Name:  HYPM
+Water Depth:  9,664’
+Top Float Depth: 342’
+POC:  Derek Buffit
+Phone:  508-548-1401
+Email:  dbuffitt@whoi.edu
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="77.4933300000001" lon="-140.18">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+77.49333° N / 140.18° W
+
+Submerged Data Mooring
+Name:  AMOS-VLF-1
+Water Depth:  12,264’
+Top Float Depth: 230’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="76.41333" lon="-142.47">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+76.41333° N / 142.47° W
+
+Submerged Data Mooring
+Name:  AMOS-C
+Water Depth:  12,326’
+Top Float Depth: 131’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="76.14667" lon="-145.28333">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+76.14667° N / 145.28333° W
+
+Submerged Data Mooring
+Name:  AMOS-NW
+Water Depth:  12,441’
+Top Float Depth: 328’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="75.77333" lon="-141.51333">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+75.77333° N / 141.51333° W
+
+Submerged Data Mooring
+Name:  AMOS-NE
+Water Depth:  12,251’
+Top Float Depth: 328’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="75.5000000000001" lon="-144.14">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2025-04-16
+
+Location:
+75.5° N / 144.14° W
+
+Submerged Data Mooring
+Name:  AMOS-B
+Water Depth:  12,379’
+Top Float Depth: 328’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="74.8750000000001" lon="-143.08667">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+74.875° N / 143.08667° W
+
+Submerged Data Mooring
+Name:  AMOS-SE
+Water Depth:  12,241’
+Top Float Depth: 328’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="75.2166700000001" lon="-146.67667">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2025-04-16
+
+Location:
+75.21667° N / 146.67667° W
+
+Submerged Data Mooring
+Name:  AMOS-SW
+Water Depth:  12,464’
+Top Float Depth: 328’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="74.58833" lon="-145.545">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+74.58833° N / 145.545° W
+
+Submerged Data Mooring
+Name:  AMOS-A
+Water Depth:  12,339’
+Top Float Depth: 131’
+POC:  Craig Lee
+Email:  craiglee@uw.edu 
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="74.5229200000001" lon="-161.94227">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+74.52292° N / 161.94227° W
+
+Submerged Data Mooring
+Name:  NAP-23t
+Water Depth:  5,528’
+Top Float Depth: 115’
+POC:  Motoyo ITOH
+Phone:  +81-46-867-9488
+Email:  motoyo@jamstec.go.jp
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="68.9862200000001" lon="-105.88383">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+68.98622° N / 105.88383° W
+
+Submerged Data Mooring
+Name:  ACW16-30
+Water Depth:  242’
+Top Float Depth: 231’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.5628300000001" lon="-127.69517">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2025-04-16
+
+Location:
+70.56283° N / 127.69517° W
+
+Submerged Data Mooring
+Name:  CB12
+Water Depth:  125’
+Top Float Depth: 116’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.33385" lon="-133.73948">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+70.33385° N / 133.73948° W
+
+Submerged Data Mooring
+Name:  IBO16-1a
+Water Depth:  180’
+Top Float Depth: 171’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.33392" lon="-133.74087">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+70.33392° N / 133.74087° W
+
+Submerged Data Mooring
+Name:  IBO16-1b
+Water Depth:  180’
+Top Float Depth: 171’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.9893200000001" lon="-133.74393">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+70.98932° N / 133.74393° W
+
+Submerged Data Mooring
+Name:  IBO16-2
+Water Depth:  365’
+Top Float Depth: 146’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.0589000000001" lon="-133.7153">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+70.0589° N / 133.7153° W
+
+Submerged Data Mooring
+Name:  IBO16-9a
+Water Depth:  116’
+Top Float Depth: 106’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.0583500000001" lon="-133.71562">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+70.05835° N / 133.71562° W
+
+Submerged Data Mooring
+Name:  IBO16-9b
+Water Depth:  116’
+Top Float Depth: 106’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="69.7747200000001" lon="-137.04595">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+69.77472° N / 137.04595° W
+
+Submerged Data Mooring
+Name:  SIC16-11
+Water Depth:  117’
+Top Float Depth: 107’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="69.65473" lon="-138.92132">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-18 To: 2026-10-18
+
+Location:
+69.65473° N / 138.92132° W
+
+Submerged Data Mooring
+Name:  HI16
+Water Depth:  134’
+Top Float Depth: 125’
+POC:  Dr. Humphrey Melling
+Phone:  250-363-6552
+Email:  humfrey.melling@dfo-mpo.gc.ca
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.0500000000001" lon="-131.64883">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-25 To: 2026-10-25
+
+Location:
+55.05° N / 131.64883° W
+
+The F/V JACI GRACE sank in Canoe Cove in this position.  The F/V JACI GRACE is a 52 foot seiner and there may be fishing gear or debris attached to or in the vicinity of the vessel.  Questions/concerns/updates should be directed to the Coast Guard Sector Southeast Command Center at 907-463-2980.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.1992100000001" lon="-132.49282">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-25 To: 2026-10-25
+
+Location:
+56.19921° N / 132.49282° W
+
+The F/V PAMELA RAE LADY sank in Canoe Cove in this position.  The F/V PAMELA RAE LADY is a 58 foot seiner and there may be fishing gear or debris attached to or in the vicinity of the vessel.  Questions/concerns/updates should be directed to the Coast Guard Sector Southeast Command Center at 907-463-2980.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.0434500000001" lon="-135.20597">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-25 To: 2026-10-25
+
+Location:
+57.04345° N / 135.20597° W
+
+The F/V DRAGON LADY sank in Canoe Cove in this position.  The F/V DRAGON LADY is a 76 foot wooden fishing vessel and there may be fishing gear or debris attached to or in the vicinity of the vessel.  Questions/concerns/updates should be directed to the Coast Guard Sector Southeast Command Center at 907-463-2980.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.78583" lon="-152.40568">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Shoaling Reported
+
+From: 2024-10-25 To: 2029-10-24
+
+Location:
+57.78583° N / 152.40568° W
+
+A dangerous rock was reported in this position approximately 20' off of the K&amp;I Pier.  This rock was reported struck by a vessel with a 16' draft at low tide, approximately +.085'.  Mariners are advised to transit the area with caution.  Questions/concerns/updates should be directed to Todd Buck with the Coast Guard District 17 Waterways Management Office at (907) 463-2269 or by email to todd.r.buck@uscg.mil.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.2709800000001" lon="-134.37045">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-25 To: 2026-10-25
+
+Location:
+58.27098° N / 134.37045° W
+
+A 22' white sailboat sank in this position.  Questions/concerns/updates should be directed to the Coast Guard Sector Southeast Command Center at 907-463-2980.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.3022500000001" lon="-135.37292">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Shoaling Reported
+
+From: 2024-10-25 To: 2029-10-24
+
+Location:
+58.30225° N / 135.37292° W
+
+A dangerous rock was reported in this position.  Mariners are advised to transit the area with caution.  Questions/concerns/updates should be directed to Todd Buck with the Coast Guard District 17 Waterways Management Office at (907) 463-2269 or by email to todd.r.buck@uscg.mil.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="59.24033" lon="-135.43087">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+59.24033° N / 135.43087° W
+
+An anchor and 1 shot of chain from a 120 foot vessel was reported as lost and sitting on the sea floor.  All vessels anchoring in the vicinity are requested to remain clear of the lost anchor.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="56.9113300000001" lon="-132.94483">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+56.91133° N / 132.94483° W
+
+A 47 foot wood fishing vessel was reported sunk in this position in 2023.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.5037300000001" lon="-146.51368">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+60.50373° N / 146.51368° W
+
+A submerged mooring was reported lost in 315 feet of water in this position in 02/23.  This mooring may be an obstruction to operations on the sea floor.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.84975" lon="-135.02875">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+57.84975° N / 135.02875° W
+
+The F/V BAILEY BAY sank in this position in approximately 30 feet of water in October of 2022.  The F/V BAILEY BAY is a 33' fiberglass fishing vessel and there may be fishing gear or debris attached to or in the vicinity of the vessel.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.5925" lon="-164.908">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+62.5925° N / 164.908° W
+
+A 6' by 6' by 15' metal tower was destroyed and partially submerged in this position in June of 2021.  Mariners are requested to transit the area with caution and make sighting reports to the Coast Guard Sector Western Alaska and U.S. Arctic at 907-428-4100.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.7128700000001" lon="-157.03408">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-28 To: 2025-04-26
+
+Location:
+58.71287° N / 157.03408° W
+
+A large metal ramp was reported to be visible during low tide and completely submerged during high tide.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="61.13408" lon="-147.54442">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Shoaling Reported
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+61.13408° N / 147.54442° W
+
+An uncharted and dangerous rock was reported in this position in June or 2019.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.796" lon="-148.05517">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+60.796° N / 148.05517° W
+
+The F/V SONG II sank in this position in August 2018.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="60.78583" lon="-161.692">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+60.78583° N / 161.692° W
+
+The barge SHANKS ARK was reported sunk and abandoned in this position in March of 2017.  A portion of the vessel remains visible above the level of high-tide, but the majority of the vessel remains below the waterline.  The vessel is marked by an all-round white light and one ball dayshape when Steamboat Slough is ice free but the markers are removed during freeze up as no maritime traffic is present.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="54.1284800000001" lon="-165.77305">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-10-28 To: 2026-10-28
+
+Location:
+54.12848° N / 165.77305° W
+
+An unknown marine anomaly was discovered during underwater survey operations in Akutan Harbor in this position on the sea floor in approximately 138 feet.  This anomaly has not been positively identified and mariners are requested to transit the area with caution.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.6771900000001" lon="-136.16049">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-11-12 To: 2026-11-12
+
+Location:
+58.67719° N / 136.16049° W
+
+Submerged Data Mooring
+Name:  Glacier Bay Oceanographic Mooring
+Water Depth:  1017’
+Top Float Depth: 82’ 
+POC:  Mathew Cahill
+Phone:  907-697-2230
+Email:  mathew_cahill@nps.gov
+
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="53.92017" lon="-166.61817">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-11-19 To: 2025-05-18
+
+Location:
+53.92017° N / 166.61817° W
+
+Uncharted, unlit, commercial mooring buoy with an extensive triple anchor mooring system. 
+ Mariners are requested to transit and anchor in the area with caution.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="57.0563300000001" lon="-135.4075">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+
+From: 2024-11-22 To: 2025-11-22
+
+Location:
+57.05633° N / 135.4075° W
+
+F/V ELLIE V
+58ft, wood troller
+Partially sunk with a strobe light affixed to the bow.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.198" lon="-174.663">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+62.198° N / 174.663° W
+
+Submerged Data Mooring
+Name:  24BS-8A
+Water Depth:  242’
+Top Float Depth: 59’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.205" lon="-174.676">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+62.205° N / 174.676° W
+
+Submerged Data Mooring
+Name:  24BSP-8A
+Water Depth:  242’
+Top Float Depth: 203’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.2012" lon="-174.6819">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+62.2012° N / 174.6819° W
+
+Submerged Data Mooring
+Name:  24BSST-8A
+Water Depth:  242’
+Top Float Depth: 118’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.2020000000001" lon="-174.66">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+62.202° N / 174.66° W
+
+Submerged Data Mooring
+Name:  24BSITAER-8A
+Water Depth:  242’	
+Top Float Depth: 66’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="62.2060000000001" lon="-174.665">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+62.206° N / 174.665° W
+
+Submerged Data Mooring
+Name:  24BSV-8A
+Water Depth:  242’	
+Top Float Depth: 157’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="63.9870000000001" lon="-168.052">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+63.987° N / 168.052° W
+
+Submerged Data Mooring
+Name:  24BSP-14A
+Water Depth:  118’	
+Top Float Depth: 92’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="70.837" lon="-163.126">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+70.837° N / 163.126° W
+
+Submerged Data Mooring
+Name:  24CKP-1A
+Water Depth:  148’	
+Top Float Depth: 115’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2157000000001" lon="-164.2494">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+71.2157° N / 164.2494° W
+
+Submerged Data Mooring
+Name:  24CKP-2A
+Water Depth:  148’	
+Top Float Depth: 118’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.8310000000001" lon="-166.0145">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+71.831° N / 166.0145° W
+
+Submerged Data Mooring
+Name:  24CKP-3A
+Water Depth:  144’	
+Top Float Depth: 121’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.0453000000001" lon="-160.48823">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+71.0453° N / 160.48823° W
+
+Submerged Data Mooring
+Name:  24CKP-4A
+Water Depth:  167’	
+Top Float Depth: 135’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="71.2082" lon="-158">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+71.2082° N / 158° W
+
+Submerged Data Mooring
+Name:  24CKP-5A
+Water Depth:  167’	
+Top Float Depth: 144’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.4700700000001" lon="-156.5697">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+72.47007° N / 156.5697° W
+
+Submerged Data Mooring
+Name:  24CKP-9A
+Water Depth:  3,054’	
+Top Float Depth: 886’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="67.9100000000001" lon="-168.181">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+67.91° N / 168.181° W
+
+Submerged Data Mooring
+Name:  24CKP-12A
+Water Depth:  190’	
+Top Float Depth: 141’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="72.3099000000001" lon="-167.272">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+72.3099° N / 167.272° W
+
+Submerged Data Mooring
+Name:  24CKP-15A
+Water Depth:  161’	
+Top Float Depth: 131’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="55.3557300000001" lon="-161.2463">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Wrecks
+From: 2024-12-17 To: 2025-06-15
+Location:
+55.35573° N / 161.2463° W
+
+On 11DEC24 the F/V MYSTERY, 52', fiberglass hull, grounded and was abandoned.  Mariners are requested to transit the area with caution as there may be debris or fishing gear adrift in the area.</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+  <wpt lat="58.0999200000001" lon="-134.77275">
+    <time>2025-01-29T10:39:23.000000Z</time>
+    <name>Hazards To Navigation</name>
+    <desc>General/Hazards To Navigation/Obstructions
+From: 2025-01-14 To: 2025-07-13
+Location:
+58.09992° N / 134.77275° W
+Hawk Inlet East Shoal Buoy 8 (LLNR 24115) is off station in this approximate location.  Mariners are requested to transit the area with extreme caution.  Questions/concerns should be directed to Todd Buck with the Coast Guard District 17 Waterways Office at 907-463-2269 or by email to todd.r.buck@uscg.mil.
+</desc>
+    <sym>Symbol-Exclamation-Orange</sym>
+  </wpt>
+</gpx>
