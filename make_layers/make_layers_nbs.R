@@ -5,8 +5,8 @@ library(navmaps)
 region <- "nbs" # Options are sebs, nbs, ai, goa
 
 # 2. Load shapefiles using the akgfmaps package
-map_layers <- akgfmaps::get_base_layers(select.region = region)
-channel <- get_connected(schema = "AFSC")
+map_layers <- akgfmaps::get_base_layers(select.region = region, split.land.at.180 = FALSE)
+channel <- get_connected(schema = "AFSC_32")
 
 saveRDS(object = map_layers, file = here::here("assets", "data", paste0(region, "_map_layers.rds")))
 

@@ -4280,6 +4280,600 @@
     <trkpt lat="60.6829566666667" lon="-166.705076666667"></trkpt>  </trkseg>
 </trk>
 <trk>
+  <name>2023/134/1</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-29T15:34:07.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.31807" lon="-165.34201"></trkpt>
+    <trkpt lat="64.3039316666667" lon="-165.286261666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/2</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-29T19:21:10.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.32391" lon="-164.565096666667"></trkpt>
+    <trkpt lat="64.3242383333333" lon="-164.502621666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/3</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-29T22:56:47.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3325416666667" lon="-163.815421666667"></trkpt>
+    <trkpt lat="64.33788" lon="-163.754555"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/4</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-30T15:28:49.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.247515" lon="-163.160046666667"></trkpt>
+    <trkpt lat="64.25161" lon="-163.09878"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/5</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-30T18:43:37.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3318616666667" lon="-162.285025"></trkpt>
+    <trkpt lat="64.3329366666667" lon="-162.223996666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/6</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-30T21:17:50.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.30741" lon="-161.591578333333"></trkpt>
+    <trkpt lat="64.2846683333333" lon="-161.55163"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/7</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-30T23:48:47.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.004925" lon="-161.542791666667"></trkpt>
+    <trkpt lat="63.9785433333333" lon="-161.548298333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/8</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-31T15:31:58.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.9972283333333" lon="-162.243816666667"></trkpt>
+    <trkpt lat="64.0000133333333" lon="-162.302786666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/9</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-31T18:16:10.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.0056566666667" lon="-163.042013333333"></trkpt>
+    <trkpt lat="63.9962516666667" lon="-163.099161666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/10</name>
+  <desc>0: Good performance</desc>
+  <time>2023-07-31T20:46:27.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.00027" lon="-163.819108333333"></trkpt>
+    <trkpt lat="64.0044966666667" lon="-163.880423333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/11</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-01T00:44:45.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.6880266666667" lon="-163.099185"></trkpt>
+    <trkpt lat="63.668135" lon="-163.058441666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/12</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-01T15:24:19.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.6643833333333" lon="-163.764451666667"></trkpt>
+    <trkpt lat="63.6659933333333" lon="-163.824295"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/13</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-01T18:20:22.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.658415" lon="-164.558341666667"></trkpt>
+    <trkpt lat="63.6858666666667" lon="-164.567113333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/14</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-01T21:05:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.00095" lon="-164.55033"></trkpt>
+    <trkpt lat="64.0036483333333" lon="-164.611108333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/15</name>
+  <desc>-5.4: Unsatisfactory performance, unspecified door problem</desc>
+  <time>2023-08-01T23:28:37.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.999465" lon="-165.297035"></trkpt>
+    <trkpt lat="64.0043766666667" lon="-165.361603333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/16</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-02T00:34:16.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.0067066666667" lon="-165.355783333333"></trkpt>
+    <trkpt lat="64.0098683333333" lon="-165.295273333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/17</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-02T15:26:26.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.6790366666667" lon="-165.271071666667"></trkpt>
+    <trkpt lat="63.6554283333333" lon="-165.298085"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/18</name>
+  <desc>-1.12: Unsatisfactory performance, hauled back early due to hang(s)</desc>
+  <time>2023-08-02T18:14:13.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.3341966666667" lon="-165.289556666667"></trkpt>
+    <trkpt lat="63.3326916666667" lon="-165.311611666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/19</name>
+  <desc>4.2: Satisfactory performance, caught large quantity of mud</desc>
+  <time>2023-08-02T18:57:34.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.3297933333333" lon="-165.330218333333"></trkpt>
+    <trkpt lat="63.323865" lon="-165.378773333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/20</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-02T21:58:33.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.3369966666667" lon="-166.029051666667"></trkpt>
+    <trkpt lat="63.3117233333333" lon="-166.030641666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/21</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-03T00:58:41.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.99296" lon="-166.022261666667"></trkpt>
+    <trkpt lat="63.0197233333333" lon="-166.025583333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/22</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-03T15:25:15.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.6639033333333" lon="-166.018948333333"></trkpt>
+    <trkpt lat="63.6748116666667" lon="-166.074741666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/23</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-03T18:35:29.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.99654" lon="-166.057838333333"></trkpt>
+    <trkpt lat="64.0169583333333" lon="-166.020781666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/24</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-03T21:28:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3335183333333" lon="-166.028576666667"></trkpt>
+    <trkpt lat="64.3320533333333" lon="-166.090218333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/25</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-09T16:10:57.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.9985833333333" lon="-166.786115"></trkpt>
+    <trkpt lat="64.0044866666667" lon="-166.845515"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/26</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-09T20:17:13.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.0051366666667" lon="-167.558388333333"></trkpt>
+    <trkpt lat="63.982995" lon="-167.525415"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/27</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-09T23:17:47.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.68227" lon="-167.524013333333"></trkpt>
+    <trkpt lat="63.6560333333333" lon="-167.525228333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/28</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-10T15:34:58.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.6783483333333" lon="-166.772743333333"></trkpt>
+    <trkpt lat="63.6516316666667" lon="-166.786648333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/29</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-10T19:32:02.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.3373466666667" lon="-166.73097"></trkpt>
+    <trkpt lat="63.327295" lon="-166.78951"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/30</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-10T22:40:34.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.32641" lon="-167.51227"></trkpt>
+    <trkpt lat="63.3527416666667" lon="-167.52269"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/31</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-11T15:37:32.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.9986166666667" lon="-166.739123333333"></trkpt>
+    <trkpt lat="63.0002283333333" lon="-166.799366666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/32</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-11T19:51:48.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.9944616666667" lon="-167.418848333333"></trkpt>
+    <trkpt lat="62.9944283333333" lon="-167.477341666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/33</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-11T23:55:42.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.3345783333333" lon="-168.259361666667"></trkpt>
+    <trkpt lat="63.3605033333333" lon="-168.276375"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/34</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-12T15:33:38.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.6675733333333" lon="-168.921433333333"></trkpt>
+    <trkpt lat="62.6686766666667" lon="-168.865011666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/35</name>
+  <desc>3: Satisfactory performance, gear conflict, unspecified</desc>
+  <time>2023-08-12T18:33:29.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.6736133333333" lon="-168.178403333333"></trkpt>
+    <trkpt lat="62.6537433333333" lon="-168.179503333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/36</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-12T21:11:58.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3377183333333" lon="-168.134656666667"></trkpt>
+    <trkpt lat="62.32404" lon="-168.184806666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/37</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-13T15:55:53.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3433066666667" lon="-169.598681666667"></trkpt>
+    <trkpt lat="62.3163216666667" lon="-169.594048333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/38</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-13T18:46:41.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.9995816666667" lon="-169.58319"></trkpt>
+    <trkpt lat="61.9961016666667" lon="-169.528608333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/39</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-13T22:04:30.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.0038333333333" lon="-168.84144"></trkpt>
+    <trkpt lat="61.977845" lon="-168.84416"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/40</name>
+  <desc>-5.2: Unsatisfactory performance, net improperly configured, unspecified reason</desc>
+  <time>2023-08-14T15:54:55.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3376983333333" lon="-167.486145"></trkpt>
+    <trkpt lat="62.3370333333333" lon="-167.45817"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/41</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-14T16:44:02.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.33297" lon="-167.481011666667"></trkpt>
+    <trkpt lat="62.3331283333333" lon="-167.420595"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/42</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-14T19:32:36.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3445666666667" lon="-166.72213"></trkpt>
+    <trkpt lat="62.3179" lon="-166.718823333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/43</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-14T22:17:19.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.0171833333333" lon="-166.690573333333"></trkpt>
+    <trkpt lat="61.9911533333333" lon="-166.70267"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/44</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-15T15:53:30.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.31921" lon="-166.738545"></trkpt>
+    <trkpt lat="61.3462966666667" lon="-166.742588333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/45</name>
+  <desc>1.12: Satisfactory performance, hauled back early due to hang(s)</desc>
+  <time>2023-08-15T18:48:47.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.6572666666667" lon="-166.732878333333"></trkpt>
+    <trkpt lat="61.6580266666667" lon="-166.77526"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/46</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-15T21:18:55.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.6687366666667" lon="-167.389725"></trkpt>
+    <trkpt lat="61.6611933333333" lon="-167.447838333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/47</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-16T16:01:45.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.6808633333333" lon="-168.806785"></trkpt>
+    <trkpt lat="61.6546566666667" lon="-168.798773333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/48</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-16T18:52:48.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.3345233333333" lon="-168.806828333333"></trkpt>
+    <trkpt lat="61.3354633333333" lon="-168.749885"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/49</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-16T21:31:24.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.3339416666667" lon="-168.077843333333"></trkpt>
+    <trkpt lat="61.3340183333333" lon="-168.020681666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/50</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-17T15:58:31.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.350815" lon="-167.376961666667"></trkpt>
+    <trkpt lat="61.32354" lon="-167.375718333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/51</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-17T18:43:45.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.013995" lon="-167.346056666667"></trkpt>
+    <trkpt lat="60.9875516666667" lon="-167.333241666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/52</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-17T21:31:57.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.6851933333333" lon="-167.333176666667"></trkpt>
+    <trkpt lat="60.6589383333333" lon="-167.329438333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/53</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-18T15:59:50.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.667975" lon="-167.970176666667"></trkpt>
+    <trkpt lat="60.6657" lon="-168.027151666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/134/54</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-18T18:55:38.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.669485" lon="-168.669148333333"></trkpt>
+    <trkpt lat="60.6715716666667" lon="-168.721708333333"></trkpt>  </trkseg>
+</trk>
+<trk>
   <name>2010/162/1</name>
   <desc>0: Good performance</desc>
   <time>2010-08-05T02:44:18.000000Z</time>
@@ -8161,5 +8755,742 @@
     </gpxx:TrackExtension>
   </extensions>  <trkseg>    <trkpt lat="60.67853" lon="-167.35445"></trkpt>
     <trkpt lat="60.6529033333333" lon="-167.334655"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/1</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-03T22:16:52.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3322183333333" lon="-175.303535"></trkpt>
+    <trkpt lat="62.3341333333333" lon="-175.245685"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/2</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-04T01:10:27.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.323645" lon="-174.605501666667"></trkpt>
+    <trkpt lat="62.3257916666667" lon="-174.549325"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/3</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-04T16:14:19.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.5352383333333" lon="-171.99809"></trkpt>
+    <trkpt lat="63.5606183333333" lon="-172.013321666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/4</name>
+  <desc>4.1: Satisfactory performance, caught large rock</desc>
+  <time>2023-08-04T19:28:47.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.99955" lon="-172.014306666667"></trkpt>
+    <trkpt lat="64.0232283333333" lon="-171.987828333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/5</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-04T22:33:54.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.999245" lon="-171.368621666667"></trkpt>
+    <trkpt lat="64.0000816666667" lon="-171.307765"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/6</name>
+  <desc>4.1: Satisfactory performance, caught large rock</desc>
+  <time>2023-08-05T01:55:20.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.6968766666667" lon="-171.092038333333"></trkpt>
+    <trkpt lat="63.6997816666667" lon="-171.033621666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/7</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-05T21:30:30.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.9929383333333" lon="-170.57382"></trkpt>
+    <trkpt lat="63.9921766666667" lon="-170.511671666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/8</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-06T01:52:54.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.9903016666667" lon="-169.816275"></trkpt>
+    <trkpt lat="63.9888733333333" lon="-169.756383333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/9</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-06T16:12:48.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.6625833333333" lon="-169.790005"></trkpt>
+    <trkpt lat="63.665895" lon="-169.732285"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/10</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-06T19:16:30.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.65504" lon="-169.03318"></trkpt>
+    <trkpt lat="63.680205" lon="-169.045736666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/11</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-06T21:53:54.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.990435" lon="-169.05094"></trkpt>
+    <trkpt lat="64.0163583333333" lon="-169.0556"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/12</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-07T02:05:53.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.298515" lon="-169.095125"></trkpt>
+    <trkpt lat="64.3237733333333" lon="-169.09528"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/13</name>
+  <desc>4.5: Satisfactory performance, large invertebrate catch affected net performance</desc>
+  <time>2023-08-07T16:08:48.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.6686833333333" lon="-169.113366666667"></trkpt>
+    <trkpt lat="64.6670316666667" lon="-169.175146666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/14</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-07T19:20:04.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.6680816666667" lon="-169.914861666667"></trkpt>
+    <trkpt lat="64.64226" lon="-169.900766666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/15</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-07T21:58:08.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3495233333333" lon="-169.845121666667"></trkpt>
+    <trkpt lat="64.3240966666667" lon="-169.84355"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/16</name>
+  <desc>2.4: Satisfactory performance, belly damaged</desc>
+  <time>2023-08-08T00:38:20.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3347633333333" lon="-170.573263333333"></trkpt>
+    <trkpt lat="64.336205" lon="-170.62354"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/17</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-08T03:53:26.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.246735" lon="-171.068266666667"></trkpt>
+    <trkpt lat="64.2305716666667" lon="-171.111185"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/18</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-08T16:09:51.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.64106" lon="-170.636938333333"></trkpt>
+    <trkpt lat="64.6550883333333" lon="-170.588515"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/19</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-08T19:26:30.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.973595" lon="-169.904583333333"></trkpt>
+    <trkpt lat="64.9765783333333" lon="-169.844531666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/20</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-08T21:58:57.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="65.002965" lon="-169.154041666667"></trkpt>
+    <trkpt lat="65.0071083333333" lon="-169.095153333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/21</name>
+  <desc>-1.12: Unsatisfactory performance, hauled back early due to hang(s)</desc>
+  <time>2023-08-09T00:29:48.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="65.2122533333333" lon="-168.887451666667"></trkpt>
+    <trkpt lat="65.2244866666667" lon="-168.889021666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/22</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-09T02:23:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="65.2267683333333" lon="-168.893933333333"></trkpt>
+    <trkpt lat="65.214385" lon="-168.894148333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/23</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-09T16:06:03.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="65.336125" lon="-168.410383333333"></trkpt>
+    <trkpt lat="65.3325783333333" lon="-168.350565"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/24</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-09T19:14:11.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="65.3215483333333" lon="-167.680416666667"></trkpt>
+    <trkpt lat="65.2975633333333" lon="-167.663506666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/25</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-09T22:25:56.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="65.015505" lon="-167.62865"></trkpt>
+    <trkpt lat="64.9905933333333" lon="-167.640876666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/26</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-10T01:16:13.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="65.0113066666667" lon="-168.356036666667"></trkpt>
+    <trkpt lat="64.9851966666667" lon="-168.360975"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/27</name>
+  <desc>4.5: Satisfactory performance, large invertebrate catch affected net performance</desc>
+  <time>2023-08-10T16:08:27.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.6643583333333" lon="-168.36902"></trkpt>
+    <trkpt lat="64.6664133333333" lon="-168.310685"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/28</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-10T20:07:14.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.66806" lon="-167.653225"></trkpt>
+    <trkpt lat="64.671255" lon="-167.593595"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/29</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-10T22:49:20.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.6751266666667" lon="-166.863601666667"></trkpt>
+    <trkpt lat="64.700815" lon="-166.859951666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/30</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-11T02:02:16.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.34818" lon="-166.836005"></trkpt>
+    <trkpt lat="64.3223283333333" lon="-166.825918333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/31</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-11T16:04:58.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3431483333333" lon="-167.534426666667"></trkpt>
+    <trkpt lat="64.34316" lon="-167.594321666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/32</name>
+  <desc>-2.4: Unsatisfactory performance, belly damaged</desc>
+  <time>2023-08-11T18:31:57.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.33387" lon="-168.259065"></trkpt>
+    <trkpt lat="64.33438" lon="-168.317471666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/33</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-11T20:09:14.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.3392333333333" lon="-168.337606666667"></trkpt>
+    <trkpt lat="64.31416" lon="-168.339125"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/34</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-11T22:31:00.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="64.0251216666667" lon="-168.303075"></trkpt>
+    <trkpt lat="64.0001283333333" lon="-168.304048333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/35</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-12T01:00:29.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.69779" lon="-168.274283333333"></trkpt>
+    <trkpt lat="63.6725966666667" lon="-168.269921666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/36</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-12T16:05:52.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.0229833333333" lon="-168.217105"></trkpt>
+    <trkpt lat="62.9980733333333" lon="-168.216201666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/37</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-12T18:48:24.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.8809566666667" lon="-168.832868333333"></trkpt>
+    <trkpt lat="62.8556266666667" lon="-168.830046666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/38</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-12T21:47:06.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.6797416666667" lon="-169.557255"></trkpt>
+    <trkpt lat="62.665225" lon="-169.602985"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/39</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-13T00:36:34.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.671425" lon="-170.308811666667"></trkpt>
+    <trkpt lat="62.6697083333333" lon="-170.367098333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/40</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-13T16:05:52.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.9952116666667" lon="-171.102156666667"></trkpt>
+    <trkpt lat="62.98903" lon="-171.156153333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/41</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-13T18:53:48.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.9800716666667" lon="-171.768755"></trkpt>
+    <trkpt lat="62.9857533333333" lon="-171.824091666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/42</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-13T23:29:54.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.328255" lon="-172.556033333333"></trkpt>
+    <trkpt lat="63.322165" lon="-172.610466666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/43</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-14T02:12:37.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.3382833333333" lon="-173.35491"></trkpt>
+    <trkpt lat="63.34045" lon="-173.409683333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/44</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-14T16:23:34.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="63.0104383333333" lon="-174.014295"></trkpt>
+    <trkpt lat="62.98496" lon="-174.02066"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/45</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-14T19:05:02.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.6625116666667" lon="-173.910035"></trkpt>
+    <trkpt lat="62.6372066666667" lon="-173.90776"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/46</name>
+  <desc>1.12: Satisfactory performance, hauled back early due to hang(s)</desc>
+  <time>2023-08-15T21:03:43.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.6687533333333" lon="-173.279361666667"></trkpt>
+    <trkpt lat="62.667425" lon="-173.253931666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/47</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-15T23:28:45.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.6663116666667" lon="-172.53461"></trkpt>
+    <trkpt lat="62.6640683333333" lon="-172.47679"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/48</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-16T16:21:12.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.332455" lon="-172.446806666667"></trkpt>
+    <trkpt lat="62.33249" lon="-172.393243333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/49</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-16T18:47:40.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3318716666667" lon="-171.77246"></trkpt>
+    <trkpt lat="62.3300333333333" lon="-171.718185"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/50</name>
+  <desc>5.8: Light footrope contact</desc>
+  <time>2023-08-16T21:10:38.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3326883333333" lon="-171.086516666667"></trkpt>
+    <trkpt lat="62.3311416666667" lon="-171.029915"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/51</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-16T23:46:21.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.3351416666667" lon="-170.341055"></trkpt>
+    <trkpt lat="62.3422416666667" lon="-170.290788333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/52</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-17T02:26:59.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.0128333333333" lon="-170.260161666667"></trkpt>
+    <trkpt lat="61.9872633333333" lon="-170.262073333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/53</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-17T16:17:10.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.0034033333333" lon="-170.917616666667"></trkpt>
+    <trkpt lat="62.006615" lon="-170.971175"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/54</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-17T19:15:01.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.00161" lon="-171.592758333333"></trkpt>
+    <trkpt lat="62.004075" lon="-171.644676666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/55</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-17T22:16:10.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.00081" lon="-172.308558333333"></trkpt>
+    <trkpt lat="62.0023983333333" lon="-172.365358333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/56</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-18T01:13:35.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="62.004035" lon="-173.025875"></trkpt>
+    <trkpt lat="62.0082866666667" lon="-173.079731666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/57</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-18T16:29:26.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.33587" lon="-172.957971666667"></trkpt>
+    <trkpt lat="61.3383883333333" lon="-172.906128333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/58</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-18T19:00:01.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.3328416666667" lon="-172.290955"></trkpt>
+    <trkpt lat="61.3348533333333" lon="-172.238315"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/59</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-18T21:42:41.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.3335966666667" lon="-171.553306666667"></trkpt>
+    <trkpt lat="61.33363" lon="-171.501698333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/60</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-19T00:27:08.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.6416416666667" lon="-171.580861666667"></trkpt>
+    <trkpt lat="61.6661333333333" lon="-171.582433333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/61</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-19T03:05:07.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.66691" lon="-170.925796666667"></trkpt>
+    <trkpt lat="61.6688566666667" lon="-170.874156666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/62</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-19T16:26:43.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.0029433333333" lon="-170.846981666667"></trkpt>
+    <trkpt lat="61.0050116666667" lon="-170.796493333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/63</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-19T19:43:59.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.3321883333333" lon="-170.199026666667"></trkpt>
+    <trkpt lat="61.3364433333333" lon="-170.147476666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/64</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-19T22:30:17.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.3339983333333" lon="-169.474308333333"></trkpt>
+    <trkpt lat="61.337425" lon="-169.423438333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/65</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-20T02:04:38.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="61.0344316666667" lon="-168.741231666667"></trkpt>
+    <trkpt lat="61.0091266666667" lon="-168.738386666667"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/66</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-20T16:18:54.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.6699066666667" lon="-170.079175"></trkpt>
+    <trkpt lat="60.6718883333333" lon="-170.028228333333"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>2023/162/67</name>
+  <desc>0: Good performance</desc>
+  <time>2023-08-20T18:57:59.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>White</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="60.6745666666667" lon="-169.394303333333"></trkpt>
+    <trkpt lat="60.6793283333333" lon="-169.342688333333"></trkpt>  </trkseg>
 </trk>
 </gpx>
