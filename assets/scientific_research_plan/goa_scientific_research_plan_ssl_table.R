@@ -1,5 +1,5 @@
 # Generate SSL critical habitat catch table for GOA SRP
-# Created by Sean Rohan
+# Created by sean-rohan-noaa
 # Last update: March 7, 2025
 
 library(navmaps) # afsc-gap-products/navmaps
@@ -10,14 +10,14 @@ vessel <- c(148, 176)
 cruise <- 202301
 region <- tolower("goa")
 
-# Retrieve towpath lines
+# Retrieve towpath lines -- need to first generate towpaths using make_layers_goa.R or make_layers_ai.R
 towpaths <- 
   sf::st_read(
     dsn = here::here("output", region, "shapefiles", paste0(region, "_towpath.shp"))
   ) |>
   dplyr::filter(CRUISE == cruise)
 
-# Check that towpaths have been updated -- if not, run make_layers/make_layers_ai.R
+# Check that towpaths have been generated for the selected vessels/cruise
 nrow(towpaths)
 
 # Retrieve SSL critical habitat polygon

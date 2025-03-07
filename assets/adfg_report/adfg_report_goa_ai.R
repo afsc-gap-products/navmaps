@@ -1,6 +1,9 @@
-# Table for GOA/AI ADFG report
-library(navmaps)
-library(akgfmaps)
+# Prepare catch and specimen/voucher table for GOA/AI ADFG report
+# Created by sean-rohan-noaa
+# Last update: March 7, 2025
+
+library(navmaps) # afsc-gap-products/navmaps (v 1.1.10)
+library(akgfmaps) #afsc-gap-products/akgfmaps (v 4.0.3)
 library(tidyr)
 library(here)
 
@@ -9,14 +12,14 @@ vessel <- c(148, 176)
 cruise <- 202301
 region <- tolower("goa")
 
-# Retrieve towpath lines
+# Retrieve towpath lines -- need to first generate towpaths using make_layers_goa.R or make_layers_ai.R
 towpaths <- 
   sf::st_read(
     dsn = here::here("output", region, "shapefiles", paste0(region, "_towpath.shp"))
   ) |>
   dplyr::filter(CRUISE == cruise)
 
-# Check that tow paths exist
+# Check that towpaths have been generated for the selected vessels/cruise
 nrow(towpaths)
 
 # Retrieve Alaska DNR Land polygon from akgfmaps ----
