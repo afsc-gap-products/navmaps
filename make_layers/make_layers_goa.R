@@ -279,6 +279,7 @@ for(ii in 1:length(software_types)) {
   
 }
 
+
 file.copy(from = here::here("output", region, "navigation"),
           to = paste0("G:/RACE_CHARTS/", region),
           recursive = TRUE)

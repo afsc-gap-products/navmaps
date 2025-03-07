@@ -111393,4 +111393,4999 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
+  <wpt lat="54.1281133478687" lon="-166.714117430133">
+    <time>2023-05-23T01:50:55.000000Z</time>
+    <name>2023/148/1</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.5957604301432" lon="-166.159789521784">
+    <time>2023-05-23T16:04:21.000000Z</time>
+    <name>2023/148/2</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.5978906171949" lon="-166.182552441982">
+    <time>2023-05-23T17:34:46.000000Z</time>
+    <name>2023/148/3</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.4574781321503" lon="-166.222198790601">
+    <time>2023-05-23T20:05:42.000000Z</time>
+    <name>2023/148/4</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.297121614095" lon="-166.38477422736">
+    <time>2023-05-23T22:33:54.000000Z</time>
+    <name>2023/148/5</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.1026181791861" lon="-167.024392504267">
+    <time>2023-05-24T01:51:31.000000Z</time>
+    <name>2023/148/6</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.46517741206" lon="-169.900836497214">
+    <time>2023-05-24T15:47:24.000000Z</time>
+    <name>2023/148/7</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.5834870228368" lon="-169.752243748413">
+    <time>2023-05-24T18:01:13.000000Z</time>
+    <name>2023/148/8</name>
+    <cmt>-3.13: Unsatisfactory performance, Alaskan crab pot</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.6234731828779" lon="-169.273014144601">
+    <time>2023-05-24T21:17:07.000000Z</time>
+    <name>2023/148/9</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.6007445393043" lon="-169.372902421231">
+    <time>2023-05-24T23:33:25.000000Z</time>
+    <name>2023/148/10</name>
+    <cmt>3.13: Satisfactory performance, Alaskan crab pot</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.6425598066027" lon="-169.133494753226">
+    <time>2023-05-25T01:56:17.000000Z</time>
+    <name>2023/148/11</name>
+    <cmt>-2.4: Unsatisfactory performance, belly damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.0725404142279" lon="-167.226795714746">
+    <time>2023-05-25T15:56:52.000000Z</time>
+    <name>2023/148/12</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.1526605494398" lon="-166.567940380977">
+    <time>2023-05-25T21:00:28.000000Z</time>
+    <name>2023/148/13</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.6802009646121" lon="-165.886287709811">
+    <time>2023-05-26T02:48:26.000000Z</time>
+    <name>2023/148/14</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9445750315448" lon="-165.684610013303">
+    <time>2023-05-26T16:15:03.000000Z</time>
+    <name>2023/148/15</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9539480296597" lon="-165.187723820266">
+    <time>2023-05-26T20:57:59.000000Z</time>
+    <name>2023/148/16</name>
+    <cmt>-2.4: Unsatisfactory performance, belly damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0083423974038" lon="-164.945817347243">
+    <time>2023-05-26T23:07:02.000000Z</time>
+    <name>2023/148/17</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9882854716173" lon="-165.073569294424">
+    <time>2023-05-27T00:55:13.000000Z</time>
+    <name>2023/148/18</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1098390518247" lon="-164.569065780079">
+    <time>2023-05-27T03:58:31.000000Z</time>
+    <name>2023/148/19</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3734233399365" lon="-164.532767705067">
+    <time>2023-05-27T15:45:33.000000Z</time>
+    <name>2023/148/20</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.661591773867" lon="-163.379607866467">
+    <time>2023-05-27T22:15:47.000000Z</time>
+    <name>2023/148/21</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7765938007969" lon="-162.926407985228">
+    <time>2023-05-28T01:51:50.000000Z</time>
+    <name>2023/148/22</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.7963431199148" lon="-165.296121403824">
+    <time>2023-05-29T18:03:13.000000Z</time>
+    <name>2023/148/23</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.7876220016908" lon="-164.527977361698">
+    <time>2023-05-29T21:43:59.000000Z</time>
+    <name>2023/148/24</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.7733990793765" lon="-164.375615012313">
+    <time>2023-05-30T00:04:30.000000Z</time>
+    <name>2023/148/25</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.8931718270188" lon="-164.043857568347">
+    <time>2023-05-30T02:58:09.000000Z</time>
+    <name>2023/148/26</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4296540874159" lon="-162.443603498244">
+    <time>2023-05-30T15:44:52.000000Z</time>
+    <name>2023/148/27</name>
+    <cmt>-3.13: Unsatisfactory performance, Alaskan crab pot</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4285571106406" lon="-162.436308140183">
+    <time>2023-05-30T17:02:35.000000Z</time>
+    <name>2023/148/28</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6190777750106" lon="-162.925623137546">
+    <time>2023-05-30T20:33:56.000000Z</time>
+    <name>2023/148/29</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7801396556205" lon="-163.261757399057">
+    <time>2023-05-30T23:24:36.000000Z</time>
+    <name>2023/148/30</name>
+    <cmt>-5.2: Unsatisfactory performance, net improperly configured, unspecified reason</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7850430206181" lon="-163.248168797985">
+    <time>2023-05-31T00:07:58.000000Z</time>
+    <name>2023/148/31</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8469395478753" lon="-162.727527416032">
+    <time>2023-05-31T03:22:08.000000Z</time>
+    <name>2023/148/32</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1972066359724" lon="-163.650933419147">
+    <time>2023-05-31T16:02:47.000000Z</time>
+    <name>2023/148/33</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0933437660169" lon="-163.270843752856">
+    <time>2023-05-31T19:05:29.000000Z</time>
+    <name>2023/148/34</name>
+    <cmt>-1: Unsatisfactory performance, hung up</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.082700334165" lon="-163.321148800823">
+    <time>2023-05-31T19:59:05.000000Z</time>
+    <name>2023/148/35</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0442326093013" lon="-163.104125521017">
+    <time>2023-05-31T22:25:39.000000Z</time>
+    <name>2023/148/36</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0748637702404" lon="-162.999123436218">
+    <time>2023-06-01T01:37:23.000000Z</time>
+    <name>2023/148/37</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5649631947229" lon="-161.449156248811">
+    <time>2023-06-01T15:49:23.000000Z</time>
+    <name>2023/148/38</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2513723456045" lon="-161.529230428731">
+    <time>2023-06-01T19:01:52.000000Z</time>
+    <name>2023/148/39</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2734869113088" lon="-161.312308291021">
+    <time>2023-06-01T21:35:18.000000Z</time>
+    <name>2023/148/40</name>
+    <cmt>-1.12: Unsatisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2763228303011" lon="-161.287470391275">
+    <time>2023-06-01T22:52:58.000000Z</time>
+    <name>2023/148/41</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3076422503013" lon="-161.05045987451">
+    <time>2023-06-02T01:16:27.000000Z</time>
+    <name>2023/148/42</name>
+    <cmt>2.1: Satisfactory performance, wing damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6601701739988" lon="-158.743211537783">
+    <time>2023-06-02T15:48:34.000000Z</time>
+    <name>2023/148/43</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5820322858041" lon="-158.855824281891">
+    <time>2023-06-02T17:30:52.000000Z</time>
+    <name>2023/148/44</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3875167462794" lon="-159.696967071895">
+    <time>2023-06-02T21:57:19.000000Z</time>
+    <name>2023/148/45</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5577964560434" lon="-159.861534736345">
+    <time>2023-06-03T01:22:08.000000Z</time>
+    <name>2023/148/46</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6607865730661" lon="-160.152804382534">
+    <time>2023-06-03T03:21:18.000000Z</time>
+    <name>2023/148/47</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4690000959147" lon="-160.783824711953">
+    <time>2023-06-03T15:45:07.000000Z</time>
+    <name>2023/148/48</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4742873582771" lon="-160.63047072361">
+    <time>2023-06-03T17:30:32.000000Z</time>
+    <name>2023/148/49</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8592750299133" lon="-160.480095038192">
+    <time>2023-06-03T20:54:28.000000Z</time>
+    <name>2023/148/50</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9857728384192" lon="-160.024856326736">
+    <time>2023-06-04T00:16:56.000000Z</time>
+    <name>2023/148/51</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9426965545255" lon="-159.750097948877">
+    <time>2023-06-04T02:24:29.000000Z</time>
+    <name>2023/148/52</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8758989604284" lon="-159.715138840193">
+    <time>2023-06-04T15:22:24.000000Z</time>
+    <name>2023/148/53</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7832210199074" lon="-160.002165774939">
+    <time>2023-06-04T17:35:57.000000Z</time>
+    <name>2023/148/54</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4364534154844" lon="-160.12708194133">
+    <time>2023-06-06T15:22:33.000000Z</time>
+    <name>2023/148/55</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4483432823086" lon="-159.894319204912">
+    <time>2023-06-06T18:24:00.000000Z</time>
+    <name>2023/148/56</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1135614892398" lon="-159.432236190006">
+    <time>2023-06-06T22:20:57.000000Z</time>
+    <name>2023/148/57</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9565784261178" lon="-159.022241972407">
+    <time>2023-06-07T01:32:42.000000Z</time>
+    <name>2023/148/58</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8194689593953" lon="-157.929261339027">
+    <time>2023-06-07T15:21:56.000000Z</time>
+    <name>2023/148/59</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7162470121003" lon="-158.296818651293">
+    <time>2023-06-07T17:40:09.000000Z</time>
+    <name>2023/148/60</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7574179794685" lon="-158.344919911209">
+    <time>2023-06-07T21:08:30.000000Z</time>
+    <name>2023/148/61</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8234378478765" lon="-158.181537382103">
+    <time>2023-06-07T23:27:50.000000Z</time>
+    <name>2023/148/62</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8789207208376" lon="-158.130065456247">
+    <time>2023-06-08T01:18:41.000000Z</time>
+    <name>2023/148/63</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4402087920969" lon="-158.606132387142">
+    <time>2023-06-08T15:26:50.000000Z</time>
+    <name>2023/148/64</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1697913499887" lon="-158.304454728474">
+    <time>2023-06-08T18:27:06.000000Z</time>
+    <name>2023/148/65</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.03146826701" lon="-158.117256535598">
+    <time>2023-06-08T19:59:29.000000Z</time>
+    <name>2023/148/66</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9626854418164" lon="-157.424541461084">
+    <time>2023-06-08T23:47:56.000000Z</time>
+    <name>2023/148/67</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9787419921406" lon="-157.375407277852">
+    <time>2023-06-09T00:57:45.000000Z</time>
+    <name>2023/148/68</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8846238730305" lon="-157.684284414385">
+    <time>2023-06-09T03:07:07.000000Z</time>
+    <name>2023/148/69</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1319486384201" lon="-157.153714336409">
+    <time>2023-06-09T15:15:12.000000Z</time>
+    <name>2023/148/70</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1807164883113" lon="-156.819215924168">
+    <time>2023-06-09T18:14:27.000000Z</time>
+    <name>2023/148/71</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1374109232791" lon="-156.933645124612">
+    <time>2023-06-09T21:42:01.000000Z</time>
+    <name>2023/148/72</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0852088487037" lon="-156.931661587698">
+    <time>2023-06-10T00:04:56.000000Z</time>
+    <name>2023/148/73</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3037208626248" lon="-156.478507498185">
+    <time>2023-06-10T02:55:16.000000Z</time>
+    <name>2023/148/74</name>
+    <cmt>-2.1: Unsatisfactory performance, wing damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3081840114823" lon="-155.868290361553">
+    <time>2023-06-10T15:15:26.000000Z</time>
+    <name>2023/148/75</name>
+    <cmt>2.3: Satisfactory performance, footrope damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3648570010635" lon="-155.884917490539">
+    <time>2023-06-10T17:44:10.000000Z</time>
+    <name>2023/148/76</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.752545083173" lon="-154.375003709133">
+    <time>2023-06-11T17:18:45.000000Z</time>
+    <name>2023/148/77</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7997787778717" lon="-154.483076101714">
+    <time>2023-06-11T19:23:26.000000Z</time>
+    <name>2023/148/78</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7910567883665" lon="-154.209132780141">
+    <time>2023-06-11T21:42:08.000000Z</time>
+    <name>2023/148/79</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6759428535709" lon="-155.961285053734">
+    <time>2023-06-12T15:31:50.000000Z</time>
+    <name>2023/148/80</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4720421342927" lon="-156.201176271502">
+    <time>2023-06-12T18:50:21.000000Z</time>
+    <name>2023/148/81</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3772961407938" lon="-155.892794521802">
+    <time>2023-06-12T21:29:34.000000Z</time>
+    <name>2023/148/82</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2856405497942" lon="-155.596920965717">
+    <time>2023-06-12T23:38:00.000000Z</time>
+    <name>2023/148/83</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2778020106768" lon="-155.816777051983">
+    <time>2023-06-13T01:01:37.000000Z</time>
+    <name>2023/148/84</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2890185382562" lon="-155.907173653633">
+    <time>2023-06-13T02:12:38.000000Z</time>
+    <name>2023/148/85</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3552723835435" lon="-156.416423573325">
+    <time>2023-06-13T15:16:14.000000Z</time>
+    <name>2023/148/86</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2994333010702" lon="-156.128046477523">
+    <time>2023-06-13T18:05:14.000000Z</time>
+    <name>2023/148/87</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.414270983877" lon="-156.163138081637">
+    <time>2023-06-13T20:20:41.000000Z</time>
+    <name>2023/148/88</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.609932313858" lon="-155.498262722316">
+    <time>2023-06-14T00:05:21.000000Z</time>
+    <name>2023/148/89</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7192904677926" lon="-155.569836732166">
+    <time>2023-06-14T01:54:04.000000Z</time>
+    <name>2023/148/90</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.678195787838" lon="-155.464976319487">
+    <time>2023-06-14T15:16:52.000000Z</time>
+    <name>2023/148/91</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6019304471974" lon="-155.39042214457">
+    <time>2023-06-14T17:08:30.000000Z</time>
+    <name>2023/148/92</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7999773841916" lon="-155.388919291118">
+    <time>2023-06-14T20:41:14.000000Z</time>
+    <name>2023/148/93</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.910171146267" lon="-155.743226475231">
+    <time>2023-06-14T23:37:24.000000Z</time>
+    <name>2023/148/94</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8132476452083" lon="-155.907650757111">
+    <time>2023-06-15T01:11:18.000000Z</time>
+    <name>2023/148/95</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1328152427908" lon="-156.866635526393">
+    <time>2023-06-15T19:41:39.000000Z</time>
+    <name>2023/148/96</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3794149181779" lon="-157.252767668322">
+    <time>2023-06-15T23:09:45.000000Z</time>
+    <name>2023/148/97</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3940870635818" lon="-156.834327508103">
+    <time>2023-06-16T01:49:49.000000Z</time>
+    <name>2023/148/98</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2578591171541" lon="-156.704996384756">
+    <time>2023-06-16T04:22:19.000000Z</time>
+    <name>2023/148/99</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9679962959259" lon="-157.586274531423">
+    <time>2023-06-17T15:13:23.000000Z</time>
+    <name>2023/148/100</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.940403294058" lon="-157.100828090904">
+    <time>2023-06-17T18:12:44.000000Z</time>
+    <name>2023/148/101</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1895417879821" lon="-157.012691711635">
+    <time>2023-06-17T20:57:11.000000Z</time>
+    <name>2023/148/102</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9466032307848" lon="-156.637925702163">
+    <time>2023-06-17T23:58:14.000000Z</time>
+    <name>2023/148/103</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7487060634847" lon="-156.59418858876">
+    <time>2023-06-18T02:24:59.000000Z</time>
+    <name>2023/148/104</name>
+    <cmt>-2.1: Unsatisfactory performance, wing damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8730310395094" lon="-156.222233904004">
+    <time>2023-06-18T15:25:05.000000Z</time>
+    <name>2023/148/105</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8688344880871" lon="-156.151902442282">
+    <time>2023-06-18T16:41:28.000000Z</time>
+    <name>2023/148/106</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0700190926913" lon="-155.724106910488">
+    <time>2023-06-18T19:32:40.000000Z</time>
+    <name>2023/148/107</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2481498311089" lon="-154.946176448445">
+    <time>2023-06-18T23:27:32.000000Z</time>
+    <name>2023/148/108</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0799724946042" lon="-155.123260650989">
+    <time>2023-06-19T01:21:02.000000Z</time>
+    <name>2023/148/109</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9880136617508" lon="-154.943517878604">
+    <time>2023-06-19T02:56:07.000000Z</time>
+    <name>2023/148/110</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1116631794789" lon="-154.569365545559">
+    <time>2023-06-19T15:11:50.000000Z</time>
+    <name>2023/148/111</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.064724166182" lon="-154.488518106254">
+    <time>2023-06-19T16:48:01.000000Z</time>
+    <name>2023/148/112</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0351273398989" lon="-154.570298731547">
+    <time>2023-06-19T18:18:08.000000Z</time>
+    <name>2023/148/113</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.072599438747" lon="-154.343290326751">
+    <time>2023-06-19T19:57:48.000000Z</time>
+    <name>2023/148/114</name>
+    <cmt>-2.7: Unsatisfactory performance, net completely destroyed</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2149261466547" lon="-154.217752728981">
+    <time>2023-06-19T22:12:05.000000Z</time>
+    <name>2023/148/115</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2416245529591" lon="-154.245543158977">
+    <time>2023-06-20T00:09:30.000000Z</time>
+    <name>2023/148/116</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2912512929484" lon="-154.124095788698">
+    <time>2023-06-20T01:56:00.000000Z</time>
+    <name>2023/148/117</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9936523625857" lon="-154.183176064388">
+    <time>2023-06-20T15:22:18.000000Z</time>
+    <name>2023/148/118</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0874406061517" lon="-154.22034686227">
+    <time>2023-06-20T16:57:39.000000Z</time>
+    <name>2023/148/119</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1209705272656" lon="-154.450506335488">
+    <time>2023-06-20T18:54:16.000000Z</time>
+    <name>2023/148/120</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9761052903842" lon="-154.55181432638">
+    <time>2023-06-20T23:31:26.000000Z</time>
+    <name>2023/148/121</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.234398258464" lon="-154.142146526673">
+    <time>2023-06-21T03:07:19.000000Z</time>
+    <name>2023/148/122</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9939162252832" lon="-153.764904048696">
+    <time>2023-06-21T15:13:37.000000Z</time>
+    <name>2023/148/123</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0461098725947" lon="-153.817980694885">
+    <time>2023-06-21T16:41:26.000000Z</time>
+    <name>2023/148/124</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1265671931496" lon="-153.434478898865">
+    <time>2023-06-21T19:32:04.000000Z</time>
+    <name>2023/148/125</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1723707878311" lon="-153.74465819844">
+    <time>2023-06-21T22:33:53.000000Z</time>
+    <name>2023/148/126</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4438871023814" lon="-153.814682445185">
+    <time>2023-06-22T01:56:00.000000Z</time>
+    <name>2023/148/127</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.490485136317" lon="-153.069964357845">
+    <time>2023-06-22T15:13:15.000000Z</time>
+    <name>2023/148/128</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5491178665121" lon="-152.932723812471">
+    <time>2023-06-22T17:18:27.000000Z</time>
+    <name>2023/148/129</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5525310123131" lon="-152.336928910976">
+    <time>2023-06-22T20:37:54.000000Z</time>
+    <name>2023/148/130</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5494690793367" lon="-151.857740844794">
+    <time>2023-06-22T23:20:13.000000Z</time>
+    <name>2023/148/131</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8019414532836" lon="-151.767629491423">
+    <time>2023-06-23T02:37:32.000000Z</time>
+    <name>2023/148/132</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6814527860473" lon="-153.810048127136">
+    <time>2023-06-23T15:12:40.000000Z</time>
+    <name>2023/148/133</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7091243674159" lon="-153.571703105566">
+    <time>2023-06-23T17:17:46.000000Z</time>
+    <name>2023/148/134</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.496283512858" lon="-153.553008117134">
+    <time>2023-06-23T19:21:42.000000Z</time>
+    <name>2023/148/135</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6153748830136" lon="-152.989936370052">
+    <time>2023-06-23T22:27:22.000000Z</time>
+    <name>2023/148/136</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6853567734701" lon="-153.039742789912">
+    <time>2023-06-24T00:17:50.000000Z</time>
+    <name>2023/148/137</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7054159201196" lon="-152.298121571367">
+    <time>2023-06-26T15:43:48.000000Z</time>
+    <name>2023/148/138</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5434267442569" lon="-151.867011889624">
+    <time>2023-06-26T19:48:05.000000Z</time>
+    <name>2023/148/139</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4995065389145" lon="-151.96255058404">
+    <time>2023-06-26T22:27:37.000000Z</time>
+    <name>2023/148/140</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3464431823524" lon="-151.67356779377">
+    <time>2023-06-27T01:03:01.000000Z</time>
+    <name>2023/148/141</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.44499044514" lon="-152.534385569102">
+    <time>2023-06-27T15:27:55.000000Z</time>
+    <name>2023/148/142</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7384550548236" lon="-152.560384902754">
+    <time>2023-06-27T18:06:16.000000Z</time>
+    <name>2023/148/143</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7356219242388" lon="-152.493340979675">
+    <time>2023-06-27T19:21:24.000000Z</time>
+    <name>2023/148/144</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.772670997223" lon="-152.355620981123">
+    <time>2023-06-27T21:13:54.000000Z</time>
+    <name>2023/148/145</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8135001415676" lon="-152.045372478062">
+    <time>2023-06-27T23:30:37.000000Z</time>
+    <name>2023/148/146</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9621613984936" lon="-153.418514972326">
+    <time>2023-06-28T15:18:41.000000Z</time>
+    <name>2023/148/147</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8734050162124" lon="-153.216393990798">
+    <time>2023-06-28T17:47:37.000000Z</time>
+    <name>2023/148/148</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8123422323317" lon="-153.03186291721">
+    <time>2023-06-28T20:17:53.000000Z</time>
+    <name>2023/148/149</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0429622241063" lon="-152.802816776147">
+    <time>2023-06-28T22:51:40.000000Z</time>
+    <name>2023/148/150</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0874377270025" lon="-152.758514039993">
+    <time>2023-06-29T01:18:10.000000Z</time>
+    <name>2023/148/151</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9580963569737" lon="-151.619195028724">
+    <time>2023-06-29T15:13:38.000000Z</time>
+    <name>2023/148/152</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0372281519777" lon="-151.862886667397">
+    <time>2023-06-29T17:05:00.000000Z</time>
+    <name>2023/148/153</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0319523507723" lon="-152.270480179615">
+    <time>2023-06-29T19:10:54.000000Z</time>
+    <name>2023/148/154</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0870016546504" lon="-152.404272681891">
+    <time>2023-06-29T21:06:44.000000Z</time>
+    <name>2023/148/155</name>
+    <cmt>4.4: Satisfactory performance, large fish catch affected net performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2103774757277" lon="-152.538512167893">
+    <time>2023-06-30T00:12:53.000000Z</time>
+    <name>2023/148/156</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6235770937482" lon="-150.112575446194">
+    <time>2023-06-30T15:25:59.000000Z</time>
+    <name>2023/148/157</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5089307461887" lon="-150.240764260527">
+    <time>2023-06-30T17:40:03.000000Z</time>
+    <name>2023/148/158</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3790429436855" lon="-150.386800582153">
+    <time>2023-06-30T20:27:19.000000Z</time>
+    <name>2023/148/159</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4601774479208" lon="-150.597740137781">
+    <time>2023-06-30T22:28:19.000000Z</time>
+    <name>2023/148/160</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3241006307657" lon="-150.719839331362">
+    <time>2023-07-01T00:23:23.000000Z</time>
+    <name>2023/148/161</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6988200750523" lon="-151.18381898054">
+    <time>2023-07-01T15:18:55.000000Z</time>
+    <name>2023/148/162</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8426277619917" lon="-151.183045684396">
+    <time>2023-07-01T17:20:34.000000Z</time>
+    <name>2023/148/163</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6955211400125" lon="-151.247392922249">
+    <time>2023-07-01T19:34:56.000000Z</time>
+    <name>2023/148/164</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7272665628776" lon="-151.513825564371">
+    <time>2023-07-01T21:37:10.000000Z</time>
+    <name>2023/148/165</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8162192701343" lon="-151.976253888853">
+    <time>2023-07-02T00:08:11.000000Z</time>
+    <name>2023/148/166</name>
+    <cmt>4.4: Satisfactory performance, large fish catch affected net performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9583687868387" lon="-152.67236965537">
+    <time>2023-07-02T15:55:08.000000Z</time>
+    <name>2023/148/167</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8817781060603" lon="-152.762560849356">
+    <time>2023-07-02T18:22:37.000000Z</time>
+    <name>2023/148/168</name>
+    <cmt>3.1: Satisfactory performance, caught pot, unspecified type</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.013372673991" lon="-152.525230871834">
+    <time>2023-07-02T21:34:45.000000Z</time>
+    <name>2023/148/169</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0645739523357" lon="-152.41723821972">
+    <time>2023-07-02T23:48:23.000000Z</time>
+    <name>2023/148/170</name>
+    <cmt>4.4: Satisfactory performance, large fish catch affected net performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4000735394121" lon="-151.52955838042">
+    <time>2023-07-03T16:37:47.000000Z</time>
+    <name>2023/148/171</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5088752578898" lon="-151.540557515447">
+    <time>2023-07-03T18:52:18.000000Z</time>
+    <name>2023/148/172</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4719399785522" lon="-151.486505896954">
+    <time>2023-07-03T20:41:31.000000Z</time>
+    <name>2023/148/173</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4460463372734" lon="-151.190703409401">
+    <time>2023-07-03T23:06:06.000000Z</time>
+    <name>2023/148/174</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4125262019436" lon="-151.127332902739">
+    <time>2023-07-04T01:06:04.000000Z</time>
+    <name>2023/148/175</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3349850979729" lon="-151.857823563076">
+    <time>2023-07-04T15:10:48.000000Z</time>
+    <name>2023/148/176</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3155087186545" lon="-152.266078456204">
+    <time>2023-07-04T17:15:55.000000Z</time>
+    <name>2023/148/177</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4012634746374" lon="-151.794766509858">
+    <time>2023-07-04T19:47:38.000000Z</time>
+    <name>2023/148/178</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4383163932861" lon="-151.917972641373">
+    <time>2023-07-04T21:21:59.000000Z</time>
+    <name>2023/148/179</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7165027889288" lon="-152.052908559193">
+    <time>2023-07-04T23:51:17.000000Z</time>
+    <name>2023/148/180</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8335953815295" lon="-152.011482653055">
+    <time>2023-07-06T16:36:40.000000Z</time>
+    <name>2023/148/181</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9439943232448" lon="-151.644000795899">
+    <time>2023-07-06T18:40:38.000000Z</time>
+    <name>2023/148/182</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0497031527452" lon="-151.529989597025">
+    <time>2023-07-06T20:50:47.000000Z</time>
+    <name>2023/148/183</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.087459104336" lon="-151.366925945806">
+    <time>2023-07-06T22:50:45.000000Z</time>
+    <name>2023/148/184</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0386550280572" lon="-151.115028471152">
+    <time>2023-07-07T00:53:47.000000Z</time>
+    <name>2023/148/185</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3365147474781" lon="-150.843989318166">
+    <time>2023-07-07T15:15:45.000000Z</time>
+    <name>2023/148/186</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3658920595616" lon="-150.852440117238">
+    <time>2023-07-07T17:07:29.000000Z</time>
+    <name>2023/148/187</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4083559594278" lon="-150.77776957878">
+    <time>2023-07-07T18:42:30.000000Z</time>
+    <name>2023/148/188</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4310412593606" lon="-150.936022062579">
+    <time>2023-07-07T20:44:10.000000Z</time>
+    <name>2023/148/189</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2227190528519" lon="-151.387143192045">
+    <time>2023-07-07T23:36:20.000000Z</time>
+    <name>2023/148/190</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5763887488402" lon="-151.240581557456">
+    <time>2023-07-08T15:10:46.000000Z</time>
+    <name>2023/148/191</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6115581764701" lon="-150.825181933557">
+    <time>2023-07-08T17:28:16.000000Z</time>
+    <name>2023/148/192</name>
+    <cmt>1.11: Satisfactory performance, completed tow</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8140388572249" lon="-150.258734188055">
+    <time>2023-07-08T20:42:19.000000Z</time>
+    <name>2023/148/193</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9283386149344" lon="-150.507909066195">
+    <time>2023-07-08T22:46:41.000000Z</time>
+    <name>2023/148/194</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.841093233723" lon="-150.557596961561">
+    <time>2023-07-09T00:25:41.000000Z</time>
+    <name>2023/148/195</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.309999896349" lon="-151.220071211989">
+    <time>2023-07-09T15:12:01.000000Z</time>
+    <name>2023/148/196</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2793166883457" lon="-151.213619539879">
+    <time>2023-07-09T16:50:34.000000Z</time>
+    <name>2023/148/197</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1422202231815" lon="-150.660626807556">
+    <time>2023-07-09T20:23:49.000000Z</time>
+    <name>2023/148/198</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0899161114582" lon="-150.713423344011">
+    <time>2023-07-09T22:30:49.000000Z</time>
+    <name>2023/148/199</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2000531403156" lon="-150.633553149844">
+    <time>2023-07-10T00:38:10.000000Z</time>
+    <name>2023/148/200</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3635332948632" lon="-150.571539683251">
+    <time>2023-07-10T15:32:14.000000Z</time>
+    <name>2023/148/201</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4146688555532" lon="-150.619504693703">
+    <time>2023-07-10T17:11:59.000000Z</time>
+    <name>2023/148/202</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4381640334698" lon="-150.794776722636">
+    <time>2023-07-10T19:17:39.000000Z</time>
+    <name>2023/148/203</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4730320042835" lon="-150.373093371806">
+    <time>2023-07-10T21:24:36.000000Z</time>
+    <name>2023/148/204</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5499760743421" lon="-150.086913509002">
+    <time>2023-07-10T22:59:37.000000Z</time>
+    <name>2023/148/205</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0179814002711" lon="-149.003252908693">
+    <time>2023-07-11T15:11:30.000000Z</time>
+    <name>2023/148/206</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1946047675079" lon="-148.866803663784">
+    <time>2023-07-11T17:08:49.000000Z</time>
+    <name>2023/148/207</name>
+    <cmt>4.4: Satisfactory performance, large fish catch affected net performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2903721341794" lon="-149.096276693274">
+    <time>2023-07-11T21:03:33.000000Z</time>
+    <name>2023/148/208</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5249172534535" lon="-149.258176025957">
+    <time>2023-07-11T23:35:19.000000Z</time>
+    <name>2023/148/209</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5177629059481" lon="-149.685494389027">
+    <time>2023-07-12T15:13:56.000000Z</time>
+    <name>2023/148/210</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7669058444764" lon="-149.912910747902">
+    <time>2023-07-12T17:50:16.000000Z</time>
+    <name>2023/148/211</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8116661861147" lon="-150.742839416483">
+    <time>2023-07-12T21:35:47.000000Z</time>
+    <name>2023/148/212</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9423913470529" lon="-150.456441205496">
+    <time>2023-07-12T23:45:25.000000Z</time>
+    <name>2023/148/213</name>
+    <cmt>4.3: Satisfactory performance, caught debris or wreckage</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9838268959945" lon="-149.993314646419">
+    <time>2023-07-13T02:14:28.000000Z</time>
+    <name>2023/148/214</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5205629028838" lon="-148.962128695936">
+    <time>2023-07-15T15:28:26.000000Z</time>
+    <name>2023/148/215</name>
+    <cmt>1.11: Satisfactory performance, completed tow</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.562344030827" lon="-148.573479616082">
+    <time>2023-07-15T17:48:25.000000Z</time>
+    <name>2023/148/216</name>
+    <cmt>-2.5: Unsatisfactory performance, bridle damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6082713006026" lon="-148.6478955928">
+    <time>2023-07-15T19:00:28.000000Z</time>
+    <name>2023/148/217</name>
+    <cmt>-6.3: Unsatisfactory performance, unspecified mechanical problems</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6406866059598" lon="-148.86116218847">
+    <time>2023-07-15T20:21:14.000000Z</time>
+    <name>2023/148/218</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7995326709207" lon="-149.083532271749">
+    <time>2023-07-15T22:24:48.000000Z</time>
+    <name>2023/148/219</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9171275110657" lon="-148.380941316045">
+    <time>2023-07-16T01:51:07.000000Z</time>
+    <name>2023/148/220</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1649501059732" lon="-149.838688790628">
+    <time>2023-07-16T15:15:44.000000Z</time>
+    <name>2023/148/221</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3753558330248" lon="-149.036095030138">
+    <time>2023-07-16T19:13:56.000000Z</time>
+    <name>2023/148/222</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.547147760663" lon="-148.876294118605">
+    <time>2023-07-16T21:39:02.000000Z</time>
+    <name>2023/148/223</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7058905328489" lon="-148.51444383797">
+    <time>2023-07-17T00:18:27.000000Z</time>
+    <name>2023/148/224</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0544403378026" lon="-148.138918998795">
+    <time>2023-07-17T15:11:51.000000Z</time>
+    <name>2023/148/225</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9276412375676" lon="-148.096714309911">
+    <time>2023-07-17T17:46:06.000000Z</time>
+    <name>2023/148/226</name>
+    <cmt>-2.4: Unsatisfactory performance, belly damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0596039071082" lon="-147.966314931886">
+    <time>2023-07-17T20:14:44.000000Z</time>
+    <name>2023/148/227</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.934081473353" lon="-148.006067062532">
+    <time>2023-07-18T00:49:26.000000Z</time>
+    <name>2023/148/228</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.970360046186" lon="-148.028492840297">
+    <time>2023-07-18T03:01:32.000000Z</time>
+    <name>2023/148/229</name>
+    <cmt>-2.4: Unsatisfactory performance, belly damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6438792642213" lon="-148.219308338418">
+    <time>2023-07-18T15:15:47.000000Z</time>
+    <name>2023/148/230</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5757144344227" lon="-147.938777230592">
+    <time>2023-07-18T17:05:44.000000Z</time>
+    <name>2023/148/231</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4339312216635" lon="-147.732711487282">
+    <time>2023-07-18T19:09:19.000000Z</time>
+    <name>2023/148/232</name>
+    <cmt>-1.12: Unsatisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3712992353947" lon="-147.895912518822">
+    <time>2023-07-18T21:16:12.000000Z</time>
+    <name>2023/148/233</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.000724324327" lon="-147.915504034884">
+    <time>2023-07-19T01:08:02.000000Z</time>
+    <name>2023/148/234</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3690220054048" lon="-147.22247906968">
+    <time>2023-07-19T15:48:34.000000Z</time>
+    <name>2023/148/235</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6057851559419" lon="-147.278475926034">
+    <time>2023-07-19T18:13:44.000000Z</time>
+    <name>2023/148/236</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8706250499331" lon="-146.986732371453">
+    <time>2023-07-19T21:13:33.000000Z</time>
+    <name>2023/148/237</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9618582994823" lon="-146.688960281607">
+    <time>2023-07-20T00:58:25.000000Z</time>
+    <name>2023/148/238</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6131208469881" lon="-146.140249101244">
+    <time>2023-07-20T15:10:04.000000Z</time>
+    <name>2023/148/239</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.2720726389127" lon="-145.717387800771">
+    <time>2023-07-20T20:45:02.000000Z</time>
+    <name>2023/148/240</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.1606792915746" lon="-145.425930069208">
+    <time>2023-07-20T22:47:37.000000Z</time>
+    <name>2023/148/241</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.0999480627837" lon="-145.064703815472">
+    <time>2023-07-21T00:39:27.000000Z</time>
+    <name>2023/148/242</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9007648823461" lon="-144.010093794252">
+    <time>2023-07-21T15:16:43.000000Z</time>
+    <name>2023/148/243</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8666507812328" lon="-143.713480179349">
+    <time>2023-07-21T17:11:11.000000Z</time>
+    <name>2023/148/244</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6078293312714" lon="-143.752101656361">
+    <time>2023-07-21T19:37:02.000000Z</time>
+    <name>2023/148/245</name>
+    <cmt>2.1: Satisfactory performance, wing damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6538617820316" lon="-142.697840797825">
+    <time>2023-07-22T01:38:26.000000Z</time>
+    <name>2023/148/246</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3818629778502" lon="-142.159894616251">
+    <time>2023-07-22T15:21:07.000000Z</time>
+    <name>2023/148/247</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5320692156784" lon="-142.086865928697">
+    <time>2023-07-22T17:18:32.000000Z</time>
+    <name>2023/148/248</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5855538405891" lon="-142.615704419418">
+    <time>2023-07-22T20:19:53.000000Z</time>
+    <name>2023/148/249</name>
+    <cmt>-5.23: Unsatisfactory performance headrope/footrope tangled</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5898403722858" lon="-142.618994334404">
+    <time>2023-07-22T21:57:07.000000Z</time>
+    <name>2023/148/250</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.85222932165" lon="-142.006755580781">
+    <time>2023-07-23T01:48:09.000000Z</time>
+    <name>2023/148/251</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.42925698029" lon="-141.194717067508">
+    <time>2023-07-23T15:22:05.000000Z</time>
+    <name>2023/148/252</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5623480310985" lon="-140.874534632438">
+    <time>2023-07-23T18:05:08.000000Z</time>
+    <name>2023/148/253</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4159835310196" lon="-140.275131837702">
+    <time>2023-07-23T21:06:51.000000Z</time>
+    <name>2023/148/254</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5424100971705" lon="-140.097743446055">
+    <time>2023-07-23T23:22:55.000000Z</time>
+    <name>2023/148/255</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6055991008147" lon="-140.028701356204">
+    <time>2023-07-25T15:20:00.000000Z</time>
+    <name>2023/148/256</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8376128901226" lon="-139.372169425534">
+    <time>2023-07-25T19:12:54.000000Z</time>
+    <name>2023/148/257</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9245699763098" lon="-138.724976917103">
+    <time>2023-07-25T22:40:14.000000Z</time>
+    <name>2023/148/258</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5878688219751" lon="-138.70448737909">
+    <time>2023-07-26T02:46:22.000000Z</time>
+    <name>2023/148/259</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3762283229562" lon="-138.458569620167">
+    <time>2023-07-26T15:27:15.000000Z</time>
+    <name>2023/148/260</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5550300909349" lon="-138.507178922099">
+    <time>2023-07-26T17:54:31.000000Z</time>
+    <name>2023/148/261</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5388942633238" lon="-138.020876360809">
+    <time>2023-07-26T20:23:23.000000Z</time>
+    <name>2023/148/262</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4956255507518" lon="-137.627414206358">
+    <time>2023-07-26T22:49:15.000000Z</time>
+    <name>2023/148/263</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4865821301325" lon="-137.543807494247">
+    <time>2023-07-27T01:06:31.000000Z</time>
+    <name>2023/148/264</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8913136098406" lon="-136.920305866146">
+    <time>2023-07-27T15:57:58.000000Z</time>
+    <name>2023/148/265</name>
+    <cmt>5.8: Light footrope contact</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.893855992998" lon="-136.792907684388">
+    <time>2023-07-27T18:09:53.000000Z</time>
+    <name>2023/148/266</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7533921046595" lon="-136.450287587266">
+    <time>2023-07-27T20:56:56.000000Z</time>
+    <name>2023/148/267</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.741449207107" lon="-136.466242856883">
+    <time>2023-07-27T22:06:59.000000Z</time>
+    <name>2023/148/268</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4121977482928" lon="-135.56060167013">
+    <time>2023-07-28T15:10:14.000000Z</time>
+    <name>2023/148/269</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2311174374945" lon="-135.306168778758">
+    <time>2023-07-28T17:42:08.000000Z</time>
+    <name>2023/148/270</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1691242159099" lon="-135.11810612866">
+    <time>2023-07-28T20:12:33.000000Z</time>
+    <name>2023/148/271</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8769414633655" lon="-134.467315263902">
+    <time>2023-07-29T00:05:15.000000Z</time>
+    <name>2023/148/272</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.963393902508" lon="-134.703951102934">
+    <time>2023-07-29T02:37:15.000000Z</time>
+    <name>2023/148/273</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9302884440727" lon="-135.421146846207">
+    <time>2023-07-29T21:59:20.000000Z</time>
+    <name>2023/148/274</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4423421323188" lon="-134.989501308518">
+    <time>2023-07-30T02:10:37.000000Z</time>
+    <name>2023/148/275</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7136424724584" lon="-133.688389007539">
+    <time>2023-07-30T15:17:41.000000Z</time>
+    <name>2023/148/276</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4725330610857" lon="-133.549140385264">
+    <time>2023-07-30T17:57:33.000000Z</time>
+    <name>2023/148/277</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7413595047387" lon="-134.109966003817">
+    <time>2023-07-30T21:35:33.000000Z</time>
+    <name>2023/148/278</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.9709629105962" lon="-168.620601058754">
+    <time>2023-05-21T16:19:36.000000Z</time>
+    <name>2023/176/1</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.9736285021746" lon="-168.60755896255">
+    <time>2023-05-21T17:54:45.000000Z</time>
+    <name>2023/176/2</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.9749230368087" lon="-168.607594448832">
+    <time>2023-05-21T18:37:02.000000Z</time>
+    <name>2023/176/3</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.6451967782131" lon="-169.431404479118">
+    <time>2023-05-21T23:14:25.000000Z</time>
+    <name>2023/176/4</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.662913697585" lon="-169.361215919692">
+    <time>2023-05-22T15:47:33.000000Z</time>
+    <name>2023/176/5</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.7560686653382" lon="-169.011710143186">
+    <time>2023-05-22T18:32:31.000000Z</time>
+    <name>2023/176/6</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.9669563790259" lon="-168.605823920591">
+    <time>2023-05-22T21:55:03.000000Z</time>
+    <name>2023/176/7</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.9878165769887" lon="-167.828931124028">
+    <time>2023-05-23T02:04:13.000000Z</time>
+    <name>2023/176/8</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.9913615893955" lon="-167.854876669787">
+    <time>2023-05-23T15:45:25.000000Z</time>
+    <name>2023/176/9</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.1612403966256" lon="-167.79664110345">
+    <time>2023-05-23T18:26:24.000000Z</time>
+    <name>2023/176/10</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.1233280385874" lon="-167.589322855156">
+    <time>2023-05-23T20:23:57.000000Z</time>
+    <name>2023/176/11</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.2337466555365" lon="-167.255357819581">
+    <time>2023-05-23T23:50:45.000000Z</time>
+    <name>2023/176/12</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.0938231794463" lon="-167.130502966045">
+    <time>2023-05-24T15:52:35.000000Z</time>
+    <name>2023/176/13</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.2028895103695" lon="-166.817659896746">
+    <time>2023-05-24T18:01:01.000000Z</time>
+    <name>2023/176/14</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.2805106203301" lon="-166.761883518982">
+    <time>2023-05-24T19:35:41.000000Z</time>
+    <name>2023/176/15</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.2272054028478" lon="-166.340162118994">
+    <time>2023-05-24T22:40:20.000000Z</time>
+    <name>2023/176/16</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.4355766204874" lon="-166.0602036804">
+    <time>2023-05-25T01:30:15.000000Z</time>
+    <name>2023/176/17</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.5201327031127" lon="-166.164878371375">
+    <time>2023-05-25T15:45:24.000000Z</time>
+    <name>2023/176/18</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.6077951488656" lon="-166.031806817868">
+    <time>2023-05-25T17:51:21.000000Z</time>
+    <name>2023/176/19</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.5740306705652" lon="-165.670891804538">
+    <time>2023-05-25T20:09:45.000000Z</time>
+    <name>2023/176/20</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.7273712949092" lon="-166.134301686909">
+    <time>2023-05-25T23:52:13.000000Z</time>
+    <name>2023/176/21</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3210677169082" lon="-165.373450902449">
+    <time>2023-05-26T15:28:34.000000Z</time>
+    <name>2023/176/22</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2556454138331" lon="-164.953813930031">
+    <time>2023-05-26T17:59:46.000000Z</time>
+    <name>2023/176/23</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2242453866632" lon="-165.451249554522">
+    <time>2023-05-26T20:38:58.000000Z</time>
+    <name>2023/176/24</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4308603181832" lon="-164.330699855072">
+    <time>2023-05-27T00:58:48.000000Z</time>
+    <name>2023/176/25</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9850994406368" lon="-162.392352469036">
+    <time>2023-05-27T15:25:09.000000Z</time>
+    <name>2023/176/26</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8550591859108" lon="-162.90472899237">
+    <time>2023-05-27T19:07:14.000000Z</time>
+    <name>2023/176/27</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0722783499963" lon="-163.101280523385">
+    <time>2023-05-27T21:37:30.000000Z</time>
+    <name>2023/176/28</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9046721372394" lon="-162.753017567954">
+    <time>2023-05-28T00:27:40.000000Z</time>
+    <name>2023/176/29</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3097202243963" lon="-161.1837386589">
+    <time>2023-05-28T15:01:57.000000Z</time>
+    <name>2023/176/30</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3411569072048" lon="-161.422645595344">
+    <time>2023-05-28T17:06:36.000000Z</time>
+    <name>2023/176/31</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5900585742241" lon="-161.433033546938">
+    <time>2023-05-28T19:55:31.000000Z</time>
+    <name>2023/176/32</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4986945514326" lon="-161.571605737925">
+    <time>2023-05-28T22:29:42.000000Z</time>
+    <name>2023/176/33</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2389257318428" lon="-161.845117607027">
+    <time>2023-05-29T01:15:55.000000Z</time>
+    <name>2023/176/34</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.43505971387" lon="-163.764425384244">
+    <time>2023-05-29T15:10:49.000000Z</time>
+    <name>2023/176/35</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5405420311223" lon="-163.683964607374">
+    <time>2023-05-29T17:20:53.000000Z</time>
+    <name>2023/176/36</name>
+    <cmt>-1: Unsatisfactory performance, hung up</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5346132792079" lon="-163.662308107432">
+    <time>2023-05-29T18:12:02.000000Z</time>
+    <name>2023/176/37</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.42011495405" lon="-163.751219858636">
+    <time>2023-05-29T20:01:38.000000Z</time>
+    <name>2023/176/38</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2619506386657" lon="-163.931114951395">
+    <time>2023-05-29T22:15:50.000000Z</time>
+    <name>2023/176/39</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3790333528824" lon="-164.002455878144">
+    <time>2023-05-30T00:04:26.000000Z</time>
+    <name>2023/176/40</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9329424403046" lon="-164.630595680443">
+    <time>2023-05-31T15:21:26.000000Z</time>
+    <name>2023/176/41</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0853038682839" lon="-164.261055708614">
+    <time>2023-05-31T18:22:38.000000Z</time>
+    <name>2023/176/42</name>
+    <cmt>1.11: Satisfactory performance, completed tow</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0031380169502" lon="-164.179750173872">
+    <time>2023-05-31T20:22:06.000000Z</time>
+    <name>2023/176/43</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0883104413153" lon="-163.766697990067">
+    <time>2023-05-31T23:32:50.000000Z</time>
+    <name>2023/176/44</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0859537052608" lon="-163.122503065622">
+    <time>2023-06-01T15:05:14.000000Z</time>
+    <name>2023/176/45</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1065948788774" lon="-163.096018491777">
+    <time>2023-06-01T16:39:34.000000Z</time>
+    <name>2023/176/46</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1644649253689" lon="-163.403617748786">
+    <time>2023-06-01T18:36:16.000000Z</time>
+    <name>2023/176/47</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2819964245478" lon="-163.072408935498">
+    <time>2023-06-01T20:50:58.000000Z</time>
+    <name>2023/176/48</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4581954835079" lon="-163.082955781257">
+    <time>2023-06-01T22:44:42.000000Z</time>
+    <name>2023/176/49</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0936363354182" lon="-161.690780308672">
+    <time>2023-06-02T15:07:10.000000Z</time>
+    <name>2023/176/50</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3252255740075" lon="-161.806138297317">
+    <time>2023-06-02T17:29:04.000000Z</time>
+    <name>2023/176/51</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4784099870043" lon="-161.884803916759">
+    <time>2023-06-02T19:19:19.000000Z</time>
+    <name>2023/176/52</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.48533777493" lon="-162.04984763461">
+    <time>2023-06-02T21:02:36.000000Z</time>
+    <name>2023/176/53</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4981681323041" lon="-161.487632295182">
+    <time>2023-06-03T01:31:08.000000Z</time>
+    <name>2023/176/54</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4105934247756" lon="-159.349072025326">
+    <time>2023-06-03T15:17:55.000000Z</time>
+    <name>2023/176/55</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4834263262788" lon="-159.724501995499">
+    <time>2023-06-03T17:51:50.000000Z</time>
+    <name>2023/176/56</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3989670901099" lon="-160.092124754485">
+    <time>2023-06-03T20:08:30.000000Z</time>
+    <name>2023/176/57</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5263536596062" lon="-160.743284140228">
+    <time>2023-06-03T23:24:35.000000Z</time>
+    <name>2023/176/58</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.580380676905" lon="-161.191387452283">
+    <time>2023-06-04T15:09:43.000000Z</time>
+    <name>2023/176/59</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6135300808606" lon="-161.195811646212">
+    <time>2023-06-04T16:38:27.000000Z</time>
+    <name>2023/176/60</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9430112911249" lon="-160.875629272716">
+    <time>2023-06-04T19:51:08.000000Z</time>
+    <name>2023/176/61</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0878294097094" lon="-161.087597130413">
+    <time>2023-06-06T15:10:11.000000Z</time>
+    <name>2023/176/62</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1293186429863" lon="-161.050720937921">
+    <time>2023-06-06T17:06:53.000000Z</time>
+    <name>2023/176/63</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5580371551753" lon="-160.622760512955">
+    <time>2023-06-06T21:08:23.000000Z</time>
+    <name>2023/176/64</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4895050157366" lon="-160.446945298921">
+    <time>2023-06-06T22:58:50.000000Z</time>
+    <name>2023/176/65</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6417965140425" lon="-159.987656535735">
+    <time>2023-06-07T15:06:58.000000Z</time>
+    <name>2023/176/66</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5907533802267" lon="-160.062198188024">
+    <time>2023-06-07T16:46:43.000000Z</time>
+    <name>2023/176/67</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2832602696706" lon="-159.817088175252">
+    <time>2023-06-07T19:36:54.000000Z</time>
+    <name>2023/176/68</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0600428392279" lon="-159.712827092559">
+    <time>2023-06-07T21:51:01.000000Z</time>
+    <name>2023/176/69</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0487837266533" lon="-159.968935649646">
+    <time>2023-06-07T23:55:05.000000Z</time>
+    <name>2023/176/70</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0418953154952" lon="-159.960044515438">
+    <time>2023-06-08T15:01:40.000000Z</time>
+    <name>2023/176/71</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9393529623603" lon="-159.630935038637">
+    <time>2023-06-08T17:02:10.000000Z</time>
+    <name>2023/176/72</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1131635593844" lon="-159.356556936906">
+    <time>2023-06-08T19:22:35.000000Z</time>
+    <name>2023/176/73</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2202862869532" lon="-159.150286712672">
+    <time>2023-06-08T21:19:29.000000Z</time>
+    <name>2023/176/74</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1122328745029" lon="-159.135120262898">
+    <time>2023-06-09T00:41:50.000000Z</time>
+    <name>2023/176/75</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9564230123307" lon="-158.062813922951">
+    <time>2023-06-09T15:05:26.000000Z</time>
+    <name>2023/176/76</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8659829555891" lon="-158.619861418848">
+    <time>2023-06-09T17:48:43.000000Z</time>
+    <name>2023/176/77</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2451331426545" lon="-158.827504401183">
+    <time>2023-06-09T21:14:19.000000Z</time>
+    <name>2023/176/78</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5230870501157" lon="-158.8562249053">
+    <time>2023-06-09T23:52:49.000000Z</time>
+    <name>2023/176/79</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4862766406221" lon="-158.460972698542">
+    <time>2023-06-10T02:08:05.000000Z</time>
+    <name>2023/176/80</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7766073449911" lon="-158.414262162103">
+    <time>2023-06-10T15:05:35.000000Z</time>
+    <name>2023/176/81</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5980696693296" lon="-158.226050411993">
+    <time>2023-06-10T17:02:51.000000Z</time>
+    <name>2023/176/82</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7832600189629" lon="-157.791274498452">
+    <time>2023-06-10T19:34:23.000000Z</time>
+    <name>2023/176/83</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9386255284101" lon="-157.965292112227">
+    <time>2023-06-10T21:34:59.000000Z</time>
+    <name>2023/176/84</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9395180693582" lon="-158.458336493523">
+    <time>2023-06-10T23:50:29.000000Z</time>
+    <name>2023/176/85</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9277554043011" lon="-158.604453218063">
+    <time>2023-06-12T15:04:22.000000Z</time>
+    <name>2023/176/86</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0318240284567" lon="-158.3182468115">
+    <time>2023-06-12T17:55:27.000000Z</time>
+    <name>2023/176/87</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1281512347983" lon="-158.098588396214">
+    <time>2023-06-12T20:06:48.000000Z</time>
+    <name>2023/176/88</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2088607373496" lon="-157.895549827949">
+    <time>2023-06-12T22:25:26.000000Z</time>
+    <name>2023/176/89</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0243395984884" lon="-157.880534537853">
+    <time>2023-06-13T01:14:21.000000Z</time>
+    <name>2023/176/90</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2637670493907" lon="-157.38273635445">
+    <time>2023-06-13T15:02:11.000000Z</time>
+    <name>2023/176/91</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4035552148409" lon="-157.454966643495">
+    <time>2023-06-13T16:30:22.000000Z</time>
+    <name>2023/176/92</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4522911297788" lon="-157.246218515057">
+    <time>2023-06-13T18:13:12.000000Z</time>
+    <name>2023/176/93</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.624110155871" lon="-157.113717663412">
+    <time>2023-06-13T19:59:45.000000Z</time>
+    <name>2023/176/94</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1173335437818" lon="-156.706111751319">
+    <time>2023-06-14T00:38:15.000000Z</time>
+    <name>2023/176/95</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.202326732177" lon="-156.556960847579">
+    <time>2023-06-14T15:10:13.000000Z</time>
+    <name>2023/176/96</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3443697622236" lon="-156.54884771248">
+    <time>2023-06-14T16:50:15.000000Z</time>
+    <name>2023/176/97</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4024942749484" lon="-156.539135467086">
+    <time>2023-06-14T18:48:09.000000Z</time>
+    <name>2023/176/98</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5574490849549" lon="-156.591225580868">
+    <time>2023-06-14T20:44:53.000000Z</time>
+    <name>2023/176/99</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6614350002263" lon="-156.471640682276">
+    <time>2023-06-14T22:31:48.000000Z</time>
+    <name>2023/176/100</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.70146584802" lon="-156.08267261867">
+    <time>2023-06-15T00:37:30.000000Z</time>
+    <name>2023/176/101</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9069457664768" lon="-154.002777637973">
+    <time>2023-06-15T15:07:20.000000Z</time>
+    <name>2023/176/102</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8295646808983" lon="-154.177196956606">
+    <time>2023-06-15T16:48:57.000000Z</time>
+    <name>2023/176/103</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7008631052528" lon="-154.376998306707">
+    <time>2023-06-15T18:39:43.000000Z</time>
+    <name>2023/176/104</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8675864441381" lon="-154.626993511932">
+    <time>2023-06-15T20:48:22.000000Z</time>
+    <name>2023/176/105</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0913489520021" lon="-154.914134609323">
+    <time>2023-06-15T23:01:06.000000Z</time>
+    <name>2023/176/106</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.1883739485173" lon="-154.883722303493">
+    <time>2023-06-16T01:16:17.000000Z</time>
+    <name>2023/176/107</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.58443369443" lon="-156.945202572327">
+    <time>2023-06-16T15:18:46.000000Z</time>
+    <name>2023/176/108</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.661976204774" lon="-156.872409705509">
+    <time>2023-06-16T17:58:35.000000Z</time>
+    <name>2023/176/109</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7382491232851" lon="-156.729489053454">
+    <time>2023-06-16T19:43:02.000000Z</time>
+    <name>2023/176/110</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.741793372034" lon="-156.875589821558">
+    <time>2023-06-16T21:18:19.000000Z</time>
+    <name>2023/176/111</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7178693745729" lon="-157.187816971437">
+    <time>2023-06-16T23:39:45.000000Z</time>
+    <name>2023/176/112</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8313820693774" lon="-157.038612202314">
+    <time>2023-06-17T15:02:30.000000Z</time>
+    <name>2023/176/113</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9361126724468" lon="-156.884191469181">
+    <time>2023-06-17T16:44:57.000000Z</time>
+    <name>2023/176/114</name>
+    <cmt>4.4: Satisfactory performance, large fish catch affected net performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8237185276045" lon="-156.157413349144">
+    <time>2023-06-17T20:44:50.000000Z</time>
+    <name>2023/176/115</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7365133331764" lon="-155.745574548231">
+    <time>2023-06-17T22:55:55.000000Z</time>
+    <name>2023/176/116</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3771708997874" lon="-154.460286942462">
+    <time>2023-06-18T15:00:58.000000Z</time>
+    <name>2023/176/117</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.322370310859" lon="-155.244749208108">
+    <time>2023-06-18T18:13:39.000000Z</time>
+    <name>2023/176/118</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4376563242292" lon="-155.251684786756">
+    <time>2023-06-18T19:31:47.000000Z</time>
+    <name>2023/176/119</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4116460304475" lon="-155.36435654827">
+    <time>2023-06-18T20:56:52.000000Z</time>
+    <name>2023/176/120</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3990847424529" lon="-155.514945956876">
+    <time>2023-06-18T22:20:04.000000Z</time>
+    <name>2023/176/121</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5424778856939" lon="-155.573871478732">
+    <time>2023-06-18T23:58:16.000000Z</time>
+    <name>2023/176/122</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4836804828443" lon="-155.491285579701">
+    <time>2023-06-19T14:59:53.000000Z</time>
+    <name>2023/176/123</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5779784303096" lon="-155.399591288074">
+    <time>2023-06-19T16:19:37.000000Z</time>
+    <name>2023/176/124</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7211336004896" lon="-155.1623053301">
+    <time>2023-06-19T18:03:40.000000Z</time>
+    <name>2023/176/125</name>
+    <cmt>-3.13: Unsatisfactory performance, Alaskan crab pot</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7226447602084" lon="-155.163032447691">
+    <time>2023-06-19T19:49:34.000000Z</time>
+    <name>2023/176/126</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8203315005506" lon="-155.066707824193">
+    <time>2023-06-19T21:45:34.000000Z</time>
+    <name>2023/176/127</name>
+    <cmt>-1.2: Unsatisfactory performance, major hang, stopped forward progress of vessel.</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8197891734832" lon="-155.086831418632">
+    <time>2023-06-20T00:21:26.000000Z</time>
+    <name>2023/176/128</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3959022522221" lon="-154.759071774179">
+    <time>2023-06-21T15:02:04.000000Z</time>
+    <name>2023/176/129</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3960273355815" lon="-154.790466202241">
+    <time>2023-06-21T16:36:10.000000Z</time>
+    <name>2023/176/130</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3912660467893" lon="-155.187388034631">
+    <time>2023-06-21T18:41:57.000000Z</time>
+    <name>2023/176/131</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2185274242748" lon="-155.746606630933">
+    <time>2023-06-21T21:30:19.000000Z</time>
+    <name>2023/176/132</name>
+    <cmt>1.12: Satisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3921880414986" lon="-156.125155657784">
+    <time>2023-06-21T23:58:35.000000Z</time>
+    <name>2023/176/133</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5424607228559" lon="-156.01963798289">
+    <time>2023-06-22T01:40:06.000000Z</time>
+    <name>2023/176/134</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7731267612912" lon="-154.942424738526">
+    <time>2023-06-22T15:07:03.000000Z</time>
+    <name>2023/176/135</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9929390491878" lon="-154.669986145107">
+    <time>2023-06-22T17:14:55.000000Z</time>
+    <name>2023/176/136</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9681164834848" lon="-154.518017036622">
+    <time>2023-06-22T18:40:06.000000Z</time>
+    <name>2023/176/137</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0509298795191" lon="-154.123327589356">
+    <time>2023-06-22T21:57:34.000000Z</time>
+    <name>2023/176/138</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2472232641101" lon="-154.060188230689">
+    <time>2023-06-23T00:14:14.000000Z</time>
+    <name>2023/176/139</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8806528577516" lon="-153.802302588099">
+    <time>2023-06-23T15:01:14.000000Z</time>
+    <name>2023/176/140</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8992663034234" lon="-153.770456433994">
+    <time>2023-06-23T16:31:22.000000Z</time>
+    <name>2023/176/141</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0260687890317" lon="-153.833659654327">
+    <time>2023-06-23T17:56:15.000000Z</time>
+    <name>2023/176/142</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2636033019649" lon="-153.506541461618">
+    <time>2023-06-23T20:17:48.000000Z</time>
+    <name>2023/176/143</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4363292533564" lon="-153.056140099473">
+    <time>2023-06-23T22:38:33.000000Z</time>
+    <name>2023/176/144</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8595840073971" lon="-152.799973769679">
+    <time>2023-06-24T14:56:43.000000Z</time>
+    <name>2023/176/145</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8775511666372" lon="-152.823378686155">
+    <time>2023-06-24T17:33:45.000000Z</time>
+    <name>2023/176/146</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9411593348837" lon="-152.17986422032">
+    <time>2023-06-26T22:22:27.000000Z</time>
+    <name>2023/176/147</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4459296051397" lon="-153.519042504295">
+    <time>2023-06-27T15:10:11.000000Z</time>
+    <name>2023/176/148</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4990650340999" lon="-153.504032162366">
+    <time>2023-06-27T17:06:54.000000Z</time>
+    <name>2023/176/149</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5393831164639" lon="-153.62724906063">
+    <time>2023-06-27T18:49:04.000000Z</time>
+    <name>2023/176/150</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0314547148954" lon="-153.529207659326">
+    <time>2023-06-27T23:48:00.000000Z</time>
+    <name>2023/176/151</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7944786527189" lon="-152.161412849003">
+    <time>2023-06-28T15:03:19.000000Z</time>
+    <name>2023/176/152</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9165211846376" lon="-152.454974973649">
+    <time>2023-06-28T16:52:57.000000Z</time>
+    <name>2023/176/153</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8004024686636" lon="-152.67223544906">
+    <time>2023-06-28T18:32:01.000000Z</time>
+    <name>2023/176/154</name>
+    <cmt>-2.4: Unsatisfactory performance, belly damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7999469961991" lon="-152.673272433901">
+    <time>2023-06-28T20:52:37.000000Z</time>
+    <name>2023/176/155</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6664333505738" lon="-152.828149043955">
+    <time>2023-06-28T22:28:19.000000Z</time>
+    <name>2023/176/156</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5712575122126" lon="-153.379055283281">
+    <time>2023-06-29T00:39:13.000000Z</time>
+    <name>2023/176/157</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4783750809967" lon="-153.318233332321">
+    <time>2023-06-29T15:02:44.000000Z</time>
+    <name>2023/176/158</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4353682825657" lon="-153.317935451962">
+    <time>2023-06-29T17:05:15.000000Z</time>
+    <name>2023/176/159</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2662326398234" lon="-152.601187731665">
+    <time>2023-06-29T20:26:16.000000Z</time>
+    <name>2023/176/160</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1109197925157" lon="-152.639841227063">
+    <time>2023-06-29T22:05:22.000000Z</time>
+    <name>2023/176/161</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0873031888806" lon="-152.162941459389">
+    <time>2023-06-30T00:38:08.000000Z</time>
+    <name>2023/176/162</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8033288942825" lon="-152.054181986968">
+    <time>2023-06-30T15:01:28.000000Z</time>
+    <name>2023/176/163</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8572620209817" lon="-152.444361821899">
+    <time>2023-06-30T17:58:50.000000Z</time>
+    <name>2023/176/164</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9341772628177" lon="-152.515878262542">
+    <time>2023-06-30T20:39:02.000000Z</time>
+    <name>2023/176/165</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0301237767135" lon="-152.208428928899">
+    <time>2023-06-30T22:30:46.000000Z</time>
+    <name>2023/176/166</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9301260167094" lon="-151.855897268883">
+    <time>2023-07-01T00:34:59.000000Z</time>
+    <name>2023/176/167</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7038443079717" lon="-151.732205169167">
+    <time>2023-07-01T15:06:03.000000Z</time>
+    <name>2023/176/168</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9391848753599" lon="-151.766054074689">
+    <time>2023-07-01T17:54:08.000000Z</time>
+    <name>2023/176/169</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0700523847427" lon="-151.51307277988">
+    <time>2023-07-01T19:59:30.000000Z</time>
+    <name>2023/176/170</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.265231660472" lon="-151.118708148381">
+    <time>2023-07-01T23:23:22.000000Z</time>
+    <name>2023/176/171</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1169237231554" lon="-150.62567064984">
+    <time>2023-07-03T16:24:24.000000Z</time>
+    <name>2023/176/172</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2267193022861" lon="-150.455820720512">
+    <time>2023-07-03T18:37:00.000000Z</time>
+    <name>2023/176/173</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2123670631284" lon="-150.038523932191">
+    <time>2023-07-03T21:06:47.000000Z</time>
+    <name>2023/176/174</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1882381503362" lon="-150.341089974772">
+    <time>2023-07-04T00:11:41.000000Z</time>
+    <name>2023/176/175</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5859477414643" lon="-151.840924577646">
+    <time>2023-07-04T15:05:33.000000Z</time>
+    <name>2023/176/176</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6556003122719" lon="-151.323940086093">
+    <time>2023-07-04T17:27:41.000000Z</time>
+    <name>2023/176/177</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7772692167823" lon="-151.068227187872">
+    <time>2023-07-04T19:38:50.000000Z</time>
+    <name>2023/176/178</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8223056257109" lon="-150.503126109878">
+    <time>2023-07-04T22:30:21.000000Z</time>
+    <name>2023/176/179</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9058629502187" lon="-150.145831902122">
+    <time>2023-07-05T00:46:52.000000Z</time>
+    <name>2023/176/180</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5683255184681" lon="-150.707010079152">
+    <time>2023-07-05T15:02:33.000000Z</time>
+    <name>2023/176/181</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6296810491465" lon="-150.559824075984">
+    <time>2023-07-05T17:00:36.000000Z</time>
+    <name>2023/176/182</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6866666318903" lon="-149.927894138289">
+    <time>2023-07-05T19:43:31.000000Z</time>
+    <name>2023/176/183</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6620466565479" lon="-149.88394968318">
+    <time>2023-07-05T22:20:33.000000Z</time>
+    <name>2023/176/184</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5952174710904" lon="-149.798264756641">
+    <time>2023-07-06T00:32:18.000000Z</time>
+    <name>2023/176/185</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3109023285476" lon="-149.4073402558">
+    <time>2023-07-06T14:59:11.000000Z</time>
+    <name>2023/176/186</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3891148457991" lon="-149.29498757505">
+    <time>2023-07-06T17:13:35.000000Z</time>
+    <name>2023/176/187</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4319652213963" lon="-149.069828041067">
+    <time>2023-07-06T19:07:50.000000Z</time>
+    <name>2023/176/188</name>
+    <cmt>1.1: Satisfactory performance, minor hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5285739234868" lon="-149.080203569834">
+    <time>2023-07-06T20:27:22.000000Z</time>
+    <name>2023/176/189</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5645384998849" lon="-149.275398542219">
+    <time>2023-07-06T21:50:25.000000Z</time>
+    <name>2023/176/190</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6429396250736" lon="-149.354878428586">
+    <time>2023-07-06T23:34:14.000000Z</time>
+    <name>2023/176/191</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6439042465106" lon="-148.931828498171">
+    <time>2023-07-07T15:03:31.000000Z</time>
+    <name>2023/176/192</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.707162831379" lon="-148.976445912625">
+    <time>2023-07-07T17:00:53.000000Z</time>
+    <name>2023/176/193</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9124441041075" lon="-148.921736014403">
+    <time>2023-07-07T19:36:45.000000Z</time>
+    <name>2023/176/194</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0279201651528" lon="-149.304225272579">
+    <time>2023-07-07T21:50:00.000000Z</time>
+    <name>2023/176/195</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.043004313561" lon="-148.421474194688">
+    <time>2023-07-08T01:20:01.000000Z</time>
+    <name>2023/176/196</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9136474469245" lon="-149.444707891852">
+    <time>2023-07-09T15:06:15.000000Z</time>
+    <name>2023/176/197</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9667424997652" lon="-149.160376758157">
+    <time>2023-07-09T17:29:01.000000Z</time>
+    <name>2023/176/198</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9364567917057" lon="-149.08028418353">
+    <time>2023-07-09T19:30:50.000000Z</time>
+    <name>2023/176/199</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6115937790451" lon="-149.922502070934">
+    <time>2023-07-10T15:39:50.000000Z</time>
+    <name>2023/176/200</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5410758502329" lon="-149.707299998703">
+    <time>2023-07-10T17:36:57.000000Z</time>
+    <name>2023/176/201</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3657880473695" lon="-149.79541818952">
+    <time>2023-07-10T19:54:02.000000Z</time>
+    <name>2023/176/202</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2732744708669" lon="-149.792077953278">
+    <time>2023-07-10T21:57:17.000000Z</time>
+    <name>2023/176/203</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8179698955427" lon="-148.172311993673">
+    <time>2023-07-11T15:02:06.000000Z</time>
+    <name>2023/176/204</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7840390698926" lon="-148.07831147887">
+    <time>2023-07-11T17:11:07.000000Z</time>
+    <name>2023/176/205</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6920268981955" lon="-148.203639317657">
+    <time>2023-07-11T18:45:16.000000Z</time>
+    <name>2023/176/206</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6757733663953" lon="-148.820901448672">
+    <time>2023-07-12T15:02:00.000000Z</time>
+    <name>2023/176/207</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7133588617769" lon="-148.699862917921">
+    <time>2023-07-12T17:28:32.000000Z</time>
+    <name>2023/176/208</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9228365865119" lon="-148.934279354489">
+    <time>2023-07-12T19:42:44.000000Z</time>
+    <name>2023/176/209</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8726430350838" lon="-149.06286103036">
+    <time>2023-07-13T15:00:49.000000Z</time>
+    <name>2023/176/210</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4241706626824" lon="-146.818565906659">
+    <time>2023-07-15T15:00:04.000000Z</time>
+    <name>2023/176/211</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2577520141444" lon="-146.883829529751">
+    <time>2023-07-15T17:59:57.000000Z</time>
+    <name>2023/176/212</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.51644614717" lon="-145.984678628473">
+    <time>2023-07-15T21:56:56.000000Z</time>
+    <name>2023/176/213</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7101944674869" lon="-146.093227916444">
+    <time>2023-07-16T14:57:40.000000Z</time>
+    <name>2023/176/214</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9639053582234" lon="-146.795420309812">
+    <time>2023-07-16T20:43:45.000000Z</time>
+    <name>2023/176/215</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.053480436486" lon="-146.149740760831">
+    <time>2023-07-16T23:36:37.000000Z</time>
+    <name>2023/176/216</name>
+    <cmt>-1.2: Unsatisfactory performance, major hang, stopped forward progress of vessel.</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.2032164864764" lon="-146.140300837462">
+    <time>2023-07-17T15:04:15.000000Z</time>
+    <name>2023/176/217</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.1566784790962" lon="-146.115174165965">
+    <time>2023-07-17T17:34:17.000000Z</time>
+    <name>2023/176/218</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.0638328910418" lon="-145.229442572026">
+    <time>2023-07-17T20:58:28.000000Z</time>
+    <name>2023/176/219</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6239581184937" lon="-144.300748094231">
+    <time>2023-07-18T02:11:28.000000Z</time>
+    <name>2023/176/220</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6793256091132" lon="-143.19014786291">
+    <time>2023-07-18T15:02:58.000000Z</time>
+    <name>2023/176/221</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7169786695716" lon="-142.896944311911">
+    <time>2023-07-18T17:16:34.000000Z</time>
+    <name>2023/176/222</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6959554494821" lon="-142.401635133068">
+    <time>2023-07-18T19:53:12.000000Z</time>
+    <name>2023/176/223</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7601376926812" lon="-141.418876829136">
+    <time>2023-07-18T23:41:45.000000Z</time>
+    <name>2023/176/224</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5297097703964" lon="-141.519623868451">
+    <time>2023-07-19T15:00:19.000000Z</time>
+    <name>2023/176/225</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4750644711406" lon="-141.513216935846">
+    <time>2023-07-19T16:54:55.000000Z</time>
+    <name>2023/176/226</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3135797858245" lon="-141.967666716111">
+    <time>2023-07-19T19:35:31.000000Z</time>
+    <name>2023/176/227</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2186750639925" lon="-141.531342535353">
+    <time>2023-07-19T21:51:05.000000Z</time>
+    <name>2023/176/228</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0038091918481" lon="-141.336834992427">
+    <time>2023-07-20T00:53:16.000000Z</time>
+    <name>2023/176/229</name>
+    <cmt>6.12: Depth range of tow exceeds limits of stratum</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6974362382191" lon="-139.59897697281">
+    <time>2023-07-20T15:04:22.000000Z</time>
+    <name>2023/176/230</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6764896344996" lon="-140.142035908235">
+    <time>2023-07-20T17:46:51.000000Z</time>
+    <name>2023/176/231</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.533749896458" lon="-140.407555139521">
+    <time>2023-07-20T19:52:31.000000Z</time>
+    <name>2023/176/232</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.264545738756" lon="-139.866250428084">
+    <time>2023-07-20T22:48:19.000000Z</time>
+    <name>2023/176/233</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2577025689803" lon="-140.000731219926">
+    <time>2023-07-21T00:43:09.000000Z</time>
+    <name>2023/176/234</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0199527155225" lon="-141.169800989738">
+    <time>2023-07-21T15:03:26.000000Z</time>
+    <name>2023/176/235</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0085420001913" lon="-141.104736656419">
+    <time>2023-07-21T17:15:01.000000Z</time>
+    <name>2023/176/236</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6939863938145" lon="-139.965136983142">
+    <time>2023-07-21T22:20:42.000000Z</time>
+    <name>2023/176/237</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5356114086001" lon="-139.630976285823">
+    <time>2023-07-22T00:56:57.000000Z</time>
+    <name>2023/176/238</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4242719517569" lon="-139.249729718247">
+    <time>2023-07-22T15:00:03.000000Z</time>
+    <name>2023/176/239</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5383498805336" lon="-139.36404648034">
+    <time>2023-07-22T16:47:20.000000Z</time>
+    <name>2023/176/240</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9512083630846" lon="-138.795317795254">
+    <time>2023-07-22T20:59:26.000000Z</time>
+    <name>2023/176/241</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.133105241767" lon="-138.834722138969">
+    <time>2023-07-22T23:13:12.000000Z</time>
+    <name>2023/176/242</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9703602255123" lon="-138.35946889782">
+    <time>2023-07-23T14:56:45.000000Z</time>
+    <name>2023/176/243</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.796606136589" lon="-138.233650576266">
+    <time>2023-07-23T17:02:52.000000Z</time>
+    <name>2023/176/244</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6222115778485" lon="-138.326487511276">
+    <time>2023-07-23T18:57:25.000000Z</time>
+    <name>2023/176/245</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1233576718571" lon="-137.958231601364">
+    <time>2023-07-24T15:02:37.000000Z</time>
+    <name>2023/176/246</name>
+    <cmt>-2.5: Unsatisfactory performance, bridle damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2577698329552" lon="-137.828478105036">
+    <time>2023-07-24T18:00:50.000000Z</time>
+    <name>2023/176/247</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.335346804635" lon="-137.603454372297">
+    <time>2023-07-24T19:44:21.000000Z</time>
+    <name>2023/176/248</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3453809708741" lon="-137.521950629307">
+    <time>2023-07-24T21:39:44.000000Z</time>
+    <name>2023/176/249</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4964196251401" lon="-136.282057092696">
+    <time>2023-07-26T15:00:18.000000Z</time>
+    <name>2023/176/250</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5037791182156" lon="-136.265296258127">
+    <time>2023-07-26T16:48:14.000000Z</time>
+    <name>2023/176/251</name>
+    <cmt>-1.12: Unsatisfactory performance, hauled back early due to hang(s)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6282208670543" lon="-136.464591320989">
+    <time>2023-07-26T18:15:13.000000Z</time>
+    <name>2023/176/252</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6500740502099" lon="-136.502965915327">
+    <time>2023-07-26T20:13:11.000000Z</time>
+    <name>2023/176/253</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6665467835853" lon="-135.800358908684">
+    <time>2023-07-27T15:06:31.000000Z</time>
+    <name>2023/176/254</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.061645872938" lon="-135.403939778359">
+    <time>2023-07-28T15:02:25.000000Z</time>
+    <name>2023/176/255</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9285433090543" lon="-135.472581622016">
+    <time>2023-07-28T21:35:05.000000Z</time>
+    <name>2023/176/256</name>
+    <cmt>6.12: Depth range of tow exceeds limits of stratum</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.826400688887" lon="-134.939658158314">
+    <time>2023-07-29T00:21:09.000000Z</time>
+    <name>2023/176/257</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8007665106379" lon="-134.501930954223">
+    <time>2023-07-29T14:59:45.000000Z</time>
+    <name>2023/176/258</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9050478237183" lon="-134.559322361905">
+    <time>2023-07-29T16:53:13.000000Z</time>
+    <name>2023/176/259</name>
+    <cmt>-2.4: Unsatisfactory performance, belly damaged</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6053216645129" lon="-134.621202439346">
+    <time>2023-07-30T15:01:56.000000Z</time>
+    <name>2023/176/260</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5171070693303" lon="-134.528656703867">
+    <time>2023-07-30T18:26:49.000000Z</time>
+    <name>2023/176/261</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4826483798352" lon="-134.289126781236">
+    <time>2023-07-30T20:49:25.000000Z</time>
+    <name>2023/176/262</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4405456051032" lon="-133.901319970792">
+    <time>2023-07-31T14:58:02.000000Z</time>
+    <name>2023/176/263</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4454391618084" lon="-134.017960543226">
+    <time>2023-07-31T16:54:26.000000Z</time>
+    <name>2023/176/264</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7186252867168" lon="-134.222945395068">
+    <time>2023-07-31T23:13:22.000000Z</time>
+    <name>2023/176/265</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1665040499659" lon="-133.678713799018">
+    <time>2023-08-01T15:05:56.000000Z</time>
+    <name>2023/176/266</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1556518433203" lon="-133.699240187261">
+    <time>2023-08-01T17:14:35.000000Z</time>
+    <name>2023/176/267</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2891676199351" lon="-133.69864829901">
+    <time>2023-08-01T19:37:38.000000Z</time>
+    <name>2023/176/268</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4708047040315" lon="-133.651239071202">
+    <time>2023-08-02T15:03:26.000000Z</time>
+    <name>2023/176/269</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4854989922003" lon="-133.408909669363">
+    <time>2023-08-02T17:36:53.000000Z</time>
+    <name>2023/176/270</name>
+    <cmt>6.11: Average depth of tow outside survey depth limits</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6095965315359" lon="-133.136447542774">
+    <time>2023-08-02T20:05:55.000000Z</time>
+    <name>2023/176/271</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1486221339081" lon="-133.678718435011">
+    <time>2023-08-03T15:03:57.000000Z</time>
+    <name>2023/176/272</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0833517041612" lon="-133.598261755061">
+    <time>2023-08-03T17:07:03.000000Z</time>
+    <name>2023/176/273</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0580740066133" lon="-133.604451113551">
+    <time>2023-08-03T19:57:39.000000Z</time>
+    <name>2023/176/274</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9456917788281" lon="-133.555721008124">
+    <time>2023-08-03T22:31:40.000000Z</time>
+    <name>2023/176/275</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9242462053822" lon="-133.275375893595">
+    <time>2023-08-04T15:03:40.000000Z</time>
+    <name>2023/176/276</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8982648270633" lon="-133.211936123974">
+    <time>2023-08-04T16:54:31.000000Z</time>
+    <name>2023/176/277</name>
+    <cmt>0: Good performance</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
 </gpx>
