@@ -1,4 +1,4 @@
-# Generate SSL critical habitat catch table for GOA/AI SRP
+# Generate SSL critical habitat catch table for GOA SRP
 # Created by Sean Rohan
 # Last update: March 7, 2025
 
