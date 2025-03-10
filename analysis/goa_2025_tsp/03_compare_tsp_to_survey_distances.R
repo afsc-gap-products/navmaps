@@ -19,18 +19,6 @@ days_out_2023 <-
     set_on_arrival = set_on_arrival
   )
 
-
-
-ggplot() +
-  geom_histogram(data = dplyr::bind_rows(days_out_400$station_nodes,
-                                         days_out_520$station_nodes),
-                 mapping = aes(x = distance)) +
-  geom_vline(data = data.frame(allocation = c(400, 520),
-                               median_dist = c(median(days_out_400$station_nodes$distance), 
-                                               median(days_out_520$station_nodes$distance))),
-             mapping = aes(xintercept = median_dist), linetype = 2) +
-  facet_wrap(~allocation)
-
 ggplot() +
   stat_ecdf(
     data = dplyr::bind_rows(days_out_400$station_nodes,

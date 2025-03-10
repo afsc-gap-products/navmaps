@@ -56,3 +56,13 @@ days_out_520$station_nodes$allocation <- 520
 
 days_out_400$total_days
 days_out_520$total_days
+
+ggplot() +
+  geom_histogram(data = dplyr::bind_rows(days_out_400$station_nodes,
+                                         days_out_520$station_nodes),
+                 mapping = aes(x = distance)) +
+  geom_vline(data = data.frame(allocation = c(400, 520),
+                               median_dist = c(median(days_out_400$station_nodes$distance), 
+                                               median(days_out_520$station_nodes$distance))),
+             mapping = aes(xintercept = median_dist), linetype = 2) +
+  facet_wrap(~allocation)
