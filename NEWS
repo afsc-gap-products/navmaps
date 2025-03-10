@@ -1,3 +1,16 @@
+navmaps 1.2.0
+----------------------------------------------------------------
+
+NEW FEATURES
+
+- Added two new functions, planning_solve_station_tsp() and 
+  planning_calc_survey_days(), to estimate the number of days 
+  required to complete a survey design given a station sampling 
+  allocation and operational assumptions. Distance optimization 
+  is accomplished using the nearest insertion method to solve 
+  the traveling salesman problem (TSP).
+  
+
 navmaps 1.1.10 (June 9, 2024)
 ----------------------------------------------------------------
 
