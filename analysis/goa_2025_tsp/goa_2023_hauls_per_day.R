@@ -63,7 +63,6 @@ ggplot() +
   scale_y_continuous(name = "Cumulative proportion") +
   scale_color_discrete(name = "Vessel")
 
-
 time_between_starts <- as.numeric(diff(dat$START_TIME)/60)
 time_between_starts <- time_between_starts[time_between_starts < 12 & time_between_starts > 0]
 

@@ -10,9 +10,10 @@ library(sf)
 # Setup parameters
 max_daily_hr = 12 # Maximum hours worked in a day
 processing_time_hr = 1.5 # Minimum processing time in hours
-max_daily_stn = 4 # Maximum number of stations sampled in a day
+max_daily_stn = 5 # Maximum number of stations sampled in a day
 transit_speed_kmh = 1.852*9 # Transit speed between stations in kilometers/hour
 set_retrieve_hr = 0.5 # Time to set and retrieve the gear in hours
+set_on_arrival = TRUE # Set on arrival at the station or set based on the minimum processing time?
 vessel = 148
 
 # Algorithm to calculate days ----
@@ -21,7 +22,8 @@ calc_days <- function(stn_plan,
                       processing_time_hr,
                       max_daily_stn, 
                       transit_speed_kmh,
-                      set_retrieve_hr) {
+                      set_retrieve_hr,
+                      set_on_arrival = FALSE) {
   
   day <- 1
   hours_elapsed <- 0
@@ -31,12 +33,16 @@ calc_days <- function(stn_plan,
   while(ii < nrow(stn_plan)) {
 
     
-    transit_hours <- max(
-      c(
-        (processing_time_hr - set_retrieve_hr) + stn_plan$distance[ii+1] / transit_speed_kmh,
-        processing_time_hr
+    if(!set_on_arrival) {
+      transit_hours <- max(
+        c(
+          (processing_time_hr - set_retrieve_hr) + stn_plan$distance[ii+1] / transit_speed_kmh,
+          processing_time_hr
+        )
       )
-    )
+    } else {
+      transit_hours <- stn_plan$distance[ii+1] / transit_speed_kmh
+    }
     
     day_stations <- day_stations + 1
     
@@ -111,9 +117,6 @@ calc_days(
   processing_time_hr = processing_time_hr,
   max_daily_stn = max_daily_stn, 
   transit_speed_kmh = transit_speed_kmh,
-  set_retrieve_hr = set_retrieve_hr
+  set_retrieve_hr = set_retrieve_hr,
+  set_on_arrival = TRUE
 )
-
-ggplot() +
-  geom_sf_text(data = vessel_dist,
-          mapping = aes(label = order))
