@@ -8,9 +8,9 @@ library(dplyr)
 library(sf)
 
 # Setup parameters
-max_daily_hr = 15 # Maximum hours worked in a day
-processing_time_hr = 2 # Minimum processing time in hours
-max_daily_stn = 6 # Maximum number of stations sampled in a day
+max_daily_hr = 12 # Maximum hours worked in a day
+processing_time_hr = 1.5 # Minimum processing time in hours
+max_daily_stn = 4 # Maximum number of stations sampled in a day
 transit_speed_kmh = 1.852*9 # Transit speed between stations in kilometers/hour
 set_retrieve_hr = 0.5 # Time to set and retrieve the gear in hours
 vessel = 148
