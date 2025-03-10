@@ -21,13 +21,13 @@ This function optimizes the sampling order of stations by solving a Traveling Sa
 \examples{
 \dontrun{
 # Load and transform survey stations
-vessel_dist <- system.file("extdata", "goa_station_allocation_520.shp", package = "navmaps") |> 
+x <- system.file("extdata", "goa_station_allocation_520.shp", package = "navmaps") |> 
 sf::st_read() |>
   sf::st_transform(crs = "EPSG:32606") |> # UTM zone 2
   dplyr::filter(VESSEL == 148) # Ocean Explorer
 
 # Solve TSP for station order
-tsp_out <- planning_solve_station_tsp(x = vessel_dist)
+tsp_out <- planning_solve_station_tsp(x = x)
 
 # Estimate sampling days
 survey_days <- planning_calc_survey_days(

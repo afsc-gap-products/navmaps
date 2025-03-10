@@ -16,13 +16,13 @@
 #' @examples
 #' \dontrun{
 #' # Load and transform survey stations
-#' vessel_dist <- system.file("extdata", "goa_station_allocation_520.shp", package = "navmaps") |> 
+#' x <- system.file("extdata", "goa_station_allocation_520.shp", package = "navmaps") |> 
 #' sf::st_read() |>
 #'   sf::st_transform(crs = "EPSG:32606") |> # UTM zone 2
 #'   dplyr::filter(VESSEL == 148) # Ocean Explorer
 #' 
 #' # Solve TSP for station order
-#' tsp_out <- planning_solve_station_tsp(x = vessel_dist)
+#' tsp_out <- planning_solve_station_tsp(x = x)
 #' 
 #' # Estimate sampling days
 #' survey_days <- planning_calc_survey_days(
@@ -43,31 +43,31 @@
 planning_solve_station_tsp <- 
   function(x) {
     
-    vessel_tsp <- vessel_dist |>
+    vessel_tsp <- x |>
       sf::st_distance() |>
       as.matrix() |> 
       matrix(
-        nrow = nrow(vessel_dist), 
-        ncol = nrow(vessel_dist)
+        nrow = nrow(x), 
+        ncol = nrow(x)
       ) |>
       TSP::as.ATSP() |> 
       TSP::TSP() |> 
       TSP::solve_TSP(method = "nearest_insertion")
     
-    vessel_dist$node <- as.numeric(attr(vessel_tsp, "names"))
-    vessel_dist <- vessel_dist[as.numeric(attr(vessel_tsp, "names")), ]
-    vessel_dist$order <- 1:nrow(vessel_dist)
-    vessel_dist$distance <- c(0,
-                              sf::st_distance(x = vessel_dist[1:(nrow(vessel_dist)-1), ], 
-                                              y = vessel_dist[2:nrow(vessel_dist), ], 
+    x$node <- as.numeric(attr(vessel_tsp, "names"))
+    x <- x[as.numeric(attr(vessel_tsp, "names")), ]
+    x$order <- 1:nrow(x)
+    x$distance <- c(0,
+                              sf::st_distance(x = x[1:(nrow(x)-1), ], 
+                                              y = x[2:nrow(x), ], 
                                               by_element = TRUE)
     )
     
-    vessel_dist$distance <- as.numeric(vessel_dist$distance / 1000)
+    x$distance <- as.numeric(x$distance / 1000)
     
     return(
       list(
-        distance_nodes = vessel_dist, 
+        distance_nodes = x, 
         tsp = vessel_tsp)
     )
     
