@@ -73,3 +73,42 @@ ggplot() +
   stat_ecdf(mapping = aes(time_between_starts)) +
   scale_x_continuous(name = "Time between starts (hr)") +
   scale_y_continuous(name = "Cumulative proportion")
+
+
+# Distance between stations
+
+oex_hauls_sf <- dat |>
+  dplyr::filter(VESSEL == 148) |>
+  sf::st_as_sf(crs = "WGS84", coords = c("START_LONGITUDE", "START_LATITUDE")) |>
+  sf::st_transform(crs = "EPSG:32606")
+
+oex_hauls_sf$distance_km <- c(0,
+                              sf::st_distance(oex_hauls_sf[1:(nrow(oex_hauls_sf)-1), ],
+                                              oex_hauls_sf[2:nrow(oex_hauls_sf), ],
+                                              by_element = TRUE)/1000 |>
+                                as.numeric()
+)
+
+akp_hauls_sf <- dat |>
+  dplyr::filter(VESSEL == 176) |>
+  sf::st_as_sf(crs = "WGS84", coords = c("START_LONGITUDE", "START_LATITUDE")) |>
+  sf::st_transform(crs = "EPSG:32606")
+
+akp_hauls_sf$distance_km <- c(0,
+                              sf::st_distance(akp_hauls_sf[1:(nrow(akp_hauls_sf)-1), ],
+                                              akp_hauls_sf[2:nrow(akp_hauls_sf), ],
+                                              by_element = TRUE)/1000 |>
+                                as.numeric()
+)
+
+goa_2023_hauls <- dplyr::bind_rows(oex_hauls_sf, akp_hauls_sf)
+
+ggplot() +
+  geom_histogram(data = goa_2023_hauls,
+                 mapping = aes(x = distance_km,
+                               fill = factor(VESSEL))) +
+  geom_vline(xintercept = median(goa_2023_hauls$distance_km), linetype = 2) +
+  scale_fill_manual(name = "Vessel", values = c("red", "yellow")) +
+  scale_x_continuous(name = "Transit distance (km)") +
+  scale_y_continuous(name = "Frequency")
+  
