@@ -1,14 +1,15 @@
 Package: navmaps
 Type: Package
 Title: Survey navigation and planning maps
-Version: 1.2.0
+Version: 1.2.1
+Date: 2025-03-10
 Authors@R: c(person("Sean", "Rohan", email = "sean.rohan@noaa.gov", role = c("aut", "cre")),
     person("Alexandra", "Dowlin", email = "alexandra.dowlin@noaa.gov", role = "aut"),
     person("Liz", "Dawson", email = "liz.dawson@noaa.gov", role = "ctb"))
 Maintainer: Sean Rohan <sean.rohan@noaa.gov>
 Depends: R (>= 4.1.0), akgfmaps, dplyr, farver, here, sf, tidyr, tibble
 Imports: odbc, RODBC, getPass, purrr, stringr, readxl, RSQLite, TSP
-Description: Make layers for marine navigation software (Globe, TimeZero, OpenCPN, and others).
+Description: Tools for survey planning, spatial analysis, and making layers for marine navigation software (Globe, TimeZero, OpenCPN, and others).
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: false

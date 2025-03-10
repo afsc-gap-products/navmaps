@@ -54,8 +54,9 @@ planning_solve_station_tsp <-
       TSP::TSP() |> 
       TSP::solve_TSP(method = "nearest_insertion")
     
-    vessel_dist$order <- as.numeric(attr(vessel_tsp, "names"))
+    vessel_dist$node <- as.numeric(attr(vessel_tsp, "names"))
     vessel_dist <- vessel_dist[as.numeric(attr(vessel_tsp, "names")), ]
+    vessel_dist$order <- 1:nrow(vessel_dist)
     vessel_dist$distance <- c(0,
                               sf::st_distance(x = vessel_dist[1:(nrow(vessel_dist)-1), ], 
                                               y = vessel_dist[2:nrow(vessel_dist), ], 

@@ -53,6 +53,8 @@ planning_calc_survey_days <-
   ) {
     
     station_nodes <- sf::st_drop_geometry(station_nodes)
+    station_nodes$day <- NA
+    station_nodes$hours_elapsed <- NA
     
     day <- 1
     hours_elapsed <- 0
@@ -60,17 +62,13 @@ planning_calc_survey_days <-
     ii <- 1
     
     while(ii < nrow(station_nodes)) {
+        
+      # Case where you either set on arrival or processing time is less than the transit time
+      transit_hours <- set_retrieve_hr + station_nodes$distance[ii+1] / transit_speed_kmh
       
-      
-      if(!set_on_arrival) {
-        transit_hours <- max(
-          c(
-            (processing_time_hr - set_retrieve_hr) + station_nodes$distance[ii+1] / transit_speed_kmh,
-            processing_time_hr
-          )
-        )
-      } else {
-        transit_hours <- station_nodes$distance[ii+1] / transit_speed_kmh
+      if(transit_hours < processing_time_hr & !set_on_arrival) { 
+        
+        transit_hours <- processing_time_hr 
       }
       
       day_stations <- day_stations + 1
@@ -82,8 +80,10 @@ planning_calc_survey_days <-
         day_stations <- 0 
         ii <- ii + 1
         
-      } else if(hours_elapsed + transit_hours > max_daily_hr & transit_hours < max_daily_hr || 
-                max_daily_stn < day_stations) {
+      } else if(
+        hours_elapsed + transit_hours > max_daily_hr & transit_hours < max_daily_hr || # Don't set if you exceed max_daily_hr
+                max_daily_stn < day_stations # Don't set if you've exceeded the maximum number of stations
+        ) {
         
         day <- day + 1
         hours_elapsed <- 0
@@ -92,12 +92,21 @@ planning_calc_survey_days <-
       } else {
         
         hours_elapsed <- hours_elapsed + transit_hours
+        station_nodes$day[ii] <- day
+        station_nodes$hours_elapsed[ii] <- hours_elapsed
+        
         ii <- ii + 1
         
       } 
       
     }
     
-    return(day)
+    station_nodes$day[nrow(station_nodes)] <- day
+    
+    return(
+      list(total_days = day,
+           station_nodes = station_nodes
+           )
+      )
     
   }
