@@ -57,7 +57,6 @@ Meta
 *.tfw
 /assets/data/ex_pots/
 /assets/data/ai_grid_100m/
-*.tzdb
 *.tif
 *.tif.aux.xml
 *tif.ovr

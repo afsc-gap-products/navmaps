@@ -12,6 +12,8 @@ dat <- RODBC::sqlQuery(
 
 dat$DOY <- lubridate::yday(dat$START_TIME)
 
+dplyr::filter(dat, HAUL_TYPE == 7)
+
 hauls_per_day <- 
   dat |>
   dplyr::group_by(DOY, VESSEL) |>
