@@ -137,15 +137,16 @@ for(ii in 1:length(software_types)) {
   )
 
   # 9. SSL buffer zones
-  ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_No_Transit.shp"))
+  ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "ssl_no_transit_3nm_20250312.shp"))
+  ssl$NAME <- "SSL No-Transit"
   ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   ssl$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
 
   sf_to_nav_file(
     x = ssl,
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
-    name_col = "Name",
-    description_col = "Name",
+    name_col = "NAME",
+    description_col = "NAME",
     color_col = "color",
     fill_col = "fill",
     software_format = SOFTWARE
@@ -280,6 +281,7 @@ for(ii in 1:length(software_types)) {
 }
 
 
+# Move files from navmaps to G:/RACE_CHARTS/
 file.copy(from = here::here("output", region, "navigation"),
           to = paste0("G:/RACE_CHARTS/", region),
           recursive = TRUE)
@@ -290,4 +292,8 @@ file.copy(from = here::here("output", region, "shapefiles"),
 
 file.copy(from = here::here("output", region, "gps"),
           to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("assets", "data", "SSLrookeries"),
+          to = paste0("G:/RACE_CHARTS/", region, "/shapefiles/"),
           recursive = TRUE)
