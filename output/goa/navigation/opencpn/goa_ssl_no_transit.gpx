@@ -3,7 +3,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -582,7 +582,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -629,7 +629,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -643,7 +643,7 @@
     <trkpt lat="51.6309835188633" lon="-176.988821774246"></trkpt>
     <trkpt lat="51.6312504042352" lon="-176.990225538523"></trkpt>
     <trkpt lat="51.6300830305005" lon="-176.991995622362"></trkpt>
-    <trkpt lat="51.6296748729281" lon="-176.991980277308"></trkpt>
+    <trkpt lat="51.6296748729282" lon="-176.991980277308"></trkpt>
     <trkpt lat="51.6269396089274" lon="-176.991873177586"></trkpt>
     <trkpt lat="51.626386486976" lon="-176.990469186282"></trkpt>
     <trkpt lat="51.6258334393833" lon="-176.990011384151"></trkpt>
@@ -720,7 +720,7 @@
     <trkpt lat="51.6172237510551" lon="-176.881483666602"></trkpt>
     <trkpt lat="51.6143379829978" lon="-176.879013477516"></trkpt>
     <trkpt lat="51.6113575625677" lon="-176.876851943101"></trkpt>
-    <trkpt lat="51.6082956271651" lon="-176.875008486524"></trkpt>
+    <trkpt lat="51.608295627165" lon="-176.875008486524"></trkpt>
     <trkpt lat="51.6051651244334" lon="-176.873490915855"></trkpt>
     <trkpt lat="51.6019795392719" lon="-176.872305340307"></trkpt>
     <trkpt lat="51.59875238432" lon="-176.87145738049"></trkpt>
@@ -730,7 +730,7 @@
     <trkpt lat="51.5857072167369" lon="-176.871486656532"></trkpt>
     <trkpt lat="51.5824816368602" lon="-176.872349043138"></trkpt>
     <trkpt lat="51.5792980389012" lon="-176.873547825123"></trkpt>
-    <trkpt lat="51.5761701140846" lon="-176.875077996486"></trkpt>
+    <trkpt lat="51.5761701140847" lon="-176.875077996486"></trkpt>
     <trkpt lat="51.5731111738656" lon="-176.876933094015"></trkpt>
     <trkpt lat="51.5701343843765" lon="-176.879105207401"></trkpt>
     <trkpt lat="51.5672524432201" lon="-176.881584671404"></trkpt>
@@ -762,12 +762,12 @@
     <trkpt lat="51.5472176337481" lon="-176.987309551934"></trkpt>
     <trkpt lat="51.5484547792382" lon="-176.991079211518"></trkpt>
     <trkpt lat="51.5487833006243" lon="-176.992385146454"></trkpt>
-    <trkpt lat="51.5501320917603" lon="-176.997163134631"></trkpt>
+    <trkpt lat="51.5501320917604" lon="-176.997163134631"></trkpt>
     <trkpt lat="51.5510771775761" lon="-177.000001466199"></trkpt>
     <trkpt lat="51.5516725113383" lon="-177.001789927107"></trkpt>
     <trkpt lat="51.553398145127" lon="-177.006245407045"></trkpt>
     <trkpt lat="51.5537711890813" lon="-177.007128970496"></trkpt>
-    <trkpt lat="51.5537814739511" lon="-177.007161953362"></trkpt>
+    <trkpt lat="51.5537814739512" lon="-177.007161953362"></trkpt>
     <trkpt lat="51.5538379001076" lon="-177.007342592261"></trkpt>
     <trkpt lat="51.5544595397194" lon="-177.009874237384"></trkpt>
     <trkpt lat="51.5558074959088" lon="-177.014653546889"></trkpt>
@@ -806,7 +806,7 @@
     <trkpt lat="51.6284453818639" lon="-177.069689315508"></trkpt>
     <trkpt lat="51.6317001652582" lon="-177.069181124703"></trkpt>
     <trkpt lat="51.6349272067945" lon="-177.068332033579"></trkpt>
-    <trkpt lat="51.6381126746077" lon="-177.067145273914"></trkpt>
+    <trkpt lat="51.6381126746078" lon="-177.067145273914"></trkpt>
     <trkpt lat="51.6412431470042" lon="-177.065626071704"></trkpt>
     <trkpt lat="51.6443049921912" lon="-177.063780916252"></trkpt>
     <trkpt lat="51.6472850959144" lon="-177.061617479583"></trkpt>
@@ -850,7 +850,7 @@
     <trkpt lat="51.6499819597051" lon="-176.97814223019"></trkpt>
     <trkpt lat="51.6493982658428" lon="-176.978569436657"></trkpt>
     <trkpt lat="51.6479791173976" lon="-176.978050444038"></trkpt>
-    <trkpt lat="51.6451524416797" lon="-176.977043132503"></trkpt>
+    <trkpt lat="51.6451524416798" lon="-176.977043132503"></trkpt>
     <trkpt lat="51.6423026780701" lon="-176.976920607022"></trkpt>
     <trkpt lat="51.6402961270602" lon="-176.976828791963"></trkpt>
     <trkpt lat="51.639197475825" lon="-176.974051439257"></trkpt>  </trkseg>
@@ -858,7 +858,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -1042,7 +1042,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -1164,7 +1164,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -1401,7 +1401,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -1591,14 +1591,14 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
     </gpxx:TrackExtension>
   </extensions>  <trkseg>    <trkpt lat="52.4240437634787" lon="173.705929636041"></trkpt>
     <trkpt lat="52.4245765449999" lon="173.711206383426"></trkpt>
-    <trkpt lat="52.4248970238736" lon="173.716528878359"></trkpt>
+    <trkpt lat="52.4248970238735" lon="173.716528878359"></trkpt>
     <trkpt lat="52.4250036571759" lon="173.721874346567"></trkpt>
     <trkpt lat="52.4248961590903" lon="173.72721975189"></trkpt>
     <trkpt lat="52.4245749436509" lon="173.732542140088"></trkpt>
@@ -1618,7 +1618,7 @@
     <trkpt lat="52.3999949849424" lon="173.792610275047"></trkpt>
     <trkpt lat="52.3971096800037" lon="173.795124763913"></trkpt>
     <trkpt lat="52.3945748801296" lon="173.796996573732"></trkpt>
-    <trkpt lat="52.3941300145489" lon="173.797325097254"></trkpt>
+    <trkpt lat="52.3941300145488" lon="173.797325097254"></trkpt>
     <trkpt lat="52.3910686082107" lon="173.799201513764"></trkpt>
     <trkpt lat="52.3879386405512" lon="173.800746761327"></trkpt>
     <trkpt lat="52.3847535574004" lon="173.801953907857"></trkpt>
@@ -1636,7 +1636,7 @@
     <trkpt lat="52.3534940748626" lon="173.806934986621"></trkpt>
     <trkpt lat="52.3502405791818" lon="173.80640481288"></trkpt>
     <trkpt lat="52.3470153446038" lon="173.805528315657"></trkpt>
-    <trkpt lat="52.3438320370235" lon="173.804309336544"></trkpt>
+    <trkpt lat="52.3438320370236" lon="173.804309336544"></trkpt>
     <trkpt lat="52.3407043404451" lon="173.802753317987"></trkpt>
     <trkpt lat="52.337645688828" lon="173.800866989511"></trkpt>
     <trkpt lat="52.334669131773" lon="173.798658210284"></trkpt>
@@ -1684,7 +1684,7 @@
     <trkpt lat="52.3125821409192" lon="173.670996200594"></trkpt>
     <trkpt lat="52.3137318959965" lon="173.666002251826"></trkpt>
     <trkpt lat="52.3150794246492" lon="173.661141178442"></trkpt>
-    <trkpt lat="52.3166185029236" lon="173.65643424269"></trkpt>
+    <trkpt lat="52.3166185029237" lon="173.65643424269"></trkpt>
     <trkpt lat="52.3183428212959" lon="173.651901168537"></trkpt>
     <trkpt lat="52.3202449771553" lon="173.647561411211"></trkpt>
     <trkpt lat="52.3223168664708" lon="173.643433822184"></trkpt>
@@ -1692,7 +1692,7 @@
     <trkpt lat="52.3269335957719" lon="173.635883484509"></trkpt>
     <trkpt lat="52.3294587543501" lon="173.632493496069"></trkpt>
     <trkpt lat="52.3295342280469" lon="173.632398955332"></trkpt>
-    <trkpt lat="52.3310296364548" lon="173.630164192017"></trkpt>
+    <trkpt lat="52.3310296364549" lon="173.630164192017"></trkpt>
     <trkpt lat="52.3335545939872" lon="173.62677351315"></trkpt>
     <trkpt lat="52.3362100498343" lon="173.623659350505"></trkpt>
     <trkpt lat="52.3389844471429" lon="173.620834919142"></trkpt>
@@ -1706,7 +1706,7 @@
     <trkpt lat="52.3639578361566" lon="173.609848130804"></trkpt>
     <trkpt lat="52.3672258502595" lon="173.610015320489"></trkpt>
     <trkpt lat="52.3704801406029" lon="173.610531250444"></trkpt>
-    <trkpt lat="52.3737069159995" lon="173.611394022047"></trkpt>
+    <trkpt lat="52.3737069159994" lon="173.611394022047"></trkpt>
     <trkpt lat="52.3768920240182" lon="173.61259987203"></trkpt>
     <trkpt lat="52.3778472140536" lon="173.61307103667"></trkpt>
     <trkpt lat="52.3768807792164" lon="173.615527493274"></trkpt>
@@ -1724,7 +1724,7 @@
     <trkpt lat="52.3693938493946" lon="173.644245046083"></trkpt>
     <trkpt lat="52.3658306508456" lon="173.641559915778"></trkpt>
     <trkpt lat="52.3621493797637" lon="173.639347606744"></trkpt>
-    <trkpt lat="52.3591776708385" lon="173.639317332703"></trkpt>
+    <trkpt lat="52.3591776708384" lon="173.639317332703"></trkpt>
     <trkpt lat="52.356759124896" lon="173.640232984034"></trkpt>
     <trkpt lat="52.356961347636" lon="173.641743686388"></trkpt>
     <trkpt lat="52.3566946670893" lon="173.647786130908"></trkpt>
@@ -1740,7 +1740,7 @@
     <trkpt lat="52.363303189902" lon="173.677677575095"></trkpt>
     <trkpt lat="52.3646308325645" lon="173.680530865944"></trkpt>
     <trkpt lat="52.363799489348" lon="173.685627398634"></trkpt>
-    <trkpt lat="52.3636889737651" lon="173.688877496678"></trkpt>
+    <trkpt lat="52.363688973765" lon="173.688877496678"></trkpt>
     <trkpt lat="52.3655315657974" lon="173.69157827788"></trkpt>
     <trkpt lat="52.36357861008" lon="173.695698349637"></trkpt>
     <trkpt lat="52.3616216585013" lon="173.696262938011"></trkpt>
@@ -1804,7 +1804,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -1880,7 +1880,7 @@
     <trkpt lat="52.890917982844" lon="172.541347711767"></trkpt>
     <trkpt lat="52.8879416896535" lon="172.539111389364"></trkpt>
     <trkpt lat="52.8850600887195" lon="172.53655798199"></trkpt>
-    <trkpt lat="52.8822856041712" lon="172.533698985001"></trkpt>
+    <trkpt lat="52.8822856041713" lon="172.533698985001"></trkpt>
     <trkpt lat="52.8796301482193" lon="172.530546621922"></trkpt>
     <trkpt lat="52.8771050634983" lon="172.527114173364"></trkpt>
     <trkpt lat="52.8747209786092" lon="172.523416800328"></trkpt>
@@ -1951,14 +1951,14 @@
     <trkpt lat="52.9681368544492" lon="172.417415404806"></trkpt>
     <trkpt lat="52.9682499789978" lon="172.417870424953"></trkpt>
     <trkpt lat="52.9684484431804" lon="172.418676298388"></trkpt>
-    <trkpt lat="52.969496033392" lon="172.423292227696"></trkpt>
+    <trkpt lat="52.9694960333919" lon="172.423292227696"></trkpt>
     <trkpt lat="52.9704464437444" lon="172.428473742855"></trkpt>
     <trkpt lat="52.9711899905284" lon="172.433747314943"></trkpt>
     <trkpt lat="52.9717235728987" lon="172.439090118129"></trkpt>
     <trkpt lat="52.972044660326" lon="172.44447950025"></trkpt>
     <trkpt lat="52.9721142027369" lon="172.446678113787"></trkpt>
     <trkpt lat="52.9721682519525" lon="172.448976932046"></trkpt>
-    <trkpt lat="52.972206114561" lon="172.452191043987"></trkpt>
+    <trkpt lat="52.9722061145611" lon="172.452191043987"></trkpt>
     <trkpt lat="52.9720993023386" lon="172.457603764726"></trkpt>
     <trkpt lat="52.9717787644582" lon="172.462993341227"></trkpt>
     <trkpt lat="52.9712459336163" lon="172.468336303451"></trkpt>
@@ -1966,7 +1966,7 @@
     <trkpt lat="52.9704739007398" lon="172.473787883692"></trkpt>
     <trkpt lat="52.9701131021498" lon="172.475996981966"></trkpt>
     <trkpt lat="52.9691921270929" lon="172.481000799311"></trkpt>
-    <trkpt lat="52.9680394432272" lon="172.486068222379"></trkpt>
+    <trkpt lat="52.9680394432273" lon="172.486068222379"></trkpt>
     <trkpt lat="52.9666889119066" lon="172.490999662275"></trkpt>
     <trkpt lat="52.9651462708618" lon="172.495773893891"></trkpt>
     <trkpt lat="52.9634184001744" lon="172.500370333113"></trkpt>
@@ -1978,7 +1978,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -1991,7 +1991,7 @@
     <trkpt lat="51.4014193789819" lon="179.528916672035"></trkpt>
     <trkpt lat="51.398759229723" lon="179.531957526108"></trkpt>
     <trkpt lat="51.3959805286335" lon="179.534713440768"></trkpt>
-    <trkpt lat="51.3930948412867" lon="179.537172583821"></trkpt>
+    <trkpt lat="51.3930948412866" lon="179.537172583821"></trkpt>
     <trkpt lat="51.3901146015274" lon="179.539324586455"></trkpt>
     <trkpt lat="51.3870528309566" lon="179.541160094005"></trkpt>
     <trkpt lat="51.3839223479298" lon="179.542671417383"></trkpt>
@@ -2015,7 +2015,7 @@
     <trkpt lat="51.3370605526947" lon="179.525251698068"></trkpt>
     <trkpt lat="51.3346758533921" lon="179.521679380673"></trkpt>
     <trkpt lat="51.3324422651492" lon="179.517866267133"></trkpt>
-    <trkpt lat="51.3303697608226" lon="179.513828403243"></trkpt>
+    <trkpt lat="51.3303697608227" lon="179.513828403243"></trkpt>
     <trkpt lat="51.3284668591678" lon="179.509583296635"></trkpt>
     <trkpt lat="51.3267419331225" lon="179.505148794781"></trkpt>
     <trkpt lat="51.3252021756197" lon="179.500544026473"></trkpt>
@@ -2043,7 +2043,7 @@
     <trkpt lat="51.3251078607019" lon="179.405718115197"></trkpt>
     <trkpt lat="51.3270107081832" lon="179.401473272605"></trkpt>
     <trkpt lat="51.3290833286462" lon="179.397435768237"></trkpt>
-    <trkpt lat="51.3313167181678" lon="179.393622902833"></trkpt>
+    <trkpt lat="51.3313167181679" lon="179.393622902833"></trkpt>
     <trkpt lat="51.3337015167818" lon="179.390050959051"></trkpt>
     <trkpt lat="51.3362275409023" lon="179.386735259558"></trkpt>
     <trkpt lat="51.3388836174842" lon="179.383690150908"></trkpt>
@@ -2051,7 +2051,7 @@
     <trkpt lat="51.3445414075225" lon="179.37846230902"></trkpt>
     <trkpt lat="51.347518541515" lon="179.376301820909"></trkpt>
     <trkpt lat="51.3505778411953" lon="179.374456957583"></trkpt>
-    <trkpt lat="51.3537061414776" lon="179.372935322753"></trkpt>
+    <trkpt lat="51.3537061414775" lon="179.372935322753"></trkpt>
     <trkpt lat="51.3568900542322" lon="179.371743405755"></trkpt>
     <trkpt lat="51.3601159389811" lon="179.370886472672"></trkpt>
     <trkpt lat="51.3633699131514" lon="179.370368303975"></trkpt>
@@ -2169,7 +2169,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2198,7 +2198,7 @@
     <trkpt lat="52.1739724107173" lon="-175.492410293478"></trkpt>
     <trkpt lat="52.1753914354162" lon="-175.493386898978"></trkpt>
     <trkpt lat="52.1759406267895" lon="-175.495279278794"></trkpt>
-    <trkpt lat="52.1787942157582" lon="-175.49579828461"></trkpt>
+    <trkpt lat="52.1787942157583" lon="-175.49579828461"></trkpt>
     <trkpt lat="52.1804916805567" lon="-175.497721167641"></trkpt>
     <trkpt lat="52.1805384611687" lon="-175.49782997514"></trkpt>
     <trkpt lat="52.1818954675728" lon="-175.500986858759"></trkpt>
@@ -2211,7 +2211,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2321,7 +2321,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2357,7 +2357,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2393,7 +2393,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2503,7 +2503,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2536,7 +2536,7 @@
     <trkpt lat="51.5871203819522" lon="-178.583566284153"></trkpt>
     <trkpt lat="51.5865329500138" lon="-178.58219270687"></trkpt>
     <trkpt lat="51.5853465217902" lon="-178.579964529296"></trkpt>
-    <trkpt lat="51.5847628606917" lon="-178.579079389791"></trkpt>
+    <trkpt lat="51.5847628606916" lon="-178.579079389791"></trkpt>
     <trkpt lat="51.5853236999288" lon="-178.578133361693"></trkpt>
     <trkpt lat="51.5853084469717" lon="-178.577217689255"></trkpt>
     <trkpt lat="51.584144941822" lon="-178.575874592185"></trkpt>
@@ -2566,7 +2566,7 @@
     <trkpt lat="51.6047235272528" lon="-178.575053335255"></trkpt>
     <trkpt lat="51.6067492298265" lon="-178.577281718002"></trkpt>
     <trkpt lat="51.607355772992" lon="-178.578624631477"></trkpt>
-    <trkpt lat="51.6070695989138" lon="-178.579540216435"></trkpt>
+    <trkpt lat="51.6070695989139" lon="-178.579540216435"></trkpt>
     <trkpt lat="51.6070886268742" lon="-178.579998070228"></trkpt>
     <trkpt lat="51.60713052688" lon="-178.583233229103"></trkpt>
     <trkpt lat="51.6060278739957" lon="-178.585552464819"></trkpt>
@@ -2583,7 +2583,7 @@
     <trkpt lat="51.603135390795" lon="-178.601758800508"></trkpt>
     <trkpt lat="51.6025897637303" lon="-178.604078321112"></trkpt>
     <trkpt lat="51.6023074372081" lon="-178.604535994824"></trkpt>
-    <trkpt lat="51.6009034263748" lon="-178.605512670712"></trkpt>
+    <trkpt lat="51.6009034263749" lon="-178.605512670712"></trkpt>
     <trkpt lat="51.5989120053258" lon="-178.606061633433"></trkpt>
     <trkpt lat="51.597481277268" lon="-178.606549888651"></trkpt>
     <trkpt lat="51.596912848509" lon="-178.606580429207"></trkpt>
@@ -2594,7 +2594,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2645,7 +2645,7 @@
     <trkpt lat="51.3389432764052" lon="-178.952690847391"></trkpt>
     <trkpt lat="51.341544966425" lon="-178.954888413299"></trkpt>
     <trkpt lat="51.3455735977588" lon="-178.957055664027"></trkpt>
-    <trkpt lat="51.3478511427035" lon="-178.956536952737"></trkpt>
+    <trkpt lat="51.3478511427036" lon="-178.956536952737"></trkpt>
     <trkpt lat="51.3489537910407" lon="-178.952844220041"></trkpt>
     <trkpt lat="51.3480421601843" lon="-178.948754386447"></trkpt>
     <trkpt lat="51.3465849344083" lon="-178.946068692086"></trkpt>
@@ -2727,7 +2727,7 @@
     <trkpt lat="51.3125401673256" lon="-179.073109408"></trkpt>
     <trkpt lat="51.3158086821115" lon="-179.072944736347"></trkpt>
     <trkpt lat="51.3190635031247" lon="-179.07243931571"></trkpt>
-    <trkpt lat="51.3222907070359" lon="-179.071595171825"></trkpt>
+    <trkpt lat="51.3222907070358" lon="-179.071595171825"></trkpt>
     <trkpt lat="51.3254762466699" lon="-179.070415765407"></trkpt>
     <trkpt lat="51.328606721545" lon="-179.068906098527"></trkpt>
     <trkpt lat="51.3316685116095" lon="-179.067072677027"></trkpt>
@@ -2768,7 +2768,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2782,7 +2782,7 @@
     <trkpt lat="51.9124710800106" lon="177.255940147383"></trkpt>
     <trkpt lat="51.9109793831568" lon="177.253178106297"></trkpt>
     <trkpt lat="51.9083393521078" lon="177.25360558123"></trkpt>
-    <trkpt lat="51.909319805051" lon="177.250232850088"></trkpt>
+    <trkpt lat="51.9093198050511" lon="177.250232850088"></trkpt>
     <trkpt lat="51.9090489502523" lon="177.246524535889"></trkpt>
     <trkpt lat="51.9054285838691" lon="177.244296911686"></trkpt>
     <trkpt lat="51.9058747947326" lon="177.242007734825"></trkpt>
@@ -2791,7 +2791,7 @@
     <trkpt lat="51.9093960245122" lon="177.237383686201"></trkpt>
     <trkpt lat="51.9095409099418" lon="177.232775014252"></trkpt>
     <trkpt lat="51.9068285017803" lon="177.228014004577"></trkpt>
-    <trkpt lat="51.9054207248742" lon="177.223786914409"></trkpt>
+    <trkpt lat="51.9054207248741" lon="177.223786914409"></trkpt>
     <trkpt lat="51.9016783280013" lon="177.222017078872"></trkpt>
     <trkpt lat="51.9010564729438" lon="177.218659914986"></trkpt>
     <trkpt lat="51.9000951201547" lon="177.214921218736"></trkpt>
@@ -2814,7 +2814,7 @@
     <trkpt lat="51.8824663153182" lon="177.227420591815"></trkpt>
     <trkpt lat="51.8805473323262" lon="177.229083907898"></trkpt>
     <trkpt lat="51.8767248699462" lon="177.228519657196"></trkpt>
-    <trkpt lat="51.874836468387" lon="177.231571945162"></trkpt>
+    <trkpt lat="51.8748364683871" lon="177.231571945162"></trkpt>
     <trkpt lat="51.8734401154052" lon="177.235844699749"></trkpt>
     <trkpt lat="51.8712160585123" lon="177.241445260051"></trkpt>
     <trkpt lat="51.8692933771235" lon="177.246252565548"></trkpt>
@@ -2851,7 +2851,7 @@
     <trkpt lat="51.8250722031356" lon="177.217173380035"></trkpt>
     <trkpt lat="51.8249657139725" lon="177.211899116988"></trkpt>
     <trkpt lat="51.8250729293571" lon="177.206625064116"></trkpt>
-    <trkpt lat="51.8253934632896" lon="177.201373440334"></trkpt>
+    <trkpt lat="51.8253934632897" lon="177.201373440334"></trkpt>
     <trkpt lat="51.8259258331342" lon="177.196166889332"></trkpt>
     <trkpt lat="51.8266678776446" lon="177.191027390535"></trkpt>
     <trkpt lat="51.8276164420336" lon="177.185977144884"></trkpt>
@@ -2878,7 +2878,7 @@
     <trkpt lat="51.8629610672392" lon="177.126773052966"></trkpt>
     <trkpt lat="51.8645134941004" lon="177.125872377944"></trkpt>
     <trkpt lat="51.8676415744104" lon="177.124333793937"></trkpt>
-    <trkpt lat="51.8708252112682" lon="177.123128548402"></trkpt>
+    <trkpt lat="51.8708252112683" lon="177.123128548402"></trkpt>
     <trkpt lat="51.8740507425109" lon="177.122262171994"></trkpt>
     <trkpt lat="51.8773046349371" lon="177.121738406139"></trkpt>
     <trkpt lat="51.8788802196323" lon="177.121609000875"></trkpt>
@@ -2897,7 +2897,7 @@
     <trkpt lat="51.913983745655" lon="177.127516458196"></trkpt>
     <trkpt lat="51.9168690751958" lon="177.130004103164"></trkpt>
     <trkpt lat="51.9196475671239" lon="177.132792088384"></trkpt>
-    <trkpt lat="51.9223073068283" lon="177.135868131602"></trkpt>
+    <trkpt lat="51.9223073068284" lon="177.135868131602"></trkpt>
     <trkpt lat="51.9248368175615" lon="177.139219482326"></trkpt>
     <trkpt lat="51.9272252861298" lon="177.14283144762"></trkpt>
     <trkpt lat="51.9294625036238" lon="177.146688873008"></trkpt>
@@ -2931,7 +2931,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2956,7 +2956,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -2979,7 +2979,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3174,7 +3174,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3195,7 +3195,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3252,7 +3252,7 @@
     <trkpt lat="51.7230448270546" lon="178.344508653541"></trkpt>
     <trkpt lat="51.7255707360556" lon="178.341164972616"></trkpt>
     <trkpt lat="51.7265343663166" lon="178.340001656592"></trkpt>
-    <trkpt lat="51.7282273416737" lon="178.338093762002"></trkpt>
+    <trkpt lat="51.7282273416738" lon="178.338093762002"></trkpt>
     <trkpt lat="51.7310025660366" lon="178.335308604622"></trkpt>
     <trkpt lat="51.7338849331558" lon="178.332821767504"></trkpt>
     <trkpt lat="51.7368620661492" lon="178.330643454242"></trkpt>
@@ -3293,7 +3293,7 @@
     <trkpt lat="51.7683221938914" lon="178.377856633388"></trkpt>
     <trkpt lat="51.7699130241289" lon="178.379550321054"></trkpt>
     <trkpt lat="51.7717479738319" lon="178.377932693005"></trkpt>
-    <trkpt lat="51.7716525442021" lon="178.375155440339"></trkpt>
+    <trkpt lat="51.771652544202" lon="178.375155440339"></trkpt>
     <trkpt lat="51.7728695162192" lon="178.372698685901"></trkpt>
     <trkpt lat="51.7748875272647" lon="178.370333274125"></trkpt>
     <trkpt lat="51.7771192763139" lon="178.369646301797"></trkpt>
@@ -3338,7 +3338,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3440,7 +3440,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3463,7 +3463,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3791,7 +3791,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3803,7 +3803,7 @@
     <trkpt lat="51.5765899912905" lon="178.793729214536"></trkpt>
     <trkpt lat="51.5780472370932" lon="178.796430554276"></trkpt>
     <trkpt lat="51.5780319649966" lon="178.797895476061"></trkpt>
-    <trkpt lat="51.5759721202515" lon="178.798017241479"></trkpt>
+    <trkpt lat="51.5759721202514" lon="178.798017241479"></trkpt>
     <trkpt lat="51.5769066267049" lon="178.801542454006"></trkpt>
     <trkpt lat="51.5785660663909" lon="178.806349783698"></trkpt>
     <trkpt lat="51.5783602140084" lon="178.809554412855"></trkpt>
@@ -3815,7 +3815,7 @@
     <trkpt lat="51.575529635505" lon="178.822586225873"></trkpt>
     <trkpt lat="51.5764223205371" lon="178.824539567953"></trkpt>
     <trkpt lat="51.5782991483174" lon="178.825608189268"></trkpt>
-    <trkpt lat="51.5805040573298" lon="178.82768396063"></trkpt>
+    <trkpt lat="51.5805040573297" lon="178.82768396063"></trkpt>
     <trkpt lat="51.580526956457" lon="178.830903826029"></trkpt>
     <trkpt lat="51.5808283502051" lon="178.834490080952"></trkpt>
     <trkpt lat="51.5785700927566" lon="178.837175499077"></trkpt>
@@ -3829,7 +3829,7 @@
     <trkpt lat="51.5671834398055" lon="178.853425430182"></trkpt>
     <trkpt lat="51.565150118437" lon="178.851166565737"></trkpt>
     <trkpt lat="51.5637234266731" lon="178.850937394385"></trkpt>
-    <trkpt lat="51.5640362634346" lon="178.853699588504"></trkpt>
+    <trkpt lat="51.5640362634345" lon="178.853699588504"></trkpt>
     <trkpt lat="51.5634525539403" lon="178.854599688737"></trkpt>
     <trkpt lat="51.5640515578693" lon="178.857178780952"></trkpt>
     <trkpt lat="51.5635747011826" lon="178.859101434912"></trkpt>
@@ -3868,7 +3868,7 @@
     <trkpt lat="51.5225873413881" lon="178.897188267646"></trkpt>
     <trkpt lat="51.5195279257277" lon="178.895336803073"></trkpt>
     <trkpt lat="51.516550710049" lon="178.893168842319"></trkpt>
-    <trkpt lat="51.5136682203798" lon="178.890693741082"></trkpt>
+    <trkpt lat="51.5136682203797" lon="178.890693741082"></trkpt>
     <trkpt lat="51.5108927993805" lon="178.887922248415"></trkpt>
     <trkpt lat="51.5082365956523" lon="178.884865874102"></trkpt>
     <trkpt lat="51.5057104583236" lon="178.881538156964"></trkpt>
@@ -3912,7 +3912,7 @@
     <trkpt lat="51.5288997531485" lon="178.742756597637"></trkpt>
     <trkpt lat="51.5321255379652" lon="178.741896887232"></trkpt>
     <trkpt lat="51.5353795974896" lon="178.74137726488"></trkpt>
-    <trkpt lat="51.5386478347491" lon="178.741199983401"></trkpt>
+    <trkpt lat="51.538647834749" lon="178.741199983401"></trkpt>
     <trkpt lat="51.5419163001991" lon="178.741365785376"></trkpt>
     <trkpt lat="51.5451709494854" lon="178.741874196384"></trkpt>
     <trkpt lat="51.548397894431" lon="178.742722966226"></trkpt>
@@ -3936,7 +3936,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -3979,7 +3979,7 @@
     <trkpt lat="52.009320554251" lon="179.687083589202"></trkpt>
     <trkpt lat="52.0101060673799" lon="179.682017890264"></trkpt>
     <trkpt lat="52.0098120056298" lon="179.676448677067"></trkpt>
-    <trkpt lat="52.0102122983706" lon="179.67330553287"></trkpt>
+    <trkpt lat="52.0102122983707" lon="179.67330553287"></trkpt>
     <trkpt lat="52.0128519187352" lon="179.669551949813"></trkpt>
     <trkpt lat="52.0163001804067" lon="179.665462576155"></trkpt>
     <trkpt lat="52.0204351725665" lon="179.661312157117"></trkpt>
@@ -4021,7 +4021,7 @@
     <trkpt lat="52.0078152355345" lon="179.561237580647"></trkpt>
     <trkpt lat="52.0065030909932" lon="179.561085216223"></trkpt>
     <trkpt lat="52.0046488761074" lon="179.559422196867"></trkpt>
-    <trkpt lat="52.002806310049" lon="179.557011802721"></trkpt>
+    <trkpt lat="52.0028063100491" lon="179.557011802721"></trkpt>
     <trkpt lat="52.0021310377518" lon="179.556432015489"></trkpt>
     <trkpt lat="52.0010513785051" lon="179.552953321074"></trkpt>
     <trkpt lat="52.0000404431199" lon="179.551885448374"></trkpt>
@@ -4075,7 +4075,7 @@
     <trkpt lat="52.078394130374" lon="179.627759066075"></trkpt>
     <trkpt lat="52.0778615387006" lon="179.632994969208"></trkpt>
     <trkpt lat="52.077118788256" lon="179.638163044788"></trkpt>
-    <trkpt lat="52.0770177572482" lon="179.638765786285"></trkpt>
+    <trkpt lat="52.0770177572483" lon="179.638765786285"></trkpt>
     <trkpt lat="52.0770872744753" lon="179.643037444525"></trkpt>
     <trkpt lat="52.0770873098" lon="179.646099728478"></trkpt>
     <trkpt lat="52.0770872436499" lon="179.646114860092"></trkpt>
@@ -4100,7 +4100,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -4130,7 +4130,7 @@
     <trkpt lat="52.359545693348" lon="175.969987107577"></trkpt>
     <trkpt lat="52.3593779431981" lon="175.968980192447"></trkpt>
     <trkpt lat="52.3592634451581" lon="175.968980157782"></trkpt>
-    <trkpt lat="52.3590459873462" lon="175.96898019527"></trkpt>
+    <trkpt lat="52.3590459873463" lon="175.96898019527"></trkpt>
     <trkpt lat="52.3591528205364" lon="175.967973026523"></trkpt>
     <trkpt lat="52.3593283411222" lon="175.966981154845"></trkpt>
     <trkpt lat="52.3596144243664" lon="175.96597401849"></trkpt>
@@ -4146,8 +4146,8 @@
     <trkpt lat="52.3667556248308" lon="175.953979409872"></trkpt>
     <trkpt lat="52.3676102735507" lon="175.951980149465"></trkpt>
     <trkpt lat="52.3680146292827" lon="175.95198025071"></trkpt>
-    <trkpt lat="52.3684265856729" lon="175.948974059211"></trkpt>
-    <trkpt lat="52.3685981951091" lon="175.94697506044"></trkpt>
+    <trkpt lat="52.368426585673" lon="175.948974059211"></trkpt>
+    <trkpt lat="52.3685981951092" lon="175.94697506044"></trkpt>
     <trkpt lat="52.3688881314203" lon="175.944976028511"></trkpt>
     <trkpt lat="52.3691856544733" lon="175.941985122141"></trkpt>
     <trkpt lat="52.3693649345465" lon="175.940978022303"></trkpt>
@@ -4161,7 +4161,7 @@
     <trkpt lat="52.3707038576145" lon="175.929975692398"></trkpt>
     <trkpt lat="52.3707152218249" lon="175.927976804077"></trkpt>
     <trkpt lat="52.3708334732033" lon="175.925977803835"></trkpt>
-    <trkpt lat="52.3713484011268" lon="175.923978912312"></trkpt>
+    <trkpt lat="52.3713484011267" lon="175.923978912312"></trkpt>
     <trkpt lat="52.3714133148912" lon="175.922971672464"></trkpt>
     <trkpt lat="52.3715887360213" lon="175.920972761849"></trkpt>
     <trkpt lat="52.3718214511177" lon="175.918973649089"></trkpt>
@@ -4171,7 +4171,7 @@
     <trkpt lat="52.3737860537296" lon="175.911969369929"></trkpt>
     <trkpt lat="52.3743086847516" lon="175.909970401944"></trkpt>
     <trkpt lat="52.3743734363648" lon="175.907971285324"></trkpt>
-    <trkpt lat="52.374541285617" lon="175.90697947113"></trkpt>
+    <trkpt lat="52.3745412856169" lon="175.90697947113"></trkpt>
     <trkpt lat="52.3747167956168" lon="175.905972403177"></trkpt>
     <trkpt lat="52.3748960644926" lon="175.903973436534"></trkpt>
     <trkpt lat="52.3752393832088" lon="175.901974335266"></trkpt>
@@ -4206,7 +4206,7 @@
     <trkpt lat="52.3750902870775" lon="175.871974289207"></trkpt>
     <trkpt lat="52.3753191440513" lon="175.869975323401"></trkpt>
     <trkpt lat="52.3751474212268" lon="175.869975338288"></trkpt>
-    <trkpt lat="52.3748574706109" lon="175.868968318021"></trkpt>
+    <trkpt lat="52.3748574706108" lon="175.868968318021"></trkpt>
     <trkpt lat="52.3744034987625" lon="175.868968397012"></trkpt>
     <trkpt lat="52.3741173815832" lon="175.868968448136"></trkpt>
     <trkpt lat="52.3736062127956" lon="175.868968409204"></trkpt>
@@ -4230,7 +4230,7 @@
     <trkpt lat="52.3604297526342" lon="175.874981812269"></trkpt>
     <trkpt lat="52.3599719991127" lon="175.875973833951"></trkpt>
     <trkpt lat="52.3591632950737" lon="175.877972836473"></trkpt>
-    <trkpt lat="52.3586482845196" lon="175.87898013896"></trkpt>
+    <trkpt lat="52.3586482845197" lon="175.87898013896"></trkpt>
     <trkpt lat="52.3579005888482" lon="175.88097916214"></trkpt>
     <trkpt lat="52.3573283797942" lon="175.881971051419"></trkpt>
     <trkpt lat="52.357088117844" lon="175.882978065243"></trkpt>
@@ -4250,7 +4250,7 @@
     <trkpt lat="52.343858151057" lon="175.89097544913"></trkpt>
     <trkpt lat="52.3438009360929" lon="175.891982614429"></trkpt>
     <trkpt lat="52.3436827066292" lon="175.892974518803"></trkpt>
-    <trkpt lat="52.3427633294619" lon="175.893981726109"></trkpt>
+    <trkpt lat="52.342763329462" lon="175.893981726109"></trkpt>
     <trkpt lat="52.3417332396732" lon="175.894973813493"></trkpt>
     <trkpt lat="52.3408101370701" lon="175.895980919588"></trkpt>
     <trkpt lat="52.3402340910133" lon="175.897979994337"></trkpt>
@@ -4288,7 +4288,7 @@
     <trkpt lat="52.3357749747085" lon="175.941988581484"></trkpt>
     <trkpt lat="52.335771213122" lon="175.942980438314"></trkpt>
     <trkpt lat="52.3361679563471" lon="175.942980474613"></trkpt>
-    <trkpt lat="52.3363968575022" lon="175.943987484111"></trkpt>
+    <trkpt lat="52.3363968575021" lon="175.943987484111"></trkpt>
     <trkpt lat="52.3370797421927" lon="175.943987467123"></trkpt>
     <trkpt lat="52.3378236537387" lon="175.944979179913"></trkpt>
     <trkpt lat="52.338563713123" lon="175.945986329414"></trkpt>
@@ -4322,7 +4322,7 @@
     <trkpt lat="52.3565319268668" lon="175.963975279305"></trkpt>
     <trkpt lat="52.3565891913753" lon="175.964982421412"></trkpt>
     <trkpt lat="52.3567036550311" lon="175.965974235991"></trkpt>
-    <trkpt lat="52.3568104629268" lon="175.966981391374"></trkpt>
+    <trkpt lat="52.3568104629267" lon="175.966981391374"></trkpt>
     <trkpt lat="52.3569249080929" lon="175.967973216859"></trkpt>
     <trkpt lat="52.3574285762402" lon="175.969987478479"></trkpt>
     <trkpt lat="52.3577147249694" lon="175.971986387094"></trkpt>
@@ -4411,7 +4411,7 @@
     <trkpt lat="52.3829458923015" lon="175.856675367959"></trkpt>
     <trkpt lat="52.3844886916626" lon="175.86138640348"></trkpt>
     <trkpt lat="52.3858394739101" lon="175.866252483968"></trkpt>
-    <trkpt lat="52.3869925274448" lon="175.871252992491"></trkpt>
+    <trkpt lat="52.3869925274447" lon="175.871252992491"></trkpt>
     <trkpt lat="52.3879427467935" lon="175.876366026484"></trkpt>
     <trkpt lat="52.3886860847532" lon="175.881570175015"></trkpt>
     <trkpt lat="52.3892193344339" lon="175.886842426574"></trkpt>
@@ -4424,7 +4424,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -4444,7 +4444,7 @@
     <trkpt lat="52.4341177673175" lon="173.399010311085"></trkpt>
     <trkpt lat="52.4333661398744" lon="173.395333135037"></trkpt>
     <trkpt lat="52.4336826598988" lon="173.393380124254"></trkpt>
-    <trkpt lat="52.4322748951385" lon="173.387536267181"></trkpt>
+    <trkpt lat="52.4322748951384" lon="173.387536267181"></trkpt>
     <trkpt lat="52.4333693983759" lon="173.382623419427"></trkpt>
     <trkpt lat="52.4311608014134" lon="173.38123505462"></trkpt>
     <trkpt lat="52.4308326556015" lon="173.379816016471"></trkpt>
@@ -4497,7 +4497,7 @@
     <trkpt lat="52.3692139638063" lon="173.416541695562"></trkpt>
     <trkpt lat="52.3668294945851" lon="173.412886940587"></trkpt>
     <trkpt lat="52.3645962709253" lon="173.408985876917"></trkpt>
-    <trkpt lat="52.3625238045721" lon="173.404854958394"></trkpt>
+    <trkpt lat="52.3625238045722" lon="173.404854958394"></trkpt>
     <trkpt lat="52.3606210955447" lon="173.400511613305"></trkpt>
     <trkpt lat="52.3588962158804" lon="173.395975012977"></trkpt>
     <trkpt lat="52.357356474035" lon="173.391264029243"></trkpt>
@@ -4572,7 +4572,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -4778,7 +4778,7 @@
 <trk>
   <name>NA</name>
   <desc>NA</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -4806,7 +4806,7 @@
     <trkpt lat="52.3497791557274" lon="-172.574494461221"></trkpt>
     <trkpt lat="52.350610811193" lon="-172.575501732267"></trkpt>
     <trkpt lat="52.350000438276" lon="-172.576844456429"></trkpt>
-    <trkpt lat="52.3488636313203" lon="-172.57675272046"></trkpt>
+    <trkpt lat="52.3488636313204" lon="-172.57675272046"></trkpt>
     <trkpt lat="52.3482914406762" lon="-172.576722344198"></trkpt>
     <trkpt lat="52.3474561613561" lon="-172.575745550929"></trkpt>
     <trkpt lat="52.3472195874734" lon="-172.5738534319"></trkpt>
@@ -4839,7 +4839,7 @@
     <trkpt lat="52.3155152080086" lon="-172.637265837712"></trkpt>
     <trkpt lat="52.3178994557796" lon="-172.640916443454"></trkpt>
     <trkpt lat="52.3204249724802" lon="-172.644305500019"></trkpt>
-    <trkpt lat="52.3230806836043" lon="-172.647417978047"></trkpt>
+    <trkpt lat="52.3230806836042" lon="-172.647417978047"></trkpt>
     <trkpt lat="52.3258553287768" lon="-172.650240741361"></trkpt>
     <trkpt lat="52.3287371577181" lon="-172.652761658965"></trkpt>
     <trkpt lat="52.3317138179601" lon="-172.654969802674"></trkpt>
@@ -4865,7 +4865,7 @@
     <trkpt lat="52.3884134125542" lon="-172.633474483928"></trkpt>
     <trkpt lat="52.3904898446298" lon="-172.629346364116"></trkpt>
     <trkpt lat="52.3923963435996" lon="-172.625004727498"></trkpt>
-    <trkpt lat="52.3941248908226" lon="-172.620468190369"></trkpt>
+    <trkpt lat="52.3941248908225" lon="-172.620468190369"></trkpt>
     <trkpt lat="52.3956680777085" lon="-172.615756288334"></trkpt>
     <trkpt lat="52.3970191675733" lon="-172.610889130127"></trkpt>
     <trkpt lat="52.398172501786" lon="-172.605887710595"></trkpt>
@@ -4902,7 +4902,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -4933,7 +4933,7 @@
     <trkpt lat="51.910185744698" lon="179.802401320858"></trkpt>
     <trkpt lat="51.9088376074345" lon="179.79758464601"></trkpt>
     <trkpt lat="51.9076870499153" lon="179.792636037455"></trkpt>
-    <trkpt lat="51.9067389148338" lon="179.787576573054"></trkpt>
+    <trkpt lat="51.9067389148337" lon="179.787576573054"></trkpt>
     <trkpt lat="51.9059971602897" lon="179.782427915282"></trkpt>
     <trkpt lat="51.9054651049184" lon="179.7772120208"></trkpt>
     <trkpt lat="51.9051449328758" lon="179.771951087651"></trkpt>
@@ -4941,7 +4941,7 @@
     <trkpt lat="51.9051449661777" lon="179.761384030878"></trkpt>
     <trkpt lat="51.9054652120352" lon="179.756123141703"></trkpt>
     <trkpt lat="51.9059971147198" lon="179.750907121429"></trkpt>
-    <trkpt lat="51.9067388549862" lon="179.74575841535"></trkpt>
+    <trkpt lat="51.9067388549863" lon="179.74575841535"></trkpt>
     <trkpt lat="51.9076869780278" lon="179.740699028236"></trkpt>
     <trkpt lat="51.9088376284519" lon="179.73575034275"></trkpt>
     <trkpt lat="51.9098097585682" lon="179.73227744538"></trkpt>
@@ -5001,7 +5001,7 @@
     <trkpt lat="51.9723038489078" lon="179.766521019098"></trkpt>
     <trkpt lat="51.973585498869" lon="179.765284902554"></trkpt>
     <trkpt lat="51.9744704164452" lon="179.763850466414"></trkpt>
-    <trkpt lat="51.9748212707102" lon="179.760539094994"></trkpt>
+    <trkpt lat="51.9748212707103" lon="179.760539094994"></trkpt>
     <trkpt lat="51.9751912008106" lon="179.756297050034"></trkpt>
     <trkpt lat="51.9756067780682" lon="179.752711105045"></trkpt>
     <trkpt lat="51.9751222093148" lon="179.748239949191"></trkpt>
@@ -5062,7 +5062,7 @@
 <trk>
   <name>BS_No_Transit</name>
   <desc>BS_No_Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -5241,7 +5241,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -5285,7 +5285,7 @@
     <trkpt lat="51.9444995100153" lon="177.326518217057"></trkpt>
     <trkpt lat="51.9424126255771" lon="177.322153839025"></trkpt>
     <trkpt lat="51.9421455202001" lon="177.321207665188"></trkpt>
-    <trkpt lat="51.9407073318736" lon="177.32169612817"></trkpt>
+    <trkpt lat="51.9407073318737" lon="177.32169612817"></trkpt>
     <trkpt lat="51.9405700989853" lon="177.325663858653"></trkpt>
     <trkpt lat="51.9390746808" lon="177.32604559269"></trkpt>
     <trkpt lat="51.9383841291996" lon="177.32619810857"></trkpt>
@@ -5322,7 +5322,7 @@
     <trkpt lat="51.9402522108486" lon="177.261508464666"></trkpt>
     <trkpt lat="51.9434359566638" lon="177.260301519493"></trkpt>
     <trkpt lat="51.9466614575687" lon="177.259433818582"></trkpt>
-    <trkpt lat="51.9499151415734" lon="177.25890922252"></trkpt>
+    <trkpt lat="51.9499151415733" lon="177.25890922252"></trkpt>
     <trkpt lat="51.9531831957232" lon="177.258730204397"></trkpt>
     <trkpt lat="51.9564513438654" lon="177.2588973594"></trkpt>
     <trkpt lat="51.9597057922636" lon="177.259410139603"></trkpt>
@@ -5369,7 +5369,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -5400,7 +5400,7 @@
     <trkpt lat="51.9036427625677" lon="177.351031666454"></trkpt>
     <trkpt lat="51.903379880519" lon="177.346711705783"></trkpt>
     <trkpt lat="51.9034777655718" lon="177.346725759762"></trkpt>
-    <trkpt lat="51.9064078450457" lon="177.348999359939"></trkpt>
+    <trkpt lat="51.9064078450458" lon="177.348999359939"></trkpt>
     <trkpt lat="51.9086968777024" lon="177.351898773903"></trkpt>
     <trkpt lat="51.9106883787792" lon="177.355149085089"></trkpt>
     <trkpt lat="51.9124967015046" lon="177.359223585935"></trkpt>
@@ -5423,7 +5423,7 @@
 <trk>
   <name>AI_no-Transit</name>
   <desc>AI_no-Transit</desc>
-  <time>2025-01-24T09:52:47.000000Z</time>
+  <time>2025-03-11T09:19:35.000000Z</time>
   <extensions>
     <gpxx:TrackExtension>
               <gpxx:DisplayColor>Red</gpxx:DisplayColor>
@@ -5432,7 +5432,7 @@
     <trkpt lat="52.9512948923031" lon="172.521452302753"></trkpt>
     <trkpt lat="52.9512676259486" lon="172.521312617452"></trkpt>
     <trkpt lat="52.9520004513835" lon="172.520431628991"></trkpt>
-    <trkpt lat="52.9517279506261" lon="172.52083177196"></trkpt>
+    <trkpt lat="52.951727950626" lon="172.52083177196"></trkpt>
     <trkpt lat="52.951300673607" lon="172.521444141012"></trkpt>  </trkseg>
 </trk>
 </gpx>
