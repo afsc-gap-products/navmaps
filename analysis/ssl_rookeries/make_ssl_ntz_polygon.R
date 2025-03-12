@@ -54,7 +54,7 @@ mml_rookeries_buffered |>
       "data", 
       "SSLrookeries", 
       paste0(
-        "ssl_no_transit_3nm", 
+        "ssl_no_transit_3nm_", 
         gsub(pattern = "-", replacement = "", x = Sys.Date()), 
         ".shp")
     )
@@ -69,7 +69,7 @@ mml_rookeries_buffered |>
       "data", 
       "SSLrookeries", 
       paste0(
-        "ssl_no_transit_parent_3nm", 
+        "ssl_no_transit_parent_3nm_", 
         gsub(pattern = "-", replacement = "", x = Sys.Date()), 
         ".shp")
     )
