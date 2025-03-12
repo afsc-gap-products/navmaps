@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20241107</CreaDate>
+		<CreaTime>13180100</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemName Sync="TRUE">SeaLionSteller_WesternDPS_19940615</itemName>
+				<nativeExtBox>
+					<westBL Sync="TRUE">-180.000000</westBL>
+					<eastBL Sync="TRUE">180.000000</eastBL>
+					<southBL Sync="TRUE">37.098716</southBL>
+					<northBL Sync="TRUE">63.631787</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\HQPRL4335276\C$\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<imsContentType>002</imsContentType>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Geographic</type>
+				<geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+				<csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits>
+				<peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4326]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;999999999.99999988&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-09&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4326&lt;/WKID&gt;&lt;LatestWKID&gt;4326&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+			</coordRef>
+			<lineage>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20210902" Time="223354">CalculateField SeaLionSteller_WesternDPS_19940615 INPORTURL "https://www.fisheries.noaa.gov/inport/item/65321" VB #</Process>
+				<Process Name="Add Field" ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20220128" Time="100151">AddField C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20210907.gdb\SeaLionSteller_WesternDPS_19940615 ECFR Text # # 255 eCFR NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20220130" Time="154246">CalculateField "Designated Critical Habitat\Seals &amp; Sea Lions\SeaLionSteller_WesternDPS_19940615" ECFR "https://www.ecfr.gov/current/title-50/chapter-II/subchapter-C/part-226/section-226.202" "Python 3" # Text</Process>
+				<Process Name="Alter Field" ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AlterField" Date="20220208" Time="135136">AlterField C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20210907.gdb\SeaLionSteller_WesternDPS_19940615 FRN # # Text 255 NULLABLE DO_NOT_CLEAR</Process>
+				<Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20220213" Time="213255">CalculateField "Designated Critical Habitat\Seals &amp; Sea Lions\SeaLionSteller_WesternDPS_19940615" FRN "&lt;a href='https://www.fisheries.noaa.gov/action/designation-critical-habitat-steller-sea-lions'&gt;58 FR 45269&lt;/a&gt;" "Python 3" # Text NO_ENFORCE_DOMAINS</Process>
+				<Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20220213" Time="213312">CalculateField "Designated Critical Habitat\Seals &amp; Sea Lions\SeaLionSteller_WesternDPS_19940615" FRN "&lt;a href='https://www.fisheries.noaa.gov/action/designation-critical-habitat-steller-sea-lions'&gt;59 FR 30715&lt;/a&gt;" "Python 3" # Text NO_ENFORCE_DOMAINS</Process>
+				<Process Name="Alter Field" ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AlterField" Date="20220223" Time="125729">AlterField C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20210907.gdb\SeaLionSteller_WesternDPS_19940615 FRN "Federal Register Rule" "Federal Register Rule" Text 255 NULLABLE DO_NOT_CLEAR</Process>
+				<Process Name="Alter Field" ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AlterField" Date="20220224" Time="084733">AlterField C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20210907.gdb\SeaLionSteller_WesternDPS_19940615 Federal_Register_Rule FR "Federal Register Rule" Text 255 NULLABLE DO_NOT_CLEAR</Process>
+				<Process Name="Feature Class To Feature Class" ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20220301" Time="160427">FeatureClassToFeatureClass C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\SeaLionSteller_WesternDPS_19940615 C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224_1.gdb SeaLionSteller_WesternDPS_19940615 # "ID "ID" true true false 8 Double 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,ID,-1,-1;SCIENAME "Scientific Name" true true false 100 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,SCIENAME,0,100;COMNAME "Common Name" true true false 100 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,COMNAME,0,100;LISTENTITY "Listed Entity" true true false 100 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,LISTENTITY,0,100;LISTSTATUS "Listing Status" true true false 20 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,LISTSTATUS,0,20;CHSTATUS "Critical Habitat Status" true true false 20 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,CHSTATUS,0,20;UNIT "Unit" true true false 200 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,UNIT,0,200;TAXON "Taxon" true true false 50 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,TAXON,0,50;LEADOFFICE "Lead Office" true true false 50 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,LEADOFFICE,0,50;ECFR "eCFR" true true false 255 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,ECFR,0,255;FR "Federal Register Rule" true true false 255 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,FR,0,255;PUBDATE "Publication Date" true true false 10 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,PUBDATE,0,10;EFFECTDATE "Effective Date" true true false 10 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,EFFECTDATE,0,10;AREASqKm "Area SqKm" true true false 8 Double 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,AREASqKm,-1,-1;CREATEDATE "Create Date" true true false 10 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,CREATEDATE,0,10;NOTES "Notes" true true false 255 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,NOTES,0,255;INPORTURL "InPort URL" true true false 255 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,INPORTURL,0,255;HABTYPE "HABTYPE" true true false 50 Text 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,HABTYPE,0,50;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0,First,#,C:\Users\jonathan.molineaux\Documents\Critical_Habitat\NMFS_ESA_Critical_Habitat_20220224.gdb\AbaloneBlack_20111027,SHAPE_Area,-1,-1" #</Process>
+			</lineage>
+			<LayerFile>{"type":"CIMLayerDocument","version":"2.6.0","build":24783,"layers":["CIMPATH=criticalhabitatservice/sealionsteller_westerndps_19940615.xml"],"layerDefinitions":[{"type":"CIMFeatureLayer","name":"SeaLionSteller_WesternDPS_19940615","uRI":"CIMPATH=criticalhabitatservice/sealionsteller_westerndps_19940615.xml","sourceModifiedTime":{"type":"TimeInstant"},"useSourceMetadata":true,"description":"SeaLionSteller_WesternDPS_19940615","layerElevation":{"type":"CIMLayerElevationSurface","mapElevationID":"{C375927F-C6DF-4D21-BBF7-23D29E751883}"},"expanded":true,"layerType":"Operational","showLegends":true,"visibility":true,"displayCacheType":"Permanent","maxDisplayCacheAge":5,"showPopups":true,"serviceLayerID":-1,"refreshRate":-1,"refreshRateUnit":"esriTimeUnitsSeconds","autoGenerateFeatureTemplates":true,"featureElevationExpression":"0","featureTable":{"type":"CIMFeatureTable","displayField":"SCIENAME","editable":true,"dataConnection":{"type":"CIMStandardDataConnection","workspaceConnectionString":"DATABASE=..\\..\\..\\..\\..\\jonathan.molineaux\\Documents\\Critical_Habitat\\NMFS_ESA_Critical_Habitat_20210907.gdb","workspaceFactory":"FileGDB","dataset":"SeaLionSteller_WesternDPS_19940615","datasetType":"esriDTFeatureClass"},"studyAreaSpatialRel":"esriSpatialRelUndefined","searchOrder":"esriSearchOrderSpatial"},"htmlPopupEnabled":true,"selectable":true,"featureCacheType":"Session","displayFiltersType":"ByScale","labelClasses":[{"type":"CIMLabelClass","expression":"$feature.SCIENAME","expressionEngine":"Arcade","featuresToLabel":"AllVisibleFeatures","maplexLabelPlacementProperties":{"type":"CIMMaplexLabelPlacementProperties","featureType":"Polygon","avoidPolygonHoles":true,"canOverrunFeature":true,"canPlaceLabelOutsidePolygon":true,"canRemoveOverlappingLabel":true,"canStackLabel":true,"connectionType":"Unambiguous","constrainOffset":"NoConstraint","contourAlignmentType":"Page","contourLadderType":"Straight","contourMaximumAngle":90,"enableConnection":true,"featureWeight":0,"fontHeightReductionLimit":4,"fontHeightReductionStep":0.5,"fontWidthReductionLimit":90,"fontWidthReductionStep":5,"graticuleAlignmentType":"Straight","keyNumberGroupName":"Default","labelBuffer":15,"labelLargestPolygon":true,"labelPriority":-1,"labelStackingProperties":{"type":"CIMMaplexLabelStackingProperties","stackAlignment":"ChooseBest","maximumNumberOfLines":3,"minimumNumberOfCharsPerLine":3,"maximumNumberOfCharsPerLine":24,"separators":[{"type":"CIMMaplexStackingSeparator","separator":" ","splitAfter":true},{"type":"CIMMaplexStackingSeparator","separator":",","visible":true,"splitAfter":true}]},"lineFeatureType":"General","linePlacementMethod":"OffsetCurvedFromLine","maximumLabelOverrun":80,"maximumLabelOverrunUnit":"Point","minimumFeatureSizeUnit":"Map","multiPartOption":"OneLabelPerPart","offsetAlongLineProperties":{"type":"CIMMaplexOffsetAlongLineProperties","placementMethod":"BestPositionAlongLine","labelAnchorPoint":"CenterOfLabel","distanceUnit":"Percentage","useLineDirection":true},"pointExternalZonePriorities":{"type":"CIMMaplexExternalZonePriorities","aboveLeft":4,"aboveCenter":2,"aboveRight":1,"centerRight":3,"belowRight":5,"belowCenter":7,"belowLeft":8,"centerLeft":6},"pointPlacementMethod":"AroundPoint","polygonAnchorPointType":"GeometricCenter","polygonBoundaryWeight":0,"polygonExternalZones":{"type":"CIMMaplexExternalZonePriorities","aboveLeft":4,"aboveCenter":2,"aboveRight":1,"centerRight":3,"belowRight":5,"belowCenter":7,"belowLeft":8,"centerLeft":6},"polygonFeatureType":"General","polygonInternalZones":{"type":"CIMMaplexInternalZonePriorities","center":1},"polygonPlacementMethod":"HorizontalInPolygon","primaryOffset":1,"primaryOffsetUnit":"Point","removeExtraWhiteSpace":true,"repetitionIntervalUnit":"Point","rotationProperties":{"type":"CIMMaplexRotationProperties","rotationType":"Arithmetic","alignmentType":"Straight"},"secondaryOffset":100,"strategyPriorities":{"type":"CIMMaplexStrategyPriorities","stacking":1,"overrun":2,"fontCompression":3,"fontReduction":4,"abbreviation":5},"thinningDistanceUnit":"Point","truncationMarkerCharacter":".","truncationMinimumLength":1,"truncationPreferredCharacters":"aeiou","truncationExcludedCharacters":"0123456789"},"name":"Class 1","priority":-1,"standardLabelPlacementProperties":{"type":"CIMStandardLabelPlacementProperties","featureType":"Line","featureWeight":"Low","labelWeight":"High","numLabelsOption":"OneLabelPerName","lineLabelPosition":{"type":"CIMStandardLineLabelPosition","above":true,"inLine":true,"parallel":true},"lineLabelPriorities":{"type":"CIMStandardLineLabelPriorities","aboveStart":3,"aboveAlong":3,"aboveEnd":3,"centerStart":3,"centerAlong":3,"centerEnd":3,"belowStart":3,"belowAlong":3,"belowEnd":3},"pointPlacementMethod":"AroundPoint","pointPlacementPriorities":{"type":"CIMStandardPointPlacementPriorities","aboveLeft":2,"aboveCenter":2,"aboveRight":1,"centerLeft":3,"centerRight":2,"belowLeft":3,"belowCenter":3,"belowRight":2},"rotationType":"Arithmetic","polygonPlacementMethod":"AlwaysHorizontal"},"textSymbol":{"type":"CIMSymbolReference","symbol":{"type":"CIMTextSymbol","blockProgression":"TTB","depth3D":1,"extrapolateBaselines":true,"fontEffects":"Normal","fontEncoding":"Unicode","fontFamilyName":"Tahoma","fontStyleName":"Regular","fontType":"Unspecified","haloSize":1,"height":10,"hinting":"Default","horizontalAlignment":"Left","kerning":true,"letterWidth":100,"ligatures":true,"lineGapType":"ExtraLeading","symbol":{"type":"CIMPolygonSymbol","symbolLayers":[{"type":"CIMSolidFill","enable":true,"color":{"type":"CIMRGBColor","values":[0,0,0,100]}}]},"textCase":"Normal","textDirection":"LTR","verticalAlignment":"Bottom","verticalGlyphOrientation":"Right","wordSpacing":100,"billboardMode3D":"FaceNearPlane"}},"useCodedValue":true,"visibility":true,"iD":-1}],"renderer":{"type":"CIMSimpleRenderer","patch":"Default","symbol":{"type":"CIMSymbolReference","symbol":{"type":"CIMPolygonSymbol","symbolLayers":[{"type":"CIMSolidStroke","enable":true,"capStyle":"Round","joinStyle":"Round","lineStyle3D":"Strip","miterLimit":10,"width":0.69999999999999996,"color":{"type":"CIMRGBColor","values":[110,110,110,100]}},{"type":"CIMSolidFill","enable":true,"color":{"type":"CIMRGBColor","values":[179.240000000000009,252.449999999999989,186.56,100]}}]}}},"scaleSymbols":true,"snappable":true}]}</LayerFile>
+		</DataProperties>
+		<SyncDate>20220402</SyncDate>
+		<SyncTime>18370700</SyncTime>
+		<ModDate>20220402</ModDate>
+		<ModTime>18370700</ModTime>
+		<ArcGISProfile>ISO19139</ArcGISProfile>
+	</Esri>
+	<eainfo>
+		<detailed Name="SeaLionSteller_WesternDPS_19940615">
+			<enttyp>
+				<enttypl Sync="TRUE">SeaLionSteller_WesternDPS_19940615</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">32</enttypc>
+				<enttypd>A collection of geographic features with the same geometry type.</enttypd>
+				<enttypds>Esri</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID</attrlabl>
+				<attalias Sync="TRUE">ID</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>9 digit unique identifier for each feature in the geodatabase.
+Used to relate or join supplemental attribute tables.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SCIENAME</attrlabl>
+				<attalias Sync="TRUE">Scientific Name</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Binomial or trinomial scientific name.
+
+Value formatted as written in the Code of Federal Regulations.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COMNAME</attrlabl>
+				<attalias Sync="TRUE">Common Name</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Legal common name of species. 
+
+Value formatted as written in the Code of Federal Regulations.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LISTENTITY</attrlabl>
+				<attalias Sync="TRUE">Listed Entity</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Full text of the ESA listed entity: Species, Subspecies, Distinct Population Segment (DPS), or Evolutionarily Significant Unit (ESU). 
+
+Value formatted as written in the Code of Federal Regulations.
+*Note: for entire species listings, this value will be the same as COMNAME value.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LISTSTATUS</attrlabl>
+				<attalias Sync="TRUE">Listing Status</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Current Endangered Species Act listing status.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Endangered</edomv>
+						<edomvd>Species that are in danger of extinction throughout all or a significant portion of their range.</edomvd>
+						<edomvds>Endangered Species Act of 1973</edomvds>
+					</edom>
+					<edom>
+						<edomv>Threatened</edomv>
+						<edomvd>Species that are likely to become endangered in the foreseeable future.</edomvd>
+						<edomvds>Endangered Species Act of 1973</edomvds>
+					</edom>
+					<edom>
+						<edomv>Delisted</edomv>
+						<edomvd>Species that were removed from the Endangered Species Act list.</edomvd>
+						<edomvds>Endangered Species Act of 1973</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CHSTATUS</attrlabl>
+				<attalias Sync="TRUE">Critical Habitat Status</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Status of the critical habitat designation.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Final</edomv>
+						<edomvd>A final rule in the Federal Register publishes the regulatory text in full with an effective date. The regulatory text sets out amendments to the Code of Federal Regulations (CFR).</edomvd>
+						<edomvds>Federal Register</edomvds>
+					</edom>
+					<edom>
+						<edomv>Proposed</edomv>
+						<edomvd>A proposed rule in the Federal Register notifies the public of a pending regulation. Any person or organization may comment on it during the comment period.</edomvd>
+						<edomvds>Federal Register</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">UNIT</attrlabl>
+				<attalias Sync="TRUE">Unit</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">200</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Critical habitat unit name.
+Null if designation did not specify units or unit names.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TAXON</attrlabl>
+				<attalias Sync="TRUE">Taxon</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Taxonomic unit.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>baleen whale</edomv>
+						<edomvd>Any of a suborder (Mysticeti) of large whales that have baleen plates in the upper jaw which are used to filter chiefly small crustaceans out of large quantities of seawater.</edomvd>
+						<edomvds>Merriam-Webster dictionary</edomvds>
+					</edom>
+					<edom>
+						<edomv>toothed whale</edomv>
+						<edomvd>Any of a suborder (Odontoceti) of cetaceans bearing usually numerous simple conical teeth.</edomvd>
+						<edomvds>Merriam-Webster dictionary</edomvds>
+					</edom>
+					<edom>
+						<edomv>fish</edomv>
+						<edomvd>Any of numerous cold-blooded strictly aquatic craniate vertebrates that include the bony fishes and the cartilaginous and jawless fishes and that have typically an elongated somewhat spindle-shaped body terminating in a broad caudal fin, limbs in the form of fins when present at all, and a 2-chambered heart by which blood is sent through thoracic gills to be oxygenated.</edomvd>
+						<edomvds>Merriam-Webster dictionary</edomvds>
+					</edom>
+					<edom>
+						<edomv>pinniped</edomv>
+						<edomvd>Any of an order or suborder (Pinnipedia) of aquatic carnivorous mammals with all four limbs modified into flippers.</edomvd>
+						<edomvds>Merriam-Webster dictionary</edomvds>
+					</edom>
+					<edom>
+						<edomv>marine reptile</edomv>
+						<edomvd>Any of a class (Reptilia) of cold-blooded, air-breathing, usually egg-laying vertebrates that have adapted for an aquatic or semiaquatic life in a marine environment and have a body typically covered with scales or bony plates and a bony skeleton with a single occipital condyle, a distinct quadrate bone usually immovably articulated with the skull, and ribs attached to the sternum.</edomvd>
+						<edomvds>Merriam-Webster dictionary</edomvds>
+					</edom>
+					<edom>
+						<edomv>invertebrate</edomv>
+						<edomvd>Any animal that lacks a spinal column.</edomvd>
+						<edomvds>Merriam-Webster dictionary</edomvds>
+					</edom>
+					<edom>
+						<edomv>plant</edomv>
+						<edomvd>Any of a kingdom (Plantae) of multicellular eukaryotic mostly photosynthetic organisms typically lacking locomotive movement or obvious nervous or sensory organs and possessing cellulose cell walls.</edomvd>
+						<edomvds>Merriam-Webster dictionary</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LEADOFFICE</attrlabl>
+				<attalias Sync="TRUE">Lead Office</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Office responsible for the critical habitat Federal Register Notice.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Office of Protected Resources</edomv>
+						<edomvd>Headquarters office responsible for nationwide conservation, protection, and recovery of endangered and threatened marine species listed under the Endangered Species Act.</edomvd>
+						<edomvds>National Marine Fisheries Service</edomvds>
+					</edom>
+					<edom>
+						<edomv>Alaska Region</edomv>
+						<edomvd>Includes Alaska and adjacent marine waters extending outwards to the 200 nautical mile boundary of the Exclusive Economic Zone.</edomvd>
+						<edomvds>National Marine Fisheries Service</edomvds>
+					</edom>
+					<edom>
+						<edomv>West Coast Region</edomv>
+						<edomvd>Includes Idaho, Washington, Oregon, California and adjacent marine waters extending outwards to the 200 nautical mile boundary of the Exclusive Economic Zone.</edomvd>
+						<edomvds>National Marine Fisheries Service</edomvds>
+					</edom>
+					<edom>
+						<edomv>Greater Atlantic Region</edomv>
+						<edomvd>Includes Minnesota, Wisconsin, Michigan, Illinois, Indiana, Ohio, Kentucky, West Virginia, Pennsylvania, New York, Vermont, New Hampshire, Maine, Massachusetts, Rhode Island, Connecticut, New Jersey, Delaware, Maryland, Virginia, North Carolina (north of Cape Hatteras) and adjacent marine waters extending outwards to the 200 nautical mile boundary of the Exclusive Economic Zone.</edomvd>
+						<edomvds>National Marine Fisheries Service</edomvds>
+					</edom>
+					<edom>
+						<edomv>Southeast Region</edomv>
+						<edomvd>Includes North Carolina (south of Cape Hatteras), South Carolina, Georgia, Florida, Alabama, Mississippi, Louisiana, Texas, Arkansas, Iowa, Kansas, Kentucky, Missouri, Nebraska, New Mexico, Oklahoma, Tennessee, the Commonwealth of Puerto Rico, the U.S. Virgin Islands and adjacent marine waters extending outwards to the 200 nautical mile boundary of the Exclusive Economic Zone.</edomvd>
+						<edomvds>National Marine Fisheries Service</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pacific Islands Region</edomv>
+						<edomvd>Includes Hawai'i, American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, Kingman Reef, Howland Island, Baker Island, Jarvis Island, Wake Island, Johnston Atoll, Palmyra Atoll and adjacent marine waters extending outwards to the 200 nautical mile boundary of the Exclusive Economic Zone.</edomvd>
+						<edomvds>National Marine Fisheries Service</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FR</attrlabl>
+				<attalias Sync="TRUE">Federal Register Rule</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PUBDATE</attrlabl>
+				<attalias Sync="TRUE">Publication Date</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Federal Register Notice publication date. 
+
+MM/DD/YYYY format</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EFFECTDATE</attrlabl>
+				<attalias Sync="TRUE">Effective Date</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Effective date for a final critical habitat designation. Null for proposed critical habitat.
+
+MM/DD/YYYY format
+</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREASqKm</attrlabl>
+				<attalias Sync="TRUE">Area SqKm</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Geodesic area calculated in square kilometers.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CREATEDATE</attrlabl>
+				<attalias Sync="TRUE">Create Date</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Date spatial feature was created or geometry was last edited.
+
+MM/DD/YYYY format</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOTES</attrlabl>
+				<attalias Sync="TRUE">Notes</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Additional information about the feature that is not contained in other fields.</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">INPORTURL</attrlabl>
+				<attalias Sync="TRUE">InPort URL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Feature class metadata URL. 
+
+InPort is the National Marine Fisheries Service's official metadata catalog found at: 
+https://inport.nmfs.noaa.gov/inport/</attrdef>
+				<attrdefs>National Marine Fisheries Service</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE_Length</attrlabl>
+				<attalias Sync="TRUE">Shape_Length</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Length of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE_Area</attrlabl>
+				<attalias Sync="TRUE">Shape_Area</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HABTYPE</attrlabl>
+				<attalias Sync="TRUE">HABTYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ECFR</attrlabl>
+				<attalias Sync="TRUE">eCFR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<Binary>
+		<Thumbnail>
+			<Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCALfBbkDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAr6hqFrpGn3N9fXMNlY2sTTz3NxII44o1BZndicK
+oAJJPAAr82Pjj/wUh8Zazr93p/w5Nn4d0S1unSHVvJF1c3yK8irJtnjCxo6mNvLMe9Sv38EivoD/
+AIKW69f6P+zrbWlnP5Nvquu21neJsVvNhEc04XJBK/vIImyMH5cZwSD+WFfpnDGT4fEUXi8RFS1s
+k9lbq+58Hn+aV6NVYag+XS7a3PaPE37Y3xg8TeJrDXH8b6lp1zZRW8cdtpkpt7R2iAO+S3X93Izt
+ln3qQdxXAQKg+z/2Nv24Lr4xa5D4G8bwQxeKZYidO1KyhKx34ji3SLKoyI5cI8m5dsbDcAEKqH/N
+CS6jbT4bcWkKTRyySNdqX8yRWCAIwLbNqlWIwoOZG3FhtC9h8E/ipdfBT4paB40s7GHU5tLlctZz
+sUWWOSN4pFDD7rbJGw2CAcEhgMH6rMclwuKwkqdOklJJ8trLXpr2fmfO4HNMRh8RGc6jcW1zXu9O
+vzR+41FY/g3xRa+OPCGh+I7GOaKx1ixg1CCO4ULIscsayKHAJAYBhnBIz3NbFfhcouLcZbo/XYyU
+kmtmFFFFSMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKAPm/8Ab++Gt/8AEb9nXUpdOf8A0jw7dJrzQYX99DFHIkw3Myhdscry
+dyfL2gEsMfkjX7/V8UfHn/gmzo3i/UL7XPh1qcPhnUbmUzPot6h/s7cxTIiZFLwKB5jbdsgJZVUR
+qOP0LhvPKOCpvCYp2je6fr0f+f3nxee5TVxU1iMOru1mv1R+bFbHhDwhrPj7xNp3h7w9p02q6zqE
+vk21pABudsEkknhVABYsSAoBJIAJr6n/AOHX/wAU/wDoP+D/APwMuv8A5Gr7P/Zl/ZR8Ofs26Tdt
+bXH9veJr7KXeuzQCJzDuysMSbm8tOFLDcS7DJOAip9Vj+JcFhqLlQmpz6Jfr5fiz53B5Diq9VRrR
+5I9X/keseDfC9r4H8IaH4csZJpbHR7GDT4JLhg0jRxRrGpcgAFiFGcADPYVw/wC0p8ZP+FD/AAd1
+vxZDFZ3Wpw+Xb6fZ3s3lpPcSOFAwPmfapeQouCVibleWHYfELxZ/wgfgHxL4m+y/bv7F0y51H7L5
+nl+d5MTSbN2DtztxnBxnoa/Fn4tfGjxd8bfE02s+K9WmvWMryW1irsLSyVgoKQREkRrhEB7ttBYs
+2SfgMiyiebV3Wqv3ItX8+tvn1Z9nm+ZRy6kqVNe/JaeXmaGoftJfFjVNQubyb4k+KkmuJWmdbfV5
+4IwzEkhI0YIi5PCqAAOAAK+h/wBm/wD4KIeJPC+raboPxMuf7e8MtiA60Yi1/Zjaio7lf9ei7SWy
+plO9m3OQEb4wor9ZxOV4PFUnSqU1bySTXofnFDMMVh6iqQm7+bun6n77afqFrq+n219Y3MN7Y3US
+zwXNvIJI5Y2AZXRgcMpBBBHBBqxXzB/wTp8car4z/Z1jt9Ul+0f2Dqc2kWsrM7SG3WOKVFYsx+75
+xRQMAIiKBxk/T9fg2NwzweJnh278rsfsGFrrFUIVkviVwoooriOoKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAOf+IXhT/hPP
+APiXwz9q+w/21plzp32ry/M8nzomj37cjdjdnGRnHUV+GPiHQb/wrr+p6JqkH2XU9NupbO6g3q/l
+zRuUddykqcMpGQSDjg1+91fN/wC1D+xb4c/aA+1a/p8v9geOltfLivUwLa9Zdvli6UKWOFUoJFwy
+hhkSBFSvs+G84p5bUlSr/BO2vZ/5Hy+eZZPHQjUo/FHp3X+Z+SNFfX//AA6/+Kf/AEH/AAf/AOBl
+1/8AI1e8fsq/sCx/CPxMfFfj2503X9es5Q2k2liXktLVgAftDGRELyg/dG3CY3ZZipj/AELE8RZd
+QpSqQqKTWyW7Pi6GSY2tUUJQ5V3fQ7/9hH4S6z8IvgLb2viCGay1bWL6XV5dPuIhHJaK6RxpG43H
+5ikKuQQpUybSoKmvoiiivxTFYieLrzr1N5O5+qYehHDUY0YbRVgooorlOgKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiuf8cfEDw58NNAl1vxTrVnoemR5Hn3koXewRn8uNfvSOVRiEQFmwcA1UYynJRgrtkykoJyk
+7I6CivkjUP8Agpt8KLLULm3h0vxVfwwytGl3b2MAjmUEgOgedXCsORuVTg8gHivX/gb+094C/aCh
+nTwxqE0WrW0Xn3Oj6jF5N3DHvKB8AlHXIUkxswXegbaWAr062V47D0/a1aTUe9vz7HDSzDCV5+zp
+1E2esUUUV5R6AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABX4s/tJ/H/Wf2g/iLeaxeXMy6FayyQ6LprqI1tbYt8pKB
+mHmuApkbJyQADtVFX9dvjJoN/wCKvhD440TS4PtWp6loV9Z2sG9U8yaS3dEXcxCjLMBkkAZ5Nfhj
+X6Vwbh6UpVcQ9ZKyXle+vz2+TPhOKK9SKp0VpF3b87W/IK2PCHi/WfAPibTvEPh7UJtK1nT5fOtr
+uAjcjYIIIPDKQSpUghgSCCCRWPRX6fKKknGSumfAxk4tSi7NH7Tfsw/HKP8AaC+Emn+J3ghs9Wjl
+ex1S0t9/lw3KYJ2Fh91kaOQAFtok2lmKk16xXyB/wS//AOSBa/8A9jNcf+ktpX1/X895rQhhsdVo
+0laKeh+0ZdWnXwlOpU3aCiiivKPRCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAr8sP2yP2Pdd+G/jbWPFHhDQ7zUvAt5uv5W
+sreMppTsZXlh8uP5lgjVNwkKKiq6oSSuW/U+ivZyvNK2VVnVpK6ejT6/8E8vMMvpZjS9nU0a2fY/
+AGu4+EvwX8XfG3xNDo3hTSZr1jKkdzfMjC0slYMQ88oBEa4RyO7bSFDNgH9jtQ+Bfw21fULm+vvh
+74Vvb66laee5uNFtpJJZGJZndimWYkkknkk11Gg+HtK8K6TBpeiaZZ6Pplvu8mysLdIIY9zFm2og
+CjLMScDkknvX21bjJOm1Ro2l5vRf5/gfK0uF2pr2tT3fJa/8A5f4L/CXRvgl8OtJ8KaNDCq2sStd
+3cURja9uSoEtw4LMdzkdCx2gKoO1QB3FFFfmlSpOtN1Kju3q2fd04RpxUIKyQUUUVmWFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFcvffFPwXpfiZfDl54v0G08QtLHAukz6nAl2ZJApjQRFt+5g
+y4GMncMda6irlCULOStcmMoyvyu9goooqCgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACvlD9uv9qSH4U+CZ/CXhfVd
+vjbVswST6fdx+dpEIEbu8ijLo8iSBY+FOGZ1YFFz9X1+BOoahdavqFzfX1zNe311K089zcSGSSWR
+iWZ3YnLMSSSTySa+z4Yyunj8RKrV+GnZ27t3t8lb5ny2f5hUwdFU6e8769rW/wA/kV67D4UfFfxJ
+8F/G1l4o8L3v2XULf5JIpAWhuoSQXhmQEbkbAyMgggMpVlVhx9FfslSnCrBwmrp7o/MITlTkpwdm
+j9dv2b/21vCP7Qmof2EbObwx4s8ppl0u7mWWO5UFsi3lAXzGVArMpRSAW2hlRmH0RX4E6fqF1pGo
+W19Y3M1lfWsqzwXNvIY5IpFIZXRgcqwIBBHIIr2Dx1+2N8YPH01m93431LSltYljSPQpTp6u2xFd
+38naXZim87iQpdtgRTtr83x3CHPXTwclGD3Tu7enf57d2fc4TiXlpNYmN5Lqra+vb5H7LUV+KOg/
+tQfFzw3q0Go2nxG8STXEO7al/qMl5CcqVO6GYvG3BONynBwRggGv0e/Y6/a0/wCGj9J1XT9bs7PS
+fF2lYlmgs32w3Vu7ELLFG7tINhwrg7gC0Z3fvNq/OZlw5istpe3bUore3T5dj3cBnmHx1T2VnGT2
+v1PpCiiivkz6IKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAK/Kj/goN8F9Z8EfGjVPGSaTDB4T8SSxyW13ZIBGtyIVEySgAbZXdJJe
+fvhmYEsHC/qvXyR/wUg+L0ngT4SWPhO1tYZ7rxbLJDJJdWqTxx20OxpCu4/LLvkh2ttO0B2BV1Rh
+9Rw3iK1DMYRoq/Po15bt/K1z5/PKFKtgpSqu3LqvXa3zuflxRRRX7mfkgUUUUAFeofsv69f+G/2i
+vhzd6dP9nuJNdtbNn2K2YZ5BBMuGBHzRyOueozkEEA15fXvH7Fvwl1n4ofHrwzdWMM0ek+Hb6DV9
+R1BYg8cCxP5kcbEsvzSvGEABJwWbaQjVwZhOnTwlWVV+7yu9/Q7MHGc8TTjT3uvzP2Grz/8A4aE+
+Fn/RS/B//g+tf/jlfmj+2B+1dqvxw8bajpegazeQ/Dq2229pZRh7dL/BRmnnTdmTMiAoHA2qqHYj
+l8/N9fnWB4QdWiqmKqOMn0S29b9fyPtsXxKqdVww8OZLq3v6eR+83hfxloHjjT5L7w5rmm6/Yxym
+B7nS7uO5jWQAMULISAwDKcdcMPWtivwx+FHxX8SfBfxtZeKPC979l1C3+SSKQFobqEkF4ZkBG5Gw
+MjIIIDKVZVYfsd8CfjJpXx4+Gel+LtLi+yfaN0V1YNMkslncIcPExX8GUkKWR0Yqu7FeFnWQ1Mqt
+UjLmpvr2fZ/5nsZXnEMxvCS5Zrp3XdHoFFFFfKn0IUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAef6x8ffh9oPxMsvh/qHiiztvF15sEWnMHPzOCY42kC+WjsANqMwZt6YB3rn0Cvhj4k/wDBOG68
+cfHq/wDEcPiiG38F6zfSanqUcmf7RhkkdpJYoQE8tlLH5XYgoH5Vynz/AHPXrY6jg6MKTwtRzbXv
+XWz/AK6a7b6nm4SriqkqixFPlSfu+a/rr+GgUUUV5J6QUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV8seL/8Ago/8
+KPCfibUdHig17X1s5fJOpaPbwSWkzADcYneZC6g5G4DBxlSykMfJ/wBvH9sLVdJ19vh38Ptc+wfZ
+NrazrOlXDpcpcK5/0RJFxs2bVLlGJJbyyV2yK3wBX6PkvDMcRR+sY29pbJafN/ofD5rn0qNX2OE3
+W7/Rfqfpf4s/4KdeB18E6vc+F9F1iTxMmyKwstZt0jhdnDZldopX+SPaMrlWYugXALOnxB8ZP2kv
+Hfx48qPxdf2d3aW91Jc2dtBp0EX2Pf1jjlCebsxtG1nbdsQtuKg15fRX2+ByTA5fLnowvLu9WvTs
+fJ4vNcXjFy1Jadlon69wooor3TyAooooAsaelrJqFsl9NNbWLSqJ5reETSRx5G5kQsgdgMkKWUE8
+ZHWv1H+FXjj4cSfsb+PF+EEt5o39iaFqMlxHcssOrQ3f2aQrdTtGxy77AyyIdoC7V2+XsT8sK7D4
+UfFfxJ8F/G1l4o8L3v2XULf5JIpAWhuoSQXhmQEbkbAyMgggMpVlVh4ObZa8xpRUZWcXdLo7dH/n
+0PYy3HLBVG5R0krN9V6f1qcfRXoHxi+FF/8ADPVtPu1sryPwp4htU1bw7fXZVnuLKVVkjWRlAUTo
+rosiDo3IyjIzef17NKpCtBVIO6Z5dSnKlJwmrNBX6f8A/BL/AP5IFr//AGM1x/6S2lfmx4Q8Iaz4
++8Tad4e8PadNqus6hL5NtaQAbnbBJJJ4VQAWLEgKASSACa/Y79mH4Gx/s+/CTT/DDzw3mrSSvfap
+d2+/y5rl8A7Ax+6qLHGCAu4R7iqliK+K4uxNKGDWHb9+TTS8l19P67n1XDdCpLFOsl7qT1830PWK
+KKK/Hj9NCiiigAooooAKKKKACiiigAoor5A+K/8AwUc8OfDb4qXvhO08LXmv6fpd19j1LVI7oQPH
+MrlZ1hhaM+ZswQCzoGYEA7cO3fg8DicfNww0OZpX/q5yYnF0MHFTrysnofX9FZ/h7XrDxVoGma3p
+c/2rTNStYry1n2MnmQyIHRtrAMMqwOCARnkVoVwtOLs9zqTUldBRRRSGFcP8U/jZ4J+Cmn2N5401
++HRIb6VobZWikmklZRliscas5VRjLYwCygkFhnuK+UP2y/2NNV/aH1/RfE3hnWrOw1u0tRp1xa6s
+zpbPbq8kiujRozBw0jAgghgw5Ur8/pZfSw1bERhi58kOrX9O33HDjalelQc8NDmn2Ppfwh4v0bx9
+4Z07xD4e1CHVdG1CLzra7gJ2uuSCCDyrAgqVIBUgggEEVsV4/wDssfAT/hnX4VxeG5tS/tTU7q6b
+UdQmjGIVuHSNCkOQG2KsaAFuWILYXIVfYK5sTClTrTjQlzQT0fdG9CVSdKMqsbSa1XmFFFFcxuFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRXj/wAaP2rvhx8CfMttf1n7ZraY/wCJHpIW4vRnyz867gsXyyK481k3
+KDt3EYrejQq4map0YuUn0RjVrU6EHOrJJeZ7BRXyhoP/AAUt+EesatBZ3dt4k0O3k3br+/sI2hiw
+pI3CGWSTkgKNqHkjOBkj6f0HxDpXirSYNU0TU7PWNMuN3k3thOk8Mm1irbXQlThlIODwQR2roxOB
+xWDt9YpuN+6MsPjMPir+xmpWNCiiiuA6wooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK8f+
+NH7V3w4+BPmW2v6z9s1tMf8AEj0kLcXoz5Z+ddwWL5ZFceayblB27iMVvRoVcTNU6MXKT6Ixq1qd
+CDnVkkvM9Y1DULXSNPub6+uYbKxtYmnnubiQRxxRqCzO7E4VQASSeABXD/8ADQnws/6KX4P/APB9
+a/8Axyvyx/ah/ah139obxZdKt1eWfgm2uvN0nRJ/LHlYjVPNk2AbnbDNhi/l+a6qxBJPh9foeE4P
+c6SnianLJ9EtvK/f+tT4rE8TctRxoQvFdX1P2m+HP7VXwr+LXiZPD3hbxbDqOsyRPNHaS2lxbNKq
+jLBDLGgdgMttUk4VjjCkj4o/4KKftBeJNY+IWpfCy2b+zfDOk/Z5LtIXO/UpnhjnUynAwib12x8j
+cu8knYE+QPD2vX/hXX9M1vS5/sup6bdRXlrPsV/LmjcOjbWBU4ZQcEEHHIo8Q69f+Ktf1PW9Un+1
+anqV1LeXU+xU8yaRy7ttUBRlmJwAAM8CvfwPDVDAYxYiL5opaKW6lffRJbHj4zPa2MwroyXLJvW2
+zXbq9zPooor7I+XCvYP2X/2ff+GkfH2oeGf7e/4R37Lpkmo/avsf2rdtlij2bfMTGfNznP8AD054
+8fr9V/8Agn98ANZ+DPw61bWPEttNp2u+JpYZjpsrDdbW0St5IkTaCkpMspZSTgGMEKwda+dz3Mf7
+Owcpwlab0j6/Psj28owX17FKEleC1f8AXmfN+n/8EvPiTJqFsl94l8K21i0qiea3nuZpI48jcyIY
+EDsBkhSygnjI612HxA/4Ja3Uen6c/gjxlDc3yxRx3sPiCMwxySYbzJoniVyik7AsTKxA3EyHgV+g
+9FfmUuKMzlJS50rdLKz9T76PD+AUXHlevmz8kfi5+wf4++DPw91Xxjrer+G7rTNN8rzobC5uHmbz
+JkiXaHgVT80gJyw4B+lfN9fvd4h0Gw8VaBqeiapB9q0zUrWWzuoN7J5kMiFHXcpDDKsRkEEZ4Nfk
+z+0n+xn4u+CXia8l0bTtS8T+C2ikvLfVrW2aZrWFBl1u9i4jZBzvICOPmGCGRPtMh4g+vOVHFySn
+06Jrt6r+tj5XOMl+qWq4ZNw69Wn39D53oor63/ZV/YV1/wCI3iY6t8RdG1Lw14T06UCTT76GS0u9
+SkAB8pVYB0iwRuk4JztQ7tzR/W4zG0MDSdavKyX3v0XU+bwuFrYyoqdFXf4L1Ps/4E/CXRvFn7J/
+gDw341hh8Z2Nxo8V4p1OIs0Kzxs8axsWLRtDFP5KOjKQFG3b0HEa9/wTS+EesatPeWlz4k0O3k27
+bCwv42hiwoB2maKSTkgsdznknGBgD6vor8IjmuMpVZ1KNRx5m3ZPTV322/A/XpZfhqlOMKsFLlSV
+3vp57nn/AML/AIBfD74M/aG8HeF7PR7i43CS7y89yytszH50rNIEzGh2BtuRnGSTXoFFFedUq1K0
+nOrJyfdu7O6nThSjy04pLstAooorI0CiiigAooooAKKKKACiiigAr53+I37CPwu+J3xFfxhqNvqV
+jdXEqT32n6ZcJBaX0gbLvIuwuGkHDmNkJ5bhyzH6Iorqw+Kr4STnQm4t6aHPWw9LExUa0VJLuV9P
+0+10jT7axsbaGysbWJYILa3jEccUagKqIoGFUAAADgAVYoormvfVnRtogor8of8AhR37R3/DS327
+7JrH/Cbf2n5n/CZeW/8AZv3f9b9o2eX5HlfL5W37v7ry8/u6/V6vazLLoZf7PkrKpzK+nT/gdnp1
+0PKwGOnjOfmpOHK7a9f+D3X4hRRRXiHqhRRRQAUUVz/iz4heFfAf2X/hJvEuj+HftW77P/a1/Fa+
+dtxu2eYw3Y3LnHTcPWqjGU3yxV2TKSirydkdBRRRUlBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAHz/wDtpftBX/7P/wAK
+4rvQWs/+Em1i6+w2P2l1L267GaS5WIg+Zswi8/KGlQtkfI35E6hqF1q+oXN9fXM17fXUrTz3NxIZ
+JJZGJZndicsxJJJPJJr7/wD+Cq+n3Umn/DS+S2mexhl1GCW5WMmOORxbMiM2MBmEchAPJCNjoa/P
+iv2nhXD0qeXxrRXvTbu/RtJf13PyziGvUqY10pP3Y2t80mFfV/8AwT0+O3/CuPip/wAInrGqXkXh
+zxNttrazSPzYV1N3jWGQj7yblDRll4JaPf8AKgZPlCuw+EPxD/4VP8TPD3i7+yLPXv7JuhcfYL4f
+u5OCMg4O11zuR8HY6o2DjB+hzDCrGYSpQavdO3r038zxcFiHhcRCqnaz/Dr+B+51eL/tGftVeEf2
+cdPtk1YTat4hvYnks9FsmUSMoDbZJWJ/dRFwE3YYk7tqvsbHtFfhj8XviVf/ABg+JniHxjqKeTca
+rdGVYMq3kQgBIYtyqobZGqJu2gttyeSa/IOHsphmleTrfBDfzb2X4P8Apn6XnWZSy+jFU/jlt5W3
+f5H1P4X/AOCpXjS01CR/Efg3QdVsTEQkOlyT2UgkyMMXdpgVxuG3aDkg5GMH2D4c/wDBSzwj4y+I
+qaDrPh+bwnoN1K8Npr15fLIobdiI3EYQCFWHVg7hCRk7cuv5kUV+kVuGssrJ2p8ra3Tenna9vwPh
+qWe4+m1ed15pf8Ofv9RXxx/wTT+LWs+OPh14g8KaxNNfL4XltlsbueUMy20yyBLcDbnbGYGwSx4k
+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
+DJJJxya/OeLswpqksDHWTab8l0+bPuOG8FN1Hi5fCtF5v/gGhRRRX5UfoYUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB+YHxe/4Ju+OPB/
+/CQ6v4RvbPxPoNnmezsN7jVpYeCU8sR+W7qC33WBcJlVDMI6+kP+CeHgf4j+B/hnrEHjWG80zRJr
+pW0TRtSVkubXBk+0OY2UNGjsUKqTyVdwoD7n+r6K+mxWf4rG4R4XEJPVa210/Xz9UeDh8mw+FxKx
+FFtb6X01/rb0CivN/jl8f/CP7PnhmDWPFNzMzXUvk2em2KrJd3TAjeY0ZlG1AQWZiAMgZ3MqsfA3
+4/8AhH9oPwzPrHha5mVrWXybzTb5Vju7ViTsMiKzDa4BKspIOCM7lZV8T6pX9h9Z5HyXtfoer9Zo
++19hzLn3t1PSKKKK5DpCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKAPlD9ur9lO/wDjhpOm+JvCFj9s8babss3t3vFhS6sizttAfCB0
+d9wJZMq0gJYhAPzA17w9qvhXVp9L1vTLzR9Tt9vnWV/bvBNHuUMu5HAYZVgRkcgg96/e6vxx/bQ+
+JV/8S/2ivFkt4nk2+iXUmg2cGVbZDbSOhO4KpO+TzZOclfM25IUV+o8JZhiKt8HJJwir36rXbzX5
+d9kfn/EmCoU7YqLtKTtbo/M8Pooor9KPhAqxp+oXWkahbX1jczWV9ayrPBc28hjkikUhldGByrAg
+EEcgiq9FLfRj21R+q/7G37ZNr8cdPh8K+KpobLx/axEqwAjj1eNRkyxgcLKACXjHGAXQbdyx/U9f
+ij+y/r1/4b/aK+HN3p0/2e4k121s2fYrZhnkEEy4YEfNHI656jOQQQDX7XV+JcS5dSy/Fp0FaM1e
+3Z31t5H6tkWOqYzDP2usou1+6/zCiiivkj6QKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACvyB/b1/wCTsPHP/bj/AOkFvX6/V8If
+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
+3ttLtI7aNpCApcqgALEKoz1wo9K+koZtTo5ZUwDpXcnv934roeFWy6dTHwxiqWUVt/XR9TYooor5
+s90KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKAMfxf4Q0bx94Z1Hw94h06HVdG1CLybm0nB2uuQQQRyrAgMGBBUgEEEA1+XPx2
+/YH+IPw31/VLjwnpN54y8Ix7Zba6s9kl6qu+0RSW6nzHdSRlo0KlcP8AL8yp+r1Fe5lecYnKpP2W
+sXunt6+T/pnk5hllDMYr2mjWzW//AAx+KOg/sv8Axc8SatBp1p8OPEkNxNu2vf6dJZwjCljummCR
+rwDjcwycAZJArqPhz8WtG/ZhmS/8N6Zpvi74lrK8V1quoqZ9L0yEphobMxSKZpWLMr3GQgCFIvMR
+zI/3t+398Sr/AOHP7OupRacn+keIrpNBafK/uYZY5HmO1lYNujiePsR5m4EFRn8ka/VMrxNXPMNK
+piYpU27WV9e9328vLW6PzzMKFPKa6hQk3Pe76drefn92p7B8V/2s/ih8ZtJvdH8R+Is6DdXX2k6T
+ZW0VvCuGLJHuVfMdFJGFkduVVjllBrx+iivo6OHpYaHJRgorslY8OrWqV5c9WTk/PU7D4UfFfxJ8
+F/G1l4o8L3v2XULf5JIpAWhuoSQXhmQEbkbAyMgggMpVlVh+u3wA/aT8I/tB+Gba80e8hsteERa+
+8PTzqbu1ZSodgvBkiy64lAwdwB2tuRfxZrY8IeL9Z8A+JtO8Q+HtQm0rWdPl862u4CNyNgggg8Mp
+BKlSCGBIIIJFeDnOR0c1hzL3ai2f6Py/I9jK82qZdLl3g91+q8/zP3mor5g/ZH/bSsPj95nh3xJF
+Z6H46j3yRW9tuW21CEZbMAdmYOi/ejLEkDepI3iP6fr8WxeErYGs6FeNpL+rryP1PDYmli6aq0Xd
+MKKKK4zqCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAPij/
+AIKMftDa/wDDqHw54L8Ja7Nomo6lE+oalPY+ZDdpArhYBHMMbVd0m3bTu/dAEhWIf5Q8IftxfGnw
+dDp1tF4zm1Wxs5fMNvrFvFdtOu8uySzOvnMpyRxICAcKVwMWP27PHv8Awnn7S3ijyb77dp+i+Xo9
+r+58vyfJX9/HyoLYuGuPmOc54JXbXz/X7llOVYaOXUoVqSk2ru6T1evVbpOx+S5lmNeWNqTpVGkn
+ZWfRf57n3/8AC/8A4Kjf8fEPxG8J/wB54bzwuP8AcCxtBPJ/10JkEv8AdGzq1e/+Hv28Pgl4g/sy
+P/hMP7Nu77yl+zahYXEX2d3x8ksvlmJdpOGbeUGCd2Oa/IGiufEcK5dXfNFOHo9PxTNqPEWNoq0m
+peq/ysfu94T+IXhXx59q/wCEZ8S6P4i+y7ftH9k38V15O7O3f5bHbna2M9dp9K/In9srxRa+L/2n
+fiBfWcc0UMN8unss6gN5ltEltIRgn5S8LEdyCMgHgeL0VrlPD8MpxEq8anNdW2tbZ99duxnmWcyz
+GjGlKHLZ339fLzCiiivrD5wKKKKACiiigAooooAK6DU/iB4k1jwnpPhe81q8m8OaVuNnpXmlbaJj
+JLIZPLGFZ908vzkFsNtztAA5+iolGMrOSvYpSlG9nuFfU/7G37ZN18DtQh8K+Kppr3wBdSkqwBkk
+0iRjkyxgctESSXjHOSXQbtyyfLFFcuMwdHHUXQrq8X+HmvM6MNiauEqqrSdmv6sz99tP1C11fT7a
++sbmG9sbqJZ4Lm3kEkcsbAMrowOGUgggjgg1Yrwf9hnULrVP2VfAk15czXcyxXUCyTyF2Ecd5PHG
+gJP3VRVUDoAoA4FekfFf4r+HPgv4JvfFHii9+y6fb/JHFGA011MQSkMKEjc7YOBkAAFmKqrMP5+r
+YWdPFTwsPeak4rzs7H7NSxEZ4eOInomk/S6udhRX5YfEr/gpD8UPFWrJJ4VNn4H0yPO22hhivppM
+qufNlmjKnDKxXYiYD4O7ANe8eEP+CofguTwzpx8U+Gteg8Q+Vi9XR4IJbQyAkFojJOrhWGG2sMrn
+blsbj7tbhnMqNOM+S9+id2vXp9zZ5NLPsDUnKHNa3Vqyfp/wbH2vRXxx8QP+Cm/gLQdP05/Cmh6l
+4rvriKOaeG4b7BHaBg26J3KuWlQhQQitGQ2RIcYPj/hf/gqV40tNQkfxH4N0HVbExEJDpck9lIJM
+jDF3aYFcbht2g5IORjBypcOZnWg5qlb1aTfyf62LqZ5gKclF1L+ibX9eh9X/ALTv7W+gfs1w6da3
+GmTeIfEOpRNPbabb3McKpGropeZjueNWBfYRGwYxOOMEj5Q8ef8ABUTxdrOni38J+EtN8MzSRSxy
+3d7ctqEiswAR4htjRWU7j86yAnbkYBDeQftkfHjQP2hvidpniPw5Z6lZWNro8WnvHqkUcchkWeeQ
+kBHcbcSr3zkHj18Hr7/KuHcHDDU54qlepu7t/da9j47Mc7xMq84YepaHS1vz3Og8cfEDxJ8S9fl1
+vxTrV5rmpyZHn3kpbYpdn8uNfuxoGdiEQBVycAV9T/sQ/tiWvwh0fU/Bfi5JpvD0cV1qmnXiTjfb
+yJC0r2oWR1TbKYz5aqQfOkIIbzcp8cUV9Li8vw+Mw7w1SPu9LaW7WPBw2MrYWv7eD97z6+p6x8f/
+ANpPxd+0H4mubzWLyay0IShrHw9BOxtLVVDBGK8CSXDtmUjJ3EDau1F8noorro0aeHpqlSjaK6HP
+VqzrzdSo7thRRRW5iFFFFAH6D/sX/tx6z4m8TaL8OfH8kN41zELTTPEMkgSd5lDFY7pnbEjONsaO
+oDlwoYO0hcfe9fgDX7rfCzxRdeOPhj4Q8R30cMV9rGj2eoTx26lY1klgSRggJJCgscZJOO5r8g4q
+yujg6kMRQVlO915916/p5n6Xw9mFTEwlQrO7js/L/gHm/wAbv2Ofhx8edWGsa3Z3ml683lrNq2jT
+rDNOiKyqkiurxtwR8xTfhEXdtGK8Q0f/AIJZeFYdfvZtU8caxeaI+/7LZ2drFb3MWXBTzJ28xZML
+kHESZJBG0Daft+ivnKGc5hhqfsqVZqP329L7fI9ytleDrz9pUppv+t7bnD/CX4L+Efgl4Zh0bwpp
+MNkoiSO5vmRTd3rKWIeeUAGRsu5HZdxChVwB3FFFeVUqTrTdSo7t7tnowpxpxUIKyQUUUVmWFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAfKH/AAUt0G/1j9nW2u7O
+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
+/Z1NubvOW/l5f5hRRRXyp9CFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAVj+L/CGjePvDOo+HvEOnQ6ro2oReTc2k4O11yCCCOVYEBgwIKkAgggGtii
+qjJwalF2aFKKknGSumfP/wDwwV8Cf+hG/wDKvf8A/wAfr8+f2yfgBH8Afi3NZ6TbTReE9WiF7pLS
+M8gjXpLAZGUZaN84GWIjeIsxZjX7DV4v+2J8Nrr4p/s8eK9I02wh1DWYIo9QsY5ITLJ5kLrIwhCq
+zea8QljXaMkybcgMa+tybPMTQxkPrFRyhLR80m7Xe+vb8j5vNMpoVsNL2MFGUdVZJXt007n400UU
+V+2H5SFFFFABVjT9PutX1C2sbG2mvb66lWCC2t4zJJLIxCqiKBlmJIAA5JNV6safqF1pGoW19Y3M
+1lfWsqzwXNvIY5IpFIZXRgcqwIBBHIIpO9tNxq19T99qK/EH/hoT4p/9FL8Yf+D66/8Ajle//Cj/
+AIKU+OPBOk2WleKNGs/GlpZ2vkR3clw9tfysGGx5piJFkwuVP7sM3DMxO4t+P4jhHG0oc1KSm+23
+56H6ZR4lwtSVqkXFd9/yP0n8UeMtA8D6fHfeI9c03QLGSUQJc6pdx20bSEFggZyAWIVjjrhT6Vy/
+/DQnws/6KX4P/wDB9a//AByvxx+K/wAV/Enxo8bXvijxRe/atQuPkjijBWG1hBJSGFCTtRcnAySS
+SzFmZmPH161Hg2Hs061V83Wy0PNq8US537Kn7vm9T99tP1C11fT7a+sbmG9sbqJZ4Lm3kEkcsbAM
+rowOGUgggjgg1Yr8afgb+1x8Q/gHDPZ6HfQ6ro0kXlx6PrXmz2lu28vvhVZFMbEs+dpAbeSwJCke
+7+E/+Cpviqz+1f8ACTeB9H1fdt+z/wBk3Uth5eM7t/mefvz8uMbcYPXPHiYnhPH0py9hacemqT+5
+/wCZ61DiPB1Ir2t4vrpdfh/kfo/RXj/w9/au+HHxF+Ger+OLfWf7I0jRc/2pDqoWO5sskiPfGrNu
+8zHybC28naMuGUeUah/wU2+FFlqFzbw6X4qv4YZWjS7t7GARzKCQHQPOrhWHI3KpweQDxXz9PKsd
+VlKEKMm46PTY9meY4SnGMpVFaW2p9b0V87/Cz9vD4UfFHUL6zOqTeEJrWJZlbxU0FnHOpOCI5BKy
+FlO3KkgkNlQQG2+kf8NCfCz/AKKX4P8A/B9a/wDxysauAxdGXJUpST9Ga08ZhqseaFRNep6BRRRX
+AdgUUUUAFFcf8V/iv4c+C/gm98UeKL37Lp9v8kcUYDTXUxBKQwoSNztg4GQAAWYqqsw8f+Gv7f3w
+j+I2rPp0upXnhG448l/EscdtDN8rM2JkkeNMBP8AloyZLKF3E4HfSwOKr0nWpU3KK6pHJUxmHo1F
+SqTSk+jZ9IUVn6D4h0rxVpMGqaJqdnrGmXG7yb2wnSeGTaxVtroSpwykHB4II7VoVwtOLs9zqTUl
+dBRRRSGFFFFABXxh/wAFQPHH9j/Cvwx4WilvIbjW9Ta5k8ltsMtvbJ88cuGBb95PA6rgjMeeCq5+
+z6/LD/gpP44/4ST9oCPQopbz7P4d0yC2kt5m/ci4lzO8kShiPmjkgVmwCTHjkKpr6nhnD/WMyg3t
+G8vu2/Fo+ez6t7HATXWVl/n+Fz5Qooor9yPyUKKKKACiiigAooooAKKKKACiiigDuPhL8MV+KHia
+GxuvEug+EtJSVBe6trupW9ssEbBiWSOSRXmbCEBU4yV3FA26v1u/Zs8afDTxB8OrPQvhhrMOq6N4
+cijsJF8hredW2582WNo4yWkO9jIEAd/MxyGx+LNewfsj+ONV8B/tFeBrjS5dn9o6nBpF1EzOI5re
+5kWJ1YKw3Y3B1ByA8aMQduK+Tz7K5ZjQlL2jXIrpdL9b9W3strdj6PJ8wjgq0Y8l+Z2b6/L9e53H
+i/8A4KF/GPXPE2o32ja7D4a0maXNrpMFha3C20YACqZJYi7tgZLHAJJwFGFHg/xA8bX/AMSPG2te
+KNThs7fUNWunup4rC3WCFWY5IVB+rElmOWZmYlj6R+1l8Brr4C/FvU9OhsZofC2oSvd6Hcsp8t4D
+hjCrF2JaEt5Z3HcQFcgB1z4vXrZfQwSpQr4OCSkt0le3n5979TzsZVxbqSo4qbbT2b0v5f8AA6BR
+RRXrHmhRRRQAUV3HwX+Eus/G34i6T4U0aGZmupVa7u4ohItlbBgJbhwWUbUB6FhuJVQdzAH0D9rX
+9ma6/Z58ePDpsGpXvgu6ihex1a6QyASMrBoJZVjSPzd0UrBF58soeuccMsbQjiFhXL32r2/r8PRn
+XHC1pUHiFH3U7XPB6KKK7jkCiiigD6I/YB0+6vf2qvCM1vbTTw2cV9PcyRRllhjNnNGHcgfKu+RF
+yeMuo6kV+u1fP/7In7L2lfs/+Cbe9u7XzvHWq2sbareTBGe2yAxtIipZQiNgMVJ8xl3E4CKn0BX4
+VxDmFPMMa50fhiuVPvZt3/E/XclwdTBYTkqbt39LpafgFFFFfMnvBRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAfEH7RX/BOPSvEX9r+JPhpcf2Rq0nmXP8AwjUoQWU7nafLt3+X7PnEhCtuTcyqPKQcfnBX7/V+
+fH7Zn7C+s33ibUfHvw3sptXXUpZr3V9DWQNPFMQ0kk8G45kVznMQy4dgEDK22P8ATOHeIJc31XHT
+0+y3+Tf5N+l9j4PO8lVvrGEhr1S/NL87f5nwRRVjUNPutI1C5sb62msr61laCe2uIzHJFIpKsjqR
+lWBBBB5BFe8fs+/sieJPitqyap4ot7zwX8PbO1XUr/xBqUJtkltSpcfZ2lAVtygt5nKIvzNn5Vf9
+ExGKo4Wm6tWVl/W3c+Io4eriJqnTjd/1v2MeS80DQ/2R4bSax02LxprfiuSeCe406N72TSI7dFZ4
+5mQtHF9pTYCrLuZJlGQsoHi9WNQuo73ULm4htIbCGaVpEtLcuY4VJJCIXZnKqOBuZjgcknmq9VRp
+eyUnf4m39/T5Cq1PaNabJIKKKK6TAKKKKACiiigAooooAKKKKAPqf9jb9sm6+B2oQ+FfFU0174Au
+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
+HJtDpu2MdpODg8V+51Z+veHtK8VaTPpet6ZZ6xplxt86yv7dJ4ZNrBl3I4KnDKCMjggHtX1mXcUY
+vCStiP3kX3eq9H/n96PnMbw/hsQr0fcku2z9UfgjX1v+xn+xnrPxK8Tad4w8YadNpXgvT5YbyC3v
+rYbtZbCyIqpIuGtiCpZyCHB2Lklmj/Q/T/gX8NtI1C2vrH4e+FbK+tZVngubfRbaOSKRSGV0YJlW
+BAII5BFdxXo5hxdOvRdLCw5W+revy/zOLB8Nxo1FUxE+ZLov1Ciiivzs+2CiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigArH8ZeF7Xxx4Q1zw5fSTRWOsWM+nzyW7BZFjljaNihIIDAMcZBGexrYoq
+oycWpR3QpJSTT2Z+CPiHQb/wrr+p6JqkH2XU9NupbO6g3q/lzRuUddykqcMpGQSDjg1n1+n/AO2B
++w3/AMLk1bUfHXhC++y+LmtV+0aXcnMOpvGqJHtkZgIH8tdvIKMVTPl/O5+CNQ/Zt+LGl6hc2c3w
+28VPNbytC7W+kTzxllJBKSIpR1yOGUkEcgkV+9ZdnWFx9FT50pdU3az+e67P9T8ex2V4jB1XDlbj
+0a1uv8/I83or6g+C/wDwT6+I/wATvLvdfi/4QHRGz++1aBmvX/1g+S1yrDDIoPmmP5XDLvHFej+P
+P+CWuv2+oB/BfjLTb6xkllJh16OS2kt48jyl3xLIJWwSGbbGMqCB82FdTPcto1fYzrK/za+9aCp5
+RjqlP2saTt+P3bnwxVi60+6sobSa4tpoIbyIz20ksZVZow7Rl0JHzLvjdcjjKMOoNff/AMH/APgm
+FHZagt98TPEEN/DDLlNI8Ps4jmUFCPNndVcKw8xWREU4KkSA8V6/+2t+zZH8Wvg3aDw1Zw2ms+D4
+pLjS7G1gfbLbCICSzhij4DMI4tgCHmJUG0OSPNqcT4JYmnQpvmTdnLou3rrv2O6GQYt0J1pqzWy6
+vv6aH5M0UUV9gfMhRRRQAUUV9n/sifsHf8LO0m38Z/ENbzT/AA5P5cumaTC/lTagm4MZZWxuSBlB
+VQuHcNvDIoUv5+Ox1DL6LrYh2X4vyR24TB1sbU9lRV3+C9TwD9n39n3xJ+0R42TRNET7Lp9vtk1P
+WJULQ2MJJwSMjc7YISMEFiDyqqzLw/i/whrPgHxNqPh7xDp02lazp8vk3NpOBuRsAggjhlIIYMCQ
+wIIJBBr9xvA/w/8ADnw00CLRPC2i2eh6ZHg+RZxBd7BFTzJG+9I5VFBdyWbAyTXH/HX9nLwb+0Pp
+NlZ+KoLxbiw3/Yb+wuTFNbb2jMm0ENG24RKp3o2BnGDzXwVLjBPFv2kLUnt3Xn536rp08/sKnDLW
+HXJP94vufl5ev3+X4o0V7R+1h8AbX9nP4nQ+HLHWJtZsbyxXU4JLiARyQxvPNGsTkEh2AiGXAUEn
+7q14vX6Lh69PFUo1qTvGWqPia1GeHqSpVFZoKKKK6DAKKKKALEmoXUmnw2L3Mz2MMsk8Vs0hMccj
+hFd1XOAzCOMEjkhFz0FV6KKW2wwooopiCiiigAooooAKKKKACirGn6fdavqFtY2NtNe311KsEFtb
+xmSSWRiFVEUDLMSQABySa+9/2Jf2Jdd0DxZYfEP4h2H9lf2ftn0jQ7lI5JZJWjys86nPleXuyqHE
+gkXJ2bAH8vMMxoZbRdWs9ei6t9l/Wh6GCwNbHVVTprTq+iPd/gh+xJ8OvhZp/hXVL7QYdV8c6XFH
+PPq013NNH9sxlnjjJWPajE+WTGGAVG++N1dx+0F+z74c/aI8Evomtp9l1C33SaZrESBprGYgZIGR
+uRsAPGSAwA5VlVl9Qor8InmGKnXWJlUbmtnfb08vLY/Xo4LDwougoLle6tv6+fnuflh44/4JsfFb
+w35suhSaP4ut/tRihis7v7NcmH5issiThI14C5VZHILADcAWr0j4S/8ABMLUbXxNDefEbxBptzo1
+tKkh0vQmmdr1cNuR5nWMxLkJnaGLAsAUOGr9B6K92pxRmVSn7PmS80tf69EeRT4fwMJ8/K35N6f1
+6lfT9PtdI0+2sbG2hsrG1iWCC2t4xHHFGoCqiKBhVAAAA4AFWKKK+TvfVn0m2iCiiikAUUUUAcv4
+o+FvgvxxqEd94j8IaDr99HEIEudU0yC5kWMEsEDOpIUFmOOmWPrVjwn8PfCvgP7V/wAIz4a0fw79
+q2/aP7JsIrXztudu/wAtRuxubGem4+tdBRWvtqjjyOTt2voZ+zhzc/Kr9wooorI0CiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAPD/jd+xz
+8OPjzqw1jW7O80vXm8tZtW0adYZp0RWVUkV1eNuCPmKb8Ii7toxXnGn/APBMn4UWWoW1xNqniq/h
+hlWR7S4voBHMoIJRykCuFYcHaynB4IPNfW9FetSzbH0KapU60lFeZ5tTLcHVm6k6SbZw+n/A34ea
+X4QtvC0PgnQX8PW8q3CafcafFPGZljEYmcOp3y7BtMjZcjqTXD+OP2K/g34882S48FWekXbWpto7
+nQ2aw8nO7EgiiIiZwWzudGzgA5AAr3CiuanjcVSlzwqyT9WdE8Lh6keWdNNeiPnf4c/sFfB/4dzJ
+cvoU3iu+jleSO48RzC5VVZNmwwqqQuo5I3xsQWznhcfRFFFRiMVXxcuevNyfmyqOHo4ePLRgoryC
+iiiuU6D4g/4KU/AnVfF2k6N8Q9A0v7c+iWsttrTRSO0y2gYPFII/ulI2acuy/MBICcqpKfnBX7/V
+8cfGj/gmz4R8ZTatrHgnU5vCes3UrXEemyosmlhth/doiqHhVpNpyC4QFgseNqr+j5BxFSwtFYTF
+6JbPf5P9PI+HznJKmIqvE4bVvdfqj8yKK+iNQ/YB+ONlqFzbw+EYb+GGVo0u7fVrMRzKCQHQPKrh
+WHI3KpweQDxXX+EP+CZ/xR1yHTrnWb/QfDUM0uLq2nuXuLu2jDlWYLEhidto3BRKAcgEqc4+8nnG
+XU48zrx+TT/BanyEcsxs5cqoy+635nyRVjT9PutX1C2sbG2mvb66lWCC2t4zJJLIxCqiKBlmJIAA
+5JNfq94Q/wCCenwc0Pwzp1jrOhTeJdWhixdatPf3Vu1zISSzCOKUIi5OAoyQAMljlj7B8Ofgh4C+
+EcKJ4R8K6bosyxPAbyKHfdvGz72R7h8yuu4A4ZiBtUDhQB8xX4wwkE1Qpyk/OyX5t/ge9R4ZxMmn
+VmkvK7f6L8T8WfG3w/8AEnw31aHTPFGi3mhahNaxXkdvexFHaGRdyNg/ipHVWVlYBlYDn6/d7xx8
+P/DnxL0CXRPFOi2euaZJk+ReRBtjFGTzI2+9G4V2AdCGXJwRXj//AAwV8Cf+hG/8q9//APH6yw/G
+WHcP9pptS/u2a/Fr9TStwxWU/wBxUTj53T/BM/Kn4c/DHxR8XPEyeH/COjza1qzRPOYYmVFSNR8z
+u7kIi5IGWIBLKo5YA9xo/wCyH8ZNc1+90a3+HusR3dnv8yS8jW2tm2OEPl3ErLFJyeNjtuGWGQCa
+/W74a/CHwb8H9JfTvB3h6z0O3kx5zwqWmnwzMvmzOTJJtLvt3sdoOBgcV2FefiOMqvtH9XpLl6c1
+7/Oz/D8Tto8L0+Re3qPm622+V1+P4H5I/EL9gf4reA/Ceka3BpP/AAkb3FqJdR0/R/39zp0xkCrF
+sUlp/lZCWiDAESZ+VQ7/ADfX7/UVlh+Mq9OLWIpKT7p8v6MuvwxRnJOjUcV5q/6o/Fn4c/sq/FT4
+teGU8Q+FvCU2o6NJK8Md3Ld29ssrKcMUEsiF1Byu5QRlWGcqQPSPCf8AwTl+MniL7V/aFlo/hfyd
+uz+1tSV/PznOz7MJsbcDO7b94Yzzj9XqKwrcYY6bfs4Rium7a/G34G9PhnCRS55Sb+SX5X/E/FHX
+v2X/AIueG9Wn067+HHiSa4h27nsNOkvITlQw2zQh424IztY4OQcEEV6R8AP2FfHvxS8TWz+KdG1L
+wX4ThlIvbvUIfs93IFCkxQQyDfuYMAJGXyxhjlmXY36zUU6vGGMqUnCEIxk+uv4L/hxU+GcNCopS
+k2u2n4mP4Q8IaN4B8M6d4e8PadDpWjafF5NtaQA7UXJJJJ5ZiSWLEksSSSSSa2KKK+FlJyblJ3bP
+roxUUoxVkgoooqRhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRXn/wAfdH8Za98HfFGn/D+9/s/xdPahbGcSiJ/vqZESQjCO0YdVbjazKdyY3DWl
+BVKkYNpXaV3svN+RnUk6cHNK9lst2egUV+cH/BP34S/Fzwf8Yp9Qu9H1jwp4RW1ZdZg1m1ktUvso
+4t0jjkTLushDblxsUOCw8za/6P16OZ4GGX4j2EKimrJ3X5PV6/PaxxYDFyxtH2sqbhrs/wCkFFFF
+eSeiFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAfN/7f3/CZf8ADOupf8If9s8r7Un9ufYceZ/Znlyedn+LZu8r
+fs52b93yb68A/wCCXP8AwmX9v+LNv2z/AIV79lPmb8fZv7T3xbNmed/k79+zjHl7/wDlnX6H0V9B
+Rzb2OXTwHsk+Z3v93Tq+zvoeNVy72mNhjPaNcq2/rp3QUUUV8+eyFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAY914y0Cy8TWnhy41zTYPEN5EZ7bSZbuNbuaMBiXSIney4jfkDHyN6Gtivzw+K/7D3xW8XftQ
+Xuv6brP/ABJNU1P+1I/Fhu9s2lLuLJEIzJ5peEIqR7PlIEXzRjcI/wBD69bHYXD4aFKVCspuSu0u
+j/rpvp5nm4TEV68qirUuRRdl5/192oUUUV5J6QUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAeX/tOeNvEnw5+A/i/xH4Sh87XrC1V4G+zmfyVMqLL
+Ns6Hy42eTLAqNmWBUEH4g/YJ+PHxN8Q/Hi08Oajr+seKtB1K1nfUF1aea9+xrFE7RzI7MTDmQpGT
+na3mgEFthX9L65/wn8PfCvgP7V/wjPhrR/Dv2rb9o/smwitfO2527/LUbsbmxnpuPrXv4PMaGHwN
+bCzoqUp7S7afpuvM8bFYGtXxdLEQquMY7rv/AMPs/I6CiivL/wBpzxt4k+HPwH8X+I/CUPna9YWq
+vA32cz+SplRZZtnQ+XGzyZYFRsywKgg+NRpSr1Y0o7yaX36HqVaio05VJbJN/ceoUV8Ef8E4fjR8
+Q/HXi/xR4e8Q6tqXiXw9BY/b/t+qPLcyWtyZI0SITsThZE8xvLYnmElcfPu+967cxwM8txDw82m1
+bbzOXA4yOOoKvBWT7hRRRXmHeFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAY/hfwboHgfT5LHw5oem6BYySmd7
+bS7SO2jaQgKXKoACxCqM9cKPStiiiqlJyfNJ3YoxUVZKyCiiipGFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQB//2Q==</Data>
+		</Thumbnail>
+	</Binary>
+	<mdLang>
+		<languageCode value="eng"/>
+		<countryCode value="USA" Sync="TRUE"></countryCode></mdLang>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdDateSt Sync="TRUE">20220402</mdDateSt>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<distInfo>
+		<distFormat>
+			<formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+			<formatVer>NMFS ESA critical habitat national standard 2020</formatVer>
+		</distFormat>
+	</distInfo>
+	<dataIdInfo>
+		<idCitation>
+			<resTitle>SeaLionSteller_WesternDPS_19940615</resTitle>
+			<date>
+				<pubDate>2016-10-14</pubDate>
+			</date>
+			<citRespParty>
+				<rpIndName>Barb Seekins</rpIndName>
+				<rpOrgName>National Marine Fisheries Service, Northewest Region</rpOrgName>
+				<rpPosName>GIS Analyst</rpPosName>
+				<rpCntInfo>
+					<cntAddress>
+						<eMailAdd>retired</eMailAdd>
+					</cntAddress>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<citRespParty>
+				<rpIndName>Steve Lewis</rpIndName>
+				<rpOrgName>National Marine Fisheries Service, Alaska Region</rpOrgName>
+				<rpPosName>GIS Coordinator</rpPosName>
+				<rpCntInfo>
+					<cntAddress>
+						<eMailAdd>steve.lewis@noaa.gov</eMailAdd>
+					</cntAddress>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<citRespParty>
+				<rpIndName>Charleen Gavette</rpIndName>
+				<rpOrgName>National Marine Fisheries Service, West Coast Region</rpOrgName>
+				<rpPosName>GIS Coordinator</rpPosName>
+				<rpCntInfo>
+					<cntAddress>
+						<eMailAdd>retired</eMailAdd>
+					</cntAddress>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<presForm>
+				<PresFormCd value="005"/>
+			</presForm>
+			<otherCitDet>Alaska data published 03/19/1997
+Oregon data published 04/14/2009
+California data published 10/14/2016</otherCitDet>
+		</idCitation>
+		<idAbs>Critical habitat for the Western DPS of Steller sea lions includes:(a) Alaska rookeries, haulouts, and associated areas. In Alaska, all major Steller sea lion rookeries identified in Table 1 and major haulouts identified in Table 2 and associated terrestrial, air, and aquatic zones. Critical habitat includes a terrestrial zone that extends 3,000 feet (0.9 km) landward from the baseline or base point of each major rookery and major haulout in Alaska. Critical habitat includes an air zone that extends 3,000 feet (0.9 km) above the terrestrial zone of each major rookery and major haulout in Alaska, measured vertically from sea level. Critical habitat includes an aquatic zone that extends 3,000 feet (0.9 km) seaward in State and Federally managed waters from the baseline or basepoint of each major rookery and major haulout in Alaska that is east of 144° W. longitude. Critical habitat includes an aquatic zone that extends 20 nm (37 km) seaward in State and Federally managed waters from the baseline or basepoint of each major rookery and major haulout in Alaska that is west of 144° W. longitude.(b) California and Oregon rookeries and associated areas. In California and Oregon, all major Steller sea lion rookeries identified in Table 1 and associated air and aquatic zones. Critical habitat includes an air zone that extends 3,000 feet (0.9 km) above areas historically occupied by sea lions at each major rookery in California and Oregon, measured vertically from sea level. Critical habitat includes an aquatic zone that extends 3,000 feet (0.9 km) seaward in State and Federally managed waters from the baseline or basepoint of each major rookery in California and Oregon.(c) Three special aquatic foraging areas in Alaska. Three special aquatic foraging areas in Alaska, including the Shelikof Strait area, the Bogoslof area, and the Seguam Pass area.ESA timeline:Steller sea lions were originally listed (55 FR 49204, November 26, 1990) under the ESA throughout their range and critcal habitat was designated in 1993 (58 FR 45269, August 27, 1993). The critical habitat designation was amended (59 FR 30715, June 15, 1994) to correct data errors in Table 2 (Major Steller Sea Lion Haulout sites in Alaska) to Part 226 in the CFR.Steller sea lions were reclassified and listed as 2 DPSs: the Western DPS and Eastern DPS (62 FR 24345, May 5, 1997).The Eastern DPS of Steller sea lions was delisted (78 FR 66140, November 4, 2013). In the delisting final rule, NMFS clarified that the 1993 critical habitat designation remains in effect for the Western DPS of Steller sea lions.</idAbs>
+		<idPurp>These data represent the critical habitat for the Stellar sea lion (Western DPS) designated under the Endangered Species Act on August 27, 1993 (58 FR 45269) and amended on June 15, 1994 (59 FR 30715).</idPurp>
+		<idCredit>National Marine Fisheries Service, Alaska Region and West Coast Region</idCredit>
+		<idPoC>
+			<rpIndName>Shanna Dunn</rpIndName>
+			<rpOrgName>National Marine Fisheries Service, West Coast Region, Protected Resources Division</rpOrgName>
+			<rpPosName>GIS Analyst</rpPosName>
+			<rpCntInfo>
+				<cntAddress>
+					<eMailAdd>shanna.dunn@noaa.gov</eMailAdd>
+				</cntAddress>
+			</rpCntInfo>
+			<role>
+				<RoleCd value="007"/>
+			</role>
+		</idPoC>
+		<idPoC>
+			<rpIndName>Tammy Olson</rpIndName>
+			<rpOrgName>National Marine Fisheries Service, Alaska Region, Protected Resources Division</rpOrgName>
+			<rpPosName>Biologist</rpPosName>
+			<rpCntInfo>
+				<cntAddress>
+					<eMailAdd>tammy.olson@noaa.gov</eMailAdd>
+				</cntAddress>
+			</rpCntInfo>
+			<role>
+				<RoleCd value="007"/>
+			</role>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009"/>
+			</maintFreq>
+		</resMaint>
+		<placeKeys>
+			<keyword>Alaska</keyword>
+			<keyword>Oregon</keyword>
+			<keyword>California</keyword>
+			<keyword>Pacific Ocean</keyword>
+			<keyword>Gulf of Alaska</keyword>
+			<keyword>Bering Sea</keyword>
+			<keyword>Aleutian Islands</keyword>
+		</placeKeys>
+		<themeKeys>
+			<keyword>Steller sea lion</keyword>
+			<keyword>critical habitat</keyword>
+		</themeKeys>
+		<searchKeys>
+			<keyword>Alaska</keyword>
+			<keyword>Oregon</keyword>
+			<keyword>California</keyword>
+			<keyword>Pacific Ocean</keyword>
+			<keyword>Gulf of Alaska</keyword>
+			<keyword>Bering Sea</keyword>
+			<keyword>Aleutian Islands</keyword>
+			<keyword>Steller sea lion</keyword>
+			<keyword>critical habitat</keyword>
+		</searchKeys>
+		<resConst>
+			<Consts>
+				<useLimit>These data are not the official legal definition of critical habitat. The Code of Federal Regulations (50 CFR 226.202) is the source for the legal definition of the critical habitat designation.</useLimit>
+			</Consts>
+		</resConst>
+		<spatRpType>
+			<SpatRepTypCd value="001"/>
+		</spatRpType>
+		<dataLang>
+			<languageCode value="eng"/>
+			<countryCode value="USA" Sync="TRUE"></countryCode></dataLang>
+		<dataChar>
+			<CharSetCd value="004"/>
+		</dataChar>
+		<tpCat>
+			<TopicCatCd value="002"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="003"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="007"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="014"/>
+		</tpCat>
+		<envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 19042) ; Esri ArcGIS 12.9.0.32739</envirDesc>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<exTypeCode>true</exTypeCode>
+					<westBL>-180</westBL>
+					<eastBL>180</eastBL>
+					<southBL>37.098716</southBL>
+					<northBL>63.631787</northBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<exTypeCode>true</exTypeCode>
+					<westBL>-180</westBL>
+					<eastBL>180</eastBL>
+					<southBL>37.098716</southBL>
+					<northBL>63.631787</northBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<exTypeCode>true</exTypeCode>
+					<westBL>-180</westBL>
+					<eastBL>180</eastBL>
+					<southBL>37.098716</southBL>
+					<northBL>63.631787</northBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-180.000000</westBL><eastBL Sync="TRUE">180.000000</eastBL><northBL Sync="TRUE">63.631787</northBL><southBL Sync="TRUE">37.098716</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo>
+	<mdMaint>
+		<maintFreq>
+			<MaintFreqCd value="009"/>
+		</maintFreq>
+	</mdMaint>
+	<dqInfo>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005"/>
+			</scpLvl>
+		</dqScope>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>Data creation process - 2007 Alaska sites west of 144 degrees W only.
+SSL_226_Critical_Habitat_AK.shp (NAD_1983_Alaska_Albers)
+
+The 131 sites from PART 226 - Designated [SSL] Critical Habitat as included are 20nm buffers from either points or lines. Points are small rookeries or haulouts.  Lines are larger rookery/haulouts that follow the shoreline at mean lower low water.  See 226/223 for additional information.  
+
+Since these points were identified before the advents of GPS units and unclear datums, some sites sit off in open water - as far as a 1/4 mile from the projected coastline.   
+
+The intent of making the points and lines shapefile was to follow 226 as close as possible.  When 226 could not be followed due to a line that was supposed follow the shore at mean lower low water (when the points defining the start and end point of line was in open water), the intent of the regulation was followed as closely as possible.  This was done in coordiation with the AKRO PRD SSL Coordinator.
+
+SSL CH Foraging Areas overlap 20nm CH.</stepDesc>
+				<stepRat>Original mapping effort for Alaska sites west of 144 deg W.</stepRat>
+				<stepDateTm>2007-07-31T00:00:00</stepDateTm>
+				<stepProc>
+					<rpIndName>Steve Lewis</rpIndName>
+					<rpOrgName>National Marine Fisheries Service, Alaska Region</rpOrgName>
+					<rpPosName>GIS Coordinator</rpPosName>
+					<rpCntInfo>
+						<cntAddress>
+							<eMailAdd>steve.lewis@noaa.gov</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="006"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>Data creation process 2009 - Oregon sites only.
+StellerSLionCritHabAll4OR.shp (NAD_1983_Albers)
+
+In the Code of Federal Regulations (50 CFR Part 226), the Appendix Table 1 to Part 226 - Major Steller Sea Lion Rookery Sites provides latitude / longitude basepoints along with the region and site names for the Steller sea lion rookeries used for critical habitat designations. However, the coordinates listed did not match up accurately with the data delineations from a number of sources for those rookery sites or the rocks or islands on which they are sited. Therefore, rather than using those basepoints to develop this data set, more accurate data was used to represent Pyramid Rock near Rogue Reef, and Long Brown Rock and Seal Rock, both in the vicinity of Orford Reef. The Pinniped Haulout data from Oregon Department of Fish and Wildlife (2007) was used to locate the rookeries themselves. The Oregon Islands National Wildlife Refuge Boundary data from U.S. Fish and Wildlife Service (2004) was used to delineate the shoreline of these islands and rocks. These 2 data sets were in agreement in that the rookeries were located within the shorelines of the islands / rocks.  A 3,000 foot buffer was generated around the shorelines of these 3 islands or rocks to represent the critical habitat.
+</stepDesc>
+				<stepRat>Original mapping effort for sites along the Oregon coast.</stepRat>
+				<stepDateTm>2009-04-14T00:00:00</stepDateTm>
+				<stepProc>
+					<rpIndName>Barb Seekins</rpIndName>
+					<rpOrgName>National Marine Fisheries Service, Northwest Region</rpOrgName>
+					<rpPosName>Geographer</rpPosName>
+					<rpCntInfo>
+						<cntAddress>
+							<eMailAdd>retired</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>Data creation process 2016 - California sites only.
+StellerSLionCritHab_OR_CA.shp (GCS_North_American_1983)
+
+California sites appended to the Oregon data and shapefile renamed.</stepDesc>
+				<stepRat>Original mapping effort for sites along the California coast.</stepRat>
+				<stepDateTm>2016-10-14T00:00:00</stepDateTm>
+				<stepProc>
+					<rpIndName>Charleen Gavette</rpIndName>
+					<rpOrgName>National Marine Fisheries Service, West Coast Region</rpOrgName>
+					<rpPosName>GIS Coordinator</rpPosName>
+					<rpCntInfo>
+						<cntAddress>
+							<eMailAdd>retired</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>OR and CA source data converted to NMFS ESA critical habitat national standard 2020.
+
+StellerSLionCritHab_OR_CA.shp (GCS_North_American_1983) geographic transformation -&gt; SeaLionSteller_WesternDPS_19930827 (GCS_WGS_1984).
+Geometry was not edited, attributes were edited. Copied metadata from source file and filled in additional metadata from final rule.
+Combined old fields Region, Site_Name, AreaType into new field Unit. Edited Units for clarity, to match final rule, and to provide more accurate feature labels. </stepDesc>
+				<stepRat>National critical habitat data standardization project (all NMFS regions).</stepRat>
+				<stepDateTm>2020-05-14T00:00:00</stepDateTm>
+				<stepProc>
+					<rpIndName>Shanna Dunn</rpIndName>
+					<rpOrgName>National Marine Fisheries Service, West Coast Region, Protected Resources Division</rpOrgName>
+					<rpPosName>GIS Analyst</rpPosName>
+					<rpCntInfo>
+						<cntAddress>
+							<eMailAdd>shanna.dunn@noaa.gov</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>Data creation process - Alaska sites east of 144 degrees W only.
+Southeast Alaska features were copied from Alaska Region's REST service https://alaskafisheries.noaa.gov/arcgis/rest/services/ESA_data/MapServer/6.
+Original source shapefile unknown.</stepDesc>
+				<stepRat>Populate Alaska sites east of 144 deg W.</stepRat>
+				<stepDateTm>2020-10-23T00:00:00</stepDateTm>
+				<stepProc>
+					<rpIndName>Jonathan Molineaux</rpIndName>
+					<rpOrgName>National Marine Fisheries Service, Office of Protected Resources</rpOrgName>
+					<rpPosName>Biologist</rpPosName>
+					<rpCntInfo>
+						<cntAddress>
+							<eMailAdd>jonathan.molineaux@noaa.gov</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>All AK source data converted to NMFS ESA critical habitat national standard 2020.</stepDesc>
+				<stepRat>National critical habitat data standardization project (all NMFS regions).</stepRat>
+				<stepDateTm>2021-05-25T00:00:00</stepDateTm>
+				<stepProc>
+					<rpIndName>Jonathan Molineaux</rpIndName>
+					<rpOrgName>National Marine Fisheries Service, Office of Protected Resources</rpOrgName>
+					<rpPosName>Biologist</rpPosName>
+					<rpCntInfo>
+						<cntAddress>
+							<eMailAdd>jonathan.molineaux@noaa.gov</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>AK data merged with OR/CA feature class (SeaLionSteller_WesternDPS_19930827) and renamed to SeaLionSteller_WesternDPS_19940615 because a technical amendment was found. Merge was necessary to follow main gdb business rule "each listed entity has a single ch feature class."
+
+Edited Unit values by filling in "Island" for "I." 
+Edited the attributes (FRN, Publication Date, Effective Date) for 10 features that had data amended in 1994. 
+
+CFR notes: the 1999 amendment (64 FR 14067, Mar. 23, 1999) only changed the CFR section number for the Steller ch designation, the 1994 technical amendment (59 FR 30716, June 15, 1994) changed haulout data in Table 2 (pg 30715 says "The technical amendment revises regulations by changing the name of one designated haulout site from Ledge Point to Gran Point and by correcting the longitude and latitude of 12 haulout sites, including Gran Point. The purpose of this action is to correct errors in the published regulations.")
+
+Note for future data development: In AK, there is a "3,000 ft landward zone" that's missing from the spatial data for Forrester Island and all the islands within the 20 nautical mile buffer. Flag: review Hazy Islands geometry. </stepDesc>
+				<stepRat>National critical habitat data standardization project (all NMFS regions).</stepRat>
+				<stepDateTm>2021-06-16T00:00:00</stepDateTm>
+				<stepProc>
+					<rpIndName>Shanna Dunn</rpIndName>
+					<rpOrgName>National Marine Fisheries Service, West Coast Region, Protected Resources Division</rpOrgName>
+					<rpPosName>GIS Analyst</rpPosName>
+					<rpCntInfo>
+						<cntAddress>
+							<eMailAdd>shanna.dunn@noaa.gov</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+		</dataLineage>
+	</dqInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="SeaLionSteller_WesternDPS_19940615"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">32</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="4326"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<identVrsn>6.2(3.0.1)</identVrsn>
+				<idVersion Sync="TRUE">6.2(3.0.1)</idVersion></refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spdoinfo><ptvctinf><esriterm Name="SeaLionSteller_WesternDPS_19940615"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">32</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo></metadata>

@@ -1,9 +1,16 @@
-navmaps 1.2.1 (March 11, 2025)
+navmaps 1.2.1 (March 12, 2025)
 ----------------------------------------------------------------
 
 IMPROVEMENTS
 
 - Add more outputs to planning functions introduced in 1.2.0.
+
+
+NEW LAYERS
+
+- Add 2025 SSL rookery points and polygons to /assets/. 
+  Generated using /analysis/ssl_rookeries/make_ssl_ntz_polygon.R.
+- Removed historical NTZ and rookery files.
 
 
 navmaps 1.2.0 (March 10, 2025)

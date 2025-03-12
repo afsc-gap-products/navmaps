@@ -1,16 +1,79 @@
 library(navmaps)
 library(cowplot)
+library(ggplot2)
 
 goa_ai_layers <- akgfmaps::get_base_layers(select.region = c("ai", "goa"), set.crs = "EPSG:3338")
 
-all_rookeries_for_wayne <- sf::st_read(here::here("assets", "data", "SSLrookeries", "All_rookeries_for_Wayne.shp")) |>
+all_rookeries_for_wayne <- 
+  here::here("assets", "data", "SSLrookeries", "All_rookeries_for_Wayne.shp") |> 
+  sf::st_read() |>
   sf::st_transform(crs = "EPSG:3338") |>
   sf::st_buffer(dist = 5500)
 
-
-no_transit_3nm <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_No_Transit.shp")) |>
+# navmaps file
+no_transit_3nm <- 
+  here::here("assets", "data", "SSLrookeries", "3nm_No_Transit.shp") |> 
+  sf::st_read() |>
   sf::st_transform(crs = "EPSG:3338")
 
+# File from Kelly Cates (2022)
+no_transit_3nm_kelly_cates <- 
+  here::here("analysis", "ssl_rookeries", "3nm_noTransit_cates", "3nm_No_Transit.shp") |>
+  sf::st_read() |>
+  sf::st_transform(crs = "EPSG:3338")
+
+# File from MACE (used Nov. 2024)
+no_transit_3nm_mace <- 
+  here::here("analysis", "ssl_rookeries", "3nm_no_transit_mace", "3nm_No_Transit.shp") |>
+  sf::st_read() |>
+  sf::st_transform(crs = "EPSG:3338")
+
+identical(no_transit_3nm, no_transit_3nm_kelly_cates)
+identical(no_transit_3nm, no_transit_3nm_mace)
+
+# MACE critical habitat from 2024
+ch_mace <- 
+  here::here("analysis", "ssl_rookeries", "mace_critical_habitat_nov2024", "StellarSeaLionCriticalHabitat.shp") |>
+  sf::st_read() |>
+  sf::st_transform(crs = "EPSG:3338") |>
+  sf::st_cast("POLYGON")
+
+# navmaps critical habitat
+ch_navmaps <- here::here("assets", "data", "SSLcriticalhabitat", "Crit_Hab_Coded_WDPS.shp") |> 
+  sf::st_read() |>
+  sf::st_transform(crs = "EPSG:3338")
+
+# Sweeney rookeries 2025
+sweeney_rookeries_2025 <- 
+  here::here("analysis", "ssl_rookeries", "AK_SSL_sites_abbrev.xlsx") |>
+  readxl::read_xlsx() |>
+  dplyr::filter(ROOK == 1) |>
+  sf::st_as_sf(crs = "WGS84",
+               coords = c("LON", "LAT"))
+
+sweeney_rookeries_2025 <- 
+  here::here("analysis", "ssl_rookeries", "AK_SSL_sites_abbrev.xlsx") |>
+  readxl::read_xlsx() |>
+  dplyr::filter(ROOK == 1) |>
+  sf::st_as_sf(crs = "WGS84",
+               coords = c("LON", "LAT"))
+
+dir.create(here::here("analysis", "ssl_rookeries", "AK_SSL_sites_abbrev"))
+
+sf::st_write(obj = sweeney_rookeries_2025,
+             dsn = here::here("analysis", "ssl_rookeries", "AK_SSL_sites_abbrev", "AK_SSL_sites_abbrev.shp"))
+
+
+ggplot() +
+  geom_sf(data = goa_ai_layers$akland, fill = "yellow", color = NA) +
+  geom_sf(data = ch_navmaps, fill = "blue", alpha = 0.5) +
+  geom_sf(data = ch_mace, fill = "red", alpha = 0.5) +
+  scale_x_continuous(limits = goa_ai_layers$plot.boundary$x, 
+                     breaks = goa_ai_layers$lon.breaks) +
+  scale_y_continuous(limits = goa_ai_layers$plot.boundary$y, 
+                     breaks = goa_ai_layers$lon.breaks)
+
+# MACE critical habitat layer from 2024
 habitat_restrictions <- sf::st_read(here::here("analysis", "ssl_rookeries", "Habitat_Restrictions.shp")) |>
   sf::st_transform(crs = "EPSG:3338") |>
   dplyr::filter(HTM == "3nm_No_Transit.htm") |>
