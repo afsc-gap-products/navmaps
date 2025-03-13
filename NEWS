@@ -1,9 +1,11 @@
-navmaps 1.2.1 (March 12, 2025)
+navmaps 1.2.1 (March 13, 2025)
 ----------------------------------------------------------------
 
 IMPROVEMENTS
 
 - Add more outputs to planning functions introduced in 1.2.0.
+- Added documentation for TimeZero functions and improved date
+  time handling.
 
 
 NEW LAYERS

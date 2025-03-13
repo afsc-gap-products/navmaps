@@ -41,5 +41,12 @@ file format.
 # Path to a valid TimeZero database file
 path <- "path/to/timezero_database.tzdb"
 data <- get_tzdata(path)
+convert_tz_to_gps <- function(path_tzdb = path,
+                              output_file = NULL,
+                              vessel = 176,
+                              cruise = 202201,
+                              haul = 22,
+                              start = 11/10/2022 11:46:56,
+                              end = 11/10/2022 11:59:12)
 }
 }
