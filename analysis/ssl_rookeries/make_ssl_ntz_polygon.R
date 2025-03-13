@@ -1,11 +1,10 @@
-# Create Steller sea lion 3 nautical mile no-transit polygon for surveys
+# Create three nautical mile buffer zones around Steller sea lion rookeries for bottom trawl operations
 # Sean Rohan
 # Last update: March 12, 2025
 #
-# AFSC trawl surveys aim to use the most up to date rookery locations from MML to designate
-# no-transit zones for survey operations. This script uses the rookery location information
-# available on the 'Last update' date to identify  rookery locations (points) and add a 3 nautical 
-# mile buffer to produce no-transit zone polygons for the survey.
+# GAP establishes three nautical mile buffer zones around all Steller sea lion rookery locations 
+# and treats the areas as no-transit zones. As of this update, buffer zones are only required for the
+# western DPS, which is defined as the population west of 140 degrees west.
 
 library(navmaps)
 library(akgfmaps)
