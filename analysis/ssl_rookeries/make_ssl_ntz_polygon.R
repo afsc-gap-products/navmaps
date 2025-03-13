@@ -1,6 +1,6 @@
 # Create three nautical mile buffer zones around Steller sea lion rookeries for bottom trawl operations
 # Sean Rohan
-# Last update: March 12, 2025
+# Last update: March 13, 2025
 #
 # GAP establishes three nautical mile buffer zones around all Steller sea lion rookery locations 
 # and treats the areas as no-transit zones. As of this update, buffer zones are only required for the
@@ -37,7 +37,8 @@ mml_rookery_points |>
         "ssl_rookeries_", 
         gsub(pattern = "-", replacement = "", x = Sys.Date()), 
         ".shp")
-      )
+      ),
+    append = FALSE
     )
 
 # Create NTZ polygons and write to assets ---
@@ -56,7 +57,8 @@ mml_rookeries_buffered |>
         "ssl_no_transit_3nm_", 
         gsub(pattern = "-", replacement = "", x = Sys.Date()), 
         ".shp")
-    )
+    ),
+    append = FALSE
   )
 
 mml_rookeries_buffered |>
@@ -71,5 +73,6 @@ mml_rookeries_buffered |>
         "ssl_no_transit_parent_3nm_", 
         gsub(pattern = "-", replacement = "", x = Sys.Date()), 
         ".shp")
-    )
+    ),
+    append = FALSE
   )
