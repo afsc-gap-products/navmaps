@@ -14,7 +14,7 @@
 #' \dontrun{
 #' # Provide the path to a valid Timezero database file
 #' path <- "path/to/timezero_database.tzdb"
-#' data <- get_tzdata(path)
+#' data <- get_tz_data(path)
 #' }
 #'
 #' @import RSQLite
@@ -29,9 +29,13 @@ get_tz_data <- function(path_tzdb, start = NULL, end = NULL){
     
     origin <- as.numeric(as.POSIXct("2000-01-01", tz = "UTC"))
     
-    start <- as.POSIXct(start, tz = "America/Anchorage") + 3600*8
+    start <- as.POSIXct(start, 
+                        tz = "America/Anchorage", 
+                        tryFormats = c("%m/%d/%Y %H:%M:%S", "%Y-%m-%d %H:%M:%OS", "%m/%d/%Y %H:%M")) 
     
-    end <- as.POSIXct(end, tz = "America/Anchorage") + 3600*8
+    end <- as.POSIXct(end, 
+                      tz = "America/Anchorage", 
+                      tryFormats = c("%m/%d/%Y %H:%M:%S", "%Y-%m-%d %H:%M:%OS", "%m/%d/%Y %H:%M"))
     
     start <- as.numeric(start) - origin
     
