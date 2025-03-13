@@ -28,7 +28,7 @@ disconnects.
 \dontrun{
 # Provide the path to a valid Timezero database file
 path <- "path/to/timezero_database.tzdb"
-data <- get_tzdata(path)
+data <- get_tz_data(path)
 }
 
 }
