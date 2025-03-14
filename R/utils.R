@@ -305,32 +305,7 @@ radians_to_dd <- function(x) {
 
 
 
-#' Convert dmm format to decimal degrees
-#'
-#' Convert degree decimal minute coordinates to decimal degrees (e.g. 16530.5 to 165.5083)
-#' @param x Numeric degree decimal minute coordinats
-#' @export
 
-dmm_to_dd <- function(x) {
-  abs_x <- abs(x)
-  sign(x) * (abs(abs_x) %/% 100 + (abs_x %% 100)/60)
-}
-
-
-
-#' Convert decimal degree to dmm
-#'
-#' Convert degree decimal coordinates to degree decimal minutes (e.g. 165.5083 to 16530.5)
-#' @param x numeric decimal degree coordinates
-#' @export
-
-dd_to_dmm <- function(x){
-  
-  output <- (floor(abs(x)) * 100 + (x %% 1) * 60) * sign(x)
-  
-  return(output)
-  
-}
 
 
 

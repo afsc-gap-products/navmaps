@@ -39,14 +39,14 @@ file format.
 \examples{
 \dontrun{
 # Path to a valid TimeZero database file
-path <- "path/to/timezero_database.tzdb"
-data <- get_tzdata(path)
-convert_tz_to_gps <- function(path_tzdb = path,
-                              output_file = NULL,
-                              vessel = 176,
-                              cruise = 202201,
-                              haul = 22,
-                              start = 11/10/2022 11:46:56,
-                              end = 11/10/2022 11:59:12)
+path <- system.file("extdata", "OwnShipRecorder.tzdb", package = "navmaps")
+
+convert_tz_to_gps(path_tzdb = path,
+                  output_file = NULL,
+                  vessel = 176,
+                  cruise = 202401,
+                  haul = 22,
+                  start = "01/25/2024 14:30:00",
+                  end = "01/25/2024 14:33:15")
 }
 }
