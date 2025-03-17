@@ -60,7 +60,7 @@ nbs_centroid <- sf::st_centroid(nbs_layers$survey.grid)
 spectacled_eider_sampling <- 
   read.csv(file = here::here("assets", "data", "special_projects", "NBS", "2025", "benthic_sampling_stations.csv")) |>
   dplyr::mutate(Priority = ifelse(Priority == "high", "Hi", "Md")) |>
-  dplyr::mutate(STATION = Station.ID, station_label = paste0("Ben. grab (", Priority, ")")) |>
+  dplyr::mutate(STATION = Station.ID, station_label = paste0("Index + Grab (", Priority, ")")) |>
   dplyr::select(-Station.ID, -Priority)
 
 # Add spetacled eider sampling stations to centroids
@@ -153,10 +153,10 @@ for(ii in 1:length(chart_width_in)) {
     scale_y_continuous(limits = nbs_layers$plot.boundary$y + c(-5e4, 5e4),
                        breaks = nbs_layers$lat.breaks) +
     scale_shape_manual(
-      values = c("Index Station" = 19, "Ben. grab (Hi)" = 17, "Ben. grab (Md)" = 17)
+      values = c("Index Station" = 19, "Index + Grab (Hi)" = 17, "Index + Grab (Md)" = 17)
       ) +
     scale_color_manual(
-      values = c("Index Station" = "black", "Ben. grab (Hi)" = "magenta", "Ben. grab (Md)" = "cyan")
+      values = c("Index Station" = "black", "Index + Grab (Hi)" = "magenta", "Index + Grab (Md)" = "cyan")
       ) +
     theme_bw() +
     theme(axis.title = element_blank(),
@@ -212,10 +212,10 @@ for(ii in 1:length(chart_width_in)) {
     scale_y_continuous(limits = nbs_layers$plot.boundary$y + c(-5e4, 5e4),
                        breaks = nbs_layers$lat.breaks) +
     scale_shape_manual(
-      values = c("Index Station" = 19, "Ben. grab (Hi)" = 17, "Ben. grab (Md)" = 17)
+      values = c("Index Station" = 19, "Index + Grab (Hi)" = 17, "Index + Grab (Md)" = 17)
     ) +
     scale_color_manual(
-      values = c("Index Station" = "black", "Ben. grab (Hi)" = "magenta", "Ben. grab (Md)" = "cyan")
+      values = c("Index Station" = "black", "Index + Grab (Hi)" = "magenta", "Index + Grab (Md)" = "cyan")
     ) +
     scale_fill_manual(values = "red") +
     theme_bw() +
