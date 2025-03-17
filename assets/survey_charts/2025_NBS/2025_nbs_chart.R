@@ -121,6 +121,9 @@ for(ii in 1:length(chart_width_in)) {
     geom_sf(data = nbs_layers$akland,
             fill = "white",
             color = "black") +
+    geom_sf(data = nbs_centroid, 
+            mapping = aes(shape = station_label, color = station_label),
+            size = rel(3*chart_scale[ii])) +
     geom_text(data = alaska_label,
               mapping = aes(x = x, y = y, label = label),
               size = rel(alaska_label$rel_size*chart_scale[ii])) +
@@ -129,9 +132,6 @@ for(ii in 1:length(chart_width_in)) {
                     size = rel(landmark_label$rel_size*chart_scale[ii]),
                     color = "black", 
                     bg.color = "white") +
-    geom_sf(data = nbs_centroid, 
-            mapping = aes(shape = station_label, color = station_label),
-            size = rel(3*chart_scale[ii])) +
     geom_shadowtext(data = title_label,
                     mapping = aes(x = x, y = y, label = label),
                     size = rel(title_label$rel_size*chart_scale[ii]),
@@ -180,17 +180,17 @@ for(ii in 1:length(chart_width_in)) {
             mapping = aes(fill = name),
             alpha = 0.5,
             color = NA) +
-    geom_text(data = alaska_label,
-              mapping = aes(x = x, y = y, label = label),
-              size = rel(alaska_label$rel_size*chart_scale[ii])) +
+    geom_sf(data = nbs_centroid, 
+            mapping = aes(shape = station_label, color = station_label),
+            size = rel(3*chart_scale[ii])) +
     geom_shadowtext(data = landmark_label,
                     mapping = aes(x = x, y = y, label = label),
                     size = rel(landmark_label$rel_size*chart_scale[ii]),
                     color = "black", 
                     bg.color = "white") +
-    geom_sf(data = nbs_centroid, 
-            mapping = aes(shape = station_label, color = station_label),
-            size = rel(3*chart_scale[ii])) +
+    geom_text(data = alaska_label,
+              mapping = aes(x = x, y = y, label = label),
+              size = rel(alaska_label$rel_size*chart_scale[ii])) +
     geom_shadowtext(data = title_label,
                     mapping = aes(x = x, y = y, label = label),
                     size = rel(title_label$rel_size*chart_scale[ii]),
