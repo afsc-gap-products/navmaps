@@ -10,6 +10,7 @@ chart_width_in <- c(42, 17)
 chart_height_in <- c(34, 11)
 chart_scale <- c(3, 1)
 
+# Create location labels
 landmark_label <- data.frame(label = c("St. Lawrence", "Nunivak", "Nome"),
                              x = c(-170.27, -166.4, -165.05),
                              y = c(63.4, 60.08, 64.65),
@@ -32,6 +33,7 @@ alaska_label <- data.frame(x = -162.5,
   transform_data_frame_crs(in.crs = "EPSG:4269",
                            out.crs = map_crs)
 
+# Setup chart title
 title_label <- data.frame(label = "Northern Bering Sea\nContinental Shelf Bottom Trawl Survey of\nGroundfish and Invertebrate Resources",
                           x = -175, 
                           y = 65,
@@ -39,19 +41,33 @@ title_label <- data.frame(label = "Northern Bering Sea\nContinental Shelf Bottom
   transform_data_frame_crs(in.crs = "EPSG:4269",
                            out.crs = map_crs)
 
+# Load regional vector features
 nbs_layers <- akgfmaps::get_base_layers(select.region = "nbs",
                                         set.crs = map_crs,
                                         include.corners = FALSE)
 
+# Load spectacled Eider critical habitata file
 spectacled_eider_ch <- sf::st_read(here::here("assets", "data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp")) |>
-  dplyr::filter(Unit_ID %in% c("3 - Norton Sound", "5 - Wintering Area")) |>
+  dplyr::filter(Unit_ID %in% c("3 - Norton Sound")) |>
   sf::st_transform(crs = map_crs) |>
   dplyr::mutate(name = "Spectacled Eider Crit. Hab.",
                 rel_size = 4)
 
-nbs_centroid <- sf::st_centroid(nbs_layers$survey.grid) |>
-  dplyr::mutate(station_label = "Index Station")
+# Get station centroids for label locations
+nbs_centroid <- sf::st_centroid(nbs_layers$survey.grid)
 
+# Load 2025 spectacled eider habitat benthic grab sample table
+spectacled_eider_sampling <- 
+  read.csv(file = here::here("assets", "data", "special_projects", "NBS", "2025", "benthic_sampling_stations.csv")) |>
+  dplyr::mutate(Priority = ifelse(Priority == "high", "Hi", "Md")) |>
+  dplyr::mutate(STATION = Station.ID, station_label = paste0("Ben. grab (", Priority, ")")) |>
+  dplyr::select(-Station.ID, -Priority)
+
+# Add spetacled eider sampling stations to centroids
+nbs_centroid <- dplyr::full_join(nbs_centroid, spectacled_eider_sampling) |>
+  dplyr::mutate(station_label = ifelse(is.na(station_label), "Index Station", station_label))
+
+# Create station row and column labels
 outside_grid <- sf::st_read(system.file("/extdata/bs_grid.shp", package = "akgfmaps")) |>
   dplyr::rename(STATION = STATIONID)
 
@@ -114,7 +130,7 @@ for(ii in 1:length(chart_width_in)) {
                     color = "black", 
                     bg.color = "white") +
     geom_sf(data = nbs_centroid, 
-            mapping = aes(shape = station_label),
+            mapping = aes(shape = station_label, color = station_label),
             size = rel(3*chart_scale[ii])) +
     geom_shadowtext(data = title_label,
                     mapping = aes(x = x, y = y, label = label),
@@ -129,17 +145,23 @@ for(ii in 1:length(chart_width_in)) {
                     fontface = "bold",
                     size = rel(5*chart_scale[ii])) +
     geom_sf(data = nome_pin,
-            shape = 23,
-            fill = "limegreen",
+            shape = 8,
+            color = "limegreen",
             size = rel(nome_pin$rel_size*chart_scale[ii])) +
     scale_x_continuous(limits = nbs_layers$plot.boundary$x + c(-5e4, 5e4),
                        breaks = nbs_layers$lon.breaks) +
     scale_y_continuous(limits = nbs_layers$plot.boundary$y + c(-5e4, 5e4),
                        breaks = nbs_layers$lat.breaks) +
+    scale_shape_manual(
+      values = c("Index Station" = 19, "Ben. grab (Hi)" = 17, "Ben. grab (Md)" = 17)
+      ) +
+    scale_color_manual(
+      values = c("Index Station" = "black", "Ben. grab (Hi)" = "magenta", "Ben. grab (Md)" = "cyan")
+      ) +
     theme_bw() +
     theme(axis.title = element_blank(),
           legend.title = element_blank(),
-          legend.position = c(0.13, 0.07),
+          legend.position = c(0.13, 0.09),
           axis.text = element_text(size = 18*chart_scale[ii]),
           legend.text = element_text(size = 22*chart_scale[ii]),
           legend.key.spacing.y = unit(0.1*chart_scale[ii], "in"),
@@ -155,9 +177,9 @@ for(ii in 1:length(chart_width_in)) {
             fill = "white",
             color = "black") +
     geom_sf(data = spectacled_eider_ch,
-            mapping = aes(fill = name,
-                          color = name),
-            alpha = 0.5) +
+            mapping = aes(fill = name),
+            alpha = 0.5,
+            color = NA) +
     geom_text(data = alaska_label,
               mapping = aes(x = x, y = y, label = label),
               size = rel(alaska_label$rel_size*chart_scale[ii])) +
@@ -167,7 +189,7 @@ for(ii in 1:length(chart_width_in)) {
                     color = "black", 
                     bg.color = "white") +
     geom_sf(data = nbs_centroid, 
-            mapping = aes(shape = station_label),
+            mapping = aes(shape = station_label, color = station_label),
             size = rel(3*chart_scale[ii])) +
     geom_shadowtext(data = title_label,
                     mapping = aes(x = x, y = y, label = label),
@@ -182,19 +204,24 @@ for(ii in 1:length(chart_width_in)) {
                     fontface = "bold",
                     size = rel(5*chart_scale[ii])) +
     geom_sf(data = nome_pin,
-            shape = 23,
-            fill = "limegreen",
+            shape = 8,
+            color = "limegreen",
             size = rel(nome_pin$rel_size*chart_scale[ii])) +
     scale_x_continuous(limits = nbs_layers$plot.boundary$x + c(-5e4, 5e4),
                        breaks = nbs_layers$lon.breaks) +
     scale_y_continuous(limits = nbs_layers$plot.boundary$y + c(-5e4, 5e4),
                        breaks = nbs_layers$lat.breaks) +
-    scale_color_manual(values = "red") +
+    scale_shape_manual(
+      values = c("Index Station" = 19, "Ben. grab (Hi)" = 17, "Ben. grab (Md)" = 17)
+    ) +
+    scale_color_manual(
+      values = c("Index Station" = "black", "Ben. grab (Hi)" = "magenta", "Ben. grab (Md)" = "cyan")
+    ) +
     scale_fill_manual(values = "red") +
     theme_bw() +
     theme(axis.title = element_blank(),
           legend.title = element_blank(),
-          legend.position = c(0.17, 0.08),
+          legend.position = c(0.17, 0.11),
           axis.text = element_text(size = 18*chart_scale[ii]),
           legend.text = element_text(size = 22*chart_scale[ii]),
           legend.key.spacing.y = unit(0.1*chart_scale[ii], "in"),
