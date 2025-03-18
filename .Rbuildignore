@@ -4,3 +4,8 @@
 output
 assets
 plots
+LICENSE.md
+analysis
+archive
+doc
+make_layers

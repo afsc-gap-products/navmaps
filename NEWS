@@ -1,3 +1,16 @@
+navmaps 1.3.0 (March 18, 2025)
+----------------------------------------------------------------
+
+NEW FEATURES
+
+- planning_station_proximity() function that performs nearest 
+  station and ith nearest station distance calculations and 
+  summarizes results.
+- planning_build_clusters() function that builds a cluster of 
+  size max_stations for each station by traveling the shortest 
+  possible distance to reach max_stations.
+
+
 navmaps 1.2.1 (March 13, 2025)
 ----------------------------------------------------------------
 
