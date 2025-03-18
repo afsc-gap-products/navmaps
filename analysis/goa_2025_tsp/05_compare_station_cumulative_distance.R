@@ -36,67 +36,6 @@ ggplot(data = goa_hauls_lines,
   geom_smooth()
 
 
-# Build station clusters based on minimum transit distance
-planning_build_clusters <- function(nodes, max_stations = 6) {
-  
-  nodes$index <- 1:nrow(nodes)
-  
-  station_order_list <- vector(
-    mode = "list", 
-    length = nrow(nodes)
-  )
-  
-  for(ii in 1:nrow(nodes)) {
-    
-    visited <- ii
-    remaining <- setdiff(nodes$index, ii)
-    
-    while(length(visited) < max_stations) {
-      
-      last_node <- visited[length(visited)]
-      dists <- sf::st_distance(nodes[last_node, ], nodes[remaining, ])
-      
-      # Find nearest node
-      next_node <- remaining[which.min(dists)]
-      visited <- c(visited, next_node)
-      remaining <- setdiff(remaining, next_node)
-      
-    }
-    
-    station_distance <- 
-      c(0,
-        as.numeric(
-          sf::st_distance(
-            nodes[visited[1:max_stations-1], ], 
-            nodes[visited[2:max_stations], ], 
-            by_element = TRUE)/1e3
-        )
-      )
-    
-    station_order <-  
-      do.call(
-        rbind, 
-        replicate(
-          max_stations, 
-          nodes[ii, ], 
-          simplify = FALSE)
-      )
-    
-    station_order$station_rank <- 1:max_stations
-    station_order$cumulative_distance_km <- cumsum(station_distance)
-    station_order$sequential_index <- visited
-    
-    station_order_list[[ii]] <- station_order
-    
-  }
-  
-  output <- do.call(rbind, station_order_list)
-  
-  return(output)
-}
-
-
-
 
 cumulative_dist_results <- vector(mode = "list", length = length(vessel))
 
@@ -197,8 +136,8 @@ goa_hauls_lines |>
                      color = factor(allocation),
                      linetype = factor(year),
                      shape = factor(year))) +
-    # geom_path(data = max_distance_by_n_2023,
-    #            mapping = aes(x = n, y = median_distance_km, color = "Median distance 2023")) +
+    geom_path(data = max_distance_by_n_2023,
+               mapping = aes(x = n, y = median_distance_km, color = "Median distance 2023")) +
     scale_x_continuous(name = "Station rank") +
     scale_y_continuous(name = "Mean cumulative distance (km)") +
     scale_color_colorblind(name = "Stations (#)") +
