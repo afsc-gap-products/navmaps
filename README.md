@@ -95,7 +95,7 @@ If the 32-bit installation fails:
 | Spectacled Eider Critical Habitat          | Spectacled Eider Critical Habitat in the northern Bering Sea | Lines or polygons | EBS/NBS | USFWS. [Link](https://ecos.fws.gov/ecp/species/762) | Last update: April 2, 2023 |
 | Cook Inlet Beluga Whale Critical Habitat | Cook Inlet Beluga Whale Critical Habitat in Cook Inlet | Lines or polygons | GOA | NOAA Fisheries [Link](https://www.fisheries.noaa.gov/resource/map/beluga-whale-cook-inlet-dps-critical-habitat-map-and-gis-data) | Last update: April 2022 |
 | Skate Nursery HAPC |  Amendment 104 Skate nursery HAPC | Lines or polygons | EBS | NOAA. [Link](https://www.habitat.noaa.gov/protection/efh/newInv/hapc_content.html)  | Last update: April 11, 2024 |
-| Crab pot storage                               | Storage locations for crab pot strings. |  Lines or polygons | AI, GOA | @MarkZimmermann-NOAA. Provided by individual vessels.  | Annual |
+| Crab pot storage                               | Storage locations for crab pot strings. |  Lines or polygons | AI, GOA | Provided by vessels.  | Annual |
 
 ## NOAA README
 
