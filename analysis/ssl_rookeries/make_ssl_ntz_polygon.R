@@ -1,10 +1,11 @@
-# Create three nautical mile buffer zones around Steller sea lion rookeries for bottom trawl operations
+# Create three nautical mile buffer zones around all Steller sea lion rookeries in Alaska
 # Sean Rohan
-# Last update: March 13, 2025
+# Last update: March 19, 2025
 #
-# GAP establishes three nautical mile buffer zones around all Steller sea lion rookery locations 
-# and treats the areas as no-transit zones. As of this update, buffer zones are only required for the
-# western DPS, which is defined as the population west of 140 degrees west.
+# From 2017-2023, GAP used a three nautical mile buffer zone around all Steller sea lion rookeries 
+# in Alaska where at least 50 pups had been counted in a single year since 1970. As of this update, 
+# 3 nm no-transit zones are required for western DPS rookeries (west of 140 W) listed under 
+# 50 CFR 224.103.
 
 library(navmaps)
 library(akgfmaps)
