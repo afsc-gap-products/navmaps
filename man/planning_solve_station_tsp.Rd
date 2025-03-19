@@ -2,12 +2,14 @@
 % Please edit documentation in R/planning_solve_station_tsp.R
 \name{planning_solve_station_tsp}
 \alias{planning_solve_station_tsp}
-\title{Solve a traveling Salesman problem (TSP) for a survey station alaocation}
+\title{Solve a traveling Salesman problem (TSP) for a survey station allocation}
 \usage{
-planning_solve_station_tsp(x)
+planning_solve_station_tsp(x, hamilton = TRUE)
 }
 \arguments{
 \item{x}{An `sf` object representing the survey stations.}
+
+\item{hamilton}{Should a Hamiltonian path be calculated instead of a circuit?}
 }
 \value{
 A list containing:
@@ -16,7 +18,7 @@ the optimal TSP solution, with an added column for inter-station distances in ki
 \item{tsp}{The TSP solution object.}
 }
 \description{
-This function optimizes the sampling order of stations by solving a Traveling Salesman Problem (TSP) using the nearest insertion method to minimize the distance traveled.
+This function optimizes the sampling order of stations by solving a Traveling Salesman Problem (TSP) using the nearest insertion method to minimize the distance traveled. Option to use a circuit (starting and ending at the same station) or path (visit each station once without repeats).
 }
 \examples{
 \dontrun{
@@ -43,4 +45,7 @@ survey_days <- planning_calc_survey_days(
 print(survey_days)
 }
 
+}
+\author{
+Zack Oyafuso
 }
