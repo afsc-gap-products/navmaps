@@ -31,6 +31,14 @@ no_transit_3nm_mace <-
 identical(no_transit_3nm, no_transit_3nm_kelly_cates)
 identical(no_transit_3nm, no_transit_3nm_mace)
 
+# AKRO 3nmi
+no_transit_3nm_akro <- 
+  here::here("analysis", "ssl_rookeries", "3nm_notransit_akro", "3nm_notransit.shp") |>
+  sf::st_read() |>
+  sf::st_transform(crs = "EPSG:3338") |>
+  sf::st_cast("POLYGON")
+
+
 # MACE critical habitat from 2024
 ch_mace <- 
   here::here("analysis", "ssl_rookeries", "mace_critical_habitat_nov2024", "StellarSeaLionCriticalHabitat.shp") |>
@@ -82,7 +90,7 @@ habitat_restrictions <- sf::st_read(here::here("analysis", "ssl_rookeries", "Hab
 sweeney <- read.csv(here::here("analysis", "ssl_rookeries", "NCEI-0129877_US_SSL_Sites.csv")) |>
   dplyr::filter(REGNO >= 5, ROOKERY == 1) |>
   sf::st_as_sf(coords = c("LONGITUDE", "LATITUDE"),
-                   crs = "WGS84") |>
+               crs = "WGS84") |>
   sf::st_transform(crs = "EPSG:3338") |>
   sf::st_buffer(dist = 5500)
 
