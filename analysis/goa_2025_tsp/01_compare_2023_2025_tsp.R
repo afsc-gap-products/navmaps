@@ -1,7 +1,7 @@
 # Traveling salesman solution to survey time
 
 # install.packages(c("sf", "TSP", "here", "dplyr"))
-
+library(navmaps)
 library(TSP)
 library(here)
 library(dplyr)
@@ -142,6 +142,7 @@ vessel_days$station_nodes |>
 vessel_days$total_days
 
 total_duration <- vessel_days$total_days
+sum(vessel_tsp$distance_nodes$distance)
 
 par(mar = c(0,0,3,0))
 for (iday in total_duration:1) {
