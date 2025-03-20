@@ -52,14 +52,6 @@ planning_calc_survey_days <-
     set_on_arrival = FALSE
   ) {
     
-    station_nodes = station_cluster
-    max_daily_hr = max_daily_hr
-    processing_time_hr = processing_time_hr
-    max_daily_stn = max_daily_stn
-    transit_speed_kmh = transit_speed_kmh
-    set_retrieve_hr = set_retrieve_hr
-    set_on_arrival = TRUE
-    
     station_nodes <- sf::st_drop_geometry(station_nodes)
     station_nodes$day <- NA
     station_nodes$hours_elapsed <- NA
