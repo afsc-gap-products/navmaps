@@ -12,6 +12,33 @@ station_tsp_dist <- vector(mode = "list", length = length(vessel))
 
 for(jj in 1:length(vessel)) {
   
+  days_out_2019 <-
+    readxl::read_xlsx(
+      here::here("assets", "data", "allocation", "GOA2019_ 2 boat_550_RNDM_stations.xlsx")
+    ) |>
+    dplyr::mutate(VESSEL = ifelse(vessel == "SEA", 143, 148)) |>
+    dplyr::filter(VESSEL == ifelse(vessel[jj] == 176, 143, VESSEL)) |>
+    dplyr::select(-vessel) |>
+    sf::st_as_sf(crs = "WGS84", coords = c("longitude", "latitude")) |>
+    dplyr::mutate(VESSEL =  ifelse(vessel[jj] == 176, 143, vessel[jj]),
+                  YEAR = 2019,
+                  allocation = 550) |>
+    sf::st_transform(crs = set_crs) |>
+    planning_solve_station_tsp(hamilton = TRUE)
+  
+  days_out_2021 <-
+    read.csv(
+      file = here::here("assets", "data", "allocation", "GOA 2021 stations for Mark.csv")
+    ) |>
+    dplyr::mutate(VESSEL = ifelse(vessel == "OEX", 148, 176)) |>
+    dplyr::select(-vessel) |>
+    sf::st_as_sf(crs = "WGS84", coords = c("longitude", "latitude")) |>
+    dplyr::mutate(VESSEL = ifelse(VESSEL == 148, 148, vessel[jj]),
+                  YEAR = 2021,
+                  allocation = 540) |>
+    sf::st_transform(crs = set_crs) |>
+    planning_solve_station_tsp(hamilton = TRUE)
+  
   days_out_2023 <- 
     read.csv(file = here::here("assets", "data", "allocation", "GOA2023_Station_allocation_520_EW.csv")) |>
     sf::st_as_sf(crs = "WGS84", coords = c("longitude", "latitude")) |>
@@ -41,6 +68,8 @@ for(jj in 1:length(vessel)) {
   
   station_tsp_dist[[jj]] <-
     dplyr::bind_rows(
+      days_out_2019$distance_nodes,
+      days_out_2021$distance_nodes,
       days_out_2023$distance_nodes,
       days_out_520$distance_nodes,
       days_out_400$distance_nodes
@@ -49,11 +78,13 @@ for(jj in 1:length(vessel)) {
 }
 
 station_tsp_dist <- (do.call(rbind, station_tsp_dist))
+
 station_tsp_dist <- 
   dplyr::select(
     station_tsp_dist,
     YEAR, 
     VESSEL, 
+    node,
     allocation, 
     distance
     ) |>
@@ -97,12 +128,10 @@ akp_hauls_sf$distance_km <- c(0,
 
 goa_2023_hauls <- dplyr::bind_rows(oex_hauls_sf, akp_hauls_sf)
 
-# Compare cumulative distances
-
-
+# Compare distances between stations
 ggplot() +
   stat_ecdf(
-    data = station_tsp_dist,
+    data = dplyr::filter(station_tsp_dist, YEAR %in% c(2023, 2025)),
     mapping = aes(x = distance, color = id),
     linewidth = rel(1.2)
   ) +
@@ -121,5 +150,36 @@ ggplot() +
   ) +
   scale_x_continuous(name = "Distance (km)") +
   scale_y_continuous(name = "Cumulative proportion") +
+  facet_wrap(~VESSEL) +
   theme_bw() +
   theme(legend.title = element_blank())
+
+# Compare survey travel distance to TSP distance solution
+
+survey_travel_dist <- RODBC::sqlQuery(
+  channel = channel,
+  query = "SELECT * FROM RACEBASE.HAUL WHERE VESSEL IN (148, 176, 143) AND CRUISE >= 201901 AND REGION = 'GOA' AND PERFORMANCE >= 0")  |>
+  sf::st_as_sf(crs = "WGS84", coords = c("START_LONGITUDE", "START_LATITUDE")) |>
+  sf::st_transform(crs = "EPSG:32606") |>
+  dplyr::mutate(YEAR = floor(CRUISE/100)) |>
+  dplyr::arrange(VESSEL, YEAR, HAUL) |>
+  dplyr::group_by(VESSEL, YEAR) |>
+  dplyr::summarise(do_union = FALSE) |>
+  sf::st_cast("LINESTRING") |>
+  dplyr::mutate(distance_km = as.numeric(sf::st_length(geometry)/1e3)) |>
+  sf::st_drop_geometry()
+
+tsp_travel_dist <-
+  station_tsp_dist |>
+  sf::st_drop_geometry() |>
+  dplyr::group_by(VESSEL, YEAR, allocation) |>
+  dplyr::summarise(total_distance = sum(distance))
+  
+compare_distance <-
+  tsp_travel_dist |>
+  dplyr::rename(TSP_km = total_distance) |>
+  dplyr::inner_join(survey_travel_dist)
+
+ggplot() +
+  geom_point(data = compare_distance,
+             mapping = aes(x = TSP_km, y = distance_km))
