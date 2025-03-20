@@ -78,7 +78,7 @@ planning_solve_station_tsp <-
     
     return(list(distance_nodes = x, 
                 tsp = tsp_solution,
-                total_distance_km = cumsum(x$distance))
+                total_distance_km = sum(x$distance))
     )
     
   }
