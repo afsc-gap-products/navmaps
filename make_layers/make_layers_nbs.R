@@ -17,25 +17,25 @@ software_types <- c("globe", "timezero", "opencpn")
 
 for(ii in 1:length(software_types)) {
   set_software(software_types[ii])
-  
+
   if(SOFTWARE == "globe") {
     map_layers <- readRDS(here::here("assets", "data", paste0(region, "_map_layers.rds")))
   }
-  
+
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
-    region = region, 
-    overwrite_midpoint = ifelse(ii == 0, TRUE, FALSE), 
+    region = region,
+    overwrite_midpoint = ifelse(ii == 0, TRUE, FALSE),
     software_format = SOFTWARE
   )
-  
+
   # Survey grid without trawlable/untrawlable (EBS/NBS)
   survey_grid <- map_layers$survey.grid |>
-    sf::st_make_valid() |> 
-    sf::st_cast(to = "MULTILINESTRING") |> 
-    sf::st_cast(to = "LINESTRING") |> 
+    sf::st_make_valid() |>
+    sf::st_cast(to = "MULTILINESTRING") |>
+    sf::st_cast(to = "LINESTRING") |>
     sf::st_cast("POLYGON")
-  
+
   survey_grid$color <- navmaps_pal(values = "cyan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   survey_grid$fill <- 0
 
@@ -45,7 +45,7 @@ for(ii in 1:length(software_types)) {
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
     name_col = "STATION",
     description_col = "STATION",
-    color_col = "color", 
+    color_col = "color",
     software_format = SOFTWARE
   )
   
@@ -72,7 +72,21 @@ for(ii in 1:length(software_types)) {
   grid_centers$shape <- navmaps_sym_pal(values = "circle1", 
                                         software_format = SOFTWARE, 
                                         file_type = FILE_TYPE_POINT, 
-                                        color = grid_centers$color)
+                                        color = "yellow")
+  
+  grid_centers$shape[grid_centers$station_label == "Index + Grab (Hi)"] <- 
+    navmaps_sym_pal(values = "circle1", 
+                    software_format = SOFTWARE, 
+                    file_type = FILE_TYPE_POINT, 
+                    color = "magenta"
+    )
+  
+  grid_centers$shape[grid_centers$station_label == "Index + Grab (Md)"] <- 
+    navmaps_sym_pal(values = "circle1", 
+                    software_format = SOFTWARE, 
+                    file_type = FILE_TYPE_POINT, 
+                    color = "cyan"
+    )
   
   grid_centers$color <- navmaps_pal(values = grid_centers$color, 
                                     software_format = SOFTWARE, 
@@ -90,35 +104,35 @@ for(ii in 1:length(software_types)) {
   
   # 8. Survey stratum layer
   strata <- map_layers$survey.strata
-  strata$color <- navmaps_pal(values = "yellow", 
-                              software_format = SOFTWARE, 
+  strata$color <- navmaps_pal(values = "yellow",
+                              software_format = SOFTWARE,
                               file_type = FILE_TYPE_POLYGON)
   strata$fill <- 0
   strata$name <- paste0("Stratum ", strata$Stratum)
-  
+
   sf_to_nav_file(
     x = strata,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)), 
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)),
     name_col = "name",
     description_col = "STRATUM",
     color_col = "color",
     fill_col = "fill",
     software_format = SOFTWARE
   )
-  
+
   # 9. Spectacled Eider Critical Habitat
-  
+
   eider <- sf::st_read(here::here("assets", "data", "spectacled_eider", "FCH_Somateria_fischeri_20010206.shp")) |>
     dplyr::filter(Unit_ID == "3 - Norton Sound")
-  
+
   sf::st_write(eider, here::here("output", region, "shapefiles", "SE_Only_Norton_Sound.shp"), append = FALSE)
-  
-  eider$color <- navmaps_pal(values = "red", 
-                             software_format = SOFTWARE, 
+
+  eider$color <- navmaps_pal(values = "red",
+                             software_format = SOFTWARE,
                              file_type = FILE_TYPE_POLYGON)
   eider$fill <- 0
   eider$name <- "Spectacled Eider Critical Habitat"
-  
+
   sf_to_nav_file(
     x = eider,
     file = here::here("output", region, "navigation", SOFTWARE, paste0("spectacled_eider_ch.", FILE_TYPE_LINESTRING)),
