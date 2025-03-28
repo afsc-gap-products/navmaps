@@ -8,9 +8,15 @@ channel <- gapindex::get_connected()
 
 dat <- RODBC::sqlQuery(
   channel = channel,
-  query = "SELECT * FROM RACEBASE.HAUL WHERE VESSEL IN (148, 176) AND CRUISE = 202301 AND PERFORMANCE >= 0")
+  query = "SELECT * FROM RACEBASE.HAUL WHERE VESSEL IN (148, 176) AND CRUISE = 202301 AND PERFORMANCE >= 0 AND ABUNDANCE_HAUL = 'Y'")
 
 dat$DOY <- lubridate::yday(dat$START_TIME)
+
+
+dplyr::select(dat, VESSEL, DOY) |>
+  unique() |>
+  dplyr::group_by(VESSEL) |>
+  dplyr::summarise(n = n())
 
 hauls_per_day <- 
   dat |>
@@ -38,10 +44,6 @@ gapindex_data <- gapindex::get_data(year_set = 2023, survey_set = "GOA")
 gapindex_data$haul
 
 
-dplyr::select(dat, VESSEL, DOY) |>
-  unique() |>
-  dplyr::group_by(VESSEL) |>
-  dplyr::summarise(n = n())
 
 
 start_end_time <- 

@@ -26,7 +26,7 @@ for(ii in 1:length(software_types)) {
   )
   
   # 5. Station grid 
-    a. With trawlable/untrawlable (AI/GOA)
+    # a. With trawlable/untrawlable (AI/GOA)
   make_trawlable(
     region = region,
     channel = channel,

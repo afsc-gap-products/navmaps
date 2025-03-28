@@ -87,15 +87,16 @@ for(ii in 1:length(software_types)) {
   )
 
   # 9. SSL buffer zones
-  ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_No_Transit.shp"))
+  ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_notransit.shp"))
+  ssl$NAME <- "SSL No-Transit"
   ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   ssl$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-
+  
   sf_to_nav_file(
     x = ssl,
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
-    name_col = "Name",
-    description_col = "Name",
+    name_col = "NAME",
+    description_col = "NAME",
     color_col = "color",
     fill_col = "fill",
     software_format = SOFTWARE

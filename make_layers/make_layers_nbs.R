@@ -53,13 +53,28 @@ for(ii in 1:length(software_types)) {
   grid_centers <- map_layers$survey.grid |>
     sf::st_make_valid() |> 
     sf::st_cast("POLYGON", group_or_split = TRUE) |>
-    sf::st_centroid() # Points at the center of each grid cell
+    sf::st_centroid()
+  
+  spectacled_eider_sampling <- 
+    read.csv(file = here::here("assets", "data", "special_projects", "NBS", "2025", "benthic_sampling_stations.csv")) |>
+    dplyr::mutate(Priority = ifelse(Priority == "high", "Hi", "Md")) |>
+    dplyr::mutate(STATION = Station.ID, station_label = paste0("Index + Grab (", Priority, ")")) |>
+    dplyr::select(-Station.ID, -Priority)
+  
+  # Add spetacled eider sampling stations to centroids
+  grid_centers <- dplyr::full_join(grid_centers, spectacled_eider_sampling) |>
+    dplyr::mutate(station_label = ifelse(is.na(station_label), "Index Station", station_label))
+  
+  grid_centers$color <- "yellow"
+  grid_centers$color[grid_centers$station_label == "Index + Grab (Hi)"] <- "magenta"
+  grid_centers$color[grid_centers$station_label == "Index + Grab (Md)"] <- "cyan"
+  
   grid_centers$shape <- navmaps_sym_pal(values = "circle1", 
                                         software_format = SOFTWARE, 
                                         file_type = FILE_TYPE_POINT, 
-                                        color = "cyan")
+                                        color = grid_centers$color)
   
-  grid_centers$color <- navmaps_pal(values = "cyan", 
+  grid_centers$color <- navmaps_pal(values = grid_centers$color, 
                                     software_format = SOFTWARE, 
                                     file_type = FILE_TYPE_POINT)
   

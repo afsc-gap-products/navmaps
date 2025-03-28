@@ -86,7 +86,7 @@ for(ii in 1:length(software_types)) {
 
 
   # 6. Station marks
-  grid_centers <- sf::st_centroid(map_layers$survey.grid)# Points at the center of each grid cell
+  grid_centers <- sf::st_centroid(trawlable_grid)# Points at the center of each grid cell
   grid_centers$shape <- navmaps_sym_pal(values = "circle1",
                                         software_format = SOFTWARE,
                                         file_type = FILE_TYPE_POINT,
