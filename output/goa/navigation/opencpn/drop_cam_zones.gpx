@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+<trk>
+  <name>Drop cam zones</name>
+  <desc>Zone #1</desc>
+  <time>2025-04-03T15:05:51.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54.52" lon="-158.8"></trkpt>
+    <trkpt lat="55.0274" lon="-159.0858"></trkpt>
+    <trkpt lat="55.9" lon="-155.3"></trkpt>
+    <trkpt lat="55.5" lon="-155"></trkpt>
+    <trkpt lat="54.52" lon="-158.8"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Drop cam zones</name>
+  <desc>Zone #2</desc>
+  <time>2025-04-03T15:05:51.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="56.2752" lon="-154.64"></trkpt>
+    <trkpt lat="55.7512" lon="-154.0907"></trkpt>
+    <trkpt lat="57.1" lon="-150.5"></trkpt>
+    <trkpt lat="57.6" lon="-151"></trkpt>
+    <trkpt lat="56.2752" lon="-154.64"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Drop cam zones</name>
+  <desc>Zone #3</desc>
+  <time>2025-04-03T15:05:51.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="58.7" lon="-151.3"></trkpt>
+    <trkpt lat="58.7" lon="-148.3"></trkpt>
+    <trkpt lat="58.2" lon="-148.3"></trkpt>
+    <trkpt lat="58.2" lon="-151.3"></trkpt>
+    <trkpt lat="58.7" lon="-151.3"></trkpt>  </trkseg>
+</trk>
+</gpx>

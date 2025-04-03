@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Drop cam zones</name>
+      <description>Zone #1</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff00ffff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-158.8, 54.52
+        -159.0858, 55.0274
+        -155.3, 55.9
+        -155, 55.5
+        -158.8, 54.52
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Drop cam zones</name>
+      <description>Zone #2</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff00ffff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-154.64, 56.2752
+        -154.0907, 55.7512
+        -150.5, 57.1
+        -151, 57.6
+        -154.64, 56.2752
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Drop cam zones</name>
+      <description>Zone #3</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>ff00ffff</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-151.3, 58.7
+        -148.3, 58.7
+        -148.3, 58.2
+        -151.3, 58.2
+        -151.3, 58.7
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+  </Document>
+</kml>

@@ -23,7 +23,7 @@ for(ii in 1:length(software_types)) {
   if(SOFTWARE == "globe") {
     map_layers <- readRDS(here::here("assets", "data", paste0(region, "_map_layers.rds")))
   }
-  
+
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region,
@@ -216,18 +216,18 @@ for(ii in 1:length(software_types)) {
                  color_col = "color",
                  fill_col = "fill",
                  software_format = SOFTWARE)
-  
+
   # 14. Navigation hazards (moorings, shipwrecks, etc.)
   buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
     dplyr::filter(ATU == 17)
-  
+
   buoys$shape <- navmaps_sym_pal(values = "warning",
                                  software_format = SOFTWARE,
                                  file_type = FILE_TYPE_POINT)
   buoys$color <- navmaps_pal(values = "darkorange",
                              software_format = SOFTWARE,
                              file_type = FILE_TYPE_POINT)
-  
+
   sf_to_nav_file(x = buoys,
                  file = here::here("output", region, "navigation", SOFTWARE, paste0("hazards_buoys_20250121.", FILE_TYPE_POINT)),
                  name_col = "SUB_CATEGORY",
@@ -235,41 +235,41 @@ for(ii in 1:length(software_types)) {
                  color_col = "color",
                  shape_col = "shape",
                  software_format = SOFTWARE)
-  
+
   buoys |>
     sf::st_transform(crs = "EPSG:3338") |>
     sf::st_write(delete_dsn = TRUE, here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"))
-  
+
   # 15. Crab pot storage (requires 32-bit R to open .mdb)
-  
+
   # Add an entry for every crab pot storage data set
-  
+
   # crabpots <- sf::st_read("G:/GOA/GOA 2023/ArcMap/GIS/GOA_2023/Crab Pot Storage/ErlaN_Poly.shp") |>
   #   sf::st_transform(crs = "EPSG:4326")
-  # 
+  #
   # crabpots$description <- "Crab pot storage"
   # crabpots$id <- "Pot storage"
   # crabpots$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
-  # 
+  #
   # sf_to_nav_file(x = crabpots,
   #                file = here::here("output", region, "navigation", SOFTWARE, paste0("crabpots_2023.", FILE_TYPE_LINESTRING)),
   #                name_col = "id",
   #                description_col = "description",
   #                color_col = "color",
   #                software_format = SOFTWARE)
-  
+
   # 16. Canadian border claim at Dixon Entrance
   dixon_entrance <- sf::st_read(here::here("assets", "data", "dixon_entrance", "canadaborder.shp"),
                                 crs = "EPSG:3338") |>
     sf::st_transform(crs = "WGS84")
-  
+
   dixon_entrance$description <- "Dixon Entrance disputed border"
   dixon_entrance$name <- "Dixon Entrance disputed border"
   dixon_entrance$fill <- 0
-  dixon_entrance$color <- navmaps_pal(values = "darkorange", 
-                             software_format = SOFTWARE, 
+  dixon_entrance$color <- navmaps_pal(values = "darkorange",
+                             software_format = SOFTWARE,
                              file_type = FILE_TYPE_POLYGON)
-  
+
   sf_to_nav_file(x = dixon_entrance,
                  file = here::here("output", region, "navigation", SOFTWARE, paste0("disputed_border.", FILE_TYPE_POLYGON)),
                  name_col = "name",
@@ -277,6 +277,34 @@ for(ii in 1:length(software_types)) {
                  color_col = "color",
                  fill_col = "fill",
                  software_format = SOFTWARE)
+  
+  # 17. Special collection: GOA drop camera zones
+  drop_cam_zones <- 
+    sf::st_read(
+      dsn = here::here("assets", "data", "special_projects", "GOA", "2025", "catcam_areas.gpkg")
+    ) |>
+    sf::st_set_geometry("geometry") |>
+    sf::st_cast("POLYGON")
+  
+  drop_cam_zones$name <- "Drop cam zones"
+  drop_cam_zones$description <- c("Zone #1", "Zone #2", "Zone #3")
+  drop_cam_zones$fill <- 0
+  drop_cam_zones$color <- navmaps_pal(values = "magenta", 
+                                      software_format = SOFTWARE, 
+                                      file_type = FILE_TYPE_POLYGON)
+  
+  sf_to_nav_file(x = drop_cam_zones,
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("drop_cam_zones.", FILE_TYPE_POLYGON)),
+                 name_col = "name",
+                 description_col = "description",
+                 color_col = "color",
+                 fill_col = "fill",
+                 software_format = SOFTWARE)
+  
+  sf::st_write(drop_cam_zones,
+               here::here("output", region, "shapefiles", "drop_cam_zones.shp"),
+               append = FALSE)
+  
   
 }
 
