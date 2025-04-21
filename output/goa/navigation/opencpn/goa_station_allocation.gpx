@@ -1,3123 +1,2703 @@
 <?xml version="1.0"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
-  <wpt lat="53.9741618289866" lon="-165.431706610601">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>331-41-15</name>
+  <wpt lat="53.5158923963003" lon="-166.291971106935">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>318-33-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="53.8890962090042" lon="-163.945307644193">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>350-36-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.1955788702855" lon="-163.559818360408">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>356-42-15</name>
+  <wpt lat="53.7408461564301" lon="-165.912651283512">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>324-37-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.5070138040363" lon="-163.637276332899">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>356-49-15</name>
+  <wpt lat="54.144695061682" lon="-164.629657839001">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>342-43-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.0215199160573" lon="-161.657789777038">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>383-57-14</name>
+  <wpt lat="54.2173897207646" lon="-164.339519601627">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>346-44-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.4872841431504" lon="-163.86613714773">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>353-49-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.500488400789" lon="-163.713589161801">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>355-49-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.0167535763899" lon="-161.769365196371">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>381-57-14</name>
     <desc>Stratum: 14, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="55.0215199160573" lon="-161.657789777038">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>383-57-14</name>
+    <desc>Stratum: 14, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.3382151144581" lon="-161.623899517413">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>384-64-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
   <wpt lat="54.3461126060608" lon="-160.88746992521">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>391-41-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="55.6314625132631" lon="-160.347019063226">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>401-69-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.8636164751764" lon="-159.493344576781">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>412-73-14</name>
-    <desc>Stratum: 14, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.647662367298" lon="-159.29109569467">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>414-68-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.3515275232515" lon="-158.854117738379">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>419-61-123</name>
-    <desc>Stratum: 123, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.2236282059051" lon="-158.680133848437">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>421-58-123</name>
-    <desc>Stratum: 123, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.9579966087006" lon="-158.560593221305">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>422-52-123</name>
-    <desc>Stratum: 123, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.6584902518395" lon="-157.858121612284">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>432-67-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.2457864436831" lon="-157.757819414449">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>434-80-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.4002926148756" lon="-157.529953930397">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>437-83-123</name>
-    <desc>Stratum: 123, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.6349466209298" lon="-157.139612405663">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>441-66-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.8649281725386" lon="-156.34176983205">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>452-93-123</name>
-    <desc>Stratum: 123, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.8414087363424" lon="-155.877761571262">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>457-70-24</name>
+  <wpt lat="54.5991036053869" lon="-158.836803468124">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>418-44-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.339227524602" lon="-155.579170112576">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>461-81-24</name>
+  <wpt lat="55.2974161143195" lon="-157.900157513842">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>431-59-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.4300192776001" lon="-155.504199655637">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>462-83-24</name>
+  <wpt lat="55.8350088623218" lon="-157.956419309142">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>431-71-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.9388033556636" lon="-153.570175704429">
-    <time>2025-03-19T11:52:04.000000Z</time>
+  <wpt lat="55.2225970638376" lon="-157.420197802536">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>437-57-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="56.761321303334" lon="-156.98344689706">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>444-91-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.4636474482441" lon="-156.808641160221">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>445-62-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="56.0569623537233" lon="-156.371084551325">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>451-75-123</name>
+    <desc>Stratum: 123, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="56.3840467121825" lon="-155.581097773749">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>461-82-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.3488906057517" lon="-153.949557064189">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>481-148-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="56.9145233609675" lon="-153.546487411877">
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>486-94-36</name>
     <desc>Stratum: 36, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.300686874799" lon="-153.427474465948">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>487-147-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.0267934448821" lon="-153.463619857528">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>487-96-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
+  <wpt lat="55.9501160996901" lon="-153.479164591476">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>487-72-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="56.751231081951" lon="-153.239894131025">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>490-90-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.5341570275121" lon="-152.926075100255">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>494-85-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.295304509664" lon="-152.451536140098">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>498-147-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
+  <wpt lat="59.6564971671101" lon="-152.724146571442">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>495-155-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="58.8025739760257" lon="-152.401646861846">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>499-136-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.2941784850288" lon="-152.370675447465">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>499-147-38</name>
+  <wpt lat="59.2483457308637" lon="-152.284916018641">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>500-146-38</name>
     <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="58.7528292070232" lon="-152.049605857021">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>503-135-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.6805695994189" lon="-151.817061647678">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>505-156-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.0037586793865" lon="-151.89675427705">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>506-96-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.4968341356684" lon="-151.532954604219">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>510-107-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.6131812530067" lon="-151.021124787172">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>516-110-38</name>
+  <wpt lat="57.4086815686972" lon="-152.040464113849">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>504-105-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.3376866259167" lon="-150.162185725677">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>524-149-136</name>
+  <wpt lat="57.4968341356684" lon="-151.532954604219">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>510-107-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.2130742153549" lon="-149.944385618192">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>528-124-38</name>
+  <wpt lat="58.1580098043614" lon="-150.794499528255">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>518-122-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.1710655565521" lon="-150.620456453158">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>519-145-38</name>
     <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="59.642583052662" lon="-149.875569495692">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>527-156-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="58.2130742153549" lon="-149.944385618192">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>528-124-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
   <wpt lat="58.5623868959791" lon="-149.758889093577">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>530-132-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.3369138541571" lon="-149.667208146376">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>531-127-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.0346751449774" lon="-149.145512592822">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>536-143-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.8715818281276" lon="-148.770068825915">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>539-162-136</name>
+  <wpt lat="59.2130919704913" lon="-149.119848520572">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>536-147-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.8653954826662" lon="-148.297290738726">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>546-140-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.5175956975739" lon="-147.829947877905">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>550-155-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
+  <wpt lat="59.7307997445544" lon="-148.596355035289">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>541-159-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.6141254795902" lon="-147.025697330222">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>559-158-136</name>
+  <wpt lat="59.120900963317" lon="-147.990335917843">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>549-146-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.9275568006294" lon="-147.03820401628">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>558-165-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="60.2870130610114" lon="-146.407147898702">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>564-174-42</name>
+  <wpt lat="60.2984481514122" lon="-146.221726764926">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>566-174-42</name>
     <desc>Stratum: 42, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="60.0626913941482" lon="-144.804756155347">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>582-171-145</name>
-    <desc>Stratum: 145, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.7541134082516" lon="-141.471188853767">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>620-170-42</name>
-    <desc>Stratum: 42, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.5928720550088" lon="-140.082213162912">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>636-170-42</name>
-    <desc>Stratum: 42, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.6661128664872" lon="-140.286399043859">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>638-149-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
+    <desc>Stratum: 145, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.3983332968709" lon="-139.892959510331">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>639-166-152</name>
+  <wpt lat="59.9571512963351" lon="-143.491135638773">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>597-171-242</name>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.6350625011086" lon="-140.791184372345">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>628-169-144</name>
+    <desc>Stratum: 144, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.6748988417464" lon="-140.371182148325">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>637-149-242</name>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.406510102846" lon="-139.96806690311">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>638-166-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.347356391851" lon="-139.553536314459">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>643-166-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.9457703662436" lon="-138.74348563233">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>654-159-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.1145790460011" lon="-138.666159659891">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>654-163-51</name>
+  <wpt lat="59.5318839760329" lon="-139.858341592243">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>639-169-51</name>
     <desc>Stratum: 51, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.1003987883145" lon="-138.582726973192">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>655-163-51</name>
-    <desc>Stratum: 51, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.3822508210622" lon="-138.64381971922">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>658-147-51</name>
+  <wpt lat="59.826223003401" lon="-139.629027687526">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>640-176-51</name>
     <desc>Stratum: 51, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.9660666620385" lon="-137.958048720927">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>668-140-352</name>
-    <desc>Stratum: 352, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.3420541640588" lon="-137.604129104558">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>670-149-152</name>
+  <wpt lat="58.6640457059129" lon="-138.693244122312">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>656-153-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.8695047598098" lon="-136.88590643596">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>681-141-352</name>
-    <desc>Stratum: 352, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.278401783076" lon="-136.281429251156">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>691-130-252</name>
-    <desc>Stratum: 252, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.5265724099722" lon="-134.922685207073">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>718-97-252</name>
-    <desc>Stratum: 252, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.6244518035709" lon="-134.373871073807">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>724-101-252</name>
-    <desc>Stratum: 252, Vessel: 148</desc>
+  <wpt lat="55.7235991071816" lon="-134.153681812936">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>726-104-152</name>
+    <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.0532174245878" lon="-134.349819497582">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>728-89-352</name>
-    <desc>Stratum: 352, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="52.5253329697165" lon="-169.987225164651">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>265-22-211</name>
+    <desc>Stratum: 211, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="52.4205604968596" lon="-169.775512859133">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>267-19-211</name>
     <desc>Stratum: 211, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="52.7298598847122" lon="-169.822090039121">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>268-26-113</name>
-    <desc>Stratum: 113, Vessel: 148</desc>
+    <desc>Stratum: 113, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="52.7532786854721" lon="-169.369171780976">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>274-25-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="52.4573188601218" lon="-169.563907984247">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>270-19-211</name>
-    <desc>Stratum: 211, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+  <wpt lat="52.866723947776" lon="-168.900991533604">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>281-26-14</name>
+    <desc>Stratum: 14, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="52.8735250429953" lon="-168.814837818894">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>282-26-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="52.9105588961813" lon="-168.297331411792">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>289-25-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="53.2122013915522" lon="-168.024689032348">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>294-31-14</name>
-    <desc>Stratum: 14, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="53.2875248482964" lon="-167.829650392832">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>297-32-14</name>
-    <desc>Stratum: 14, Vessel: 176</desc>
+  <wpt lat="53.0707724131076" lon="-168.355159156769">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>289-29-15</name>
+    <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="53.13724453694" lon="-167.541317409372">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>300-28-15</name>
+  <wpt lat="53.006274496777" lon="-167.800115780715">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>296-26-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="53.1892651605152" lon="-167.482956772782">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>301-29-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="53.2960499074206" lon="-167.290416206076">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>304-31-15</name>
+  <wpt lat="53.0010934195726" lon="-167.646586949323">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>298-25-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="53.1349226291361" lon="-167.160377225847">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>305-27-113</name>
-    <desc>Stratum: 113, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="53.2801304304632" lon="-167.208775098377">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>305-30-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="53.110750650898" lon="-167.084668213664">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>306-26-113</name>
     <desc>Stratum: 113, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="53.0668114883936" lon="-166.986134861031">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>307-25-211</name>
-    <desc>Stratum: 211, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+    <desc>Stratum: 211, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="53.3066613870257" lon="-166.531438081118">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>314-29-113</name>
     <desc>Stratum: 113, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="53.5008969014221" lon="-166.440293576094">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>316-33-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
+  <wpt lat="53.3369162385236" lon="-166.23625637277">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>318-29-211</name>
+    <desc>Stratum: 211, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="53.8388736347165" lon="-166.316702674266">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>319-40-211</name>
     <desc>Stratum: 211, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="53.4467596694352" lon="-166.041317494445">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>321-31-113</name>
-    <desc>Stratum: 113, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+  <wpt lat="53.6131050418534" lon="-166.169062405877">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>320-35-15</name>
+    <desc>Stratum: 15, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="53.370713929346" lon="-165.950211366581">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>322-29-211</name>
     <desc>Stratum: 211, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="53.7238100177217" lon="-166.049753950821">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>322-37-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
+  <wpt lat="53.83513611711" lon="-165.873649180795">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>325-39-113</name>
+    <desc>Stratum: 113, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="53.588652580188" lon="-165.538122422094">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>328-33-211</name>
-    <desc>Stratum: 211, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+  <wpt lat="53.839131104538" lon="-165.836339318174">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>325-39-15</name>
+    <desc>Stratum: 15, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="53.8682212172932" lon="-165.631762415581">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>328-39-15</name>
+  <wpt lat="53.929778427744" lon="-165.881799782644">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>325-41-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="53.6540989998341" lon="-165.491595770061">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>329-34-113</name>
     <desc>Stratum: 113, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="53.8354539929903" lon="-165.545002269498">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>329-38-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.0079339700997" lon="-165.518953187867">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>330-42-15</name>
+  <wpt lat="53.7499675447363" lon="-165.442961382056">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>330-36-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="53.7499624539526" lon="-164.829089309535">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>338-35-113</name>
-    <desc>Stratum: 113, Vessel: 148</desc>
+  <wpt lat="54.1520913003886" lon="-165.479422637744">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>331-45-14</name>
+    <desc>Stratum: 14, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="53.9024220357837" lon="-164.871427372957">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>338-38-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.082636316017" lon="-164.767260739443">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>340-42-15</name>
+  <wpt lat="53.8321266028065" lon="-164.928709577252">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>337-37-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="54.1758842473804" lon="-164.781459789382">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>340-44-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.3073138878483" lon="-164.829976930355">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>340-47-15</name>
+  <wpt lat="53.8280821373022" lon="-164.543534588356">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>342-36-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.1982166442297" lon="-164.644360865">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>342-44-15</name>
+  <wpt lat="54.0145633244416" lon="-164.594084099137">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>342-40-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="54.0467616886453" lon="-164.602863070375">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>342-41-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.2413658138361" lon="-164.656245189547">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>342-45-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="53.907389479235" lon="-164.334240601735">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>345-37-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="53.9935217814738" lon="-163.741050078514">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>353-38-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.3643845925936" lon="-163.756995579656">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>354-46-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.4541705401113" lon="-163.779763451025">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>354-48-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="53.9139242269275" lon="-163.567630264663">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>355-36-15</name>
+  <wpt lat="54.3073132919086" lon="-164.363608432467">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>346-46-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="53.9909185930153" lon="-163.355822459158">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>358-37-15</name>
+  <wpt lat="53.9131977253974" lon="-164.182005559472">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>347-37-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.3688659590642" lon="-163.115116076596">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>362-45-14</name>
-    <desc>Stratum: 14, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.2863371866719" lon="-163.04004173046">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>363-43-15</name>
+  <wpt lat="53.9162637759109" lon="-164.029074770752">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>349-37-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.629015916378" lon="-163.120845505868">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>363-51-15</name>
+  <wpt lat="54.1538592232349" lon="-164.090518310617">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>349-42-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.5682275802211" lon="-163.028418380497">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>364-49-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.5742930886985" lon="-162.951860521311">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>365-49-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.7851274464188" lon="-163.015300527911">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>365-54-14</name>
-    <desc>Stratum: 14, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.837554829695" lon="-163.013681869867">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>365-55-15</name>
+  <wpt lat="54.0797199100112" lon="-163.762649887345">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>353-40-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.1653132389753" lon="-162.703270009387">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>367-40-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+  <wpt lat="54.0562656965983" lon="-163.602631186963">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>355-39-15</name>
+    <desc>Stratum: 15, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.9305127489157" lon="-162.895509991982">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>367-57-14</name>
-    <desc>Stratum: 14, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.9443101249907" lon="-162.716920104843">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>369-57-14</name>
+  <wpt lat="54.6084733113352" lon="-163.642355332114">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>356-51-14</name>
     <desc>Stratum: 14, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.1992135165349" lon="-162.479353542056">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>370-40-15</name>
+  <wpt lat="53.9365440083292" lon="-163.342793027062">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>358-36-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.7726930513497" lon="-162.600202398233">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>370-53-14</name>
+  <wpt lat="54.1168040927504" lon="-163.38613259427">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>358-40-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.3578032077315" lon="-163.211916702489">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>361-45-14</name>
     <desc>Stratum: 14, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.2811127621996" lon="-162.419969693342">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>371-42-15</name>
+  <wpt lat="54.671676132724" lon="-163.209219974394">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>362-52-14</name>
+    <desc>Stratum: 14, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="54.117561112048" lon="-162.923717173696">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>364-39-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.2900525496326" lon="-162.344591999522">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>372-42-15</name>
+  <wpt lat="54.649074101173" lon="-163.015318156862">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>364-51-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.0774091699331" lon="-162.837534296482">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>365-38-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.971247655346" lon="-162.440346420114">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>373-57-15</name>
+  <wpt lat="54.1191361856973" lon="-162.76997085507">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>366-39-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.4939971019391" lon="-162.155642679915">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>375-46-113</name>
-    <desc>Stratum: 113, Vessel: 176</desc>
+  <wpt lat="54.6772203214006" lon="-162.66471259255">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>369-51-15</name>
+    <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.0291181730093" lon="-162.188419878603">
-    <time>2025-03-19T11:52:04.000000Z</time>
+  <wpt lat="54.7771594339529" lon="-162.529144988459">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>371-53-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.0288086955696" lon="-162.191210964442">
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>376-58-14</name>
     <desc>Stratum: 14, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.9455038816546" lon="-162.119437744351">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>377-56-15</name>
+  <wpt lat="54.1502948680817" lon="-161.929550647243">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>377-38-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.1912151517505" lon="-161.860846180408">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>378-39-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
   <wpt lat="54.3703867512435" lon="-161.890965823766">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>378-43-113</name>
     <desc>Stratum: 113, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.1584476071578" lon="-161.777241561232">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>379-38-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
+  <wpt lat="55.0796778152565" lon="-162.027057461166">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>378-59-14</name>
+    <desc>Stratum: 14, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.4902296195452" lon="-161.611297706407">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>382-45-15</name>
+  <wpt lat="54.3036945323631" lon="-161.574648238182">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>382-41-113</name>
+    <desc>Stratum: 113, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.2961846651432" lon="-161.694668312008">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>383-63-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.3796861245414" lon="-161.689390650135">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>383-65-15</name>
+  <wpt lat="54.621881970239" lon="-161.481645287308">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>384-48-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.4952943370773" lon="-161.457073726786">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>384-45-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.3701304941739" lon="-161.278264857006">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>386-42-15</name>
+  <wpt lat="54.7411842555378" lon="-161.192621081225">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>388-50-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.2765723648319" lon="-161.183572387451">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>387-40-211</name>
-    <desc>Stratum: 211, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.7720805263164" lon="-161.272539401816">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>387-51-15</name>
+  <wpt lat="55.0912084692744" lon="-161.258980425824">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>388-58-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.2796126901942" lon="-161.107003504803">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>388-40-211</name>
-    <desc>Stratum: 211, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.3834311276292" lon="-161.042447221112">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>389-42-15</name>
+  <wpt lat="54.426602189415" lon="-161.053412111106">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>389-43-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="54.5609782640403" lon="-160.970835088924">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>390-46-113</name>
+    <desc>Stratum: 113, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.9723696886682" lon="-160.84372670081">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>393-55-15</name>
+    <desc>Stratum: 15, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.4280690795269" lon="-160.918607428618">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>393-65-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.0406865262304" lon="-160.777401124716">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>394-56-15</name>
+    <desc>Stratum: 15, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="54.5411163379262" lon="-160.611901003626">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>395-45-113</name>
     <desc>Stratum: 113, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.0114104558436" lon="-161.007918170902">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>391-56-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
+  <wpt lat="54.2773523852234" lon="-160.412862661258">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>397-39-211</name>
+    <desc>Stratum: 211, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.3262932531266" lon="-160.652411923006">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>394-40-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.9947104119651" lon="-160.769211541925">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>394-55-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
+  <wpt lat="54.2834522502235" lon="-160.336822234308">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>398-39-211</name>
+    <desc>Stratum: 211, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.4400873505638" lon="-160.744410480951">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>395-65-14</name>
-    <desc>Stratum: 14, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.8727387847145" lon="-160.512796546451">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>397-52-15</name>
+  <wpt lat="54.7005749238333" lon="-160.405679795494">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>398-48-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.3545418630373" lon="-160.623672158046">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>397-63-14</name>
+  <wpt lat="55.6381773058483" lon="-160.313710392596">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>401-69-14</name>
     <desc>Stratum: 14, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.272528192337" lon="-160.485924323846">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>398-61-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.1089026565194" lon="-160.212363052587">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>401-57-14</name>
-    <desc>Stratum: 14, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.5349178766081" lon="-160.068020133916">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>402-44-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.2508886342057" lon="-160.024919839706">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>404-60-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.4086089196745" lon="-159.816464455906">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>405-41-113</name>
+  <wpt lat="55.6040634114995" lon="-160.081746978806">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>404-68-113</name>
     <desc>Stratum: 113, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="54.7979374223951" lon="-159.87558725285">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>405-50-15</name>
+    <desc>Stratum: 15, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.8161087184196" lon="-159.728240228505">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>407-50-14</name>
+    <desc>Stratum: 14, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.0062660744198" lon="-159.750841565554">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>407-54-14</name>
+    <desc>Stratum: 14, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.542958613701" lon="-159.753535795509">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>408-66-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.6721873696" lon="-159.778590637454">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>406-47-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.5453853479135" lon="-159.604593494933">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>408-44-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
   <wpt lat="55.663215717985" lon="-159.772042715114">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>408-69-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.6859810701411" lon="-159.532443982586">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>409-47-15</name>
+  <wpt lat="54.5510322088783" lon="-159.527917870247">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>409-44-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.874720141917" lon="-159.574723662754">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>409-51-14</name>
-    <desc>Stratum: 14, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.1820401818424" lon="-159.619694828663">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>409-58-15</name>
+  <wpt lat="54.6585603011926" lon="-159.465669962094">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>410-46-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.6737321910072" lon="-159.699188214758">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>409-69-14</name>
-    <desc>Stratum: 14, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.4134037886135" lon="-159.431049174695">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>410-41-211</name>
-    <desc>Stratum: 211, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="55.4890137227999" lon="-159.586402956681">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>410-65-113</name>
     <desc>Stratum: 113, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.5449061976132" lon="-159.594726126521">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>410-66-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.2796884676102" lon="-159.462933821835">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>411-60-15</name>
+  <wpt lat="54.6621777209814" lon="-159.310778890511">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>412-46-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="55.4623229394743" lon="-159.428357557807">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>412-64-113</name>
     <desc>Stratum: 113, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.5109619744478" lon="-159.212591849513">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>413-43-113</name>
-    <desc>Stratum: 113, Vessel: 176</desc>
+  <wpt lat="55.819135240465" lon="-159.48212585814">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>412-72-14</name>
+    <desc>Stratum: 14, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="54.4895439260449" lon="-159.132366324745">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>414-42-113</name>
-    <desc>Stratum: 113, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+    <desc>Stratum: 113, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.6929501084504" lon="-159.29750819562">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>414-69-15</name>
-    <desc>Stratum: 15, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.1030655552733" lon="-159.136631725189">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>415-56-15</name>
     <desc>Stratum: 15, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.8469496496596" lon="-159.031105318837">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>416-50-15</name>
+  <wpt lat="55.127631592649" lon="-159.010978083415">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>417-56-15</name>
     <desc>Stratum: 15, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.8945672539956" lon="-159.034248522291">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>416-51-15</name>
-    <desc>Stratum: 15, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.9870884259164" lon="-158.963439672584">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>417-53-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.1251738333234" lon="-158.972053849652">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>417-56-24</name>
+  <wpt lat="55.48075640288" lon="-158.950144525657">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>418-64-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.7131104614888" lon="-158.851158024076">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>418-47-24</name>
+  <wpt lat="55.7909422878286" lon="-158.91132235776">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>419-71-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.0839934511118" lon="-158.898469189065">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>418-55-24</name>
+  <wpt lat="54.9068707268072" lon="-158.719465012059">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>420-51-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.5792497837728" lon="-158.791996031575">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>420-66-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.8046617762894" lon="-158.833099883416">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>420-71-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
   <wpt lat="55.0496747667904" lon="-158.658741152222">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>421-54-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.3537175579547" lon="-158.617207342734">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>422-61-123</name>
+  <wpt lat="55.8642538997772" lon="-158.680543939589">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>422-72-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.2235639516112" lon="-158.522562854743">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>423-58-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="55.6872899996181" lon="-158.578630904798">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>423-68-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="54.9211119795453" lon="-158.408601903777">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>424-51-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.6447252977568" lon="-158.493764541677">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>424-67-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.7167618936368" lon="-158.502427984854">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>424-69-24</name>
+  <wpt lat="55.6006640838437" lon="-158.488482383355">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>424-66-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.1928585702472" lon="-158.280319344598">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>426-57-24</name>
+  <wpt lat="55.3597945919649" lon="-158.380779470693">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>425-61-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.4715631648648" lon="-158.314512275096">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>426-63-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.5140981634128" lon="-158.319395372891">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>426-64-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.3579706967791" lon="-158.422613695367">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>426-83-23</name>
-    <desc>Stratum: 23, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="54.8426250946539" lon="-158.135123556793">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>427-49-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.3236853660112" lon="-158.352779870672">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>427-82-23</name>
-    <desc>Stratum: 23, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.7932256754987" lon="-158.082415140228">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>428-48-24</name>
+  <wpt lat="55.6050518441802" lon="-158.170767460811">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>428-66-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.9605225188689" lon="-158.050092055937">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>430-74-24</name>
+  <wpt lat="55.7769965632081" lon="-158.189987196742">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>428-70-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.0504612645585" lon="-158.059929680731">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>430-76-24</name>
+  <wpt lat="55.5211252344605" lon="-158.002724246585">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>430-64-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.1459136724696" lon="-158.061428963668">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>430-78-24</name>
+  <wpt lat="56.3206394533901" lon="-158.089778653359">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>430-82-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="56.1035379943584" lon="-157.993093363112">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>431-77-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.4234832082332" lon="-158.019945669605">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>431-84-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.3448432810338" lon="-157.82607656473">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>432-60-24</name>
+  <wpt lat="55.8376530055449" lon="-157.87667495619">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>432-71-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.6997432761494" lon="-157.862377446003">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>432-68-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.7006024539619" lon="-157.782740557654">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>433-68-24</name>
+  <wpt lat="56.0074913500939" lon="-157.894432398135">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>432-75-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.7506617955144" lon="-157.787810978851">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>433-69-24</name>
+  <wpt lat="56.3308012561128" lon="-157.912077264758">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>432-82-23</name>
+    <desc>Stratum: 23, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="56.2397859084604" lon="-157.838096515499">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>433-80-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.8907630030512" lon="-157.641824337435">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>435-72-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.3958597534027" lon="-157.514963388227">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>436-61-24</name>
+  <wpt lat="55.3934605694913" lon="-157.672863461114">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>434-61-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.4838585517032" lon="-157.52318256908">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>436-63-24</name>
+  <wpt lat="55.1322157406047" lon="-157.56908748346">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>435-55-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.2988010107496" lon="-157.571124932315">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>436-81-123</name>
+  <wpt lat="55.2616436345365" lon="-157.581286503202">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>435-58-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.9894775223894" lon="-157.651514360317">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>435-74-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.2210615660637" lon="-157.498753320595">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>436-57-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.9919154222809" lon="-157.571417668731">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>436-74-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.9484266216466" lon="-157.390060532271">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>437-51-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.0880634443967" lon="-157.408103717631">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>437-54-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.529057692572" lon="-157.44807959443">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>437-64-24</name>
+  <wpt lat="56.3005801568233" lon="-157.433592484916">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>438-81-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.3005801568233" lon="-157.433592484916">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>438-81-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.3482306310664" lon="-157.443842803566">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>438-82-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.4468694880711" lon="-157.466823856356">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>438-84-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.7027512940096" lon="-157.417514513901">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>439-90-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.3987274924862" lon="-157.198998101734">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>440-61-24</name>
+  <wpt lat="55.7311975669649" lon="-157.227447134178">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>440-68-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.642954483829" lon="-157.219845792236">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>440-66-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.9079679011548" lon="-157.242785528748">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>440-72-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.995371593837" lon="-157.250424896082">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>440-74-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.5287126285025" lon="-157.301687835229">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>440-86-23</name>
+  <wpt lat="56.4853019452342" lon="-157.280795375834">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>440-85-23</name>
     <desc>Stratum: 23, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.8485330394986" lon="-157.157609617455">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>441-71-24</name>
+  <wpt lat="55.7285926612325" lon="-157.147477245334">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>441-68-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.9090360877368" lon="-157.16274623307">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>441-72-24</name>
+  <wpt lat="55.1342080133928" lon="-157.019742154563">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>442-55-123</name>
+    <desc>Stratum: 123, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.6440168689767" lon="-157.060812231284">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>442-66-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.7136053568337" lon="-157.23271593122">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>441-90-23</name>
+  <wpt lat="55.3808717847038" lon="-156.960470735001">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>443-60-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="56.0428594789487" lon="-157.013337933743">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>443-75-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.6911525147193" lon="-156.905359528686">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>444-67-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="56.1775195482291" lon="-156.943627458514">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>444-78-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="56.8443973307306" lon="-156.997806634381">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>444-93-23</name>
     <desc>Stratum: 23, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.9985824505755" lon="-157.090058567835">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>442-74-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.2195428752707" lon="-157.108575867117">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>442-79-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.7520680611633" lon="-157.15415014694">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>442-91-23</name>
-    <desc>Stratum: 23, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.4268181288015" lon="-156.884986017311">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>444-61-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.5598311927538" lon="-156.815832371473">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>445-64-24</name>
+  <wpt lat="55.339843141501" lon="-156.799440200794">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>445-59-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.8231705935639" lon="-156.82440925519">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>445-70-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.956967121347" lon="-156.84592872177">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>445-73-24</name>
+  <wpt lat="56.8527337469649" lon="-156.907130483288">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>445-93-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="56.8103324638042" lon="-156.830778396174">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>446-92-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.582998997111" lon="-156.894733120234">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>445-87-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.2861106722324" lon="-156.716676001206">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>446-58-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.3407644656936" lon="-156.641703930064">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>447-59-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.2783184231472" lon="-156.547132968044">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>449-80-123</name>
+  <wpt lat="55.7382841077803" lon="-156.510321901829">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>449-68-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.403551440649" lon="-156.555827781065">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>449-83-123</name>
+  <wpt lat="56.004594472282" lon="-156.528337631954">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>449-74-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.9052059522547" lon="-156.574692924244">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>449-94-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.6949625323904" lon="-156.427779503154">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>450-67-123</name>
-    <desc>Stratum: 123, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.832531636754" lon="-156.423032378916">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>450-70-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.1356081134451" lon="-156.456711666033">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>450-77-123</name>
-    <desc>Stratum: 123, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
   <wpt lat="56.5381283386918" lon="-156.483764439439">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>450-86-123</name>
+    <desc>Stratum: 123, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.5189269246562" lon="-156.33715550881">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>451-63-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="55.2022627805915" lon="-156.239053240013">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>452-56-321</name>
     <desc>Stratum: 321, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.0216310338429" lon="-156.288494053456">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>452-74-123</name>
+  <wpt lat="55.9619293227382" lon="-156.284816133045">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>452-73-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.3710853807777" lon="-156.330423065401">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>452-82-123</name>
+  <wpt lat="56.1392997470756" lon="-156.295778635305">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>452-77-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.8325404858023" lon="-156.175428144523">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>454-92-123</name>
-    <desc>Stratum: 123, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.4782761490385" lon="-156.017966985136">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>455-62-123</name>
+  <wpt lat="56.6298319241" lon="-156.326664357271">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>452-88-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.0180904962778" lon="-156.030340874833">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>455-74-24</name>
+  <wpt lat="56.8318066806081" lon="-156.257505122713">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>453-92-123</name>
+    <desc>Stratum: 123, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="57.0866193898837" lon="-156.273491902415">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>453-98-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="57.4510065350361" lon="-156.144316431573">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>455-106-23</name>
+    <desc>Stratum: 23, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.0480188059138" lon="-156.118100981057">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>455-97-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.0589577309771" lon="-155.969182014013">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>456-75-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.8253878974228" lon="-156.030379713122">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>456-92-123</name>
-    <desc>Stratum: 123, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="56.0589577309771" lon="-155.969182014013">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>456-75-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="57.0125096945696" lon="-156.021229941125">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>456-96-123</name>
+  <wpt lat="56.9683520325315" lon="-156.018757717783">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>456-95-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="55.6102775408202" lon="-155.866193327848">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>457-65-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.4240272034838" lon="-155.907584413304">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>457-83-123</name>
+  <wpt lat="57.1879295925669" lon="-155.864190432906">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>458-100-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="57.1879295925669" lon="-155.864190432906">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>458-100-123</name>
-    <desc>Stratum: 123, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="55.3546146324232" lon="-155.781657258816">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>458-59-321</name>
     <desc>Stratum: 321, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.661856936547" lon="-155.789220750684">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>458-66-24</name>
+  <wpt lat="55.9763106418765" lon="-155.816281581978">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>458-73-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.4250596630919" lon="-155.829570452539">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>458-83-123</name>
-    <desc>Stratum: 123, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.4722937478135" lon="-155.828796786296">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>458-84-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="56.4722937478135" lon="-155.828796786296">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>458-84-123</name>
+    <desc>Stratum: 123, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
   <wpt lat="57.1425328162735" lon="-155.843735703736">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>458-99-222</name>
     <desc>Stratum: 222, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.6192240959409" lon="-155.710800854323">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>459-65-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.0141759829195" lon="-155.725913654871">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>459-74-23</name>
-    <desc>Stratum: 23, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
   <wpt lat="56.5670854384848" lon="-155.752032910102">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>459-86-123</name>
-    <desc>Stratum: 123, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+    <desc>Stratum: 123, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.2858690972719" lon="-155.620932048703">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>461-102-222</name>
     <desc>Stratum: 222, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.6134044799421" lon="-155.591038141231">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>461-87-123</name>
-    <desc>Stratum: 123, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="56.0703653252358" lon="-155.567706565477">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>461-75-23</name>
+    <desc>Stratum: 23, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="56.8369035960509" lon="-155.600848143996">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>461-92-222</name>
     <desc>Stratum: 222, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="57.1958698100329" lon="-155.53393370664">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>462-100-222</name>
     <desc>Stratum: 222, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.658869136844" lon="-155.470962113745">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>462-66-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.8035088672334" lon="-155.390327306966">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>463-69-24</name>
+  <wpt lat="55.8483431014719" lon="-155.385605305855">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>463-70-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="55.8483431014719" lon="-155.385605305855">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>463-70-24</name>
+  <wpt lat="56.5246814584601" lon="-155.424363922443">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>463-85-24</name>
     <desc>Stratum: 24, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.5246814584601" lon="-155.424363922443">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>463-85-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="56.7902767564081" lon="-155.434785804649">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>463-91-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.6523291669619" lon="-155.265977680915">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>465-88-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.8387864763257" lon="-155.272489762577">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>465-92-123</name>
-    <desc>Stratum: 123, Vessel: 176</desc>
+  <wpt lat="56.5702212307923" lon="-155.344634714246">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>464-86-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.5363384239422" lon="-155.144252160945">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>466-63-321</name>
     <desc>Stratum: 321, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.7046655993299" lon="-155.185996213399">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>466-89-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
+  <wpt lat="55.808514450014" lon="-155.157502099122">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>466-69-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="57.3786651193539" lon="-155.125043524738">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>467-104-123</name>
+    <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.5552505505357" lon="-155.122978284807">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>467-108-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.2438966653549" lon="-155.037780933747">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>468-101-123</name>
+  <wpt lat="55.9491749319739" lon="-155.081744439767">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>467-72-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="56.0377469416282" lon="-155.084328138108">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>467-74-24</name>
+    <desc>Stratum: 24, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="57.420559190904" lon="-155.042924236982">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>468-105-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.7041218941238" lon="-155.012446311072">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>468-89-23</name>
-    <desc>Stratum: 23, Vessel: 176</desc>
+  <wpt lat="57.0174520531132" lon="-155.000615185231">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>468-96-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.6503286818171" lon="-154.965710249182">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>469-110-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.1271156456342" lon="-154.845389020348">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>470-76-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+  <wpt lat="57.2043769853197" lon="-154.868155968305">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>470-100-24</name>
+    <desc>Stratum: 24, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.1684325361696" lon="-154.829289205198">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>470-77-24</name>
+  <wpt lat="56.1271156456342" lon="-154.845389020348">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>470-76-24</name>
     <desc>Stratum: 24, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.5205339857199" lon="-154.79483813992">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>471-107-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.111810615621" lon="-154.703083664596">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>472-98-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.9523752571752" lon="-154.635217808627">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>473-117-123</name>
+  <wpt lat="57.6056620174442" lon="-154.712875133263">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>472-109-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.9555681388075" lon="-154.601054123641">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>473-72-321</name>
     <desc>Stratum: 321, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.1100429308144" lon="-154.615251366687">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>473-98-23</name>
-    <desc>Stratum: 23, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.6625377967881" lon="-154.531016123068">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>474-88-23</name>
+  <wpt lat="56.9706574153515" lon="-154.535546293581">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>474-95-23</name>
     <desc>Stratum: 23, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.0497484167352" lon="-154.44188995475">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>475-74-123</name>
     <desc>Stratum: 123, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.0843653413679" lon="-154.361883373119">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>476-75-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.2617771366198" lon="-154.363625451546">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>476-79-24</name>
-    <desc>Stratum: 24, Vessel: 148</desc>
+  <wpt lat="56.4396406818122" lon="-154.365389268685">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>476-83-23</name>
+    <desc>Stratum: 23, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="57.8786017522349" lon="-154.211292278849">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>478-115-123</name>
+  <wpt lat="57.737980823887" lon="-154.294631801284">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>477-112-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.9694603012625" lon="-154.21183952291">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>478-117-123</name>
+  <wpt lat="57.7877178143129" lon="-154.295047318034">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>477-113-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="58.0049155182088" lon="-154.212053851724">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>478-118-123</name>
     <desc>Stratum: 123, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="58.0149147075794" lon="-154.127268487677">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>479-118-123</name>
+    <desc>Stratum: 123, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="58.0965280532729" lon="-154.137646852184">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>479-120-222</name>
     <desc>Stratum: 222, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.261879302986" lon="-153.950590744916">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>481-79-38</name>
+  <wpt lat="56.4799556716152" lon="-154.040643296321">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>480-84-23</name>
+    <desc>Stratum: 23, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="57.9695041923914" lon="-153.872896265173">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>482-117-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="56.3064209398784" lon="-153.878645029605">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>482-80-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="57.0642012366671" lon="-153.935447683602">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>481-97-24</name>
-    <desc>Stratum: 24, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.9437772813126" lon="-153.879828869818">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>482-72-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="57.9694614831095" lon="-153.788160469953">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>483-117-136</name>
+  <wpt lat="58.051353929413" lon="-153.702730176629">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>484-119-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.0476995213956" lon="-153.787686930166">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>483-119-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
+  <wpt lat="58.5860749790271" lon="-153.698116496498">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>484-131-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.4816189318819" lon="-153.677664052787">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>484-151-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.7147343732569" lon="-153.713660149723">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>484-89-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.5438718144902" lon="-153.593259846478">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>485-130-38</name>
     <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="59.4038147886945" lon="-153.602422696943">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>485-149-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.9385312290396" lon="-153.639535892765">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>485-72-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
   <wpt lat="56.0209468530122" lon="-153.628984250312">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>485-74-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.1742390946691" lon="-153.531213172759">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>486-122-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
+  <wpt lat="58.9969153627225" lon="-153.528737310172">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>486-140-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.6162568977846" lon="-153.510979918962">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>486-154-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.6106175798189" lon="-153.525910713488">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>486-87-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.402176291952" lon="-153.356533877325">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>488-127-136</name>
+  <wpt lat="58.1788231535867" lon="-153.360656618481">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>488-122-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.894092836756" lon="-153.38336712417">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>488-93-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.7780155805558" lon="-153.196586354844">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>490-113-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.563472463139" lon="-153.225994745721">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>490-86-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
+    <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.6638488979174" lon="-153.005818722008">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>492-133-136</name>
+  <wpt lat="58.4931965891735" lon="-153.096759989334">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>491-129-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.8730974126988" lon="-153.045866720102">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>492-93-37</name>
-    <desc>Stratum: 37, Vessel: 148</desc>
+  <wpt lat="59.1599080502457" lon="-153.078978105385">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>491-144-38</name>
+    <desc>Stratum: 38, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="58.7585767066588" lon="-153.009879748224">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>492-135-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.5750243254266" lon="-152.978733213208">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>492-153-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="57.2419749737852" lon="-152.946911421231">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>493-101-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.3447482003882" lon="-152.921198900521">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>493-148-37</name>
     <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.3891204779972" lon="-152.896056924531">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>493-149-37</name>
-    <desc>Stratum: 37, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.7922647741035" lon="-152.970096527994">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>493-91-37</name>
-    <desc>Stratum: 37, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.9961131768162" lon="-152.821505141155">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>494-140-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.7848851423993" lon="-152.793531194256">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>494-158-36</name>
+  <wpt lat="59.7852903949619" lon="-152.882894395184">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>493-158-36</name>
     <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.4485853363028" lon="-152.762584407412">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>495-128-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.2842113491731" lon="-152.730671776409">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>496-102-36</name>
-    <desc>Stratum: 36, Vessel: 148</desc>
+  <wpt lat="56.7439174022509" lon="-152.976499276723">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>493-90-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.4883430052903" lon="-152.666784577039">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>496-129-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="56.7922647741035" lon="-152.970096527994">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>493-91-37</name>
+    <desc>Stratum: 37, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.1113983518637" lon="-152.642290130569">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>496-143-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.6981480274362" lon="-152.618377834286">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>496-156-36</name>
     <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.8774344852722" lon="-152.610901163038">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>496-160-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.9030883322449" lon="-152.563507563012">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>497-138-136</name>
+  <wpt lat="58.7650559602819" lon="-152.569295587882">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>497-135-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.3858012470685" lon="-152.662120009136">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>497-82-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+  <wpt lat="59.2071202708027" lon="-152.563640801909">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>497-145-38</name>
+    <desc>Stratum: 38, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.4320818631746" lon="-152.67086853062">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>497-83-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.8921654918939" lon="-152.481145593518">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>498-138-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.9327684107454" lon="-152.437503164962">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>498-139-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.2496818313634" lon="-152.460794464856">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>498-146-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="56.6575279536811" lon="-152.652143159633">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>497-88-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.6514636174345" lon="-152.423429971103">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>498-155-37</name>
     <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.3814839619584" lon="-152.366445681024">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>499-149-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
+  <wpt lat="59.9654933518415" lon="-152.429117488072">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>498-162-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.7418811503325" lon="-152.320050034349">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>499-157-37</name>
     <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.7926669229542" lon="-152.483112663048">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>499-91-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.3884157921568" lon="-152.27777116647">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>500-149-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="59.4276628668189" lon="-152.303046416856">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>500-150-37</name>
     <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.4737366161578" lon="-152.273389551445">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>500-151-37</name>
     <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.9710924226406" lon="-152.392257997602">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>500-95-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="57.4563208157747" lon="-152.28513905464">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>501-106-36</name>
-    <desc>Stratum: 36, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.4702954169856" lon="-152.179567438718">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>501-151-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
+  <wpt lat="58.887041719898" lon="-152.127860503947">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>502-138-38</name>
+    <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.5017049578822" lon="-152.207665028334">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>502-107-36</name>
-    <desc>Stratum: 36, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="57.32028388516" lon="-152.060171433492">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>504-103-38</name>
+  <wpt lat="57.149189402269" lon="-152.136750253776">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>503-99-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="57.7241387259568" lon="-152.031384534627">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>504-112-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+  <wpt lat="58.0752765804138" lon="-151.993758404717">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>504-120-38</name>
+    <desc>Stratum: 38, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.555453247986" lon="-151.914023411539">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>504-153-36</name>
     <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.8705535923981" lon="-151.894184859311">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>504-160-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.1834794071376" lon="-151.968189453993">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>505-100-37</name>
+  <wpt lat="57.0925170327612" lon="-151.974274991184">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>505-98-37</name>
     <desc>Stratum: 37, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.9256997278302" lon="-151.865410949798">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>505-139-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.0925170327612" lon="-151.974274991184">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>505-98-37</name>
-    <desc>Stratum: 37, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="57.853372007674" lon="-151.844176219795">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>506-115-37</name>
     <desc>Stratum: 37, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="56.9135451467116" lon="-151.907642957179">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>506-94-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
   <wpt lat="57.1914653970172" lon="-151.802807834655">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>507-100-37</name>
-    <desc>Stratum: 37, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+    <desc>Stratum: 37, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.6625909957218" lon="-151.70877543452">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>507-133-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="56.6437470985062" lon="-151.8365419166">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>507-88-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.5566300610397" lon="-151.474224904874">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>509-153-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
+  <wpt lat="58.0207100675272" lon="-151.58096523711">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>509-119-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.102246726325" lon="-151.489677264025">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>509-143-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.5339731339815" lon="-151.530374579085">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>510-108-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+    <desc>Stratum: 135, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="57.8897306279313" lon="-151.505379578764">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>510-116-37</name>
+    <desc>Stratum: 37, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.3303194806322" lon="-151.459869813478">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>510-126-37</name>
     <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="59.1976332386753" lon="-151.378899545488">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>510-145-36</name>
+    <desc>Stratum: 36, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="57.2660779041245" lon="-151.465733962409">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>511-102-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.6621800216608" lon="-151.437365303091">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>511-111-37</name>
-    <desc>Stratum: 37, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="57.3627999229122" lon="-151.399560076235">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>512-104-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
+    <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="57.3002231296741" lon="-151.463313683626">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>511-103-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.7324145223212" lon="-151.357388585237">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>511-135-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="58.5108063130066" lon="-151.204548224013">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>513-130-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.7944714328682" lon="-151.174591791296">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>514-114-37</name>
-    <desc>Stratum: 37, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.9565583613329" lon="-150.99602542514">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>515-140-136</name>
+  <wpt lat="58.6377540170587" lon="-151.105295572648">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>514-133-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.2146256186626" lon="-151.068965575717">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>516-101-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+    <desc>Stratum: 135, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="57.5661239666683" lon="-151.025076718659">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>516-109-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.0188024384187" lon="-150.98661275185">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>516-119-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.3364854831877" lon="-150.959010943076">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>516-126-37</name>
     <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.1749193074979" lon="-150.766543399182">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>517-145-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.9930750954111" lon="-150.711430671629">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>518-141-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.0401007175669" lon="-150.747131232414">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>518-142-136</name>
+  <wpt lat="57.3834848540049" lon="-150.79239438426">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>519-105-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.5794040247441" lon="-150.678551344137">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>519-132-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="57.3834848540049" lon="-150.79239438426">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>519-105-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
+  <wpt lat="58.7700499444644" lon="-150.660053560237">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>519-136-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="57.9609890358279" lon="-150.628457317712">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>520-118-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.9978186510655" lon="-150.550268298289">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>520-141-38</name>
+  <wpt lat="58.3121242835404" lon="-150.618458386105">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>520-126-37</name>
+    <desc>Stratum: 37, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.4938290679879" lon="-150.600655428582">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>520-130-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.004890966867" lon="-150.54524161411">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>521-119-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.1305250216026" lon="-150.55070020645">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>521-122-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.1729875116153" lon="-150.546620721865">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>521-123-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.9941107420297" lon="-150.463237432674">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>521-141-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.4214887648431" lon="-150.38089672166">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>521-151-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.4792956186163" lon="-150.41810538836">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>521-152-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="58.1487336716958" lon="-150.463734215278">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>522-122-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.4233270379224" lon="-150.45224078491">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>523-106-136</name>
+  <wpt lat="57.382530488811" lon="-150.456300666869">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>523-105-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.1770307641764" lon="-150.375497306057">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>523-123-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
+  <wpt lat="57.5102145133728" lon="-150.276029087955">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>525-108-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.4359363833517" lon="-150.239524829879">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>523-151-38</name>
+  <wpt lat="57.987304963283" lon="-150.225311671505">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>525-119-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.4938461503429" lon="-150.169905970704">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>525-130-38</name>
     <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.6377903892569" lon="-150.377657993491">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>524-111-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.1083480840523" lon="-150.188168396876">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>524-144-136</name>
+  <wpt lat="59.2433575923206" lon="-149.908655344609">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>527-147-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.3835903463545" lon="-149.980038474916">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>526-150-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.714334682488" lon="-149.971816358957">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>527-135-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.7948625832212" lon="-149.962329412597">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>527-137-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.3808554921074" lon="-149.891910469315">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>527-150-136</name>
+  <wpt lat="59.2882472751533" lon="-149.903203710391">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>527-148-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.187575588455" lon="-149.827454237776">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>528-146-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.117121568063" lon="-149.87028606313">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>529-122-136</name>
+  <wpt lat="59.5501315738728" lon="-149.785619932955">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>528-154-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.3886273313864" lon="-149.818857172768">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>529-128-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.8716637338284" lon="-149.691802302382">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>530-139-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
+    <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="57.9338458915059" lon="-149.807053459876">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>530-118-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="57.9791850164494" lon="-149.724089581165">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>531-119-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.5994037154432" lon="-149.63326948262">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>531-133-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.6928273094958" lon="-149.627568095003">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>531-135-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.2804993265398" lon="-149.551307210377">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>531-148-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.6665154421186" lon="-149.499736814919">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>531-157-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.8107081125218" lon="-149.480162867041">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>531-160-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.051505018697" lon="-149.493709222997">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>532-143-136</name>
+  <wpt lat="58.7323105143767" lon="-149.622527330451">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>531-136-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.2360248828737" lon="-149.469060186575">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>532-147-135</name>
-    <desc>Stratum: 135, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.3142897137648" lon="-149.458522814653">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>532-149-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="59.404551405904" lon="-149.464776873659">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>532-151-38</name>
+    <desc>Stratum: 38, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="59.4478906192229" lon="-149.409254358522">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>532-152-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.2812813261328" lon="-149.508049901603">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>533-126-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="59.4905535516905" lon="-149.373213711141">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>533-153-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.3823163986341" lon="-149.408987993658">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>534-128-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.5475562990341" lon="-149.309099401731">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>535-132-135</name>
-    <desc>Stratum: 135, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.5317723766394" lon="-149.162248408512">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>535-154-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
   <wpt lat="59.9298472063992" lon="-149.086702344069">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>535-163-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.6407908344023" lon="-149.201215795533">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>536-134-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.1790409408205" lon="-149.093951371768">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>538-124-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.1271405669579" lon="-149.015902547934">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>539-123-38</name>
+  <wpt lat="59.0636642154995" lon="-149.125447237127">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>536-144-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="58.1790409408205" lon="-149.093951371768">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>538-124-135</name>
+    <desc>Stratum: 135, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="58.5819668481414" lon="-149.036474034621">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>538-133-38</name>
     <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.3529129472066" lon="-148.913680554363">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>540-128-38</name>
+  <wpt lat="58.1271405669579" lon="-149.015902547934">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>539-123-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.4633917750382" lon="-148.63951641349">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>541-153-38</name>
+  <wpt lat="59.6517671941671" lon="-148.787766039909">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>539-157-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="57.9867686188092" lon="-148.950876189914">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>540-120-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.3529129472066" lon="-148.913680554363">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>540-128-38</name>
     <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.0278233847764" lon="-148.77468198999">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>542-121-136</name>
+  <wpt lat="58.6618803006917" lon="-148.851523720647">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>540-135-136</name>
     <desc>Stratum: 136, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="58.43864411554" lon="-148.712514492598">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>542-130-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.7809367708984" lon="-148.659560543954">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>542-138-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.8175727134268" lon="-148.521035460485">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>542-161-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="59.8175727134268" lon="-148.521035460485">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>542-161-135</name>
+    <desc>Stratum: 135, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.8040956384824" lon="-148.477374755103">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>542-161-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="59.9154626935278" lon="-148.476116470992">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>542-163-38</name>
     <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.137542909626" lon="-148.44114550751">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>544-146-135</name>
-    <desc>Stratum: 135, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.7651160204085" lon="-148.340591858176">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>544-160-135</name>
     <desc>Stratum: 135, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.2363363003774" lon="-148.322764612954">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>545-148-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="58.4241094074341" lon="-148.469131986314">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>545-130-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.1807677067447" lon="-148.239483155587">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>546-147-135</name>
     <desc>Stratum: 135, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="59.5345015402845" lon="-148.183053645585">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>546-155-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.9469243916582" lon="-148.108615667859">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>548-142-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.2987134209693" lon="-148.046995150973">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>548-150-136</name>
+    <desc>Stratum: 136, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="59.6612747906124" lon="-147.982111349956">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>548-158-37</name>
-    <desc>Stratum: 37, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.7889647576707" lon="-147.965967878409">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>548-161-36</name>
-    <desc>Stratum: 36, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.9510177868018" lon="-148.020380871681">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>549-142-136</name>
-    <desc>Stratum: 136, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.2949623761629" lon="-147.870798241239">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>550-150-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
+    <desc>Stratum: 37, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.6879736392534" lon="-147.798312896427">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>550-159-38</name>
+  <wpt lat="59.6129624469113" lon="-147.901565699218">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>549-157-38</name>
     <desc>Stratum: 38, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.1098562014173" lon="-147.728419188218">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>552-146-136</name>
+  <wpt lat="59.2919349263386" lon="-147.782911305528">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>551-150-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.2521390144469" lon="-147.701915169316">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>552-149-136</name>
-    <desc>Stratum: 136, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.9454206135465" lon="-147.454750675068">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>553-165-36</name>
-    <desc>Stratum: 36, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.5399722368556" lon="-147.469344448876">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>554-156-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.7213717803906" lon="-147.433645845433">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>554-160-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="60.0333463607563" lon="-147.346758546883">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>554-167-36</name>
-    <desc>Stratum: 36, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.3597997887582" lon="-147.41575224159">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>555-152-38</name>
-    <desc>Stratum: 38, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.2706609150982" lon="-147.34476080105">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>556-150-136</name>
+  <wpt lat="59.1530372402814" lon="-147.720399395646">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>552-147-136</name>
     <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.3666128516176" lon="-147.503096967774">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>554-152-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.4008744868029" lon="-147.496454270877">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>554-153-38</name>
+    <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.7156386014071" lon="-147.266152051886">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>556-160-38</name>
-    <desc>Stratum: 38, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.4726609095962" lon="-146.919897351595">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>560-155-145</name>
-    <desc>Stratum: 145, Vessel: 148</desc>
+    <desc>Stratum: 38, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.3838358071978" lon="-146.789595850798">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>562-153-144</name>
-    <desc>Stratum: 144, Vessel: 176</desc>
+  <wpt lat="59.3492002276793" lon="-147.063169249973">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>559-152-136</name>
+    <desc>Stratum: 136, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.4726609095962" lon="-146.919897351595">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>560-155-145</name>
+    <desc>Stratum: 145, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.8228078739042" lon="-146.693853173797">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>562-163-43</name>
     <desc>Stratum: 43, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.4598059294277" lon="-146.684177257353">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>563-155-43</name>
+  <wpt lat="59.9821364527368" lon="-146.568009842342">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>563-167-43</name>
     <desc>Stratum: 43, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.9821364527368" lon="-146.568009842342">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>563-167-43</name>
-    <desc>Stratum: 43, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.305303637597" lon="-146.361335126228">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>567-152-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.5285532188345" lon="-146.314648835489">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>567-157-42</name>
+    <desc>Stratum: 42, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="59.2517660808218" lon="-146.217656103994">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>569-151-242</name>
-    <desc>Stratum: 242, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+    <desc>Stratum: 242, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="60.2631640321768" lon="-145.864857017506">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>570-174-43</name>
-    <desc>Stratum: 43, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.5786313864896" lon="-145.674296930612">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>574-159-144</name>
-    <desc>Stratum: 144, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.8246599753527" lon="-145.52205361738">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>575-165-144</name>
-    <desc>Stratum: 144, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.6077125739042" lon="-145.398161064872">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>577-160-144</name>
-    <desc>Stratum: 144, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.4560244982905" lon="-145.112233272292">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>581-157-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.7224731704866" lon="-145.008395049747">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>581-163-144</name>
-    <desc>Stratum: 144, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.4834757020823" lon="-144.894108546713">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>583-158-242</name>
-    <desc>Stratum: 242, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.5724394442725" lon="-144.87587627325">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>583-160-145</name>
-    <desc>Stratum: 145, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.4773558276513" lon="-144.833078459051">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>584-158-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.6087342369874" lon="-144.767176799776">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>584-161-144</name>
-    <desc>Stratum: 144, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.5340085655317" lon="-144.432384386328">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>588-160-242</name>
-    <desc>Stratum: 242, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.6208024625971" lon="-144.227588272268">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>590-162-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.7391097096343" lon="-143.560576101523">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>597-166-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.6800630859303" lon="-142.766703544816">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>606-166-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.6938386063673" lon="-142.400203084179">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>610-167-145</name>
-    <desc>Stratum: 145, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.8136675468214" lon="-142.267058034921">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>611-170-144</name>
-    <desc>Stratum: 144, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.4524133999253" lon="-142.304799793038">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>612-162-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.3996360179682" lon="-142.233619047254">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>613-161-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.5365540439827" lon="-142.184987128696">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>613-164-145</name>
-    <desc>Stratum: 145, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.4364105809792" lon="-142.040862466884">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>615-162-145</name>
-    <desc>Stratum: 145, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.5908538302942" lon="-141.894665525727">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>616-166-144</name>
-    <desc>Stratum: 144, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.2381283453036" lon="-141.843689339864">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>618-158-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.276670244434" lon="-141.829646837984">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>618-159-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.3282269447289" lon="-141.810810974291">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>618-160-145</name>
-    <desc>Stratum: 145, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="59.4477302210663" lon="-141.766923303446">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>618-163-145</name>
-    <desc>Stratum: 145, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.6874859338164" lon="-141.405821084047">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>621-169-43</name>
     <desc>Stratum: 43, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.4998852242115" lon="-141.386952953998">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>622-165-144</name>
-    <desc>Stratum: 144, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
+  <wpt lat="60.1645002133713" lon="-145.70723765059">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>572-172-144</name>
+    <desc>Stratum: 144, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.0197457040202" lon="-141.389339865133">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>624-154-242</name>
-    <desc>Stratum: 242, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.6935169851586" lon="-140.949484488897">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>626-170-42</name>
+  <wpt lat="60.1842224199683" lon="-145.337457795928">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>576-173-42</name>
     <desc>Stratum: 42, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.0872873230918" lon="-140.739418536632">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>631-157-144</name>
+  <wpt lat="59.7526703100613" lon="-145.000181312622">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>581-164-144</name>
+    <desc>Stratum: 144, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.7157575359646" lon="-144.920210391965">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>582-163-144</name>
     <desc>Stratum: 144, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.5504840590626" lon="-140.34753177699">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>633-168-145</name>
+  <wpt lat="59.5724394442725" lon="-144.87587627325">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>583-160-145</name>
+    <desc>Stratum: 145, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.565765369701" lon="-144.831998967612">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>583-160-242</name>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="60.1822429078492" lon="-144.699032800085">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>583-174-42</name>
+    <desc>Stratum: 42, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.6322185519711" lon="-144.493922418959">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>587-162-144</name>
+    <desc>Stratum: 144, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.5340085655317" lon="-144.432384386328">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>588-160-242</name>
+    <desc>Stratum: 242, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.5361496977183" lon="-143.265059659288">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>601-162-242</name>
+    <desc>Stratum: 242, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.9400348590783" lon="-142.768632829989">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>605-172-144</name>
+    <desc>Stratum: 144, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.533880394316" lon="-142.636246229952">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>608-163-242</name>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.6938386063673" lon="-142.400203084179">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>610-167-145</name>
     <desc>Stratum: 145, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="59.5183748187359" lon="-142.371568472969">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>611-163-242</name>
+    <desc>Stratum: 242, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.5465208056057" lon="-142.361688264304">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>611-164-242</name>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.4920728282154" lon="-142.200830984283">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>613-163-145</name>
+    <desc>Stratum: 145, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.4364105809792" lon="-142.040862466884">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>615-162-145</name>
+    <desc>Stratum: 145, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.6410996811946" lon="-141.876235277064">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>616-167-144</name>
+    <desc>Stratum: 144, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.3282269447289" lon="-141.810810974291">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>618-160-145</name>
+    <desc>Stratum: 145, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.4477302210663" lon="-141.766923303446">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>618-163-145</name>
+    <desc>Stratum: 145, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.1142257878612" lon="-141.621293231293">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>621-156-242</name>
+    <desc>Stratum: 242, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.6874859338164" lon="-141.405821084047">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>621-169-43</name>
+    <desc>Stratum: 43, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.4387348438452" lon="-141.139930577336">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>625-164-242</name>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.4236547363704" lon="-141.055680280069">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>626-164-242</name>
+    <desc>Stratum: 242, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.2705664935699" lon="-140.845988939735">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>629-161-144</name>
+    <desc>Stratum: 144, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="59.3134464323341" lon="-140.829031961637">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>629-162-144</name>
+    <desc>Stratum: 144, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.5593611755127" lon="-140.549746490815">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>631-168-242</name>
+    <desc>Stratum: 242, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="59.5862294928493" lon="-140.35735697947">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>633-169-144</name>
     <desc>Stratum: 144, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.7004650597672" lon="-140.625969639388">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>634-149-242</name>
-    <desc>Stratum: 242, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.6797186833083" lon="-140.457571878805">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>636-149-242</name>
+  <wpt lat="58.6826041202051" lon="-140.544730957765">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>635-149-242</name>
     <desc>Stratum: 242, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.7703482363123" lon="-140.421240090479">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>636-151-145</name>
     <desc>Stratum: 145, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.0189663292283" lon="-140.231298528721">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>637-157-144</name>
+  <wpt lat="59.4948552321726" lon="-140.038243116338">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>637-168-144</name>
     <desc>Stratum: 144, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.3625198376029" lon="-140.020880959272">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>638-165-144</name>
-    <desc>Stratum: 144, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="59.4496461841612" lon="-139.95962015203">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>638-167-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
+  <wpt lat="59.8016093722655" lon="-139.810501775264">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>638-175-51</name>
+    <desc>Stratum: 51, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="59.8015710995316" lon="-139.810518380834">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>638-175-51</name>
-    <desc>Stratum: 51, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="58.8297546910132" lon="-140.138015879741">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>639-153-145</name>
     <desc>Stratum: 145, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="59.6658990773049" lon="-139.807050162673">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>639-172-51</name>
+    <desc>Stratum: 51, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
   <wpt lat="58.6908120257013" lon="-140.113573389241">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>640-150-145</name>
     <desc>Stratum: 145, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.7849869767937" lon="-139.794540074143">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>643-153-152</name>
+  <wpt lat="59.0319118897134" lon="-139.868586125216">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>641-158-152</name>
+    <desc>Stratum: 152, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.6694280301244" lon="-139.931504279501">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>642-150-152</name>
+    <desc>Stratum: 152, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="58.9623887387492" lon="-139.719402127262">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>643-157-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="59.0479761274407" lon="-139.68286184987">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>643-159-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.0310316003004" lon="-139.511159139657">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>645-159-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
   <wpt lat="58.6760913563725" lon="-139.57723184167">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>646-151-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.9004912464984" lon="-139.478319136694">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>646-156-152</name>
+  <wpt lat="58.7779107137524" lon="-139.353409124396">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>648-154-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.9381505809187" lon="-139.462014860622">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>646-157-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.6191407667995" lon="-139.422096053173">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>648-150-252</name>
-    <desc>Stratum: 252, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.9087583424837" lon="-139.207044393556">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>649-157-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
   <wpt lat="58.3770986200192" lon="-139.349882973299">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>650-145-252</name>
     <desc>Stratum: 252, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.7243691019768" lon="-139.199107502149">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>650-153-252</name>
+  <wpt lat="58.7672293415558" lon="-139.172147051318">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>650-154-252</name>
     <desc>Stratum: 252, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.7672293415558" lon="-139.172147051318">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>650-154-252</name>
+  <wpt lat="58.7662293088821" lon="-139.091795359703">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>651-154-252</name>
     <desc>Stratum: 252, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.876172843165" lon="-138.928597079779">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>652-157-252</name>
     <desc>Stratum: 252, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="59.1709499323599" lon="-138.75088180941">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>653-164-51</name>
+  <wpt lat="58.5018003777449" lon="-138.854796789393">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>655-149-51</name>
     <desc>Stratum: 51, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="58.8516503469395" lon="-138.696987017457">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>655-157-152</name>
+    <desc>Stratum: 152, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="59.0138196873775" lon="-138.622692876076">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>655-161-152</name>
+    <desc>Stratum: 152, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="58.2121428586309" lon="-138.895395403726">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>656-143-252</name>
     <desc>Stratum: 252, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.579297182589" lon="-138.750929316978">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>656-151-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="58.5444414667803" lon="-138.481744508277">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>659-151-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.2310266511559" lon="-138.536314769482">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>660-144-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
+  <wpt lat="58.5692926167201" lon="-138.653604854822">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>657-151-51</name>
+    <desc>Stratum: 51, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
+  <wpt lat="58.1175089146396" lon="-138.732483393725">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>658-141-352</name>
+    <desc>Stratum: 352, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
   <wpt lat="58.219219656482" lon="-138.453932227928">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>661-144-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.4262939157115" lon="-138.182535161575">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>663-149-152</name>
+  <wpt lat="58.3407954795012" lon="-138.310366191643">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>662-147-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.1238614711245" lon="-138.059413167391">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>666-143-152</name>
+  <wpt lat="58.3091118642296" lon="-138.148886623824">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>664-147-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.4824672907541" lon="-137.890692009905">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>666-151-152</name>
+  <wpt lat="58.1740943766499" lon="-138.123738979854">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>665-144-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="58.2085379911341" lon="-137.668277736968">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>670-146-152</name>
+  <wpt lat="58.3472507424883" lon="-137.954737589392">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>666-148-152</name>
+    <desc>Stratum: 152, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="58.3978340025377" lon="-137.66563640233">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>669-150-152</name>
+    <desc>Stratum: 152, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="58.4288230436035" lon="-137.562163337065">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>670-151-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="58.5149607413397" lon="-137.535249989854">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>670-153-152</name>
+    <desc>Stratum: 152, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="58.1688190706399" lon="-137.423558456367">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>673-146-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.0723829149039" lon="-137.645553099815">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>671-143-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.1621100662691" lon="-137.602610302701">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>671-145-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="58.3020143374052" lon="-137.270321312207">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>674-149-152</name>
+  <wpt lat="58.3975431294173" lon="-137.311760212244">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>673-151-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="58.1018635399884" lon="-136.752908420953">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>681-146-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="58.2220683241887" lon="-136.71835770616">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>681-149-51</name>
-    <desc>Stratum: 51, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="57.9075608779205" lon="-136.762955068777">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>682-142-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
+  <wpt lat="57.5980037649495" lon="-136.561756780058">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>686-136-352</name>
+    <desc>Stratum: 352, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="57.7917595504867" lon="-136.646382448661">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>684-140-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="57.5980037649495" lon="-136.561756780058">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>686-136-352</name>
-    <desc>Stratum: 352, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="57.2204381892026" lon="-135.897758523315">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>696-130-51</name>
-    <desc>Stratum: 51, Vessel: 176</desc>
+  <wpt lat="57.3770312823478" lon="-136.248672197666">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>691-132-152</name>
+    <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="56.9493305274383" lon="-135.951558503421">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>697-124-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.6849874567352" lon="-135.744595226084">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>701-119-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.5735318771562" lon="-135.634195514428">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>703-117-152</name>
+  <wpt lat="56.6849874567352" lon="-135.744595226084">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>701-119-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.9202865609377" lon="-135.454037133128">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>703-125-51</name>
-    <desc>Stratum: 51, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.6419645264963" lon="-135.513909338626">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>704-119-152</name>
+  <wpt lat="56.7757815350874" lon="-135.699592327705">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>701-121-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="56.4188547989168" lon="-135.544943456058">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>705-114-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.506915277811" lon="-135.499351544797">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>705-116-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="56.2995825738209" lon="-135.353908976003">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>708-112-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.1976140218316" lon="-135.322857465381">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>709-110-252</name>
-    <desc>Stratum: 252, Vessel: 148</desc>
+  <wpt lat="56.6386297345172" lon="-135.148796432608">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>708-120-51</name>
+    <desc>Stratum: 51, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.0877072894786" lon="-135.212346662417">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>711-108-352</name>
-    <desc>Stratum: 352, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="56.1355358672522" lon="-135.187378599113">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>711-109-352</name>
-    <desc>Stratum: 352, Vessel: 176</desc>
+  <wpt lat="56.1976140218316" lon="-135.322857465381">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>709-110-252</name>
+    <desc>Stratum: 252, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.8582132847932" lon="-135.231222057213">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>712-103-252</name>
-    <desc>Stratum: 252, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.9461714841273" lon="-135.20240775766">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>712-105-252</name>
     <desc>Stratum: 252, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="56.1233587952295" lon="-135.098019433064">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>712-109-252</name>
+  <wpt lat="55.9461714841273" lon="-135.20240775766">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>712-105-252</name>
     <desc>Stratum: 252, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="56.1052984548114" lon="-135.030360176749">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>713-109-352</name>
+  <wpt lat="56.1233587952295" lon="-135.098019433064">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>712-109-252</name>
+    <desc>Stratum: 252, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.978985187956" lon="-135.101809483175">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>713-106-352</name>
     <desc>Stratum: 352, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
+  <wpt lat="56.1052984548114" lon="-135.030360176749">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>713-109-352</name>
+    <desc>Stratum: 352, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
   <wpt lat="56.2461002030081" lon="-134.961043630623">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>713-112-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.8425891367365" lon="-134.92306621905">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>716-104-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
+  <wpt lat="55.6512531918129" lon="-135.109092355605">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>715-99-352</name>
+    <desc>Stratum: 352, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.6593545525591" lon="-134.876272695527">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>718-100-252</name>
-    <desc>Stratum: 252, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
+    <desc>Stratum: 252, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.8667673482126" lon="-134.743535924217">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>718-105-152</name>
+    <desc>Stratum: 152, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.397595971517" lon="-134.742655681083">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>721-95-252</name>
     <desc>Stratum: 252, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="55.5157972994901" lon="-134.608350610048">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>722-98-252</name>
     <desc>Stratum: 252, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="55.6434703985629" lon="-134.280523193186">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>725-102-252</name>
-    <desc>Stratum: 252, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.348736782035" lon="-134.438903928384">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>725-95-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="55.4545777243307" lon="-134.228422334277">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>727-98-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="55.6945727047016" lon="-134.002945833788">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>728-104-252</name>
     <desc>Stratum: 252, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="55.160382948953" lon="-134.181821762746">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>729-92-152</name>
+  <wpt lat="55.2943415289905" lon="-134.381322330383">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>726-94-152</name>
+    <desc>Stratum: 152, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="55.6945727047016" lon="-134.002945833788">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>728-104-252</name>
+    <desc>Stratum: 252, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
+  </wpt>
+  <wpt lat="55.425605920416" lon="-134.063833022691">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>729-98-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
   <wpt lat="54.8294476315688" lon="-134.142571105464">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>732-85-252</name>
+    <desc>Stratum: 252, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.5745400315672" lon="-134.036470133617">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>735-80-352</name>
+    <desc>Stratum: 352, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.6587611133732" lon="-133.990090714269">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>735-82-252</name>
     <desc>Stratum: 252, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
   <wpt lat="54.7945795355291" lon="-133.917077370442">
-    <time>2025-03-19T11:52:04.000000Z</time>
+    <time>2025-04-21T10:20:24.000000Z</time>
     <name>735-85-152</name>
     <desc>Stratum: 152, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.6252533855547" lon="-133.764831375158">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>738-82-252</name>
-    <desc>Stratum: 252, Vessel: 148</desc>
+  <wpt lat="55.0507855340208" lon="-133.777819073661">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>735-91-152</name>
+    <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.6521068065033" lon="-133.4253450683">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>742-84-352</name>
+  <wpt lat="55.1567298240268" lon="-133.637366537057">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>736-94-152</name>
+    <desc>Stratum: 152, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.5919316627784" lon="-133.615746445916">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>740-82-352</name>
     <desc>Stratum: 352, Vessel: 176</desc>
     <sym>Symbol-Spot-Yellow</sym>
   </wpt>
-  <wpt lat="54.9178681532902" lon="-133.277663711512">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>742-90-152</name>
-    <desc>Stratum: 152, Vessel: 148</desc>
-    <sym>Symbol-Circle-Green</sym>
-  </wpt>
-  <wpt lat="54.5103549192621" lon="-133.426975611904">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>743-81-352</name>
+  <wpt lat="54.6521068065033" lon="-133.4253450683">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>742-84-352</name>
     <desc>Stratum: 352, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
   </wpt>
-  <wpt lat="54.8673611021606" lon="-133.079067105">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>745-90-152</name>
-    <desc>Stratum: 152, Vessel: 176</desc>
-    <sym>Symbol-Spot-Yellow</sym>
-  </wpt>
-  <wpt lat="54.8121625460964" lon="-133.021873990438">
-    <time>2025-03-19T11:52:04.000000Z</time>
-    <name>746-89-152</name>
+  <wpt lat="54.7715638107297" lon="-133.27764502437">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>743-87-152</name>
     <desc>Stratum: 152, Vessel: 148</desc>
     <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.7801242547297" lon="-133.109548938328">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>745-88-252</name>
+    <desc>Stratum: 252, Vessel: 148</desc>
+    <sym>Symbol-Circle-Green</sym>
+  </wpt>
+  <wpt lat="54.8121625460964" lon="-133.021873990438">
+    <time>2025-04-21T10:20:24.000000Z</time>
+    <name>746-89-152</name>
+    <desc>Stratum: 152, Vessel: 176</desc>
+    <sym>Symbol-Spot-Yellow</sym>
   </wpt>
 </gpx>
