@@ -244,19 +244,24 @@ for(ii in 1:length(software_types)) {
 
   # Add an entry for every crab pot storage data set
 
-  # crabpots <- sf::st_read("G:/GOA/GOA 2023/ArcMap/GIS/GOA_2023/Crab Pot Storage/ErlaN_Poly.shp") |>
-  #   sf::st_transform(crs = "EPSG:4326")
-  #
-  # crabpots$description <- "Crab pot storage"
-  # crabpots$id <- "Pot storage"
-  # crabpots$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
-  #
-  # sf_to_nav_file(x = crabpots,
-  #                file = here::here("output", region, "navigation", SOFTWARE, paste0("crabpots_2023.", FILE_TYPE_LINESTRING)),
-  #                name_col = "id",
-  #                description_col = "description",
-  #                color_col = "color",
-  #                software_format = SOFTWARE)
+  crabpots <- rbind(
+    sf::st_read(here::here("assets", "data", "crabpots", "2025", "crabpots_early_dawn_2025.shp")),
+    sf::st_read(here::here("assets", "data", "crabpots", "2025", "crabpots_erla_n_2025.shp"))
+  )
+
+  crabpots$description <- "Crab pot storage"
+  crabpots$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+
+  sf_to_nav_file(x = crabpots,
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("goa_crabpots_2025.", FILE_TYPE_LINESTRING)),
+                 name_col = "vessel",
+                 description_col = "description",
+                 color_col = "color",
+                 software_format = SOFTWARE)
+
+  sf::st_transform(crabpots, crs = "EPSG:3338") |>
+    st_write(here::here("output", region, "shapefiles", "goa_crabpots_2025.shp"),
+             overwrite = TRUE)
 
   # 16. Canadian border claim at Dixon Entrance
   dixon_entrance <- sf::st_read(here::here("assets", "data", "dixon_entrance", "canadaborder.shp"),
@@ -278,7 +283,7 @@ for(ii in 1:length(software_types)) {
                  fill_col = "fill",
                  software_format = SOFTWARE)
 
-  # 17. Special collection: GOA drop camera zones
+  # 17. Special collection: GOA drop camera zones ----
   drop_cam_zones <-
     sf::st_read(
       dsn = here::here("assets", "data", "special_projects", "GOA", "2025", "catcam_areas.gpkg")
@@ -305,6 +310,30 @@ for(ii in 1:length(software_types)) {
                here::here("output", region, "shapefiles", "drop_cam_zones.shp"),
                append = FALSE)
 
+  # 18. Rocket exclusion zone ----
+  
+  rocket_launch_zone <- sf::st_read(
+    dsn = here::here("assets", "data", "Rocket_Exclusion_Zone", "DARPA", "DARPALaunch.shp")
+    ) |>
+    sf::st_transform(crs = "WGS84")
+  
+  rocket_launch_zone$name <- "Rocket launch zone"
+  rocket_launch_zone$description <- "Rocket launch zone"
+  rocket_launch_zone$fill <- 0
+  rocket_launch_zone$color <- navmaps::navmaps_pal(
+    values = "red",
+    software_format = SOFTWARE,
+    file_type = FILE_TYPE_POLYGON
+  )
+  
+  sf_to_nav_file(x = rocket_launch_zone,
+                 file = here::here("output", region, "navigation", SOFTWARE, paste0("rocket_exclusion_zone.", FILE_TYPE_POLYGON)),
+                 name_col = "name",
+                 description_col = "description",
+                 color_col = "color",
+                 fill_col = "fill",
+                 software_format = SOFTWARE)
+  
   
 }
 

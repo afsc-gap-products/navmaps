@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+<trk>
+  <name>Rocket launch zone</name>
+  <desc>Rocket launch zone</desc>
+  <time>2025-04-24T16:48:04.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="57.4747" lon="-152.2887"></trkpt>
+    <trkpt lat="57.4275" lon="-152.3325"></trkpt>
+    <trkpt lat="57.4238" lon="-152.364"></trkpt>
+    <trkpt lat="57.4332" lon="-152.4602"></trkpt>
+    <trkpt lat="56.2231" lon="-153.0111"></trkpt>
+    <trkpt lat="56.0975" lon="-154.4771"></trkpt>
+    <trkpt lat="54.2164" lon="-156.5143"></trkpt>
+    <trkpt lat="53.5244" lon="-151.0614"></trkpt>
+    <trkpt lat="55.9339" lon="-150.7938"></trkpt>
+    <trkpt lat="56.1626" lon="-152.5584"></trkpt>
+    <trkpt lat="57.4346" lon="-152.1264"></trkpt>
+    <trkpt lat="57.4773" lon="-152.2776"></trkpt>
+    <trkpt lat="57.4747" lon="-152.2887"></trkpt>  </trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Rocket launch zone</name>
+      <description>Rocket launch zone</description>
+      <time>2025-04-24T16:48:04.000000Z</time>
+      <LineString>
+        <coordinates>
+        -152.2887, 57.4747
+        -152.3325, 57.4275
+        -152.364, 57.4238
+        -152.4602, 57.4332
+        -153.0111, 56.2231
+        -154.4771, 56.0975
+        -156.5143, 54.2164
+        -151.0614, 53.5244
+        -150.7938, 55.9339
+        -152.5584, 56.1626
+        -152.1264, 57.4346
+        -152.2776, 57.4773
+        -152.2887, 57.4747
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>
