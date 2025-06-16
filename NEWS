@@ -1,3 +1,13 @@
+navmaps 1.4.0 (March 19, 2025)
+----------------------------------------------------------------
+
+NEW FEATURES
+
+- st_primary_centroid() function that calculates the centroid
+  for polygons and multipolygons, but for multipolygons calc-
+  ulates the centroid for the largest constituent polygon.
+  
+
 navmaps 1.3.0 (March 19, 2025)
 ----------------------------------------------------------------
 
