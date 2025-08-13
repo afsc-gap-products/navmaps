@@ -131,6 +131,7 @@ get_connected <- function(channel = NULL, schema = NA, check_connections = TRUE)
 #' Check for 32-bit driver and installation of R
 #' 
 #' @export
+#' @import odbc
 
 .check_driver <- function() {
   
@@ -145,6 +146,44 @@ get_connected <- function(channel = NULL, schema = NA, check_connections = TRUE)
   
 }
 
+
+#' Check for 32-bit driver and installation of R
+#' 
+#' @export
+#' @import RODBC
+
+.check_table_access <-
+  function(channel = NULL, schema, table_name, warn = TRUE) {
+    
+    stopifnot(".check_table_access: Schema length must equal 1." = length(schema) == 1)
+    
+    channel <- get_connected(channel)
+    
+    schema <- toupper(schema)
+    
+    table_name <- toupper(table_name)
+    
+    tables <- RODBC::sqlTables(channel, schema = schema)
+    
+    missing_tables <- which(!(table_name %in% tables$TABLE_NAME))
+    
+    if(length(missing_tables) > 0) {
+      msg <- paste0(".check_table_access: Table(s) ", 
+                    paste(
+                      paste0(schema, ".", table_name[missing_tables]), 
+                      collapse = ", "
+                    ), 
+                    " not found. Please check that you have select privileges and that the table exists.")
+      
+      if(warn) {
+        warning(msg)
+      } else {
+        stop(msg)
+      }
+      
+    }
+    
+  }
 
 
 #' Check ellipsis for arguments and throw a warning if any are detected

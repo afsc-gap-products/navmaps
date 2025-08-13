@@ -1,3 +1,12 @@
+navmaps 1.4.1 (August 13, 2025)
+----------------------------------------------------------------
+
+NEW FUNCTIONALITY
+
+- get_gps_data() uses internal .check_table_access() function 
+  to verify users have access to the necessary tables.
+
+
 navmaps 1.4.0 (June 16, 2025)
 ----------------------------------------------------------------
 
