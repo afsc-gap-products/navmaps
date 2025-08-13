@@ -147,8 +147,12 @@ get_connected <- function(channel = NULL, schema = NA, check_connections = TRUE)
 }
 
 
-#' Check for 32-bit driver and installation of R
+#' Check user access to tables
 #' 
+#' @param channel An open RODBC connection
+#' @param schema Schema to check as a 1L character vector (e.g. "RACEBASE")
+#' @param table_name Tables that need to be verified as a character vector (e.g. `c('HAUL', 'CATCH')`)
+#' @param warn Should a warning be generated when tables are not found? If FALSE, generates an error instead.
 #' @export
 #' @import RODBC
 

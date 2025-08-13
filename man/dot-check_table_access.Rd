@@ -2,10 +2,19 @@
 % Please edit documentation in R/utils.R
 \name{.check_table_access}
 \alias{.check_table_access}
-\title{Check for 32-bit driver and installation of R}
+\title{Check user access to tables}
 \usage{
 .check_table_access(channel = NULL, schema, table_name, warn = TRUE)
 }
+\arguments{
+\item{channel}{An open RODBC connection}
+
+\item{schema}{Schema to check as a 1L character vector (e.g. "RACEBASE")}
+
+\item{table_name}{Tables that need to be verified as a character vector (e.g. `c('HAUL', 'CATCH')`)}
+
+\item{warn}{Should a warning be generated when tables are not found? If FALSE, generates an error instead.}
+}
 \description{
-Check for 32-bit driver and installation of R
+Check user access to tables
 }
