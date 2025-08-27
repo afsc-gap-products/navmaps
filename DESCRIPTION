@@ -1,8 +1,8 @@
 Package: navmaps
 Type: Package
 Title: Survey navigation and planning maps
-Version: 1.4.1
-Date: 2025-08-13
+Version: 1.4.2
+Date: 2025-08-27
 Authors@R: c(person("Sean", "Rohan", email = "sean.rohan@noaa.gov", role = c("aut", "cre")),
     person("Alexandra", "Dowlin", email = "alexandra.dowlin@noaa.gov", role = "aut"),
     person("Zack", "Oyafuso", email = "zack.oyafuso@noaa.gov", role = "ctb"),
