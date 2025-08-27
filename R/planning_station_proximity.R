@@ -23,7 +23,7 @@
 
 planning_station_proximity <- function(x, ith_station = NULL) {
   
-  stopifnot("planning_station_proximity: x must be an sf class." = is(x, "sf"))
+  stopifnot("planning_station_proximity: x must be an sf or sfc class." = is(x, "sf") | is(x, "sfc"))
   stopifnot("planning_station_proximity: All geometries in 'x' must 
             be POINT types. Non-point types detected." = 
               all(

@@ -1,3 +1,12 @@
+navmaps 1.4.2 (August 27, 2025)
+----------------------------------------------------------------
+
+BUG FIX
+
+- st_line_midpoints() returns a point when coordinates in a 
+  linestring are exactly the same. Previously returned an 
+  an empty point.
+
 navmaps 1.4.1 (August 13, 2025)
 ----------------------------------------------------------------
 

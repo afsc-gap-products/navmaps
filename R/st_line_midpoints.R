@@ -15,6 +15,11 @@ st_line_midpoints <- function(sf_lines = NULL) {
     
     get_mids <- function(coords) {
       dist <- sqrt((diff(coords[, 1])^2 + (diff(coords[, 2]))^2))
+      
+      # Case when all coordinates are identical
+      if(all(dist == 0)) {
+        return(coords[1, 1:2])
+      }
       dist_mid <- sum(dist)/2
       dist_cum <- c(0, cumsum(dist))
       end_index <- which(dist_cum > dist_mid)[1]

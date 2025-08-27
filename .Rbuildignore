@@ -9,3 +9,6 @@ analysis
 archive
 doc
 make_layers
+NEWS
+.gitignore
+.Rhistory
