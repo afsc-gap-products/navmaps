@@ -1,6 +1,7 @@
 library(navmaps)
 library(gapindex)
 library(ggthemes)
+library(ggrepel)
 
 # Setup parameters
 vessel = c(148, 176)
@@ -32,6 +33,7 @@ for(jj in 1:length(vessel)) {
     ) |>
     dplyr::mutate(VESSEL = ifelse(vessel == "OEX", 148, 176)) |>
     dplyr::select(-vessel) |>
+    dplyr::filter(VESSEL == vessel[jj]) |>
     sf::st_as_sf(crs = "WGS84", coords = c("longitude", "latitude")) |>
     dplyr::mutate(VESSEL = ifelse(VESSEL == 148, 148, vessel[jj]),
                   YEAR = 2021,
@@ -58,12 +60,20 @@ for(jj in 1:length(vessel)) {
                   allocation = 520) |>
     planning_solve_station_tsp(hamilton = TRUE)
   
-  days_out_400 <- 
-    sf::st_read(dsn = here::here("assets", "data", "allocation", "goa_station_allocation_400.gpkg")) |>
+  # days_out_400 <-
+  #   sf::st_read(dsn = here::here("assets", "data", "allocation", "goa_station_allocation_400.gpkg")) |>
+  #   sf::st_transform(crs = set_crs) |>
+  #   dplyr::filter(VESSEL == vessel[jj]) |>
+  #   dplyr::mutate(YEAR = 2025,
+  #                 allocation = 400) |>
+  #   planning_solve_station_tsp(hamilton = TRUE)
+  
+  days_out_450 <-
+    sf::st_read(dsn = here::here("assets", "data", "allocation", "goa_2025_station_allocation_450_aea.gpkg")) |>
     sf::st_transform(crs = set_crs) |>
     dplyr::filter(VESSEL == vessel[jj]) |>
     dplyr::mutate(YEAR = 2025,
-                  allocation = 400) |>
+                  allocation = 450) |>
     planning_solve_station_tsp(hamilton = TRUE)
   
   station_tsp_dist[[jj]] <-
@@ -72,7 +82,8 @@ for(jj in 1:length(vessel)) {
       days_out_2021$distance_nodes,
       days_out_2023$distance_nodes,
       days_out_520$distance_nodes,
-      days_out_400$distance_nodes
+      # days_out_400$distance_nodes,
+      days_out_450$distance_nodes
     )
   
 }
@@ -91,6 +102,161 @@ station_tsp_dist <-
   dplyr::mutate(
     id = paste0(YEAR, " ", allocation, " TSP")
     )
+
+ggplot() +
+  geom_histogram(
+    data = station_tsp_dist,
+    mapping = aes(x = distance/1.852, fill = factor(VESSEL)),
+    bins = 20
+  ) +
+  facet_wrap(~paste0(YEAR, " (", allocation, ")")) +
+  scale_x_continuous(name = "Allocation inter-station transit (nmi)") +
+  scale_y_continuous(name = "Frequency") +
+  scale_fill_tableau(name = "Vessel") +
+  theme_bw()
+
+ggplot() +
+  geom_histogram(
+    data = station_tsp_dist,
+    mapping = aes(x = distance/1.852/10, fill = factor(VESSEL)),
+    bins = 20
+  ) +
+  facet_wrap(~paste0(YEAR, " (", allocation, ")")) +
+  scale_x_continuous(name = "Transit at 10 knots (hr)") +
+  scale_y_continuous(name = "Frequency") +
+  scale_fill_tableau(name = "Vessel") +
+  theme_bw()
+
+ggplot() +
+  geom_density(
+    data = station_tsp_dist,
+    mapping = aes(x = distance/1.852, color = paste0(YEAR, " (", allocation, ")"), group = interaction(VESSEL, allocation, YEAR)),
+    fill = NA
+  ) +
+  scale_x_continuous(name = "Allocation inter-station transit (nmi)") +
+  scale_y_continuous(name = "Density") +
+  scale_color_colorblind(name = "Year (stn)") + 
+  theme_bw()
+
+ggplot() +
+  stat_ecdf(
+    data = station_tsp_dist,
+    mapping = aes(x = distance/1.852, color = paste0(YEAR, " (", allocation, ")"), group = interaction(VESSEL, allocation, YEAR))
+  ) +
+  scale_x_continuous(name = "Allocation inter-station transit (nmi)") +
+  scale_y_continuous(name = "Cumulative proportion") +
+  scale_color_colorblind(name = "Year") + 
+  theme_bw()
+
+ggplot() +
+  geom_density(
+    data = station_tsp_dist,
+    mapping = aes(x = distance/1.852, color = paste0(YEAR, " (", allocation, ")"), group = interaction(VESSEL, allocation, YEAR)),
+    fill = NA
+  ) +
+  scale_x_continuous(name = "Transit at 10 knots (hr)") +
+  scale_y_continuous(name = "Density") +
+  scale_color_colorblind(name = "Year") + 
+  theme_bw()
+
+
+total_transit <- 
+  station_tsp_dist |>
+  sf::st_drop_geometry() |>
+  dplyr::group_by(VESSEL, YEAR, allocation) |>
+  dplyr::summarise(total_dist = sum(distance)) |>
+  dplyr::inner_join(station_tsp_dist |>
+                      sf::st_drop_geometry() |>
+                      dplyr::mutate(
+                        transit_time = distance/1.852/10,
+                        transit_gt_1hr = transit_time > 1,
+                        transit_gt_1_5hr = transit_time > 1.5,
+                        transit_gt_2hr = transit_time > 2,
+                        transit_gt_3hr = transit_time > 3
+                      ) |>
+                      dplyr::group_by(VESSEL, YEAR, allocation) |>
+                      dplyr::summarise(
+                        p_transit_gt_1hr = sum(transit_gt_1hr)/n()*100,
+                        p_transit_gt_1_5hr = sum(transit_gt_1_5hr)/n()*100,
+                        p_transit_gt_2hr = sum(transit_gt_2hr)/n()*100,
+                        p_transit_gt_3hr = sum(transit_gt_3hr)/n()*100,
+                        n_transit = n())
+  ) |>
+  dplyr::arrange(YEAR)
+
+ggplot() +
+  geom_point(
+    data = total_transit,
+    mapping = aes(x = YEAR, y = total_dist, color = factor(VESSEL))
+  ) +
+  geom_text(
+    data = total_transit,
+    mapping = aes(x = YEAR, y = total_dist, color = factor(VESSEL), label = allocation),
+    hjust = -0.2
+  ) +
+  scale_x_continuous(name = "Year") +
+  scale_y_continuous(name = "Total distance (km)") +
+  scale_color_colorblind(name = "Vessel") +
+  theme_bw()
+
+ggplot() +
+  geom_point(
+    data = total_transit,
+    mapping = aes(x = YEAR, y = total_dist/n_transit, color = factor(VESSEL))
+  ) +
+  geom_text(
+    data = total_transit,
+    mapping = aes(x = YEAR, y = total_dist/n_transit, color = factor(VESSEL), label = allocation),
+    hjust = -0.2
+  ) +
+  scale_x_continuous(name = "Year") +
+  scale_y_continuous(name = "Transit distance per station (km)") +
+  scale_color_colorblind(name = "Vessel") +
+  theme_bw()
+
+ggplot() +
+  geom_point(data = total_transit,
+             mapping = aes(x = YEAR, y = p_transit_gt_1hr, color = factor(VESSEL))) +
+  geom_text_repel(data = total_transit,
+                  mapping = aes(x = YEAR, y = p_transit_gt_1hr, color = factor(VESSEL), label = allocation),
+                  hjust = -0.2) +
+  scale_x_continuous(name = "Year") +
+  scale_y_continuous(name = "Transit > 1hr @ 10 knots (%)") +
+  scale_color_colorblind(name = "Vessel") +
+  theme_bw()
+
+ggplot() +
+  geom_point(data = total_transit,
+             mapping = aes(x = YEAR, y = p_transit_gt_1_5hr, color = factor(VESSEL))) +
+  geom_text_repel(data = total_transit,
+                  mapping = aes(x = YEAR, y = p_transit_gt_1_5hr, color = factor(VESSEL), label = allocation),
+                  hjust = -0.2) +
+  scale_x_continuous(name = "Year") +
+  scale_y_continuous(name = "Transit > 1.5hr @ 10 knots (%)") +
+  scale_color_colorblind(name = "Vessel") +
+  theme_bw()
+
+ggplot() +
+  geom_point(data = total_transit,
+            mapping = aes(x = YEAR, y = p_transit_gt_2hr, color = factor(VESSEL))) +
+  geom_text_repel(data = total_transit,
+             mapping = aes(x = YEAR, y = p_transit_gt_2hr, color = factor(VESSEL), label = allocation),
+            hjust = -0.2) +
+  scale_x_continuous(name = "Year") +
+  scale_y_continuous(name = "Transit > 2hr @ 10 knots (%)") +
+  scale_color_colorblind(name = "Vessel") +
+  theme_bw()
+
+ggplot() +
+  geom_point(data = total_transit,
+             mapping = aes(x = YEAR, y = p_transit_gt_3hr, color = factor(VESSEL))) +
+  geom_text_repel(data = total_transit,
+                  mapping = aes(x = YEAR, y = p_transit_gt_3hr, color = factor(VESSEL), label = allocation),
+                  hjust = -0.2) +
+  scale_x_continuous(name = "Year") +
+  scale_y_continuous(name = "Transit > 3hr @ 10 knots (%)") +
+  scale_color_colorblind(name = "Vessel") +
+  theme_bw()
 
 
 # Actual distance between stations in 2023
@@ -168,18 +334,3 @@ survey_travel_dist <- RODBC::sqlQuery(
   sf::st_cast("LINESTRING") |>
   dplyr::mutate(distance_km = as.numeric(sf::st_length(geometry)/1e3)) |>
   sf::st_drop_geometry()
-
-tsp_travel_dist <-
-  station_tsp_dist |>
-  sf::st_drop_geometry() |>
-  dplyr::group_by(VESSEL, YEAR, allocation) |>
-  dplyr::summarise(total_distance = sum(distance))
-  
-compare_distance <-
-  tsp_travel_dist |>
-  dplyr::rename(TSP_km = total_distance) |>
-  dplyr::inner_join(survey_travel_dist)
-
-ggplot() +
-  geom_point(data = compare_distance,
-             mapping = aes(x = TSP_km, y = distance_km))

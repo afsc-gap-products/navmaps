@@ -1,3 +1,17 @@
+navmaps 1.4.3 (February 17, 2026)
+----------------------------------------------------------------
+
+BUG FIX
+
+- make_trawlable() handles akgfmaps v4+ naming conventions.
+
+FUNCTIONALITY CHANGES
+
+- make_trawlable() centroids placed in the largest polygon
+  when a station is a multipolygon. Uses st_primary_centroid()
+  from navmaps.
+
+
 navmaps 1.4.2 (August 27, 2025)
 ----------------------------------------------------------------
 

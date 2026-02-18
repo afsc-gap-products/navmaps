@@ -14,7 +14,7 @@ channel <- get_connected(schema = "AFSC")
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
-software_types <- c("globe", "timezero", "opencpn") 
+software_types <- c("timezero", "opencpn", "globe") 
 
 for(ii in 1:length(software_types)) {
   
@@ -25,11 +25,11 @@ for(ii in 1:length(software_types)) {
   }
 
   # 4. Historical towpath, tow start, and midpoint
-  # make_towpaths(
-  #   region = region,
-  #   overwrite_midpoint = ifelse(ii == 0, TRUE, FALSE),
-  #   software_format = SOFTWARE
-  # )
+  make_towpaths(
+    region = region,
+    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
+    software_format = SOFTWARE
+  )
 
   # 5. Trawlable/untrawlable station grid (lines) and marks
   trawlable_grid <- sf::st_read(here::here("assets", "data", "allocation", "goa_stations_2025.gpkg")) |>

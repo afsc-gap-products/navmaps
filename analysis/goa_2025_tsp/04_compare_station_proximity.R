@@ -21,10 +21,11 @@ for(jj in 1:length(vessel)) {
     sf::st_transform(crs = set_crs) |>
     dplyr::filter(VESSEL == vessel[jj])
   
-  # 2025 design 520 stations
+  # 2023 design 520 stations
   station_2023 <- read.csv(file = here::here("assets", "data", "allocation", "GOA2023_Station_allocation_520_EW.csv")) |>
+    dplyr::rename(VESSEL = vessel) |>
     sf::st_as_sf(crs = "WGS84", coords = c("longitude", "latitude")) |>
-    dplyr::filter(vessel == ifelse(vessel[jj] == 148, "OEX", "AKP")) |>
+    dplyr::filter(VESSEL == ifelse(vessel[jj] == 148, "OEX", "AKP")) |>
     sf::st_transform(crs = set_crs) 
   
   station_plan_distances <- 
@@ -129,7 +130,7 @@ ggplot(data = station_plan_diff_pct,
   geom_point() +
   geom_line() +
   scale_x_continuous(name = "ith nearest station") +
-  scale_y_continuous(name = expression(bar(D[400])-bar(D[520]))*' (km)') +
+  # scale_y_continuous(name = expression(bar(D[400])-bar(D[520]))*' (km)') +
   scale_shape(name = "Vessel") +
   scale_linetype(name = "Vessel") +
   scale_color_colorblind(name = "Vessel") +

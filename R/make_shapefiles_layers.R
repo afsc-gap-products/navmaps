@@ -26,30 +26,34 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
   if(region == "ai") {
     
     message("make_trawlable: Querying ai.aigrid_gis table for trawlable/untrawlable. Joining with survey.grid.")
-    trawlable <- RODBC::sqlQuery(query = "select AIGRID_ID, TRAWLABLE, STRATUM, STATIONID, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from ai.aigrid_gis",
-                                 channel = channel)
+    trawlable <- RODBC::sqlQuery(
+      query = "select AIGRID_ID as GRID_ID, TRAWLABLE, STRATUM, STATIONID, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from ai.aigrid_gis",
+      channel = channel
+    ) |>
+      dplyr::mutate(GRID_ID = as.character(GRID_ID))
     
     trawlable_grid <- map_layers$survey.grid |>
-      dplyr::select(AIGRID_ID, STRATUM, geometry) |>
+      dplyr::select(GRID_ID, STRATUM, geometry) |>
       dplyr::inner_join(trawlable, 
-                        by = c("AIGRID_ID", "STRATUM"))
+                        by = c("GRID_ID", "STRATUM"))
     
   }
   
   if(region == "goa") {
     
     message("make_trawlable: Querying goa.goagrid_gis table for trawlable/untrawlable. Joining with survey.grid.")
-    trawlable <- RODBC::sqlQuery(query = "select GOAGRID_ID, TRAWLABLE, STRATUM, STATIONID, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from goa.goagrid_gis",
-                                 channel = channel)
-    
-    trawlable_grid <- map_layers$survey.grid |>
-      dplyr::select(GOAGRID_ID, STRATUM, geometry) |>
-      dplyr::inner_join(trawlable,
-                        by = c("GOAGRID_ID", "STRATUM")) |>
-      dplyr::filter(!is.na(STATIONID))
+    trawlable <- RODBC::sqlQuery(query = "select GOAGRID_ID as GRID_ID, TRAWLABLE, STRATUM, STATIONID, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from goa.goagrid_gis",
+                                 channel = channel) |>
+      dplyr::mutate(GRID_ID = as.character(GRID_ID))
   }
   
-  shp_path_grid <- here::here("output", region, "shapefiles", paste0(region, "_trawlwable_grid.shp"))
+  trawlable_grid <- map_layers$survey.grid |>
+    dplyr::select(GRID_ID, STRATUM, geometry) |>
+    dplyr::inner_join(trawlable,
+                      by = c("GRID_ID", "STRATUM")) |>
+    dplyr::filter(!is.na(STATIONID))
+  
+  shp_path_grid <- here::here("output", region, "shapefiles", paste0(region, "_trawlable_grid.shp"))
   
   .check_output_path(shp_path_grid)
   message("make_trawlable: Writing trawlable/untrawlable shapefile to ", shp_path_grid)
@@ -76,15 +80,15 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     trawlable_grid$fill <- 0
     trawlable_grid$description <- paste0("Trawlable? ", trawlable_grid$TRAWLABLE, "; Stratum: ", trawlable_grid$STRATUM)
     
-    grid_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlwable_grid.", file_type_grid))
+    grid_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_grid.", file_type_grid))
     
-    mark_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlwable_mark.", file_type_mark))
+    mark_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_mark.", file_type_mark))
     
     .check_output_path(grid_path)
     
     .check_output_path(mark_path)
     
-    trawlable_mark <- sf::st_centroid(trawlable_grid)
+    trawlable_mark <- navmaps::st_primary_centroid(trawlable_grid)
 
     message("make_trawlable: Writing trawlable/untrawlable grid file to ", grid_path)
     sf_to_nav_file(x = trawlable_grid,
