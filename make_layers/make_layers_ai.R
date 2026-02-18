@@ -4,7 +4,6 @@
 library(navmaps)
 region <- "ai" # Options are sebs, nbs, ai, goa
 
-
 # 2. Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region, split.land.at.180 = FALSE)
 channel <- get_connected(schema = "AFSC")
