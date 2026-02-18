@@ -6,6 +6,20 @@ region <- "ai" # Options are sebs, nbs, ai, goa
 
 # 2. Load shapefiles using the akgfmaps package
 map_layers <- akgfmaps::get_base_layers(select.region = region, split.land.at.180 = FALSE)
+
+# Save AI survey grid and stratum shapefiles
+sf::st_write(
+  obj = sf::st_transform(map_layers$survey.grid, crs = "EPSG:3338"), 
+  dsn = here::here("output", region, "shapefiles", paste0(region, "_station_grid.shp")),
+  append = FALSE
+)
+
+sf::st_write(
+  obj = sf::st_transform(map_layers$survey.strata, crs = "EPSG:3338"), 
+  dsn = here::here("output", region, "shapefiles", paste0(region, "_survey_strata.shp")),
+  append = FALSE
+)
+
 channel <- get_connected(schema = "AFSC")
 
 # 3. Get data
@@ -50,6 +64,25 @@ for(ii in 1:length(software_types)) {
     channel = channel,
     software_format = SOFTWARE
   )
+  
+  # b. Full grid
+  survey_grid <- map_layers$survey.grid
+
+  survey_grid$color <- navmaps_pal(values = "tan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  survey_grid$fill <- 0
+  
+
+  
+  sf_to_nav_file(
+    x = survey_grid,
+    geometry = "LINESTRING",
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
+    name_col = "STATION",
+    description_col = "STATION",
+    color_col = "color",
+    software_format = SOFTWARE
+  )
+  
   
   # 6. Station marks
   grid_centers <- navmaps::st_primary_centroid(map_layers$survey.grid) # Points at the center of each grid cell
@@ -168,11 +201,8 @@ for(ii in 1:length(software_types)) {
                  color_col = "color",
                  fill_col = "fill",
                  software_format = SOFTWARE)
-
-
   
-  
-  # # 14. Navigation hazards (moorings, shipwrecks, etc.)
+  # 14. Navigation hazards (moorings, shipwrecks, etc.)
   # From USCG Local Notice to Mariners (Arctic/District 17)
   # https://www.navcen.uscg.gov/msi
   buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
