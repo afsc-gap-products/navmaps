@@ -14,7 +14,7 @@ Description: Tools for survey planning, spatial analysis, and making layers for 
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: false
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Remotes:
     afsc-gap-products/akgfmaps
 Config/testthat/edition: 3

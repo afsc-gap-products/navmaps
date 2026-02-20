@@ -20,14 +20,15 @@ sf::st_write(
   append = FALSE
 )
 
-channel <- get_connected(schema = "AFSC")
+# channel <- get_connected(schema = "AFSC")
+channel <- get_connected(schema = "AFSC_32") # 32 bit for Globe files
 
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
 software_types <- c(
-  # "globe", 
-  "opencpn", 
+  "globe",
+  "opencpn",
   "timezero"
   ) 
 
@@ -102,12 +103,13 @@ for(ii in 1:length(software_types)) {
   # 7. Station allocation
   allocation <- sf::st_read(here::here("assets", "data", "allocation", "ai_2026_station_allocation_400stn.gpkg")) |>
     tidyr::drop_na(LONGITUDE, LATITUDE, VESSEL) |>
-    dplyr::mutate(VESSEL = factor(VESSEL))
+    dplyr::mutate(VESSEL = factor(VESSEL)) |>
+    sf::st_transform(crs = "WGS84")
   
   allocation[c("LONGITUDE", "LATITUDE")] <- sf::st_coordinates(allocation)
   
-  allocation <- as.data.frame(allocation)
-
+  allocation <- sf::st_drop_geometry(allocation) |> as.data.frame()
+  
   make_station_allocation(
     allocation_df = allocation,
     lon_col = "LONGITUDE",
@@ -312,4 +314,20 @@ for(ii in 1:length(software_types)) {
   # 15. Special projects
   
 }
+
+file.copy(from = here::here("output", region, "navigation"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("output", region, "shapefiles"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("output", region, "gps"),
+          to = paste0("G:/RACE_CHARTS/", region),
+          recursive = TRUE)
+
+file.copy(from = here::here("assets", "data", "SSLrookeries"),
+          to = paste0("G:/RACE_CHARTS/", region, "/shapefiles/"),
+          recursive = TRUE)
 
