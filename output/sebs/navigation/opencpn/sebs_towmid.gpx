@@ -91392,4 +91392,2140 @@
     <desc>0: Good performance</desc>
     <sym>Symbol-Diamond-White</sym>
   </wpt>
+  <wpt lat="55.61586856897" lon="-163.448395991194">
+    <time>2025-05-30T21:10:11.000000Z</time>
+    <name>2025/134/1</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.7833019890848" lon="-163.040391236419">
+    <time>2025-05-30T23:36:35.000000Z</time>
+    <name>2025/134/2</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0134573643785" lon="-159.716011772528">
+    <time>2025-05-31T16:07:09.000000Z</time>
+    <name>2025/134/3</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3393170217121" lon="-159.088868754186">
+    <time>2025-05-31T20:57:47.000000Z</time>
+    <name>2025/134/4</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6766689938536" lon="-159.01722457066">
+    <time>2025-05-31T23:46:56.000000Z</time>
+    <name>2025/134/5</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3263614148216" lon="-159.5450424132">
+    <time>2025-06-01T22:52:18.000000Z</time>
+    <name>2025/134/6</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.2748657073122" lon="-159.984440939299">
+    <time>2025-06-02T15:30:28.000000Z</time>
+    <name>2025/134/7</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.2854829142945" lon="-160.810818802966">
+    <time>2025-06-02T18:44:45.000000Z</time>
+    <name>2025/134/8</name>
+    <desc>6.42: Satisfactory performance, tow speed above maximum survey standard</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="58.01156347103" lon="-160.853458244146">
+    <time>2025-06-02T21:24:46.000000Z</time>
+    <name>2025/134/9</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0028562608729" lon="-160.215200862358">
+    <time>2025-06-03T00:44:22.000000Z</time>
+    <name>2025/134/10</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6663440031774" lon="-160.261948160602">
+    <time>2025-06-03T15:27:15.000000Z</time>
+    <name>2025/134/11</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6649727453522" lon="-160.881486291516">
+    <time>2025-06-03T18:25:28.000000Z</time>
+    <name>2025/134/12</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.3303226632742" lon="-160.93924101828">
+    <time>2025-06-03T21:19:54.000000Z</time>
+    <name>2025/134/13</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9994410562441" lon="-160.945347059135">
+    <time>2025-06-04T00:05:08.000000Z</time>
+    <name>2025/134/14</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.664654778941" lon="-160.987465324626">
+    <time>2025-06-04T15:30:28.000000Z</time>
+    <name>2025/134/15</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.3525888591195" lon="-161.613237301144">
+    <time>2025-06-04T19:10:47.000000Z</time>
+    <name>2025/134/16</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6794479277595" lon="-161.584496562024">
+    <time>2025-06-04T22:20:41.000000Z</time>
+    <name>2025/134/17</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9994567357457" lon="-161.54918732919">
+    <time>2025-06-05T01:05:18.000000Z</time>
+    <name>2025/134/18</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.3441046134475" lon="-161.530678041729">
+    <time>2025-06-05T15:28:08.000000Z</time>
+    <name>2025/134/19</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6631293163322" lon="-161.490060172928">
+    <time>2025-06-05T18:10:12.000000Z</time>
+    <name>2025/134/20</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.9954279021139" lon="-161.485957840998">
+    <time>2025-06-05T21:05:34.000000Z</time>
+    <name>2025/134/21</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.2203088377336" lon="-161.548724349112">
+    <time>2025-06-05T23:31:46.000000Z</time>
+    <name>2025/134/22</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6443697685649" lon="-162.718316792018">
+    <time>2025-06-06T15:26:58.000000Z</time>
+    <name>2025/134/23</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3272414016264" lon="-162.714020983162">
+    <time>2025-06-06T18:21:26.000000Z</time>
+    <name>2025/134/24</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0077889131267" lon="-162.755223008835">
+    <time>2025-06-06T20:53:04.000000Z</time>
+    <name>2025/134/25</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.6681347442399" lon="-162.753853312498">
+    <time>2025-06-06T23:39:17.000000Z</time>
+    <name>2025/134/26</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3245459452575" lon="-162.758791016515">
+    <time>2025-06-07T15:31:08.000000Z</time>
+    <name>2025/134/27</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0016615097657" lon="-162.789457915771">
+    <time>2025-06-07T18:09:49.000000Z</time>
+    <name>2025/134/28</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6642846539725" lon="-162.794993164215">
+    <time>2025-06-07T20:55:15.000000Z</time>
+    <name>2025/134/29</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3231855857023" lon="-162.790976801109">
+    <time>2025-06-07T23:42:44.000000Z</time>
+    <name>2025/134/30</name>
+    <desc>-5.23: Unsatisfactory performance headrope/footrope tangled</desc>
+    <sym>Symbol-X-Large-Red</sym>
+  </wpt>
+  <wpt lat="56.3239709838973" lon="-162.797422398723">
+    <time>2025-06-08T01:17:03.000000Z</time>
+    <name>2025/134/31</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.9950386390346" lon="-162.811812645708">
+    <time>2025-06-08T15:29:53.000000Z</time>
+    <name>2025/134/32</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.6671603365326" lon="-162.837801305799">
+    <time>2025-06-08T18:12:21.000000Z</time>
+    <name>2025/134/33</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="55.6633922680206" lon="-163.411914607004">
+    <time>2025-06-08T20:57:23.000000Z</time>
+    <name>2025/134/34</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.3382885775108" lon="-163.41704028625">
+    <time>2025-06-08T23:34:34.000000Z</time>
+    <name>2025/134/35</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.0105629925784" lon="-164.038436302626">
+    <time>2025-06-09T15:48:01.000000Z</time>
+    <name>2025/134/36</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3401849581771" lon="-163.972622042818">
+    <time>2025-06-09T18:35:10.000000Z</time>
+    <name>2025/134/37</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6696646799845" lon="-164.025167433206">
+    <time>2025-06-09T21:26:45.000000Z</time>
+    <name>2025/134/38</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0004557769261" lon="-164.037817803992">
+    <time>2025-06-10T00:12:09.000000Z</time>
+    <name>2025/134/39</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.349832363409" lon="-163.999230897477">
+    <time>2025-06-10T15:24:59.000000Z</time>
+    <name>2025/134/40</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6586617139773" lon="-164.00736504415">
+    <time>2025-06-10T17:54:17.000000Z</time>
+    <name>2025/134/41</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.994343788203" lon="-164.011889884946">
+    <time>2025-06-11T20:32:19.000000Z</time>
+    <name>2025/134/42</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3315825331872" lon="-164.009117832186">
+    <time>2025-06-11T23:16:50.000000Z</time>
+    <name>2025/134/43</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6795075327631" lon="-164.012866738517">
+    <time>2025-06-12T15:27:24.000000Z</time>
+    <name>2025/134/44</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9938242563045" lon="-164.013583189813">
+    <time>2025-06-12T17:58:31.000000Z</time>
+    <name>2025/134/45</name>
+    <desc>-4.3: Unsatisfactory performance, caught debris or wreckage</desc>
+    <sym>Symbol-X-Large-Red</sym>
+  </wpt>
+  <wpt lat="59.0194747663705" lon="-164.014583621128">
+    <time>2025-06-12T18:56:12.000000Z</time>
+    <name>2025/134/46</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3171120614834" lon="-164.005371171158">
+    <time>2025-06-12T21:20:01.000000Z</time>
+    <name>2025/134/47</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3265505963667" lon="-164.673438366587">
+    <time>2025-06-13T00:30:05.000000Z</time>
+    <name>2025/134/48</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3358396135771" lon="-165.279082049776">
+    <time>2025-06-13T15:29:23.000000Z</time>
+    <name>2025/134/49</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3413643491062" lon="-164.663468914797">
+    <time>2025-06-13T18:32:47.000000Z</time>
+    <name>2025/134/50</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6745548766699" lon="-164.666635384746">
+    <time>2025-06-13T21:17:39.000000Z</time>
+    <name>2025/134/51</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9928548260692" lon="-164.706519422452">
+    <time>2025-06-14T00:13:02.000000Z</time>
+    <name>2025/134/52</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6523532765907" lon="-165.332554007874">
+    <time>2025-06-14T15:32:11.000000Z</time>
+    <name>2025/134/53</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="58.9956859003896" lon="-165.302519693335">
+    <time>2025-06-14T18:13:34.000000Z</time>
+    <name>2025/134/54</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3243038534024" lon="-165.321432726371">
+    <time>2025-06-14T20:51:32.000000Z</time>
+    <name>2025/134/55</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6557078040061" lon="-166.634196798677">
+    <time>2025-06-15T15:27:57.000000Z</time>
+    <name>2025/134/56</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3477395710651" lon="-166.607239627795">
+    <time>2025-06-15T18:04:38.000000Z</time>
+    <name>2025/134/57</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.007583112873" lon="-166.583080259625">
+    <time>2025-06-15T20:58:56.000000Z</time>
+    <name>2025/134/58</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6754515464807" lon="-166.559423879399">
+    <time>2025-06-15T23:42:10.000000Z</time>
+    <name>2025/134/59</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="58.3328064059495" lon="-166.568088750585">
+    <time>2025-06-16T15:30:31.000000Z</time>
+    <name>2025/134/60</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0028152816307" lon="-166.52523327037">
+    <time>2025-06-16T18:20:39.000000Z</time>
+    <name>2025/134/61</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6570840933415" lon="-166.505665419583">
+    <time>2025-06-16T21:14:08.000000Z</time>
+    <name>2025/134/62</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3274520111733" lon="-166.487212370166">
+    <time>2025-06-16T23:56:42.000000Z</time>
+    <name>2025/134/63</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.329141386898" lon="-165.844521736709">
+    <time>2025-06-17T15:30:14.000000Z</time>
+    <name>2025/134/64</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3327027639359" lon="-165.234996744806">
+    <time>2025-06-17T18:24:01.000000Z</time>
+    <name>2025/134/65</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9968394823901" lon="-165.223428573812">
+    <time>2025-06-17T21:17:21.000000Z</time>
+    <name>2025/134/66</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.6624598913743" lon="-165.217043223466">
+    <time>2025-06-18T00:03:11.000000Z</time>
+    <name>2025/134/67</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3248668219478" lon="-165.203179248083">
+    <time>2025-06-18T15:29:04.000000Z</time>
+    <name>2025/134/68</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.9973084208023" lon="-165.184701603465">
+    <time>2025-06-18T18:14:14.000000Z</time>
+    <name>2025/134/69</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.6714424179614" lon="-165.178325416751">
+    <time>2025-06-18T21:00:03.000000Z</time>
+    <name>2025/134/70</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.3266689996954" lon="-165.173736405229">
+    <time>2025-06-18T23:48:53.000000Z</time>
+    <name>2025/134/71</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.6814048212146" lon="-165.151469612745">
+    <time>2025-06-22T15:29:15.000000Z</time>
+    <name>2025/134/72</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.9868301284076" lon="-165.177894269153">
+    <time>2025-06-22T18:16:31.000000Z</time>
+    <name>2025/134/73</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="54.8533632586514" lon="-165.546896895853">
+    <time>2025-06-22T21:01:44.000000Z</time>
+    <name>2025/134/74</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.0174422312565" lon="-165.75181047488">
+    <time>2025-06-22T23:48:27.000000Z</time>
+    <name>2025/134/75</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.0141006343093" lon="-166.326969527319">
+    <time>2025-06-23T15:32:44.000000Z</time>
+    <name>2025/134/76</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.3340505876" lon="-166.349788950029">
+    <time>2025-06-23T18:17:08.000000Z</time>
+    <name>2025/134/77</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.6748037636062" lon="-166.388377811576">
+    <time>2025-06-23T21:04:35.000000Z</time>
+    <name>2025/134/78</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.0116379232954" lon="-166.396391648206">
+    <time>2025-06-23T23:44:40.000000Z</time>
+    <name>2025/134/79</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.3398651625311" lon="-167.65106131817">
+    <time>2025-06-24T15:31:42.000000Z</time>
+    <name>2025/134/80</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.0096439104556" lon="-167.613364639916">
+    <time>2025-06-24T18:18:41.000000Z</time>
+    <name>2025/134/81</name>
+    <desc>6.3: Satisfactory performance, unspecified mechanical problems</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="55.6663249361427" lon="-167.588454343497">
+    <time>2025-06-24T21:06:36.000000Z</time>
+    <name>2025/134/82</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.3444232234485" lon="-167.545325956737">
+    <time>2025-06-24T23:58:58.000000Z</time>
+    <name>2025/134/83</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.6691085531878" lon="-168.186944814877">
+    <time>2025-06-25T15:27:43.000000Z</time>
+    <name>2025/134/84</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.0034158282218" lon="-168.222702160586">
+    <time>2025-06-25T18:13:19.000000Z</time>
+    <name>2025/134/85</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.2943765558437" lon="-168.239539382271">
+    <time>2025-06-25T21:14:02.000000Z</time>
+    <name>2025/134/86</name>
+    <desc>1.12: Satisfactory performance, hauled back early due to hang(s)</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.6537405279769" lon="-168.283155453166">
+    <time>2025-06-26T00:18:33.000000Z</time>
+    <name>2025/134/87</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0023219498227" lon="-168.340743998897">
+    <time>2025-06-26T15:27:04.000000Z</time>
+    <name>2025/134/88</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.336434968066" lon="-168.368877079882">
+    <time>2025-06-26T18:09:29.000000Z</time>
+    <name>2025/134/89</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6582535396241" lon="-168.405067412748">
+    <time>2025-06-26T22:01:53.000000Z</time>
+    <name>2025/134/90</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0053839876384" lon="-168.446526930755">
+    <time>2025-06-27T01:13:05.000000Z</time>
+    <name>2025/134/91</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3143649233786" lon="-168.465129577139">
+    <time>2025-06-27T15:25:58.000000Z</time>
+    <name>2025/134/92</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6600968565656" lon="-168.492447068623">
+    <time>2025-06-27T18:11:28.000000Z</time>
+    <name>2025/134/93</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9879878076865" lon="-168.534049381583">
+    <time>2025-06-27T20:56:48.000000Z</time>
+    <name>2025/134/94</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3303842270317" lon="-168.580765719847">
+    <time>2025-06-27T23:49:17.000000Z</time>
+    <name>2025/134/95</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.665042587725" lon="-168.609646631493">
+    <time>2025-06-28T15:23:43.000000Z</time>
+    <name>2025/134/96</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.992708310765" lon="-168.675737407873">
+    <time>2025-06-28T18:18:31.000000Z</time>
+    <name>2025/134/97</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.9859937982523" lon="-169.301155318812">
+    <time>2025-06-28T21:13:40.000000Z</time>
+    <name>2025/134/98</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6669651690787" lon="-169.268345404415">
+    <time>2025-06-28T23:48:42.000000Z</time>
+    <name>2025/134/99</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3402571171736" lon="-169.243297305218">
+    <time>2025-06-29T15:23:50.000000Z</time>
+    <name>2025/134/100</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0105700577975" lon="-169.17722925449">
+    <time>2025-06-29T18:08:06.000000Z</time>
+    <name>2025/134/101</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6765178003815" lon="-169.15193169909">
+    <time>2025-06-29T20:55:30.000000Z</time>
+    <name>2025/134/102</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3332584545112" lon="-169.117660603648">
+    <time>2025-06-29T23:46:15.000000Z</time>
+    <name>2025/134/103</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9951161113457" lon="-169.073006994654">
+    <time>2025-06-30T15:24:37.000000Z</time>
+    <name>2025/134/104</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.673470660143" lon="-169.042942607146">
+    <time>2025-06-30T19:09:52.000000Z</time>
+    <name>2025/134/105</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.3357367733304" lon="-168.978414758479">
+    <time>2025-07-01T00:06:38.000000Z</time>
+    <name>2025/134/106</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0031384295124" lon="-168.957402986755">
+    <time>2025-07-01T15:26:39.000000Z</time>
+    <name>2025/134/107</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.667042182832" lon="-168.912616530267">
+    <time>2025-07-01T18:19:55.000000Z</time>
+    <name>2025/134/108</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3392294512914" lon="-169.304813890749">
+    <time>2025-07-02T00:06:04.000000Z</time>
+    <name>2025/134/110</name>
+    <desc>3: Satisfactory performance, gear conflict, unspecified</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.3441206064314" lon="-170.686227861619">
+    <time>2025-07-02T15:27:00.000000Z</time>
+    <name>2025/134/111</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6575397298214" lon="-170.731800057487">
+    <time>2025-07-02T18:19:23.000000Z</time>
+    <name>2025/134/112</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3324327537831" lon="-170.23348776945">
+    <time>2025-07-03T20:54:21.000000Z</time>
+    <name>2025/134/113</name>
+    <desc>4.5: Satisfactory performance, large invertebrate catch affected net performance</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.655382766092" lon="-170.259096586324">
+    <time>2025-07-04T00:18:51.000000Z</time>
+    <name>2025/134/114</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0025216058429" lon="-170.344414040459">
+    <time>2025-07-04T15:24:46.000000Z</time>
+    <name>2025/134/115</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3262191963015" lon="-170.393378309799">
+    <time>2025-07-04T18:20:49.000000Z</time>
+    <name>2025/134/116</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6644974511087" lon="-170.439718630231">
+    <time>2025-07-04T21:11:35.000000Z</time>
+    <name>2025/134/117</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9969108929815" lon="-170.48418972815">
+    <time>2025-07-05T00:03:02.000000Z</time>
+    <name>2025/134/118</name>
+    <desc>6.22: Satisfactory performance, wire out greater than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="59.3285986699726" lon="-170.542303621283">
+    <time>2025-07-05T15:21:12.000000Z</time>
+    <name>2025/134/119</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6684536640078" lon="-170.582678228304">
+    <time>2025-07-05T18:13:36.000000Z</time>
+    <name>2025/134/120</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.9872396140187" lon="-170.630106670955">
+    <time>2025-07-05T20:53:25.000000Z</time>
+    <name>2025/134/121</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3206352123727" lon="-170.664581550059">
+    <time>2025-07-05T23:21:32.000000Z</time>
+    <name>2025/134/122</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.9975465547822" lon="-171.484173729781">
+    <time>2025-07-06T15:18:26.000000Z</time>
+    <name>2025/134/123</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6772198418837" lon="-171.434145096006">
+    <time>2025-07-06T17:52:28.000000Z</time>
+    <name>2025/134/124</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3358548070653" lon="-171.355540115766">
+    <time>2025-07-06T20:36:51.000000Z</time>
+    <name>2025/134/125</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.0055209657099" lon="-171.300720650286">
+    <time>2025-07-06T23:19:05.000000Z</time>
+    <name>2025/134/126</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="58.3961534516393" lon="-171.64783540923">
+    <time>2025-07-07T15:23:13.000000Z</time>
+    <name>2025/134/127</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0157536722612" lon="-171.60363367689">
+    <time>2025-07-07T18:22:08.000000Z</time>
+    <name>2025/134/128</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6794970799194" lon="-171.532437741094">
+    <time>2025-07-07T21:08:00.000000Z</time>
+    <name>2025/134/129</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3323136933589" lon="-171.464580248009">
+    <time>2025-07-07T23:59:38.000000Z</time>
+    <name>2025/134/130</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9925958183555" lon="-171.396760856525">
+    <time>2025-07-08T15:26:37.000000Z</time>
+    <name>2025/134/131</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6745866016402" lon="-171.361735805325">
+    <time>2025-07-08T18:07:25.000000Z</time>
+    <name>2025/134/132</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6787954308277" lon="-172.574730513646">
+    <time>2025-07-13T15:57:39.000000Z</time>
+    <name>2025/134/133</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9938965474603" lon="-172.657497812943">
+    <time>2025-07-13T20:12:42.000000Z</time>
+    <name>2025/134/134</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.339867078125" lon="-172.815541693856">
+    <time>2025-07-13T23:13:29.000000Z</time>
+    <name>2025/134/135</name>
+    <desc>2: Satisfactory performance, unspecified gear damage</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.6495256136231" lon="-172.802464401308">
+    <time>2025-07-14T15:54:13.000000Z</time>
+    <name>2025/134/136</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9875790731708" lon="-172.861711938754">
+    <time>2025-07-14T18:39:28.000000Z</time>
+    <name>2025/134/137</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3190565596265" lon="-172.918768259719">
+    <time>2025-07-14T21:28:48.000000Z</time>
+    <name>2025/134/138</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6689177216031" lon="-173.003560476983">
+    <time>2025-07-15T00:34:19.000000Z</time>
+    <name>2025/134/139</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6659143695199" lon="-172.356076596298">
+    <time>2025-07-15T15:55:33.000000Z</time>
+    <name>2025/134/140</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.002395784765" lon="-172.428734326557">
+    <time>2025-07-15T19:29:54.000000Z</time>
+    <name>2025/134/141</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3297234884787" lon="-172.533907036464">
+    <time>2025-07-16T15:57:51.000000Z</time>
+    <name>2025/134/142</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6729196509974" lon="-172.572977637903">
+    <time>2025-07-16T18:54:29.000000Z</time>
+    <name>2025/134/143</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.9988824093592" lon="-172.618015077829">
+    <time>2025-07-16T21:45:28.000000Z</time>
+    <name>2025/134/144</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.9809947096964" lon="-171.945595183019">
+    <time>2025-07-17T01:08:18.000000Z</time>
+    <name>2025/134/145</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3324610470219" lon="-172.067320116508">
+    <time>2025-07-17T15:53:26.000000Z</time>
+    <name>2025/134/146</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6778522436192" lon="-172.123430343677">
+    <time>2025-07-17T19:05:58.000000Z</time>
+    <name>2025/134/147</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.9897374855504" lon="-172.158861455779">
+    <time>2025-07-17T21:44:23.000000Z</time>
+    <name>2025/134/148</name>
+    <desc>5.41: Satisfactory performance, door digging or falling over</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="60.9969420707166" lon="-172.803706033417">
+    <time>2025-07-18T00:09:48.000000Z</time>
+    <name>2025/134/149</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6666261981108" lon="-172.750110859254">
+    <time>2025-07-18T15:50:43.000000Z</time>
+    <name>2025/134/150</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6696866761156" lon="-173.470562247345">
+    <time>2025-07-18T18:52:59.000000Z</time>
+    <name>2025/134/151</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.9967435260561" lon="-173.506097400134">
+    <time>2025-07-18T21:29:03.000000Z</time>
+    <name>2025/134/152</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.0037575296957" lon="-174.179582617808">
+    <time>2025-07-19T00:21:17.000000Z</time>
+    <name>2025/134/153</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6716590274488" lon="-174.139026983621">
+    <time>2025-07-19T15:53:43.000000Z</time>
+    <name>2025/134/154</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.660833538369" lon="-174.82210480223">
+    <time>2025-07-19T18:41:42.000000Z</time>
+    <name>2025/134/155</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3309432720149" lon="-174.712675113327">
+    <time>2025-07-19T21:50:56.000000Z</time>
+    <name>2025/134/156</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.0117923300664" lon="-174.604352387415">
+    <time>2025-07-20T00:49:39.000000Z</time>
+    <name>2025/134/157</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.002842641158" lon="-175.261685638475">
+    <time>2025-07-20T15:54:11.000000Z</time>
+    <name>2025/134/158</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.0027929293301" lon="-175.916937099389">
+    <time>2025-07-20T18:42:36.000000Z</time>
+    <name>2025/134/159</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.676636363481" lon="-175.883480343574">
+    <time>2025-07-20T21:47:48.000000Z</time>
+    <name>2025/134/160</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3337024808083" lon="-175.755371466314">
+    <time>2025-07-21T00:57:32.000000Z</time>
+    <name>2025/134/161</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0005494366352" lon="-175.711450454129">
+    <time>2025-07-21T15:56:12.000000Z</time>
+    <name>2025/134/162</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0133654145996" lon="-176.299321284692">
+    <time>2025-07-21T18:45:39.000000Z</time>
+    <name>2025/134/163</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3424271324782" lon="-176.389083215545">
+    <time>2025-07-21T21:33:34.000000Z</time>
+    <name>2025/134/164</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.664331451936" lon="-176.530185614724">
+    <time>2025-07-22T00:20:53.000000Z</time>
+    <name>2025/134/165</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.0005376804762" lon="-176.722883378263">
+    <time>2025-07-23T15:55:14.000000Z</time>
+    <name>2025/134/166</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3309381450036" lon="-176.722588401624">
+    <time>2025-07-23T18:42:49.000000Z</time>
+    <name>2025/134/167</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6713582374895" lon="-176.76944422257">
+    <time>2025-07-23T21:37:00.000000Z</time>
+    <name>2025/134/168</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6755869136041" lon="-176.204988652233">
+    <time>2025-07-24T00:21:35.000000Z</time>
+    <name>2025/134/169</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.3410749603411" lon="-176.970910709463">
+    <time>2025-07-24T15:54:09.000000Z</time>
+    <name>2025/134/170</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.6340515428996" lon="-176.470917665383">
+    <time>2025-07-24T19:10:39.000000Z</time>
+    <name>2025/134/171</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.3442850015472" lon="-176.291700314529">
+    <time>2025-07-24T21:54:56.000000Z</time>
+    <name>2025/134/172</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.3380951631925" lon="-175.660730124427">
+    <time>2025-07-25T00:38:50.000000Z</time>
+    <name>2025/134/173</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.6663794300013" lon="-175.783243100604">
+    <time>2025-07-25T15:55:00.000000Z</time>
+    <name>2025/134/174</name>
+    <desc>1.12: Satisfactory performance, hauled back early due to hang(s)</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="62.0011498218702" lon="-175.792923296183">
+    <time>2025-07-25T18:25:38.000000Z</time>
+    <name>2025/134/175</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="62.003538568235" lon="-175.186335314434">
+    <time>2025-07-25T21:03:10.000000Z</time>
+    <name>2025/134/176</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.9996779236124" lon="-174.522639012928">
+    <time>2025-07-25T23:44:46.000000Z</time>
+    <name>2025/134/177</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.9996098661086" lon="-173.735641779658">
+    <time>2025-07-26T15:53:32.000000Z</time>
+    <name>2025/134/178</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.6752414516335" lon="-173.68582988315">
+    <time>2025-07-26T18:41:24.000000Z</time>
+    <name>2025/134/179</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.6631831652641" lon="-174.429599790259">
+    <time>2025-07-26T21:40:59.000000Z</time>
+    <name>2025/134/180</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.6676255816382" lon="-175.065558494211">
+    <time>2025-07-27T00:16:20.000000Z</time>
+    <name>2025/134/181</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.4102588441048" lon="-163.544811228259">
+    <time>2025-05-30T20:33:41.000000Z</time>
+    <name>2025/162/1</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.6568172658683" lon="-162.982255109998">
+    <time>2025-05-30T23:47:42.000000Z</time>
+    <name>2025/162/2</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6717733545923" lon="-159.772948536581">
+    <time>2025-05-31T15:24:08.000000Z</time>
+    <name>2025/162/3</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9957324050776" lon="-159.135758771023">
+    <time>2025-05-31T20:13:46.000000Z</time>
+    <name>2025/162/4</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3430225264703" lon="-158.409617821158">
+    <time>2025-06-01T17:11:41.000000Z</time>
+    <name>2025/162/5</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6590488953671" lon="-158.361217957255">
+    <time>2025-06-01T21:13:52.000000Z</time>
+    <name>2025/162/6</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9991854890741" lon="-158.321773419462">
+    <time>2025-06-02T00:02:49.000000Z</time>
+    <name>2025/162/7</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9999249797158" lon="-158.968653787813">
+    <time>2025-06-02T15:11:42.000000Z</time>
+    <name>2025/162/8</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0044529667977" lon="-159.601216979783">
+    <time>2025-06-02T18:08:25.000000Z</time>
+    <name>2025/162/9</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6640329019845" lon="-159.636002852296">
+    <time>2025-06-02T21:45:51.000000Z</time>
+    <name>2025/162/10</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3351977932622" lon="-159.664642006454">
+    <time>2025-06-03T01:07:05.000000Z</time>
+    <name>2025/162/11</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3309856086786" lon="-160.297001477757">
+    <time>2025-06-03T15:10:39.000000Z</time>
+    <name>2025/162/12</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9974388601776" lon="-160.336256227843">
+    <time>2025-06-03T18:05:33.000000Z</time>
+    <name>2025/162/13</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6588292406491" lon="-160.367464828332">
+    <time>2025-06-03T21:37:01.000000Z</time>
+    <name>2025/162/14</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3346866857221" lon="-160.987055617429">
+    <time>2025-06-04T01:26:54.000000Z</time>
+    <name>2025/162/15</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.9979912196651" lon="-162.267390379642">
+    <time>2025-06-04T15:14:12.000000Z</time>
+    <name>2025/162/16</name>
+    <desc>6.41: Satisfactory performance, tow speed below minimum survey standard</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.3304026369334" lon="-162.195135108211">
+    <time>2025-06-04T18:35:43.000000Z</time>
+    <name>2025/162/17</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6582097968812" lon="-162.181882004388">
+    <time>2025-06-04T22:20:35.000000Z</time>
+    <name>2025/162/18</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9970679085209" lon="-162.171254856418">
+    <time>2025-06-05T01:14:06.000000Z</time>
+    <name>2025/162/19</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3216554741572" lon="-162.153375926924">
+    <time>2025-06-05T15:09:14.000000Z</time>
+    <name>2025/162/20</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6613993492676" lon="-162.131786867394">
+    <time>2025-06-05T18:02:49.000000Z</time>
+    <name>2025/162/21</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9884945163575" lon="-162.120665300238">
+    <time>2025-06-05T20:53:12.000000Z</time>
+    <name>2025/162/22</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.306967646528" lon="-162.056486879482">
+    <time>2025-06-05T23:32:16.000000Z</time>
+    <name>2025/162/23</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9982867575871" lon="-163.349044943742">
+    <time>2025-06-06T15:12:02.000000Z</time>
+    <name>2025/162/24</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6710537066334" lon="-163.353186262148">
+    <time>2025-06-06T17:52:50.000000Z</time>
+    <name>2025/162/25</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3377820711162" lon="-163.364311159146">
+    <time>2025-06-06T20:27:35.000000Z</time>
+    <name>2025/162/26</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9982941940283" lon="-163.38108114341">
+    <time>2025-06-06T23:12:51.000000Z</time>
+    <name>2025/162/27</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.671950481327" lon="-163.36796781882">
+    <time>2025-06-07T15:06:59.000000Z</time>
+    <name>2025/162/28</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3184087606232" lon="-163.38178539316">
+    <time>2025-06-07T17:49:38.000000Z</time>
+    <name>2025/162/29</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0002544670286" lon="-163.392078825478">
+    <time>2025-06-07T20:30:00.000000Z</time>
+    <name>2025/162/30</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6655567578038" lon="-163.380822777433">
+    <time>2025-06-07T23:31:45.000000Z</time>
+    <name>2025/162/31</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.3539236611472" lon="-163.402496580799">
+    <time>2025-06-08T15:11:50.000000Z</time>
+    <name>2025/162/32</name>
+    <desc>6.41: Satisfactory performance, tow speed below minimum survey standard</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.000918646401" lon="-163.394852807592">
+    <time>2025-06-08T18:03:45.000000Z</time>
+    <name>2025/162/33</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.7091040246139" lon="-163.988676120212">
+    <time>2025-06-08T21:32:15.000000Z</time>
+    <name>2025/162/34</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.3379360411648" lon="-164.026844736076">
+    <time>2025-06-09T00:37:30.000000Z</time>
+    <name>2025/162/35</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.0290192219319" lon="-164.585854674597">
+    <time>2025-06-09T15:10:43.000000Z</time>
+    <name>2025/162/36</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.3417447806979" lon="-164.553806939889">
+    <time>2025-06-09T17:53:04.000000Z</time>
+    <name>2025/162/37</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.6487788858857" lon="-164.582853095238">
+    <time>2025-06-09T20:32:32.000000Z</time>
+    <name>2025/162/38</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.9954598717498" lon="-164.584151631142">
+    <time>2025-06-09T23:22:25.000000Z</time>
+    <name>2025/162/39</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3326244243499" lon="-164.585382211263">
+    <time>2025-06-11T15:10:53.000000Z</time>
+    <name>2025/162/40</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6625113372862" lon="-164.599712588998">
+    <time>2025-06-11T17:52:14.000000Z</time>
+    <name>2025/162/41</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9929358325789" lon="-164.611654640735">
+    <time>2025-06-11T20:44:16.000000Z</time>
+    <name>2025/162/42</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3238027446863" lon="-164.621837940341">
+    <time>2025-06-11T23:32:31.000000Z</time>
+    <name>2025/162/43</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6730008599098" lon="-164.620753145939">
+    <time>2025-06-12T15:09:45.000000Z</time>
+    <name>2025/162/44</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9859967157532" lon="-164.611865038797">
+    <time>2025-06-12T17:38:29.000000Z</time>
+    <name>2025/162/45</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9997802504523" lon="-165.249896611151">
+    <time>2025-06-12T20:51:49.000000Z</time>
+    <name>2025/162/46</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6697054280719" lon="-165.252041320674">
+    <time>2025-06-12T23:42:13.000000Z</time>
+    <name>2025/162/47</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6657651362603" lon="-165.883181450768">
+    <time>2025-06-13T15:11:08.000000Z</time>
+    <name>2025/162/48</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9962213124883" lon="-165.895245431368">
+    <time>2025-06-13T17:58:28.000000Z</time>
+    <name>2025/162/49</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3172632515816" lon="-165.892634706032">
+    <time>2025-06-13T20:49:30.000000Z</time>
+    <name>2025/162/50</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6566521496795" lon="-165.922317784142">
+    <time>2025-06-14T15:09:34.000000Z</time>
+    <name>2025/162/51</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9950776238375" lon="-165.926313655676">
+    <time>2025-06-14T17:47:38.000000Z</time>
+    <name>2025/162/52</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3207305471061" lon="-165.938292689884">
+    <time>2025-06-14T20:18:48.000000Z</time>
+    <name>2025/162/53</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6060236798065" lon="-165.923978388398">
+    <time>2025-06-14T22:44:08.000000Z</time>
+    <name>2025/162/54</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6645496737596" lon="-167.282131373334">
+    <time>2025-06-15T15:06:53.000000Z</time>
+    <name>2025/162/55</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3517114357747" lon="-167.273937465051">
+    <time>2025-06-15T17:40:54.000000Z</time>
+    <name>2025/162/56</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0109301802903" lon="-167.237066067736">
+    <time>2025-06-15T20:32:19.000000Z</time>
+    <name>2025/162/57</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6789885233604" lon="-167.227938915343">
+    <time>2025-06-15T23:12:55.000000Z</time>
+    <name>2025/162/58</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="58.337026552138" lon="-167.185194178122">
+    <time>2025-06-16T15:07:49.000000Z</time>
+    <name>2025/162/59</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0068063409371" lon="-167.172548467533">
+    <time>2025-06-16T17:51:30.000000Z</time>
+    <name>2025/162/60</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.674180272899" lon="-167.132957201767">
+    <time>2025-06-16T20:41:03.000000Z</time>
+    <name>2025/162/61</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.337588458279" lon="-167.124860970606">
+    <time>2025-06-16T23:42:51.000000Z</time>
+    <name>2025/162/62</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.9964835420282" lon="-167.091613346729">
+    <time>2025-06-17T15:08:39.000000Z</time>
+    <name>2025/162/63</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0006552408425" lon="-166.458050197286">
+    <time>2025-06-17T18:05:43.000000Z</time>
+    <name>2025/162/64</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0013115801471" lon="-165.84843731651">
+    <time>2025-06-17T20:52:45.000000Z</time>
+    <name>2025/162/65</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.670646527271" lon="-165.837909522594">
+    <time>2025-06-17T23:47:13.000000Z</time>
+    <name>2025/162/66</name>
+    <desc>6.41: Satisfactory performance, tow speed below minimum survey standard</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="56.3431615225055" lon="-165.808728405842">
+    <time>2025-06-18T15:13:54.000000Z</time>
+    <name>2025/162/67</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.0036151657023" lon="-165.78553547699">
+    <time>2025-06-18T18:06:58.000000Z</time>
+    <name>2025/162/68</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="55.6711187858961" lon="-165.803439062537">
+    <time>2025-06-18T21:02:43.000000Z</time>
+    <name>2025/162/69</name>
+    <desc>6.41: Satisfactory performance, tow speed below minimum survey standard</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="55.3457086003968" lon="-165.783849620729">
+    <time>2025-06-18T23:49:04.000000Z</time>
+    <name>2025/162/70</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.0052689855231" lon="-166.945290028535">
+    <time>2025-06-23T15:15:30.000000Z</time>
+    <name>2025/162/71</name>
+    <desc>6.41: Satisfactory performance, tow speed below minimum survey standard</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="55.3376519114897" lon="-166.971630748585">
+    <time>2025-06-23T18:21:49.000000Z</time>
+    <name>2025/162/72</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="55.6703149695232" lon="-166.989154268396">
+    <time>2025-06-23T21:26:45.000000Z</time>
+    <name>2025/162/73</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.0009999304118" lon="-167.002740934385">
+    <time>2025-06-24T00:13:50.000000Z</time>
+    <name>2025/162/74</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3332536528951" lon="-167.032964907204">
+    <time>2025-06-24T15:11:36.000000Z</time>
+    <name>2025/162/75</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3364395168574" lon="-166.414370925121">
+    <time>2025-06-24T18:36:57.000000Z</time>
+    <name>2025/162/76</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.660803923285" lon="-166.437257902515">
+    <time>2025-06-24T21:20:39.000000Z</time>
+    <name>2025/162/77</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6729649436288" lon="-167.061196965348">
+    <time>2025-06-25T00:19:47.000000Z</time>
+    <name>2025/162/78</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.669569368215" lon="-167.670355283856">
+    <time>2025-06-25T15:11:20.000000Z</time>
+    <name>2025/162/79</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.997550998054" lon="-167.693848476222">
+    <time>2025-06-25T17:57:10.000000Z</time>
+    <name>2025/162/80</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3233812738819" lon="-167.734160961939">
+    <time>2025-06-25T20:55:43.000000Z</time>
+    <name>2025/162/81</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6633449306536" lon="-167.768131180478">
+    <time>2025-06-26T00:32:46.000000Z</time>
+    <name>2025/162/82</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="57.9911469708134" lon="-167.802022662584">
+    <time>2025-06-26T15:10:22.000000Z</time>
+    <name>2025/162/83</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.315976463219" lon="-167.829954874709">
+    <time>2025-06-26T17:50:22.000000Z</time>
+    <name>2025/162/84</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6567106461923" lon="-167.86396011172">
+    <time>2025-06-26T20:43:47.000000Z</time>
+    <name>2025/162/85</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9935260931545" lon="-167.892489311723">
+    <time>2025-06-26T23:32:17.000000Z</time>
+    <name>2025/162/86</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3235674147814" lon="-167.915755451255">
+    <time>2025-06-27T15:08:52.000000Z</time>
+    <name>2025/162/87</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6642170615884" lon="-167.95209889003">
+    <time>2025-06-27T17:54:28.000000Z</time>
+    <name>2025/162/88</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.9915872402165" lon="-167.984247845704">
+    <time>2025-06-27T20:35:09.000000Z</time>
+    <name>2025/162/89</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.334662656107" lon="-167.27218144116">
+    <time>2025-06-28T00:39:29.000000Z</time>
+    <name>2025/162/90</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3331805591357" lon="-167.97101299354">
+    <time>2025-06-28T15:05:38.000000Z</time>
+    <name>2025/162/91</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3336588172318" lon="-168.659969711586">
+    <time>2025-06-28T17:56:46.000000Z</time>
+    <name>2025/162/92</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3341963656821" lon="-169.299505892258">
+    <time>2025-06-28T20:48:12.000000Z</time>
+    <name>2025/162/93</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3338848186395" lon="-169.990645351789">
+    <time>2025-06-28T23:48:58.000000Z</time>
+    <name>2025/162/94</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.0047692318531" lon="-169.96786083949">
+    <time>2025-06-29T15:07:04.000000Z</time>
+    <name>2025/162/95</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6797778250327" lon="-169.919758930172">
+    <time>2025-06-29T17:52:36.000000Z</time>
+    <name>2025/162/96</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3293801249461" lon="-169.873759888396">
+    <time>2025-06-29T20:52:30.000000Z</time>
+    <name>2025/162/97</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.009943111781" lon="-169.834925333239">
+    <time>2025-06-29T23:43:35.000000Z</time>
+    <name>2025/162/98</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6733458606425" lon="-169.777363022515">
+    <time>2025-06-30T15:35:03.000000Z</time>
+    <name>2025/162/99</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.334857739641" lon="-169.727161656481">
+    <time>2025-06-30T19:28:23.000000Z</time>
+    <name>2025/162/100</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9993093084588" lon="-169.693267374327">
+    <time>2025-06-30T23:24:26.000000Z</time>
+    <name>2025/162/101</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6701592027536" lon="-169.642558764212">
+    <time>2025-07-01T15:07:34.000000Z</time>
+    <name>2025/162/102</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3490096061198" lon="-169.579127226978">
+    <time>2025-07-01T18:59:10.000000Z</time>
+    <name>2025/162/103</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0071282787598" lon="-169.535991897324">
+    <time>2025-07-01T22:14:15.000000Z</time>
+    <name>2025/162/104</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6707923900522" lon="-169.50654588901">
+    <time>2025-07-02T01:16:24.000000Z</time>
+    <name>2025/162/105</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.3379566931991" lon="-170.055710472561">
+    <time>2025-07-02T15:11:39.000000Z</time>
+    <name>2025/162/106</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6609382945543" lon="-170.108014666423">
+    <time>2025-07-02T18:17:03.000000Z</time>
+    <name>2025/162/107</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0008336141417" lon="-170.151753046845">
+    <time>2025-07-02T21:18:58.000000Z</time>
+    <name>2025/162/108</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0017634780008" lon="-170.784373780045">
+    <time>2025-07-03T00:25:42.000000Z</time>
+    <name>2025/162/109</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3307256652821" lon="-170.852515224234">
+    <time>2025-07-04T15:12:13.000000Z</time>
+    <name>2025/162/110</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6670514914033" lon="-170.88972400559">
+    <time>2025-07-04T18:05:00.000000Z</time>
+    <name>2025/162/111</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9960401718903" lon="-170.961300797874">
+    <time>2025-07-04T21:12:23.000000Z</time>
+    <name>2025/162/112</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3312445458545" lon="-171.008758212416">
+    <time>2025-07-05T00:19:40.000000Z</time>
+    <name>2025/162/113</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6626995297891" lon="-171.076764038392">
+    <time>2025-07-05T15:10:06.000000Z</time>
+    <name>2025/162/114</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9819096680289" lon="-171.109480878829">
+    <time>2025-07-05T18:14:42.000000Z</time>
+    <name>2025/162/115</name>
+    <desc>-5.42: Unsatisfactory performance, doors crossed</desc>
+    <sym>Symbol-X-Large-Red</sym>
+  </wpt>
+  <wpt lat="58.984236296927" lon="-171.121290423199">
+    <time>2025-07-05T20:20:49.000000Z</time>
+    <name>2025/162/116</name>
+    <desc>6.21: Satisfactory performance, wire out less than recommended scope</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="59.3245394034997" lon="-171.172284822195">
+    <time>2025-07-05T23:05:46.000000Z</time>
+    <name>2025/162/117</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6624898010534" lon="-171.242441158594">
+    <time>2025-07-06T01:47:44.000000Z</time>
+    <name>2025/162/118</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6747303165679" lon="-171.902099745771">
+    <time>2025-07-06T15:14:47.000000Z</time>
+    <name>2025/162/119</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3414497374598" lon="-171.834273373065">
+    <time>2025-07-06T18:02:41.000000Z</time>
+    <name>2025/162/120</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0051111886284" lon="-171.778846838491">
+    <time>2025-07-06T20:49:46.000000Z</time>
+    <name>2025/162/121</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6674735919373" lon="-171.716304648315">
+    <time>2025-07-06T23:46:07.000000Z</time>
+    <name>2025/162/122</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3323624346192" lon="-172.299998845984">
+    <time>2025-07-07T15:04:12.000000Z</time>
+    <name>2025/162/123</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.0045400567385" lon="-172.238781156644">
+    <time>2025-07-07T17:58:31.000000Z</time>
+    <name>2025/162/124</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.672349292298" lon="-172.165727699659">
+    <time>2025-07-07T20:45:21.000000Z</time>
+    <name>2025/162/125</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3318193745033" lon="-172.094602163557">
+    <time>2025-07-07T23:37:43.000000Z</time>
+    <name>2025/162/126</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0064410479322" lon="-172.053142155365">
+    <time>2025-07-08T15:09:51.000000Z</time>
+    <name>2025/162/127</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="56.6746817776843" lon="-171.963678217251">
+    <time>2025-07-08T18:06:16.000000Z</time>
+    <name>2025/162/128</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.0023189585935" lon="-173.252178109531">
+    <time>2025-07-13T16:10:51.000000Z</time>
+    <name>2025/162/129</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.3300837922178" lon="-173.336647482157">
+    <time>2025-07-13T19:34:47.000000Z</time>
+    <name>2025/162/130</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.6647166013232" lon="-173.38445325552">
+    <time>2025-07-13T22:40:51.000000Z</time>
+    <name>2025/162/131</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="57.9930009419216" lon="-173.458003682714">
+    <time>2025-07-14T01:54:14.000000Z</time>
+    <name>2025/162/132</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3330921194017" lon="-173.570233289416">
+    <time>2025-07-14T16:12:02.000000Z</time>
+    <name>2025/162/133</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6691392318941" lon="-173.630256548257">
+    <time>2025-07-14T19:10:41.000000Z</time>
+    <name>2025/162/134</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0021528567358" lon="-173.722602334667">
+    <time>2025-07-14T22:07:32.000000Z</time>
+    <name>2025/162/135</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3360867693261" lon="-173.798629696371">
+    <time>2025-07-15T01:04:40.000000Z</time>
+    <name>2025/162/136</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0000827637282" lon="-173.08000567156">
+    <time>2025-07-16T16:10:10.000000Z</time>
+    <name>2025/162/137</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.32518978661" lon="-173.147998225219">
+    <time>2025-07-16T18:54:10.000000Z</time>
+    <name>2025/162/138</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6588488223094" lon="-173.233407432889">
+    <time>2025-07-16T21:47:39.000000Z</time>
+    <name>2025/162/139</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.9970891997066" lon="-173.275464444123">
+    <time>2025-07-17T00:47:54.000000Z</time>
+    <name>2025/162/140</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.2943929927296" lon="-173.374183894512">
+    <time>2025-07-17T16:09:37.000000Z</time>
+    <name>2025/162/141</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3299940171156" lon="-174.072841674917">
+    <time>2025-07-17T19:04:45.000000Z</time>
+    <name>2025/162/142</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.0137508639688" lon="-173.955510326076">
+    <time>2025-07-17T22:39:27.000000Z</time>
+    <name>2025/162/143</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6699181320352" lon="-173.874492318451">
+    <time>2025-07-18T01:53:22.000000Z</time>
+    <name>2025/162/144</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6585895291822" lon="-174.444750888466">
+    <time>2025-07-18T16:09:15.000000Z</time>
+    <name>2025/162/145</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.6711198350425" lon="-175.11351466555">
+    <time>2025-07-18T19:16:57.000000Z</time>
+    <name>2025/162/146</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3406176774505" lon="-175.098847106911">
+    <time>2025-07-18T22:28:20.000000Z</time>
+    <name>2025/162/147</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3357891296938" lon="-174.455801719514">
+    <time>2025-07-19T01:38:42.000000Z</time>
+    <name>2025/162/148</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0103804184496" lon="-175.023658075714">
+    <time>2025-07-19T16:12:08.000000Z</time>
+    <name>2025/162/149</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.0015811032997" lon="-174.397451234428">
+    <time>2025-07-19T19:20:19.000000Z</time>
+    <name>2025/162/150</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6725822188336" lon="-174.273002522006">
+    <time>2025-07-19T22:44:42.000000Z</time>
+    <name>2025/162/151</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.3409248072844" lon="-174.296255137348">
+    <time>2025-07-20T02:01:59.000000Z</time>
+    <name>2025/162/152</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.7189783036622" lon="-174.887322734696">
+    <time>2025-07-20T16:12:47.000000Z</time>
+    <name>2025/162/153</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6721701140803" lon="-175.504430964648">
+    <time>2025-07-20T19:09:22.000000Z</time>
+    <name>2025/162/154</name>
+    <desc>4.4: Satisfactory performance, large fish catch affected net performance</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="58.667282833197" lon="-176.180596888181">
+    <time>2025-07-20T21:57:10.000000Z</time>
+    <name>2025/162/155</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.6657047373273" lon="-176.825559073263">
+    <time>2025-07-21T01:01:18.000000Z</time>
+    <name>2025/162/156</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9992853811137" lon="-177.631593400471">
+    <time>2025-07-21T16:10:30.000000Z</time>
+    <name>2025/162/157</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="58.9986636671688" lon="-176.994978550919">
+    <time>2025-07-21T19:03:48.000000Z</time>
+    <name>2025/162/158</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.3250990795827" lon="-177.072743463896">
+    <time>2025-07-21T22:02:51.000000Z</time>
+    <name>2025/162/159</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.655405398821" lon="-177.136340361379">
+    <time>2025-07-22T00:48:19.000000Z</time>
+    <name>2025/162/160</name>
+    <desc>4.4: Satisfactory performance, large fish catch affected net performance</desc>
+    <sym>Symbol-Diamond-Magenta</sym>
+  </wpt>
+  <wpt lat="60.0001823811822" lon="-177.919670133865">
+    <time>2025-07-23T16:12:55.000000Z</time>
+    <name>2025/162/161</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="59.9920290266984" lon="-177.232630446492">
+    <time>2025-07-23T19:46:53.000000Z</time>
+    <name>2025/162/162</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.324205868095" lon="-177.373898722167">
+    <time>2025-07-23T22:43:50.000000Z</time>
+    <name>2025/162/163</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6657959016995" lon="-177.505886508705">
+    <time>2025-07-24T01:40:47.000000Z</time>
+    <name>2025/162/164</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6683805185438" lon="-178.21099055057">
+    <time>2025-07-24T16:14:43.000000Z</time>
+    <name>2025/162/165</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.9942960338645" lon="-177.64773110003">
+    <time>2025-07-24T19:47:19.000000Z</time>
+    <name>2025/162/166</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.0003949529186" lon="-176.989479561551">
+    <time>2025-07-24T22:40:55.000000Z</time>
+    <name>2025/162/167</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.0008311148997" lon="-176.322914213129">
+    <time>2025-07-25T01:33:45.000000Z</time>
+    <name>2025/162/168</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.333344448243" lon="-176.109171799788">
+    <time>2025-07-25T16:10:57.000000Z</time>
+    <name>2025/162/169</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.3332009672617" lon="-175.424989822922">
+    <time>2025-07-25T19:07:14.000000Z</time>
+    <name>2025/162/170</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.6400438057057" lon="-175.450214444185">
+    <time>2025-07-25T21:48:01.000000Z</time>
+    <name>2025/162/171</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.9904288085876" lon="-175.547197699466">
+    <time>2025-07-26T00:41:50.000000Z</time>
+    <name>2025/162/172</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="60.9829522694666" lon="-174.885234322995">
+    <time>2025-07-26T16:10:03.000000Z</time>
+    <name>2025/162/173</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.3318239406055" lon="-175.011027476819">
+    <time>2025-07-26T19:21:47.000000Z</time>
+    <name>2025/162/174</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.3326604776659" lon="-174.344174957681">
+    <time>2025-07-26T22:01:03.000000Z</time>
+    <name>2025/162/175</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
+  <wpt lat="61.3320875622388" lon="-173.627733896498">
+    <time>2025-07-27T00:56:23.000000Z</time>
+    <name>2025/162/176</name>
+    <desc>0: Good performance</desc>
+    <sym>Symbol-Diamond-White</sym>
+  </wpt>
 </gpx>

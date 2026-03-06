@@ -16,6 +16,20 @@ channel <- get_connected(schema = "AFSC_32")
 # 3. Get data
 get_gps_data(region = region, channel = channel)
 
+# Download latest USCG hazNav GeoJSON files (moorings, buoys)
+download.file(
+  url = "https://www.navcen.uscg.gov/sites/default/files/msi/hazNav_1.geojson",
+  destfile = here::here("assets", "data", "buoys", "hazNav_1.geojson")
+)
+download.file(
+  url = "https://www.navcen.uscg.gov/sites/default/files/msi/hazNavLine_1.geojson",
+  destfile = here::here("assets", "data", "buoys", "hazNavLine_1.geojson")
+)
+download.file(
+  url = "https://www.navcen.uscg.gov/sites/default/files/msi/hazNavPoly_1.geojson",
+  destfile = here::here("assets", "data", "buoys", "hazNavPoly_1.geojson")
+)
+
 # Options are globe, opencpn, timezero
 software_types <- c("timezero", "opencpn", "globe") 
 
@@ -49,7 +63,7 @@ for(ii in 1:length(software_types)) {
   )
 
   # 6. Station marks
-  grid_centers <- sf::st_centroid(map_layers$survey.grid) # Points at the center of each grid cell
+  grid_centers <- navmaps::st_primary_centroid(map_layers$survey.grid) # Points at the center of each grid cell
   grid_centers$shape <- navmaps_sym_pal(values = "circle1",
                                         software_format = SOFTWARE,
                                         file_type = FILE_TYPE_POINT,
