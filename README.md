@@ -19,7 +19,7 @@ This package generates geospatial layers for marine navigation and GIS software 
 
 - [Navigation software and GIS files](./make_layers/): Make files that are used in marine navigation software (TimeZero, Globe, Olex) and GIS software to coordinate at-sea operations for the AI, GOA, EBS, NBS.
 - [Survery charts](./assets/survey_charts): Make printable survey charts for the EBS and NBS.
-- [Scientific Research Plan](./assets/scientific_research_plan): Make tables and figures for SRPs for the AI and GOA.
+- [Scientific Research Plan](./assets/scientific_research_plan): Make tables and figures for AI and GOA SRPs.
 - [ADFG Report](./assets/adfg_report): Make tables for the AI and GOA ADFG reports.
 
 # Map Layers and Data Sources
