@@ -346,7 +346,9 @@ write.csv(x = catch_by_area_sorted,
 
 library(akgfmaps)
 
-map_layers <- akgfmaps::get_base_layers(select.region = "ai", set.crs = "EPSG:3338")
+map_layers <- akgfmaps::get_base_layers(select.region = region, set.crs = "EPSG:3338")
+
+ai_stations <- sf::st_read(dsn = here::here("output", region, "shapefiles", "ai_station_allocation.shp"))
 
 ssl_ch_map <-
   ggplot() +
@@ -355,15 +357,19 @@ ssl_ch_map <-
           alpha = 0.5) +
   geom_sf(data = map_layers$survey.area, fill = NA,
           mapping = aes(color = "Survey Area")) +
-  geom_sf(data = towpaths,
-          mapping = aes(color = "Tow path")) +
+  geom_sf(data = ai_stations,
+          mapping = aes(color = "Planned Station"),
+          size = rel(0.3)
+          ) +
+  # geom_sf(data = towpaths,
+  #         mapping = aes(color = "Tow path")) +
   geom_sf(data = map_layers$akland, color = NA, fill = "grey50") +
   scale_x_continuous(limits = map_layers$plot.boundary$x,
                      breaks = map_layers$lon.breaks) +
   scale_y_continuous(limits = map_layers$plot.boundary$y,
                      breaks = map_layers$lat.breaks) +
   scale_fill_manual(name = NULL, values = "#E75B64FF") +
-  scale_color_manual(name = NULL, values = c("Survey Area" = "#278B9AFF", "Tow path" = "black")) +
+  scale_color_manual(name = NULL, values = c("Survey Area" = "#278B9AFF", "Planned Station" = "black")) +
   theme_bw() +
   theme(legend.position = "bottom",
         panel.grid.major = element_line(linewidth = 0.2, color = "grey70")
