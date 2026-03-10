@@ -10,6 +10,19 @@ vessel <- c(148, 176)
 cruise <- 202401
 region <- tolower("ai")
 
+# Connect
+channel <- navmaps::get_connected(schema = "AFSC")
+
+
+# Get GPS data - only run if you HAVEN'T run the corresponding make_layers_ai.R file
+# navmaps::get_gps_data(region = region, channel = channel)
+# 
+# make_towpaths(
+#   region = region,
+#   overwrite_midpoint = FALSE,
+#   software_format = "timezero"
+# )
+
 # Retrieve towpath lines -- need to first generate towpaths using make_layers_goa.R or make_layers_ai.R
 towpaths <- 
   sf::st_read(
@@ -34,9 +47,6 @@ ssl_ch_hauls <-
   dplyr::select(VESSEL, CRUISE, HAUL) |>
   dplyr::mutate(SSL_CH = "INSIDE_SSL_CH_KG") |>
   unique()
-
-# Connect
-channel <- navmaps::get_connected(schema = "AFSC")
 
 # Assign catch inside and outside of SSL critical habitat
 catch <- 

@@ -6,7 +6,7 @@
 
 This package generates geospatial layers for marine navigation and GIS software for use during bottom trawl surveys. The package retrieves and loads spatial data, conducts data processing steps to prepare layers for software, then writes data from simple features objects with well-known text (WKT) geometries to .kml, .gpx, .mdb, .accdb, and .shp formats that are used by Globe, OpenCPN, TimeZero, and ArcMap.
 
-# Resources
+# Package usage guides
 
 -   [Installation](#installation)
 -   [Map layers and data sources](#map-layers-and-data-sources)
@@ -14,6 +14,37 @@ This package generates geospatial layers for marine navigation and GIS software 
 -   [Setting colors and symbols](./doc/colors_symbols.md)
 -   [How to add options for new navigation software](./doc/howto_add_new_file_formats.md)
 -   [Download and format moorings data](./doc/import_lnm_moorings_data.md)
+
+# Survey scripts
+
+- [Navigation software and GIS files: AI, GOA, EBS, NBS](./make_layers/): These scripts are used to create files that are used in marine navigation software (TimeZero, Globe, Olex) and GIS software for coordinating at-sea opeartions.
+- [Survery charts: EBS/NBS](./assets/survey_charts): Files for making printable survey charts.
+- [Scientific Research Plan: Aleutian Islands and Gulf of Alaska](./assets/scientific_research_plan)
+- [ADFG Report: Aleutian Islands and Gulf of Alaska](./assets/adfg_report)
+
+# Map Layers and Data Sources
+
+| Layer Name                                       | Description                                                                                                | Type                                       | Regions           | Sources                                                                                                                     | Update |
+|------------|------------|------------|------------|------------|------------|
+| Survey Strata                              | Survey stratum polygons                                                                                    | Lines or polygons                          | EBS, NBS, AI, GOA | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package  |  See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
+| Survey Grid                                | Survey grid polygons with station name and stratum info.                                                    | Lines or polygons                          | EBS, NBS          | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package                                                                                                          | See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
+| Survey Stations                            | Survey station centroids with station name and stratum info.                                                | Marks                                      | EBS, NBS          | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package                                                                                                          | See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
+| Trawlable/Untrawlable Grid                 | Survey station grid with station name, stratum, and trawlable/untrawlable/unknown designation.             | Lines or polygons                          | AI, GOA           | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) and GOA/AI station tables                                                                                  | Annual            |
+| Trawlable/Untrawlable Stations             | Survey station centroids with station name, stratum, and trawlable/untrawlable/unknown designation.  | Marks | AI, GOA | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package, GOA/AI station tables | Annual  |                                                                                                                             |                   |
+| Historical Tow Starts                      | Historical tow starts with performance code, year/cruise, and vessel info.                                 | Marks                                      | EBS, NBS, AI, GOA | race_base_data.hauls, race_data.events, race_data.surveys, race_data.survey_definitions, racebase.performace                | Annual            |
+| Historical Tow Midpoint                    | Historical tow midpoint calculated from GPS data. Includes performance code, year/cruise, and vessel info. | Marks                                      | AI, GOA           | race_data.hauls, race_data.cruises, race_data.events, race_data.surveys, race_data.survey_definitions, racebase.performance | Annual            |
+| Historical Towpaths                        | Historical towpaths based on smoothed GPS data. Includes performance code, year/cruise, and vessel info.   | Lines                                      | EBS, NBS, AI, GOA | race_data.cruises, race_data.hauls, race_data.position_headers, race_data.positions, race_data.datum_codes                  |                   | Annual |
+| Station Allocation                         | Station allocation by vessel for the AI or GOA surveys.                                                    | Marks                                      | AI, GOA           | [StationAllocationAIGOA](https://github.com/afsc-gap-products/StationAllocationAIGOA) | Annual  |
+| Navigation hazards (buoys/moorings/wrecks)             |  Location, depth, and contact information for hazards. |  Marks | EBS/NBS, AI, GOA  |  USCG. [Link](https://www.navcen.uscg.gov/msi) | Annual (last update: Jan 28, 2025) |
+| Stellar Sea Lion No Transit Zones | Survey no transit zones around Steller Sea Lion rookeries. | Lines or polygons | EBS, AI, GOA | A. Jahn (NOAA/AKRO) | Last update: March 2025 | 
+| Humpback Whale Critical Habitat            | Humpback Whale Critical Habitat areas.  | Lines or polygons  | EBS, AI, GOA | NOAA Fisheries. [Link](https://www.fisheries.noaa.gov/resource/map/humpback-whale-critical-habitat-maps-and-gis-data)   | Last update: March 23,2023 |
+| North Pacific Right Whale Critical Habitat | North Pacific Right Whale Critical Habitat areas | Lines or polygons | EBS/NBS, AI, GOA  | NOAA Fisheries. [Link](https://www.fisheries.noaa.gov/resource/map/north-pacific-right-whale-critical-habitat-map-and-gis-data) | Last update: April 2022 |
+| Sea Otter Critical Habitat | Sea Otter Critical Habitat areas.  | Lines or polygons  | EBS/NBS, AI, GOA  | USFWS. [Link](https://ecos.fws.gov/ecp/species/2884) |  |
+| Spectacled Eider Critical Habitat          | Spectacled Eider Critical Habitat in the northern Bering Sea | Lines or polygons | EBS/NBS | USFWS. [Link](https://ecos.fws.gov/ecp/species/762) | Last update: April 2, 2023 |
+| Cook Inlet Beluga Whale Critical Habitat | Cook Inlet Beluga Whale Critical Habitat in Cook Inlet | Lines or polygons | GOA | NOAA Fisheries [Link](https://www.fisheries.noaa.gov/resource/map/beluga-whale-cook-inlet-dps-critical-habitat-map-and-gis-data) | Last update: April 2022 |
+| Skate Nursery HAPC |  Amendment 104 Skate nursery HAPC | Lines or polygons | EBS | NOAA. [Link](https://www.habitat.noaa.gov/protection/efh/newInv/hapc_content.html)  | Last update: April 11, 2024 |
+| Crab pot storage                               | Storage locations for crab pot strings. |  Lines or polygons | AI, GOA | Provided by vessels.  | Annual |
+
 
 # Installation
 
@@ -74,28 +105,8 @@ If the 32-bit installation fails:
 5.  Create a new R Studio 'R Package' project in your local navmaps directory.
 6.  Install the package using Build \> Install (Ctrl+Shift+B); you may need to first install dependencies individually.
 
-# Map Layers and Data Sources
 
-| Layer Name                                       | Description                                                                                                | Type                                       | Regions           | Sources                                                                                                                     | Update |
-|------------|------------|------------|------------|------------|------------|
-| Survey Strata                              | Survey stratum polygons                                                                                    | Lines or polygons                          | EBS, NBS, AI, GOA | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package  |  See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
-| Survey Grid                                | Survey grid polygons with station name and stratum info.                                                    | Lines or polygons                          | EBS, NBS          | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package                                                                                                          | See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
-| Survey Stations                            | Survey station centroids with station name and stratum info.                                                | Marks                                      | EBS, NBS          | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package                                                                                                          | See [akgfmaps releases](https://github.com/afsc-gap-products/akgfmaps/releases) |
-| Trawlable/Untrawlable Grid                 | Survey station grid with station name, stratum, and trawlable/untrawlable/unknown designation.             | Lines or polygons                          | AI, GOA           | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) and GOA/AI station tables                                                                                  | Annual            |
-| Trawlable/Untrawlable Stations             | Survey station centroids with station name, stratum, and trawlable/untrawlable/unknown designation.  | Marks | AI, GOA | [akgfmaps](https://github.com/afsc-gap-products/akgfmaps) package, GOA/AI station tables | Annual  |                                                                                                                             |                   |
-| Historical Tow Starts                      | Historical tow starts with performance code, year/cruise, and vessel info.                                 | Marks                                      | EBS, NBS, AI, GOA | race_base_data.hauls, race_data.events, race_data.surveys, race_data.survey_definitions, racebase.performace                | Annual            |
-| Historical Tow Midpoint                    | Historical tow midpoint calculated from GPS data. Includes performance code, year/cruise, and vessel info. | Marks                                      | AI, GOA           | race_data.hauls, race_data.cruises, race_data.events, race_data.surveys, race_data.survey_definitions, racebase.performance | Annual            |
-| Historical Towpaths                        | Historical towpaths based on smoothed GPS data. Includes performance code, year/cruise, and vessel info.   | Lines                                      | EBS, NBS, AI, GOA | race_data.cruises, race_data.hauls, race_data.position_headers, race_data.positions, race_data.datum_codes                  |                   | Annual |
-| Station Allocation                         | Station allocation by vessel for the AI or GOA surveys.                                                    | Marks                                      | AI, GOA           | [StationAllocationAIGOA](https://github.com/afsc-gap-products/StationAllocationAIGOA) | Annual  |
-| Navigation hazards (buoys/moorings/wrecks)             |  Location, depth, and contact information for hazards. |  Marks | EBS/NBS, AI, GOA  |  USCG. [Link](https://www.navcen.uscg.gov/msi) | Annual (last update: Jan 28, 2025) |
-| Stellar Sea Lion No Transit Zones | Survey no transit zones around Steller Sea Lion rookeries. | Lines or polygons | EBS, AI, GOA | A. Jahn (NOAA/AKRO) | Last update: March 2025 | 
-| Humpback Whale Critical Habitat            | Humpback Whale Critical Habitat areas.  | Lines or polygons  | EBS, AI, GOA | NOAA Fisheries. [Link](https://www.fisheries.noaa.gov/resource/map/humpback-whale-critical-habitat-maps-and-gis-data)   | Last update: March 23,2023 |
-| North Pacific Right Whale Critical Habitat | North Pacific Right Whale Critical Habitat areas | Lines or polygons | EBS/NBS, AI, GOA  | NOAA Fisheries. [Link](https://www.fisheries.noaa.gov/resource/map/north-pacific-right-whale-critical-habitat-map-and-gis-data) | Last update: April 2022 |
-| Sea Otter Critical Habitat | Sea Otter Critical Habitat areas.  | Lines or polygons  | EBS/NBS, AI, GOA  | USFWS. [Link](https://ecos.fws.gov/ecp/species/2884) |  |
-| Spectacled Eider Critical Habitat          | Spectacled Eider Critical Habitat in the northern Bering Sea | Lines or polygons | EBS/NBS | USFWS. [Link](https://ecos.fws.gov/ecp/species/762) | Last update: April 2, 2023 |
-| Cook Inlet Beluga Whale Critical Habitat | Cook Inlet Beluga Whale Critical Habitat in Cook Inlet | Lines or polygons | GOA | NOAA Fisheries [Link](https://www.fisheries.noaa.gov/resource/map/beluga-whale-cook-inlet-dps-critical-habitat-map-and-gis-data) | Last update: April 2022 |
-| Skate Nursery HAPC |  Amendment 104 Skate nursery HAPC | Lines or polygons | EBS | NOAA. [Link](https://www.habitat.noaa.gov/protection/efh/newInv/hapc_content.html)  | Last update: April 11, 2024 |
-| Crab pot storage                               | Storage locations for crab pot strings. |  Lines or polygons | AI, GOA | Provided by vessels.  | Annual |
+
 
 ## NOAA README
 
