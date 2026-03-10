@@ -8,7 +8,7 @@ library(tidyr)
 # Set vessel, cruise, and region ----
 vessel <- c(148, 176)
 cruise <- 202401
-region <- tolower("ai")
+region <- "ai"
 
 # Connect
 channel <- navmaps::get_connected(schema = "AFSC")
@@ -340,3 +340,40 @@ write.csv(x = catch_by_area_sorted,
                                    gsub(pattern = "-", replacement = "", x = Sys.Date()),
                                    ".csv")),
           row.names = FALSE)
+
+
+# SRP map
+
+library(akgfmaps)
+
+map_layers <- akgfmaps::get_base_layers(select.region = "ai", set.crs = "EPSG:3338")
+
+ssl_ch_map <-
+  ggplot() +
+  geom_sf(data = dplyr::filter(ssl_ch, Desig_CH == 1),
+          mapping = aes(fill = "SSL Critical Habitat"),
+          alpha = 0.5) +
+  geom_sf(data = map_layers$survey.area, fill = NA,
+          mapping = aes(color = "Survey Area")) +
+  geom_sf(data = towpaths,
+          mapping = aes(color = "Tow path")) +
+  geom_sf(data = map_layers$akland, color = NA, fill = "grey50") +
+  scale_x_continuous(limits = map_layers$plot.boundary$x,
+                     breaks = map_layers$lon.breaks) +
+  scale_y_continuous(limits = map_layers$plot.boundary$y,
+                     breaks = map_layers$lat.breaks) +
+  scale_fill_manual(name = NULL, values = "#E75B64FF") +
+  scale_color_manual(name = NULL, values = c("Survey Area" = "#278B9AFF", "Tow path" = "black")) +
+  theme_bw() +
+  theme(legend.position = "bottom",
+        panel.grid.major = element_line(linewidth = 0.2, color = "grey70")
+  )
+
+png(filename = here::here("assets", "scientific_research_plan", paste0(toupper(region), "_SSL_CH_map.png")), 
+    width = 6.5, 
+    height = 6.5/2.2, 
+    units = "in", 
+    res = 300)
+print(ssl_ch_map)
+dev.off()
+
