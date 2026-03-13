@@ -34,12 +34,12 @@ download.file(
 software_types <- c("timezero", "opencpn", "globe") 
 
 for(ii in 1:length(software_types)) {
-  set_software(software_types[ii]) 
-  
+  set_software(software_types[ii])
+
   if(SOFTWARE == "globe") {
     map_layers <- readRDS(here::here("assets", "data", paste0(region, "_map_layers.rds")))
   }
-  
+
   # 4. Historical towpath, tow start, and midpoint
   make_towpaths(
     region = region,
@@ -105,7 +105,7 @@ for(ii in 1:length(software_types)) {
   ssl$NAME <- "SSL No-Transit"
   ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
   ssl$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  
+
   sf_to_nav_file(
     x = ssl,
     file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
@@ -165,26 +165,51 @@ for(ii in 1:length(software_types)) {
   # 13. Buoys
   buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
     dplyr::filter(ATU == 17)
-  
+
   buoys$shape <- navmaps_sym_pal(values = "warning",
                                  software_format = SOFTWARE,
                                  file_type = FILE_TYPE_POINT)
   buoys$color <- navmaps_pal(values = "darkorange",
                              software_format = SOFTWARE,
                              file_type = FILE_TYPE_POINT)
-  
-  sf_to_nav_file(x = buoys,
-                 file = here::here("output", region, "navigation", SOFTWARE, paste0("hazards_buoys_20250121.", FILE_TYPE_POINT)),
-                 name_col = "SUB_CATEGORY",
-                 description_col = "DESCRIPTION",
-                 color_col = "color",
-                 shape_col = "shape",
-                 software_format = SOFTWARE)
-  
+
+  sf_to_nav_file(
+    x = buoys,
+    file = here::here("output", region, "navigation", SOFTWARE, paste0("hazards_buoys_20250121.", FILE_TYPE_POINT)),
+    name_col = "SUB_CATEGORY",
+    description_col = "DESCRIPTION",
+    color_col = "color",
+    shape_col = "shape",
+    software_format = SOFTWARE
+  )
+
   buoys |>
     sf::st_transform(crs = "EPSG:3338") |>
-    sf::st_write(dsn = here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"), 
+    sf::st_write(dsn = here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"),
                  delete_dsn = TRUE)
+
+  
+  # 14. Special projects
+  
+  hsa <- sf::st_read(dsn = here::here("assets", "data", "special_projects", "EBS", 2025, "herring_savings_area.shp"))
+  hsa$description <- "Herring Savings Area (Timm and Lopez project)"
+  
+  hsa$color <- navmaps_pal(
+    values = "purple",
+                           software_format = SOFTWARE,
+                           file_type = FILE_TYPE_POINT
+    )
+  hsa$fill <- 0
+  
+  sf_to_nav_file(
+    x = hsa,
+    file = here::here("output", region, "navigation", SOFTWARE, paste0("herring_savings_area.", FILE_TYPE_POLYGON)),
+    name_col = "description",
+    description_col = "name",
+    color_col = "color",
+    fill_col = "fill",
+    software_format = SOFTWARE
+  )
   
 }
 

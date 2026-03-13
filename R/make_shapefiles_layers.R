@@ -26,37 +26,40 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
   if(region == "ai") {
     
     message("make_trawlable: Querying ai.aigrid_gis table for trawlable/untrawlable. Joining with survey.grid.")
-    trawlable <- RODBC::sqlQuery(
-      query = "select AIGRID_ID as GRID_ID, TRAWLABLE, STRATUM, STATIONID, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from ai.aigrid_gis",
-      channel = channel
-    ) |>
-      dplyr::mutate(GRID_ID = as.character(GRID_ID))
-    
-    trawlable_grid <- map_layers$survey.grid |>
-      dplyr::select(GRID_ID, STRATUM, geometry) |>
-      dplyr::inner_join(trawlable, 
-                        by = c("GRID_ID", "STRATUM"))
+    trawlable <- 
+      RODBC::sqlQuery(
+        query = "select AIGRID_ID as GRID_ID, TRAWLABLE, STRATUM, STATIONID AS STATION, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from ai.aigrid_gis",
+        channel = channel
+      )
     
   }
   
   if(region == "goa") {
     
     message("make_trawlable: Querying goa.goagrid_gis table for trawlable/untrawlable. Joining with survey.grid.")
-    trawlable <- RODBC::sqlQuery(query = "select GOAGRID_ID as GRID_ID, TRAWLABLE, STRATUM, STATIONID, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from goa.goagrid_gis",
-                                 channel = channel) |>
-      dplyr::mutate(GRID_ID = as.character(GRID_ID))
+    trawlable <- 
+      RODBC::sqlQuery(
+        query = "select GOAGRID_ID as GRID_ID, TRAWLABLE, STRATUM, STATIONID AS STATION, CENTER_LAT, CENTER_LONG, SOUTH_LAT, EAST_LONG, WEST_LONG from goa.goagrid_gis",
+        channel = channel
+      )
   }
   
-  trawlable_grid <- map_layers$survey.grid |>
-    dplyr::select(GRID_ID, STRATUM, geometry) |>
-    dplyr::inner_join(trawlable,
-                      by = c("GRID_ID", "STRATUM")) |>
-    dplyr::filter(!is.na(STATIONID))
+  trawlable <- 
+    dplyr::mutate(trawlable, GRID_ID = as.character(GRID_ID)) |>
+    dplyr::filter(!is.na(STATION))
+  
+  trawlable_grid <- 
+    map_layers$survey.grid |>
+    dplyr::select(STATION, STRATUM, GRID_ID, geometry) |>
+    dplyr::inner_join(trawlable, 
+                      by = c("STATION", "GRID_ID", "STRATUM"))
   
   shp_path_grid <- here::here("output", region, "shapefiles", paste0(region, "_trawlable_grid.shp"))
+  shp_path_mark <- here::here("output", region, "shapefiles", paste0(region, "_trawlable_mark.shp"))
   
   .check_output_path(shp_path_grid)
-  message("make_trawlable: Writing trawlable/untrawlable shapefile to ", shp_path_grid)
+  .check_output_path(shp_path_mark)
+  message("make_trawlable: Writing trawlable/untrawlable grid shapefile to ", shp_path_grid)
   
   # Write output to shapefile
   trawlable_grid |>
@@ -64,55 +67,97 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
                   append = FALSE)
                          
   message("make_trawlable: Converting to WGS84 and adding color/fill columns.")
-  trawlable_grid <- sf::st_transform(trawlable_grid, crs = "EPSG:4326") |>
+  trawlable_grid <- 
+    sf::st_transform(trawlable_grid, crs = "EPSG:4326") |>
     sf::st_wrap_dateline()
   
+  trawlable_grid$description <- paste0("Trawlable? ", trawlable_grid$TRAWLABLE, "; Stratum: ", trawlable_grid$STRATUM)
+  
+  trawlable_mark <- navmaps::st_primary_centroid(trawlable_grid)
+  
+  trawlable_mark |>
+    safe_st_write(dsn = shp_path_mark, 
+                  append = FALSE)
+  
   # Set plot colors
-    trawlable_grid$color <- navmaps_pal(values = "cyan", 
-                                        software_format = software_format, 
-                                        file_type = file_type_grid)
-    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- navmaps_pal(values = "lightgreen", 
-                                                                         software_format = software_format, 
-                                                                         file_type = file_type_grid)
-    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- navmaps_pal(values = "red", 
-                                                                         software_format = software_format, 
-                                                                         file_type = file_type_grid)
+  trawlable_grid$color <- 
+    navmaps_pal(
+      values = "cyan", 
+      software_format = software_format, 
+      file_type = file_type_grid
+    )
+  trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- 
+    navmaps_pal(
+      values = "lightgreen", 
+      software_format = software_format, 
+      file_type = file_type_grid
+    )
+  trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- 
+    navmaps_pal(values = "red", 
+                software_format = software_format, 
+                file_type = file_type_grid
+    )
+  
     trawlable_grid$fill <- 0
-    trawlable_grid$description <- paste0("Trawlable? ", trawlable_grid$TRAWLABLE, "; Stratum: ", trawlable_grid$STRATUM)
     
-    grid_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_grid.", file_type_grid))
+    trawlable_mark$color <- 
+      navmaps_pal(
+        values = "cyan", 
+        software_format = software_format, 
+        file_type = file_type_mark
+      )
+    trawlable_mark$color[trawlable_grid$TRAWLABLE == 'Y'] <- 
+      navmaps_pal(
+        values = "lightgreen", 
+        software_format = software_format, 
+        file_type = file_type_mark
+      )
+    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- 
+      navmaps_pal(values = "red", 
+                  software_format = software_format, 
+                  file_type = file_type_mark
+      )
+
+    trawlable_mark$shape <- 
+      navmaps_sym_pal(
+        values = "circle1", 
+        software_format = software_format,
+        file_type = file_type_mark
+      )
     
-    mark_path <- here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_mark.", file_type_mark))
+    grid_path <- 
+      here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_grid.", file_type_grid))
+    
+    mark_path <- 
+      here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_mark.", file_type_mark))
     
     .check_output_path(grid_path)
     
     .check_output_path(mark_path)
-    
-    trawlable_mark <- navmaps::st_primary_centroid(trawlable_grid)
 
     message("make_trawlable: Writing trawlable/untrawlable grid file to ", grid_path)
-    sf_to_nav_file(x = trawlable_grid,
-                   file = grid_path,
-                   name_col = "STATIONID",
-                   description_col = "description",
-                   color_col = "color",
-                   fill_col = "fill",
-                   software_format = software_format)
+    sf_to_nav_file(
+      x = trawlable_grid,
+      file = grid_path,
+      name_col = "STATION",
+      description_col = "description",
+      color_col = "color",
+      fill_col = "fill",
+      software_format = software_format
+    )
     
     message("make_trawlable: Writing trawlable/untrawlable mark file to ", mark_path)
     
-    trawlable_mark$shape <- navmaps_sym_pal(values = "circle1", 
-                                            software_format = software_format,
-                                            file_type = file_type_mark)
+    sf_to_nav_file(
+      x = trawlable_mark,
+      file = mark_path,
+      name_col = "STATION",
+      description_col = "description",
+      color_col = "color",
+      shape_col = "shape",
+      software_format = software_format
+    )
     
-    sf_to_nav_file(x = trawlable_mark,
-                   file = mark_path,
-                   name_col = "STATIONID",
-                   description_col = "description",
-                   color_col = "color",
-                   shape_col = "shape",
-                   software_format = software_format)
- 
 }
 
 

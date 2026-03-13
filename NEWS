@@ -1,3 +1,12 @@
+navmaps 1.4.4 (March 13, 2026)
+----------------------------------------------------------------
+
+BUG FIX
+
+- Trawlable marks was using polygon color formatting for .gpx
+  outputs; fixed.
+
+
 navmaps 1.4.3 (February 17, 2026)
 ----------------------------------------------------------------
 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Herring Savings Area (Timm and Lopez project)</name>
+      <description>Summer Area 1</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>15</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-164, 55
+        -164, 57
+        -162, 57
+        -162, 55
+        -164, 55
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Herring Savings Area (Timm and Lopez project)</name>
+      <description>Summer Area 2</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>15</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-164, 54
+        -167, 54
+        -167, 56.5
+        -164, 56.5
+        -164, 54
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    <Placemark>
+      <name>Herring Savings Area (Timm and Lopez project)</name>
+      <description>Winter Area</description>
+      <time></time>
+      <Style>
+        <LineStyle>
+        <color>15</color>
+        </LineStyle>
+        <PolyStyle>
+        <color>0</color>
+        </PolyStyle>
+      </Style>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+-175, 58
+        -175, 60
+        -172, 60
+        -172, 58
+        -175, 58
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+  </Document>
+</kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+<trk>
+  <name>Herring Savings Area (Timm and Lopez project)</name>
+  <desc>Summer Area 1</desc>
+  <time>2026-03-13T13:58:08.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="55" lon="-164"></trkpt>
+    <trkpt lat="57" lon="-164"></trkpt>
+    <trkpt lat="57" lon="-162"></trkpt>
+    <trkpt lat="55" lon="-162"></trkpt>
+    <trkpt lat="55" lon="-164"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Herring Savings Area (Timm and Lopez project)</name>
+  <desc>Summer Area 2</desc>
+  <time>2026-03-13T13:58:08.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="54" lon="-164"></trkpt>
+    <trkpt lat="54" lon="-167"></trkpt>
+    <trkpt lat="56.5" lon="-167"></trkpt>
+    <trkpt lat="56.5" lon="-164"></trkpt>
+    <trkpt lat="54" lon="-164"></trkpt>  </trkseg>
+</trk>
+<trk>
+  <name>Herring Savings Area (Timm and Lopez project)</name>
+  <desc>Winter Area</desc>
+  <time>2026-03-13T13:58:08.000000Z</time>
+  <extensions>
+    <gpxx:TrackExtension>
+              <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+    </gpxx:TrackExtension>
+  </extensions>  <trkseg>    <trkpt lat="58" lon="-175"></trkpt>
+    <trkpt lat="60" lon="-175"></trkpt>
+    <trkpt lat="60" lon="-172"></trkpt>
+    <trkpt lat="58" lon="-172"></trkpt>
+    <trkpt lat="58" lon="-175"></trkpt>  </trkseg>
+</trk>
+</gpx>
