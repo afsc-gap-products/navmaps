@@ -87,19 +87,19 @@ for(ii in 1:length(software_types)) {
   
   
   # 6. Station marks
-  grid_centers <- navmaps::st_primary_centroid(map_layers$survey.grid) # Points at the center of each grid cell
-  grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
-  grid_centers$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
-
-  sf_to_nav_file(
-    x = grid_centers,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_marks.", FILE_TYPE_POINT)),
-    name_col = "STATION",
-    description_col = "STRATUM",
-    color_col = "color",
-    shape_col = "shape",
-    software_format = SOFTWARE
-  )
+  # grid_centers <- navmaps::st_primary_centroid(map_layers$survey.grid) # Points at the center of each grid cell
+  # grid_centers$shape <- navmaps_sym_pal(values = "circle1", software_format = SOFTWARE, file_type = FILE_TYPE_POINT, color = "yellow")
+  # grid_centers$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POINT)
+  # 
+  # sf_to_nav_file(
+  #   x = grid_centers,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_marks.", FILE_TYPE_POINT)),
+  #   name_col = "STATION",
+  #   description_col = "STRATUM",
+  #   color_col = "color",
+  #   shape_col = "shape",
+  #   software_format = SOFTWARE
+  # )
   
   # # 7. Station allocation
   # allocation <- sf::st_read(here::here("assets", "data", "allocation", "ai_2026_station_allocation_400stn.gpkg")) |>

@@ -112,7 +112,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
         software_format = software_format, 
         file_type = file_type_mark
       )
-    trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- 
+    trawlable_mark$color[trawlable_grid$TRAWLABLE == 'N'] <- 
       navmaps_pal(values = "red", 
                   software_format = software_format, 
                   file_type = file_type_mark
@@ -137,7 +137,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
 
     message("make_trawlable: Writing trawlable/untrawlable grid file to ", grid_path)
     sf_to_nav_file(
-      x = trawlable_grid,
+      x = dplyr::arrange(trawlable_grid, TRAWLABLE),
       file = grid_path,
       name_col = "STATION",
       description_col = "description",
@@ -149,7 +149,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     message("make_trawlable: Writing trawlable/untrawlable mark file to ", mark_path)
     
     sf_to_nav_file(
-      x = trawlable_mark,
+      x = dplyr::arrange(trawlable_mark, TRAWLABLE),
       file = mark_path,
       name_col = "STATION",
       description_col = "description",
