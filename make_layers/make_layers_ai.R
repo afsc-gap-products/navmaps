@@ -61,11 +61,11 @@ for(ii in 1:length(software_types)) {
   
   # 5. Station grid 
     # a. With trawlable/untrawlable (AI/GOA)
-  make_trawlable(
-    region = region,
-    channel = channel,
-    software_format = SOFTWARE
-  )
+  # make_trawlable(
+  #   region = region,
+  #   channel = channel,
+  #   software_format = SOFTWARE
+  # )
   
   # # b. Full grid
   # survey_grid <- map_layers$survey.grid
@@ -102,28 +102,28 @@ for(ii in 1:length(software_types)) {
   # )
   
   # # 7. Station allocation
-  # allocation <- sf::st_read(here::here("assets", "data", "allocation", "ai_2026_station_allocation_400stn.gpkg")) |>
-  #   tidyr::drop_na(LONGITUDE, LATITUDE, VESSEL) |>
-  #   dplyr::mutate(VESSEL = factor(VESSEL)) |>
-  #   sf::st_transform(crs = "WGS84")
-  # 
-  # allocation[c("LONGITUDE", "LATITUDE")] <- sf::st_coordinates(allocation)
-  # 
-  # allocation <- sf::st_drop_geometry(allocation) |> as.data.frame()
-  # 
-  # make_station_allocation(
-  #   allocation_df = allocation,
-  #   lon_col = "LONGITUDE",
-  #   lat_col = "LATITUDE",
-  #   region = region,
-  #   station_col = "STATION",
-  #   stratum_col = "STRATUM",
-  #   vessel_col = "VESSEL",
-  #   # extra_cols = "STATION_TYPE",
-  #   vessel_colors = c("176" = "yellow", "148" = "cyan"),
-  #   vessel_symbols = c("176" = "triangle1", "148" = "circle1"),
-  #   software_format = SOFTWARE
-  # )
+  allocation <- sf::st_read(here::here("assets", "data", "allocation", "ai_2026_station_allocation_400stn.gpkg")) |>
+    tidyr::drop_na(LONGITUDE, LATITUDE, VESSEL) |>
+    dplyr::mutate(VESSEL = factor(VESSEL)) |>
+    sf::st_transform(crs = "WGS84")
+
+  allocation[c("LONGITUDE", "LATITUDE")] <- sf::st_coordinates(allocation)
+
+  allocation <- sf::st_drop_geometry(allocation) |> as.data.frame()
+
+  make_station_allocation(
+    allocation_df = allocation,
+    lon_col = "LONGITUDE",
+    lat_col = "LATITUDE",
+    region = region,
+    station_col = "STATION",
+    stratum_col = "STRATUM",
+    vessel_col = "VESSEL",
+    # extra_cols = "STATION_TYPE",
+    vessel_colors = c("176" = "yellow", "148" = "cyan"),
+    vessel_symbols = c("176" = "triangle1", "148" = "circle1"),
+    software_format = SOFTWARE
+  )
   # 
   # # 8. Survey stratum layer
   # strata <- map_layers$survey.strata
@@ -141,21 +141,21 @@ for(ii in 1:length(software_types)) {
   #   software_format = SOFTWARE
   # )
   # 
-  # # # 9. SSL buffer zones
-  # ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_notransit.shp"))
-  # ssl$NAME <- "SSL No-Transit"
-  # ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  # ssl$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  # 
-  # sf_to_nav_file(
-  #   x = ssl,
-  #   file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
-  #   name_col = "NAME",
-  #   description_col = "NAME",
-  #   color_col = "color",
-  #   fill_col = "fill",
-  #   software_format = SOFTWARE
-  # )
+  # 9. SSL buffer zones
+  ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_notransit.shp"))
+  ssl$NAME <- "SSL No-Transit"
+  ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  ssl$fill <- 0
+
+  sf_to_nav_file(
+    x = ssl,
+    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
+    name_col = "NAME",
+    description_col = "NAME",
+    color_col = "color",
+    fill_col = "fill",
+    software_format = SOFTWARE
+  )
   # 
   # # 10. Sea Otter Critical Habitat
   # otters <- sf::st_read(here::here("assets","data", "otters", "SeaOtterFinalCH_Project.shp")) |>

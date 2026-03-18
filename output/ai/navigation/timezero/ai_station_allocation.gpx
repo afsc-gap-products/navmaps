@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
-  <wpt lat="980609.274772597" lon="-2250874.3575857">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.3192219340886" lon="170.664392861684">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>10-54</name>
     <cmt>Stratum: 213, Vessel: 148</cmt>
     <extensions>
@@ -9,8 +9,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="615979.167497199" lon="-1908925.87441047">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8235253581816" lon="177.59804811783">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>102-20</name>
     <cmt>Stratum: 412, Vessel: 176</cmt>
     <extensions>
@@ -18,8 +18,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="610435.858849885" lon="-1905334.40941697">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7913821707332" lon="177.678314109038">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>103-19</name>
     <cmt>Stratum: 412, Vessel: 148</cmt>
     <extensions>
@@ -27,8 +27,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="618438.085680466" lon="-1902853.76898218">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8664686476831" lon="177.663123868945">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>103-21</name>
     <cmt>Stratum: 411, Vessel: 176</cmt>
     <extensions>
@@ -36,8 +36,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="635849.846780723" lon="-1895057.18495076">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0387698027173" lon="177.661550666768">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>103-25</name>
     <cmt>Stratum: 321, Vessel: 176</cmt>
     <extensions>
@@ -45,8 +45,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="611444.059147321" lon="-1899898.13651745">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8199707514827" lon="177.743705934451">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>104-20</name>
     <cmt>Stratum: 412, Vessel: 148</cmt>
     <extensions>
@@ -54,8 +54,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="633224.78513079" lon="-1889819.85872306">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0367308881607" lon="177.74645633985">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>104-25</name>
     <cmt>Stratum: 322, Vessel: 148</cmt>
     <extensions>
@@ -63,8 +63,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="613269.41653266" lon="-1894703.79746177">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8543435612846" lon="177.801144521528">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>105-21</name>
     <cmt>Stratum: 412, Vessel: 148</cmt>
     <extensions>
@@ -72,8 +72,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="631413.113942365" lon="-1885752.96345521">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0369668662439" lon="177.811027256841">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>105-25</name>
     <cmt>Stratum: 322, Vessel: 148</cmt>
     <extensions>
@@ -81,8 +81,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="597643.770292039" lon="-1894498.44722367">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7264273149451" lon="177.896505223495">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>106-18</name>
     <cmt>Stratum: 413, Vessel: 148</cmt>
     <extensions>
@@ -90,8 +90,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="602622.50354" lon="-1892377.04064826">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7753159738795" lon="177.894915870821">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>106-19</name>
     <cmt>Stratum: 412, Vessel: 148</cmt>
     <extensions>
@@ -99,8 +99,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="591432.827052514" lon="-1892186.84577584">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6838104542516" lon="177.963494645875">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>107-17</name>
     <cmt>Stratum: 414, Vessel: 148</cmt>
     <extensions>
@@ -108,8 +108,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="596804.602386212" lon="-1889059.7320935">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7396671230983" lon="177.972876941038">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>107-18</name>
     <cmt>Stratum: 412, Vessel: 148</cmt>
     <extensions>
@@ -117,8 +117,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="622504.115039902" lon="-1877150.18311635">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9955168755687" lon="177.977772496319">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>107-24</name>
     <cmt>Stratum: 324, Vessel: 148</cmt>
     <extensions>
@@ -126,8 +126,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="616042.596256578" lon="-1874814.298661">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9508963187115" lon="178.046915906675">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>108-23</name>
     <cmt>Stratum: 324, Vessel: 176</cmt>
     <extensions>
@@ -135,8 +135,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="582885.450868604" lon="-1884135.85074103">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6430449182475" lon="178.119321061278">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>109-16</name>
     <cmt>Stratum: 414, Vessel: 176</cmt>
     <extensions>
@@ -144,8 +144,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="609515.702443397" lon="-1871657.41202894">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9087100070074" lon="178.127135384574">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>109-22</name>
     <cmt>Stratum: 323, Vessel: 176</cmt>
     <extensions>
@@ -153,8 +153,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="974859.785041469" lon="-2247686.35058367">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.2891265865771" lon="170.749111470504">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>11-53</name>
     <cmt>Stratum: 213, Vessel: 176</cmt>
     <extensions>
@@ -162,8 +162,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="978893.291094952" lon="-2246027.27679655">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.3280261017043" lon="170.739962929686">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>11-54</name>
     <cmt>Stratum: 214, Vessel: 148</cmt>
     <extensions>
@@ -171,8 +171,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="606891.22842669" lon="-1867751.85934619">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.901415559037" lon="178.194154658554">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>110-22</name>
     <cmt>Stratum: 323, Vessel: 148</cmt>
     <extensions>
@@ -180,8 +180,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="612167.063459568" lon="-1864833.68450337">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9556674527265" lon="178.201698020048">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>110-23</name>
     <cmt>Stratum: 323, Vessel: 176</cmt>
     <extensions>
@@ -189,8 +189,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="615302.661459257" lon="-1865932.44456818">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9775030211806" lon="178.168700508549">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>110-24</name>
     <cmt>Stratum: 323, Vessel: 148</cmt>
     <extensions>
@@ -198,8 +198,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="597820.224007574" lon="-1865778.35404774">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8337707445038" lon="178.27340435216">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>111-20</name>
     <cmt>Stratum: 321, Vessel: 176</cmt>
     <extensions>
@@ -207,8 +207,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="600412.637687703" lon="-1865453.42610229">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8563679781267" lon="178.262514151898">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>111-21</name>
     <cmt>Stratum: 321, Vessel: 176</cmt>
     <extensions>
@@ -216,8 +216,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="605807.509634248" lon="-1862781.58593895">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9107005008027" lon="178.266184896075">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>111-22</name>
     <cmt>Stratum: 323, Vessel: 176</cmt>
     <extensions>
@@ -225,8 +225,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="622392.118509804" lon="-1855049.74693633">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0759237667176" lon="178.271136206718">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>111-26</name>
     <cmt>Stratum: 324, Vessel: 148</cmt>
     <extensions>
@@ -234,8 +234,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="568511.915596358" lon="-1872800.51138928">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.565916658653" lon="178.351771423344">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>112-14</name>
     <cmt>Stratum: 414, Vessel: 148</cmt>
     <extensions>
@@ -243,8 +243,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="576213.014853458" lon="-1870273.84442222">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6388108390553" lon="178.34022956278">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>112-16</name>
     <cmt>Stratum: 413, Vessel: 176</cmt>
     <extensions>
@@ -252,8 +252,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="581000.311940465" lon="-1868084.60972112">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6863799715707" lon="178.341169451336">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>112-17</name>
     <cmt>Stratum: 412, Vessel: 176</cmt>
     <extensions>
@@ -261,8 +261,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="599570.376734872" lon="-1860254.85739439">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8684365579177" lon="178.336085821366">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>112-21</name>
     <cmt>Stratum: 322, Vessel: 176</cmt>
     <extensions>
@@ -270,8 +270,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="603189.549070977" lon="-1857862.7523639">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9070750132006" lon="178.346541743044">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>112-22</name>
     <cmt>Stratum: 322, Vessel: 176</cmt>
     <extensions>
@@ -279,8 +279,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="617728.440347551" lon="-1851688.2111524">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0497142618703" lon="178.343152698882">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>112-25</name>
     <cmt>Stratum: 323, Vessel: 148</cmt>
     <extensions>
@@ -288,8 +288,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="570231.68057814" lon="-1865403.72121729">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6071339907799" lon="178.438895642725">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>113-15</name>
     <cmt>Stratum: 412, Vessel: 148</cmt>
     <extensions>
@@ -297,8 +297,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="596101.600281344" lon="-1855680.10214305">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8564714390874" lon="178.41676607071">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>113-21</name>
     <cmt>Stratum: 324, Vessel: 148</cmt>
     <extensions>
@@ -306,8 +306,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="602033.491923872" lon="-1852458.71990774">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9172392998329" lon="178.424777354986">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>113-22</name>
     <cmt>Stratum: 321, Vessel: 148</cmt>
     <extensions>
@@ -315,8 +315,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="613187.625702533" lon="-1842094.46460807">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0471480485409" lon="178.497082219696">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>114-25</name>
     <cmt>Stratum: 324, Vessel: 176</cmt>
     <extensions>
@@ -324,8 +324,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="552423.468440241" lon="-1863369.26364111">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.4671556136006" lon="178.568254873015">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>115-12</name>
     <cmt>Stratum: 414, Vessel: 176</cmt>
     <extensions>
@@ -333,8 +333,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="557978.052914347" lon="-1860401.47947505">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5239175599289" lon="178.575253030954">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>115-13</name>
     <cmt>Stratum: 412, Vessel: 176</cmt>
     <extensions>
@@ -342,8 +342,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="593529.907338748" lon="-1845299.82293842">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8729423885039" lon="178.56896349494">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>115-21</name>
     <cmt>Stratum: 324, Vessel: 176</cmt>
     <extensions>
@@ -351,8 +351,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="552019.954060558" lon="-1856113.98206593">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.4900991164667" lon="178.665693533535">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>116-12</name>
     <cmt>Stratum: 412, Vessel: 148</cmt>
     <extensions>
@@ -360,8 +360,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="551501.381000335" lon="-1857863.01012377">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.479474550763" lon="178.645723045387">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>116-12</name>
     <cmt>Stratum: 413, Vessel: 148</cmt>
     <extensions>
@@ -369,8 +369,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="554732.300747855" lon="-1856624.08866064">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5107244139243" lon="178.643457698754">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>116-13</name>
     <cmt>Stratum: 412, Vessel: 176</cmt>
     <extensions>
@@ -378,8 +378,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="557506.290605739" lon="-1849504.35266328">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5594421714201" lon="178.721077221709">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>117-14</name>
     <cmt>Stratum: 411, Vessel: 148</cmt>
     <extensions>
@@ -387,8 +387,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="543584.230061399" lon="-1849072.70213129">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.445576118616" lon="178.806227227635">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>118-11</name>
     <cmt>Stratum: 412, Vessel: 176</cmt>
     <extensions>
@@ -396,8 +396,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="542182.332986406" lon="-1850318.16200896">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.4294651307392" lon="178.797874566868">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>118-11</name>
     <cmt>Stratum: 413, Vessel: 176</cmt>
     <extensions>
@@ -405,8 +405,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="551046.364412652" lon="-1846468.53394831">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5168345479319" lon="178.797890767848">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>118-13</name>
     <cmt>Stratum: 411, Vessel: 176</cmt>
     <extensions>
@@ -414,8 +414,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="958079.863330745" lon="-2249878.74615158">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.1487066796375" lon="170.847536900567">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>12-50</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -423,8 +423,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="967131.316482945" lon="-2246174.65666352">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.2359490994469" lon="170.827023996028">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>12-52</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -432,8 +432,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="970770.327868902" lon="-2244021.69041674">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.2740400607992" lon="170.827316103042">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>12-53</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -441,8 +441,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="527281.937539655" lon="-1828447.47060584">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.383978073989" lon="179.169046316842">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>123-10</name>
     <cmt>Stratum: 411, Vessel: 148</cmt>
     <extensions>
@@ -450,8 +450,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="523077.270819783" lon="-1830007.93554499">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.3434693647624" lon="179.172156984058">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>123-9</name>
     <cmt>Stratum: 411, Vessel: 176</cmt>
     <extensions>
@@ -459,8 +459,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="589113.426775201" lon="-1790131.74646964">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0337153958165" lon="179.327474629856">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>125-25</name>
     <cmt>Stratum: 313, Vessel: 148</cmt>
     <extensions>
@@ -468,8 +468,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="603108.701692369" lon="-1784557.91646111">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1696962725666" lon="179.322517425874">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>125-28</name>
     <cmt>Stratum: 314, Vessel: 176</cmt>
     <extensions>
@@ -477,8 +477,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="607533.282800169" lon="-1782631.59476144">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2132579595284" lon="179.323144209896">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>125-29</name>
     <cmt>Stratum: 314, Vessel: 148</cmt>
     <extensions>
@@ -486,8 +486,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="511301.460619834" lon="-1823697.43901173">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.267868374321" lon="179.32068691085">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>125-7</name>
     <cmt>Stratum: 412, Vessel: 176</cmt>
     <extensions>
@@ -495,8 +495,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="583134.114632004" lon="-1787271.08890453">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9940898242611" lon="179.399488963245">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>126-24</name>
     <cmt>Stratum: 312, Vessel: 148</cmt>
     <extensions>
@@ -504,8 +504,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="587125.401736347" lon="-1784953.97915401">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0354392027735" lon="179.407863449112">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>126-25</name>
     <cmt>Stratum: 312, Vessel: 176</cmt>
     <extensions>
@@ -513,8 +513,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="605569.769653111" lon="-1777904.06460222">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2136033697109" lon="179.39770514016">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>126-29</name>
     <cmt>Stratum: 314, Vessel: 148</cmt>
     <extensions>
@@ -522,8 +522,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="512932.843083451" lon="-1817542.73341555">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.3031901953993" lon="179.392323288501">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>126-8</name>
     <cmt>Stratum: 412, Vessel: 176</cmt>
     <extensions>
@@ -531,8 +531,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="598524.728336834" lon="-1774355.73585095">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1674947353453" lon="179.485214584314">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>127-28</name>
     <cmt>Stratum: 313, Vessel: 148</cmt>
     <extensions>
@@ -540,8 +540,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="595070.599668733" lon="-1765516.26386683">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1696960535749" lon="179.623252795453">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>129-28</name>
     <cmt>Stratum: 312, Vessel: 148</cmt>
     <extensions>
@@ -549,8 +549,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="612810.60477988" lon="-1757252.67301255">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3462063738091" lon="179.63433305964">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>129-32</name>
     <cmt>Stratum: 313, Vessel: 176</cmt>
     <extensions>
@@ -558,8 +558,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="935568.551045143" lon="-2258918.87608847">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9324284590783" lon="170.900367025753">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>13-45</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -567,8 +567,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="933933.464235402" lon="-2260013.06745215">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9147264429739" lon="170.89858304321">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>13-45</name>
     <cmt>Stratum: 213, Vessel: 176</cmt>
     <extensions>
@@ -576,8 +576,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="938531.860367587" lon="-2256476.32161167">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9666044823998" lon="170.909496886992">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>13-46</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -585,8 +585,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="955982.076746408" lon="-2246856.61823278">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.146127687895" lon="170.902201236195">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>13-50</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -594,8 +594,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="964573.961860344" lon="-2242286.97344634">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.2337389599073" lon="170.896434124402">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>13-52</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -603,8 +603,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="584113.900735325" lon="-1764497.21952822">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0820059731823" lon="179.698432958982">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>130-26</name>
     <cmt>Stratum: 311, Vessel: 148</cmt>
     <extensions>
@@ -612,8 +612,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="593450.22621353" lon="-1761424.72432004">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1704751792823" lon="179.687272656637">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>130-28</name>
     <cmt>Stratum: 312, Vessel: 176</cmt>
     <extensions>
@@ -621,8 +621,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="586599.361591287" lon="-1757851.57008959">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1258309236691" lon="179.77361311412">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>131-27</name>
     <cmt>Stratum: 311, Vessel: 176</cmt>
     <extensions>
@@ -630,8 +630,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="591084.118187256" lon="-1755982.32842965">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1696960140784" lon="179.773612678275">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>131-28</name>
     <cmt>Stratum: 311, Vessel: 148</cmt>
     <extensions>
@@ -639,8 +639,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="616106.911614819" lon="-1739978.3733653">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4336963683353" lon="179.848960351792">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>132-34</name>
     <cmt>Stratum: 312, Vessel: 148</cmt>
     <extensions>
@@ -648,8 +648,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="596111.658787131" lon="-1742715.13572679">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2575562273371" lon="179.923972984938">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>133-30</name>
     <cmt>Stratum: 311, Vessel: 176</cmt>
     <extensions>
@@ -657,8 +657,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="589640.671789592" lon="-1739808.55200751">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2136032890882" lon="179.999153026462">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>134-29</name>
     <cmt>Stratum: 311, Vessel: 176</cmt>
     <extensions>
@@ -666,8 +666,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="578682.7855636" lon="-1738736.38272557">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1258309432539" lon="-179.925666638588">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>135-27</name>
     <cmt>Stratum: 312, Vessel: 176</cmt>
     <extensions>
@@ -675,8 +675,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="568626.397596924" lon="-1737226.96722566">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0470203185357" lon="-179.849900148874">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>136-25</name>
     <cmt>Stratum: 313, Vessel: 176</cmt>
     <extensions>
@@ -684,8 +684,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="566111.874053563" lon="-1732557.37561619">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0419867751546" lon="-179.773391580217">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>137-25</name>
     <cmt>Stratum: 314, Vessel: 148</cmt>
     <extensions>
@@ -693,8 +693,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="574635.503624604" lon="-1729067.30218885">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1251509489954" lon="-179.773318650769">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>137-27</name>
     <cmt>Stratum: 313, Vessel: 176</cmt>
     <extensions>
@@ -702,8 +702,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="584370.160492007" lon="-1714127.5996048">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2574275991885" lon="-179.625392290281">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>139-30</name>
     <cmt>Stratum: 314, Vessel: 176</cmt>
     <extensions>
@@ -711,8 +711,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="612330.232694711" lon="-1702954.69040738">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5291246936569" lon="-179.627910070263">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>139-36</name>
     <cmt>Stratum: 311, Vessel: 148</cmt>
     <extensions>
@@ -720,8 +720,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="933997.248325692" lon="-2255155.34026244">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9372951720808" lon="170.960306382911">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>14-45</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -729,8 +729,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="936066.427187712" lon="-2252850.15280244">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9638710383127" lon="170.974399769775">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>14-46</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -738,8 +738,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="950470.141922388" lon="-2243711.10618912">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.1174977625829" lon="170.984048928057">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>14-49</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -747,8 +747,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="953539.005723576" lon="-2242753.20318706">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.1457380673047" lon="170.973372786184">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>14-50</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -756,8 +756,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="461702.35598513" lon="-1718286.71721918">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.2146389227442" lon="-179.023645252277">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>147-6</name>
     <cmt>Stratum: 422, Vessel: 148</cmt>
     <extensions>
@@ -765,8 +765,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="478429.516330227" lon="-1683718.39870596">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.4696639596378" lon="-178.651815585008">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>152-12</name>
     <cmt>Stratum: 424, Vessel: 176</cmt>
     <extensions>
@@ -774,8 +774,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="477028.366611467" lon="-1678171.91024602">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.4760170281399" lon="-178.570580686471">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>153-12</name>
     <cmt>Stratum: 423, Vessel: 176</cmt>
     <extensions>
@@ -783,8 +783,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="480882.838090216" lon="-1676605.66078064">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5136251454594" lon="-178.569628028409">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>153-13</name>
     <cmt>Stratum: 422, Vessel: 148</cmt>
     <extensions>
@@ -792,8 +792,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="495379.568115911" lon="-1670882.02449004">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6544970540799" lon="-178.56826800003">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>153-16</name>
     <cmt>Stratum: 323, Vessel: 148</cmt>
     <extensions>
@@ -801,8 +801,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="493484.272597401" lon="-1667483.22132926">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6496186310854" lon="-178.512887960539">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>154-16</name>
     <cmt>Stratum: 323, Vessel: 176</cmt>
     <extensions>
@@ -810,8 +810,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="468914.839951401" lon="-1670064.30030907">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.4340233929059" lon="-178.420583364693">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>155-11</name>
     <cmt>Stratum: 424, Vessel: 148</cmt>
     <extensions>
@@ -819,8 +819,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="472668.587504412" lon="-1669589.87078315">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.467234371256" lon="-178.433555267882">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>155-12</name>
     <cmt>Stratum: 423, Vessel: 176</cmt>
     <extensions>
@@ -828,8 +828,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="480022.641649779" lon="-1660914.83147347">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5574438822031" lon="-178.355424223305">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>156-14</name>
     <cmt>Stratum: 422, Vessel: 176</cmt>
     <extensions>
@@ -837,8 +837,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="484256.027258223" lon="-1656727.77138583">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6067285664476" lon="-178.321108121476">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>156-15</name>
     <cmt>Stratum: 424, Vessel: 148</cmt>
     <extensions>
@@ -846,8 +846,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="482616.734190609" lon="-1651571.01943346">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6095560588505" lon="-178.243563938091">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>157-15</name>
     <cmt>Stratum: 422, Vessel: 176</cmt>
     <extensions>
@@ -855,8 +855,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="486930.790972946" lon="-1650527.03934587">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6493445422541" lon="-178.251681315704">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>157-16</name>
     <cmt>Stratum: 422, Vessel: 176</cmt>
     <extensions>
@@ -864,8 +864,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="480863.64423155" lon="-1648667.25719256">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6041138247462" lon="-178.195648557038">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>158-15</name>
     <cmt>Stratum: 422, Vessel: 148</cmt>
     <extensions>
@@ -873,8 +873,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="485688.281982178" lon="-1646325.44059023">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6523973966194" lon="-178.188909535585">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>158-16</name>
     <cmt>Stratum: 421, Vessel: 148</cmt>
     <extensions>
@@ -882,8 +882,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="496908.031544397" lon="-1640758.60338394">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7650496731128" lon="-178.17154934581">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>158-19</name>
     <cmt>Stratum: 321, Vessel: 148</cmt>
     <extensions>
@@ -891,8 +891,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="475702.655656939" lon="-1644871.36357881">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5727246478354" lon="-178.118403237208">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>159-14</name>
     <cmt>Stratum: 422, Vessel: 148</cmt>
     <extensions>
@@ -900,8 +900,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="491935.646876862" lon="-1639156.38918006">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.728207597045" lon="-178.124512248402">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>159-18</name>
     <cmt>Stratum: 321, Vessel: 176</cmt>
     <extensions>
@@ -909,8 +909,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="473971.144122696" lon="-1639752.14697221">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5745036329521" lon="-178.040943916263">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>160-14</name>
     <cmt>Stratum: 422, Vessel: 176</cmt>
     <extensions>
@@ -918,8 +918,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="473058.51818054" lon="-1640630.52837692">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5639770213552" lon="-178.04808860786">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>160-14</name>
     <cmt>Stratum: 423, Vessel: 148</cmt>
     <extensions>
@@ -927,8 +927,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="481386.600945123" lon="-1637506.37674412">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6443703438718" lon="-178.04850024051">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>160-16</name>
     <cmt>Stratum: 421, Vessel: 148</cmt>
     <extensions>
@@ -936,8 +936,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="471197.02953692" lon="-1635549.1640473">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5644843611803" lon="-177.970492165074">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>161-14</name>
     <cmt>Stratum: 422, Vessel: 176</cmt>
     <extensions>
@@ -945,8 +945,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="475370.529238274" lon="-1633881.1719404">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6051008608979" lon="-177.969248814894">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>161-15</name>
     <cmt>Stratum: 421, Vessel: 176</cmt>
     <extensions>
@@ -954,8 +954,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="477753.443528928" lon="-1627108.40171772">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6468363345147" lon="-177.89029766977">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>162-16</name>
     <cmt>Stratum: 421, Vessel: 148</cmt>
     <extensions>
@@ -963,8 +963,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="472238.748869593" lon="-1624610.01575944">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6081164918277" lon="-177.828862618817">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>163-15</name>
     <cmt>Stratum: 421, Vessel: 176</cmt>
     <extensions>
@@ -972,8 +972,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="461915.99576644" lon="-1616172.41103077">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5474051140328" lon="-177.663661265803">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>165-14</name>
     <cmt>Stratum: 424, Vessel: 176</cmt>
     <extensions>
@@ -981,8 +981,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="461550.99039767" lon="-1611500.57153127">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.5590242183126" lon="-177.599058850978">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>166-14</name>
     <cmt>Stratum: 424, Vessel: 148</cmt>
     <extensions>
@@ -990,8 +990,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="481825.450798351" lon="-1598143.70454291">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7727670767033" lon="-177.520248561467">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>167-19</name>
     <cmt>Stratum: 321, Vessel: 148</cmt>
     <extensions>
@@ -999,8 +999,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="480410.606131122" lon="-1593068.70246949">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7766521884341" lon="-177.444570947134">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>168-19</name>
     <cmt>Stratum: 321, Vessel: 176</cmt>
     <extensions>
@@ -1008,8 +1008,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469738.792187867" lon="-1591255.59650761">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6918058462181" lon="-177.367030560719">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>169-17</name>
     <cmt>Stratum: 421, Vessel: 176</cmt>
     <extensions>
@@ -1017,8 +1017,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="456506.86267979" lon="-1581101.91850479">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6109809607575" lon="-177.164731546288">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>172-15</name>
     <cmt>Stratum: 423, Vessel: 148</cmt>
     <extensions>
@@ -1026,8 +1026,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="483927.132365383" lon="-1560251.75153408">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.908097447057" lon="-177.016923230154">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>174-22</name>
     <cmt>Stratum: 321, Vessel: 148</cmt>
     <extensions>
@@ -1035,8 +1035,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="442772.780102964" lon="-1545539.64312701">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.602759756042" lon="-176.617668446307">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>179-15</name>
     <cmt>Stratum: 612, Vessel: 148</cmt>
     <extensions>
@@ -1044,8 +1044,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="441392.882453937" lon="-1540739.08650621">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6054728582678" lon="-176.54610380696">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>180-15</name>
     <cmt>Stratum: 612, Vessel: 148</cmt>
     <extensions>
@@ -1053,8 +1053,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="477169.311597095" lon="-1527003.54702933">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9515887175119" lon="-176.531084773802">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>180-23</name>
     <cmt>Stratum: 511, Vessel: 176</cmt>
     <extensions>
@@ -1062,8 +1062,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469860.563599097" lon="-1524524.54250904">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8967664301288" lon="-176.462136290135">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>181-22</name>
     <cmt>Stratum: 512, Vessel: 176</cmt>
     <extensions>
@@ -1071,8 +1071,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="473909.848965428" lon="-1517917.10623491">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9510477863393" lon="-176.391368753291">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>182-23</name>
     <cmt>Stratum: 512, Vessel: 148</cmt>
     <extensions>
@@ -1080,8 +1080,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="434719.192749445" lon="-1520766.00088109">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6082795071605" lon="-176.243855620728">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>184-15</name>
     <cmt>Stratum: 614, Vessel: 176</cmt>
     <extensions>
@@ -1089,8 +1089,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="480376.45189072" lon="-1478732.11246671">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1220118702947" lon="-175.885025567415">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>189-27</name>
     <cmt>Stratum: 511, Vessel: 176</cmt>
     <extensions>
@@ -1098,8 +1098,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="449511.164736457" lon="-1476882.69999463">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8635363274451" lon="-175.715492042013">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>191-21</name>
     <cmt>Stratum: 612, Vessel: 176</cmt>
     <extensions>
@@ -1107,8 +1107,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="476836.896716591" lon="-1467743.50431268">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1237481670598" lon="-175.717262395731">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>191-27</name>
     <cmt>Stratum: 512, Vessel: 148</cmt>
     <extensions>
@@ -1116,8 +1116,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="443273.29964686" lon="-1473496.07599984">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8199704207817" lon="-175.640312492604">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>192-20</name>
     <cmt>Stratum: 612, Vessel: 148</cmt>
     <extensions>
@@ -1125,8 +1125,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="456556.359595115" lon="-1468931.39574531">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9468419096372" lon="-175.639265744756">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>192-23</name>
     <cmt>Stratum: 611, Vessel: 176</cmt>
     <extensions>
@@ -1134,8 +1134,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="441610.941700563" lon="-1468559.63599965">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8199922424212" lon="-175.565160324592">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>193-20</name>
     <cmt>Stratum: 612, Vessel: 176</cmt>
     <extensions>
@@ -1143,8 +1143,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="446178.393586815" lon="-1467019.47746715">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8635363436201" lon="-175.565125045236">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>193-21</name>
     <cmt>Stratum: 612, Vessel: 148</cmt>
     <extensions>
@@ -1152,8 +1152,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="435380.42605106" lon="-1465150.03848788">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7764450257509" lon="-175.489936799919">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>194-19</name>
     <cmt>Stratum: 613, Vessel: 176</cmt>
     <extensions>
@@ -1161,8 +1161,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="462885.079608862" lon="-1455862.25326436">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0386642308476" lon="-175.489065986309">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>194-25</name>
     <cmt>Stratum: 511, Vessel: 148</cmt>
     <extensions>
@@ -1170,8 +1170,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="467454.943766536" lon="-1454392.95300426">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0820059030812" lon="-175.489936892866">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>194-26</name>
     <cmt>Stratum: 511, Vessel: 176</cmt>
     <extensions>
@@ -1179,8 +1179,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="432969.688671509" lon="-1455034.61979672">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7847495666973" lon="-175.340634253198">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>196-19</name>
     <cmt>Stratum: 613, Vessel: 148</cmt>
     <extensions>
@@ -1188,8 +1188,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="434250.210693025" lon="-1449081.27179882">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.812687200453" lon="-175.264985382356">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>197-20</name>
     <cmt>Stratum: 613, Vessel: 148</cmt>
     <extensions>
@@ -1197,8 +1197,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="449509.357402959" lon="-1444177.57026361">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9574591057523" lon="-175.267134961189">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>197-23</name>
     <cmt>Stratum: 611, Vessel: 176</cmt>
     <extensions>
@@ -1206,8 +1206,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469046.155742195" lon="-1438530.82623146">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1409568684582" lon="-175.278626114829">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>197-27</name>
     <cmt>Stratum: 513, Vessel: 148</cmt>
     <extensions>
@@ -1215,8 +1215,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="471525.301085342" lon="-1436311.08433795">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1685093987668" lon="-175.259333657677">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>197-28</name>
     <cmt>Stratum: 513, Vessel: 148</cmt>
     <extensions>
@@ -1224,8 +1224,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="442528.392808481" lon="-1440814.95018668">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9071439165822" lon="-175.189216979367">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>198-22</name>
     <cmt>Stratum: 612, Vessel: 176</cmt>
     <extensions>
@@ -1233,8 +1233,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="470709.682687723" lon="-1431792.26448862">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1743370044664" lon="-175.193181965556">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>198-28</name>
     <cmt>Stratum: 513, Vessel: 176</cmt>
     <extensions>
@@ -1242,8 +1242,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="436314.463445598" lon="-1437385.72396729">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8635363598829" lon="-175.11403674879">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>199-21</name>
     <cmt>Stratum: 612, Vessel: 176</cmt>
     <extensions>
@@ -1251,8 +1251,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="462278.204745662" lon="-1423425.93154697">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1256461331904" lon="-175.039271383988">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>200-27</name>
     <cmt>Stratum: 511, Vessel: 148</cmt>
     <extensions>
@@ -1260,8 +1260,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="428490.068888782" lon="-1429075.08090308">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8197588145341" lon="-174.964852542448">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>201-20</name>
     <cmt>Stratum: 613, Vessel: 148</cmt>
     <extensions>
@@ -1269,8 +1269,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="423936.17349066" lon="-1414051.28456196">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8225481581741" lon="-174.738389869665">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>204-20</name>
     <cmt>Stratum: 613, Vessel: 176</cmt>
     <extensions>
@@ -1278,8 +1278,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="421752.410949045" lon="-1414486.62785153">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8025650508191" lon="-174.734689056327">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>204-20</name>
     <cmt>Stratum: 614, Vessel: 148</cmt>
     <extensions>
@@ -1287,8 +1287,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="473549.517230381" lon="-1397802.07653858">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2939574205465" lon="-174.735164311916">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>204-31</name>
     <cmt>Stratum: 512, Vessel: 176</cmt>
     <extensions>
@@ -1296,8 +1296,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="475678.106903163" lon="-1398027.8338673">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3116131677641" lon="-174.747847741942">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>204-31</name>
     <cmt>Stratum: 513, Vessel: 176</cmt>
     <extensions>
@@ -1305,8 +1305,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="420353.208555569" lon="-1409619.90466545">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8040157265546" lon="-174.661694353674">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>205-20</name>
     <cmt>Stratum: 614, Vessel: 148</cmt>
     <extensions>
@@ -1314,8 +1314,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="472746.009176218" lon="-1392793.93945508">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3009156470341" lon="-174.66199333847">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>205-31</name>
     <cmt>Stratum: 512, Vessel: 176</cmt>
     <extensions>
@@ -1323,8 +1323,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="419068.638667711" lon="-1404832.56088038">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8061836101272" lon="-174.590289362287">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>206-20</name>
     <cmt>Stratum: 614, Vessel: 176</cmt>
     <extensions>
@@ -1332,8 +1332,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="464070.203544762" lon="-1379489.11276062">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2628986852312" lon="-174.438548774497">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>208-30</name>
     <cmt>Stratum: 512, Vessel: 148</cmt>
     <extensions>
@@ -1341,8 +1341,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="435697.825976002" lon="-1372107.21682754">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0387331093229" lon="-174.211852525643">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>211-25</name>
     <cmt>Stratum: 611, Vessel: 148</cmt>
     <extensions>
@@ -1350,8 +1350,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="427924.989335008" lon="-1363670.50066946">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9944910682404" lon="-174.061485198012">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>213-24</name>
     <cmt>Stratum: 611, Vessel: 148</cmt>
     <extensions>
@@ -1359,8 +1359,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="449176.607374817" lon="-1350718.16863359">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2124383453434" lon="-173.973461741838">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>214-29</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1368,8 +1368,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="458425.702736089" lon="-1347672.04478403">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3003198215603" lon="-173.97098869298">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>214-31</name>
     <cmt>Stratum: 521, Vessel: 176</cmt>
     <extensions>
@@ -1377,8 +1377,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="463330.972450828" lon="-1346341.61672256">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3461594881271" lon="-173.97365182598">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>214-32</name>
     <cmt>Stratum: 521, Vessel: 148</cmt>
     <extensions>
@@ -1386,8 +1386,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="411603.479462473" lon="-1358065.91441398">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8687063099486" lon="-173.914053389724">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>215-21</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -1395,8 +1395,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="448033.970020622" lon="-1346591.78950564">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2136032555199" lon="-173.911125210214">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>215-29</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1404,8 +1404,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469541.613200908" lon="-1339352.647075">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4183480868631" lon="-173.902868468407">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>215-34</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1413,8 +1413,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="413994.338727303" lon="-1351721.82356491">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9062382926043" lon="-173.836634886398">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>216-22</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -1422,8 +1422,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="446512.377622062" lon="-1341659.75368469">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2136033868632" lon="-173.835945141185">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>216-29</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1431,8 +1431,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="451148.65981113" lon="-1340123.01800946">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2576818297171" lon="-173.834422710522">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>216-30</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1440,8 +1440,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="465157.144267471" lon="-1335919.09981647">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3896743508579" lon="-173.835944900289">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>216-33</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1449,8 +1449,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="468478.702647015" lon="-1334477.88952779">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4221459322335" lon="-173.830089087058">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>216-34</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1458,8 +1458,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="412497.677100137" lon="-1346656.35320155">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9067549857873" lon="-173.76027329482">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>217-22</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -1467,8 +1467,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="421794.944174935" lon="-1343840.87637648">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9944909665444" lon="-173.760765240431">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>217-24</name>
     <cmt>Stratum: 621, Vessel: 148</cmt>
     <extensions>
@@ -1476,8 +1476,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="454312.070584591" lon="-1333869.29033942">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3015529883124" lon="-173.76076522884">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>217-31</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1485,8 +1485,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="468533.064779113" lon="-1328582.7558822">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4382312839032" lon="-173.747805178101">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>217-34</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1494,8 +1494,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="411323.890562613" lon="-1341750.95058105">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9095836927762" lon="-173.687486939998">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>218-22</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -1503,8 +1503,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="416229.42667042" lon="-1340228.72350226">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9559746677679" lon="-173.687157003877">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>218-23</name>
     <cmt>Stratum: 621, Vessel: 148</cmt>
     <extensions>
@@ -1512,8 +1512,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="420276.475123134" lon="-1338879.12538435">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9944910672061" lon="-173.685584954766">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>218-24</name>
     <cmt>Stratum: 621, Vessel: 148</cmt>
     <extensions>
@@ -1521,8 +1521,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="448142.860472871" lon="-1330368.25198518">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2575561825494" lon="-173.685585396776">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>218-30</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1530,8 +1530,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="415117.841593726" lon="-1335080.29097987">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9599292937087" lon="-173.611175480051">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>219-23</name>
     <cmt>Stratum: 621, Vessel: 176</cmt>
     <extensions>
@@ -1539,8 +1539,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="451965.827946232" lon="-1323605.37093904">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3083573623514" lon="-173.607460262487">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>219-31</name>
     <cmt>Stratum: 594, Vessel: 176</cmt>
     <extensions>
@@ -1548,8 +1548,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469571.91613069" lon="-1316791.54416523">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4782438513068" lon="-173.586993333112">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>219-35</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1557,8 +1557,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469789.426926845" lon="-1317732.99499957">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4776516073637" lon="-173.601125809228">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>219-35</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1566,8 +1566,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="413415.872399527" lon="-1330018.56041223">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9584995388389" lon="-173.533902857675">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>220-23</name>
     <cmt>Stratum: 621, Vessel: 176</cmt>
     <extensions>
@@ -1575,8 +1575,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469906.001506041" lon="-1313363.46432321">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4901079637251" lon="-173.540317556302">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>220-35</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1584,8 +1584,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="471726.892487804" lon="-1311919.28127814">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5096074759317" lon="-173.527787505319">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>220-36</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1593,8 +1593,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="443885.592575187" lon="-1315279.42593833">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2603438888992" lon="-173.457016678185">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>221-30</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1602,8 +1602,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="472249.189915644" lon="-1307441.34683111">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5258083325854" lon="-173.467106798537">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>221-36</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1611,8 +1611,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="439185.71343164" lon="-1311762.89641513">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2288737959961" lon="-173.388181906384">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>222-29</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1620,8 +1620,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="442163.257497149" lon="-1310629.97249166">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2575562201775" lon="-173.384857193387">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>222-30</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1629,8 +1629,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="446969.308836664" lon="-1309056.39625618">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3031864482216" lon="-173.383047042875">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>222-31</name>
     <cmt>Stratum: 594, Vessel: 176</cmt>
     <extensions>
@@ -1638,8 +1638,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="473881.475358799" lon="-1295616.85024689">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5706093364913" lon="-173.307707181006">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>223-37</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1647,8 +1647,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="442866.722077612" lon="-1299565.52961745">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2922676597822" lon="-173.233170427887">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>224-31</name>
     <cmt>Stratum: 594, Vessel: 148</cmt>
     <extensions>
@@ -1656,8 +1656,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="437159.981172431" lon="-1295903.69441117">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2523168984575" lon="-173.158245614815">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>225-30</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1665,8 +1665,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="435810.880525596" lon="-1291179.97554545">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2527490183046" lon="-173.086625473814">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>226-30</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1674,8 +1674,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="434444.617512256" lon="-1285957.16940226">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2542567763112" lon="-173.007952700732">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>227-30</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1683,8 +1683,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="432804.570477514" lon="-1281155.48742788">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2522663647681" lon="-172.934043916111">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>228-30</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1692,8 +1692,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="427239.914345549" lon="-1277387.68059168">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2136033193428" lon="-172.85858137462">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>229-29</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1701,8 +1701,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="431387.704296019" lon="-1276175.6737203">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2526093136171" lon="-172.858561019593">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>229-30</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1710,8 +1710,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="425938.88750068" lon="-1272512.97215023">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2146325421209" lon="-172.785109903971">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>230-29</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1719,8 +1719,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="420628.703233982" lon="-1268350.74752895">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1790584214642" lon="-172.705372112833">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>231-28</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -1728,8 +1728,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="399607.989477094" lon="-1269235.61620847">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9944909957745" lon="-172.633034107245">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>232-24</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -1737,8 +1737,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="418466.657945691" lon="-1263631.25609282">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1721256563993" lon="-172.630659910268">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>232-28</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -1746,8 +1746,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="441886.560047031" lon="-1258340.68625551">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3884626514335" lon="-172.651146743655">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>232-33</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1755,8 +1755,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="405726.082906528" lon="-1256154.78670298">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0801697768967" lon="-172.475139904318">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>234-26</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -1764,8 +1764,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="415402.986423623" lon="-1253929.52936977">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.169696152371" lon="-172.482673466966">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>234-28</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -1773,8 +1773,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="441774.060678887" lon="-1246552.31678015">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4168419409362" lon="-172.484891585631">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>234-34</name>
     <cmt>Stratum: 521, Vessel: 148</cmt>
     <extensions>
@@ -1782,8 +1782,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="413733.346134999" lon="-1249354.34894341">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1665269697474" lon="-172.411996149022">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>235-28</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -1791,8 +1791,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="442227.276337337" lon="-1240874.35829915">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4348224063829" lon="-172.406764506553">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>235-34</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1800,8 +1800,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="456578.634418158" lon="-1236647.16131288">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5697907219064" lon="-172.404723396969">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>235-37</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1809,8 +1809,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="445440.604405674" lon="-1234680.21664131">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4779750130055" lon="-172.332314052523">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>236-35</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1818,8 +1818,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="449760.218294425" lon="-1233730.78480089">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5178049390114" lon="-172.336185509362">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>236-36</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -1827,8 +1827,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="454794.557300432" lon="-1231894.26106758">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5660161144291" lon="-172.33038861531">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>236-37</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1836,8 +1836,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="397155.646240932" lon="-1242970.74128047">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.03822651855" lon="-172.257133448334">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>237-25</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -1845,8 +1845,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="448601.806364428" lon="-1228485.30331873">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5206217860143" lon="-172.257487756937">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>237-36</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1854,8 +1854,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="442656.345405787" lon="-1224808.81378884">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4779749771044" lon="-172.181953355144">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>238-35</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1863,8 +1863,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="452098.648888347" lon="-1222157.09011178">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5664531071206" lon="-172.181952885473">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>238-37</name>
     <cmt>Stratum: 594, Vessel: 176</cmt>
     <extensions>
@@ -1872,8 +1872,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="402318.616343037" lon="-1225420.65197497">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1258743537855" lon="-172.03199582944">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>240-27</name>
     <cmt>Stratum: 623, Vessel: 148</cmt>
     <extensions>
@@ -1881,8 +1881,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="404259.764374885" lon="-1215098.83270183">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1676619069983" lon="-171.894894533299">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>242-28</name>
     <cmt>Stratum: 623, Vessel: 176</cmt>
     <extensions>
@@ -1890,8 +1890,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="402373.947963648" lon="-1203914.22198238">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.178005015289" lon="-171.730690082786">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>244-28</name>
     <cmt>Stratum: 624, Vessel: 148</cmt>
     <extensions>
@@ -1899,8 +1899,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="404826.096086287" lon="-1197908.29876645">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2136344027945" lon="-171.655731515471">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>245-29</name>
     <cmt>Stratum: 624, Vessel: 148</cmt>
     <extensions>
@@ -1908,8 +1908,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="450697.527647582" lon="-1180117.59844222">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6551392008235" lon="-171.580438857112">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>246-39</name>
     <cmt>Stratum: 594, Vessel: 148</cmt>
     <extensions>
@@ -1917,8 +1917,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="420949.151219565" lon="-1182855.00632543">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3896283242859" lon="-171.505229630482">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>247-33</name>
     <cmt>Stratum: 624, Vessel: 176</cmt>
     <extensions>
@@ -1926,8 +1926,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="463635.072721172" lon="-1171341.08460239">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.7884264151477" lon="-171.505310296236">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>247-42</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1935,8 +1935,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="467073.648140513" lon="-1165140.92131723">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8328984686887" lon="-171.430035663443">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>248-43</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -1944,8 +1944,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="470735.805959465" lon="-1163495.47716592">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8686332067474" lon="-171.420578464151">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>248-44</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1953,8 +1953,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="470423.554976179" lon="-1158899.17577689">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8766392496837" lon="-171.353661747705">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>249-44</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1962,8 +1962,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="412528.8570945" lon="-1169363.29643348">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3477588731386" lon="-171.282818697835">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>250-32</name>
     <cmt>Stratum: 624, Vessel: 148</cmt>
     <extensions>
@@ -1971,8 +1971,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469232.599200327" lon="-1154051.71747662">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8775318056226" lon="-171.279777419104">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>250-44</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -1980,8 +1980,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="399834.072721745" lon="-1140192.98605896">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3038059760374" lon="-170.823647464816">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>256-31</name>
     <cmt>Stratum: 623, Vessel: 176</cmt>
     <extensions>
@@ -1989,8 +1989,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="438539.265736902" lon="-1131703.57464737">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6610571838525" lon="-170.845471789058">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>256-39</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -1998,8 +1998,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="441057.797996529" lon="-1129050.80455782">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6890442698092" lon="-170.816944525193">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>256-40</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -2007,8 +2007,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="437364.155176315" lon="-1126558.80552577">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6624140951327" lon="-170.767789323626">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>257-39</name>
     <cmt>Stratum: 521, Vessel: 176</cmt>
     <extensions>
@@ -2016,8 +2016,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="393060.860453981" lon="-1131769.72366439">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.263582094221" lon="-170.679971306557">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>258-30</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -2025,8 +2025,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="397104.778905398" lon="-1130615.81587282">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3015243906912" lon="-170.678326710274">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>258-31</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -2034,8 +2034,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="401985.446417342" lon="-1129211.80047515">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3473391141225" lon="-170.67617716318">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>258-32</name>
     <cmt>Stratum: 623, Vessel: 176</cmt>
     <extensions>
@@ -2043,8 +2043,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="421027.196134269" lon="-1124631.59740184">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5240318469843" lon="-170.680504331314">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>258-36</name>
     <cmt>Stratum: 622, Vessel: 148</cmt>
     <extensions>
@@ -2052,8 +2052,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="444042.372660688" lon="-1118347.37280827">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.7391902438679" lon="-170.675091080226">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>258-41</name>
     <cmt>Stratum: 522, Vessel: 148</cmt>
     <extensions>
@@ -2061,8 +2061,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="450118.826591733" lon="-1117430.87512116">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.7943171645528" lon="-170.68428060643">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>258-42</name>
     <cmt>Stratum: 594, Vessel: 176</cmt>
     <extensions>
@@ -2070,8 +2070,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="391343.402141693" lon="-1127395.29214505">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.258357974943" lon="-170.611962238245">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>259-30</name>
     <cmt>Stratum: 623, Vessel: 176</cmt>
     <extensions>
@@ -2079,8 +2079,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="405293.559713556" lon="-1123205.14485957">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3896994650525" lon="-170.603089455153">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>259-33</name>
     <cmt>Stratum: 624, Vessel: 176</cmt>
     <extensions>
@@ -2088,8 +2088,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="420772.177990155" lon="-1119767.14208516">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5326874631743" lon="-170.610406156548">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>259-36</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -2097,8 +2097,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="443974.3378531" lon="-1113197.41055518">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.7501092688662" lon="-170.601220403536">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>259-41</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -2106,8 +2106,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="408762.573110194" lon="-1117023.42769951">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4338026991132" lon="-170.527946350324">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>260-34</name>
     <cmt>Stratum: 624, Vessel: 176</cmt>
     <extensions>
@@ -2115,8 +2115,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="418224.418963004" lon="-1114590.84546503">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5219449685133" lon="-170.527549119242">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>260-36</name>
     <cmt>Stratum: 623, Vessel: 148</cmt>
     <extensions>
@@ -2124,8 +2124,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="431627.841038826" lon="-1111142.19614268">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6467851895294" lon="-170.526944771626">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>260-39</name>
     <cmt>Stratum: 621, Vessel: 176</cmt>
     <extensions>
@@ -2133,8 +2133,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="452481.532208523" lon="-1107299.08318148">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8375750126585" lon="-170.547820944163">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>260-43</name>
     <cmt>Stratum: 594, Vessel: 148</cmt>
     <extensions>
@@ -2142,8 +2142,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="459711.608973949" lon="-1098366.69466027">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.920553270359" lon="-170.445950906843">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>261-45</name>
     <cmt>Stratum: 523, Vessel: 176</cmt>
     <extensions>
@@ -2151,8 +2151,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="463801.618421187" lon="-1093137.64824773">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9678331659696" lon="-170.385605113474">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>262-46</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -2160,8 +2160,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="467997.304777602" lon="-1091231.35435893">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.0087008438406" lon="-170.373368765181">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>262-47</name>
     <cmt>Stratum: 523, Vessel: 148</cmt>
     <extensions>
@@ -2169,8 +2169,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="404994.402191534" lon="-1102090.16476064">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4338028580193" lon="-170.30240665855">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>263-34</name>
     <cmt>Stratum: 623, Vessel: 176</cmt>
     <extensions>
@@ -2178,8 +2178,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="427257.626325722" lon="-1091401.54817735">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6520272945312" lon="-170.22941463483">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>264-39</name>
     <cmt>Stratum: 623, Vessel: 176</cmt>
     <extensions>
@@ -2187,8 +2187,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="407295.298194259" lon="-1090973.77635247">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4782108556215" lon="-170.152522491485">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>265-35</name>
     <cmt>Stratum: 622, Vessel: 176</cmt>
     <extensions>
@@ -2196,8 +2196,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="410791.785568401" lon="-1084793.25332549">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5222289715599" lon="-170.076845537196">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>266-36</name>
     <cmt>Stratum: 623, Vessel: 148</cmt>
     <extensions>
@@ -2205,8 +2205,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="415551.524047988" lon="-1083619.45097805">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5664529984195" lon="-170.076866761583">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>266-37</name>
     <cmt>Stratum: 623, Vessel: 148</cmt>
     <extensions>
@@ -2214,8 +2214,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="420252.044467666" lon="-1082514.21878676">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6100063775563" lon="-170.077658333057">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>266-38</name>
     <cmt>Stratum: 623, Vessel: 148</cmt>
     <extensions>
@@ -2223,8 +2223,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="458860.79404113" lon="-1073019.08499276">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9685047247055" lon="-170.078216799973">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>266-46</name>
     <cmt>Stratum: 522, Vessel: 176</cmt>
     <extensions>
@@ -2232,8 +2232,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="461948.614224307" lon="-1065587.76707295">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.0115404897899" lon="-169.982047453943">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>267-47</name>
     <cmt>Stratum: 712, Vessel: 176</cmt>
     <extensions>
@@ -2241,8 +2241,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="465883.378946096" lon="-1060776.32417255">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.0563019565372" lon="-169.926506280001">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>268-48</name>
     <cmt>Stratum: 712, Vessel: 176</cmt>
     <extensions>
@@ -2250,8 +2250,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="472265.25176006" lon="-1058803.18092016">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.1163908877258" lon="-169.920536960999">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>268-49</name>
     <cmt>Stratum: 793, Vessel: 176</cmt>
     <extensions>
@@ -2259,8 +2259,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="469871.739404431" lon="-1055150.86852202">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.1032364882055" lon="-169.859255852447">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>269-49</name>
     <cmt>Stratum: 793, Vessel: 148</cmt>
     <extensions>
@@ -2268,8 +2268,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="473873.939253647" lon="-1053243.02690016">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.1423429136265" lon="-169.845739183574">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>269-50</name>
     <cmt>Stratum: 793, Vessel: 176</cmt>
     <extensions>
@@ -2277,8 +2277,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="464386.165729856" lon="-1039883.85092098">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.0874863048342" lon="-169.619188300727">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>272-49</name>
     <cmt>Stratum: 712, Vessel: 148</cmt>
     <extensions>
@@ -2286,8 +2286,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="444246.50579631" lon="-1033904.11382259">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9234118004765" lon="-169.463439949718">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>274-45</name>
     <cmt>Stratum: 794, Vessel: 176</cmt>
     <extensions>
@@ -2295,8 +2295,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="442875.610955168" lon="-1030011.60413117">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9194670870876" lon="-169.402621167367">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>275-45</name>
     <cmt>Stratum: 794, Vessel: 148</cmt>
     <extensions>
@@ -2304,8 +2304,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="443145.058030059" lon="-1025079.47083009">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9320277701457" lon="-169.332379445402">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>276-45</name>
     <cmt>Stratum: 794, Vessel: 148</cmt>
     <extensions>
@@ -2313,8 +2313,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="457620.307806627" lon="-996674.21240544">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.1170105330054" lon="-168.969893233789">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>281-49</name>
     <cmt>Stratum: 793, Vessel: 148</cmt>
     <extensions>
@@ -2322,8 +2322,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="474368.542585029" lon="-965650.662566168">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.325844541745" lon="-168.573234622374">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>286-54</name>
     <cmt>Stratum: 711, Vessel: 176</cmt>
     <extensions>
@@ -2331,8 +2331,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="479003.20081761" lon="-964360.961520045">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.3691182941083" lon="-168.569489557052">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>286-55</name>
     <cmt>Stratum: 711, Vessel: 148</cmt>
     <extensions>
@@ -2340,8 +2340,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="484524.492725848" lon="-963627.368546262">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.4190922521061" lon="-168.576776039791">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>286-56</name>
     <cmt>Stratum: 712, Vessel: 148</cmt>
     <extensions>
@@ -2349,8 +2349,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="478165.208420447" lon="-959664.523354054">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.370934157474" lon="-168.498054485752">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>287-55</name>
     <cmt>Stratum: 711, Vessel: 148</cmt>
     <extensions>
@@ -2358,8 +2358,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="482878.227582296" lon="-958452.371727231">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.4147395747882" lon="-168.495614122701">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>287-56</name>
     <cmt>Stratum: 711, Vessel: 148</cmt>
     <extensions>
@@ -2367,8 +2367,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="487800.949315697" lon="-957343.18027724">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.4601844189052" lon="-168.495360298462">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>287-57</name>
     <cmt>Stratum: 712, Vessel: 176</cmt>
     <extensions>
@@ -2376,8 +2376,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="884405.136749048" lon="-2194398.0102643">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8207644022737" lon="172.105581170155">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>29-43</name>
     <cmt>Stratum: 214, Vessel: 176</cmt>
     <extensions>
@@ -2385,8 +2385,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="494621.922581101" lon="-925651.772122258">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.5810536197187" lon="-168.051444167379">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>293-60</name>
     <cmt>Stratum: 711, Vessel: 176</cmt>
     <extensions>
@@ -2394,8 +2394,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="484626.134570365" lon="-896105.759828063">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.5479480115507" lon="-167.584957143748">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>299-59</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2403,8 +2403,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="882528.227666128" lon="-2189541.87549714">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8273602295135" lon="172.181792628306">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>30-43</name>
     <cmt>Stratum: 214, Vessel: 176</cmt>
     <extensions>
@@ -2412,8 +2412,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="896197.031853899" lon="-2182704.63502568">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9649965397295" lon="172.171498653372">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>30-46</name>
     <cmt>Stratum: 214, Vessel: 148</cmt>
     <extensions>
@@ -2421,8 +2421,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="479252.390078546" lon="-892855.718551888">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.5064952108394" lon="-167.520683192052">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>300-58</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2430,8 +2430,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="493979.79753065" lon="-890073.01929808">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.6414238846878" lon="-167.524492922612">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>300-61</name>
     <cmt>Stratum: 722, Vessel: 176</cmt>
     <extensions>
@@ -2439,8 +2439,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="498366.467099042" lon="-889916.769401038">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.680382109613" lon="-167.53558221794">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>300-62</name>
     <cmt>Stratum: 794, Vessel: 176</cmt>
     <extensions>
@@ -2448,8 +2448,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="488102.126105585" lon="-885935.83175519">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.597105582394" lon="-167.445503388412">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>301-60</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2457,8 +2457,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="492500.786519824" lon="-884482.113330832">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.638529419708" lon="-167.437362168814">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>301-61</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2466,8 +2466,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="493945.54800616" lon="-885934.792619093">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.6486396071217" lon="-167.463221807067">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>301-61</name>
     <cmt>Stratum: 722, Vessel: 148</cmt>
     <extensions>
@@ -2475,8 +2475,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="485510.039909816" lon="-880483.718965083">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.5840799186383" lon="-167.357174102042">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>302-60</name>
     <cmt>Stratum: 722, Vessel: 176</cmt>
     <extensions>
@@ -2484,8 +2484,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="492040.658029879" lon="-880041.502470346">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.6424851438664" lon="-167.370323206403">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>302-61</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2493,8 +2493,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="491057.338305477" lon="-875165.814345072">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.6425636411108" lon="-167.295265720828">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>303-61</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2502,8 +2502,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="495892.548887198" lon="-875438.759889699">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.6847321698279" lon="-167.313832137877">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>303-62</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2511,8 +2511,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="496028.322791314" lon="-873164.036424767">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.6900026446185" lon="-167.280561231648">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>303-62</name>
     <cmt>Stratum: 722, Vessel: 176</cmt>
     <extensions>
@@ -2520,8 +2520,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="505601.900174029" lon="-871868.159517763">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.7767758573563" lon="-167.290126131283">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>303-64</name>
     <cmt>Stratum: 722, Vessel: 176</cmt>
     <extensions>
@@ -2529,8 +2529,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="511054.920085216" lon="-870480.986372265">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.8273561029446" lon="-167.285949164251">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>303-65</name>
     <cmt>Stratum: 794, Vessel: 176</cmt>
     <extensions>
@@ -2538,8 +2538,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="503480.523510752" lon="-861764.463759153">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.7760313739639" lon="-167.133809359298">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>305-64</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2547,8 +2547,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="502462.92583026" lon="-858072.194201666">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.773565454358" lon="-167.075969045352">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>306-64</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2556,8 +2556,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="497633.394888774" lon="-853434.898973916">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.7390698005297" lon="-166.992882808242">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>307-63</name>
     <cmt>Stratum: 722, Vessel: 148</cmt>
     <extensions>
@@ -2565,8 +2565,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="496036.680474942" lon="-848709.794089233">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.7332146348038" lon="-166.918083984856">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>308-63</name>
     <cmt>Stratum: 722, Vessel: 148</cmt>
     <extensions>
@@ -2574,8 +2574,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="883797.120204718" lon="-2183260.72028299">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.86493186304" lon="172.253804644979">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>31-44</name>
     <cmt>Stratum: 213, Vessel: 176</cmt>
     <extensions>
@@ -2583,8 +2583,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="890627.222043642" lon="-2180163.86978462">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9323076823467" lon="172.244648088747">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>31-45</name>
     <cmt>Stratum: 213, Vessel: 176</cmt>
     <extensions>
@@ -2592,8 +2592,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="893789.561138103" lon="-2177852.12378803">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9673505361843" lon="172.251777199483">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>31-46</name>
     <cmt>Stratum: 213, Vessel: 176</cmt>
     <extensions>
@@ -2601,8 +2601,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="526328.863252074" lon="-827412.054693598">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.037481113986" lon="-166.688824877088">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>311-70</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2610,8 +2610,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="516424.932749717" lon="-819423.95573907">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.9635469132473" lon="-166.540893506338">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>313-68</name>
     <cmt>Stratum: 722, Vessel: 176</cmt>
     <extensions>
@@ -2619,8 +2619,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="514965.890184076" lon="-814216.617939452">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.9594176502109" lon="-166.458920578046">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>314-68</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2628,8 +2628,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="528203.62115783" lon="-806775.635844093">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.088885723181" lon="-166.385027082384">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>315-71</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2637,8 +2637,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="533769.279186192" lon="-801373.517964383">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.1470735038145" lon="-166.319659862264">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>316-72</name>
     <cmt>Stratum: 722, Vessel: 148</cmt>
     <extensions>
@@ -2646,8 +2646,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="538428.28044769" lon="-795396.202194031">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.1981502017922" lon="-166.24289774108">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>317-73</name>
     <cmt>Stratum: 793, Vessel: 176</cmt>
     <extensions>
@@ -2655,8 +2655,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="879570.174624405" lon="-2179434.30151163">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8483940543656" lon="172.333686698453">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>32-43</name>
     <cmt>Stratum: 213, Vessel: 148</cmt>
     <extensions>
@@ -2664,8 +2664,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="877672.331026879" lon="-2180594.17270781">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8283581999076" lon="172.332317571755">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>32-43</name>
     <cmt>Stratum: 214, Vessel: 176</cmt>
     <extensions>
@@ -2673,8 +2673,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="882828.397136713" lon="-2177691.63568688">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8817017536305" lon="172.332822349373">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>32-44</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2682,8 +2682,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="893304.413187793" lon="-2171015.97518337">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9934732610155" lon="172.343954840904">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>32-47</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2691,8 +2691,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="894315.598090282" lon="-2171872.83168054">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.9976916848978" lon="172.325542905078">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>32-47</name>
     <cmt>Stratum: 213, Vessel: 148</cmt>
     <extensions>
@@ -2700,8 +2700,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="536447.495611624" lon="-781700.760566789">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.2030180723787" lon="-166.031254536034">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>320-73</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2709,8 +2709,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="539306.57914146" lon="-775161.993533045">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.2388707061731" lon="-165.940604993135">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>321-74</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2718,8 +2718,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="538278.972470578" lon="-770411.868458625">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.2373931395754" lon="-165.866188063255">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>322-74</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2727,8 +2727,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="542983.117343603" lon="-769350.804613591">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.2807210220595" lon="-165.862996155768">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>322-75</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2736,8 +2736,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="548052.732035462" lon="-768486.085817587">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.3269661891119" lon="-165.863761133888">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>322-76</name>
     <cmt>Stratum: 722, Vessel: 148</cmt>
     <extensions>
@@ -2745,8 +2745,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="553720.834784462" lon="-767942.893937593">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.3779896243982" lon="-165.871028353613">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>322-77</name>
     <cmt>Stratum: 794, Vessel: 148</cmt>
     <extensions>
@@ -2754,8 +2754,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="553501.088310455" lon="-762852.617863077">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.3841564795248" lon="-165.793394098518">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>323-77</name>
     <cmt>Stratum: 793, Vessel: 148</cmt>
     <extensions>
@@ -2763,8 +2763,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="532261.592970878" lon="-762014.680273145">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.1974676715534" lon="-165.723347935325">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>324-73</name>
     <cmt>Stratum: 721, Vessel: 148</cmt>
     <extensions>
@@ -2772,8 +2772,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="554677.667431264" lon="-747317.692798561">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="54.4190058131136" lon="-165.561235213289">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>326-78</name>
     <cmt>Stratum: 721, Vessel: 176</cmt>
     <extensions>
@@ -2781,8 +2781,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="876140.229174707" lon="-2173810.65383628">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8459318082676" lon="172.431050171527">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>33-43</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2790,8 +2790,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="875600.578913343" lon="-2176003.47228912">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8320989409185" lon="172.406541974338">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>33-43</name>
     <cmt>Stratum: 213, Vessel: 176</cmt>
     <extensions>
@@ -2799,8 +2799,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="880045.663914779" lon="-2173573.66312312">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8777698476258" lon="172.406122695577">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>33-44</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2808,8 +2808,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="877353.236078763" lon="-2169331.86818448">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8750410765336" lon="172.480366675979">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>34-44</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2817,8 +2817,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="867667.581265706" lon="-2168311.68591305">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8030219542283" lon="172.5627761033">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>35-42</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2826,8 +2826,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="870675.9919946" lon="-2167367.54084464">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8308873441831" lon="172.553540742609">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>35-43</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2835,8 +2835,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="855057.274540047" lon="-2169660.604197">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6975280097578" lon="172.635038546023">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>36-40</name>
     <cmt>Stratum: 214, Vessel: 148</cmt>
     <extensions>
@@ -2844,8 +2844,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="864142.524164134" lon="-2164563.17520239">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.7914646738986" lon="172.636408116565">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>36-42</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2853,8 +2853,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="853333.378407562" lon="-2164465.11401601">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.7064353260479" lon="172.714405509403">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>37-40</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2862,8 +2862,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="890541.407065138" lon="-2143259.75718221">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.092454453367" lon="172.725112174296">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>37-49</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2871,8 +2871,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="850467.835183445" lon="-2160827.84709705">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6995114831017" lon="172.78171874364">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>38-40</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2880,8 +2880,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="885191.590518712" lon="-2141845.40835596">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.0562764256068" lon="172.781772307036">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>38-48</name>
     <cmt>Stratum: 211, Vessel: 176</cmt>
     <extensions>
@@ -2889,8 +2889,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="882762.391533407" lon="-2137450.57914149">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.0560358723476" lon="172.856443293487">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>39-48</name>
     <cmt>Stratum: 211, Vessel: 148</cmt>
     <extensions>
@@ -2898,8 +2898,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="832503.426297102" lon="-2157854.6732409">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5700682998936" lon="172.946642138046">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>40-37</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2907,8 +2907,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="836948.986303993" lon="-2156532.13878352">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6109975191132" lon="172.932518388234">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>40-38</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2916,8 +2916,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="803469.480798727" lon="-2155449.48099762">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3499977242573" lon="173.180098582226">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>43-32</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2925,8 +2925,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="816683.285000015" lon="-2150070.63510653">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4779829444642" lon="173.157634850084">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>43-35</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2934,8 +2934,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="866872.89174679" lon="-2117267.63307294">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="53.0167096924941" lon="173.232686031515">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>44-47</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2943,8 +2943,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="809479.609577306" lon="-2136532.55150791">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4785140801742" lon="173.382450328944">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>46-35</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2952,8 +2952,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="782122.395558995" lon="-2145031.03997649">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2246133919889" lon="173.461254348759">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>47-29</name>
     <cmt>Stratum: 213, Vessel: 148</cmt>
     <extensions>
@@ -2961,8 +2961,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="819975.082443098" lon="-2125065.71262399">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6107625075069" lon="173.458361789883">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>47-38</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2970,8 +2970,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="791673.54308736" lon="-2134340.28471751">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3460599700295" lon="173.53341720047">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>48-32</name>
     <cmt>Stratum: 211, Vessel: 176</cmt>
     <extensions>
@@ -2979,8 +2979,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="813235.644764842" lon="-2122860.25953437">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5664609153647" lon="173.533550102246">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>48-37</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -2988,8 +2988,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="770568.571986501" lon="-2133158.31280622">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1827719267973" lon="173.692867027119">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>50-28</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -2997,8 +2997,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="834569.201151037" lon="-2099968.43851844">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.833165217009" lon="173.684267284262">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>50-43</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -3006,8 +3006,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="763172.742088642" lon="-2131147.05909748">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1322105666528" lon="173.768976365192">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>51-27</name>
     <cmt>Stratum: 213, Vessel: 176</cmt>
     <extensions>
@@ -3015,8 +3015,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="762501.090622079" lon="-2132063.14179154">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1229882551698" lon="173.761753475165">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>51-27</name>
     <cmt>Stratum: 214, Vessel: 176</cmt>
     <extensions>
@@ -3024,8 +3024,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="793044.759995795" lon="-2116155.83519027">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.433810462127" lon="173.759089753642">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>51-34</name>
     <cmt>Stratum: 211, Vessel: 148</cmt>
     <extensions>
@@ -3033,8 +3033,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="832035.986564918" lon="-2095770.08258138">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.8306534486015" lon="173.756662028422">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>51-43</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -3042,8 +3042,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="759530.534425167" lon="-2127949.84897264">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1165697857757" lon="173.834761762603">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>52-27</name>
     <cmt>Stratum: 214, Vessel: 148</cmt>
     <extensions>
@@ -3051,8 +3051,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="812482.586529432" lon="-2100204.63414113">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6560185028703" lon="173.833267630375">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>52-39</name>
     <cmt>Stratum: 211, Vessel: 148</cmt>
     <extensions>
@@ -3060,8 +3060,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="781548.071393435" lon="-2104789.1305013">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.389682326721" lon="173.984630378252">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>54-33</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -3069,8 +3069,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="792189.213669954" lon="-2093439.52303299">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5222006758189" lon="174.059809716309">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>55-36</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -3078,8 +3078,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="805252.679802383" lon="-2086622.83688538">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6551139937872" lon="174.059809375329">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>55-39</name>
     <cmt>Stratum: 211, Vessel: 148</cmt>
     <extensions>
@@ -3087,8 +3087,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="770939.991868" lon="-2098029.52750415">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3330254265245" lon="174.143967206462">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>56-32</name>
     <cmt>Stratum: 214, Vessel: 148</cmt>
     <extensions>
@@ -3096,8 +3096,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="776810.605205389" lon="-2095682.08731086">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3898002631581" lon="174.1347989371">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>56-33</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -3105,8 +3105,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="783109.426498072" lon="-2086608.60916225">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4779826419178" lon="174.210169454377">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>57-35</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -3114,8 +3114,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="787459.78072766" lon="-2084351.04388967">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5222005904956" lon="174.210169480344">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>57-36</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -3123,8 +3123,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="796239.267466361" lon="-2079656.65046917">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.611992853803" lon="174.21197313465">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>57-38</name>
     <cmt>Stratum: 211, Vessel: 148</cmt>
     <extensions>
@@ -3132,8 +3132,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="777825.382362553" lon="-2084940.7483342">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4425821340713" lon="174.26750306366">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>58-34</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -3141,8 +3141,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="775615.93147298" lon="-2083954.24672244">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4289688006964" lon="174.29520673216">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>58-34</name>
     <cmt>Stratum: 213, Vessel: 148</cmt>
     <extensions>
@@ -3150,8 +3150,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="785102.530333046" lon="-2079802.29292341">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5221929203318" lon="174.285354677363">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>58-36</name>
     <cmt>Stratum: 212, Vessel: 148</cmt>
     <extensions>
@@ -3159,8 +3159,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="790228.059054429" lon="-2076843.25281296">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5755253974129" lon="174.289355734707">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>58-37</name>
     <cmt>Stratum: 211, Vessel: 176</cmt>
     <extensions>
@@ -3168,8 +3168,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="793821.898070141" lon="-2075290.02105925">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.6107549745828" lon="174.285354477137">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>58-38</name>
     <cmt>Stratum: 211, Vessel: 176</cmt>
     <extensions>
@@ -3177,8 +3177,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="779804.824551068" lon="-2077759.85183369">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4881965249516" lon="174.347657462723">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>59-35</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -3186,8 +3186,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="777505.077296532" lon="-2077343.23016822">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4714826389626" lon="174.368548276316">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>59-35</name>
     <cmt>Stratum: 213, Vessel: 148</cmt>
     <extensions>
@@ -3195,8 +3195,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="771692.650461133" lon="-2075180.39244807">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4338026050809" lon="174.435721924041">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>60-34</name>
     <cmt>Stratum: 214, Vessel: 176</cmt>
     <extensions>
@@ -3204,8 +3204,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="777326.509207756" lon="-2073079.95520812">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.4876713735274" lon="174.425305193561">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>60-35</name>
     <cmt>Stratum: 213, Vessel: 148</cmt>
     <extensions>
@@ -3213,8 +3213,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="781031.265408823" lon="-2070733.23052174">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.5270781357944" lon="174.431039165257">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>60-36</name>
     <cmt>Stratum: 212, Vessel: 176</cmt>
     <extensions>
@@ -3222,8 +3222,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="715502.88351536" lon="-2051396.07256102">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.078909597775" lon="175.116062509111">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>69-26</name>
     <cmt>Stratum: 224, Vessel: 148</cmt>
     <extensions>
@@ -3231,8 +3231,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="733349.470927732" lon="-2042791.77142594">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2577494412378" lon="175.111499381539">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>69-30</name>
     <cmt>Stratum: 223, Vessel: 176</cmt>
     <extensions>
@@ -3240,8 +3240,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="713298.10966335" lon="-2046941.18741329">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0791308759823" lon="175.188226605031">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>70-26</name>
     <cmt>Stratum: 224, Vessel: 148</cmt>
     <extensions>
@@ -3249,8 +3249,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="719783.483423102" lon="-2037816.17123455">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1683341682266" lon="175.264733325833">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>71-28</name>
     <cmt>Stratum: 223, Vessel: 148</cmt>
     <extensions>
@@ -3258,8 +3258,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="730099.928377091" lon="-2028754.20600415">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2881689094204" lon="175.315847288889">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>72-31</name>
     <cmt>Stratum: 222, Vessel: 176</cmt>
     <extensions>
@@ -3267,8 +3267,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="730363.898218279" lon="-2026634.91838886">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2988249157393" lon="175.341819508754">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>72-31</name>
     <cmt>Stratum: 223, Vessel: 176</cmt>
     <extensions>
@@ -3276,8 +3276,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="724121.414771038" lon="-2024596.85464369">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2565521286126" lon="175.408968616829">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>73-30</name>
     <cmt>Stratum: 223, Vessel: 176</cmt>
     <extensions>
@@ -3285,8 +3285,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="658745.779940053" lon="-2044658.63435181">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6469740673762" lon="175.568305149181">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>75-16</name>
     <cmt>Stratum: 223, Vessel: 148</cmt>
     <extensions>
@@ -3294,8 +3294,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="663178.099159254" lon="-2042243.81237345">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6925504751637" lon="175.571253860285">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>75-17</name>
     <cmt>Stratum: 222, Vessel: 176</cmt>
     <extensions>
@@ -3303,8 +3303,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="656746.913805759" lon="-2039768.37193774">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.6502963623941" lon="175.644030821983">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>76-16</name>
     <cmt>Stratum: 222, Vessel: 176</cmt>
     <extensions>
@@ -3312,8 +3312,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="720652.837803934" lon="-1996754.98798555">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3395127224614" lon="175.79588261526">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>78-32</name>
     <cmt>Stratum: 223, Vessel: 148</cmt>
     <extensions>
@@ -3321,8 +3321,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="666885.775017409" lon="-2017777.94166383">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8199705447997" lon="175.864174114284">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>79-20</name>
     <cmt>Stratum: 221, Vessel: 148</cmt>
     <extensions>
@@ -3330,8 +3330,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="672099.366810005" lon="-2014907.40765325">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8736694927463" lon="175.868429769789">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>79-21</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3339,8 +3339,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="711008.203173247" lon="-1995035.76636773">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2680986246292" lon="175.880202357525">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>79-30</name>
     <cmt>Stratum: 223, Vessel: 176</cmt>
     <extensions>
@@ -3348,8 +3348,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="719347.095104321" lon="-1992082.44380223">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3474279762238" lon="175.865605039754">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>79-32</name>
     <cmt>Stratum: 221, Vessel: 176</cmt>
     <extensions>
@@ -3357,8 +3357,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="723533.814113979" lon="-1990475.58087234">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3877424163301" lon="175.859886136382">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>79-33</name>
     <cmt>Stratum: 221, Vessel: 176</cmt>
     <extensions>
@@ -3366,8 +3366,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="664857.777351519" lon="-2014695.75374821">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.8156964906096" lon="175.916963993616">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>80-20</name>
     <cmt>Stratum: 221, Vessel: 176</cmt>
     <extensions>
@@ -3375,8 +3375,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="673261.25837352" lon="-2009729.75809117">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9035852774152" lon="175.928347068225">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>80-22</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3384,8 +3384,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="682675.935896458" lon="-2005281.5466406">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9976234599878" lon="175.926623524963">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>80-24</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3393,8 +3393,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="708171.194720951" lon="-1992076.81702773">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2567671958794" lon="175.937109901539">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>80-30</name>
     <cmt>Stratum: 223, Vessel: 148</cmt>
     <extensions>
@@ -3402,8 +3402,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="714435.05415063" lon="-1989049.0772801">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3195600880736" lon="175.936863368179">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>80-31</name>
     <cmt>Stratum: 221, Vessel: 176</cmt>
     <extensions>
@@ -3411,8 +3411,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="712280.993272076" lon="-1989500.66828577">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.30029451729" lon="175.944687646759">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>80-31</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3420,8 +3420,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="720456.708469323" lon="-1985930.81877411">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.380736864431" lon="175.939355926954">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>80-33</name>
     <cmt>Stratum: 221, Vessel: 148</cmt>
     <extensions>
@@ -3429,8 +3429,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="675359.652331829" lon="-2002086.58901191">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9507956947988" lon="176.01453409255">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>81-23</name>
     <cmt>Stratum: 221, Vessel: 148</cmt>
     <extensions>
@@ -3438,8 +3438,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="688473.26648041" lon="-1996550.39461627">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.079165273548" lon="176.00378425034">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>81-26</name>
     <cmt>Stratum: 222, Vessel: 176</cmt>
     <extensions>
@@ -3447,8 +3447,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="705973.497411672" lon="-1986638.31150468">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2603647456634" lon="176.022445141923">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>81-30</name>
     <cmt>Stratum: 222, Vessel: 176</cmt>
     <extensions>
@@ -3456,8 +3456,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="710258.410028036" lon="-1985298.28639472">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3004410337315" lon="176.012762380021">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>81-31</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3465,8 +3465,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="716172.358800212" lon="-1983806.24135361">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.3543386268157" lon="175.994667269697">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>81-32</name>
     <cmt>Stratum: 221, Vessel: 176</cmt>
     <extensions>
@@ -3474,8 +3474,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="704400.194546824" lon="-1982856.28828369">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.2624609466228" lon="176.082083033176">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>82-30</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3483,8 +3483,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="683592.806028057" lon="-1975745.37549805">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1210800339282" lon="176.306783637672">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>85-27</name>
     <cmt>Stratum: 222, Vessel: 176</cmt>
     <extensions>
@@ -3492,8 +3492,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="685319.917169995" lon="-1968924.77909639">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.1617352561735" lon="176.385389148412">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>86-28</name>
     <cmt>Stratum: 221, Vessel: 148</cmt>
     <extensions>
@@ -3501,8 +3501,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="671183.891515157" lon="-1969236.8785033">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0453344649813" lon="176.469747766111">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>87-25</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3510,8 +3510,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="653421.628930331" lon="-1966743.58936054">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9101078151757" lon="176.612767628279">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>89-22</name>
     <cmt>Stratum: 223, Vessel: 176</cmt>
     <extensions>
@@ -3519,8 +3519,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="651999.042769487" lon="-1961921.0155323">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9171241936307" lon="176.684601923476">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>90-22</name>
     <cmt>Stratum: 224, Vessel: 176</cmt>
     <extensions>
@@ -3528,8 +3528,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="652237.396673865" lon="-1955295.31661832">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.944603585813" lon="176.769819481326">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>91-23</name>
     <cmt>Stratum: 224, Vessel: 176</cmt>
     <extensions>
@@ -3537,8 +3537,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="655827.920064894" lon="-1953285.24697696">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9816755821038" lon="176.774000954051">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>91-24</name>
     <cmt>Stratum: 222, Vessel: 176</cmt>
     <extensions>
@@ -3546,8 +3546,8 @@
       <T0Color>9</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="651306.58902936" lon="-1950546.93261668">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9552487324234" lon="176.837741862879">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>92-23</name>
     <cmt>Stratum: 224, Vessel: 148</cmt>
     <extensions>
@@ -3555,8 +3555,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="654703.184563253" lon="-1948196.78288804">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.9920373683135" lon="176.847639247634">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>92-24</name>
     <cmt>Stratum: 222, Vessel: 148</cmt>
     <extensions>
@@ -3564,8 +3564,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="650029.698196391" lon="-1915373.85324009">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0788149947912" lon="177.307831470893">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>98-26</name>
     <cmt>Stratum: 322, Vessel: 148</cmt>
     <extensions>
@@ -3573,8 +3573,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="615344.601154422" lon="-1927410.69828621">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.7487734637562" lon="177.359576871533">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>99-18</name>
     <cmt>Stratum: 413, Vessel: 148</cmt>
     <extensions>
@@ -3582,8 +3582,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="640059.680117588" lon="-1914699.09042092">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="51.99958586586" lon="177.377203644293">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>99-24</name>
     <cmt>Stratum: 321, Vessel: 148</cmt>
     <extensions>
@@ -3591,8 +3591,8 @@
       <T0Color>4</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="648543.723677426" lon="-1911751.74031553">
-    <time>2026-02-17T16:58:17.000000Z</time>
+  <wpt lat="52.0803098697234" lon="177.364621679081">
+    <time>2026-03-17T17:05:13.000000Z</time>
     <name>99-26</name>
     <cmt>Stratum: 322, Vessel: 176</cmt>
     <extensions>
