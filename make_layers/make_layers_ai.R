@@ -205,11 +205,11 @@ for(ii in 1:length(software_types)) {
   #                fill_col = "fill",
   #                software_format = SOFTWARE)
   # 
-  # # 14. Navigation hazards (moorings, shipwrecks, etc.)
-  # # From USCG Local Notice to Mariners (Arctic/District 17)
-  # # https://www.navcen.uscg.gov/msi
-  # buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
-  #   dplyr::filter(ATU == 17)
+  # 14. Navigation hazards (moorings, shipwrecks, etc.)
+  # From USCG Local Notice to Mariners (Arctic/District 17)
+  # https://www.navcen.uscg.gov/msi
+  buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
+    dplyr::filter(ATU == 17)
   # 
   # buoys$shape <- navmaps_sym_pal(values = "warning",
   #                                software_format = SOFTWARE,
@@ -237,7 +237,11 @@ for(ii in 1:length(software_types)) {
   #                            software_format = SOFTWARE,
   #                            file_type = FILE_TYPE_POINT)
   # 
-  # sf::st_write(dplyr::select(buoys, -COORDINATES_JSON), dsn = here::here("output", region,  "shapefiles", paste0("hazards_buoys_", gsub("[^0-9]", "", Sys.Date()), ".gpkg")), append=FALSE)
+  
+  buoys |> 
+    dplyr::select(-COORDINATES_JSON) |>
+    sf::st_transform(crs = "EPSG:3338") |>
+  sf::st_write(, dsn = here::here("output", region,  "shapefiles", paste0("hazards_buoys_", gsub("[^0-9]", "", Sys.Date()), ".gpkg")), append=FALSE)
   # 
   # sf_to_nav_file(
   #   x = buoys,
