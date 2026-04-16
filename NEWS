@@ -1,3 +1,12 @@
+navmaps 1.4.5 (April 16, 2026)
+----------------------------------------------------------------
+
+BUG FIX
+
+- extract_globe_crabpot() handles malformed Globe database 
+  coordinates.
+  
+
 navmaps 1.4.4 (March 13, 2026)
 ----------------------------------------------------------------
 

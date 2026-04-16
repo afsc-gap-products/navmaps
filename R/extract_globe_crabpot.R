@@ -50,7 +50,10 @@ extract_globe_crabpot <- function(globe_file = NULL, raw_lines = NULL, raw_point
   
   raw_points$vessel <- vessel_name
   
-  raw_points$intersects <- as.numeric(sf::st_intersects(raw_points, raw_lines, sparse = TRUE))
+  raw_points$intersects <- try(
+    as.numeric(sf::st_intersects(raw_points, raw_lines, sparse = TRUE)), 
+    silent = TRUE
+  )
   
   stray_points <- dplyr::filter(raw_points, is.na(intersects))
   
