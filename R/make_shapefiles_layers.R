@@ -2,15 +2,18 @@
 #' 
 #' @param region Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"
 #' @param channel RODBC connection. Function will prompt for a connection if the user is not connected
-#' @param software_format Software to format output for.
+#' @param software_format Software to format output for.\
+#' @param mark_location Choice of algorithm for calculating marks for station polygons. Options are "centroid" and "pos" (point on surface).
 #' @export
 #' @import akgfmaps RODBC
 
-make_trawlable <- function(region, channel = NULL, software_format = "timezero") {
+make_trawlable <- function(region, channel = NULL, software_format = "timezero", mark_location = "pos") {
   
   .check_region(region)
   
   .check_software(software_format)
+  
+  stopifnot("make_trawlable: Invalid mark_location argument. Must be 'centroid' or 'pos' " = mark_location %in% c("centroid", "pos", "point_on_surface"))
   
   file_type_grid <- set_file_type(software_format, marks = FALSE)
   file_type_mark <- set_file_type(software_format, marks = TRUE)
@@ -72,8 +75,12 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero")
     sf::st_wrap_dateline()
   
   trawlable_grid$description <- paste0("Trawlable? ", trawlable_grid$TRAWLABLE, "; Stratum: ", trawlable_grid$STRATUM)
-  
-  trawlable_mark <- navmaps::st_primary_centroid(trawlable_grid)
+
+  if(mark_location %in% c("pos", "point_on_surface")) {
+    trawlable_mark <- navmaps::st_primary_point_on_surface(trawlable_grid)
+  } else{
+    trawlable_mark <- navmaps::st_primary_centroid(trawlable_grid)
+  }
   
   trawlable_mark |>
     safe_st_write(dsn = shp_path_mark, 

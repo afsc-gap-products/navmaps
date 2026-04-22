@@ -4,14 +4,19 @@
 \alias{make_trawlable}
 \title{Make trawlable/untrawlable shapefile and KML}
 \usage{
-make_trawlable(region, channel = NULL, software_format = "timezero")
+make_trawlable(
+  region,
+  channel = NULL,
+  software_format = "timezero",
+  mark_location = "pos"
+)
 }
 \arguments{
 \item{region}{Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"}
 
 \item{channel}{RODBC connection. Function will prompt for a connection if the user is not connected}
 
-\item{software_format}{Software to format output for.}
+\item{mark_location}{Choice of algorithm for calculating marks for station polygons. Options are "centroid" and "pos" (point on surface).}
 }
 \description{
 Make trawlable/untrawlable shapefile and KML

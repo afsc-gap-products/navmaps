@@ -1,3 +1,12 @@
+navmaps 1.4.6 (April 21, 2026)
+----------------------------------------------------------------
+
+NEW FUNCTIONALITY
+
+- Created an st_primary_point_on_surface() that calculates a point
+  on surface for the largest polygon in a multipolygon.
+
+
 navmaps 1.4.5 (April 16, 2026)
 ----------------------------------------------------------------
 
