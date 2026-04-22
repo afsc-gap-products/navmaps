@@ -74,7 +74,7 @@ write_to_access <- function(x, dsn, tablename, append = FALSE, drop_existing = T
   message("write_to_access: Closing connection to ", dsn)
   RODBC::odbcClose(odbc_con)
   
-  if(class(try_save) == "try-error") {
+  if(is(try_save, "try-error")) {
     stop(attr(try_save, "condition"))
   }
 }

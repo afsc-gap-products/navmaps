@@ -2,7 +2,7 @@
 #' 
 #' @param region Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"
 #' @param channel RODBC connection. Function will prompt for a connection if the user is not connected
-#' @param software_format Software to format output for.\
+#' @param software_format Software to use ("timezero", "globe", or "opencpn")
 #' @param mark_location Choice of algorithm for calculating marks for station polygons. Options are "centroid" and "pos" (point on surface).
 #' @export
 #' @import akgfmaps RODBC

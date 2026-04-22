@@ -366,7 +366,7 @@ dms_string_to_dd <- function(x) {
     axis_vec <- c(2, 2, 1, 1)[match(hemispheres, c("N", "S", "E", "W"))]
     sign_vec <- c(1, -1, 1, -1)[match(hemispheres, c("N", "S", "E", "W"))]
     
-    dd_vec <- unlist(lapply(X = pos_vec, FUN = navmaps:::calc_coords)) # Calculate coordinates
+    dd_vec <- unlist(lapply(X = pos_vec, FUN = calc_coords)) # Calculate coordinates
     dd_vec <- dd_vec * sign_vec # Assign +/- based on hemisphere (east and north positive, west and south negative)
     dd_vec <- as.matrix(dd_vec[axis_vec], ncol = 2) # Order coordinates to have longitude first then latitude
     
