@@ -64,7 +64,7 @@ sf_to_nav_file <- function(x,
 
     if(is_point & tracks) {
         message("sf_to_nav_file: Using sf_to_tracks()")
-        do.call(sf_to_tracks, args = args, envir = parent.frame())
+        do.call(sf_to_globe_track, args = args, envir = parent.frame())
       } 
     
     if(is_point & !tracks) {
