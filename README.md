@@ -45,6 +45,8 @@ This package generates geospatial layers for marine navigation and GIS software 
 | Cook Inlet Beluga Whale Critical Habitat | Cook Inlet Beluga Whale Critical Habitat in Cook Inlet | Lines or polygons | GOA | NOAA Fisheries [Link](https://www.fisheries.noaa.gov/resource/map/beluga-whale-cook-inlet-dps-critical-habitat-map-and-gis-data) | Last update: April 2022 |
 | Skate Nursery HAPC |  Amendment 104 Skate nursery HAPC | Lines or polygons | EBS | NOAA. [Link](https://www.habitat.noaa.gov/protection/efh/newInv/hapc_content.html)  | Last update: April 11, 2024 |
 | Crab pot storage                               | Storage locations for crab pot strings. |  Lines or polygons | AI, GOA | Provided by vessels.  | Annual |
+| Bathymetry raster | 100 m resolution bathymetry grid for TimeZero. | Point (.xyz) | AI | [Zimmerman et al. (2021)](https://doi.org/10.1111/fog.12519) | Last update: April 2026 |
+| Survey tracks | Historical bottom trawl survey position and single-beam depth for TimeZero | Point (.xyz) | AI | NOAA Fisheries/AFSC/RACE/GAP |  Last update: April 2026 |
 
 
 # Installation
