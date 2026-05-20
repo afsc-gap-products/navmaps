@@ -1,9 +1,10 @@
-navmaps 1.4.7 (In progress)
+navmaps 1.4.7 (May 20, 2026)
 ----------------------------------------------------------------
 
 BUG FIX
 
 - Fixed Globe tracks writing error in sf_to_nav_file().
+- Fix dd_to_dmm().
 
 
 navmaps 1.4.6 (April 21, 2026)

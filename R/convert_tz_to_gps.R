@@ -223,7 +223,7 @@ dmm_to_dd <- function(x) {
 
 dd_to_dmm <- function(x){
   
-  output <- (floor(abs(x)) * 100 + (x %% 1) * 60) * sign(x)
+  output <- (floor(abs(x)) * 100 + (abs(x) %% 1) * 60) * sign(x)
   
   return(output)
   
