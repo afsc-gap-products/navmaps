@@ -4,7 +4,12 @@
 \alias{make_towpaths}
 \title{Make towpath, tow start, and midpoint from GPS rds files}
 \usage{
-make_towpaths(region, overwrite_midpoint = FALSE, software_format = "timezero")
+make_towpaths(
+  region,
+  overwrite_midpoint = FALSE,
+  software_format = "timezero",
+  filename_suffix = NULL
+)
 }
 \arguments{
 \item{region}{Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"}
@@ -12,6 +17,8 @@ make_towpaths(region, overwrite_midpoint = FALSE, software_format = "timezero")
 \item{overwrite_midpoint}{Should files be overwritten?}
 
 \item{software_format}{Software format as a character vector.}
+
+\item{filename_suffix}{Optional character vector to append to file name.}
 }
 \description{
 Make towpath, tow start, and midpoint from GPS rds files

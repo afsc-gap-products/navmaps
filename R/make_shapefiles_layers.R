@@ -344,10 +344,11 @@ make_station_allocation <- function(allocation_df,
 #' @param region Survey region as a character vector. One of "ai", "goa", "sebs", "nbs"
 #' @param overwrite_midpoint Should files be overwritten?
 #' @param software_format Software format as a character vector.
+#' @param filename_suffix Optional character vector to append to file name.
 #' @export
 #' @import purrr tidyr dplyr
 
-make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = "timezero") {
+make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = "timezero", filename_suffix = NULL) {
   
   .check_region(x = region)
   
@@ -445,7 +446,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
     sf::st_as_sf(crs = "EPSG:4326")
   
   # Write midpoints to shapefile ----
-  midpoint_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_midpoint.shp"))
+  midpoint_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_midpoint", filename_suffix, ".shp"))
   
   message("make_towpaths: Writing trawlable/untrawlable shapefile to ", midpoint_shp_path)
   
@@ -456,7 +457,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                   append = FALSE)
   
   # Write tow paths to shapefile ----
-  towpath_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_towpath.shp"))
+  towpath_shp_path <- here::here("output", region, "shapefiles", paste0(region, "_towpath", filename_suffix, ".shp"))
   
   .check_output_path(towpath_shp_path)
   
@@ -533,7 +534,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                           file_type = file_type_marks,
                           software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]
     ) |>
-    sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towstart.", file_type_marks)),
+    sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towstart", filename_suffix, ".", file_type_marks)),
                    name_col = "name",
                    description_col = "desc",
                    color_col = "color",
@@ -553,7 +554,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
                           software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]
     ) |>
     sf_to_nav_file(
-      file = here::here("output", region, "navigation", software_format, paste0(region, "_towmid.", file_type_marks)),
+      file = here::here("output", region, "navigation", software_format, paste0(region, "_towmid", filename_suffix, ".", file_type_marks)),
       name_col = "name",
       description_col = "desc",
       color_col = "color",
@@ -563,14 +564,14 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
       software_format = software_format
     )
   
-  print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)))
+  print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath", filename_suffix, ".", file_type_lines)))
   
   towpath_sf$color <- navmaps_pal(values = c("red", "lightgreen", "purple"), 
                                   file_type = file_type_lines,
                                   software_format = software_format)[as.numeric(sign(towpath_sf$PERFORMANCE)) + 2]
   
   sf_to_nav_file(x = towpath_sf,
-                 file = here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)),
+                 file = here::here("output", region, "navigation", software_format, paste0(region, "_towpath", filename_suffix, ".", file_type_lines)),
                  name_col = "name",
                  description_col = "desc",
                  color_col = "color",
