@@ -4,10 +4,12 @@
 #' @param channel RODBC connection. Function will prompt for a connection if the user is not connected
 #' @param software_format Software to use ("timezero", "globe", or "opencpn")
 #' @param mark_location Choice of algorithm for calculating marks for station polygons. Options are "centroid" and "pos" (point on surface).
+#' @param fill_grid_cells Logical. Should polygons be filled? Only valid for TimeZero.
+#' @param filename_suffix Optional character vector to append to file name.
 #' @export
 #' @import akgfmaps RODBC
 
-make_trawlable <- function(region, channel = NULL, software_format = "timezero", mark_location = "pos") {
+make_trawlable <- function(region, channel = NULL, software_format = "timezero", mark_location = "pos", fill_grid_cells = FALSE, filename_suffix = NULL) {
   
   .check_region(region)
   
@@ -93,18 +95,63 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero",
       software_format = software_format, 
       file_type = file_type_grid
     )
+  
   trawlable_grid$color[trawlable_grid$TRAWLABLE == 'Y'] <- 
     navmaps_pal(
       values = "lightgreen", 
       software_format = software_format, 
       file_type = file_type_grid
     )
+  
   trawlable_grid$color[trawlable_grid$TRAWLABLE == 'N'] <- 
     navmaps_pal(values = "red", 
                 software_format = software_format, 
                 file_type = file_type_grid
     )
   
+  # Option to fill grid cells when using TimeZero
+  if(software_format == "timezero" & fill_grid_cells) {
+    
+    trawlable_grid$color[trawlable_grid$TRAWLABLE %in% c('Y', 'N')] <- 
+      navmaps_pal(
+        values = "black", 
+        software_format = software_format, 
+        file_type = file_type_grid
+      )
+    
+    trawlable_grid$fill <- 
+      navmaps_pal(values = "black", 
+                  software_format = software_format, 
+                  file_type = file_type_grid
+      )
+    
+    trawlable_grid$fill[trawlable_grid$TRAWLABLE == 'Y'] <- 
+      navmaps_pal(values = "lightgreen", 
+                  software_format = software_format, 
+                  file_type = file_type_grid
+      )
+    
+    trawlable_grid$fill[trawlable_grid$TRAWLABLE == 'N'] <- 
+      navmaps_pal(values = "red", 
+                  software_format = software_format, 
+                  file_type = file_type_grid
+      )
+    
+    trawlable_mark$color <- 
+      navmaps_pal(
+        values = "black", 
+        software_format = software_format, 
+        file_type = file_type_mark
+      )
+    
+    trawlable_grid$description <- paste0(trawlable_grid$STATION, " ", trawlable_grid$description)
+    trawlable_grid$name <- ""
+    
+    trawlable_mark$description <- paste0(trawlable_mark$STATION, " ", trawlable_mark$description)
+    trawlable_mark$name <- ""
+    
+  } else {
+    
     trawlable_grid$fill <- 0
     
     trawlable_mark$color <- 
@@ -113,30 +160,34 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero",
         software_format = software_format, 
         file_type = file_type_mark
       )
-    trawlable_mark$color[trawlable_grid$TRAWLABLE == 'Y'] <- 
-      navmaps_pal(
-        values = "lightgreen", 
-        software_format = software_format, 
-        file_type = file_type_mark
-      )
-    trawlable_mark$color[trawlable_grid$TRAWLABLE == 'N'] <- 
-      navmaps_pal(values = "red", 
-                  software_format = software_format, 
-                  file_type = file_type_mark
-      )
-
-    trawlable_mark$shape <- 
-      navmaps_sym_pal(
-        values = "circle1", 
-        software_format = software_format,
-        file_type = file_type_mark
-      )
     
+  }
+
+  trawlable_mark$color[trawlable_grid$TRAWLABLE == 'Y'] <- 
+    navmaps_pal(
+      values = "lightgreen", 
+      software_format = software_format, 
+      file_type = file_type_mark
+    )
+  
+  trawlable_mark$color[trawlable_grid$TRAWLABLE == 'N'] <- 
+    navmaps_pal(values = "red", 
+                software_format = software_format, 
+                file_type = file_type_mark
+    )
+  
+  trawlable_mark$shape <- 
+    navmaps_sym_pal(
+      values = "circle1", 
+      software_format = software_format,
+      file_type = file_type_mark
+    )
+  
     grid_path <- 
-      here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_grid.", file_type_grid))
+      here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_grid", filename_suffix, ".", file_type_grid))
     
     mark_path <- 
-      here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_mark.", file_type_mark))
+      here::here("output", region, "navigation", software_format, paste0(region, "_trawlable_mark", filename_suffix, ".", file_type_mark))
     
     .check_output_path(grid_path)
     
@@ -146,7 +197,7 @@ make_trawlable <- function(region, channel = NULL, software_format = "timezero",
     sf_to_nav_file(
       x = dplyr::arrange(trawlable_grid, TRAWLABLE),
       file = grid_path,
-      name_col = "STATION",
+      name_col = ifelse(software_format == "timezero" & fill_grid_cells, "name", "STATION"),
       description_col = "description",
       color_col = "color",
       fill_col = "fill",
@@ -428,62 +479,104 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   
   # Add symbol, color, description and name fields for nav software. 
   # Specify required column names to sf_to_nav: file, name_col, description_col, color_col, shape_col, time_col, extra_cols, and software_format
-  midpoint_sf |>
-    dplyr::mutate(name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
-                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
-                                           software_format = software_format,
-                                          file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
-                  depth = BOTTOM_DEPTH,
-                  color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
-                                      file_type = file_type_marks,
-                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>
-    sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towmid.", file_type_marks)),
+  
+  if (software_format == "timezero") {
+    
+    start_sf <- start_sf |> 
+      dplyr::mutate(
+        name = floor(CRUISE/100),
+        desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORMANCE, "-", PERFORMANCE_DESCRIPTION, ")")
+      )
+    
+    midpoint_sf <- midpoint_sf |> 
+      dplyr::mutate(
+        name = floor(CRUISE/100),
+        desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORMANCE, "-", PERFORMANCE_DESCRIPTION, ")")
+      )
+    
+    towpath_sf <- towpath_sf |>
+      dplyr::mutate(
+        name = "",
+        desc = paste0("Yr: ", floor(CRUISE/100), ", Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORMANCE, "-", PERFORMANCE_DESCRIPTION, ")")
+      )
+    
+  } else {
+    
+    start_sf <- start_sf |> 
+      dplyr::mutate(
+        name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
+        desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION)
+      )
+    
+    midpoint_sf <- midpoint_sf |> 
+      dplyr::mutate(
+        name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
+        desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION)
+      )
+    
+    towpath_sf <- towpath_sf |>
+      dplyr::mutate(
+        name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
+        desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION)
+      )
+    
+  }
+  
+  start_sf |>
+    dplyr::mutate(
+      shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
+                              software_format = software_format,
+                              file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
+      depth = BOTTOM_DEPTH,
+      temperature = GEAR_TEMPERATURE,
+      color = navmaps_pal(values = c("red", "lightgreen", "purple"),
+                          file_type = file_type_marks,
+                          software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]
+    ) |>
+    sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towstart.", file_type_marks)),
                    name_col = "name",
                    description_col = "desc",
                    color_col = "color",
                    shape_col = "shape",
                    time_col = "START_TIME",
-                   extra_cols = "depth",
+                   extra_cols = c("temperature", "depth"),
                    software_format = software_format)
   
-  start_sf |>
-    dplyr::mutate(name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
-                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION),
-                  shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
-                                          software_format = software_format,
-                                          file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
-                  depth = BOTTOM_DEPTH,
-                  temperature = GEAR_TEMPERATURE,
-                  color = navmaps_pal(values = c("red", "lightgreen", "purple"),
-                                      file_type = file_type_marks,
-                                      software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]) |>    
-  sf_to_nav_file(file = here::here("output", region, "navigation", software_format, paste0(region, "_towstart.", file_type_marks)),
-                 name_col = "name",
-                 description_col = "desc",
-                 color_col = "color",
-                 shape_col = "shape",
-                 time_col = "START_TIME",
-                 extra_cols = c("temperature", "depth"),
-                 software_format = software_format)
+  midpoint_sf |>
+    dplyr::mutate(
+      shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
+                              software_format = software_format,
+                              file_type = file_type_marks)[factor(sign(PERFORMANCE)+2)],
+      depth = BOTTOM_DEPTH,
+      color = navmaps_pal(values = c("red", "lightgreen", "purple"), 
+                          file_type = file_type_marks,
+                          software_format = software_format)[as.numeric(sign(PERFORMANCE)) + 2]
+    ) |>
+    sf_to_nav_file(
+      file = here::here("output", region, "navigation", software_format, paste0(region, "_towmid.", file_type_marks)),
+      name_col = "name",
+      description_col = "desc",
+      color_col = "color",
+      shape_col = "shape",
+      time_col = "START_TIME",
+      extra_cols = "depth",
+      software_format = software_format
+    )
   
   print(here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)))
   
-  towpath_sf <- towpath_sf |>
-    dplyr::mutate(name = paste0(floor(CRUISE/100), "/", VESSEL, "/", HAUL),
-                  desc = paste0(PERFORMANCE, ": ", PERFORMANCE_DESCRIPTION))
-  
   towpath_sf$color <- navmaps_pal(values = c("red", "lightgreen", "purple"), 
-                                      file_type = file_type_lines,
-                                      software_format = software_format)[as.numeric(sign(towpath_sf$PERFORMANCE)) + 2]
-
-    sf_to_nav_file(x = towpath_sf,
-                   file = here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)),
-                   name_col = "name",
-                   description_col = "desc",
-                   color_col = "color",
-                   time_col = "START_TIME",
-                   software_format = software_format)
+                                  file_type = file_type_lines,
+                                  software_format = software_format)[as.numeric(sign(towpath_sf$PERFORMANCE)) + 2]
+  
+  sf_to_nav_file(x = towpath_sf,
+                 file = here::here("output", region, "navigation", software_format, paste0(region, "_towpath.", file_type_lines)),
+                 name_col = "name",
+                 description_col = "desc",
+                 color_col = "color",
+                 time_col = "START_TIME",
+                 software_format = software_format)
+  
 }
 
 

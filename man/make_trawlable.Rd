@@ -8,7 +8,9 @@ make_trawlable(
   region,
   channel = NULL,
   software_format = "timezero",
-  mark_location = "pos"
+  mark_location = "pos",
+  fill_grid_cells = FALSE,
+  filename_suffix = NULL
 )
 }
 \arguments{
@@ -19,6 +21,10 @@ make_trawlable(
 \item{software_format}{Software to use ("timezero", "globe", or "opencpn")}
 
 \item{mark_location}{Choice of algorithm for calculating marks for station polygons. Options are "centroid" and "pos" (point on surface).}
+
+\item{fill_grid_cells}{Logical. Should polygons be filled? Only valid for TimeZero.}
+
+\item{filename_suffix}{Optional character vector to append to file name.}
 }
 \description{
 Make trawlable/untrawlable shapefile and KML

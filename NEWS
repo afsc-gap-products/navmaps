@@ -1,3 +1,13 @@
+navmaps 1.4.8 (June 5, 2026)
+----------------------------------------------------------------
+
+NEW FUNCTIONALITY
+
+- Add fill_grid_cell option that allows filled grid cells in 
+  TimeZero.
+  
+
+
 navmaps 1.4.7 (May 20, 2026)
 ----------------------------------------------------------------
 
