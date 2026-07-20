@@ -8,7 +8,7 @@
 #' @param grid_buffer_m Buffer around the edges of the grid, used for distance calculations
 #' @import tmap dplyr sf terra akgfmaps
 
-tow_helper <- function(stationid, stratum, region, grid_res_m = 250, grid_buffer_m = 40000) {
+tow_helper <- function(stationid, stratum, region, grid_res_m = 1000, grid_buffer_m = 40000) {
 
   map_layers <- akgfmaps::get_base_layers(select.region = region,
                                           set.crs = "WGS84")
@@ -95,33 +95,35 @@ library(lubridate)
 
 # Setup data that would be internal
 
-channel <- navmaps::get_connected(schema = "afsc")
+# channel <- navmaps::get_connected(schema = "afsc")
+# 
+# perf_dat <- RODBC::sqlQuery(channel = channel,
+#                             query = "select h.haul, h.vessel, h.cruise, h.performance, h.start_time, h.stratum, h.stationid from
+# racebase.haul h, race_data.cruises c, race_data.surveys s
+# where s.survey_definition_id = 52
+# and s.survey_id = c.survey_id
+# and c.vessel_id = h.vessel
+# and c.cruise = h.cruise
+# and h.cruise > 199000") |>
+#   dplyr::mutate(GOOD_HAUL = PERFORMANCE >= 0) |> # Assign good/bad
+#   dplyr::rename(STATION = STATIONID)
+# 
+# perf_counts <- perf_dat |>
+#   dplyr::group_by(STRATUM, STATION) |>
+#   dplyr::summarise(LAST_TOW_YEAR = factor(max(lubridate::year(START_TIME))),
+#                    N_GOOD = sum(GOOD_HAUL),
+#                    N_BAD = sum(!GOOD_HAUL)
+#   ) |>
+#   dplyr::mutate(PCT_GOOD = round(100*N_GOOD/(N_GOOD+N_BAD)))
+# 
+# saveRDS(perf_counts, file = here::here("inst", "extdata", "ai_tow_performance.rds"))
 
-# Get haul performance data for the AI
-perf_dat <- RODBC::sqlQuery(channel = channel,
-                            query = "select h.haul, h.vessel, h.cruise, h.performance, h.start_time, h.stratum, h.stationid from
-racebase.haul h, race_data.cruises c, race_data.surveys s
-where s.survey_definition_id = 52
-and s.survey_id = c.survey_id
-and c.vessel_id = h.vessel
-and c.cruise = h.cruise
-and h.cruise > 199000") |>
-  dplyr::mutate(GOOD_HAUL = PERFORMANCE >= 0) |> # Assign good/bad
-  dplyr::rename(STATION = STATIONID) # Change ID to match ID fields in the AI grid shapefile
-
-perf_counts <- perf_dat |>
-  dplyr::group_by(STRATUM, STATION) |>
-  dplyr::summarise(LAST_TOW_YEAR = factor(max(lubridate::year(START_TIME))),
-                   N_GOOD = sum(GOOD_HAUL),
-                   N_BAD = sum(!GOOD_HAUL)
-  ) |>
-  dplyr::mutate(PCT_GOOD = round(100*N_GOOD/(N_GOOD+N_BAD)))
+perf_counts <- readRDS(file = system.file("extdata/ai_tow_performance.rds", package = "navmaps"))
 
 # Get trawlable/untrawlable designations
-trawlable <- RODBC::sqlQuery(channel = channel,
-                             query = "select aigrid_id, trawlable, stratum, stationid from ai.aigrid_gis") |>
-  dplyr::mutate(TRAWLABLE = ifelse(is.na(TRAWLABLE), 'U', TRAWLABLE)) |>
-  dplyr::rename(STATION = STATIONID) # Change ID to match ID fields in the AI grid shapefile
+trawlable <- sf::st_read(dsn = here::here("output", "ai", "shapefiles", "ai_trawlable_grid.shp")) |>
+  dplyr::mutate(TRAWLABLE = ifelse(is.na(TRAWLAB), 'U', TRAWLAB)) |>
+  sf::st_drop_geometry() # Change ID to match ID fields in the AI grid shapefile
 
 
 # Find alternative grid cells within the stratum

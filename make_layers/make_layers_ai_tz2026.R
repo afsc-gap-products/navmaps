@@ -204,7 +204,8 @@ sf_to_nav_file(
 # Add an entry for every crab pot storage data set
 
 crabpot_lines <- sf::st_read(dsn = here::here("assets", "data", "crabpots", "2026", "crabpot_lines_2026.shp")) |>
-  dplyr::select(-Shape_Leng, -INDEX)
+  dplyr::select(-Shape_Leng, -INDEX) |>
+  sf::st_cast("LINESTRING")
 
 crabpot_lines$description <- "Crab pot storage"
 crabpot_lines$color <- navmaps::navmaps_pal(values = "darkorange",

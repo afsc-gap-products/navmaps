@@ -31,183 +31,258 @@ download.file(
 )
 
 # Options are globe, opencpn, timezero
-software_types <- c("timezero", "opencpn", "globe") 
+# software_types <- c("timezero", "opencpn", "globe") 
+software_types <- "timezero" 
 
 for(ii in 1:length(software_types)) {
   set_software(software_types[ii])
 
-  if(SOFTWARE == "globe") {
-    map_layers <- readRDS(here::here("assets", "data", paste0(region, "_map_layers.rds")))
-  }
-
-  # 4. Historical towpath, tow start, and midpoint
-  make_towpaths(
-    region = region,
-    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
-    software_format = SOFTWARE
+  # if(SOFTWARE == "globe") {
+  #   map_layers <- readRDS(here::here("assets", "data", paste0(region, "_map_layers.rds")))
+  # }
+  # 
+  # # 4. Historical towpath, tow start, and midpoint
+  # make_towpaths(
+  #   region = region,
+  #   overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # # 5. Station grid
+  # survey_grid <- map_layers$survey.grid
+  # survey_grid$color <- navmaps_pal(values = "tan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # survey_grid$fill <- 0
+  # 
+  # sf_to_nav_file(
+  #   x = survey_grid,
+  #   geometry = "LINESTRING",
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
+  #   name_col = "STATION",
+  #   description_col = "STATION",
+  #   color_col = "color",
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # # 6. Station marks
+  # grid_centers <- navmaps::st_primary_centroid(map_layers$survey.grid) # Points at the center of each grid cell
+  # grid_centers$shape <- navmaps_sym_pal(values = "circle1",
+  #                                       software_format = SOFTWARE,
+  #                                       file_type = FILE_TYPE_POINT,
+  #                                       color = "tan")
+  # 
+  # grid_centers$color <- navmaps_pal(values = "tan",
+  #                                   software_format = SOFTWARE,
+  #                                   file_type = FILE_TYPE_POINT)
+  # 
+  # sf_to_nav_file(
+  #   x = grid_centers,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_marks.", FILE_TYPE_POINT)),
+  #   name_col = "STATION",
+  #   description_col = "STATION",
+  #   color_col = "color",
+  #   shape_col = "shape",
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # # 8. Survey stratum layer
+  # strata <- map_layers$survey.strata
+  # names(strata)[which(names(strata) != "geometry")] <- toupper(names(strata)[which(names(strata) != "geometry")])
+  # strata$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # strata$fill <- 0
+  # strata$name <- paste0("Stratum ", strata$STRATUM)
+  # 
+  # sf_to_nav_file(
+  #   x = strata,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)),
+  #   name_col = "name",
+  #   description_col = "STRATUM",
+  #   color_col = "color",
+  #   fill_col = "fill",
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # # 9. SSL buffer zones
+  # ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_notransit.shp"))
+  # ssl$NAME <- "SSL No-Transit"
+  # ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # ssl$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # 
+  # sf_to_nav_file(
+  #   x = ssl,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
+  #   name_col = "NAME",
+  #   description_col = "NAME",
+  #   color_col = "color",
+  #   fill_col = "fill",
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # # 10. Sea Otter Critical Habitat
+  # otters <- sf::st_read(here::here("assets", "data", "otters", "SeaOtterFinalCH_Project.shp"))
+  # otters$name <- "Otter Habitat"
+  # otters$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # otters$fill <- 0
+  # 
+  # sf_to_nav_file(x = otters,
+  #                file = here::here("output", region, "navigation", SOFTWARE, paste0("otter_habitat.", FILE_TYPE_POLYGON)),
+  #                name_col = "name",
+  #                description_col = "CH_Unit",
+  #                color_col = "color",
+  #                fill_col = "fill",
+  #                software_format = SOFTWARE)
+  # 
+  # # 11. North Pacific Right Whale Critical Habitat
+  # nprw <- sf::st_read(here::here("assets", "data", "NPRW", "NPRWCH.shp")) |>
+  #   sf::st_transform(crs = "EPSG:4326")
+  # nprw$name <- "NPRW Critical Habitat"
+  # nprw$description <- "NPRW Critical Habitat"
+  # nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # nprw$fill <- 0
+  # 
+  # sf_to_nav_file(x = nprw,
+  #                file = here::here("output", region, "navigation", SOFTWARE, paste0("NPRW_Critical_Habitat.", FILE_TYPE_POLYGON)),
+  #                name_col = "name",
+  #                description_col = "description",
+  #                color_col = "color",
+  #                fill_col = "fill",
+  #                software_format = SOFTWARE)
+  # 
+  # # 12. Humpback Whale Critical Habitat
+  # humpback <- sf::st_read(here::here("assets", "data", "humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
+  #   sf::st_transform(crs = "EPSG:4326")
+  # humpback$name <- "Humpback Critical Habitat"
+  # humpback$description <- "Humpback Critical Habitat"
+  # humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # humpback$fill <- 0
+  # 
+  # sf_to_nav_file(x = humpback,
+  #                file = here::here("output", region, "navigation", SOFTWARE, paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
+  #                name_col = "name",
+  #                description_col = "description",
+  #                color_col = "color",
+  #                fill_col = "fill",
+  #                software_format = SOFTWARE)
+  # 
+  # # 13. Buoys
+  # buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
+  #   dplyr::filter(ATU == 17)
+  # 
+  # buoys$shape <- navmaps_sym_pal(values = "warning",
+  #                                software_format = SOFTWARE,
+  #                                file_type = FILE_TYPE_POINT)
+  # buoys$color <- navmaps_pal(values = "darkorange",
+  #                            software_format = SOFTWARE,
+  #                            file_type = FILE_TYPE_POINT)
+  # 
+  # sf_to_nav_file(
+  #   x = buoys,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0("hazards_buoys_20250121.", FILE_TYPE_POINT)),
+  #   name_col = "SUB_CATEGORY",
+  #   description_col = "DESCRIPTION",
+  #   color_col = "color",
+  #   shape_col = "shape",
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # buoys |>
+  #   sf::st_transform(crs = "EPSG:3338") |>
+  #   sf::st_write(dsn = here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"),
+  #                delete_dsn = TRUE)
+  # 
+  # 
+  # # 14. Special projects
+  # 
+  # 
+  # # Timm- Herring genetics
+  # hsa <- sf::st_read(dsn = here::here("assets", "data", "special_projects", "EBS", 2025, "herring_savings_area.shp"))
+  # hsa$description <- "Herring Savings Area (Timm and Lopez project)"
+  # 
+  # hsa$color <- navmaps_pal(
+  #   values = "purple",
+  #                          software_format = SOFTWARE,
+  #                          file_type = FILE_TYPE_POINT
+  #   )
+  # hsa$fill <- 0
+  # 
+  # sf_to_nav_file(
+  #   x = hsa,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0("herring_savings_area.", FILE_TYPE_POLYGON)),
+  #   name_col = "description",
+  #   description_col = "name",
+  #   color_col = "color",
+  #   fill_col = "fill",
+  #   software_format = SOFTWARE
+  # )
+  
+  # Catch comparison zones
+  
+  project_zones <- dplyr::bind_rows(
+    sf::st_read(here::here("assets", "data", "special_projects", "EBS", "2026", "2026_paired_tow_zones.shp")),
+    gear_testing_zone <- sf::st_read(here::here("assets", "data", "special_projects", "EBS", "2026", "gear_testing_zone.shp"))
   )
-
-  # 5. Station grid
-  survey_grid <- map_layers$survey.grid
-  survey_grid$color <- navmaps_pal(values = "tan", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  survey_grid$fill <- 0
-
+  
+  project_zones$name <- "Gear Project"
+  project_zones$fill <- 0
+  project_zones$color <- navmaps_pal(values = "blue", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  
   sf_to_nav_file(
-    x = survey_grid,
-    geometry = "LINESTRING",
-    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_station_grid.", FILE_TYPE_POLYGON)),
-    name_col = "STATION",
-    description_col = "STATION",
-    color_col = "color",
-    software_format = SOFTWARE
-  )
-
-  # 6. Station marks
-  grid_centers <- navmaps::st_primary_centroid(map_layers$survey.grid) # Points at the center of each grid cell
-  grid_centers$shape <- navmaps_sym_pal(values = "circle1",
-                                        software_format = SOFTWARE,
-                                        file_type = FILE_TYPE_POINT,
-                                        color = "tan")
-
-  grid_centers$color <- navmaps_pal(values = "tan",
-                                    software_format = SOFTWARE,
-                                    file_type = FILE_TYPE_POINT)
-
-  sf_to_nav_file(
-    x = grid_centers,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_marks.", FILE_TYPE_POINT)),
-    name_col = "STATION",
-    description_col = "STATION",
-    color_col = "color",
-    shape_col = "shape",
-    software_format = SOFTWARE
-  )
-
-  # 8. Survey stratum layer
-  strata <- map_layers$survey.strata
-  names(strata)[which(names(strata) != "geometry")] <- toupper(names(strata)[which(names(strata) != "geometry")])
-  strata$color <- navmaps_pal(values = "yellow", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  strata$fill <- 0
-  strata$name <- paste0("Stratum ", strata$STRATUM)
-
-  sf_to_nav_file(
-    x = strata,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_survey_strata.", FILE_TYPE_POLYGON)),
+    x = project_zones,
+    file = here::here("output", region, "navigation", SOFTWARE, paste0("2026_gear_testing_zones.", FILE_TYPE_POLYGON)),
     name_col = "name",
-    description_col = "STRATUM",
+    description_col = "area",
     color_col = "color",
     fill_col = "fill",
     software_format = SOFTWARE
   )
-
-  # 9. SSL buffer zones
-  ssl <- sf::st_read(here::here("assets", "data", "SSLrookeries", "3nm_notransit.shp"))
-  ssl$NAME <- "SSL No-Transit"
-  ssl$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  ssl$fill <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-
+  
+  slope_towstart <- sf::st_read(
+    here::here("assets", "data", "special_projects", "EBS", "2026", "slope_tow_starts.shp")
+    ) |>
+    dplyr::filter(startsWith(STATION, "11-") == TRUE) |>
+    dplyr::mutate(
+      name = floor(CRUISE/100),
+      desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORM, "-", PERFDES, ")"),
+      color = navmaps::navmaps_pal(
+        values = c("red", "lightgreen", "purple"),
+        file_type = FILE_TYPE_POINT,
+        software_format = SOFTWARE
+      )[as.numeric(sign(PERFORM)) + 2],
+      shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
+                              software_format = SOFTWARE,
+                              file_type = FILE_TYPE_POINT)[factor(sign(PERFORM)+2)],
+    )
+  
   sf_to_nav_file(
-    x = ssl,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0(region, "_ssl_no_transit.", FILE_TYPE_POLYGON)),
-    name_col = "NAME",
-    description_col = "NAME",
-    color_col = "color",
-    fill_col = "fill",
-    software_format = SOFTWARE
-  )
-
-  # 10. Sea Otter Critical Habitat
-  otters <- sf::st_read(here::here("assets", "data", "otters", "SeaOtterFinalCH_Project.shp"))
-  otters$name <- "Otter Habitat"
-  otters$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  otters$fill <- 0
-
-  sf_to_nav_file(x = otters,
-                 file = here::here("output", region, "navigation", SOFTWARE, paste0("otter_habitat.", FILE_TYPE_POLYGON)),
-                 name_col = "name",
-                 description_col = "CH_Unit",
-                 color_col = "color",
-                 fill_col = "fill",
-                 software_format = SOFTWARE)
-
-  # 11. North Pacific Right Whale Critical Habitat
-  nprw <- sf::st_read(here::here("assets", "data", "NPRW", "NPRWCH.shp")) |>
-    sf::st_transform(crs = "EPSG:4326")
-  nprw$name <- "NPRW Critical Habitat"
-  nprw$description <- "NPRW Critical Habitat"
-  nprw$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  nprw$fill <- 0
-
-  sf_to_nav_file(x = nprw,
-                 file = here::here("output", region, "navigation", SOFTWARE, paste0("NPRW_Critical_Habitat.", FILE_TYPE_POLYGON)),
-                 name_col = "name",
-                 description_col = "description",
-                 color_col = "color",
-                 fill_col = "fill",
-                 software_format = SOFTWARE)
-
-  # 12. Humpback Whale Critical Habitat
-  humpback <- sf::st_read(here::here("assets", "data", "humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
-    sf::st_transform(crs = "EPSG:4326")
-  humpback$name <- "Humpback Critical Habitat"
-  humpback$description <- "Humpback Critical Habitat"
-  humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  humpback$fill <- 0
-
-  sf_to_nav_file(x = humpback,
-                 file = here::here("output", region, "navigation", SOFTWARE, paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
-                 name_col = "name",
-                 description_col = "description",
-                 color_col = "color",
-                 fill_col = "fill",
-                 software_format = SOFTWARE)
-
-  # 13. Buoys
-  buoys <- sf::st_read(dsn = here::here("assets", "data", "buoys", "hazNav_1.geojson")) |>
-    dplyr::filter(ATU == 17)
-
-  buoys$shape <- navmaps_sym_pal(values = "warning",
-                                 software_format = SOFTWARE,
-                                 file_type = FILE_TYPE_POINT)
-  buoys$color <- navmaps_pal(values = "darkorange",
-                             software_format = SOFTWARE,
-                             file_type = FILE_TYPE_POINT)
-
-  sf_to_nav_file(
-    x = buoys,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0("hazards_buoys_20250121.", FILE_TYPE_POINT)),
-    name_col = "SUB_CATEGORY",
-    description_col = "DESCRIPTION",
+    x = slope_towstart,
+    file = here::here("output", region, "navigation", SOFTWARE, paste0("slope11_towstart.", FILE_TYPE_POINT)),
+    name_col = "name",
+    description_col = "desc",
     color_col = "color",
     shape_col = "shape",
     software_format = SOFTWARE
   )
-
-  buoys |>
-    sf::st_transform(crs = "EPSG:3338") |>
-    sf::st_write(dsn = here::here("output", region, "shapefiles", "hazards_buoys_20250121.gpkg"),
-                 delete_dsn = TRUE)
-
   
-  # 14. Special projects
   
-  hsa <- sf::st_read(dsn = here::here("assets", "data", "special_projects", "EBS", 2025, "herring_savings_area.shp"))
-  hsa$description <- "Herring Savings Area (Timm and Lopez project)"
-  
-  hsa$color <- navmaps_pal(
-    values = "purple",
-                           software_format = SOFTWARE,
-                           file_type = FILE_TYPE_POINT
+  slope_towpath <- sf::st_read(
+    here::here("assets", "data", "special_projects", "EBS", "2026", "slope_towpaths.shp")
+  )  |>
+    dplyr::filter(startsWith(STATION, "11-") == TRUE) |>
+    dplyr::mutate(
+      name = "",
+      desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORM, "-", PERFDES, ")"),
+      color = navmaps::navmaps_pal(
+        values = c("red", "lightgreen", "purple"),
+        file_type = FILE_TYPE_POLYGON,
+        software_format = SOFTWARE
+      )[as.numeric(sign(PERFORM)) + 2]
     )
-  hsa$fill <- 0
   
   sf_to_nav_file(
-    x = hsa,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0("herring_savings_area.", FILE_TYPE_POLYGON)),
-    name_col = "description",
-    description_col = "name",
+    x = slope_towpath,
+    file = here::here("output", region, "navigation", SOFTWARE, paste0("slope11_towpath.", FILE_TYPE_LINESTRING)),
+    name_col = "name",
+    description_col = "desc",
     color_col = "color",
-    fill_col = "fill",
     software_format = SOFTWARE
   )
   

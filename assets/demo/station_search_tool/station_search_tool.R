@@ -25,12 +25,12 @@ where s.survey_definition_id = 52
 and s.survey_id = c.survey_id
 and c.vessel_id = h.vessel
 and c.cruise = h.cruise
-and h.cruise > 198400") |>
+and h.cruise > 199000") |>
   dplyr::mutate(GOOD_HAUL = PERFORMANCE >= 0) |> # Assign good/bad
-  dplyr::rename(ID = STATIONID) # Change ID to match ID fields in the AI grid shapefile
+  dplyr::rename(STATION = STATIONID) # Change ID to match ID fields in the AI grid shapefile
 
 perf_counts <- perf_dat |>
-  dplyr::group_by(STRATUM, ID) |>
+  dplyr::group_by(STRATUM, STATION) |>
   dplyr::summarise(LAST_TOW_YEAR = factor(max(lubridate::year(START_TIME))),
                    N_GOOD = sum(GOOD_HAUL),
                    N_BAD = sum(!GOOD_HAUL)
@@ -41,13 +41,18 @@ perf_counts <- perf_dat |>
 trawlable <- RODBC::sqlQuery(channel = channel,
                              query = "select aigrid_id, trawlable, stratum, stationid from ai.aigrid_gis") |>
   dplyr::mutate(TRAWLABLE = ifelse(is.na(TRAWLABLE), 'U', TRAWLABLE)) |>
-  dplyr::rename(ID = STATIONID) # Change ID to match ID fields in the AI grid shapefile
+  dplyr::rename(STATION = STATIONID) # Change ID to match ID fields in the AI grid shapefile
 
 
 # Find alternative grid cells within the stratum
-alt_stations <- tow_helper(region = "ai",
-                           stationid = "35-48",
-                           stratum = 214)
+alt_stations <- tow_helper(
+  region = "ai",
+  stationid = "35-48",
+  stratum = 214,
+  grid_res_m = 1000
+)
+
+alt_stations <- alternative_stations
 
 # Join everything
 alt_stations <- alt_stations |>
@@ -56,24 +61,27 @@ alt_stations <- alt_stations |>
   dplyr::mutate(N_GOOD = ifelse(is.na(N_GOOD), 0, N_GOOD),
                 N_BAD = ifelse(is.na(N_BAD), 0, N_BAD)) |>
   dplyr::mutate(GOOD_BAD = paste0(N_GOOD, "/", N_GOOD+N_BAD, " (", PCT_GOOD, "%)")) |>
-  dplyr::select(ID, STRATUM, TRAWLABLE, LAST_TOW_YEAR, GOOD_BAD, PCT_GOOD, dist_nmi) 
+  dplyr::select(STATION, STRATUM, TRAWLABLE, LAST_TOW_YEAR, GOOD_BAD, PCT_GOOD, dist_nmi) 
 
 # This should work in offline mode
 tmap_mode("view")
 
-tmap::tm_shape(alt_stations) +
-  tmap::tm_symbols() +
-  tmap::tm_symbols(fill = "dist_nmi") +
-  tmap::tm_polygons(fill = "TRAWLABLE")
+# tmap::tm_shape(alt_stations) +
+#   tmap::tm_symbols() +
+#   tmap::tm_symbols(fill = "dist_nmi") +
+#   tmap::tm_polygons(fill = "TRAWLABLE")
+# 
+# tmap_mode("view")
+# tmap::tm_shape(alt_stations) +
+#   tmap::tm_polygons() +
+#   tmap::tm_polygons(fill = "PCT_GOOD")
+# 
+# tmap_mode("view")
+# tmap::tm_shape(alt_stations) +
+#   tmap::tm_symbols() +
+#   tmap::tm_symbols(fill = "PCT_GOOD") +
+#   tmap::tm_polygons(fill = "TRAWLABLE")
 
-tmap_mode("view")
-tmap::tm_shape(alt_stations) +
-  tmap::tm_polygons() +
-  tmap::tm_polygons(fill = "PCT_GOOD")
-
-tmap_mode("view")
-tmap::tm_shape(alt_stations) +
-  tmap::tm_symbols() +
-  tmap::tm_symbols(fill = "PCT_GOOD") +
-  tmap::tm_polygons(fill = "TRAWLABLE")
+tmap::tm_shape(dplyr::filter(alt_stations, TRAWLABLE == "Y")) +
+  tmap::tm_polygons(fill = "dist_nmi")
 

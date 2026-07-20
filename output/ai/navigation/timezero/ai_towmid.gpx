@@ -7974,7 +7974,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.1582918088194" lon="-166.334387405252">
+  <wpt lat="54.1582918088193" lon="-166.334387405252">
     <time>1994-06-03T13:53:23.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 3 (0-Good performance)</cmt>
@@ -7983,7 +7983,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.3362758671621" lon="-165.867664561025">
+  <wpt lat="54.336275867162" lon="-165.867664561025">
     <time>1994-06-03T18:08:22.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 4 (0-Good performance)</cmt>
@@ -7992,7 +7992,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.888850176685" lon="-165.346557424522">
+  <wpt lat="54.8888501766848" lon="-165.346557424522">
     <time>1994-06-04T06:50:07.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 5 (0-Good performance)</cmt>
@@ -8010,7 +8010,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.5359057450394" lon="-165.832706539965">
+  <wpt lat="54.5359057450393" lon="-165.832706539965">
     <time>1994-06-04T14:17:38.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 7 (0-Good performance)</cmt>
@@ -8019,7 +8019,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.427421909966" lon="-165.562509566769">
+  <wpt lat="54.4274219099661" lon="-165.562509566769">
     <time>1994-06-04T18:10:57.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 8 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -8028,7 +8028,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.3494106403602" lon="-165.611857014841">
+  <wpt lat="54.3494106403604" lon="-165.611857014841">
     <time>1994-06-05T09:07:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 9 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -8046,7 +8046,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.2270188045605" lon="-166.014384433024">
+  <wpt lat="54.2270188045603" lon="-166.014384433024">
     <time>1994-06-05T14:39:50.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 11 (0-Good performance)</cmt>
@@ -8082,7 +8082,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.0766900190982" lon="-166.377137838464">
+  <wpt lat="54.0766900190984" lon="-166.377137838464">
     <time>1994-06-06T09:49:49.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 15 (0-Good performance)</cmt>
@@ -8109,7 +8109,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.809557444158" lon="-167.301506231598">
+  <wpt lat="53.8095574441582" lon="-167.301506231598">
     <time>1994-06-07T09:24:37.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 18 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -8127,7 +8127,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.7638843441257" lon="-167.063376432517">
+  <wpt lat="53.7638843441256" lon="-167.063376432517">
     <time>1994-06-07T15:08:50.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 20 (0-Good performance)</cmt>
@@ -8154,7 +8154,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6673871151689" lon="-167.306220116662">
+  <wpt lat="53.667387115169" lon="-167.306220116662">
     <time>1994-06-08T07:10:22.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 23 (0-Good performance)</cmt>
@@ -8190,7 +8190,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6025239516982" lon="-168.231106174603">
+  <wpt lat="53.6025239516983" lon="-168.231106174603">
     <time>1994-06-08T18:36:36.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 28 (0-Good performance)</cmt>
@@ -8208,7 +8208,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.4254875481691" lon="-168.513799089338">
+  <wpt lat="53.4254875481692" lon="-168.513799089338">
     <time>1994-06-09T08:33:31.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 30 (0-Good performance)</cmt>
@@ -8226,7 +8226,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3870307178247" lon="-168.587484346499">
+  <wpt lat="53.3870307178245" lon="-168.587484346499">
     <time>1994-06-09T11:02:41.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 32 (0-Good performance)</cmt>
@@ -8271,7 +8271,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8974314421106" lon="-169.505275118703">
+  <wpt lat="52.8974314421108" lon="-169.505275118703">
     <time>1994-06-10T11:51:12.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 37 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -8280,7 +8280,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1209433453532" lon="-169.935726531007">
+  <wpt lat="53.1209433453535" lon="-169.935726531007">
     <time>1994-06-10T16:48:24.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 38 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -8298,7 +8298,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8753616514815" lon="-169.980216093284">
+  <wpt lat="52.8753616514814" lon="-169.980216093284">
     <time>1994-06-11T06:27:39.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 40 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8307,7 +8307,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8959219000799" lon="-169.974177918432">
+  <wpt lat="52.8959219000798" lon="-169.974177918432">
     <time>1994-06-11T08:10:48.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 41 (0-Good performance)</cmt>
@@ -8334,7 +8334,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1984148639311" lon="-169.699681950454">
+  <wpt lat="53.1984148639309" lon="-169.699681950454">
     <time>1994-06-11T19:34:10.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 44 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8379,7 +8379,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6942909625999" lon="-170.810298638318">
+  <wpt lat="52.6942909626" lon="-170.810298638318">
     <time>1994-06-12T18:10:17.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 49 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8433,7 +8433,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4767373233538" lon="-170.140729388972">
+  <wpt lat="52.4767373233537" lon="-170.140729388972">
     <time>1994-06-13T19:28:51.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 55 (0-Good performance)</cmt>
@@ -8469,7 +8469,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2110292849821" lon="-172.208160913135">
+  <wpt lat="52.211029284982" lon="-172.208160913135">
     <time>1994-06-14T18:50:40.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 59 (0-Good performance)</cmt>
@@ -8478,7 +8478,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.059704000473" lon="-172.552734905602">
+  <wpt lat="52.0597040004731" lon="-172.552734905602">
     <time>1994-06-15T06:10:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 60 (0-Good performance)</cmt>
@@ -8496,7 +8496,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9635555641519" lon="-172.647337829657">
+  <wpt lat="51.9635555641517" lon="-172.647337829657">
     <time>1994-06-15T11:55:06.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 62 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8523,7 +8523,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.293048668672" lon="-173.961123853647">
+  <wpt lat="52.2930486686719" lon="-173.961123853647">
     <time>1994-06-16T09:49:20.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 65 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8550,7 +8550,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4122424885251" lon="-173.826000385031">
+  <wpt lat="52.4122424885249" lon="-173.826000385031">
     <time>1994-06-16T15:46:32.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 68 (0-Good performance)</cmt>
@@ -8559,7 +8559,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4400811112076" lon="-173.7752565977">
+  <wpt lat="52.4400811112075" lon="-173.7752565977">
     <time>1994-06-16T17:55:22.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 69 (0-Good performance)</cmt>
@@ -8586,7 +8586,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3164215415392" lon="-173.651613996531">
+  <wpt lat="52.3164215415393" lon="-173.651613996531">
     <time>1994-06-17T15:25:49.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 72 (0-Good performance)</cmt>
@@ -8595,7 +8595,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2932246951753" lon="-173.375824588429">
+  <wpt lat="52.2932246951752" lon="-173.375824588429">
     <time>1994-06-17T19:58:22.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 73 (0-Good performance)</cmt>
@@ -8640,7 +8640,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1653075008006" lon="-173.110893890862">
+  <wpt lat="52.1653075008004" lon="-173.110893890862">
     <time>1994-06-18T17:08:03.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 78 (0-Good performance)</cmt>
@@ -8667,7 +8667,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2577012474597" lon="-173.175713728845">
+  <wpt lat="52.2577012474596" lon="-173.175713728845">
     <time>1994-06-19T10:45:06.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 81 (0-Good performance)</cmt>
@@ -8685,7 +8685,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.43234981639" lon="-172.599876587941">
+  <wpt lat="52.4323498163902" lon="-172.599876587941">
     <time>1994-06-19T18:29:13.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 83 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8703,7 +8703,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4869766687981" lon="-172.573201073052">
+  <wpt lat="52.4869766687983" lon="-172.573201073052">
     <time>1994-06-20T09:29:21.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 85 (0-Good performance)</cmt>
@@ -8739,7 +8739,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4586371030172" lon="-172.321981028199">
+  <wpt lat="52.4586371030173" lon="-172.321981028199">
     <time>1994-06-20T18:24:03.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 89 (0-Good performance)</cmt>
@@ -8748,7 +8748,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3007828513726" lon="-174.708901963446">
+  <wpt lat="52.3007828513727" lon="-174.708901963446">
     <time>1994-06-21T06:11:25.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 90 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8757,7 +8757,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2529789152623" lon="-174.420275448247">
+  <wpt lat="52.2529789152622" lon="-174.420275448247">
     <time>1994-06-21T10:19:33.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 91 (0-Good performance)</cmt>
@@ -8775,7 +8775,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.905173945315" lon="-173.713927093167">
+  <wpt lat="51.9051739453148" lon="-173.713927093167">
     <time>1994-06-25T15:03:07.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 93 (0-Good performance)</cmt>
@@ -8802,7 +8802,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.843073899123" lon="-173.909716974432">
+  <wpt lat="51.8430738991231" lon="-173.909716974432">
     <time>1994-06-26T09:06:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 96 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -8811,7 +8811,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8638037911238" lon="-174.037520135007">
+  <wpt lat="51.863803791124" lon="-174.037520135007">
     <time>1994-06-27T13:52:09.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 97 (0-Good performance)</cmt>
@@ -8820,7 +8820,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8583743733986" lon="-174.163470121578">
+  <wpt lat="51.8583743733987" lon="-174.163470121578">
     <time>1994-06-26T17:10:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 98 (0-Good performance)</cmt>
@@ -8847,7 +8847,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7500042632207" lon="-175.109539667468">
+  <wpt lat="51.7500042632208" lon="-175.109539667468">
     <time>1994-06-28T12:18:50.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 101 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8865,7 +8865,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8518654927008" lon="-175.092587783849">
+  <wpt lat="51.8518654927007" lon="-175.092587783849">
     <time>1994-06-28T18:41:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 103 (0-Good performance)</cmt>
@@ -8892,7 +8892,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7893906266387" lon="-175.650713736924">
+  <wpt lat="51.7893906266388" lon="-175.650713736924">
     <time>1994-06-29T14:19:04.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 107 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -8901,7 +8901,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7977232886341" lon="-175.613840926578">
+  <wpt lat="51.797723288634" lon="-175.613840926578">
     <time>1994-06-29T15:02:12.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 108 (0-Good performance)</cmt>
@@ -8919,7 +8919,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.131262893219" lon="-175.145774167943">
+  <wpt lat="52.1312628932189" lon="-175.145774167943">
     <time>1994-06-30T07:10:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 110 (0-Good performance)</cmt>
@@ -8937,7 +8937,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1529934241721" lon="-175.399657526139">
+  <wpt lat="52.1529934241722" lon="-175.399657526139">
     <time>1994-07-01T07:35:27.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 112 (0-Good performance)</cmt>
@@ -8946,7 +8946,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.083772312606" lon="-175.447735745923">
+  <wpt lat="52.0837723126061" lon="-175.447735745923">
     <time>1994-07-01T10:50:21.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 113 (0-Good performance)</cmt>
@@ -8991,7 +8991,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5375085400738" lon="-176.591216690211">
+  <wpt lat="51.5375085400739" lon="-176.591216690211">
     <time>1994-07-02T13:48:07.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 118 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9009,7 +9009,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6045272245658" lon="-177.155590296521">
+  <wpt lat="51.604527224566" lon="-177.155590296521">
     <time>1994-07-02T20:22:42.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 120 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9018,7 +9018,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6722805393552" lon="-177.215457631547">
+  <wpt lat="51.6722805393551" lon="-177.215457631547">
     <time>1994-07-03T07:28:18.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 121 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -9045,7 +9045,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6018795852733" lon="-177.621043125451">
+  <wpt lat="51.6018795852734" lon="-177.621043125451">
     <time>1994-07-03T17:54:28.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 124 (0-Good performance)</cmt>
@@ -9063,7 +9063,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7874107116524" lon="-177.639526626449">
+  <wpt lat="51.7874107116526" lon="-177.639526626449">
     <time>1994-07-04T08:00:54.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 126 (0-Good performance)</cmt>
@@ -9081,7 +9081,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8720043759653" lon="-177.764491096858">
+  <wpt lat="51.8720043759652" lon="-177.764491096858">
     <time>1994-07-04T13:17:24.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 128 (0-Good performance)</cmt>
@@ -9090,7 +9090,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.566696074156" lon="-177.817092259717">
+  <wpt lat="51.5666960741559" lon="-177.817092259717">
     <time>1994-07-05T07:24:30.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 129 (0-Good performance)</cmt>
@@ -9117,7 +9117,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7371648888781" lon="-178.14169818023">
+  <wpt lat="51.737164888878" lon="-178.14169818023">
     <time>1994-07-05T18:59:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 132 (0-Good performance)</cmt>
@@ -9135,7 +9135,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6183617343515" lon="-178.437974266335">
+  <wpt lat="51.6183617343516" lon="-178.437974266335">
     <time>1994-07-06T13:54:22.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 134 (0-Good performance)</cmt>
@@ -9144,7 +9144,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6429828615418" lon="-178.513518275779">
+  <wpt lat="51.6429828615417" lon="-178.513518275779">
     <time>1994-07-06T18:40:29.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 135 (0-Good performance)</cmt>
@@ -9153,7 +9153,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2018914117932" lon="-179.014247748593">
+  <wpt lat="51.2018914117933" lon="-179.014247748593">
     <time>1994-07-07T07:25:13.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 136 (0-Good performance)</cmt>
@@ -9162,7 +9162,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4983712462001" lon="-178.633462635278">
+  <wpt lat="51.4983712462" lon="-178.633462635278">
     <time>1994-07-07T15:02:34.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 137 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9180,7 +9180,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3013778358435" lon="-179.798896055975">
+  <wpt lat="52.3013778358434" lon="-179.798896055975">
     <time>1994-07-08T10:49:43.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 140 (0-Good performance)</cmt>
@@ -9189,7 +9189,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3402045245557" lon="-179.876772558496">
+  <wpt lat="52.3402045245558" lon="-179.876772558496">
     <time>1994-07-08T13:42:03.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 141 (0-Good performance)</cmt>
@@ -9198,7 +9198,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3622749622817" lon="-179.893122105206">
+  <wpt lat="52.3622749622816" lon="-179.893122105206">
     <time>1994-07-08T16:59:15.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 142 (0-Good performance)</cmt>
@@ -9207,7 +9207,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4371076111381" lon="179.930050059952">
+  <wpt lat="52.437107611138" lon="179.930050059952">
     <time>1994-07-08T19:57:40.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 143 (0-Good performance)</cmt>
@@ -9225,7 +9225,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5036493500051" lon="179.962877027328">
+  <wpt lat="52.5036493500053" lon="179.962877027328">
     <time>1994-07-09T17:04:17.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 145 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9270,7 +9270,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1673067839305" lon="179.599247874232">
+  <wpt lat="52.1673067839306" lon="179.599247874232">
     <time>1994-07-10T16:46:09.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 150 (0-Good performance)</cmt>
@@ -9279,7 +9279,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1664005605619" lon="179.725062345364">
+  <wpt lat="52.166400560562" lon="179.725062345364">
     <time>1994-07-10T19:34:06.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 151 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -9297,7 +9297,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1526431216736" lon="179.706723363123">
+  <wpt lat="52.1526431216735" lon="179.706723363123">
     <time>1994-07-11T10:20:12.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 153 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9324,7 +9324,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1413016429292" lon="-175.290071658921">
+  <wpt lat="52.1413016429291" lon="-175.290071658921">
     <time>1994-07-12T18:34:49.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 156 (0-Good performance)</cmt>
@@ -9333,7 +9333,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8929579706219" lon="-176.445865955636">
+  <wpt lat="51.8929579706219" lon="-176.445865955637">
     <time>1994-07-13T07:15:58.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 157 (0-Good performance)</cmt>
@@ -9351,7 +9351,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2523703019927" lon="179.269815390905">
+  <wpt lat="51.2523703019925" lon="179.269815390905">
     <time>1994-07-17T08:12:51.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 159 (0-Good performance)</cmt>
@@ -9360,7 +9360,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2446401139246" lon="179.177444584316">
+  <wpt lat="51.2446401139245" lon="179.177444584316">
     <time>1994-07-17T13:59:25.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 160 (0-Good performance)</cmt>
@@ -9387,7 +9387,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6229611322328" lon="178.413766918541">
+  <wpt lat="51.6229611322327" lon="178.413766918541">
     <time>1994-07-18T12:21:15.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 163 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9396,7 +9396,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6932859373956" lon="178.266938309439">
+  <wpt lat="51.6932859373957" lon="178.266938309439">
     <time>1994-07-18T15:41:40.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 164 (0-Good performance)</cmt>
@@ -9405,7 +9405,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5666958796695" lon="178.320665429642">
+  <wpt lat="51.5666958796696" lon="178.320665429642">
     <time>1994-07-18T19:06:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 165 (0-Good performance)</cmt>
@@ -9432,7 +9432,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9073583605568" lon="178.368185808964">
+  <wpt lat="51.9073583605566" lon="178.368185808964">
     <time>1994-07-19T13:47:29.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 168 (0-Good performance)</cmt>
@@ -9477,7 +9477,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.965441704346" lon="178.250380069716">
+  <wpt lat="51.9654417043461" lon="178.250380069716">
     <time>1994-07-20T16:53:34.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 173 (0-Good performance)</cmt>
@@ -9495,7 +9495,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8781288950585" lon="177.708399573682">
+  <wpt lat="51.8781288950586" lon="177.708399573682">
     <time>1994-07-21T11:08:39.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 175 (0-Good performance)</cmt>
@@ -9504,7 +9504,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8238935274206" lon="177.681000616725">
+  <wpt lat="51.8238935274207" lon="177.681000616725">
     <time>1994-07-21T14:34:48.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 176 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9513,7 +9513,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7919319955484" lon="177.701289616785">
+  <wpt lat="51.7919319955485" lon="177.701289616785">
     <time>1994-07-21T16:31:15.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 177 (0-Good performance)</cmt>
@@ -9531,7 +9531,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9949003529805" lon="177.660288038648">
+  <wpt lat="51.9949003529804" lon="177.660288038648">
     <time>1994-07-22T13:55:41.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 179 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9585,7 +9585,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0588590283509" lon="176.522166058429">
+  <wpt lat="52.0588590283508" lon="176.522166058429">
     <time>1994-07-24T08:56:27.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 185 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -9612,7 +9612,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3522714753392" lon="176.370786065426">
+  <wpt lat="52.3522714753394" lon="176.370786065426">
     <time>1994-07-25T07:58:43.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 188 (0-Good performance)</cmt>
@@ -9621,7 +9621,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3003981156091" lon="175.812372191712">
+  <wpt lat="52.300398115609" lon="175.812372191712">
     <time>1994-07-26T07:57:40.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 189 (0-Good performance)</cmt>
@@ -9630,7 +9630,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2844044859408" lon="175.358182977645">
+  <wpt lat="52.2844044859407" lon="175.358182977645">
     <time>1994-07-26T16:07:04.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 190 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -9639,7 +9639,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0898042958279" lon="175.213635402486">
+  <wpt lat="52.0898042958278" lon="175.213635402486">
     <time>1994-07-26T20:09:07.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 191 (0-Good performance)</cmt>
@@ -9648,7 +9648,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0724892738335" lon="175.10485977964">
+  <wpt lat="52.0724892738336" lon="175.10485977964">
     <time>1994-07-26T22:21:49.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 192 (0-Good performance)</cmt>
@@ -9684,7 +9684,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8533210704286" lon="175.859530556322">
+  <wpt lat="51.8533210704285" lon="175.859530556322">
     <time>1994-07-27T20:51:25.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 196 (0-Good performance)</cmt>
@@ -9720,7 +9720,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5845172301256" lon="174.309812602574">
+  <wpt lat="52.5845172301257" lon="174.309812602574">
     <time>1994-07-28T13:36:58.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 200 (0-Good performance)</cmt>
@@ -9729,7 +9729,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3885708075011" lon="174.160279514558">
+  <wpt lat="52.3885708075013" lon="174.160279514558">
     <time>1994-07-28T16:52:49.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 201 (0-Good performance)</cmt>
@@ -9756,7 +9756,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3643016758184" lon="173.553683343094">
+  <wpt lat="52.3643016758182" lon="173.553683343094">
     <time>1994-07-29T12:55:37.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 204 (0-Good performance)</cmt>
@@ -9774,7 +9774,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4694004778468" lon="173.396136663864">
+  <wpt lat="52.4694004778469" lon="173.396136663864">
     <time>1994-07-29T18:40:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 206 (0-Good performance)</cmt>
@@ -9783,7 +9783,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5623222307462" lon="173.503042204898">
+  <wpt lat="52.5623222307461" lon="173.503042204898">
     <time>1994-07-29T20:37:00.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 207 (0-Good performance)</cmt>
@@ -9801,7 +9801,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9823370229719" lon="170.936543178516">
+  <wpt lat="52.9823370229718" lon="170.936543178516">
     <time>1994-07-30T11:44:21.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 209 (0-Good performance)</cmt>
@@ -9819,7 +9819,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1392284328467" lon="170.889210937224">
+  <wpt lat="53.1392284328466" lon="170.889210937224">
     <time>1994-07-30T17:57:40.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 211 (0-Good performance)</cmt>
@@ -9855,7 +9855,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0312375680398" lon="173.19993950617">
+  <wpt lat="53.0312375680399" lon="173.19993950617">
     <time>1994-08-01T08:38:12.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 215 (0-Good performance)</cmt>
@@ -9891,7 +9891,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8098637667921" lon="172.568111970983">
+  <wpt lat="52.8098637667922" lon="172.568111970983">
     <time>1994-08-02T11:08:06.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 219 (0-Good performance)</cmt>
@@ -9909,7 +9909,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2045172085878" lon="176.089345173333">
+  <wpt lat="52.2045172085879" lon="176.089345173333">
     <time>1994-08-03T11:33:58.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 221 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -9918,7 +9918,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0164498891389" lon="177.823703535052">
+  <wpt lat="52.0164498891388" lon="177.823703535052">
     <time>1994-08-03T23:39:56.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 222 (0-Good performance)</cmt>
@@ -9927,7 +9927,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0137391638568" lon="177.824363009292">
+  <wpt lat="52.0137391638567" lon="177.824363009292">
     <time>1994-08-04T03:41:25.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 223 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -9963,7 +9963,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0021816924313" lon="177.822996732774">
+  <wpt lat="52.0021816924312" lon="177.822996732774">
     <time>1994-08-04T19:42:34.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 227 (0-Good performance)</cmt>
@@ -9972,7 +9972,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.003355916658" lon="177.825057011665">
+  <wpt lat="52.0033559166581" lon="177.825057011665">
     <time>1994-08-04T23:40:28.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 228 (0-Good performance)</cmt>
@@ -9981,7 +9981,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.999689332953" lon="177.824647777319">
+  <wpt lat="51.9996893329529" lon="177.824647777319">
     <time>1994-08-05T03:41:07.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 94, Haul: 229 (0-Good performance)</cmt>
@@ -9999,7 +9999,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.2399984282265" lon="-166.018235061913">
+  <wpt lat="54.2399984282266" lon="-166.018235061913">
     <time>1994-06-03T15:13:06.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 2 (0-Good performance)</cmt>
@@ -10008,7 +10008,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.2387910568874" lon="-165.80355527246">
+  <wpt lat="54.2387910568873" lon="-165.80355527246">
     <time>1994-06-04T06:16:00.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 3 (0-Good performance)</cmt>
@@ -10035,7 +10035,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.3408394965025" lon="-165.349076642721">
+  <wpt lat="54.3408394965024" lon="-165.349076642721">
     <time>1994-06-04T17:28:30.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 6 (0-Good performance)</cmt>
@@ -10053,7 +10053,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.615625295093" lon="-165.23980618241">
+  <wpt lat="54.6156252950929" lon="-165.23980618241">
     <time>1994-06-05T12:35:57.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 8 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10071,7 +10071,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.6791220674709" lon="-165.273156362884">
+  <wpt lat="54.679122067471" lon="-165.273156362884">
     <time>1994-06-05T18:16:38.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 10 (0-Good performance)</cmt>
@@ -10089,7 +10089,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.0718772411511" lon="-166.368499647279">
+  <wpt lat="54.0718772411512" lon="-166.368499647279">
     <time>1994-06-06T07:59:16.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 12 (0-Good performance)</cmt>
@@ -10098,7 +10098,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.188226184557" lon="-166.304161053656">
+  <wpt lat="54.1882261845572" lon="-166.304161053656">
     <time>1994-06-06T12:57:50.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 13 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10143,7 +10143,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5446808586903" lon="-167.599461363199">
+  <wpt lat="53.5446808586905" lon="-167.599461363199">
     <time>1994-06-08T07:46:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 18 (0-Good performance)</cmt>
@@ -10170,7 +10170,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.8084902588188" lon="-167.141494166146">
+  <wpt lat="53.8084902588187" lon="-167.141494166146">
     <time>1994-06-08T16:42:51.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 21 (0-Good performance)</cmt>
@@ -10197,7 +10197,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3950031850416" lon="-168.591704600569">
+  <wpt lat="53.3950031850415" lon="-168.591704600569">
     <time>1994-06-09T20:13:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 25 (0-Good performance)</cmt>
@@ -10215,7 +10215,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0964543780026" lon="-168.881089376859">
+  <wpt lat="53.0964543780024" lon="-168.881089376859">
     <time>1994-06-10T10:05:18.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 27 (0-Good performance)</cmt>
@@ -10242,7 +10242,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0358195172019" lon="-169.940028479684">
+  <wpt lat="53.035819517202" lon="-169.940028479684">
     <time>1994-06-10T18:23:04.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 30 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -10251,7 +10251,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0418546204749" lon="-169.945910479864">
+  <wpt lat="53.0418546204751" lon="-169.945910479864">
     <time>1994-06-10T18:53:50.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 31 (0-Good performance)</cmt>
@@ -10287,7 +10287,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1633512876126" lon="-169.860798734462">
+  <wpt lat="53.1633512876127" lon="-169.860798734462">
     <time>1994-06-11T11:45:08.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 35 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -10314,7 +10314,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.463737023405" lon="-170.561975763132">
+  <wpt lat="52.4637370234051" lon="-170.561975763132">
     <time>1994-06-12T10:01:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 38 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -10323,7 +10323,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5123067238777" lon="-170.676023156462">
+  <wpt lat="52.5123067238778" lon="-170.676023156462">
     <time>1994-06-12T12:27:30.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 39 (0-Good performance)</cmt>
@@ -10332,7 +10332,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6782886007446" lon="-170.819179072872">
+  <wpt lat="52.6782886007445" lon="-170.819179072872">
     <time>1994-06-12T15:14:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 40 (0-Good performance)</cmt>
@@ -10341,7 +10341,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7217928266469" lon="-170.766845740824">
+  <wpt lat="52.721792826647" lon="-170.766845740824">
     <time>1994-06-12T17:12:45.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 41 (0-Good performance)</cmt>
@@ -10350,7 +10350,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9183308300922" lon="-170.395359118217">
+  <wpt lat="52.9183308300921" lon="-170.395359118217">
     <time>1994-06-13T06:16:56.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 42 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10368,7 +10368,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7764867935306" lon="-170.738396654063">
+  <wpt lat="52.7764867935305" lon="-170.738396654063">
     <time>1994-06-13T13:08:04.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 44 (-1-Unsatisfactory performance, hung up)</cmt>
@@ -10386,7 +10386,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8214166783567" lon="-171.36685265575">
+  <wpt lat="52.8214166783568" lon="-171.36685265575">
     <time>1994-06-14T06:19:28.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 46 (0-Good performance)</cmt>
@@ -10413,7 +10413,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7707062321131" lon="-171.746288183202">
+  <wpt lat="52.770706232113" lon="-171.746288183202">
     <time>1994-06-14T13:40:08.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 49 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -10431,7 +10431,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5283535624504" lon="-172.085361664155">
+  <wpt lat="52.5283535624505" lon="-172.085361664155">
     <time>1994-06-15T09:59:43.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 51 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10440,7 +10440,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6513074213771" lon="-172.243990646368">
+  <wpt lat="52.651307421377" lon="-172.243990646368">
     <time>1994-06-15T12:57:30.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 52 (0-Good performance)</cmt>
@@ -10458,7 +10458,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3287052124194" lon="-172.745585390901">
+  <wpt lat="52.3287052124195" lon="-172.745585390901">
     <time>1994-06-16T07:40:15.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 54 (0-Good performance)</cmt>
@@ -10485,7 +10485,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2137334580151" lon="-172.829966166889">
+  <wpt lat="52.213733458015" lon="-172.829966166889">
     <time>1994-06-17T06:23:02.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 57 (0-Good performance)</cmt>
@@ -10503,7 +10503,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2705931384737" lon="-172.928909142842">
+  <wpt lat="52.2705931384738" lon="-172.928909142842">
     <time>1994-06-17T11:20:36.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 59 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10512,7 +10512,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2500596527275" lon="-173.081204508544">
+  <wpt lat="52.2500596527274" lon="-173.081204508544">
     <time>1994-06-17T13:21:35.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 60 (0-Good performance)</cmt>
@@ -10521,7 +10521,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2772869088201" lon="-173.091855400359">
+  <wpt lat="52.2772869088199" lon="-173.091855400359">
     <time>1994-06-17T15:00:22.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 61 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10530,7 +10530,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2880633796701" lon="-173.25950118456">
+  <wpt lat="52.28806337967" lon="-173.25950118456">
     <time>1994-06-17T17:53:42.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 62 (0-Good performance)</cmt>
@@ -10548,7 +10548,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2668210367211" lon="-173.676458368464">
+  <wpt lat="52.2668210367212" lon="-173.676458368464">
     <time>1994-06-18T08:46:10.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 64 (0-Good performance)</cmt>
@@ -10566,7 +10566,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3661848177239" lon="-173.970704772202">
+  <wpt lat="52.366184817724" lon="-173.970704772202">
     <time>1994-06-18T13:33:50.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 66 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10584,7 +10584,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2236446925583" lon="-174.03949559462">
+  <wpt lat="52.2236446925584" lon="-174.03949559462">
     <time>1994-06-18T17:36:33.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 68 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10602,7 +10602,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2901091815231" lon="-174.74299245672">
+  <wpt lat="52.2901091815232" lon="-174.74299245672">
     <time>1994-06-19T08:54:26.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 70 (0-Good performance)</cmt>
@@ -10611,7 +10611,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.207856174836" lon="-174.968452770358">
+  <wpt lat="52.2078561748361" lon="-174.968452770358">
     <time>1994-06-19T13:30:08.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 71 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10620,7 +10620,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2902357020623" lon="-174.687907001617">
+  <wpt lat="52.2902357020624" lon="-174.687907001617">
     <time>1994-06-19T15:28:57.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 72 (0-Good performance)</cmt>
@@ -10656,7 +10656,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2005842528869" lon="-172.681471107155">
+  <wpt lat="52.2005842528867" lon="-172.681471107155">
     <time>1994-06-20T14:18:42.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 76 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -10665,7 +10665,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1767884704045" lon="-172.428752306941">
+  <wpt lat="52.1767884704043" lon="-172.428752306941">
     <time>1994-06-20T17:11:38.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 77 (0-Good performance)</cmt>
@@ -10710,7 +10710,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9918889244669" lon="-172.410170780372">
+  <wpt lat="51.9918889244672" lon="-172.410170780372">
     <time>1994-06-26T15:37:23.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 82 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -10719,7 +10719,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.975475630793" lon="-172.600893340166">
+  <wpt lat="51.9754756307931" lon="-172.600893340166">
     <time>1994-06-27T06:47:21.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 83 (0-Good performance)</cmt>
@@ -10746,7 +10746,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9272888004354" lon="-172.861339317987">
+  <wpt lat="51.9272888004355" lon="-172.861339317987">
     <time>1994-06-27T18:49:44.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 86 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -10782,7 +10782,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8391390457336" lon="-173.925759352658">
+  <wpt lat="51.8391390457337" lon="-173.925759352658">
     <time>1994-06-28T18:33:01.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 90 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10791,7 +10791,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8878988456427" lon="-173.919334588551">
+  <wpt lat="51.8878988456427" lon="-173.91933458855">
     <time>1994-06-29T06:25:11.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 91 (0-Good performance)</cmt>
@@ -10800,7 +10800,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9840590797279" lon="-174.090491279212">
+  <wpt lat="51.9840590797278" lon="-174.090491279212">
     <time>1994-06-29T08:38:56.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 92 (0-Good performance)</cmt>
@@ -10809,7 +10809,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9654155802701" lon="-174.279777489828">
+  <wpt lat="51.9654155802702" lon="-174.279777489828">
     <time>1994-06-29T10:48:47.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 93 (0-Good performance)</cmt>
@@ -10818,7 +10818,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8777850408853" lon="-174.539076144656">
+  <wpt lat="51.8777850408854" lon="-174.539076144656">
     <time>1994-06-29T13:33:58.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 94 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10845,7 +10845,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8709753076578" lon="-174.932804795249">
+  <wpt lat="51.8709753076577" lon="-174.932804795249">
     <time>1994-06-30T09:14:15.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 97 (0-Good performance)</cmt>
@@ -10863,7 +10863,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7073154676083" lon="-175.537438852893">
+  <wpt lat="51.7073154676085" lon="-175.537438852893">
     <time>1994-06-30T14:54:19.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 99 (0-Good performance)</cmt>
@@ -10908,7 +10908,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9709654150474" lon="-176.39637554241">
+  <wpt lat="51.9709654150475" lon="-176.39637554241">
     <time>1994-07-02T11:19:38.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 108 (0-Good performance)</cmt>
@@ -10953,7 +10953,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6177943096787" lon="-177.167522969332">
+  <wpt lat="51.6177943096788" lon="-177.167522969332">
     <time>1994-07-03T11:12:43.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 113 (0-Good performance)</cmt>
@@ -10962,7 +10962,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.568024556879" lon="-177.592652991987">
+  <wpt lat="51.5680245568789" lon="-177.592652991987">
     <time>1994-07-03T15:30:41.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 114 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -10989,7 +10989,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.65983578044" lon="-177.873962877711">
+  <wpt lat="51.6598357804399" lon="-177.873962877711">
     <time>1994-07-04T09:59:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 117 (0-Good performance)</cmt>
@@ -11079,7 +11079,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.042355693714" lon="-179.881360380131">
+  <wpt lat="52.0423556937139" lon="-179.881360380131">
     <time>1994-07-07T09:36:05.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 127 (0-Good performance)</cmt>
@@ -11133,7 +11133,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2150672610319" lon="-179.841164591788">
+  <wpt lat="52.215067261032" lon="-179.841164591788">
     <time>1994-07-08T12:22:01.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 133 (0-Good performance)</cmt>
@@ -11178,7 +11178,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5382478386223" lon="-179.587697261247">
+  <wpt lat="52.5382478386224" lon="-179.587697261247">
     <time>1994-07-09T12:09:59.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 138 (0-Good performance)</cmt>
@@ -11223,7 +11223,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0441921001708" lon="179.421244950731">
+  <wpt lat="52.0441921001709" lon="179.421244950731">
     <time>1994-07-10T11:45:01.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 143 (0-Good performance)</cmt>
@@ -11268,7 +11268,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4251920128622" lon="178.829523876301">
+  <wpt lat="51.4251920128623" lon="178.829523876301">
     <time>1994-07-11T10:03:20.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 148 (0-Good performance)</cmt>
@@ -11286,7 +11286,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2518886027771" lon="179.176160326518">
+  <wpt lat="51.2518886027772" lon="179.176160326518">
     <time>1994-07-11T16:58:39.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 150 (0-Good performance)</cmt>
@@ -11295,7 +11295,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2704869436503" lon="179.311555924702">
+  <wpt lat="51.2704869436503" lon="179.311555924703">
     <time>1994-07-11T19:28:19.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 151 (-2-Unsatisfactory performance, unspecified gear damage)</cmt>
@@ -11304,7 +11304,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5906731121874" lon="-176.348555403979">
+  <wpt lat="51.5906731121872" lon="-176.348555403979">
     <time>1994-07-12T12:16:08.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 152 (0-Good performance)</cmt>
@@ -11313,7 +11313,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6526086564332" lon="-176.232296434534">
+  <wpt lat="51.6526086564331" lon="-176.232296434534">
     <time>1994-07-12T14:44:32.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 153 (0-Good performance)</cmt>
@@ -11340,7 +11340,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.659278080332" lon="-178.476502684543">
+  <wpt lat="51.6592780803321" lon="-178.476502684543">
     <time>1994-07-16T08:49:48.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 156 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -11349,7 +11349,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.61177399133" lon="-178.852254842371">
+  <wpt lat="51.6117739913301" lon="-178.852254842371">
     <time>1994-07-16T13:57:37.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 157 (0-Good performance)</cmt>
@@ -11358,7 +11358,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6092696531315" lon="-179.136778347794">
+  <wpt lat="51.6092696531314" lon="-179.136778347794">
     <time>1994-07-16T18:46:12.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 158 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -11385,7 +11385,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4501115136662" lon="178.603691487331">
+  <wpt lat="51.4501115136661" lon="178.603691487331">
     <time>1994-07-18T09:02:27.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 161 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -11394,7 +11394,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6675634007366" lon="178.338820439712">
+  <wpt lat="51.6675634007365" lon="178.338820439712">
     <time>1994-07-18T13:46:06.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 162 (0-Good performance)</cmt>
@@ -11412,7 +11412,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7448799087101" lon="177.995657745623">
+  <wpt lat="51.7448799087103" lon="177.995657745623">
     <time>1994-07-19T07:30:12.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 164 (0-Good performance)</cmt>
@@ -11421,7 +11421,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8991926718962" lon="178.279037017055">
+  <wpt lat="51.8991926718963" lon="178.279037017055">
     <time>1994-07-19T13:33:18.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 165 (0-Good performance)</cmt>
@@ -11439,7 +11439,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9164875121506" lon="178.410531856341">
+  <wpt lat="51.9164875121505" lon="178.410531856341">
     <time>1994-07-19T20:03:00.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 167 (0-Good performance)</cmt>
@@ -11448,7 +11448,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0413863305908" lon="178.505588419104">
+  <wpt lat="52.041386330591" lon="178.505588419104">
     <time>1994-07-20T09:28:41.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 168 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -11466,7 +11466,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0580392268026" lon="177.837440878366">
+  <wpt lat="52.0580392268027" lon="177.837440878366">
     <time>1994-07-20T16:33:28.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 170 (0-Good performance)</cmt>
@@ -11475,7 +11475,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0280148325002" lon="177.74076302161">
+  <wpt lat="52.0280148325001" lon="177.74076302161">
     <time>1994-07-21T07:35:08.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 171 (0-Good performance)</cmt>
@@ -11502,7 +11502,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7748267288716" lon="177.392784236146">
+  <wpt lat="51.7748267288715" lon="177.392784236146">
     <time>1994-07-21T19:05:05.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 174 (0-Good performance)</cmt>
@@ -11511,7 +11511,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7189420000743" lon="177.306988251754">
+  <wpt lat="51.7189420000744" lon="177.306988251754">
     <time>1994-07-22T08:11:40.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 175 (0-Good performance)</cmt>
@@ -11529,7 +11529,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0610403278864" lon="177.359632245572">
+  <wpt lat="52.0610403278865" lon="177.359632245572">
     <time>1994-07-22T19:06:09.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 177 (0-Good performance)</cmt>
@@ -11538,7 +11538,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0696028450789" lon="177.23796898302">
+  <wpt lat="52.0696028450791" lon="177.23796898302">
     <time>1994-07-23T07:44:43.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 178 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -11547,7 +11547,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9988089761701" lon="176.736273528498">
+  <wpt lat="51.99880897617" lon="176.736273528498">
     <time>1994-07-23T14:12:51.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 179 (-1-Unsatisfactory performance, hung up)</cmt>
@@ -11565,7 +11565,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.913232999537" lon="176.575169371402">
+  <wpt lat="51.9132329995371" lon="176.575169371402">
     <time>1994-07-24T12:22:23.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 181 (0-Good performance)</cmt>
@@ -11601,7 +11601,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.031512592817" lon="176.472194509627">
+  <wpt lat="52.0315125928171" lon="176.472194509627">
     <time>1994-07-26T08:02:54.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 185 (0-Good performance)</cmt>
@@ -11610,7 +11610,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1206077049961" lon="176.275761756454">
+  <wpt lat="52.1206077049959" lon="176.275761756454">
     <time>1994-07-26T10:49:04.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 186 (6-Satisfactory performance, unspecified problems)</cmt>
@@ -11619,7 +11619,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2337535719557" lon="176.023825502277">
+  <wpt lat="52.2337535719556" lon="176.023825502277">
     <time>1994-07-26T14:58:19.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 187 (0-Good performance)</cmt>
@@ -11628,7 +11628,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4368309369569" lon="175.706175765039">
+  <wpt lat="52.436830936957" lon="175.706175765039">
     <time>1994-07-26T20:19:02.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 188 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -11673,7 +11673,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1756484514103" lon="175.16639344256">
+  <wpt lat="52.1756484514102" lon="175.16639344256">
     <time>1994-07-28T16:17:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 193 (0-Good performance)</cmt>
@@ -11691,7 +11691,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1900965088543" lon="173.581792413661">
+  <wpt lat="52.1900965088544" lon="173.581792413661">
     <time>1994-07-29T10:36:48.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 195 (0-Good performance)</cmt>
@@ -11700,7 +11700,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3443854680808" lon="173.531132359569">
+  <wpt lat="52.3443854680806" lon="173.531132359569">
     <time>1994-07-29T14:44:12.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 196 (0-Good performance)</cmt>
@@ -11718,7 +11718,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9436635670573" lon="170.997550189855">
+  <wpt lat="52.9436635670574" lon="170.997550189855">
     <time>1994-07-30T09:22:46.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 198 (0-Good performance)</cmt>
@@ -11727,7 +11727,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9138279053909" lon="170.858875588048">
+  <wpt lat="52.913827905391" lon="170.858875588048">
     <time>1994-07-30T16:47:19.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 199 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -11736,7 +11736,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9126363955105" lon="170.861987418735">
+  <wpt lat="52.9126363955106" lon="170.861987418735">
     <time>1994-07-30T18:44:54.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 200 (0-Good performance)</cmt>
@@ -11763,7 +11763,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.2515780820381" lon="170.87851689516">
+  <wpt lat="53.251578082038" lon="170.87851689516">
     <time>1994-07-31T10:39:42.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 203 (0-Good performance)</cmt>
@@ -11799,7 +11799,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0843120391763" lon="172.718203482951">
+  <wpt lat="53.0843120391764" lon="172.718203482951">
     <time>1994-08-01T13:19:52.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 207 (-6-Unsatisfactory performance, unspecified problems)</cmt>
@@ -11808,7 +11808,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0869086437457" lon="172.713249851116">
+  <wpt lat="53.0869086437456" lon="172.713249851116">
     <time>1994-08-01T14:02:31.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 208 (0-Good performance)</cmt>
@@ -11844,7 +11844,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6663690053099" lon="172.680916957745">
+  <wpt lat="52.6663690053098" lon="172.680916957745">
     <time>1994-08-02T13:05:27.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 212 (0-Good performance)</cmt>
@@ -11871,7 +11871,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7761438201415" lon="174.065381802173">
+  <wpt lat="52.7761438201414" lon="174.065381802173">
     <time>1994-08-03T11:19:50.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 215 (0-Good performance)</cmt>
@@ -11880,7 +11880,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8158950872699" lon="173.708328098735">
+  <wpt lat="52.81589508727" lon="173.708328098735">
     <time>1994-08-03T18:11:28.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 216 (0-Good performance)</cmt>
@@ -11889,7 +11889,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6581879009507" lon="173.85298420303">
+  <wpt lat="52.6581879009506" lon="173.85298420303">
     <time>1994-08-04T07:59:07.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 217 (0-Good performance)</cmt>
@@ -11907,7 +11907,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6077021864334" lon="174.236935306086">
+  <wpt lat="52.6077021864333" lon="174.236935306086">
     <time>1994-08-04T13:13:14.000000Z</time>
     <name>1994</name>
     <cmt>Vessel: 95, Haul: 219 (0-Good performance)</cmt>
@@ -11916,7 +11916,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.5248186682725" lon="-165.554448812936">
+  <wpt lat="54.5248186682726" lon="-165.554448812936">
     <time>1997-06-11T07:47:33.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 1 (0-Good performance)</cmt>
@@ -11925,7 +11925,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.4121515718177" lon="-165.516045803152">
+  <wpt lat="54.4121515718176" lon="-165.516045803152">
     <time>1997-06-11T10:21:45.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 2 (0-Good performance)</cmt>
@@ -11988,7 +11988,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.9589993388279" lon="-166.507794953346">
+  <wpt lat="53.9589993388278" lon="-166.507794953346">
     <time>1997-06-13T09:20:19.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 9 (0-Good performance)</cmt>
@@ -11997,7 +11997,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.0385884225667" lon="-166.660387896504">
+  <wpt lat="54.0385884225665" lon="-166.660387896504">
     <time>1997-06-13T11:25:17.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 10 (0-Good performance)</cmt>
@@ -12024,7 +12024,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.7570781616302" lon="-166.937342241489">
+  <wpt lat="53.7570781616303" lon="-166.937342241489">
     <time>1997-06-14T09:04:25.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 13 (0-Good performance)</cmt>
@@ -12060,7 +12060,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6671196715774" lon="-167.304580144896">
+  <wpt lat="53.6671196715775" lon="-167.304580144896">
     <time>1997-06-14T15:16:23.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 17 (0-Good performance)</cmt>
@@ -12078,7 +12078,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5185905624997" lon="-167.508835541472">
+  <wpt lat="53.5185905624995" lon="-167.508835541472">
     <time>1997-06-14T17:46:00.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 19 (0-Good performance)</cmt>
@@ -12087,7 +12087,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.4928235982974" lon="-167.592004071733">
+  <wpt lat="53.4928235982973" lon="-167.592004071733">
     <time>1997-06-15T06:21:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 20 (0-Good performance)</cmt>
@@ -12096,7 +12096,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5238730717024" lon="-167.66947237701">
+  <wpt lat="53.5238730717025" lon="-167.66947237701">
     <time>1997-06-15T07:51:51.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 21 (0-Good performance)</cmt>
@@ -12105,7 +12105,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.448001603672" lon="-168.506405164767">
+  <wpt lat="53.4480016036719" lon="-168.506405164767">
     <time>1997-06-15T12:49:20.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 22 (0-Good performance)</cmt>
@@ -12132,7 +12132,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3450074592074" lon="-168.476113878178">
+  <wpt lat="53.3450074592073" lon="-168.476113878178">
     <time>1997-06-16T08:42:16.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 25 (0-Good performance)</cmt>
@@ -12141,7 +12141,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3356402751728" lon="-168.513335609633">
+  <wpt lat="53.3356402751729" lon="-168.513335609633">
     <time>1997-06-16T10:01:28.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 26 (0-Good performance)</cmt>
@@ -12150,7 +12150,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3338885126954" lon="-168.504571337803">
+  <wpt lat="53.3338885126955" lon="-168.504571337803">
     <time>1997-06-16T11:48:13.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 27 (0-Good performance)</cmt>
@@ -12186,7 +12186,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1130705275022" lon="-168.983412790311">
+  <wpt lat="53.1130705275021" lon="-168.983412790311">
     <time>1997-06-17T07:37:02.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 31 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -12195,7 +12195,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1003190602854" lon="-168.880333410973">
+  <wpt lat="53.1003190602853" lon="-168.880333410973">
     <time>1997-06-17T09:32:02.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 32 (0-Good performance)</cmt>
@@ -12204,7 +12204,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.222835737091" lon="-169.741787763773">
+  <wpt lat="53.2228357370909" lon="-169.741787763773">
     <time>1997-06-17T16:36:23.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 33 (0-Good performance)</cmt>
@@ -12213,7 +12213,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0640338541111" lon="-169.929788066771">
+  <wpt lat="53.0640338541109" lon="-169.929788066771">
     <time>1997-06-17T19:02:24.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 34 (-6.41-Unsatisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -12240,7 +12240,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9160022929781" lon="-170.391911688826">
+  <wpt lat="52.916002292978" lon="-170.391911688826">
     <time>1997-06-18T14:48:52.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 38 (-2.3-Unsatisfactory performance, footrope damaged)</cmt>
@@ -12276,7 +12276,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.675130121897" lon="-170.773199801351">
+  <wpt lat="52.6751301218969" lon="-170.773199801351">
     <time>1997-06-19T11:22:26.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 42 (-6.41-Unsatisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -12330,7 +12330,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2758723877936" lon="-170.607561112263">
+  <wpt lat="52.2758723877935" lon="-170.607561112263">
     <time>1997-06-20T19:50:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 50 (-2.1-Unsatisfactory performance, wing damaged)</cmt>
@@ -12348,7 +12348,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.488621177837" lon="-171.112268356411">
+  <wpt lat="52.4886211778369" lon="-171.112268356411">
     <time>1997-06-21T11:23:56.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 52 (0-Good performance)</cmt>
@@ -12366,7 +12366,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9537745501412" lon="-171.930126260811">
+  <wpt lat="51.9537745501411" lon="-171.930126260811">
     <time>1997-06-22T11:28:19.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 54 (-1.12-Unsatisfactory performance, hauled back early due to hang(s))</cmt>
@@ -12384,7 +12384,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4380820448212" lon="-173.767230238069">
+  <wpt lat="52.4380820448213" lon="-173.767230238069">
     <time>1997-06-23T10:35:28.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 56 (0-Good performance)</cmt>
@@ -12402,7 +12402,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2620797383437" lon="-173.787737866019">
+  <wpt lat="52.2620797383439" lon="-173.787737866019">
     <time>1997-06-23T15:20:50.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 58 (0-Good performance)</cmt>
@@ -12411,7 +12411,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2658281284016" lon="-173.969685845924">
+  <wpt lat="52.2658281284015" lon="-173.969685845924">
     <time>1997-06-23T16:58:00.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 59 (0-Good performance)</cmt>
@@ -12429,7 +12429,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2236308691168" lon="-173.40632494857">
+  <wpt lat="52.2236308691167" lon="-173.40632494857">
     <time>1997-06-24T09:42:37.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 61 (0-Good performance)</cmt>
@@ -12474,7 +12474,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1686996104032" lon="-173.098701021006">
+  <wpt lat="52.1686996104033" lon="-173.098701021006">
     <time>1997-06-25T06:49:21.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 66 (1.2-Satisfactory performance, major hang, stopped forward progress of vessel.)</cmt>
@@ -12483,7 +12483,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2700478588988" lon="-172.944569062738">
+  <wpt lat="52.2700478588987" lon="-172.944569062738">
     <time>1997-06-25T08:58:18.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 67 (0-Good performance)</cmt>
@@ -12501,7 +12501,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.252944410027" lon="-172.955123673112">
+  <wpt lat="52.2529444100268" lon="-172.955123673112">
     <time>1997-06-25T15:28:05.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 69 (0-Good performance)</cmt>
@@ -12510,7 +12510,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3828077372085" lon="-172.653808660718">
+  <wpt lat="52.3828077372086" lon="-172.653808660718">
     <time>1997-06-25T18:18:57.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 70 (0-Good performance)</cmt>
@@ -12537,7 +12537,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5540516089355" lon="-172.349798480358">
+  <wpt lat="52.5540516089356" lon="-172.349798480358">
     <time>1997-06-26T12:23:09.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 73 (0-Good performance)</cmt>
@@ -12555,7 +12555,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6420956804238" lon="-171.577968401627">
+  <wpt lat="52.6420956804237" lon="-171.577968401627">
     <time>1997-06-26T19:11:47.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 75 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -12645,7 +12645,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.8140600358832" lon="-167.295272916447">
+  <wpt lat="53.8140600358834" lon="-167.295272916447">
     <time>1997-06-29T11:52:15.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 85 (0-Good performance)</cmt>
@@ -12681,7 +12681,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9596265184837" lon="-173.636051621334">
+  <wpt lat="51.9596265184838" lon="-173.636051621334">
     <time>1997-07-06T06:36:58.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 89 (0-Good performance)</cmt>
@@ -12699,7 +12699,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8778227780429" lon="-173.955717250431">
+  <wpt lat="51.8778227780431" lon="-173.955717250431">
     <time>1997-07-06T10:39:50.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 91 (0-Good performance)</cmt>
@@ -12708,7 +12708,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8389876160654" lon="-173.928944401042">
+  <wpt lat="51.8389876160653" lon="-173.928944401042">
     <time>1997-07-06T12:09:46.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 92 (0-Good performance)</cmt>
@@ -12726,7 +12726,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9900336479552" lon="-174.100366740031">
+  <wpt lat="51.9900336479551" lon="-174.100366740031">
     <time>1997-07-06T16:21:13.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 94 (0-Good performance)</cmt>
@@ -12744,7 +12744,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8772207647017" lon="-174.563408207764">
+  <wpt lat="51.8772207647015" lon="-174.563408207764">
     <time>1997-07-07T08:24:43.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 96 (0-Good performance)</cmt>
@@ -12780,7 +12780,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8744333910177" lon="-174.942390267058">
+  <wpt lat="51.8744333910174" lon="-174.942390267058">
     <time>1997-07-07T16:48:44.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 100 (0-Good performance)</cmt>
@@ -12789,7 +12789,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8859863007556" lon="-175.200609921611">
+  <wpt lat="51.8859863007557" lon="-175.200609921611">
     <time>1997-07-07T19:11:21.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 101 (0-Good performance)</cmt>
@@ -12798,7 +12798,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2527269988523" lon="-174.413643861203">
+  <wpt lat="52.2527269988524" lon="-174.413643861203">
     <time>1997-07-08T07:01:28.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 102 (0-Good performance)</cmt>
@@ -12825,7 +12825,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2104444141464" lon="-174.949176286822">
+  <wpt lat="52.2104444141465" lon="-174.949176286822">
     <time>1997-07-08T14:00:46.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 105 (0-Good performance)</cmt>
@@ -12834,7 +12834,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1541065291354" lon="-175.407581753177">
+  <wpt lat="52.1541065291353" lon="-175.407581753177">
     <time>1997-07-08T16:35:58.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 106 (0-Good performance)</cmt>
@@ -12852,7 +12852,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1263099487395" lon="-175.692358039489">
+  <wpt lat="52.1263099487397" lon="-175.692358039489">
     <time>1997-07-09T10:23:01.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 108 (0-Good performance)</cmt>
@@ -12879,7 +12879,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7576720529256" lon="-175.453216083823">
+  <wpt lat="51.7576720529257" lon="-175.453216083823">
     <time>1997-07-09T17:42:10.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 111 (0-Good performance)</cmt>
@@ -12888,7 +12888,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6377121335329" lon="-176.255645119344">
+  <wpt lat="51.6377121335328" lon="-176.255645119344">
     <time>1997-07-10T07:26:33.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 112 (0-Good performance)</cmt>
@@ -12897,7 +12897,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5837052978841" lon="-176.389454920056">
+  <wpt lat="51.583705297884" lon="-176.389454920056">
     <time>1997-07-10T09:20:29.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 113 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -12915,7 +12915,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6175982974279" lon="-177.167125133413">
+  <wpt lat="51.6175982974278" lon="-177.167125133413">
     <time>1997-07-10T14:53:23.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 115 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -12924,7 +12924,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6776541303892" lon="-177.1981634556">
+  <wpt lat="51.6776541303893" lon="-177.1981634556">
     <time>1997-07-10T16:19:59.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 116 (0-Good performance)</cmt>
@@ -12933,7 +12933,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.919550278882" lon="-177.025785273586">
+  <wpt lat="51.9195502788821" lon="-177.025785273586">
     <time>1997-07-11T09:05:08.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 117 (-5.6-Unsatisfactory performance, codend not closed properly)</cmt>
@@ -12951,7 +12951,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9383214677004" lon="-176.838462002447">
+  <wpt lat="51.9383214677001" lon="-176.838462002447">
     <time>1997-07-11T11:17:14.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 119 (0-Good performance)</cmt>
@@ -12978,7 +12978,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6063646832356" lon="-177.609654141213">
+  <wpt lat="51.6063646832355" lon="-177.609654141213">
     <time>1997-07-12T16:51:46.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 125 (0-Good performance)</cmt>
@@ -12987,7 +12987,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5636389055872" lon="-177.828514974075">
+  <wpt lat="51.563638905587" lon="-177.828514974075">
     <time>1997-07-13T07:41:48.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 127 (0-Good performance)</cmt>
@@ -13005,7 +13005,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7864929029833" lon="-177.649150823355">
+  <wpt lat="51.7864929029834" lon="-177.649150823355">
     <time>1997-07-13T14:42:06.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 130 (0-Good performance)</cmt>
@@ -13014,7 +13014,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5829652281779" lon="-178.029342130831">
+  <wpt lat="51.5829652281778" lon="-178.029342130831">
     <time>1997-07-13T18:15:22.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 131 (0-Good performance)</cmt>
@@ -13023,7 +13023,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7379540634351" lon="-178.147556476172">
+  <wpt lat="51.737954063435" lon="-178.147556476172">
     <time>1997-07-14T08:47:33.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 132 (0-Good performance)</cmt>
@@ -13032,7 +13032,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7787062303304" lon="-178.178603631306">
+  <wpt lat="51.7787062303305" lon="-178.178603631306">
     <time>1997-07-14T10:25:16.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 133 (0-Good performance)</cmt>
@@ -13050,7 +13050,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6193040026742" lon="-178.435944887536">
+  <wpt lat="51.6193040026741" lon="-178.435944887536">
     <time>1997-07-14T15:23:23.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 135 (0-Good performance)</cmt>
@@ -13077,7 +13077,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6264710312317" lon="-178.251488440162">
+  <wpt lat="51.6264710312316" lon="-178.251488440162">
     <time>1997-07-17T12:40:39.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 143 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -13095,7 +13095,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4202570726474" lon="-178.371037863143">
+  <wpt lat="51.4202570726475" lon="-178.371037863143">
     <time>1997-07-17T19:26:12.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 145 (0-Good performance)</cmt>
@@ -13113,7 +13113,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4327433144377" lon="-178.420073867336">
+  <wpt lat="51.4327433144378" lon="-178.420073867336">
     <time>1997-07-18T12:43:45.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 147 (0-Good performance)</cmt>
@@ -13131,7 +13131,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6111112059746" lon="-178.856671052475">
+  <wpt lat="51.6111112059747" lon="-178.856671052475">
     <time>1997-07-18T20:23:46.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 149 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -13140,7 +13140,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.984668252063" lon="179.393666138582">
+  <wpt lat="51.9846682520631" lon="179.393666138582">
     <time>1997-07-19T07:19:29.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 150 (0-Good performance)</cmt>
@@ -13149,7 +13149,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.15392891519" lon="179.479390642934">
+  <wpt lat="52.1539289151901" lon="179.479390642934">
     <time>1997-07-19T12:03:18.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 152 (0-Good performance)</cmt>
@@ -13158,7 +13158,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1817594647384" lon="-179.662572300248">
+  <wpt lat="52.1817594647385" lon="-179.662572300248">
     <time>1997-07-19T14:23:42.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 153 (-6.41-Unsatisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -13203,7 +13203,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4467475142024" lon="179.88897036494">
+  <wpt lat="52.4467475142023" lon="179.88897036494">
     <time>1997-07-20T17:01:31.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 160 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -13230,7 +13230,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.342000451259" lon="-179.882453044519">
+  <wpt lat="52.3420004512589" lon="-179.882453044519">
     <time>1997-07-21T11:09:06.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 164 (0-Good performance)</cmt>
@@ -13248,7 +13248,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2180471004583" lon="-179.635551860883">
+  <wpt lat="52.2180471004584" lon="-179.635551860883">
     <time>1997-07-21T16:15:54.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 166 (0-Good performance)</cmt>
@@ -13284,7 +13284,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2531217091424" lon="179.264269004026">
+  <wpt lat="51.2531217091423" lon="179.264269004026">
     <time>1997-07-26T11:23:46.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 174 (0-Good performance)</cmt>
@@ -13302,7 +13302,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.3664546119563" lon="178.899790652066">
+  <wpt lat="51.3664546119561" lon="178.899790652066">
     <time>1997-07-26T18:57:40.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 176 (0-Good performance)</cmt>
@@ -13311,7 +13311,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4323983827767" lon="178.813840928578">
+  <wpt lat="51.4323983827765" lon="178.813840928578">
     <time>1997-07-27T08:17:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 177 (0-Good performance)</cmt>
@@ -13365,7 +13365,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.89850947703" lon="178.262142144294">
+  <wpt lat="51.8985094770301" lon="178.262142144294">
     <time>1997-07-28T14:19:21.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 184 (4.4-Satisfactory performance, large fish catch affected net performance)</cmt>
@@ -13374,7 +13374,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.895543542813" lon="178.350156215688">
+  <wpt lat="51.8955435428129" lon="178.350156215688">
     <time>1997-07-28T16:48:57.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 185 (0-Good performance)</cmt>
@@ -13383,7 +13383,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9212228920938" lon="178.405692028023">
+  <wpt lat="51.9212228920939" lon="178.405692028023">
     <time>1997-07-28T19:13:52.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 186 (0-Good performance)</cmt>
@@ -13401,7 +13401,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9639356290064" lon="178.262167643019">
+  <wpt lat="51.9639356290063" lon="178.262167643019">
     <time>1997-07-29T09:52:18.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 188 (0-Good performance)</cmt>
@@ -13437,7 +13437,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7901149979069" lon="177.714166282772">
+  <wpt lat="51.7901149979068" lon="177.714166282772">
     <time>1997-07-29T19:37:09.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 192 (0-Good performance)</cmt>
@@ -13455,7 +13455,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7613796292483" lon="177.34114515093">
+  <wpt lat="51.7613796292482" lon="177.34114515093">
     <time>1997-07-30T09:29:04.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 194 (0-Good performance)</cmt>
@@ -13464,7 +13464,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0203795189028" lon="177.825077560374">
+  <wpt lat="52.0203795189029" lon="177.825077560374">
     <time>1997-07-30T12:55:31.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 195 (0-Good performance)</cmt>
@@ -13473,7 +13473,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0276073513198" lon="177.734067179015">
+  <wpt lat="52.0276073513197" lon="177.734067179015">
     <time>1997-07-31T08:10:41.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 196 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -13491,7 +13491,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0542812882455" lon="177.398393408772">
+  <wpt lat="52.0542812882456" lon="177.398393408772">
     <time>1997-07-31T12:52:25.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 198 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -13518,7 +13518,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9068172322956" lon="176.637882886109">
+  <wpt lat="51.9068172322954" lon="176.637882886109">
     <time>1997-08-01T08:16:45.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 201 (2.1-Satisfactory performance, wing damaged)</cmt>
@@ -13536,7 +13536,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.129946999155" lon="176.285111418999">
+  <wpt lat="52.1299469991552" lon="176.285111418999">
     <time>1997-08-01T16:41:22.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 203 (1.11-Satisfactory performance, completed tow)</cmt>
@@ -13563,7 +13563,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6624870543701" lon="173.961828087696">
+  <wpt lat="52.66248705437" lon="173.961828087696">
     <time>1997-08-02T12:20:58.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 206 (0-Good performance)</cmt>
@@ -13581,7 +13581,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4727431664845" lon="173.187844876455">
+  <wpt lat="52.4727431664846" lon="173.187844876455">
     <time>1997-08-02T18:28:27.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 208 (0-Good performance)</cmt>
@@ -13590,7 +13590,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4930963241775" lon="172.955052427376">
+  <wpt lat="52.4930963241774" lon="172.955052427376">
     <time>1997-08-02T20:13:43.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 209 (0-Good performance)</cmt>
@@ -13599,7 +13599,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9085501138981" lon="170.816868900325">
+  <wpt lat="52.908550113898" lon="170.816868900325">
     <time>1997-08-03T08:08:18.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 211 (0-Good performance)</cmt>
@@ -13626,7 +13626,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3151686345298" lon="170.607353589293">
+  <wpt lat="53.31516863453" lon="170.607353589293">
     <time>1997-08-03T15:41:40.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 214 (0-Good performance)</cmt>
@@ -13680,7 +13680,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8602455520018" lon="172.453938933499">
+  <wpt lat="52.8602455520019" lon="172.453938933499">
     <time>1997-08-05T08:18:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 221 (0-Good performance)</cmt>
@@ -13698,7 +13698,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6629488341665" lon="172.687244411078">
+  <wpt lat="52.6629488341667" lon="172.687244411078">
     <time>1997-08-05T12:27:53.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 223 (0-Good performance)</cmt>
@@ -13716,7 +13716,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.536271767681" lon="172.937431731854">
+  <wpt lat="52.5362717676811" lon="172.937431731854">
     <time>1997-08-06T09:28:41.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 226 (0-Good performance)</cmt>
@@ -13734,7 +13734,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2282722116443" lon="173.452470848053">
+  <wpt lat="52.2282722116444" lon="173.452470848053">
     <time>1997-08-06T14:04:15.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 228 (0-Good performance)</cmt>
@@ -13752,7 +13752,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3402959115963" lon="173.518471812007">
+  <wpt lat="52.3402959115962" lon="173.518471812007">
     <time>1997-08-06T19:00:43.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 231 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -13797,7 +13797,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5156172695593" lon="174.073028288906">
+  <wpt lat="52.5156172695592" lon="174.073028288906">
     <time>1997-08-07T17:07:14.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 236 (0-Good performance)</cmt>
@@ -13806,7 +13806,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.083419646759" lon="175.19604461778">
+  <wpt lat="52.0834196467588" lon="175.19604461778">
     <time>1997-08-08T12:05:08.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 237 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -13824,7 +13824,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4347632757231" lon="175.68800952478">
+  <wpt lat="52.4347632757232" lon="175.68800952478">
     <time>1997-08-09T08:30:31.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 240 (0-Good performance)</cmt>
@@ -13833,7 +13833,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3308424399677" lon="175.809320132485">
+  <wpt lat="52.3308424399676" lon="175.809320132485">
     <time>1997-08-09T11:04:16.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 241 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -13860,7 +13860,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3343420594454" lon="176.367321502345">
+  <wpt lat="52.3343420594455" lon="176.367321502345">
     <time>1997-08-10T08:38:33.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 246 (0-Good performance)</cmt>
@@ -13869,7 +13869,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1000174150803" lon="176.00231018309">
+  <wpt lat="52.1000174150804" lon="176.00231018309">
     <time>1997-08-10T16:17:48.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 248 (0-Good performance)</cmt>
@@ -13896,7 +13896,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6335911611928" lon="175.666580734172">
+  <wpt lat="51.6335911611929" lon="175.666580734172">
     <time>1997-08-11T11:26:32.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 23, Haul: 251 (0-Good performance)</cmt>
@@ -13905,7 +13905,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.8915854653762" lon="-165.361962077429">
+  <wpt lat="54.8915854653763" lon="-165.361962077429">
     <time>1997-06-10T07:05:45.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 1 (0-Good performance)</cmt>
@@ -13914,7 +13914,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.7369735403964" lon="-165.214338566741">
+  <wpt lat="54.7369735403966" lon="-165.214338566741">
     <time>1997-06-10T13:19:16.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 2 (0-Good performance)</cmt>
@@ -13923,7 +13923,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.651015379883" lon="-165.239926240004">
+  <wpt lat="54.6510153798829" lon="-165.239926240004">
     <time>1997-06-10T15:32:27.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 3 (0-Good performance)</cmt>
@@ -13932,7 +13932,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.5080498053761" lon="-165.305646792088">
+  <wpt lat="54.508049805376" lon="-165.305646792088">
     <time>1997-06-10T17:46:03.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 4 (0-Good performance)</cmt>
@@ -13941,7 +13941,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.6635707945437" lon="-165.555770761931">
+  <wpt lat="54.6635707945438" lon="-165.555770761931">
     <time>1997-06-11T06:25:00.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 5 (0-Good performance)</cmt>
@@ -13950,7 +13950,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.5454851963081" lon="-165.848103171476">
+  <wpt lat="54.5454851963079" lon="-165.848103171476">
     <time>1997-06-11T09:12:49.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 6 (0-Good performance)</cmt>
@@ -13968,7 +13968,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.2105742082987" lon="-165.750009373981">
+  <wpt lat="54.2105742082986" lon="-165.750009373981">
     <time>1997-06-12T06:19:46.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 8 (0-Good performance)</cmt>
@@ -14013,7 +14013,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.0886899359437" lon="-166.351073185284">
+  <wpt lat="54.0886899359436" lon="-166.351073185284">
     <time>1997-06-12T17:54:39.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 13 (0-Good performance)</cmt>
@@ -14022,7 +14022,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.636110537201" lon="-167.444412421935">
+  <wpt lat="53.6361105372011" lon="-167.444412421935">
     <time>1997-06-13T06:33:44.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 14 (0-Good performance)</cmt>
@@ -14031,7 +14031,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6489435271178" lon="-167.464681775284">
+  <wpt lat="53.6489435271177" lon="-167.464681775284">
     <time>1997-06-13T08:37:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 15 (0-Good performance)</cmt>
@@ -14040,7 +14040,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6610173002982" lon="-167.297810662677">
+  <wpt lat="53.6610173002981" lon="-167.297810662677">
     <time>1997-06-13T12:40:24.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 16 (0-Good performance)</cmt>
@@ -14049,7 +14049,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.7769045833358" lon="-167.267967556432">
+  <wpt lat="53.776904583336" lon="-167.267967556432">
     <time>1997-06-13T14:31:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 17 (0-Good performance)</cmt>
@@ -14085,7 +14085,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5880379345368" lon="-167.373888470555">
+  <wpt lat="53.5880379345369" lon="-167.373888470555">
     <time>1997-06-14T13:09:00.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 21 (0-Good performance)</cmt>
@@ -14094,7 +14094,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5403596426606" lon="-167.585212493533">
+  <wpt lat="53.5403596426605" lon="-167.585212493533">
     <time>1997-06-14T15:20:52.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 22 (0-Good performance)</cmt>
@@ -14103,7 +14103,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.4361872025916" lon="-168.499418582914">
+  <wpt lat="53.4361872025917" lon="-168.499418582914">
     <time>1997-06-15T06:22:22.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 23 (0-Good performance)</cmt>
@@ -14130,7 +14130,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0796831875163" lon="-168.83355560585">
+  <wpt lat="53.0796831875162" lon="-168.83355560585">
     <time>1997-06-15T13:50:25.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 26 (0-Good performance)</cmt>
@@ -14148,7 +14148,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9008827419862" lon="-169.505578076344">
+  <wpt lat="52.9008827419861" lon="-169.505578076344">
     <time>1997-06-15T19:26:43.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 28 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -14157,7 +14157,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9076318781492" lon="-169.872620274525">
+  <wpt lat="52.9076318781491" lon="-169.872620274525">
     <time>1997-06-16T07:32:48.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 29 (0-Good performance)</cmt>
@@ -14211,7 +14211,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8284754142828" lon="-170.564844868786">
+  <wpt lat="52.8284754142827" lon="-170.564844868786">
     <time>1997-06-17T11:08:29.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 35 (0-Good performance)</cmt>
@@ -14220,7 +14220,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6492081005117" lon="-170.223961749491">
+  <wpt lat="52.6492081005118" lon="-170.223961749491">
     <time>1997-06-17T15:01:06.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 36 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -14238,7 +14238,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.573953436913" lon="-170.653100179618">
+  <wpt lat="52.5739534369131" lon="-170.653100179618">
     <time>1997-06-18T06:15:51.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 38 (0-Good performance)</cmt>
@@ -14265,7 +14265,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3422138717308" lon="-170.713508072335">
+  <wpt lat="52.3422138717307" lon="-170.713508072335">
     <time>1997-06-18T14:02:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 41 (0-Good performance)</cmt>
@@ -14292,7 +14292,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4782907813024" lon="-170.638243558009">
+  <wpt lat="52.4782907813023" lon="-170.638243558009">
     <time>1997-06-19T07:26:55.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 44 (1.11-Satisfactory performance, completed tow)</cmt>
@@ -14301,7 +14301,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4835221539315" lon="-170.146349377973">
+  <wpt lat="52.4835221539314" lon="-170.146349377973">
     <time>1997-06-19T11:05:50.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 45 (0-Good performance)</cmt>
@@ -14328,7 +14328,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7223778380851" lon="-170.770179710512">
+  <wpt lat="52.7223778380853" lon="-170.770179710512">
     <time>1997-06-20T12:36:49.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 48 (-3.13-Unsatisfactory performance, Alaskan crab pot)</cmt>
@@ -14373,7 +14373,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2439518924848" lon="-172.956957692781">
+  <wpt lat="52.2439518924847" lon="-172.956957692781">
     <time>1997-06-21T13:58:54.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 54 (0-Good performance)</cmt>
@@ -14472,7 +14472,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2235984588221" lon="-174.034602200958">
+  <wpt lat="52.223598458822" lon="-174.034602200958">
     <time>1997-06-24T06:44:53.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 67 (0-Good performance)</cmt>
@@ -14508,7 +14508,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2854001649349" lon="-174.688606183727">
+  <wpt lat="52.285400164935" lon="-174.688606183727">
     <time>1997-06-25T06:47:24.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 71 (0-Good performance)</cmt>
@@ -14517,7 +14517,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1342185566303" lon="-175.127011681012">
+  <wpt lat="52.1342185566304" lon="-175.127011681012">
     <time>1997-06-25T12:30:54.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 73 (0-Good performance)</cmt>
@@ -14553,7 +14553,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5158517970967" lon="-172.265251989892">
+  <wpt lat="52.5158517970968" lon="-172.265251989892">
     <time>1997-06-26T08:56:49.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 77 (0-Good performance)</cmt>
@@ -14580,7 +14580,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2091146395303" lon="-172.202484479754">
+  <wpt lat="52.2091146395302" lon="-172.202484479754">
     <time>1997-06-27T07:08:45.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 81 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -14589,7 +14589,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.034802282907" lon="-172.251772630273">
+  <wpt lat="52.0348022829069" lon="-172.251772630273">
     <time>1997-06-27T10:06:45.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 82 (0-Good performance)</cmt>
@@ -14598,7 +14598,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0924656285514" lon="-172.429649886313">
+  <wpt lat="52.0924656285513" lon="-172.429649886313">
     <time>1997-06-27T12:32:34.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 83 (1.11-Satisfactory performance, completed tow)</cmt>
@@ -14607,7 +14607,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1348848916135" lon="-172.45320104444">
+  <wpt lat="52.1348848916133" lon="-172.45320104444">
     <time>1997-06-27T16:16:51.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 84 (0-Good performance)</cmt>
@@ -14616,7 +14616,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.17996086243" lon="-172.460187518631">
+  <wpt lat="52.1799608624298" lon="-172.460187518631">
     <time>1997-06-27T18:05:45.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 85 (0-Good performance)</cmt>
@@ -14625,7 +14625,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7954513628135" lon="-171.55854725015">
+  <wpt lat="52.7954513628134" lon="-171.55854725015">
     <time>1997-06-28T10:36:28.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 87 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -14634,7 +14634,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8096822476451" lon="-171.52392089114">
+  <wpt lat="52.8096822476452" lon="-171.52392089114">
     <time>1997-06-28T14:25:27.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 88 (0-Good performance)</cmt>
@@ -14688,7 +14688,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8406519882708" lon="-173.92692272979">
+  <wpt lat="51.8406519882708" lon="-173.926922729789">
     <time>1997-07-05T18:37:30.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 97 (-6.41-Unsatisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -14706,7 +14706,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8625323418893" lon="-174.048933188073">
+  <wpt lat="51.8625323418894" lon="-174.048933188073">
     <time>1997-07-06T09:26:14.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 99 (0-Good performance)</cmt>
@@ -14715,7 +14715,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9939281767559" lon="-174.092073510692">
+  <wpt lat="51.993928176756" lon="-174.092073510692">
     <time>1997-07-06T12:04:53.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 100 (0-Good performance)</cmt>
@@ -14724,7 +14724,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9653580607521" lon="-174.292333747633">
+  <wpt lat="51.9653580607524" lon="-174.292333747633">
     <time>1997-07-06T13:54:50.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 101 (0-Good performance)</cmt>
@@ -14778,7 +14778,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7047005962451" lon="-175.559474074146">
+  <wpt lat="51.7047005962452" lon="-175.559474074146">
     <time>1997-07-08T07:25:34.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 109 (1.11-Satisfactory performance, completed tow)</cmt>
@@ -14823,7 +14823,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.055965958967" lon="-175.463410343197">
+  <wpt lat="52.0559659589669" lon="-175.463410343197">
     <time>1997-07-09T07:01:03.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 115 (0-Good performance)</cmt>
@@ -14859,7 +14859,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0122413397548" lon="-176.396715663357">
+  <wpt lat="52.0122413397549" lon="-176.396715663357">
     <time>1997-07-10T08:20:13.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 120 (0-Good performance)</cmt>
@@ -14868,7 +14868,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8948220233786" lon="-176.454561267056">
+  <wpt lat="51.8948220233785" lon="-176.454561267056">
     <time>1997-07-10T10:28:53.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 121 (1.11-Satisfactory performance, completed tow)</cmt>
@@ -14877,7 +14877,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6555108649017" lon="-176.367167392044">
+  <wpt lat="51.6555108649016" lon="-176.367167392044">
     <time>1997-07-11T07:17:51.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 122 (0-Good performance)</cmt>
@@ -14949,7 +14949,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5971548748538" lon="-177.779537609633">
+  <wpt lat="51.5971548748539" lon="-177.779537609633">
     <time>1997-07-12T17:17:52.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 131 (0-Good performance)</cmt>
@@ -14967,7 +14967,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5654000779779" lon="-178.082912238088">
+  <wpt lat="51.5654000779778" lon="-178.082912238088">
     <time>1997-07-13T07:24:13.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 133 (0-Good performance)</cmt>
@@ -14994,7 +14994,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6436042061259" lon="-178.589388628148">
+  <wpt lat="51.643604206126" lon="-178.589388628148">
     <time>1997-07-13T15:27:42.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 136 (0-Good performance)</cmt>
@@ -15021,7 +15021,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7895450245426" lon="-178.119753080419">
+  <wpt lat="51.7895450245427" lon="-178.119753080419">
     <time>1997-07-14T17:19:42.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 139 (0-Good performance)</cmt>
@@ -15039,7 +15039,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5158092322861" lon="-178.614145218274">
+  <wpt lat="51.5158092322859" lon="-178.614145218274">
     <time>1997-07-15T08:44:56.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 141 (0-Good performance)</cmt>
@@ -15057,7 +15057,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8853256414576" lon="179.724154847599">
+  <wpt lat="51.8853256414577" lon="179.724154847599">
     <time>1997-07-16T07:45:15.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 143 (6.41-Satisfactory performance, tow speed below minimum survey standard)</cmt>
@@ -15066,7 +15066,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0378190058006" lon="179.317710771071">
+  <wpt lat="52.0378190058005" lon="179.317710771071">
     <time>1997-07-16T10:58:17.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 144 (0-Good performance)</cmt>
@@ -15102,7 +15102,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2139291944068" lon="-179.946598808606">
+  <wpt lat="52.2139291944069" lon="-179.946598808606">
     <time>1997-07-16T19:23:31.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 148 (0-Good performance)</cmt>
@@ -15165,7 +15165,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3058794377294" lon="-179.799094227399">
+  <wpt lat="52.3058794377293" lon="-179.799094227399">
     <time>1997-07-18T09:46:46.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 155 (1.11-Satisfactory performance, completed tow)</cmt>
@@ -15174,7 +15174,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2390773379131" lon="-179.835991124472">
+  <wpt lat="52.2390773379133" lon="-179.835991124472">
     <time>1997-07-18T12:13:20.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 156 (-3.13-Unsatisfactory performance, Alaskan crab pot)</cmt>
@@ -15183,7 +15183,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2338837350225" lon="-179.83021122612">
+  <wpt lat="52.2338837350227" lon="-179.83021122612">
     <time>1997-07-18T13:19:43.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 157 (0-Good performance)</cmt>
@@ -15192,7 +15192,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0804616159408" lon="-179.731821616611">
+  <wpt lat="52.0804616159407" lon="-179.731821616611">
     <time>1997-07-18T15:44:54.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 158 (0-Good performance)</cmt>
@@ -15237,7 +15237,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5688598882133" lon="178.310360824843">
+  <wpt lat="51.5688598882134" lon="178.310360824843">
     <time>1997-07-20T18:40:23.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 163 (0-Good performance)</cmt>
@@ -15282,7 +15282,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9795668603062" lon="178.212776880092">
+  <wpt lat="51.9795668603063" lon="178.212776880092">
     <time>1997-07-21T16:55:33.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 168 (0-Good performance)</cmt>
@@ -15327,7 +15327,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8706197946513" lon="-177.773112341377">
+  <wpt lat="51.8706197946514" lon="-177.773112341377">
     <time>1997-07-23T07:31:38.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 173 (0-Good performance)</cmt>
@@ -15336,7 +15336,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8304498063568" lon="-177.594091813122">
+  <wpt lat="51.8304498063569" lon="-177.594091813122">
     <time>1997-07-23T09:18:22.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 174 (0-Good performance)</cmt>
@@ -15345,7 +15345,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7725686110883" lon="-177.492209035135">
+  <wpt lat="51.7725686110884" lon="-177.492209035135">
     <time>1997-07-23T10:42:42.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 175 (0-Good performance)</cmt>
@@ -15363,7 +15363,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6050550423551" lon="-179.149078534988">
+  <wpt lat="51.605055042355" lon="-179.149078534988">
     <time>1997-07-26T07:45:50.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 177 (0-Good performance)</cmt>
@@ -15372,7 +15372,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7687880336292" lon="177.696164590775">
+  <wpt lat="51.7687880336291" lon="177.696164590775">
     <time>1997-07-28T07:56:03.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 183 (0-Good performance)</cmt>
@@ -15399,7 +15399,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.768919717534" lon="177.371552375412">
+  <wpt lat="51.7689197175338" lon="177.371552375412">
     <time>1997-07-28T14:04:59.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 186 (0-Good performance)</cmt>
@@ -15408,7 +15408,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8275578009891" lon="177.666395863754">
+  <wpt lat="51.827557800989" lon="177.666395863754">
     <time>1997-07-28T16:13:13.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 187 (0-Good performance)</cmt>
@@ -15426,7 +15426,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9056398942964" lon="178.245626107947">
+  <wpt lat="51.9056398942963" lon="178.245626107947">
     <time>1997-07-29T07:58:16.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 189 (0-Good performance)</cmt>
@@ -15480,7 +15480,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9294909787354" lon="176.671961432609">
+  <wpt lat="51.9294909787355" lon="176.671961432609">
     <time>1997-07-31T08:16:05.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 197 (0-Good performance)</cmt>
@@ -15489,7 +15489,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0386864116551" lon="176.460422118293">
+  <wpt lat="52.0386864116552" lon="176.460422118293">
     <time>1997-07-31T10:14:12.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 198 (-5.1-Unsatisfactory performance, net came off bottom)</cmt>
@@ -15516,7 +15516,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1231366889764" lon="176.26766650254">
+  <wpt lat="52.1231366889765" lon="176.26766650254">
     <time>1997-07-31T16:51:38.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 201 (0-Good performance)</cmt>
@@ -15543,7 +15543,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7542880216727" lon="175.673910040552">
+  <wpt lat="51.7542880216726" lon="175.673910040552">
     <time>1997-08-01T11:36:47.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 204 (1.2-Satisfactory performance, major hang, stopped forward progress of vessel.)</cmt>
@@ -15552,7 +15552,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8528441671053" lon="175.849581739311">
+  <wpt lat="51.8528441671052" lon="175.849581739311">
     <time>1997-08-01T14:30:52.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 205 (0-Good performance)</cmt>
@@ -15561,7 +15561,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0305836369986" lon="175.881408860977">
+  <wpt lat="52.0305836369985" lon="175.881408860977">
     <time>1997-08-01T17:05:40.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 206 (5-Satisfactory performance, unspecified gear performance problem)</cmt>
@@ -15570,7 +15570,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1803398328013" lon="173.693420389336">
+  <wpt lat="52.1803398328014" lon="173.693420389336">
     <time>1997-08-02T08:17:26.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 207 (0-Good performance)</cmt>
@@ -15579,7 +15579,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3626962544697" lon="173.553448670387">
+  <wpt lat="52.3626962544699" lon="173.553448670387">
     <time>1997-08-02T10:27:43.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 208 (0-Good performance)</cmt>
@@ -15588,7 +15588,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4663303104468" lon="173.381721656601">
+  <wpt lat="52.4663303104467" lon="173.381721656601">
     <time>1997-08-02T12:54:01.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 209 (0-Good performance)</cmt>
@@ -15615,7 +15615,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6326913866018" lon="172.801414672905">
+  <wpt lat="52.632691386602" lon="172.801414672905">
     <time>1997-08-02T20:07:48.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 212 (0-Good performance)</cmt>
@@ -15624,7 +15624,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9083903704079" lon="170.875557369441">
+  <wpt lat="52.9083903704078" lon="170.875557369441">
     <time>1997-08-03T08:13:16.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 213 (0-Good performance)</cmt>
@@ -15678,7 +15678,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.2346971428923" lon="170.814426359747">
+  <wpt lat="53.2346971428924" lon="170.814426359747">
     <time>1997-08-04T13:46:49.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 219 (0-Good performance)</cmt>
@@ -15687,7 +15687,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0959897330584" lon="171.698466064419">
+  <wpt lat="53.0959897330585" lon="171.698466064419">
     <time>1997-08-04T18:47:15.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 220 (0-Good performance)</cmt>
@@ -15696,7 +15696,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9655178140457" lon="173.244893613205">
+  <wpt lat="52.9655178140454" lon="173.244893613205">
     <time>1997-08-05T08:06:52.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 221 (0-Good performance)</cmt>
@@ -15705,7 +15705,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.065673186425" lon="172.975621136251">
+  <wpt lat="53.0656731864249" lon="172.975621136251">
     <time>1997-08-05T10:58:15.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 222 (0-Good performance)</cmt>
@@ -15714,7 +15714,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0654944026701" lon="172.839644986415">
+  <wpt lat="53.0654944026699" lon="172.839644986415">
     <time>1997-08-05T12:21:40.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 223 (0-Good performance)</cmt>
@@ -15741,7 +15741,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7057759898315" lon="172.699903647115">
+  <wpt lat="52.7057759898314" lon="172.699903647115">
     <time>1997-08-06T08:14:38.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 226 (0-Good performance)</cmt>
@@ -15750,7 +15750,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8048037183964" lon="172.588114641594">
+  <wpt lat="52.8048037183965" lon="172.588114641594">
     <time>1997-08-06T10:26:35.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 227 (0-Good performance)</cmt>
@@ -15759,7 +15759,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8583368989714" lon="172.400674770455">
+  <wpt lat="52.8583368989713" lon="172.400674770455">
     <time>1997-08-06T12:04:15.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 228 (0-Good performance)</cmt>
@@ -15768,7 +15768,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9454335533308" lon="172.17037990986">
+  <wpt lat="52.9454335533309" lon="172.17037990986">
     <time>1997-08-06T14:19:27.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 229 (0-Good performance)</cmt>
@@ -15777,7 +15777,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8214201011445" lon="173.722170899561">
+  <wpt lat="52.8214201011443" lon="173.722170899561">
     <time>1997-08-07T08:13:40.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 230 (0-Good performance)</cmt>
@@ -15786,7 +15786,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6576725112433" lon="173.860079951687">
+  <wpt lat="52.6576725112432" lon="173.860079951687">
     <time>1997-08-07T10:21:24.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 231 (0-Good performance)</cmt>
@@ -15795,7 +15795,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6170573168837" lon="174.182768304594">
+  <wpt lat="52.6170573168838" lon="174.182768304594">
     <time>1997-08-07T12:48:36.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 232 (0-Good performance)</cmt>
@@ -15813,7 +15813,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5125945413232" lon="174.240885036257">
+  <wpt lat="52.5125945413233" lon="174.240885036257">
     <time>1997-08-07T16:12:00.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 234 (0-Good performance)</cmt>
@@ -15876,7 +15876,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2902300631116" lon="175.339951661295">
+  <wpt lat="52.2902300631117" lon="175.339951661295">
     <time>1997-08-09T15:39:31.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 241 (0-Good performance)</cmt>
@@ -15921,7 +15921,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.353135487166" lon="176.367800903582">
+  <wpt lat="52.3531354871659" lon="176.367800903582">
     <time>1997-08-10T21:22:29.000000Z</time>
     <name>1997</name>
     <cmt>Vessel: 94, Haul: 246 (0-Good performance)</cmt>
@@ -15948,7 +15948,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.4989056732895" lon="-165.312241606191">
+  <wpt lat="54.4989056732893" lon="-165.312241606191">
     <time>2000-05-20T10:26:43.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 2 (0-Good performance)</cmt>
@@ -15957,7 +15957,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.5277583672576" lon="-165.551610867812">
+  <wpt lat="54.5277583672575" lon="-165.551610867812">
     <time>2000-05-20T12:46:20.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 3 (0-Good performance)</cmt>
@@ -15966,7 +15966,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.5254400133522" lon="-165.828643568891">
+  <wpt lat="54.5254400133523" lon="-165.828643568891">
     <time>2000-05-20T14:50:47.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 4 (0-Good performance)</cmt>
@@ -15984,7 +15984,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.2332741053451" lon="-165.786801382185">
+  <wpt lat="54.233274105345" lon="-165.786801382185">
     <time>2000-05-21T06:50:39.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 6 (0-Good performance)</cmt>
@@ -16029,7 +16029,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.1842108754698" lon="-166.312126020226">
+  <wpt lat="54.1842108754697" lon="-166.312126020226">
     <time>2000-05-22T06:54:05.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 11 (0-Good performance)</cmt>
@@ -16038,7 +16038,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.1137610786076" lon="-166.265167831179">
+  <wpt lat="54.1137610786077" lon="-166.265167831179">
     <time>2000-05-22T08:32:04.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 12 (0-Good performance)</cmt>
@@ -16065,7 +16065,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.0699048154188" lon="-166.355823123032">
+  <wpt lat="54.0699048154187" lon="-166.355823123032">
     <time>2000-05-22T12:37:14.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 15 (0-Good performance)</cmt>
@@ -16074,7 +16074,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.0383109114512" lon="-166.654564117931">
+  <wpt lat="54.0383109114513" lon="-166.654564117931">
     <time>2000-05-22T14:43:08.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 16 (-4-Unsatisfactory performance, caught unspecified object)</cmt>
@@ -16083,7 +16083,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.0382752289316" lon="-166.663109948264">
+  <wpt lat="54.0382752289317" lon="-166.663109948264">
     <time>2000-05-22T15:51:23.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 17 (0-Good performance)</cmt>
@@ -16119,7 +16119,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.7596493852893" lon="-167.062844664437">
+  <wpt lat="53.7596493852894" lon="-167.062844664437">
     <time>2000-05-23T13:05:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 21 (0-Good performance)</cmt>
@@ -16128,7 +16128,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.7842369195766" lon="-167.262239948657">
+  <wpt lat="53.7842369195765" lon="-167.262239948657">
     <time>2000-05-23T15:00:54.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 22 (0-Good performance)</cmt>
@@ -16146,7 +16146,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6668149446736" lon="-167.304083586655">
+  <wpt lat="53.6668149446735" lon="-167.304083586655">
     <time>2000-05-24T06:51:16.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 24 (0-Good performance)</cmt>
@@ -16155,7 +16155,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.649134111115" lon="-167.463606605775">
+  <wpt lat="53.6491341111151" lon="-167.463606605775">
     <time>2000-05-24T08:34:52.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 25 (0-Good performance)</cmt>
@@ -16164,7 +16164,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5857095380078" lon="-167.371535679081">
+  <wpt lat="53.5857095380077" lon="-167.371535679081">
     <time>2000-05-24T10:13:55.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 26 (0-Good performance)</cmt>
@@ -16173,7 +16173,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5448654193303" lon="-167.579928819055">
+  <wpt lat="53.5448654193304" lon="-167.579928819055">
     <time>2000-05-24T11:56:21.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 27 (0-Good performance)</cmt>
@@ -16191,7 +16191,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.4331175366008" lon="-168.501525981711">
+  <wpt lat="53.4331175366009" lon="-168.501525981711">
     <time>2000-05-25T07:26:54.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 29 (0-Good performance)</cmt>
@@ -16218,7 +16218,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.114300914172" lon="-168.98734848611">
+  <wpt lat="53.1143009141721" lon="-168.98734848611">
     <time>2000-05-25T14:12:07.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 32 (0-Good performance)</cmt>
@@ -16236,7 +16236,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1064194322319" lon="-169.857927890769">
+  <wpt lat="53.106419432232" lon="-169.857927890769">
     <time>2000-05-26T07:28:29.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 34 (0-Good performance)</cmt>
@@ -16290,7 +16290,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6469826361577" lon="-170.212842678108">
+  <wpt lat="52.6469826361578" lon="-170.212842678108">
     <time>2000-05-27T10:02:54.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 40 (0-Good performance)</cmt>
@@ -16317,7 +16317,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.417127521085" lon="-170.279337215882">
+  <wpt lat="52.4171275210852" lon="-170.279337215882">
     <time>2000-05-29T12:48:44.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 43 (0-Good performance)</cmt>
@@ -16389,7 +16389,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3672784126745" lon="-171.245472491912">
+  <wpt lat="52.3672784126744" lon="-171.245472491912">
     <time>2000-05-31T06:59:25.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 51 (0-Good performance)</cmt>
@@ -16398,7 +16398,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1876367238325" lon="-171.767159489657">
+  <wpt lat="52.1876367238323" lon="-171.767159489657">
     <time>2000-05-31T10:38:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 52 (-5.1-Unsatisfactory performance, net came off bottom)</cmt>
@@ -16434,7 +16434,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2622217925143" lon="-173.783257922126">
+  <wpt lat="52.2622217925145" lon="-173.783257922126">
     <time>2000-06-01T09:31:42.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 56 (0-Good performance)</cmt>
@@ -16461,7 +16461,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4371350686319" lon="-173.758177630495">
+  <wpt lat="52.4371350686318" lon="-173.758177630495">
     <time>2000-06-02T10:05:06.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 59 (0-Good performance)</cmt>
@@ -16497,7 +16497,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5613021936239" lon="-173.295484320115">
+  <wpt lat="52.5613021936238" lon="-173.295484320115">
     <time>2000-06-02T18:42:42.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 63 (0-Good performance)</cmt>
@@ -16506,7 +16506,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2933872595076" lon="-173.372713980708">
+  <wpt lat="52.2933872595077" lon="-173.372713980708">
     <time>2000-06-03T07:14:43.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 64 (0-Good performance)</cmt>
@@ -16515,7 +16515,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2690873258424" lon="-173.181945381335">
+  <wpt lat="52.2690873258426" lon="-173.181945381335">
     <time>2000-06-03T09:10:43.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 65 (0-Good performance)</cmt>
@@ -16524,7 +16524,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2745027397887" lon="-173.127769063394">
+  <wpt lat="52.2745027397886" lon="-173.127769063394">
     <time>2000-06-03T11:15:32.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 66 (0-Good performance)</cmt>
@@ -16533,7 +16533,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2784056633619" lon="-173.106607826365">
+  <wpt lat="52.2784056633618" lon="-173.106607826365">
     <time>2000-06-03T13:45:01.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 67 (0-Good performance)</cmt>
@@ -16551,7 +16551,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3801665475839" lon="-172.656505663522">
+  <wpt lat="52.3801665475837" lon="-172.656505663522">
     <time>2000-06-04T06:50:31.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 69 (0-Good performance)</cmt>
@@ -16560,7 +16560,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2037381024463" lon="-172.822508263059">
+  <wpt lat="52.2037381024465" lon="-172.822508263059">
     <time>2000-06-04T09:18:34.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 70 (0-Good performance)</cmt>
@@ -16569,7 +16569,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0755686288675" lon="-172.568665602302">
+  <wpt lat="52.0755686288674" lon="-172.568665602302">
     <time>2000-06-04T11:56:57.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 71 (-5.41-Unsatisfactory performance, door digging or falling over)</cmt>
@@ -16578,7 +16578,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0613011185904" lon="-172.554963000684">
+  <wpt lat="52.0613011185905" lon="-172.554963000684">
     <time>2000-06-04T13:32:05.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 72 (0-Good performance)</cmt>
@@ -16587,7 +16587,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0954642706572" lon="-172.424031839968">
+  <wpt lat="52.0954642706574" lon="-172.424031839968">
     <time>2000-06-04T15:39:53.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 73 (0-Good performance)</cmt>
@@ -16614,7 +16614,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.397149299341" lon="-172.637845066382">
+  <wpt lat="52.3971492993409" lon="-172.637845066382">
     <time>2000-06-05T09:21:18.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 76 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -16623,7 +16623,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.564090422525" lon="-172.355539508095">
+  <wpt lat="52.5640904225252" lon="-172.355539508095">
     <time>2000-06-05T12:04:13.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 77 (0-Good performance)</cmt>
@@ -16650,7 +16650,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8300558860343" lon="-171.479684042234">
+  <wpt lat="52.8300558860342" lon="-171.479684042234">
     <time>2000-06-11T07:18:09.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 80 (0-Good performance)</cmt>
@@ -16668,7 +16668,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3928100442963" lon="-171.3659620012">
+  <wpt lat="52.3928100442962" lon="-171.3659620012">
     <time>2000-06-11T13:23:42.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 82 (0-Good performance)</cmt>
@@ -16677,7 +16677,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3685954092733" lon="-171.342405664455">
+  <wpt lat="52.3685954092734" lon="-171.342405664455">
     <time>2000-06-11T15:24:23.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 83 (0-Good performance)</cmt>
@@ -16722,7 +16722,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.964386426849" lon="-173.85704402938">
+  <wpt lat="51.9643864268489" lon="-173.85704402938">
     <time>2000-06-12T17:20:08.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 88 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -16731,7 +16731,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9630833910566" lon="-173.840401603127">
+  <wpt lat="51.9630833910568" lon="-173.840401603127">
     <time>2000-06-12T18:40:41.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 89 (-1.12-Unsatisfactory performance, hauled back early due to hang(s))</cmt>
@@ -16749,7 +16749,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0067520100989" lon="-174.085737542935">
+  <wpt lat="52.006752010099" lon="-174.085737542935">
     <time>2000-06-13T09:03:53.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 91 (0-Good performance)</cmt>
@@ -16785,7 +16785,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7988641216581" lon="-175.198304062598">
+  <wpt lat="51.7988641216583" lon="-175.198304062598">
     <time>2000-06-14T07:19:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 95 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -16794,7 +16794,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7878583759699" lon="-175.305793412925">
+  <wpt lat="51.7878583759697" lon="-175.305793412925">
     <time>2000-06-14T09:00:50.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 96 (0-Good performance)</cmt>
@@ -16839,7 +16839,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3518739251385" lon="-174.544555241383">
+  <wpt lat="52.3518739251386" lon="-174.544555241383">
     <time>2000-06-15T07:03:15.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 101 (0-Good performance)</cmt>
@@ -16848,7 +16848,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2915264175843" lon="-174.742071554224">
+  <wpt lat="52.2915264175844" lon="-174.742071554224">
     <time>2000-06-15T08:40:02.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 102 (0-Good performance)</cmt>
@@ -16857,7 +16857,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1340738742364" lon="-175.133398011965">
+  <wpt lat="52.1340738742365" lon="-175.133398011965">
     <time>2000-06-15T12:40:43.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 103 (0-Good performance)</cmt>
@@ -16875,7 +16875,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8953063344429" lon="-176.440826765869">
+  <wpt lat="51.8953063344431" lon="-176.440826765869">
     <time>2000-06-15T19:53:54.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 105 (0-Good performance)</cmt>
@@ -16884,7 +16884,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6354181680978" lon="-176.263909217992">
+  <wpt lat="51.6354181680977" lon="-176.263909217992">
     <time>2000-06-16T14:23:51.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 106 (0-Good performance)</cmt>
@@ -16893,7 +16893,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5998726068574" lon="-176.426797280281">
+  <wpt lat="51.5998726068575" lon="-176.426797280281">
     <time>2000-06-16T16:34:37.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 107 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -16911,7 +16911,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5411401229756" lon="-176.620617711085">
+  <wpt lat="51.5411401229755" lon="-176.620617711085">
     <time>2000-06-17T08:37:04.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 109 (0-Good performance)</cmt>
@@ -16938,7 +16938,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9438995956498" lon="-176.835101894771">
+  <wpt lat="51.9438995956497" lon="-176.835101894771">
     <time>2000-06-17T16:15:06.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 112 (0-Good performance)</cmt>
@@ -16956,7 +16956,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5994217510598" lon="-177.768544315715">
+  <wpt lat="51.5994217510597" lon="-177.768544315715">
     <time>2000-06-19T07:12:04.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 114 (0-Good performance)</cmt>
@@ -16974,7 +16974,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6015615506147" lon="-177.579811244271">
+  <wpt lat="51.6015615506145" lon="-177.579811244271">
     <time>2000-06-19T09:49:22.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 116 (0-Good performance)</cmt>
@@ -16983,7 +16983,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5648553152137" lon="-178.080336711209">
+  <wpt lat="51.5648553152136" lon="-178.080336711209">
     <time>2000-06-19T12:56:18.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 117 (0-Good performance)</cmt>
@@ -17010,7 +17010,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6593226674126" lon="-178.493323795542">
+  <wpt lat="51.6593226674127" lon="-178.493323795542">
     <time>2000-06-20T09:32:07.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 120 (0-Good performance)</cmt>
@@ -17064,7 +17064,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6048957991023" lon="-179.149039779841">
+  <wpt lat="51.6048957991021" lon="-179.149039779841">
     <time>2000-06-21T15:24:40.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 126 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -17073,7 +17073,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5098916862414" lon="-179.531473543803">
+  <wpt lat="52.5098916862415" lon="-179.531473543803">
     <time>2000-06-22T07:20:03.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 127 (1.11-Satisfactory performance, completed tow)</cmt>
@@ -17145,7 +17145,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1738628282738" lon="179.604765253692">
+  <wpt lat="52.173862828274" lon="179.604765253692">
     <time>2000-06-23T12:38:50.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 135 (0-Good performance)</cmt>
@@ -17154,7 +17154,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0409604217883" lon="179.418161172541">
+  <wpt lat="52.0409604217884" lon="179.418161172541">
     <time>2000-06-23T14:26:25.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 136 (0-Good performance)</cmt>
@@ -17199,7 +17199,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7420560659998" lon="177.334046303135">
+  <wpt lat="51.7420560659999" lon="177.334046303135">
     <time>2000-06-26T12:22:00.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 141 (0-Good performance)</cmt>
@@ -17217,7 +17217,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7678185948736" lon="177.699705552325">
+  <wpt lat="51.7678185948737" lon="177.699705552325">
     <time>2000-06-27T09:56:52.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 143 (1.1-Satisfactory performance, minor hang(s))</cmt>
@@ -17271,7 +17271,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0551808150845" lon="177.83792750141">
+  <wpt lat="52.0551808150844" lon="177.83792750141">
     <time>2000-06-28T14:12:13.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 149 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -17298,7 +17298,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9620808390996" lon="178.263981449578">
+  <wpt lat="51.9620808390995" lon="178.263981449578">
     <time>2000-06-29T07:30:13.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 152 (0-Good performance)</cmt>
@@ -17316,7 +17316,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8999339985722" lon="178.285030789355">
+  <wpt lat="51.8999339985723" lon="178.285030789355">
     <time>2000-06-29T14:18:17.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 154 (0-Good performance)</cmt>
@@ -17325,7 +17325,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9219853146678" lon="178.401353640337">
+  <wpt lat="51.9219853146679" lon="178.401353640337">
     <time>2000-06-29T19:20:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 155 (0-Good performance)</cmt>
@@ -17361,7 +17361,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5640074558815" lon="178.332073297148">
+  <wpt lat="51.5640074558817" lon="178.332073297148">
     <time>2000-06-30T17:38:17.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 159 (0-Good performance)</cmt>
@@ -17370,7 +17370,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5864862704653" lon="178.440876594507">
+  <wpt lat="51.5864862704654" lon="178.440876594507">
     <time>2000-07-01T07:49:51.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 160 (0-Good performance)</cmt>
@@ -17397,7 +17397,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4995847467612" lon="178.825857882797">
+  <wpt lat="51.4995847467613" lon="178.825857882797">
     <time>2000-07-01T14:19:25.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 163 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -17415,7 +17415,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2533322187158" lon="179.259185294051">
+  <wpt lat="51.2533322187156" lon="179.259185294051">
     <time>2000-07-04T13:43:37.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 165 (2.4-Satisfactory performance, belly damaged)</cmt>
@@ -17424,7 +17424,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9750348386514" lon="176.800998770511">
+  <wpt lat="51.9750348386515" lon="176.800998770511">
     <time>2000-07-05T17:33:16.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 166 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -17442,7 +17442,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0353616860575" lon="176.467552216161">
+  <wpt lat="52.0353616860576" lon="176.467552216161">
     <time>2000-07-06T09:42:41.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 168 (0-Good performance)</cmt>
@@ -17478,7 +17478,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2066838577407" lon="176.204417669642">
+  <wpt lat="52.2066838577408" lon="176.204417669642">
     <time>2000-07-06T16:59:55.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 172 (-1.12-Unsatisfactory performance, hauled back early due to hang(s))</cmt>
@@ -17496,7 +17496,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2006159869659" lon="176.214874883724">
+  <wpt lat="52.200615986966" lon="176.214874883724">
     <time>2000-07-07T10:26:41.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 174 (0-Good performance)</cmt>
@@ -17514,7 +17514,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1019678445107" lon="176.004684403502">
+  <wpt lat="52.1019678445105" lon="176.004684403502">
     <time>2000-07-07T16:26:24.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 176 (0-Good performance)</cmt>
@@ -17532,7 +17532,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8528335134124" lon="175.850424931946">
+  <wpt lat="51.8528335134123" lon="175.850424931946">
     <time>2000-07-08T10:27:41.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 178 (0-Good performance)</cmt>
@@ -17550,7 +17550,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.695648582942" lon="175.545244190146">
+  <wpt lat="51.6956485829422" lon="175.545244190146">
     <time>2000-07-08T15:20:58.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 180 (0-Good performance)</cmt>
@@ -17586,7 +17586,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1866748181554" lon="175.257537011133">
+  <wpt lat="52.1866748181552" lon="175.257537011133">
     <time>2000-07-09T19:28:32.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 184 (0-Good performance)</cmt>
@@ -17595,7 +17595,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1761408199999" lon="175.168704174925">
+  <wpt lat="52.1761408199998" lon="175.168704174925">
     <time>2000-07-10T07:58:16.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 185 (5.41-Satisfactory performance, door digging or falling over)</cmt>
@@ -17604,7 +17604,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0779468261093" lon="175.189892734833">
+  <wpt lat="52.0779468261094" lon="175.189892734833">
     <time>2000-07-10T10:51:17.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 186 (0-Good performance)</cmt>
@@ -17649,7 +17649,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4396613991887" lon="174.266685544272">
+  <wpt lat="52.4396613991886" lon="174.266685544272">
     <time>2000-07-12T07:55:30.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 191 (0-Good performance)</cmt>
@@ -17667,7 +17667,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3895101660999" lon="174.160352364257">
+  <wpt lat="52.3895101661" lon="174.160352364257">
     <time>2000-07-12T11:36:51.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 193 (0-Good performance)</cmt>
@@ -17676,7 +17676,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3962826219745" lon="173.978647728943">
+  <wpt lat="52.3962826219742" lon="173.978647728943">
     <time>2000-07-12T13:11:08.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 194 (-5.23-Unsatisfactory performance headrope/footrope tangled)</cmt>
@@ -17703,7 +17703,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5826223160489" lon="174.328320672455">
+  <wpt lat="52.582622316049" lon="174.328320672455">
     <time>2000-07-12T17:28:20.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 197 (0-Good performance)</cmt>
@@ -17739,7 +17739,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9907934516833" lon="172.310166679003">
+  <wpt lat="52.9907934516834" lon="172.310166679003">
     <time>2000-07-13T19:37:36.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 201 (0-Good performance)</cmt>
@@ -17748,7 +17748,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.2872106306682" lon="170.718683382563">
+  <wpt lat="53.2872106306683" lon="170.718683382563">
     <time>2000-07-14T08:08:59.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 202 (0-Good performance)</cmt>
@@ -17775,7 +17775,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.133532149226" lon="170.903672610899">
+  <wpt lat="53.1335321492262" lon="170.903672610899">
     <time>2000-07-14T15:55:26.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 205 (0-Good performance)</cmt>
@@ -17784,7 +17784,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9832443049496" lon="170.935375104875">
+  <wpt lat="52.9832443049495" lon="170.935375104875">
     <time>2000-07-14T18:27:33.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 206 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -17829,7 +17829,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9309208666112" lon="172.226277283375">
+  <wpt lat="52.9309208666111" lon="172.226277283375">
     <time>2000-07-16T11:47:02.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 211 (4.4-Satisfactory performance, large fish catch affected net performance)</cmt>
@@ -17847,7 +17847,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.867568885908" lon="172.358052793753">
+  <wpt lat="52.8675688859081" lon="172.358052793753">
     <time>2000-07-16T16:32:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 213 (0-Good performance)</cmt>
@@ -17892,7 +17892,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.596443432682" lon="172.917092838734">
+  <wpt lat="52.5964434326819" lon="172.917092838734">
     <time>2000-07-17T18:26:14.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 218 (0-Good performance)</cmt>
@@ -17910,7 +17910,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.477251216215" lon="173.187652284749">
+  <wpt lat="52.4772512162152" lon="173.187652284749">
     <time>2000-07-18T11:06:34.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 220 (0-Good performance)</cmt>
@@ -17928,7 +17928,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.338815482909" lon="173.51751582317">
+  <wpt lat="52.3388154829093" lon="173.51751582317">
     <time>2000-07-18T15:17:22.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 222 (0-Good performance)</cmt>
@@ -17973,7 +17973,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2601499748836" lon="-172.876840420012">
+  <wpt lat="52.2601499748837" lon="-172.876840420012">
     <time>2000-07-22T09:02:22.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 23, Haul: 228 (0-Good performance)</cmt>
@@ -17991,7 +17991,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.6492610071401" lon="-165.238344485995">
+  <wpt lat="54.64926100714" lon="-165.238344485995">
     <time>2000-05-20T09:10:36.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 2 (0-Good performance)</cmt>
@@ -18000,7 +18000,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.8912158296483" lon="-165.384635910045">
+  <wpt lat="54.8912158296482" lon="-165.384635910045">
     <time>2000-05-20T12:10:10.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 3 (0-Good performance)</cmt>
@@ -18018,7 +18018,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.6348696081853" lon="-165.571650757521">
+  <wpt lat="54.6348696081855" lon="-165.571650757521">
     <time>2000-05-20T16:08:16.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 5 (0-Good performance)</cmt>
@@ -18054,7 +18054,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.3347661484238" lon="-165.875532541654">
+  <wpt lat="54.3347661484238" lon="-165.875532541655">
     <time>2000-05-21T16:27:28.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 9 (0-Good performance)</cmt>
@@ -18072,7 +18072,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.1941728234308" lon="-166.280649687424">
+  <wpt lat="54.1941728234309" lon="-166.280649687424">
     <time>2000-05-22T09:03:51.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 11 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -18090,7 +18090,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.1647623557945" lon="-166.250876991406">
+  <wpt lat="54.1647623557944" lon="-166.250876991406">
     <time>2000-05-22T12:51:06.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 13 (0-Good performance)</cmt>
@@ -18099,7 +18099,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.1669209557709" lon="-166.266583236439">
+  <wpt lat="54.1669209557708" lon="-166.266583236439">
     <time>2000-05-22T15:03:08.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 14 (0-Good performance)</cmt>
@@ -18108,7 +18108,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="54.161471583356" lon="-166.321636064528">
+  <wpt lat="54.1614715833559" lon="-166.321636064528">
     <time>2000-05-22T16:45:29.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 15 (0-Good performance)</cmt>
@@ -18135,7 +18135,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.8132784008243" lon="-167.295427583343">
+  <wpt lat="53.8132784008242" lon="-167.295427583343">
     <time>2000-05-23T14:12:22.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 18 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -18144,7 +18144,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.8116109006299" lon="-167.297461864677">
+  <wpt lat="53.8116109006301" lon="-167.297461864677">
     <time>2000-05-23T16:15:48.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 19 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -18153,7 +18153,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.8125908806074" lon="-167.128785525908">
+  <wpt lat="53.8125908806073" lon="-167.128785525908">
     <time>2000-05-23T18:12:01.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 20 (0-Good performance)</cmt>
@@ -18162,7 +18162,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6977115120562" lon="-166.766972499057">
+  <wpt lat="53.6977115120563" lon="-166.766972499057">
     <time>2000-05-24T06:52:57.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 21 (3.1-Satisfactory performance, caught pot, unspecified type)</cmt>
@@ -18180,7 +18180,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.7403636438701" lon="-167.012260670793">
+  <wpt lat="53.74036364387" lon="-167.012260670793">
     <time>2000-05-24T10:49:07.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 23 (0-Good performance)</cmt>
@@ -18198,7 +18198,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.6267083566407" lon="-167.453109349177">
+  <wpt lat="53.6267083566406" lon="-167.453109349177">
     <time>2000-05-24T14:30:18.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 25 (0-Good performance)</cmt>
@@ -18234,7 +18234,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.5230261731433" lon="-167.649857754923">
+  <wpt lat="53.5230261731434" lon="-167.649857754923">
     <time>2000-05-25T09:52:43.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 29 (0-Good performance)</cmt>
@@ -18252,7 +18252,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3983260278591" lon="-168.703238059253">
+  <wpt lat="53.398326027859" lon="-168.703238059253">
     <time>2000-05-25T16:21:15.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 31 (3.13-Satisfactory performance, Alaskan crab pot)</cmt>
@@ -18261,7 +18261,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1012834058917" lon="-168.879514625811">
+  <wpt lat="53.1012834058916" lon="-168.879514625811">
     <time>2000-05-26T06:36:37.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 32 (0-Good performance)</cmt>
@@ -18279,7 +18279,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.2110285269073" lon="-169.738068074432">
+  <wpt lat="53.2110285269072" lon="-169.738068074432">
     <time>2000-05-26T14:28:23.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 34 (0-Good performance)</cmt>
@@ -18288,7 +18288,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1290699170526" lon="-169.969985813413">
+  <wpt lat="53.1290699170525" lon="-169.969985813413">
     <time>2000-05-26T17:18:32.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 35 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -18324,7 +18324,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0346533010719" lon="-170.301005085623">
+  <wpt lat="53.0346533010718" lon="-170.301005085623">
     <time>2000-05-27T15:37:09.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 39 (-1.2-Unsatisfactory performance, major hang, stopped forward progress of vessel.)</cmt>
@@ -18351,7 +18351,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4040476625181" lon="-170.621727345034">
+  <wpt lat="52.404047662518" lon="-170.621727345034">
     <time>2000-05-29T15:32:53.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 42 (0-Good performance)</cmt>
@@ -18369,7 +18369,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.7256629141827" lon="-170.7574773843">
+  <wpt lat="52.7256629141828" lon="-170.7574773843">
     <time>2000-05-30T06:46:50.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 44 (0-Good performance)</cmt>
@@ -18387,7 +18387,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4282209456976" lon="-170.522833124993">
+  <wpt lat="52.4282209456975" lon="-170.522833124993">
     <time>2000-05-30T11:42:50.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 46 (0-Good performance)</cmt>
@@ -18405,7 +18405,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3408780117735" lon="-170.664408845926">
+  <wpt lat="52.3408780117736" lon="-170.664408845926">
     <time>2000-05-30T17:38:48.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 48 (2-Satisfactory performance, unspecified gear damage)</cmt>
@@ -18414,7 +18414,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4756040225798" lon="-170.752617507111">
+  <wpt lat="52.4756040225799" lon="-170.752617507111">
     <time>2000-05-31T06:38:32.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 49 (0-Good performance)</cmt>
@@ -18432,7 +18432,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3778590214219" lon="-170.659513984353">
+  <wpt lat="52.3778590214218" lon="-170.659513984353">
     <time>2000-05-31T09:45:03.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 51 (0-Good performance)</cmt>
@@ -18450,7 +18450,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4811431549622" lon="-171.131454378295">
+  <wpt lat="52.4811431549621" lon="-171.131454378295">
     <time>2000-05-31T15:10:30.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 53 (5.3-Satisfactory performance, weather affected trawl performance)</cmt>
@@ -18468,7 +18468,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.294273346333" lon="-173.093196304708">
+  <wpt lat="52.2942733463332" lon="-173.093196304708">
     <time>2000-06-01T09:40:50.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 55 (0-Good performance)</cmt>
@@ -18486,7 +18486,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2397962344815" lon="-173.392516929628">
+  <wpt lat="52.2397962344816" lon="-173.392516929628">
     <time>2000-06-01T13:29:10.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 57 (0-Good performance)</cmt>
@@ -18504,7 +18504,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2015423385101" lon="-173.889683217493">
+  <wpt lat="52.20154233851" lon="-173.889683217493">
     <time>2000-06-02T06:49:57.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 59 (0-Good performance)</cmt>
@@ -18522,7 +18522,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4139361104081" lon="-173.829607835359">
+  <wpt lat="52.413936110408" lon="-173.829607835359">
     <time>2000-06-02T11:42:27.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 61 (0-Good performance)</cmt>
@@ -18549,7 +18549,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.249937756347" lon="-173.129318073082">
+  <wpt lat="52.2499377563469" lon="-173.129318073082">
     <time>2000-06-03T12:58:34.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 64 (0-Good performance)</cmt>
@@ -18558,7 +18558,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.274906129264" lon="-172.944452849479">
+  <wpt lat="52.2749061292639" lon="-172.944452849479">
     <time>2000-06-03T15:09:08.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 65 (0-Good performance)</cmt>
@@ -18567,7 +18567,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4908883331942" lon="-172.550398847105">
+  <wpt lat="52.4908883331941" lon="-172.550398847105">
     <time>2000-06-04T06:45:56.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 66 (0-Good performance)</cmt>
@@ -18594,7 +18594,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1284109186247" lon="-172.470772245994">
+  <wpt lat="52.1284109186248" lon="-172.470772245994">
     <time>2000-06-04T14:22:49.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 69 (5-Satisfactory performance, unspecified gear performance problem)</cmt>
@@ -18621,7 +18621,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5421273559342" lon="-172.334104591674">
+  <wpt lat="52.5421273559343" lon="-172.334104591674">
     <time>2000-06-05T11:51:03.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 72 (3.13-Satisfactory performance, Alaskan crab pot)</cmt>
@@ -18639,7 +18639,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6339873793445" lon="-172.382241059079">
+  <wpt lat="52.6339873793446" lon="-172.382241059079">
     <time>2000-06-05T17:06:33.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 74 (0-Good performance)</cmt>
@@ -18657,7 +18657,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8168676769588" lon="-171.516845894485">
+  <wpt lat="52.8168676769589" lon="-171.516845894485">
     <time>2000-06-11T08:42:06.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 76 (0-Good performance)</cmt>
@@ -18666,7 +18666,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6378304691478" lon="-171.575827401863">
+  <wpt lat="52.6378304691476" lon="-171.575827401863">
     <time>2000-06-11T11:25:23.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 77 (0-Good performance)</cmt>
@@ -18675,7 +18675,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.067108544542" lon="-171.799439353592">
+  <wpt lat="52.0671085445419" lon="-171.799439353592">
     <time>2000-06-11T16:42:44.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 78 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -18693,7 +18693,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0362039657279" lon="-172.254584486353">
+  <wpt lat="52.036203965728" lon="-172.254584486353">
     <time>2000-06-12T09:17:07.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 80 (0-Good performance)</cmt>
@@ -18720,7 +18720,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9649434326435" lon="-174.277390150714">
+  <wpt lat="51.9649434326436" lon="-174.277390150714">
     <time>2000-06-13T06:35:02.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 83 (0-Good performance)</cmt>
@@ -18747,7 +18747,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8923413892302" lon="-173.291961021907">
+  <wpt lat="51.8923413892304" lon="-173.291961021907">
     <time>2000-06-13T13:39:05.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 86 (-1-Unsatisfactory performance, hung up)</cmt>
@@ -18756,7 +18756,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1340581979693" lon="-172.457206274434">
+  <wpt lat="52.1340581979695" lon="-172.457206274434">
     <time>2000-06-13T17:52:51.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 87 (0-Good performance)</cmt>
@@ -18765,7 +18765,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8441783537008" lon="-173.923615154914">
+  <wpt lat="51.8441783537007" lon="-173.923615154914">
     <time>2000-06-14T06:55:28.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 88 (0-Good performance)</cmt>
@@ -18837,7 +18837,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2493940332689" lon="-174.806669277621">
+  <wpt lat="52.249394033269" lon="-174.806669277621">
     <time>2000-06-16T06:48:15.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 96 (-2.2-Unsatisfactory performance, breastline damaged)</cmt>
@@ -18846,7 +18846,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2784507947141" lon="-174.710477614048">
+  <wpt lat="52.278450794714" lon="-174.710477614048">
     <time>2000-06-16T08:26:43.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 97 (0-Good performance)</cmt>
@@ -18855,7 +18855,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2137778495979" lon="-174.936511130896">
+  <wpt lat="52.213777849598" lon="-174.936511130896">
     <time>2000-06-16T10:24:44.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 98 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -18864,7 +18864,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1411652874769" lon="-175.288913490663">
+  <wpt lat="52.1411652874768" lon="-175.288913490663">
     <time>2000-06-16T13:18:25.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 99 (3.13-Satisfactory performance, Alaskan crab pot)</cmt>
@@ -18936,7 +18936,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.5957092196435" lon="-176.340710816709">
+  <wpt lat="51.5957092196436" lon="-176.340710816709">
     <time>2000-06-17T15:45:06.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 107 (4-Satisfactory performance, caught unspecified object)</cmt>
@@ -18945,7 +18945,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6543493447536" lon="-176.365294995782">
+  <wpt lat="51.6543493447537" lon="-176.365294995782">
     <time>2000-06-17T17:37:43.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 108 (0-Good performance)</cmt>
@@ -18954,7 +18954,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6051898950342" lon="-176.601583820828">
+  <wpt lat="51.6051898950343" lon="-176.601583820828">
     <time>2000-06-18T11:57:54.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 109 (0-Good performance)</cmt>
@@ -18963,7 +18963,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.559924457437" lon="-176.752295286034">
+  <wpt lat="51.5599244574369" lon="-176.752295286034">
     <time>2000-06-18T13:27:18.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 110 (0-Good performance)</cmt>
@@ -19026,7 +19026,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6209605535983" lon="-178.24527769169">
+  <wpt lat="51.6209605535984" lon="-178.24527769169">
     <time>2000-06-19T17:22:35.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 117 (0-Good performance)</cmt>
@@ -19035,7 +19035,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.604842082433" lon="-178.082633324246">
+  <wpt lat="51.6048420824329" lon="-178.082633324246">
     <time>2000-06-20T06:47:45.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 118 (0-Good performance)</cmt>
@@ -19044,7 +19044,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4200473459442" lon="-178.366102233073">
+  <wpt lat="51.4200473459441" lon="-178.366102233073">
     <time>2000-06-20T09:27:40.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 119 (0-Good performance)</cmt>
@@ -19089,7 +19089,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6174989404526" lon="-178.452562572033">
+  <wpt lat="51.6174989404527" lon="-178.452562572033">
     <time>2000-06-21T09:28:56.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 124 (0-Good performance)</cmt>
@@ -19107,7 +19107,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6441553421721" lon="-178.573960104089">
+  <wpt lat="51.6441553421722" lon="-178.573960104089">
     <time>2000-06-21T13:45:45.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 126 (0-Good performance)</cmt>
@@ -19116,7 +19116,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6298365741452" lon="-178.572232515977">
+  <wpt lat="51.6298365741453" lon="-178.572232515977">
     <time>2000-06-21T15:08:37.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 127 (0-Good performance)</cmt>
@@ -19134,7 +19134,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3751318093843" lon="-179.691514178275">
+  <wpt lat="52.3751318093844" lon="-179.691514178275">
     <time>2000-06-22T07:17:59.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 129 (0-Good performance)</cmt>
@@ -19143,7 +19143,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3705026142235" lon="-179.920423193793">
+  <wpt lat="52.3705026142234" lon="-179.920423193793">
     <time>2000-06-22T09:32:16.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 130 (0-Good performance)</cmt>
@@ -19206,7 +19206,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0390884216965" lon="178.518341734955">
+  <wpt lat="52.0390884216966" lon="178.518341734955">
     <time>2000-06-23T18:04:23.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 137 (0-Good performance)</cmt>
@@ -19215,7 +19215,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7645618789548" lon="177.350791771198">
+  <wpt lat="51.7645618789549" lon="177.350791771198">
     <time>2000-06-24T07:09:48.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 138 (0-Good performance)</cmt>
@@ -19224,7 +19224,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7812821517578" lon="177.483932005603">
+  <wpt lat="51.7812821517579" lon="177.483932005603">
     <time>2000-06-24T09:04:57.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 139 (0-Good performance)</cmt>
@@ -19242,7 +19242,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8654999863378" lon="177.765597559963">
+  <wpt lat="51.8654999863377" lon="177.765597559963">
     <time>2000-06-24T12:20:35.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 141 (-2.4-Unsatisfactory performance, belly damaged)</cmt>
@@ -19269,7 +19269,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0234434514318" lon="177.754852654342">
+  <wpt lat="52.0234434514319" lon="177.754852654342">
     <time>2000-06-26T07:31:15.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 144 (0-Good performance)</cmt>
@@ -19278,7 +19278,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.100601727486" lon="177.707170490168">
+  <wpt lat="52.1006017274862" lon="177.707170490168">
     <time>2000-06-26T09:16:28.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 145 (0-Good performance)</cmt>
@@ -19287,7 +19287,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0701178524635" lon="177.248356657431">
+  <wpt lat="52.0701178524633" lon="177.248356657431">
     <time>2000-06-26T12:35:12.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 146 (5.3-Satisfactory performance, weather affected trawl performance)</cmt>
@@ -19323,7 +19323,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0137201946582" lon="177.826224518079">
+  <wpt lat="52.0137201946581" lon="177.826224518079">
     <time>2000-06-28T07:45:38.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 150 (0-Good performance)</cmt>
@@ -19332,7 +19332,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0121309872737" lon="177.984895015941">
+  <wpt lat="52.0121309872736" lon="177.984895015941">
     <time>2000-06-28T10:25:44.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 151 (0-Good performance)</cmt>
@@ -19341,7 +19341,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9232950074419" lon="178.252211888333">
+  <wpt lat="51.923295007442" lon="178.252211888333">
     <time>2000-06-28T12:54:30.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 152 (0-Good performance)</cmt>
@@ -19359,7 +19359,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0813115380689" lon="178.100529356271">
+  <wpt lat="52.0813115380688" lon="178.100529356271">
     <time>2000-06-29T09:16:22.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 154 (-1-Unsatisfactory performance, hung up)</cmt>
@@ -19386,7 +19386,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8575999771139" lon="178.269003794673">
+  <wpt lat="51.8575999771138" lon="178.269003794673">
     <time>2000-06-29T14:00:22.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 157 (0-Good performance)</cmt>
@@ -19395,7 +19395,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9000032021219" lon="178.269577017624">
+  <wpt lat="51.900003202122" lon="178.269577017624">
     <time>2000-06-29T16:13:44.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 158 (0-Good performance)</cmt>
@@ -19404,7 +19404,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7390867426376" lon="177.997914907519">
+  <wpt lat="51.7390867426375" lon="177.997914907519">
     <time>2000-06-30T07:41:17.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 159 (0-Good performance)</cmt>
@@ -19422,7 +19422,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.6679597267751" lon="178.334281071869">
+  <wpt lat="51.6679597267753" lon="178.334281071869">
     <time>2000-06-30T10:54:51.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 161 (0-Good performance)</cmt>
@@ -19449,7 +19449,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4893512504518" lon="178.632401021595">
+  <wpt lat="51.4893512504519" lon="178.632401021595">
     <time>2000-06-30T16:35:42.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 164 (0-Good performance)</cmt>
@@ -19458,7 +19458,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4304800902438" lon="178.826525921049">
+  <wpt lat="51.4304800902437" lon="178.826525921049">
     <time>2000-06-30T18:32:14.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 165 (-2.1-Unsatisfactory performance, wing damaged)</cmt>
@@ -19467,7 +19467,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.4337771571572" lon="178.815467198301">
+  <wpt lat="51.4337771571571" lon="178.815467198301">
     <time>2000-07-01T07:28:03.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 166 (0-Good performance)</cmt>
@@ -19485,7 +19485,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.2488510703216" lon="179.176111922132">
+  <wpt lat="51.2488510703217" lon="179.176111922132">
     <time>2000-07-01T11:33:37.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 168 (4.4-Satisfactory performance, large fish catch affected net performance)</cmt>
@@ -19521,7 +19521,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.9055984510173" lon="176.599806007644">
+  <wpt lat="51.9055984510174" lon="176.599806007644">
     <time>2000-07-05T12:56:41.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 173 (1.12-Satisfactory performance, hauled back early due to hang(s))</cmt>
@@ -19530,7 +19530,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0589163684939" lon="176.394744577672">
+  <wpt lat="52.0589163684938" lon="176.394744577672">
     <time>2000-07-05T17:01:41.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 174 (-5.1-Unsatisfactory performance, net came off bottom)</cmt>
@@ -19548,7 +19548,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.0580433222065" lon="176.398488584921">
+  <wpt lat="52.0580433222066" lon="176.398488584921">
     <time>2000-07-06T07:32:13.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 176 (0-Good performance)</cmt>
@@ -19575,7 +19575,7 @@
       <T0Color>1</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1349058932264" lon="176.210662651056">
+  <wpt lat="52.1349058932263" lon="176.210662651056">
     <time>2000-07-06T16:23:01.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 179 (5.1-Satisfactory performance, net came off bottom)</cmt>
@@ -19602,7 +19602,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2699595709402" lon="175.989103162306">
+  <wpt lat="52.2699595709403" lon="175.989103162306">
     <time>2000-07-07T13:57:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 182 (1.1-Satisfactory performance, minor hang(s))</cmt>
@@ -19620,7 +19620,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.7156872982506" lon="175.784663125649">
+  <wpt lat="51.7156872982508" lon="175.784663125649">
     <time>2000-07-08T07:54:38.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 184 (0-Good performance)</cmt>
@@ -19629,7 +19629,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="51.8425200798115" lon="175.853595196994">
+  <wpt lat="51.8425200798114" lon="175.853595196994">
     <time>2000-07-08T12:43:27.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 185 (0-Good performance)</cmt>
@@ -19665,7 +19665,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2863181739946" lon="175.353772269744">
+  <wpt lat="52.2863181739948" lon="175.353772269744">
     <time>2000-07-09T15:04:04.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 189 (0-Good performance)</cmt>
@@ -19674,7 +19674,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.1730542532294" lon="175.231952855971">
+  <wpt lat="52.1730542532292" lon="175.231952855971">
     <time>2000-07-09T17:28:36.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 190 (5.41-Satisfactory performance, door digging or falling over)</cmt>
@@ -19683,7 +19683,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.2594351516001" lon="175.126310425971">
+  <wpt lat="52.2594351516002" lon="175.126310425971">
     <time>2000-07-10T07:50:03.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 191 (1.1-Satisfactory performance, minor hang(s))</cmt>
@@ -19701,7 +19701,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5230468773682" lon="174.453656828155">
+  <wpt lat="52.5230468773681" lon="174.453656828155">
     <time>2000-07-10T17:40:24.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 193 (0-Good performance)</cmt>
@@ -19710,7 +19710,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4904459509003" lon="174.362893457717">
+  <wpt lat="52.4904459509001" lon="174.362893457717">
     <time>2000-07-11T07:38:28.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 194 (0-Good performance)</cmt>
@@ -19719,7 +19719,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4759442994929" lon="174.363042871983">
+  <wpt lat="52.475944299493" lon="174.363042871983">
     <time>2000-07-11T09:50:35.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 195 (0-Good performance)</cmt>
@@ -19737,7 +19737,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.4113726097768" lon="174.276915120552">
+  <wpt lat="52.4113726097769" lon="174.276915120552">
     <time>2000-07-12T12:07:00.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 198 (0-Good performance)</cmt>
@@ -19782,7 +19782,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.3356718705802" lon="173.196513651297">
+  <wpt lat="52.3356718705803" lon="173.196513651297">
     <time>2000-07-13T11:46:16.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 203 (0-Good performance)</cmt>
@@ -19809,7 +19809,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.5294248134361" lon="172.939823240073">
+  <wpt lat="52.5294248134362" lon="172.939823240073">
     <time>2000-07-13T19:20:23.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 206 (0-Good performance)</cmt>
@@ -19827,7 +19827,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.6762347135588" lon="172.753651477448">
+  <wpt lat="52.6762347135587" lon="172.753651477448">
     <time>2000-07-14T10:33:13.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 208 (0-Good performance)</cmt>
@@ -19854,7 +19854,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8544041739873" lon="172.420545343904">
+  <wpt lat="52.8544041739874" lon="172.420545343904">
     <time>2000-07-14T15:40:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 211 (0-Good performance)</cmt>
@@ -19881,7 +19881,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.8625739829126" lon="172.293757098333">
+  <wpt lat="52.8625739829125" lon="172.293757098333">
     <time>2000-07-15T09:48:36.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 214 (0-Good performance)</cmt>
@@ -19890,7 +19890,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0031773658031" lon="172.322778759993">
+  <wpt lat="53.003177365803" lon="172.322778759993">
     <time>2000-07-15T11:50:19.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 215 (0-Good performance)</cmt>
@@ -19908,7 +19908,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.3219644457725" lon="170.613755379901">
+  <wpt lat="53.3219644457726" lon="170.613755379901">
     <time>2000-07-16T08:00:10.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 217 (0-Good performance)</cmt>
@@ -19917,7 +19917,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.326868381937" lon="170.716044749373">
+  <wpt lat="53.3268683819371" lon="170.716044749373">
     <time>2000-07-16T10:00:56.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 218 (5-Satisfactory performance, unspecified gear performance problem)</cmt>
@@ -19953,7 +19953,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.1111954058974" lon="170.989845980947">
+  <wpt lat="53.1111954058972" lon="170.989845980947">
     <time>2000-07-17T07:57:35.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 222 (0-Good performance)</cmt>
@@ -19971,7 +19971,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="52.9104587698216" lon="170.883265917758">
+  <wpt lat="52.9104587698217" lon="170.883265917758">
     <time>2000-07-17T12:21:50.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 224 (0-Good performance)</cmt>
@@ -19980,7 +19980,7 @@
       <T0Color>8</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0774490896647" lon="172.825170533415">
+  <wpt lat="53.0774490896649" lon="172.825170533415">
     <time>2000-07-18T08:08:52.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 225 (1.1-Satisfactory performance, minor hang(s))</cmt>
@@ -19989,7 +19989,7 @@
       <T0Color>15</T0Color>
     </extensions>
   </wpt>
-  <wpt lat="53.0687531202199" lon="172.960426168865">
+  <wpt lat="53.0687531202201" lon="172.960426168865">
     <time>2000-07-18T11:09:08.000000Z</time>
     <name>2000</name>
     <cmt>Vessel: 94, Haul: 226 (0-Good performance)</cmt>

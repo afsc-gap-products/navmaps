@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 15 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.19501, 55.45632
+        -168.16319, 55.44368
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 18 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.8972, 55.28886
+        -167.9267, 55.30305
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 21 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.33681, 55.03179
+        -167.3669, 55.0452
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 124 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.24451, 54.20232
+        -166.2823, 54.19738
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 125 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.12289, 54.81663
+        -167.149, 54.83226
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 126 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.17149, 54.95425
+        -167.1412, 54.94216
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 127 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.4409, 55.05101
+        -167.4111, 55.03733
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 133 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.73511, 54.64301
+        -166.6987, 54.64007
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 135 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3755, 54.68995
+        -166.3389, 54.68522
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 136 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.0047, 54.73737
+        -166.97951, 54.72087
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 137 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.8398, 54.82401
+        -166.8026, 54.81533
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 138 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.8195, 54.8679
+        -166.78529, 54.85937
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 139 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.7124, 54.81826
+        -166.67641, 54.81184
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 140 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.49339, 54.80393
+        -166.4563, 54.79986
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 141 (5-Unspecified gear performance problem)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.73511, 54.6925
+        -165.70309, 54.69006
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 142 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.86861, 54.76426
+        -165.9072, 54.76689
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 143 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.91071, 54.67781
+        -165.94839, 54.67553
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 57, Haul: 149 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.8846, 54.34093
+        -165.9093, 54.32513
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 1 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.53059, 54.71655
+        -165.56911, 54.72309
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 2 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.80949, 54.75298
+        -165.76939, 54.75428
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 3 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.7323, 54.7219
+        -165.69479, 54.7166
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 4 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.77901, 54.69229
+        -165.7402, 54.68908
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 9 (6-Unspecified problems)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.987, 54.76186
+        -166.0287, 54.75945
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 10 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.17999, 54.73512
+        -166.2197, 54.73431
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 11 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.4527, 54.79546
+        -166.4915, 54.7988
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 12 (4-Caught unspecified object)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.33881, 54.6838
+        -166.3768, 54.68548
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 15 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.76311, 54.648
+        -166.72639, 54.6412
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 30 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.989, 54.72726
+        -167.0183, 54.73974
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 31 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.1357, 54.94219
+        -167.1673, 54.95257
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 33 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.5473, 55.13428
+        -167.523, 55.11786
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 38 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.0161, 55.39899
+        -168.04829, 55.41287
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 39 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.2348, 55.47115
+        -168.1983, 55.45775
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 62 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.4315, 55.55582
+        -168.4617, 55.56626
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 183 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.9248, 55.30184
+        -167.89751, 55.28773
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 185 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.82021, 55.19332
+        -167.7997, 55.17683
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 188 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.5392, 55.04296
+        -167.5135, 55.02962
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 189 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.35651, 55.0349
+        -167.3846, 55.04866
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 193 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.14391, 54.82882
+        -167.1201, 54.81394
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 194 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.8373, 54.82299
+        -166.80409, 54.81527
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 197 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.32069, 54.7749
+        -166.2831, 54.77355
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 198 (6.12-Depth range of tow exceeds limits of stratum)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.41341, 54.74332
+        -165.40199, 54.72395
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 199 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.6418, 54.6178
+        -165.6409, 54.63821
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 200 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.8783, 54.6787
+        -165.91389, 54.67834
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 135 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.99772, 55.39217
+        -168.02577, 55.40215
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 137 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.64843, 55.20958
+        -167.67907, 55.22823
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 140 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.81785, 55.19
+        -167.79488, 55.17342
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 142 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.45113, 55.05765
+        -167.42257, 55.04258
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 148 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.34555, 54.92483
+        -167.37593, 54.9379
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 174 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.14757, 54.82585
+        -167.11397, 54.815
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 175 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.18303, 54.95407
+        -167.14977, 54.94608
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 178 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.84728, 54.73788
+        -166.82048, 54.72488
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 179 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.98167, 54.88337
+        -166.94773, 54.87615
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 180 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.65038, 54.80985
+        -166.68407, 54.81822
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 182 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.73152, 54.6436
+        -166.69577, 54.64
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 183 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.58717, 54.74018
+        -166.55425, 54.73188
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 184 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.44425, 54.79538
+        -166.47753, 54.8
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 185 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.2787, 54.77367
+        -166.32157, 54.77622
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 186 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.1726, 54.7348
+        -166.21167, 54.73512
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 187 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.09122, 54.67092
+        -166.12723, 54.66957
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 188 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.8654, 54.76522
+        -165.893, 54.76417
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 189 (-3.13-Alaskan crab pot)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.66777, 54.71782
+        -165.70227, 54.71782
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff0000ff</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 190 (1.1-Minor hang(s))</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.74005, 54.72368
+        -165.70348, 54.71957
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 191 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.55782, 54.77623
+        -165.59595, 54.7762
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 192 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.49793, 54.70715
+        -165.52822, 54.71682
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 193 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.64245, 54.65058
+        -165.63695, 54.63073
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 1 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.54919, 54.77494
+        -165.58701, 54.77132
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 2 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.42688, 54.74907
+        -165.40942, 54.73002
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 3 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.54935, 54.71713
+        -165.51728, 54.7058
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 4 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.64072, 54.63245
+        -165.6403, 54.61123
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 13 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.34335, 54.9253
+        -167.37397, 54.9362
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 142 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.48733, 55.57663
+        -168.45377, 55.56623
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 143 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.26048, 55.48143
+        -168.23088, 55.46958
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 147 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.99998, 55.39493
+        -168.0335, 55.40393
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 149 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.83182, 55.20178
+        -167.80957, 55.18555
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 157 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.76423, 54.68438
+        -165.7282, 54.68392
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 158 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.00678, 54.75942
+        -165.96985, 54.75998
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 161 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.08735, 54.67247
+        -166.1226, 54.67013
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 162 (5-Unspecified gear performance problem)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.17778, 54.73468
+        -166.21188, 54.73487
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ffd30094</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 163 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.44193, 54.78985
+        -166.47822, 54.79167
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 165 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.74622, 54.64437
+        -166.71067, 54.64037
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 166 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.659, 54.81105
+        -166.69302, 54.81778
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 167 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.9282, 54.87062
+        -166.95672, 54.88332
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 168 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.1587, 54.94748
+        -167.18803, 54.95733
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 169 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.34093, 55.02885
+        -167.37005, 55.041
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 174 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.55865, 55.13682
+        -167.54623, 55.12872
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 94, Haul: 188 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.98532, 54.73135
+        -167.01448, 54.74373
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 1 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.63091, 54.51341
+        -165.61, 54.53591
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 2 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.69009, 54.61066
+        -165.68449, 54.58242
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 4 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.77969, 54.68975
+        -165.8201, 54.6908
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 5 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.5506, 54.71818
+        -165.5126, 54.7086
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 6 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.408, 54.74322
+        -165.3958, 54.72005
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 10 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.9133, 54.67689
+        -165.8681, 54.67704
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 11 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.3597, 54.68628
+        -166.3963, 54.68728
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 20 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.44279, 54.79754
+        -166.4836, 54.80106
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 22 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.84039, 54.73371
+        -166.8062, 54.7176
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 23 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.98981, 54.72525
+        -167.01421, 54.74073
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 37 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.149, 54.94371
+        -167.181, 54.95669
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 42 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.34509, 55.0349
+        -167.3779, 55.05096
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 43 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.7912, 55.17145
+        -167.81689, 55.19078
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 44 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.0256, 55.40062
+        -168.0493, 55.41005
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 185 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.4711, 55.57114
+        -168.4373, 55.55871
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 186 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.2023, 55.4595
+        -168.17261, 55.445
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 189 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.9303, 55.30472
+        -167.9012, 55.29066
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 196 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.4097, 55.03708
+        -167.4402, 55.05104
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 197 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.5251, 55.1243
+        -167.4966, 55.10819
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 216 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.1259, 54.81839
+        -167.15311, 54.83447
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 217 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.9675, 54.88134
+        -166.9321, 54.87196
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 218 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.82201, 54.86826
+        -166.7867, 54.85925
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 219 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.8405, 54.82407
+        -166.80479, 54.81605
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 220 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.74339, 54.64337
+        -166.70531, 54.6404
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 229 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.1181, 54.67021
+        -166.1566, 54.66798
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 230 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.1981, 54.7333
+        -166.23779, 54.73457
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 231 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.31731, 54.77468
+        -166.27901, 54.77306
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 232 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.0152, 54.76067
+        -165.9762, 54.75959
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 233 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.9174, 54.76721
+        -165.879, 54.76446
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 234 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.7657, 54.75563
+        -165.72749, 54.75536
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 235 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.7149, 54.72081
+        -165.67571, 54.71975
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 239 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.7061, 54.58627
+        -165.7068, 54.57425
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 134, Haul: 240 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.6394, 54.63544
+        -165.64169, 54.61127
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 133 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.19724, 55.45713
+        -168.16873, 55.44513
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 134 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -168.03556, 55.40497
+        -168.0059, 55.39298
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 142 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.1202, 54.81669
+        -167.1501, 54.82804
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 143 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.13558, 54.94082
+        -167.16835, 54.95114
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 155 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.84844, 54.73772
+        -166.82035, 54.72528
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 162 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.39767, 54.72349
+        -165.41093, 54.74371
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 163 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.69072, 54.72035
+        -165.72615, 54.7204
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 164 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.86258, 54.76216
+        -165.88355, 54.76383
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 166 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.08589, 54.67028
+        -166.12246, 54.67052
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 167 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.19586, 54.73379
+        -166.23267, 54.73334
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 168 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.36544, 54.6872
+        -166.40167, 54.68895
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 169 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.56689, 54.73554
+        -166.60214, 54.74323
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 175 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.5333, 55.04238
+        -167.5072, 55.02792
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 176 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -167.37269, 54.93757
+        -167.34521, 54.92416
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 178 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -166.02028, 54.76027
+        -165.98995, 54.76166
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 179 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.76692, 54.75574
+        -165.73337, 54.75633
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name></name>
+      <description>Vessel: 178, Haul: 180 (0-Good performance)</description>
+      <time>2026-07-20T10:28:06.000000Z</time>
+      <LineString>
+        <coordinates>
+        -165.63851, 54.63331
+        -165.63959, 54.6124
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+        <color>ff90ee90</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

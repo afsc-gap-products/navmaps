@@ -1,0 +1,1227 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="55.45632" lon="-168.19501">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 15 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.28886" lon="-167.8972">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 18 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.03179" lon="-167.33681">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 21 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.20232" lon="-166.24451">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 124 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.81663" lon="-167.12289">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 125 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.95425" lon="-167.17149">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 126 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.05101" lon="-167.4409">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 127 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.64301" lon="-166.73511">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 133 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.68995" lon="-166.3755">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 135 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73737" lon="-167.0047">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 136 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.82401" lon="-166.8398">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 137 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8679" lon="-166.8195">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 138 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.81826" lon="-166.7124">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 139 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.80393" lon="-166.49339">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 140 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76426" lon="-165.86861">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 142 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.67781" lon="-165.91071">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 143 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.34093" lon="-165.8846">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 149 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.51341" lon="-165.63091">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 1 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.61066" lon="-165.69009">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 2 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.68975" lon="-165.77969">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 4 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.71818" lon="-165.5506">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 5 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.74322" lon="-165.408">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 6 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.67689" lon="-165.9133">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 10 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.79754" lon="-166.44279">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 20 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73371" lon="-166.84039">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 22 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.68628" lon="-166.3597">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 11 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.72525" lon="-166.98981">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 23 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0349" lon="-167.34509">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 42 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.17145" lon="-167.7912">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 43 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.40062" lon="-168.0256">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 44 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.94371" lon="-167.149">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 37 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4595" lon="-168.2023">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 186 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.57114" lon="-168.4711">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 185 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.30472" lon="-167.9303">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 189 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.03708" lon="-167.4097">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 196 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1243" lon="-167.5251">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 197 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.81839" lon="-167.1259">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 216 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.88134" lon="-166.9675">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 217 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.86826" lon="-166.82201">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 218 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.82407" lon="-166.8405">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 219 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.64337" lon="-166.74339">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 220 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.67021" lon="-166.1181">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 229 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7333" lon="-166.1981">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 230 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.77468" lon="-166.31731">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 231 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76067" lon="-166.0152">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 232 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76721" lon="-165.9174">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 233 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.75563" lon="-165.7657">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 234 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.72081" lon="-165.7149">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 235 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.58627" lon="-165.7061">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 239 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.63544" lon="-165.6394">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2004</name>
+    <cmt>Vessel: 134, Haul: 240 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6925" lon="-165.73511">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2002</name>
+    <cmt>Vessel: 57, Haul: 141 (5-Unspecified gear performance problem)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.63245" lon="-165.64072">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 4 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.77494" lon="-165.54919">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 1 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.74907" lon="-165.42688">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 2 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.71713" lon="-165.54935">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 3 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9253" lon="-167.34335">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 13 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.71655" lon="-165.53059">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 1 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.75298" lon="-165.80949">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 2 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7219" lon="-165.7323">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 3 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.69229" lon="-165.77901">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 4 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73512" lon="-166.17999">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 10 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.79546" lon="-166.4527">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 11 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.648" lon="-166.76311">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 15 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.72726" lon="-166.989">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 30 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.94219" lon="-167.1357">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 31 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.13428" lon="-167.5473">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 33 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.39899" lon="-168.0161">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 38 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.47115" lon="-168.2348">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 39 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.55582" lon="-168.4315">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 62 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.30184" lon="-167.9248">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 183 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.19332" lon="-167.82021">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 185 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.04296" lon="-167.5392">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 188 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0349" lon="-167.35651">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 189 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.82882" lon="-167.14391">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 193 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.82299" lon="-166.8373">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 194 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7749" lon="-166.32069">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 197 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6178" lon="-165.6418">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 199 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6787" lon="-165.8783">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 200 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.57663" lon="-168.48733">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 142 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.48143" lon="-168.26048">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 143 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.39493" lon="-167.99998">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 147 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.20178" lon="-167.83182">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 149 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.68438" lon="-165.76423">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 157 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.75942" lon="-166.00678">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 158 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.67247" lon="-166.08735">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 161 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.78985" lon="-166.44193">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 163 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.64437" lon="-166.74622">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 165 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.81105" lon="-166.659">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 166 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.87062" lon="-166.9282">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 167 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.94748" lon="-167.1587">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 168 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.02885" lon="-167.34093">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 169 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.13682" lon="-167.55865">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 174 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73135" lon="-166.98532">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 188 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.45713" lon="-168.19724">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 133 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.40497" lon="-168.03556">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 134 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.81669" lon="-167.1202">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 142 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.94082" lon="-167.13558">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 143 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.39217" lon="-167.99772">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 135 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.20958" lon="-167.64843">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 137 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.19" lon="-167.81785">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 140 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.05765" lon="-167.45113">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 142 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.92483" lon="-167.34555">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 148 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.82585" lon="-167.14757">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 174 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.95407" lon="-167.18303">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 175 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73788" lon="-166.84728">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 178 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.88337" lon="-166.98167">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 179 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.80985" lon="-166.65038">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 180 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6436" lon="-166.73152">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 182 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.74018" lon="-166.58717">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 183 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.79538" lon="-166.44425">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 184 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.77367" lon="-166.2787">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 185 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7348" lon="-166.1726">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 186 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.67092" lon="-166.09122">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 187 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76522" lon="-165.8654">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 188 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.77623" lon="-165.55782">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 191 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.70715" lon="-165.49793">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 192 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.65058" lon="-165.64245">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 193 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73772" lon="-166.84844">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 155 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.72349" lon="-165.39767">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 162 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.72035" lon="-165.69072">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 163 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76216" lon="-165.86258">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 164 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.67028" lon="-166.08589">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 166 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73379" lon="-166.19586">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 167 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6872" lon="-166.36544">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 168 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73554" lon="-166.56689">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 169 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.04238" lon="-167.5333">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 175 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.93757" lon="-167.37269">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 176 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76027" lon="-166.02028">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 178 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.75574" lon="-165.76692">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 179 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.63331" lon="-165.63851">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2016</name>
+    <cmt>Vessel: 178, Haul: 180 (0-Good performance)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>8</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.72368" lon="-165.74005">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 190 (1.1-Minor hang(s))</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.71782" lon="-165.66777">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2010</name>
+    <cmt>Vessel: 94, Haul: 189 (-3.13-Alaskan crab pot)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>65</MxTimeZeroSymbol>
+      <T0Color>1</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6838" lon="-166.33881">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 12 (4-Caught unspecified object)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.73468" lon="-166.17778">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2012</name>
+    <cmt>Vessel: 94, Haul: 162 (5-Unspecified gear performance problem)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.76186" lon="-165.987">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 9 (6-Unspecified problems)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.74332" lon="-165.41341">
+    <time>2026-07-20T10:27:32.000000Z</time>
+    <name>2008</name>
+    <cmt>Vessel: 94, Haul: 198 (6.12-Depth range of tow exceeds limits of stratum)</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>2</MxTimeZeroSymbol>
+      <T0Color>15</T0Color>
+    </extensions>
+  </wpt>
+</gpx>
