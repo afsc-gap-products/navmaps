@@ -9,7 +9,7 @@ Authors@R: c(person("Sean", "Rohan", email = "sean.rohan@noaa.gov", role = c("au
     person("Liz", "Dawson", email = "liz.dawson@noaa.gov", role = "ctb"))
 Maintainer: Sean Rohan <sean.rohan@noaa.gov>
 Depends: R (>= 4.1.0), akgfmaps, dplyr, farver, here, sf, tidyr, tibble
-Imports: odbc, RODBC, getPass, purrr, stringr, readxl, RSQLite, TSP
+Imports: odbc, RODBC, getPass, purrr, stringr, readxl, RSQLite, TSP, rmapshaper, lubridate
 Description: Tools for survey planning, spatial analysis, and making layers for marine navigation software (Globe, TimeZero, OpenCPN, and others).
 License: GPL (>=2)
 Encoding: UTF-8

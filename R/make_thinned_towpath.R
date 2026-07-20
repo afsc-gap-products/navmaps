@@ -5,7 +5,7 @@
 #' @param software_format Software format as a character vector.
 #' @param filename_suffix Optional character vector to append to file name.
 #' @export
-#' @import purrr tidyr dplyr
+#' @import purrr tidyr dplyr rmapshaper lubridate
 
 make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = "timezero", filename_suffix = NULL) {
   
