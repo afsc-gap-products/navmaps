@@ -481,7 +481,7 @@ make_towpaths <- function(region, overwrite_midpoint = FALSE, software_format = 
   # Add symbol, color, description and name fields for nav software. 
   # Specify required column names to sf_to_nav: file, name_col, description_col, color_col, shape_col, time_col, extra_cols, and software_format
   
-  if (software_format == "timezero") {
+  if(software_format == "timezero") {
     
     start_sf <- start_sf |> 
       dplyr::mutate(

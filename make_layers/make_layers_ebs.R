@@ -42,11 +42,11 @@ for(ii in 1:length(software_types)) {
   # }
   # 
   # # 4. Historical towpath, tow start, and midpoint
-  # make_towpaths(
-  #   region = region,
-  #   overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
-  #   software_format = SOFTWARE
-  # )
+  make_towpaths(
+    region = region,
+    overwrite_midpoint = ifelse(ii == 1, TRUE, FALSE),
+    software_format = SOFTWARE
+  )
   # 
   # # 5. Station grid
   # survey_grid <- map_layers$survey.grid
@@ -216,75 +216,75 @@ for(ii in 1:length(software_types)) {
   
   # Catch comparison zones
   
-  project_zones <- dplyr::bind_rows(
-    sf::st_read(here::here("assets", "data", "special_projects", "EBS", "2026", "2026_paired_tow_zones.shp")),
-    gear_testing_zone <- sf::st_read(here::here("assets", "data", "special_projects", "EBS", "2026", "gear_testing_zone.shp"))
-  )
-  
-  project_zones$name <- "Gear Project"
-  project_zones$fill <- 0
-  project_zones$color <- navmaps_pal(values = "blue", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-  
-  sf_to_nav_file(
-    x = project_zones,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0("2026_gear_testing_zones.", FILE_TYPE_POLYGON)),
-    name_col = "name",
-    description_col = "area",
-    color_col = "color",
-    fill_col = "fill",
-    software_format = SOFTWARE
-  )
-  
-  slope_towstart <- sf::st_read(
-    here::here("assets", "data", "special_projects", "EBS", "2026", "slope_tow_starts.shp")
-    ) |>
-    dplyr::filter(startsWith(STATION, "11-") == TRUE) |>
-    dplyr::mutate(
-      name = floor(CRUISE/100),
-      desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORM, "-", PERFDES, ")"),
-      color = navmaps::navmaps_pal(
-        values = c("red", "lightgreen", "purple"),
-        file_type = FILE_TYPE_POINT,
-        software_format = SOFTWARE
-      )[as.numeric(sign(PERFORM)) + 2],
-      shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
-                              software_format = SOFTWARE,
-                              file_type = FILE_TYPE_POINT)[factor(sign(PERFORM)+2)],
-    )
-  
-  sf_to_nav_file(
-    x = slope_towstart,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0("slope11_towstart.", FILE_TYPE_POINT)),
-    name_col = "name",
-    description_col = "desc",
-    color_col = "color",
-    shape_col = "shape",
-    software_format = SOFTWARE
-  )
-  
-  
-  slope_towpath <- sf::st_read(
-    here::here("assets", "data", "special_projects", "EBS", "2026", "slope_towpaths.shp")
-  )  |>
-    dplyr::filter(startsWith(STATION, "11-") == TRUE) |>
-    dplyr::mutate(
-      name = "",
-      desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORM, "-", PERFDES, ")"),
-      color = navmaps::navmaps_pal(
-        values = c("red", "lightgreen", "purple"),
-        file_type = FILE_TYPE_POLYGON,
-        software_format = SOFTWARE
-      )[as.numeric(sign(PERFORM)) + 2]
-    )
-  
-  sf_to_nav_file(
-    x = slope_towpath,
-    file = here::here("output", region, "navigation", SOFTWARE, paste0("slope11_towpath.", FILE_TYPE_LINESTRING)),
-    name_col = "name",
-    description_col = "desc",
-    color_col = "color",
-    software_format = SOFTWARE
-  )
+  # project_zones <- dplyr::bind_rows(
+  #   sf::st_read(here::here("assets", "data", "special_projects", "EBS", "2026", "2026_paired_tow_zones.shp")),
+  #   gear_testing_zone <- sf::st_read(here::here("assets", "data", "special_projects", "EBS", "2026", "gear_testing_zone.shp"))
+  # )
+  # 
+  # project_zones$name <- "Gear Project"
+  # project_zones$fill <- 0
+  # project_zones$color <- navmaps_pal(values = "blue", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+  # 
+  # sf_to_nav_file(
+  #   x = project_zones,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0("2026_gear_testing_zones.", FILE_TYPE_POLYGON)),
+  #   name_col = "name",
+  #   description_col = "area",
+  #   color_col = "color",
+  #   fill_col = "fill",
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # slope_towstart <- sf::st_read(
+  #   here::here("assets", "data", "special_projects", "EBS", "2026", "slope_tow_starts.shp")
+  #   ) |>
+  #   dplyr::filter(startsWith(STATION, "11-") == TRUE) |>
+  #   dplyr::mutate(
+  #     name = floor(CRUISE/100),
+  #     desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORM, "-", PERFDES, ")"),
+  #     color = navmaps::navmaps_pal(
+  #       values = c("red", "lightgreen", "purple"),
+  #       file_type = FILE_TYPE_POINT,
+  #       software_format = SOFTWARE
+  #     )[as.numeric(sign(PERFORM)) + 2],
+  #     shape = navmaps_sym_pal(values = c("asterisk", "diamond", "diamond"), 
+  #                             software_format = SOFTWARE,
+  #                             file_type = FILE_TYPE_POINT)[factor(sign(PERFORM)+2)],
+  #   )
+  # 
+  # sf_to_nav_file(
+  #   x = slope_towstart,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0("slope11_towstart.", FILE_TYPE_POINT)),
+  #   name_col = "name",
+  #   description_col = "desc",
+  #   color_col = "color",
+  #   shape_col = "shape",
+  #   software_format = SOFTWARE
+  # )
+  # 
+  # 
+  # slope_towpath <- sf::st_read(
+  #   here::here("assets", "data", "special_projects", "EBS", "2026", "slope_towpaths.shp")
+  # )  |>
+  #   dplyr::filter(startsWith(STATION, "11-") == TRUE) |>
+  #   dplyr::mutate(
+  #     name = "",
+  #     desc = paste0("Vessel: ", VESSEL, ", Haul: ", HAUL, " (", PERFORM, "-", PERFDES, ")"),
+  #     color = navmaps::navmaps_pal(
+  #       values = c("red", "lightgreen", "purple"),
+  #       file_type = FILE_TYPE_POLYGON,
+  #       software_format = SOFTWARE
+  #     )[as.numeric(sign(PERFORM)) + 2]
+  #   )
+  # 
+  # sf_to_nav_file(
+  #   x = slope_towpath,
+  #   file = here::here("output", region, "navigation", SOFTWARE, paste0("slope11_towpath.", FILE_TYPE_LINESTRING)),
+  #   name_col = "name",
+  #   description_col = "desc",
+  #   color_col = "color",
+  #   software_format = SOFTWARE
+  # )
   
 }
 

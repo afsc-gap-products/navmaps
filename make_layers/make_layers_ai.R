@@ -21,7 +21,7 @@ sf::st_write(
 )
 
 # channel <- get_connected(schema = "AFSC") # 64 bit
-channel <- get_connected(schema = "AFSC_32") # 32 bit for Globe files
+channel <- get_connected(schema = "AFSC") # 32 bit for Globe files
 
 # 3. Get data
 get_gps_data(region = region, channel = channel)
@@ -29,7 +29,7 @@ get_gps_data(region = region, channel = channel)
 software_types <- 
   c(
     "timezero",
-    "globe",
+    # "globe",
     "opencpn"
   ) 
 
