@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="57.78583" lon="-152.40568">
+    <time>2026-11-19T14:26:04.000000Z</time>
+    <name>Shoaling Reported</name>
+    <cmt>General/Hazards To Navigation/Shoaling Reported
+
+From: 2024-10-25 To: 2029-10-24
+
+Location:
+57.78583° N / 152.40568° W
+
+A dangerous rock was reported in this position approximately 20' off of the K&amp;amp;I Pier.  This rock was reported struck by a vessel with a 16' draft at low tide, approximately +.085'.  Mariners are advised to transit the area with caution.  Questions/concerns/updates should be directed to Todd Buck with the Coast Guard District 17 Waterways Management Office at (907) 463-2269 or by email to todd.r.buck@uscg.mil.</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>14</MxTimeZeroSymbol>
+      <T0Color>11</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3022500000001" lon="-135.37292">
+    <time>2026-11-19T14:26:04.000000Z</time>
+    <name>Shoaling Reported</name>
+    <cmt>General/Hazards To Navigation/Shoaling Reported
+
+From: 2024-10-25 To: 2029-10-24
+
+Location:
+58.30225° N / 135.37292° W
+
+A dangerous rock was reported in this position.  Mariners are advised to transit the area with caution.  Questions/concerns/updates should be directed to Todd Buck with the Coast Guard District 17 Waterways Management Office at (907) 463-2269 or by email to todd.r.buck@uscg.mil.</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>14</MxTimeZeroSymbol>
+      <T0Color>11</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="62.2012" lon="-174.6819">
+    <time>2026-11-19T14:26:04.000000Z</time>
+    <name>Obstructions</name>
+    <cmt>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+62.2012° N / 174.6819° W
+
+Submerged Data Mooring
+Name:  24BSST-8A
+Water Depth:  242’
+Top Float Depth: 118’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+
+</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>14</MxTimeZeroSymbol>
+      <T0Color>11</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="71.8310000000001" lon="-166.0145">
+    <time>2026-11-19T14:26:04.000000Z</time>
+    <name>Obstructions</name>
+    <cmt>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+71.831° N / 166.0145° W
+
+Submerged Data Mooring
+Name:  24CKP-3A
+Water Depth:  144’	
+Top Float Depth: 121’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>14</MxTimeZeroSymbol>
+      <T0Color>11</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="71.0453000000001" lon="-160.48823">
+    <time>2026-11-19T14:26:04.000000Z</time>
+    <name>Obstructions</name>
+    <cmt>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+71.0453° N / 160.48823° W
+
+Submerged Data Mooring
+Name:  24CKP-4A
+Water Depth:  167’	
+Top Float Depth: 135’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>14</MxTimeZeroSymbol>
+      <T0Color>11</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="72.4700700000001" lon="-156.5697">
+    <time>2026-11-19T14:26:04.000000Z</time>
+    <name>Obstructions</name>
+    <cmt>General/Hazards To Navigation/Obstructions
+
+From: 2024-12-02 To: 2026-12-02
+
+Location:
+72.47007° N / 156.5697° W
+
+Submerged Data Mooring
+Name:  24CKP-9A
+Water Depth:  3,054’	
+Top Float Depth: 886’
+POC:  David Strausz
+Phone:  206-526-4510
+Email:  david.strausz@noaa.gov
+</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>14</MxTimeZeroSymbol>
+      <T0Color>11</T0Color>
+    </extensions>
+  </wpt>
+</gpx>

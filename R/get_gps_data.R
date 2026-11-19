@@ -43,26 +43,31 @@ get_gps_data <- function(region, channel = NULL) {
   if(region == "ai") {
     survey_definition_id <- 52 # AI bottom-trawl survey
     gear_codes <- c(160, 172) # Poly'noreastern
+    min_year <- 1991
   }
   
   if(region == "goa") {
     survey_definition_id <- 47 # GOA bottom-trawl survey
     gear_codes <- c(160, 172) # Poly'noreastern
+    min_year <- 1990
   }
   
   if(region == "sebs") {
     survey_definition_id <- 98 # EBS shelf bottom-trawl survey
     gear_codes <- 44 # 83-112
+    min_year <- 1982
   }
   
   if(region == "nbs") {
     survey_definition_id <- 143 # NBS bottom-trawl survey
     gear_codes <- 44 # 83-112
+    min_year <- 2010
   }
   
   if(region == "slope") {
     survey_definition_id <- 78 # EBS slope bottom-trawl survey
     gear_codes <- c(160, 172) # Poly'noreastern
+    min_year <- 2002
   }
   
   

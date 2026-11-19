@@ -148,20 +148,20 @@ sf_to_nav_file(x = nprw,
                software_format = SOFTWARE)
 
 # 12. Humpback Whale Critical Habitat
-# humpback <- sf::st_read(here::here("assets", "data", "humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
-#   sf::st_transform(crs = "EPSG:4326")
-# humpback$name <- "Humpback Critical Habitat"
-# humpback$description <- "Humpback Critical Habitat"
-# humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
-# humpback$fill <- 0
-# 
-# sf_to_nav_file(x = humpback,
-#                file = here::here("output", region, "navigation", SOFTWARE, paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
-#                name_col = "name",
-#                description_col = "description",
-#                color_col = "color",
-#                fill_col = "fill",
-#                software_format = SOFTWARE)
+humpback <- sf::st_read(here::here("assets", "data", "humpback", "WhaleHumpback_WesternNorthPacificDPS_20210421.shp")) |>
+  sf::st_transform(crs = "EPSG:4326")
+humpback$name <- "Humpback Critical Habitat"
+humpback$description <- "Humpback Critical Habitat"
+humpback$color <- navmaps_pal(values = "red", software_format = SOFTWARE, file_type = FILE_TYPE_POLYGON)
+humpback$fill <- 0
+
+sf_to_nav_file(x = humpback,
+               file = here::here("output", region, "navigation", SOFTWARE, paste0("Humpback_Critical_Habitat.", FILE_TYPE_POLYGON)),
+               name_col = "name",
+               description_col = "description",
+               color_col = "color",
+               fill_col = "fill",
+               software_format = SOFTWARE)
 
 # 14. Navigation hazards (moorings, shipwrecks, etc.)
 # From USCG Local Notice to Mariners (Arctic/District 17)

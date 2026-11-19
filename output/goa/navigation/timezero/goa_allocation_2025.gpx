@@ -1,0 +1,4053 @@
+<?xml version="1.0"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd" xmlns:opencpn="http://www.opencpn.org">
+  <wpt lat="53.5158923963003" lon="-166.291971106935">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>318-33-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.7408461564301" lon="-165.912651283512">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>324-37-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.144695061682" lon="-164.629657839001">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>342-43-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2173897207646" lon="-164.339519601627">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>346-44-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4872841431504" lon="-163.86613714773">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>353-49-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.500488400789" lon="-163.713589161801">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>355-49-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0167535763899" lon="-161.769365196371">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>381-57-14</name>
+    <cmt>Vessel: 148, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0215199160573" lon="-161.657789777038">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>383-57-14</name>
+    <cmt>Vessel: 176, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3382151144581" lon="-161.623899517413">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>384-64-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3461126060608" lon="-160.88746992521">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>391-41-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6314625132631" lon="-160.347019063226">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>401-69-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5991036053869" lon="-158.836803468124">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>418-44-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2974161143195" lon="-157.900157513842">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>431-59-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8350088623218" lon="-157.956419309142">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>431-71-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2225970638376" lon="-157.420197802536">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>437-57-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.761321303334" lon="-156.98344689706">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>444-91-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4636474482441" lon="-156.808641160221">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>445-62-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0569623537233" lon="-156.371084551325">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>451-75-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3840467121825" lon="-155.581097773749">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>461-82-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3488906057517" lon="-153.949557064189">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>481-148-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9145233609675" lon="-153.546487411877">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>486-94-36</name>
+    <cmt>Vessel: 148, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9501160996901" lon="-153.479164591476">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>487-72-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.751231081951" lon="-153.239894131025">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>490-90-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6564971671101" lon="-152.724146571442">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>495-155-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8025739760257" lon="-152.401646861846">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>499-136-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2483457308637" lon="-152.284916018641">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>500-146-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7528292070232" lon="-152.049605857021">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>503-135-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4086815686972" lon="-152.040464113849">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>504-105-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4968341356684" lon="-151.532954604219">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>510-107-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1580098043614" lon="-150.794499528255">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>518-122-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1710655565521" lon="-150.620456453158">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>519-145-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.642583052662" lon="-149.875569495692">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>527-156-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2130742153549" lon="-149.944385618192">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>528-124-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5623868959791" lon="-149.758889093577">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>530-132-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3369138541571" lon="-149.667208146376">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>531-127-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2130919704913" lon="-149.119848520572">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>536-147-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7307997445544" lon="-148.596355035289">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>541-159-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.120900963317" lon="-147.990335917843">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>549-146-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9275568006294" lon="-147.03820401628">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>558-165-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.2984481514122" lon="-146.221726764926">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>566-174-42</name>
+    <cmt>Vessel: 148, Stratum: 42</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.0626913941482" lon="-144.804756155347">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>582-171-145</name>
+    <cmt>Vessel: 148, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9571512963351" lon="-143.491135638773">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>597-171-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6350625011086" lon="-140.791184372345">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>628-169-144</name>
+    <cmt>Vessel: 148, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6748988417464" lon="-140.371182148325">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>637-149-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.406510102846" lon="-139.96806690311">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>638-166-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5318839760329" lon="-139.858341592243">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>639-169-51</name>
+    <cmt>Vessel: 176, Stratum: 51</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.826223003401" lon="-139.629027687526">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>640-176-51</name>
+    <cmt>Vessel: 176, Stratum: 51</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6640457059129" lon="-138.693244122312">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>656-153-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7235991071816" lon="-134.153681812936">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>726-104-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.5253329697165" lon="-169.987225164651">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>265-22-211</name>
+    <cmt>Vessel: 148, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.4205604968596" lon="-169.775512859133">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>267-19-211</name>
+    <cmt>Vessel: 176, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.7298598847122" lon="-169.822090039121">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>268-26-113</name>
+    <cmt>Vessel: 176, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.7532786854721" lon="-169.369171780976">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>274-25-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.866723947776" lon="-168.900991533604">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>281-26-14</name>
+    <cmt>Vessel: 176, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.8735250429953" lon="-168.814837818894">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>282-26-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="52.9105588961813" lon="-168.297331411792">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>289-25-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.0707724131076" lon="-168.355159156769">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>289-29-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.006274496777" lon="-167.800115780715">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>296-26-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.0010934195726" lon="-167.646586949323">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>298-25-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.1349226291361" lon="-167.160377225847">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>305-27-113</name>
+    <cmt>Vessel: 148, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.0668114883936" lon="-166.986134861031">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>307-25-211</name>
+    <cmt>Vessel: 148, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.3066613870257" lon="-166.531438081118">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>314-29-113</name>
+    <cmt>Vessel: 176, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.3369162385236" lon="-166.23625637277">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>318-29-211</name>
+    <cmt>Vessel: 176, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.8388736347165" lon="-166.316702674266">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>319-40-211</name>
+    <cmt>Vessel: 148, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.6131050418534" lon="-166.169062405877">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>320-35-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.370713929346" lon="-165.950211366581">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>322-29-211</name>
+    <cmt>Vessel: 176, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.83513611711" lon="-165.873649180795">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>325-39-113</name>
+    <cmt>Vessel: 148, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.839131104538" lon="-165.836339318174">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>325-39-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.929778427744" lon="-165.881799782644">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>325-41-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.6540989998341" lon="-165.491595770061">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>329-34-113</name>
+    <cmt>Vessel: 176, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.7499675447363" lon="-165.442961382056">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>330-36-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1520913003886" lon="-165.479422637744">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>331-45-14</name>
+    <cmt>Vessel: 148, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.8321266028065" lon="-164.928709577252">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>337-37-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1758842473804" lon="-164.781459789382">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>340-44-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.8280821373022" lon="-164.543534588356">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>342-36-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0145633244416" lon="-164.594084099137">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>342-40-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0467616886453" lon="-164.602863070375">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>342-41-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2413658138361" lon="-164.656245189547">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>342-45-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.907389479235" lon="-164.334240601735">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>345-37-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3073132919086" lon="-164.363608432467">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>346-46-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9131977253974" lon="-164.182005559472">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>347-37-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9162637759109" lon="-164.029074770752">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>349-37-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1538592232349" lon="-164.090518310617">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>349-42-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0797199100112" lon="-163.762649887345">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>353-40-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0562656965983" lon="-163.602631186963">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>355-39-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6084733113352" lon="-163.642355332114">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>356-51-14</name>
+    <cmt>Vessel: 176, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="53.9365440083292" lon="-163.342793027062">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>358-36-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1168040927504" lon="-163.38613259427">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>358-40-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3578032077315" lon="-163.211916702489">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>361-45-14</name>
+    <cmt>Vessel: 148, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.671676132724" lon="-163.209219974394">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>362-52-14</name>
+    <cmt>Vessel: 176, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.117561112048" lon="-162.923717173696">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>364-39-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.649074101173" lon="-163.015318156862">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>364-51-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.0774091699331" lon="-162.837534296482">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>365-38-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1191361856973" lon="-162.76997085507">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>366-39-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6772203214006" lon="-162.66471259255">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>369-51-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7771594339529" lon="-162.529144988459">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>371-53-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0288086955696" lon="-162.191210964442">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>376-58-14</name>
+    <cmt>Vessel: 148, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.1502948680817" lon="-161.929550647243">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>377-38-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3703867512435" lon="-161.890965823766">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>378-43-113</name>
+    <cmt>Vessel: 148, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0796778152565" lon="-162.027057461166">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>378-59-14</name>
+    <cmt>Vessel: 176, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.3036945323631" lon="-161.574648238182">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>382-41-113</name>
+    <cmt>Vessel: 176, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2961846651432" lon="-161.694668312008">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>383-63-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.621881970239" lon="-161.481645287308">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>384-48-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7411842555378" lon="-161.192621081225">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>388-50-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0912084692744" lon="-161.258980425824">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>388-58-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.426602189415" lon="-161.053412111106">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>389-43-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5609782640403" lon="-160.970835088924">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>390-46-113</name>
+    <cmt>Vessel: 148, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9723696886682" lon="-160.84372670081">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>393-55-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4280690795269" lon="-160.918607428618">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>393-65-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0406865262304" lon="-160.777401124716">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>394-56-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5411163379262" lon="-160.611901003626">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>395-45-113</name>
+    <cmt>Vessel: 176, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2773523852234" lon="-160.412862661258">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>397-39-211</name>
+    <cmt>Vessel: 148, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.2834522502235" lon="-160.336822234308">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>398-39-211</name>
+    <cmt>Vessel: 176, Stratum: 211</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7005749238333" lon="-160.405679795494">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>398-48-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6381773058483" lon="-160.313710392596">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>401-69-14</name>
+    <cmt>Vessel: 148, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6040634114995" lon="-160.081746978806">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>404-68-113</name>
+    <cmt>Vessel: 148, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7979374223951" lon="-159.87558725285">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>405-50-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8161087184196" lon="-159.728240228505">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>407-50-14</name>
+    <cmt>Vessel: 176, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0062660744198" lon="-159.750841565554">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>407-54-14</name>
+    <cmt>Vessel: 148, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.542958613701" lon="-159.753535795509">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>408-66-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.663215717985" lon="-159.772042715114">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>408-69-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5510322088783" lon="-159.527917870247">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>409-44-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6585603011926" lon="-159.465669962094">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>410-46-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4890137227999" lon="-159.586402956681">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>410-65-113</name>
+    <cmt>Vessel: 176, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5449061976132" lon="-159.594726126521">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>410-66-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6621777209814" lon="-159.310778890511">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>412-46-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.4623229394743" lon="-159.428357557807">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>412-64-113</name>
+    <cmt>Vessel: 148, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.819135240465" lon="-159.48212585814">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>412-72-14</name>
+    <cmt>Vessel: 176, Stratum: 14</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.4895439260449" lon="-159.132366324745">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>414-42-113</name>
+    <cmt>Vessel: 176, Stratum: 113</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6929501084504" lon="-159.29750819562">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>414-69-15</name>
+    <cmt>Vessel: 176, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.127631592649" lon="-159.010978083415">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>417-56-15</name>
+    <cmt>Vessel: 148, Stratum: 15</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.48075640288" lon="-158.950144525657">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>418-64-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7909422878286" lon="-158.91132235776">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>419-71-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9068707268072" lon="-158.719465012059">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>420-51-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5792497837728" lon="-158.791996031575">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>420-66-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0496747667904" lon="-158.658741152222">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>421-54-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8642538997772" lon="-158.680543939589">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>422-72-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2235639516112" lon="-158.522562854743">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>423-58-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6872899996181" lon="-158.578630904798">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>423-68-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9211119795453" lon="-158.408601903777">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>424-51-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6006640838437" lon="-158.488482383355">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>424-66-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3597945919649" lon="-158.380779470693">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>425-61-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8426250946539" lon="-158.135123556793">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>427-49-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6050518441802" lon="-158.170767460811">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>428-66-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7769965632081" lon="-158.189987196742">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>428-70-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5211252344605" lon="-158.002724246585">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>430-64-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3206394533901" lon="-158.089778653359">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>430-82-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1035379943584" lon="-157.993093363112">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>431-77-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4234832082332" lon="-158.019945669605">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>431-84-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8376530055449" lon="-157.87667495619">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>432-71-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0074913500939" lon="-157.894432398135">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>432-75-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3308012561128" lon="-157.912077264758">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>432-82-23</name>
+    <cmt>Vessel: 148, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2397859084604" lon="-157.838096515499">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>433-80-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3934605694913" lon="-157.672863461114">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>434-61-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1322157406047" lon="-157.56908748346">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>435-55-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2616436345365" lon="-157.581286503202">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>435-58-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9894775223894" lon="-157.651514360317">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>435-74-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2210615660637" lon="-157.498753320595">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>436-57-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9919154222809" lon="-157.571417668731">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>436-74-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.9484266216466" lon="-157.390060532271">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>437-51-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3005801568233" lon="-157.433592484916">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>438-81-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3482306310664" lon="-157.443842803566">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>438-82-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7027512940096" lon="-157.417514513901">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>439-90-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7311975669649" lon="-157.227447134178">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>440-68-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4853019452342" lon="-157.280795375834">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>440-85-23</name>
+    <cmt>Vessel: 176, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7285926612325" lon="-157.147477245334">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>441-68-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1342080133928" lon="-157.019742154563">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>442-55-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6440168689767" lon="-157.060812231284">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>442-66-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3808717847038" lon="-156.960470735001">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>443-60-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0428594789487" lon="-157.013337933743">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>443-75-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6911525147193" lon="-156.905359528686">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>444-67-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1775195482291" lon="-156.943627458514">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>444-78-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8443973307306" lon="-156.997806634381">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>444-93-23</name>
+    <cmt>Vessel: 148, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.339843141501" lon="-156.799440200794">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>445-59-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8231705935639" lon="-156.82440925519">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>445-70-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8527337469649" lon="-156.907130483288">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>445-93-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8103324638042" lon="-156.830778396174">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>446-92-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.7382841077803" lon="-156.510321901829">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>449-68-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.004594472282" lon="-156.528337631954">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>449-74-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9052059522547" lon="-156.574692924244">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>449-94-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.832531636754" lon="-156.423032378916">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>450-70-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5381283386918" lon="-156.483764439439">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>450-86-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5189269246562" lon="-156.33715550881">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>451-63-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2022627805915" lon="-156.239053240013">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>452-56-321</name>
+    <cmt>Vessel: 148, Stratum: 321</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9619293227382" lon="-156.284816133045">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>452-73-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1392997470756" lon="-156.295778635305">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>452-77-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6298319241" lon="-156.326664357271">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>452-88-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8318066806081" lon="-156.257505122713">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>453-92-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0866193898837" lon="-156.273491902415">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>453-98-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.4510065350361" lon="-156.144316431573">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>455-106-23</name>
+    <cmt>Vessel: 176, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0480188059138" lon="-156.118100981057">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>455-97-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0589577309771" lon="-155.969182014013">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>456-75-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9683520325315" lon="-156.018757717783">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>456-95-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6102775408202" lon="-155.866193327848">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>457-65-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.1879295925669" lon="-155.864190432906">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>458-100-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.3546146324232" lon="-155.781657258816">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>458-59-321</name>
+    <cmt>Vessel: 176, Stratum: 321</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9763106418765" lon="-155.816281581978">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>458-73-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4250596630919" lon="-155.829570452539">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>458-83-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4722937478135" lon="-155.828796786296">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>458-84-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.1425328162735" lon="-155.843735703736">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>458-99-222</name>
+    <cmt>Vessel: 148, Stratum: 222</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5670854384848" lon="-155.752032910102">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>459-86-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2858690972719" lon="-155.620932048703">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>461-102-222</name>
+    <cmt>Vessel: 176, Stratum: 222</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0703653252358" lon="-155.567706565477">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>461-75-23</name>
+    <cmt>Vessel: 148, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.8369035960509" lon="-155.600848143996">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>461-92-222</name>
+    <cmt>Vessel: 148, Stratum: 222</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.1958698100329" lon="-155.53393370664">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>462-100-222</name>
+    <cmt>Vessel: 176, Stratum: 222</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.658869136844" lon="-155.470962113745">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>462-66-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8483431014719" lon="-155.385605305855">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>463-70-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5246814584601" lon="-155.424363922443">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>463-85-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7902767564081" lon="-155.434785804649">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>463-91-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.5702212307923" lon="-155.344634714246">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>464-86-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5363384239422" lon="-155.144252160945">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>466-63-321</name>
+    <cmt>Vessel: 148, Stratum: 321</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.808514450014" lon="-155.157502099122">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>466-69-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3786651193539" lon="-155.125043524738">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>467-104-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5552505505357" lon="-155.122978284807">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>467-108-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9491749319739" lon="-155.081744439767">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>467-72-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0377469416282" lon="-155.084328138108">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>467-74-24</name>
+    <cmt>Vessel: 148, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.420559190904" lon="-155.042924236982">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>468-105-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0174520531132" lon="-155.000615185231">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>468-96-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6503286818171" lon="-154.965710249182">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>469-110-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2043769853197" lon="-154.868155968305">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>470-100-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1271156456342" lon="-154.845389020348">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>470-76-24</name>
+    <cmt>Vessel: 176, Stratum: 24</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5205339857199" lon="-154.79483813992">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>471-107-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.6056620174442" lon="-154.712875133263">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>472-109-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9555681388075" lon="-154.601054123641">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>473-72-321</name>
+    <cmt>Vessel: 176, Stratum: 321</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9706574153515" lon="-154.535546293581">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>474-95-23</name>
+    <cmt>Vessel: 176, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0497484167352" lon="-154.44188995475">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>475-74-123</name>
+    <cmt>Vessel: 148, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4396406818122" lon="-154.365389268685">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>476-83-23</name>
+    <cmt>Vessel: 148, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.737980823887" lon="-154.294631801284">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>477-112-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.7877178143129" lon="-154.295047318034">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>477-113-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0049155182088" lon="-154.212053851724">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>478-118-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0149147075794" lon="-154.127268487677">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>479-118-123</name>
+    <cmt>Vessel: 176, Stratum: 123</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0965280532729" lon="-154.137646852184">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>479-120-222</name>
+    <cmt>Vessel: 176, Stratum: 222</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4799556716152" lon="-154.040643296321">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>480-84-23</name>
+    <cmt>Vessel: 148, Stratum: 23</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9695041923914" lon="-153.872896265173">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>482-117-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.3064209398784" lon="-153.878645029605">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>482-80-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.051353929413" lon="-153.702730176629">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>484-119-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5860749790271" lon="-153.698116496498">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>484-131-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4816189318819" lon="-153.677664052787">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>484-151-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7147343732569" lon="-153.713660149723">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>484-89-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5438718144902" lon="-153.593259846478">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>485-130-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4038147886945" lon="-153.602422696943">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>485-149-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9385312290396" lon="-153.639535892765">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>485-72-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.0209468530122" lon="-153.628984250312">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>485-74-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9969153627225" lon="-153.528737310172">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>486-140-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6162568977846" lon="-153.510979918962">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>486-154-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6106175798189" lon="-153.525910713488">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>486-87-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1788231535867" lon="-153.360656618481">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>488-122-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.894092836756" lon="-153.38336712417">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>488-93-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4931965891735" lon="-153.096759989334">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>491-129-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1599080502457" lon="-153.078978105385">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>491-144-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7585767066588" lon="-153.009879748224">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>492-135-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5750243254266" lon="-152.978733213208">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>492-153-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2419749737852" lon="-152.946911421231">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>493-101-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3447482003882" lon="-152.921198900521">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>493-148-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7852903949619" lon="-152.882894395184">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>493-158-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7439174022509" lon="-152.976499276723">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>493-90-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7922647741035" lon="-152.970096527994">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>493-91-37</name>
+    <cmt>Vessel: 148, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1113983518637" lon="-152.642290130569">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>496-143-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6981480274362" lon="-152.618377834286">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>496-156-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7650559602819" lon="-152.569295587882">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>497-135-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2071202708027" lon="-152.563640801909">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>497-145-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4320818631746" lon="-152.67086853062">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>497-83-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6575279536811" lon="-152.652143159633">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>497-88-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6514636174345" lon="-152.423429971103">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>498-155-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9654933518415" lon="-152.429117488072">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>498-162-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7418811503325" lon="-152.320050034349">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>499-157-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4276628668189" lon="-152.303046416856">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>500-150-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4737366161578" lon="-152.273389551445">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>500-151-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9710924226406" lon="-152.392257997602">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>500-95-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.887041719898" lon="-152.127860503947">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>502-138-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.149189402269" lon="-152.136750253776">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>503-99-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0752765804138" lon="-151.993758404717">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>504-120-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.555453247986" lon="-151.914023411539">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>504-153-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.0925170327612" lon="-151.974274991184">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>505-98-37</name>
+    <cmt>Vessel: 148, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.853372007674" lon="-151.844176219795">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>506-115-37</name>
+    <cmt>Vessel: 148, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9135451467116" lon="-151.907642957179">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>506-94-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.1914653970172" lon="-151.802807834655">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>507-100-37</name>
+    <cmt>Vessel: 148, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6437470985062" lon="-151.8365419166">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>507-88-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0207100675272" lon="-151.58096523711">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>509-119-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.102246726325" lon="-151.489677264025">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>509-143-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5339731339815" lon="-151.530374579085">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>510-108-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.8897306279313" lon="-151.505379578764">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>510-116-37</name>
+    <cmt>Vessel: 148, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3303194806322" lon="-151.459869813478">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>510-126-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1976332386753" lon="-151.378899545488">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>510-145-36</name>
+    <cmt>Vessel: 176, Stratum: 36</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2660779041245" lon="-151.465733962409">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>511-102-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3002231296741" lon="-151.463313683626">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>511-103-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7324145223212" lon="-151.357388585237">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>511-135-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5108063130066" lon="-151.204548224013">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>513-130-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6377540170587" lon="-151.105295572648">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>514-133-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.2146256186626" lon="-151.068965575717">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>516-101-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5661239666683" lon="-151.025076718659">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>516-109-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.0188024384187" lon="-150.98661275185">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>516-119-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3364854831877" lon="-150.959010943076">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>516-126-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1749193074979" lon="-150.766543399182">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>517-145-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9930750954111" lon="-150.711430671629">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>518-141-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3834848540049" lon="-150.79239438426">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>519-105-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5794040247441" lon="-150.678551344137">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>519-132-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7700499444644" lon="-150.660053560237">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>519-136-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9609890358279" lon="-150.628457317712">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>520-118-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3121242835404" lon="-150.618458386105">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>520-126-37</name>
+    <cmt>Vessel: 148, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4938290679879" lon="-150.600655428582">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>520-130-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1487336716958" lon="-150.463734215278">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>522-122-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.382530488811" lon="-150.456300666869">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>523-105-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5102145133728" lon="-150.276029087955">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>525-108-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.987304963283" lon="-150.225311671505">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>525-119-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4938461503429" lon="-150.169905970704">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>525-130-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2433575923206" lon="-149.908655344609">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>527-147-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2882472751533" lon="-149.903203710391">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>527-148-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.187575588455" lon="-149.827454237776">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>528-146-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5501315738728" lon="-149.785619932955">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>528-154-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3886273313864" lon="-149.818857172768">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>529-128-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9338458915059" lon="-149.807053459876">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>530-118-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9791850164494" lon="-149.724089581165">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>531-119-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7323105143767" lon="-149.622527330451">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>531-136-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2360248828737" lon="-149.469060186575">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>532-147-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.404551405904" lon="-149.464776873659">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>532-151-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4478906192229" lon="-149.409254358522">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>532-152-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4905535516905" lon="-149.373213711141">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>533-153-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9298472063992" lon="-149.086702344069">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>535-163-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6407908344023" lon="-149.201215795533">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>536-134-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0636642154995" lon="-149.125447237127">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>536-144-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1790409408205" lon="-149.093951371768">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>538-124-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5819668481414" lon="-149.036474034621">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>538-133-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1271405669579" lon="-149.015902547934">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>539-123-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6517671941671" lon="-148.787766039909">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>539-157-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.9867686188092" lon="-148.950876189914">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>540-120-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3529129472066" lon="-148.913680554363">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>540-128-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6618803006917" lon="-148.851523720647">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>540-135-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.43864411554" lon="-148.712514492598">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>542-130-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8175727134268" lon="-148.521035460485">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>542-161-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8040956384824" lon="-148.477374755103">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>542-161-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9154626935278" lon="-148.476116470992">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>542-163-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.137542909626" lon="-148.44114550751">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>544-146-135</name>
+    <cmt>Vessel: 148, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4241094074341" lon="-148.469131986314">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>545-130-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1807677067447" lon="-148.239483155587">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>546-147-135</name>
+    <cmt>Vessel: 176, Stratum: 135</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5345015402845" lon="-148.183053645585">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>546-155-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9469243916582" lon="-148.108615667859">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>548-142-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2987134209693" lon="-148.046995150973">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>548-150-136</name>
+    <cmt>Vessel: 176, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6612747906124" lon="-147.982111349956">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>548-158-37</name>
+    <cmt>Vessel: 176, Stratum: 37</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6129624469113" lon="-147.901565699218">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>549-157-38</name>
+    <cmt>Vessel: 176, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2919349263386" lon="-147.782911305528">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>551-150-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1530372402814" lon="-147.720399395646">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>552-147-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3666128516176" lon="-147.503096967774">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>554-152-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4008744868029" lon="-147.496454270877">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>554-153-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7156386014071" lon="-147.266152051886">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>556-160-38</name>
+    <cmt>Vessel: 148, Stratum: 38</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3492002276793" lon="-147.063169249973">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>559-152-136</name>
+    <cmt>Vessel: 148, Stratum: 136</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4726609095962" lon="-146.919897351595">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>560-155-145</name>
+    <cmt>Vessel: 176, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8228078739042" lon="-146.693853173797">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>562-163-43</name>
+    <cmt>Vessel: 176, Stratum: 43</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9821364527368" lon="-146.568009842342">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>563-167-43</name>
+    <cmt>Vessel: 148, Stratum: 43</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.305303637597" lon="-146.361335126228">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>567-152-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5285532188345" lon="-146.314648835489">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>567-157-42</name>
+    <cmt>Vessel: 176, Stratum: 42</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2517660808218" lon="-146.217656103994">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>569-151-242</name>
+    <cmt>Vessel: 148, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.2631640321768" lon="-145.864857017506">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>570-174-43</name>
+    <cmt>Vessel: 176, Stratum: 43</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.1645002133713" lon="-145.70723765059">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>572-172-144</name>
+    <cmt>Vessel: 148, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.1842224199683" lon="-145.337457795928">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>576-173-42</name>
+    <cmt>Vessel: 148, Stratum: 42</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7526703100613" lon="-145.000181312622">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>581-164-144</name>
+    <cmt>Vessel: 176, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.7157575359646" lon="-144.920210391965">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>582-163-144</name>
+    <cmt>Vessel: 148, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5724394442725" lon="-144.87587627325">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>583-160-145</name>
+    <cmt>Vessel: 176, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.565765369701" lon="-144.831998967612">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>583-160-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="60.1822429078492" lon="-144.699032800085">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>583-174-42</name>
+    <cmt>Vessel: 176, Stratum: 42</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6322185519711" lon="-144.493922418959">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>587-162-144</name>
+    <cmt>Vessel: 176, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5340085655317" lon="-144.432384386328">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>588-160-242</name>
+    <cmt>Vessel: 148, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5361496977183" lon="-143.265059659288">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>601-162-242</name>
+    <cmt>Vessel: 148, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.9400348590783" lon="-142.768632829989">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>605-172-144</name>
+    <cmt>Vessel: 148, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.533880394316" lon="-142.636246229952">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>608-163-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6938386063673" lon="-142.400203084179">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>610-167-145</name>
+    <cmt>Vessel: 148, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5183748187359" lon="-142.371568472969">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>611-163-242</name>
+    <cmt>Vessel: 148, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5465208056057" lon="-142.361688264304">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>611-164-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4920728282154" lon="-142.200830984283">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>613-163-145</name>
+    <cmt>Vessel: 176, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4364105809792" lon="-142.040862466884">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>615-162-145</name>
+    <cmt>Vessel: 148, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6410996811946" lon="-141.876235277064">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>616-167-144</name>
+    <cmt>Vessel: 176, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3282269447289" lon="-141.810810974291">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>618-160-145</name>
+    <cmt>Vessel: 176, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4477302210663" lon="-141.766923303446">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>618-163-145</name>
+    <cmt>Vessel: 148, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.1142257878612" lon="-141.621293231293">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>621-156-242</name>
+    <cmt>Vessel: 148, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6874859338164" lon="-141.405821084047">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>621-169-43</name>
+    <cmt>Vessel: 148, Stratum: 43</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4387348438452" lon="-141.139930577336">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>625-164-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4236547363704" lon="-141.055680280069">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>626-164-242</name>
+    <cmt>Vessel: 148, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.2705664935699" lon="-140.845988939735">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>629-161-144</name>
+    <cmt>Vessel: 176, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.3134464323341" lon="-140.829031961637">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>629-162-144</name>
+    <cmt>Vessel: 148, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5593611755127" lon="-140.549746490815">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>631-168-242</name>
+    <cmt>Vessel: 176, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.5862294928493" lon="-140.35735697947">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>633-169-144</name>
+    <cmt>Vessel: 176, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6826041202051" lon="-140.544730957765">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>635-149-242</name>
+    <cmt>Vessel: 148, Stratum: 242</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7703482363123" lon="-140.421240090479">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>636-151-145</name>
+    <cmt>Vessel: 176, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.4948552321726" lon="-140.038243116338">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>637-168-144</name>
+    <cmt>Vessel: 148, Stratum: 144</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.8016093722655" lon="-139.810501775264">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>638-175-51</name>
+    <cmt>Vessel: 148, Stratum: 51</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8297546910132" lon="-140.138015879741">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>639-153-145</name>
+    <cmt>Vessel: 148, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.6658990773049" lon="-139.807050162673">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>639-172-51</name>
+    <cmt>Vessel: 148, Stratum: 51</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6908120257013" lon="-140.113573389241">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>640-150-145</name>
+    <cmt>Vessel: 176, Stratum: 145</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0319118897134" lon="-139.868586125216">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>641-158-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6694280301244" lon="-139.931504279501">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>642-150-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.9623887387492" lon="-139.719402127262">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>643-157-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0479761274407" lon="-139.68286184987">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>643-159-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.6760913563725" lon="-139.57723184167">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>646-151-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7779107137524" lon="-139.353409124396">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>648-154-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3770986200192" lon="-139.349882973299">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>650-145-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7672293415558" lon="-139.172147051318">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>650-154-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.7662293088821" lon="-139.091795359703">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>651-154-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.876172843165" lon="-138.928597079779">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>652-157-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5018003777449" lon="-138.854796789393">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>655-149-51</name>
+    <cmt>Vessel: 148, Stratum: 51</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.8516503469395" lon="-138.696987017457">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>655-157-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="59.0138196873775" lon="-138.622692876076">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>655-161-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.2121428586309" lon="-138.895395403726">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>656-143-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.579297182589" lon="-138.750929316978">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>656-151-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5692926167201" lon="-138.653604854822">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>657-151-51</name>
+    <cmt>Vessel: 176, Stratum: 51</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1175089146396" lon="-138.732483393725">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>658-141-352</name>
+    <cmt>Vessel: 148, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.219219656482" lon="-138.453932227928">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>661-144-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3407954795012" lon="-138.310366191643">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>662-147-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3091118642296" lon="-138.148886623824">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>664-147-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1740943766499" lon="-138.123738979854">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>665-144-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3472507424883" lon="-137.954737589392">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>666-148-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3978340025377" lon="-137.66563640233">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>669-150-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.4288230436035" lon="-137.562163337065">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>670-151-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.5149607413397" lon="-137.535249989854">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>670-153-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1688190706399" lon="-137.423558456367">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>673-146-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.3975431294173" lon="-137.311760212244">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>673-151-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="58.1018635399884" lon="-136.752908420953">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>681-146-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.5980037649495" lon="-136.561756780058">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>686-136-352</name>
+    <cmt>Vessel: 176, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="57.3770312823478" lon="-136.248672197666">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>691-132-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.9493305274383" lon="-135.951558503421">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>697-124-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6849874567352" lon="-135.744595226084">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>701-119-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.7757815350874" lon="-135.699592327705">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>701-121-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.4188547989168" lon="-135.544943456058">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>705-114-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.6386297345172" lon="-135.148796432608">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>708-120-51</name>
+    <cmt>Vessel: 148, Stratum: 51</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1976140218316" lon="-135.322857465381">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>709-110-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8582132847932" lon="-135.231222057213">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>712-103-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.9461714841273" lon="-135.20240775766">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>712-105-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1233587952295" lon="-135.098019433064">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>712-109-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.978985187956" lon="-135.101809483175">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>713-106-352</name>
+    <cmt>Vessel: 148, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.1052984548114" lon="-135.030360176749">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>713-109-352</name>
+    <cmt>Vessel: 176, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="56.2461002030081" lon="-134.961043630623">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>713-112-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6512531918129" lon="-135.109092355605">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>715-99-352</name>
+    <cmt>Vessel: 176, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6593545525591" lon="-134.876272695527">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>718-100-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.8667673482126" lon="-134.743535924217">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>718-105-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.397595971517" lon="-134.742655681083">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>721-95-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.5157972994901" lon="-134.608350610048">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>722-98-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6434703985629" lon="-134.280523193186">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>725-102-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.2943415289905" lon="-134.381322330383">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>726-94-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.6945727047016" lon="-134.002945833788">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>728-104-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.425605920416" lon="-134.063833022691">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>729-98-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8294476315688" lon="-134.142571105464">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>732-85-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5745400315672" lon="-134.036470133617">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>735-80-352</name>
+    <cmt>Vessel: 148, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6587611133732" lon="-133.990090714269">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>735-82-252</name>
+    <cmt>Vessel: 176, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7945795355291" lon="-133.917077370442">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>735-85-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.0507855340208" lon="-133.777819073661">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>735-91-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="55.1567298240268" lon="-133.637366537057">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>736-94-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.5919316627784" lon="-133.615746445916">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>740-82-352</name>
+    <cmt>Vessel: 176, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.6521068065033" lon="-133.4253450683">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>742-84-352</name>
+    <cmt>Vessel: 148, Stratum: 352</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7715638107297" lon="-133.27764502437">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>743-87-152</name>
+    <cmt>Vessel: 148, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.7801242547297" lon="-133.109548938328">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>745-88-252</name>
+    <cmt>Vessel: 148, Stratum: 252</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>51</MxTimeZeroSymbol>
+      <T0Color>4</T0Color>
+    </extensions>
+  </wpt>
+  <wpt lat="54.8121625460964" lon="-133.021873990438">
+    <time>2026-11-19T14:25:21.000000Z</time>
+    <name>746-89-152</name>
+    <cmt>Vessel: 176, Stratum: 152</cmt>
+    <extensions>
+      <MxTimeZeroSymbol>53</MxTimeZeroSymbol>
+      <T0Color>9</T0Color>
+    </extensions>
+  </wpt>
+</gpx>

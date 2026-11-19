@@ -4,7 +4,7 @@
     <Placemark>
       <name>Rocket launch zone</name>
       <description>Rocket launch zone</description>
-      <time>2025-04-24T16:48:04.000000Z</time>
+      <time>2026-11-19T14:26:17.000000Z</time>
       <LineString>
         <coordinates>
         -152.2887, 57.4747
@@ -18,7 +18,7 @@
         -150.7938, 55.9339
         -152.5584, 56.1626
         -152.1264, 57.4346
-        -152.2776, 57.4773
+        -152.2776, 57.4772999999999
         -152.2887, 57.4747
         </coordinates>
       </LineString>

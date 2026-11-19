@@ -1,15 +1,32 @@
+# Gulf of Alaska survey charts
+# Created by Sean Rohan <sean.rohan@noaa.gov>
+# Description:  This script generates pdf survey charts for the Gulf of Alaska bottom trawl survey.
+#               
+#       To generate the chart script:
+#          (1) Create a new branch of the the navmaps repo. Use that branch when updating this script.
+#          (2) Obtain the updated station allocation file (.gpkg) and copy it to
+#              ./output/data/allocation
+#          (3) Update the crab pot storaage shapefile when it's available. An older stand-in file 
+#              can be use duntil the 
+#          (4) Update GOA shapefile and plotter files using ./make_layers/make_layers_goa.R
+#          (5) Update filepaths and graphical parameters in the script below.
+#          (6) Run the entire script. PDF charts will be written to ./assets/survey_charts/goa
+#          (7) Commit and push the changes to the navmaps repo.
+
+
 library(navmaps)
 library(ggnewscale)
 library(ggrepel)
 library(ggstar)
 library(geomtextpath)
 
-# GOA Chart
+# Global settings (do not change) ----
 
 crs_aea <- 3338
-set_year <- 2027
 
-# Settings: Dynamic layers ----
+# Settings: Dynamic layers (update these as needed) ----
+
+set_year <- 2027
 
 vessel_codes_names <- 
   data.frame(
@@ -175,13 +192,14 @@ get_chart_limits <- function(row, crs_target = 3338) {
   )
 }
 
-# Load: Standard layers ----
+# Load: Standard layers (update filepaths as needed) ----
 
 map_layers <- akgfmaps::get_base_layers(select.region = "goa", set.crs = crs_aea)
 
 akland <- map_layers$akland
 
-hazards <- read_transform(here::here("output", "goa", "shapefiles", "hazards_buoys_20250121.gpkg"))
+hazards <- read_transform(here::here("assets", "data", "buoys", "hazNav_1.geojson"))|>
+  dplyr::filter(ATU == 17)
 
 allocation <- read_transform(here::here("output", "goa", "shapefiles", "goa_station_allocation.shp")) |>
   dplyr::inner_join(
@@ -276,7 +294,7 @@ region_divider_labels <-
 
 dropcam <- read_transform(here::here("output", "goa", "shapefiles", "drop_cam_zones.shp"))
 
-# Load: Crab pot layers ----
+# Load: Crab pot layers (copy the shapefile to your local directory manually) ----
 
 crabpots <- read_transform(here::here("output", "goa", "shapefiles", "goa_crabpots_2025.shp"))
 
@@ -297,8 +315,6 @@ chart_boudaries <- data.frame(
   leg_just_x = c(0, 1, 0, 0),
   leg_just_y = c(1, 0, 1, 0)
 )
-
-
 
 # Function to build either a 42x34" PDF plot or a screen-sized preview
 build_goa_chart <- function(chart_num, mode = c("pdf", "preview"), year = set_year) {
