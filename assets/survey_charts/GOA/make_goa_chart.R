@@ -17,6 +17,10 @@ vessel_codes_names <-
     VESSEL_NAME = c("Ocean Explorer", "Alaska Provider")
   )
 
+# Special project colors
+dropcam_color <- "violet"
+dropcam_fill <- NA
+
 # Settings: Static layers ----
 akland_color <- "grey70"
 akland_fill <- "#FFEABE"
@@ -78,18 +82,20 @@ region_boundary_color <- "red"
 
 cable_color <- c("Fiber optic and older" = "grey30")
 
-# special projects
-dropcam_color <- "violet"
-dropcam_fill <- NA
+dixon_entrance_color <- "#FF48DC"
 
 
 # Functions ----
 
-read_transform <- function(fpath, crs = 3338) {
+read_transform <- function(fpath, crs = 3338, layer = NULL) {
   
-  sf::st_read(fpath) |>
-    sf::st_transform(crs)
-  
+  if(is.null(layer)) {
+    out <- sf::st_read(fpath)
+  } else{
+    out <- sf::st_read(fpath, layer = layer) 
+  }
+
+  sf::st_transform(out, crs)
 }
 
 get_top_inner_label <- function(
@@ -153,7 +159,23 @@ get_top_inner_label <- function(
   do.call(rbind, results)
 }
 
-# Load standard layers ----
+# Function to project WGS84 bounding-box corners to EPSG:3338 xlim / ylim
+get_chart_limits <- function(row, crs_target = 3338) {
+  corners <- expand.grid(
+    lon = c(row$min_lon, row$max_lon),
+    lat = c(row$min_lat, row$max_lat)
+  )
+  pts_proj <- st_as_sf(corners, coords = c("lon", "lat"), crs = 4326) |>
+    st_transform(crs = crs_target) |>
+    st_coordinates()
+  
+  list(
+    xlim = range(pts_proj[, "X"]),
+    ylim = range(pts_proj[, "Y"])
+  )
+}
+
+# Load: Standard layers ----
 
 map_layers <- akgfmaps::get_base_layers(select.region = "goa", set.crs = crs_aea)
 
@@ -187,10 +209,6 @@ awois_wrecks <- read_transform(here::here("assets", "data", "wrecks", "awois_wre
 awois_obstructions <- read_transform(here::here("assets", "data", "wrecks", "awois_obstructions.shp"))
 
 wrecks_obstructions <- dplyr::bind_rows(enc_wrecks, awois_wrecks) |> dplyr::bind_rows(awois_obstructions)
-
-island_names_large <- read_transform(here::here("assets", "data", "placenames", "GOA_place_names_islands_large.shp"))
-
-island_names_small <- read_transform(here::here("assets", "data", "placenames", "GOA_place_names_islands_small.shp"))
 
 region_boundaries <- read_transform(here::here("assets", "data", "region_boundaries", "nmfs_boundaries.gpkg"))
 
@@ -228,17 +246,37 @@ mb_annotation <- read_transform(here::here("assets", "data", "goa_multibeam_anno
 ch_semidi_islands <- read_transform(here::here("assets", "data", "anwr", "anwr_semidi_islands.gpkg")) |>
   sf::st_set_geometry("geometry")
 
-# semidi_label <- semidi_islands |>
-#   dplyr::mutate(
-#     label = "ANWR Semidi Islands: Ok to tow,\nbut no anchoring or visiting the islands."
-#   ) |>
-#   get_top_inner_label(label_col = label, inset_dist = 1500, top_quantile = 0.85)
+dixon_entrance <- read_transform(here::here("assets", "data", "dixon_entrance", "dixon_entrance.shp"))
 
-# Load special project layers ----
+# Load: Placenames and labels ----
+
+island_names_large <- read_transform(here::here("assets", "data", "placenames", "GOA_place_names_islands_large.shp"))
+
+island_names_small <- read_transform(here::here("assets", "data", "placenames", "GOA_place_names_islands_small.shp"))
+
+port_names <- read_transform(here::here("assets", "data", "placenames", "ports_locales.shp")) |>
+  dplyr::mutate(NAME = stringr::str_to_sentence(NAME))
+
+
+area_labels <- read_transform(here::here("assets", "data", "placenames", "goa_area_labels.gpkg"))
+
+region_divider_lines <- 
+  read_transform(
+    here::here("assets", "data", "region_boundaries", "goa_region_divider_annotations.gpkg"), 
+    layer = "boundary_lines"
+  )
+
+region_divider_labels <- 
+  read_transform(
+    here::here("assets", "data", "region_boundaries", "goa_region_divider_annotations.gpkg"), 
+    layer = "boundary_labels"
+  )
+
+# Load: Special project layers ----
 
 dropcam <- read_transform(here::here("output", "goa", "shapefiles", "drop_cam_zones.shp"))
 
-# Load crab pot layers ----
+# Load: Crab pot layers ----
 
 crabpots <- read_transform(here::here("output", "goa", "shapefiles", "goa_crabpots_2025.shp"))
 
@@ -251,8 +289,8 @@ chart_boudaries <- data.frame(
   chart_number = 1:4,
   min_lat  = c(  51.5,   54.5,   57.5,   55.3),
   max_lat  = c(  56.8,   59.8,   63.0,   60.5),
-  min_lon  = c(-169.5, -159.1, -154.5, -144.5),
-  max_lon  = c(-159.5, -147.2, -141.5, -132.3),
+  min_lon  = c(-169.5, -159.4, -154.5, -146.8),
+  max_lon  = c(-159.3, -147.5, -141.5, -130.8),
   # Set legend anchor positions
   leg_x    = c(0.02, 0.98, 0.02, 0.02),
   leg_y    = c(0.78, 0.05, 0.96, 0.14),
@@ -260,27 +298,15 @@ chart_boudaries <- data.frame(
   leg_just_y = c(1, 0, 1, 0)
 )
 
-# Function to project WGS84 bounding-box corners to EPSG:3338 xlim / ylim
-get_chart_limits <- function(row, crs_target = 3338) {
-  corners <- expand.grid(
-    lon = c(row$min_lon, row$max_lon),
-    lat = c(row$min_lat, row$max_lat)
-  )
-  pts_proj <- st_as_sf(corners, coords = c("lon", "lat"), crs = 4326) |>
-    st_transform(crs = crs_target) |>
-    st_coordinates()
-  
-  list(
-    xlim = range(pts_proj[, "X"]),
-    ylim = range(pts_proj[, "Y"])
-  )
-}
+
 
 # Function to build either a 42x34" PDF plot or a screen-sized preview
-build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
+build_goa_chart <- function(chart_num, mode = c("pdf", "preview"), year = set_year) {
   mode <- match.arg(mode)
   cfg  <- chart_boudaries[chart_boudaries$chart_number == chart_num, ]
   lims <- get_chart_limits(cfg, crs_target = 3338)
+  
+  main_leg_title <- sprintf("%d Gulf of Alaska bottom trawl survey", year)
   
   # Crop allocation points to the current chart extent so ggrepel only 
   # repels labels that are actually visible on this chart
@@ -289,13 +315,30 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       ymin = lims$ylim[1], ymax = lims$ylim[2]),
     crs = sf::st_crs(3338)
   )
+  
+  # Subset allocations and port names for layers that use ggrepel
   allocation_sub <- sf::st_crop(
-    sf::st_transform(allocation, 3338),
+    allocation,
     chart_bbox
   )
   
+  port_names_sub <- sf::st_crop(
+    port_names,
+    chart_bbox
+  )
+  
+  # Subset divider lines and labels for the current chart
+  divider_lines_sub  <- dplyr::filter(region_divider_lines, chart_number == chart_num)
+  divider_labels_sub <- dplyr::filter(region_divider_labels, chart_number == chart_num)
+  
+  # Subset area labels for each chart
+  area_labels_sub <- dplyr::filter(area_labels, chart_number == chart_num)
+  
   # Set sizes for pdf and preview plots
   if(mode == "pdf") {
+    txt_area      <- 20.0
+    txt_divider   <- 12.0
+    lwd_divider   <- 2.5
     txt_darpa     <- 7.5
     txt_island    <- 5.5
     txt_station   <- 3.2
@@ -310,6 +353,9 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     leg_text_sz   <- 13
     leg_key_sz    <- unit(0.65, "cm")
   } else {
+    txt_area      <- 8.0
+    txt_divider   <- 3.2
+    lwd_divider   <- 0.8
     txt_darpa     <- 3.2
     txt_island    <- 2.3
     txt_station   <- 1.5
@@ -326,12 +372,21 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
   }
   
   ggplot() +
-    geom_sf(
-      data = akland,
-      color = akland_color,
-      fill = akland_fill,
-      linewidth = 0.2
-    ) +
+    
+    # Blank layer to create legend box header
+    # geom_blank(aes(linetype = "header")) +
+    # scale_linetype_manual(
+    #   name = main_leg_title,
+    #   values = c("header" = 0),
+    #   labels = NULL,
+    #   guide = guide_legend(
+    #     order = 0,
+    #     override.aes = list(alpha = 0, linewidth = 0),
+    #     keywidth = unit(0, "pt"),
+    #     keyheight = unit(0, "pt")
+    #   )
+    # ) +
+    # 
     geom_sf(
       data = ch_nprw,
       mapping = aes(fill = "N. Pac. Right Whales"),
@@ -344,7 +399,7 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       color = ch_sea_otter_color,
       alpha = ch_sea_otter_alpha
     ) +
-    # geom_sf(
+    # geom_sf( # Humpback Whale critical habitat
     #   data = ch_humpback,
     #   mapping = aes(fill = "Humpback Whales"),
     #   color = ch_humpback_color,
@@ -380,6 +435,13 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       name = "Station grid",
       values = trawlable_fill,
       guide = guide_legend(order = 3)
+    ) +
+    
+    geom_sf(
+      data = akland,
+      color = akland_color,
+      fill = akland_fill,
+      linewidth = 0.2
     ) +
     
     new_scale_color() +
@@ -481,11 +543,23 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       data = tow_start,
       size = 0.08
     ) +
+    # Add region boundaries
     geom_sf(
       data = region_boundaries,
       color = region_boundary_color
     ) +
-    # geom_sf_text(
+    geom_sf_text(
+      data = area_labels_sub,
+      mapping = aes(label = label),
+      size = txt_area,
+      color = "black"
+    ) +
+    geom_sf(
+      data = dixon_entrance,
+      color = dixon_entrance_color,
+      fill = NA
+    ) +
+    # geom_sf_text( # Semidi Islands label
     #   data = semidi_label,
     #   mapping = aes(label = label, angle = angle),
     #   size = txt_island * 0.4,
@@ -510,10 +584,24 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       min.segment.length = 0.2,
       segment.size = 0.25,
       max.overlaps = Inf,
-      seed = 42,
+      seed = 99,
       hjust = -0.15
     ) +
-    
+      geom_sf(data = port_names) +
+      ggrepel::geom_text_repel(
+        data = port_names_sub,
+        mapping = aes(label = NAME, geometry = geometry),
+        stat = "sf_coordinates",
+        size = txt_station,
+        box.padding = 0.15,
+        point.padding = 0.15,
+        min.segment.length = 0.2,
+        segment.size = 0.25,
+        max.overlaps = Inf,
+        seed = 499,
+        hjust = -0.1
+      ) +
+
     # Smooth sheet & multibeam arrows and rotated labels
     # geom_sf(
     #   data = dplyr::filter(mb_annotation, arrow_type == "single", feature == "arrow"),
@@ -536,15 +624,27 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     # ) +
     
     scale_fill_manual(
-      name = "Vessel",
+      name = paste0(main_leg_title, "\n\nVessel"),
       values = allocation_fill,
       guide = guide_legend(order = 1)
     ) +
     scale_color_manual(values = allocation_color, guide = "none") +
     scale_shape_manual(
-      name = "Vessel",
+      name = paste0(main_leg_title, "\n\nVessel"),
       values = allocation_shape,
       guide = guide_legend(order = 1)
+    ) +
+    geom_sf(
+      data = divider_lines_sub,
+      color = "black",
+      linewidth = lwd_divider
+    ) +
+    geom_sf_text(
+      data = divider_labels_sub,
+      mapping = aes(label = label, hjust = hjust),
+      size = txt_divider,
+      color = "black",
+      lineheight = 0.95
     ) +
     geom_sf_text(
       data = island_names_large,
@@ -604,7 +704,7 @@ pdf_plots <- lapply(chart_boudaries$chart_number, function(i, yr) {
     width    = 42,
     height   = 34,
     units    = "in",
-    dpi = 1200
+    dpi = 600
   )
   p
 }, yr = set_year)
@@ -612,14 +712,14 @@ pdf_plots <- lapply(chart_boudaries$chart_number, function(i, yr) {
 names(pdf_plots) <- paste0("map", chart_boudaries$chart_number)
 
 # Generate second set of screen-sized preview plots
-preview_plots <- lapply(chart_boudaries$chart_number, function(i) {
-  build_goa_chart(i, mode = "preview")
-})
-names(preview_plots) <- paste0("map", chart_boudaries$chart_number)
+# preview_plots <- lapply(chart_boudaries$chart_number, function(i) {
+#   build_goa_chart(i, mode = "preview")
+# })
+# names(preview_plots) <- paste0("map", chart_boudaries$chart_number)
 
 # View screen previews in RStudio / plotting device:
-print(preview_plots$map1)
-print(preview_plots$map2)
-print(preview_plots$map3)
-print(preview_plots$map4)
+# print(preview_plots$map1)
+# print(preview_plots$map2)
+# print(preview_plots$map3)
+# print(preview_plots$map4)
 
