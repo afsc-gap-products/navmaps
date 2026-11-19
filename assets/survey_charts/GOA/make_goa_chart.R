@@ -1,5 +1,8 @@
 library(navmaps)
 library(ggnewscale)
+library(ggrepel)
+library(ggstar)
+library(geomtextpath)
 
 # GOA Chart
 
@@ -26,7 +29,7 @@ allocation_color <- allocation_fill
 
 
 wrecks_color <- c("Wrecks and obstructions" = "#FF48DC")
-wrecks_shape <- 11
+wrecks_shape <- "\u2605"
 
 ch_sea_otter_color <- "grey20"
 ch_sea_otter_fill <- c("Sea Otters" =  "#D86ECC")
@@ -48,13 +51,13 @@ hazards_color <- c("Buoys/moorings" = "grey20")
 hazards_shape <- 10
 
 performance_color <- c(
-  "Good tow" = "green2", 
+  "Good tow" = "darkgreen", 
   "Unsatisfactory" = "red", 
   "Other problems, satisfactory" = "cyan"
 )
 
-trawlable_color <- "grey20"
-trawlable_fill <- c("Unknown grid cell" = NA, "Trawlable grid cell" = "lightgreen", "Untrawlable grid cell" = "salmon")
+trawlable_color <- "black"
+trawlable_fill <- c("Unknown" = NA, "Trawlable" = "lightgreen", "Untrawlable" = "salmon")
 trawlable_alpha <- 0.5
 
 ssl_notransit_color <- "magenta"
@@ -80,6 +83,65 @@ read_transform <- function(fpath, crs = 3338) {
   sf::st_read(fpath) |>
     sf::st_transform(crs)
   
+}
+
+get_top_inner_edge <- function(
+    sf_obj,
+    label_col,
+    inset_dist = NULL,
+    top_quantile = 0.70,
+    smooth_tol = NULL,
+    largest_only = TRUE
+) {
+  
+  if (st_is_longlat(sf_obj)) {
+    warning("Input sf object uses geographic coordinates (degrees). Project to a planar CRS (e.g., EPSG:3338) for uniform inset buffering.")
+  }
+  
+  results <- lapply(seq_len(nrow(sf_obj)), function(i) {
+    feat <- sf_obj[i, ]
+    lbl <- pull(feat, {{ label_col }})[1]
+    geom <- st_geometry(feat)
+    
+    if (largest_only && inherits(geom, "sfc_MULTIPOLYGON")) {
+      polys <- st_cast(st_sfc(geom, crs = st_crs(sf_obj)), "POLYGON")
+      geom <- polys[which.max(st_area(polys))]
+    }
+    
+    bb <- st_bbox(geom)
+    dist <- if (is.null(inset_dist)) {
+      -0.05 * (bb["ymax"] - bb["ymin"])
+    } else {
+      -abs(inset_dist)
+    }
+    
+    inner_poly <- st_buffer(geom, dist = dist)
+    if (st_is_empty(inner_poly)) {
+      stop(sprintf("Inset distance (%s) is too large for feature '%s', resulting in an empty geometry.", dist, lbl))
+    }
+    
+    if (!is.null(smooth_tol)) {
+      inner_poly <- st_simplify(inner_poly, dTolerance = smooth_tol, preserveTopology = TRUE)
+    }
+    
+    if (inherits(inner_poly, "sfc_MULTIPOLYGON")) {
+      polys <- st_cast(inner_poly, "POLYGON")
+      inner_poly <- polys[which.max(st_area(polys))]
+    }
+    
+    inner_line <- st_cast(inner_poly, "LINESTRING")
+    coords <- st_coordinates(inner_line)
+    
+    y_cutoff <- quantile(coords[, "Y"], probs = top_quantile, na.rm = TRUE)
+    top_coords <- coords[coords[, "Y"] >= y_cutoff, , drop = FALSE]
+    
+    top_coords <- top_coords[order(top_coords[, "X"]), , drop = FALSE]
+    
+    line_sfc <- st_sfc(st_linestring(top_coords[, c("X", "Y")]), crs = st_crs(sf_obj))
+    st_sf(label = lbl, geometry = line_sfc)
+  })
+  
+  do.call(rbind, results)
 }
 
 # Load standard layers ----
@@ -117,7 +179,9 @@ awois_obstructions <- read_transform(here::here("assets", "data", "wrecks", "awo
 
 wrecks_obstructions <- dplyr::bind_rows(enc_wrecks, awois_wrecks) |> dplyr::bind_rows(awois_obstructions)
 
-island_names <- read_transform(here::here("assets", "data", "placenames", "GOA_place_names_islands_large.shp"))
+island_names_large <- read_transform(here::here("assets", "data", "placenames", "GOA_place_names_islands_large.shp"))
+
+island_names_small <- read_transform(here::here("assets", "data", "placenames", "GOA_place_names_islands_small.shp"))
 
 region_boundaries <- read_transform(here::here("assets", "data", "region_boundaries", "nmfs_boundaries.gpkg"))
 
@@ -125,9 +189,9 @@ trawlable_grid <-
   read_transform(here::here("output", "goa", "shapefiles", "goa_trawlwable_grid.shp")) |>
   dplyr::mutate(
     TRAWLABLE = dplyr::case_when(
-      is.na(TRAWLAB) ~ "Unknown grid cell",
-      TRAWLAB == "N" ~ "Untrawlable grid cell",
-      TRAWLAB == "Y" ~ "Trawlable grid cell"
+      is.na(TRAWLAB) ~ "Unknown",
+      TRAWLAB == "N" ~ "Untrawlable",
+      TRAWLAB == "Y" ~ "Trawlable"
     ),
     TRAWLABLE = factor(TRAWLABLE, levels = names(trawlable_fill))
   )
@@ -149,7 +213,15 @@ cable_files <- list.files(here::here("assets", "data", "cables"), pattern = "\\.
 cables <- lapply(cable_files, FUN = read_transform) |>
   do.call(what = dplyr::bind_rows)
 
-mb_annotation <- read_transform( here::here("assets", "data", "goa_multibeam_annotations.gpkg"))
+mb_annotation <- read_transform(here::here("assets", "data", "goa_multibeam_annotations.gpkg"))
+
+semidi_islands <- read_transform(here::here("assets", "data", "anwr", "anwr_semidi_islands.gpkg"))
+
+semidi_label <- semidi_islands |>
+  dplyr::mutate(
+    label = "ANWR Semidi Islands: Ok to tow,\nbut no anchoring or visiting the islands."
+  ) |>
+  get_top_inner_edge(label_col = label)
 
 # Load special project layers ----
 
@@ -160,7 +232,7 @@ dropcam <- read_transform(here::here("output", "goa", "shapefiles", "drop_cam_zo
 crabpots <- read_transform(here::here("output", "goa", "shapefiles", "goa_crabpots_2025.shp"))
 
 crabpot_marks <- crabpots |>
-  sf::st_segmentize(dfMaxLength = 500) |>
+  sf::st_segmentize(dfMaxLength = 2000) |>
   sf::st_cast(to = "MULTIPOINT")
 
 # Set extent for each chart
@@ -199,6 +271,18 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
   cfg  <- chart_boudaries[chart_boudaries$chart_number == chart_num, ]
   lims <- get_chart_limits(cfg, crs_target = 3338)
   
+  # Crop allocation points to the current chart extent so ggrepel only 
+  # repels labels that are actually visible on this chart
+  chart_bbox <- sf::st_bbox(
+    c(xmin = lims$xlim[1], xmax = lims$xlim[2],
+      ymin = lims$ylim[1], ymax = lims$ylim[2]),
+    crs = sf::st_crs(3338)
+  )
+  allocation_sub <- sf::st_crop(
+    sf::st_transform(allocation, 3338),
+    chart_bbox
+  )
+  
   # Set sizes for pdf and preview plots
   if(mode == "pdf") {
     txt_darpa     <- 7.5
@@ -208,7 +292,7 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     arrow_len_s   <- unit(0.32, "cm")
     arrow_len_d   <- unit(0.38, "cm")
     arrow_lwd     <- 0.9
-    tow_pt_size   <- rel(1.1)
+    tow_pt_size   <- rel(0.5)
     alloc_pt_size <- 2.8
     base_txt_size <- 18
     leg_title_sz  <- 16
@@ -222,7 +306,7 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     arrow_len_s   <- unit(0.14, "cm")
     arrow_len_d   <- unit(0.16, "cm")
     arrow_lwd     <- 0.45
-    tow_pt_size   <- rel(0.5)
+    tow_pt_size   <- rel(0.2)
     alloc_pt_size <- 1.4
     base_txt_size <- 9
     leg_title_sz  <- 8.5
@@ -234,7 +318,8 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     geom_sf(
       data = akland,
       color = akland_color,
-      fill = akland_fill
+      fill = akland_fill,
+      linewidth = 0.2
     ) +
     geom_sf(
       data = ch_nprw,
@@ -248,15 +333,15 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       color = ch_sea_otter_color,
       alpha = ch_sea_otter_alpha
     ) +
-    geom_sf(
-      data = ch_humpback,
-      mapping = aes(fill = "Humpback Whales"),
-      color = ch_humpback_color,
-      alpha = ch_humpback_alpha
-    ) +
+    # geom_sf(
+    #   data = ch_humpback,
+    #   mapping = aes(fill = "Humpback Whales"),
+    #   color = ch_humpback_color,
+    #   alpha = ch_humpback_alpha
+    # ) +
     geom_sf(
       data = ch_beluga,
-      mapping = aes(fill = "Cook Inlet Beluga"),
+      mapping = aes(fill = "Cook Inlet Beluga Whales"),
       color = ch_beluga_color,
       alpha = ch_beluga_alpha
     ) +
@@ -265,24 +350,14 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       values = c(ch_nprw_fill, ch_sea_otter_fill, ch_humpback_fill, ch_beluga_fill),
       guide = guide_legend(order = 6)
     ) +
-    geom_sf(
-      data = ssl_notransit,
-      mapping = aes(color = "SSL No Transit Zone"),
-      fill = ssl_notransit_fill
-    ) +
-    scale_color_manual(
-      name = "Steller Sea Lions",
-      values = ssl_notransit_color,
-      guide = guide_legend(order = 2)
-    ) +
     
-    new_scale_color() +
     new_scale_fill() +
     geom_sf(
       data = trawlable_grid,
       mapping = aes(fill = TRAWLABLE),
       color = trawlable_color,
-      alpha = trawlable_alpha
+      alpha = trawlable_alpha,
+      linewidth = 0.2
     ) +
     scale_fill_manual(
       name = "Station grid",
@@ -292,6 +367,19 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     
     new_scale_color() +
     new_scale_fill() +
+    geom_sf(
+      data = ssl_notransit,
+      mapping = aes(color = "SSL No Transit Zone"),
+      fill = ssl_notransit_fill,
+      linewidth = 1.5
+    ) +
+    scale_color_manual(
+      name = "Steller Sea Lions",
+      values = ssl_notransit_color,
+      guide = guide_legend(order = 2)
+    ) +
+    
+    new_scale_color() +
     geom_sf(
       data = cables,
       mapping = aes(color = "Fiber optic and older"),
@@ -313,12 +401,14 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     new_scale_color() +
     geom_sf(
       data = crabpots,
-      mapping = aes(color = "Crabpot storage")
+      mapping = aes(color = "Crabpot storage"),
+      linewidth = 0.7
     ) +
     geom_sf(
       data = crabpot_marks,
       mapping = aes(color = "Crabpot storage"),
-      shape = 4
+      shape = 4,
+      size = 1.5
     ) +
     scale_color_manual(
       name = "Crab pot storage",
@@ -326,22 +416,36 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       guide = guide_legend(order = 8)
     ) +
     geom_sf_text(
-      data = island_names,
+      data = island_names_large,
       mapping = aes(label = NAME),
       size = txt_island
+    ) +
+    geom_sf_text(
+      data = island_names_small,
+      mapping = aes(label = NAME),
+      size = txt_island*0.4
     ) +
     
     new_scale_color() +
     geom_sf(
       data = hazards,
       mapping = aes(color = "Buoys/moorings"),
-      shape = hazards_shape
+      shape = hazards_shape,
+      size = 3
     ) +
-    geom_sf(
+    geom_star(
       data = wrecks_obstructions,
-      mapping = aes(color = "Wrecks and obstructions"),
-      shape = wrecks_shape
+      aes(geometry = geometry, color = "Wrecks and obstructions", fill = "Wrecks and obstructions"),
+      stat = "sf_coordinates",
+      starshape = 1,
+      size = 3
     ) +
+    # geom_sf(
+    #   data = wrecks_obstructions,
+    #   mapping = aes(color = "Wrecks and obstructions"),
+    #   shape = wrecks_shape,
+    #   family = "DejaVu Sans"
+    # ) +
     scale_color_manual(
       name = "Hazards",
       values = c(hazards_color, wrecks_color),
@@ -357,34 +461,54 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     new_scale_color() +
     geom_sf(
       data = towpath,
-      mapping = aes(color = PERF_CAT)
-    ) +
-    geom_sf(
-      data = region_boundaries,
-      color = region_boundary_color
-    ) +
-    geom_sf(
-      data = tow_start,
-      size = tow_pt_size
+      mapping = aes(color = PERF_CAT),
+      linewidth = 0.3
     ) +
     scale_color_manual(
       name = "Historic tow performance",
       values = performance_color,
       guide = guide_legend(order = 4)
     ) +
+    geom_sf(
+      data = tow_start,
+      size = 0.08
+    ) +
+    geom_sf(
+      data = region_boundaries,
+      color = region_boundary_color
+    ) +
+    geom_sf(
+      data = semidi_islands,
+      color = "red",
+      linewidth = 1.3,
+      fill = NA
+    ) +
+    geomtextpath::geom_textsf(
+      data = semidi_label,
+      mapping = aes(label = label),
+      size = txt_island*0.4,
+      vjust = 0.5
+    ) +
     
     new_scale_fill() +
     new_scale_color() +
     geom_sf(
-      data = allocation,
+      data = allocation_sub,
       mapping = aes(fill = VESSEL_NAME, shape = VESSEL_NAME),
       size = alloc_pt_size
     ) +
-    geom_sf_text(
-      data = allocation,
-      mapping = aes(color = VESSEL_NAME, label = STATION),
-      hjust = 0,
-      size = txt_station
+    ggrepel::geom_text_repel(
+      data = allocation_sub,
+      mapping = aes(color = VESSEL_NAME, label = STATION, geometry = geometry),
+      stat = "sf_coordinates",
+      size = txt_station,
+      box.padding = 0.15,
+      point.padding = 0.15,
+      min.segment.length = 0.2,
+      segment.size = 0.25,
+      max.overlaps = Inf,
+      seed = 42,
+      hjust = -0.1
     ) +
     
     # Smooth sheet & multibeam arrows and rotated labels
@@ -426,7 +550,13 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       ylim = lims$ylim,
       crs = 3338,
       datum = sf::st_crs(4326),
-      expand = FALSE
+      expand = FALSE,
+      label_axes = list(
+        top    = "E",
+        bottom = "E",
+        left   = "N",
+        right  = "N"
+      )
     ) +
     
     theme_bw(base_size = base_txt_size) +
@@ -455,7 +585,7 @@ set_year <- 2027
 # Generate and export 42 x 34 inch PDFs
 pdf_plots <- lapply(chart_boudaries$chart_number, function(i, yr) {
   p <- build_goa_chart(i, mode = "pdf")
-  out_file <- sprintf("GOA_Station_map%d_%d.pdf", i, yr)
+  out_file <- here::here("assets", "survey_charts", "GOA", sprintf("GOA_Station_map%d_%d.pdf", i, yr))
   ggsave(
     filename = out_file,
     plot     = p,
