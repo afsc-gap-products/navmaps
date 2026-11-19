@@ -7,18 +7,19 @@ library(geomtextpath)
 # GOA Chart
 
 crs_aea <- 3338
+set_year <- 2027
 
-# Settings: Colors and fill ----
-
-# standard layers
-akland_color <- "grey70"
-akland_fill <- "#FFEABE"
+# Settings: Dynamic layers ----
 
 vessel_codes_names <- 
   data.frame(
     VESSEL = c(148, 176),
     VESSEL_NAME = c("Ocean Explorer", "Alaska Provider")
-             )
+  )
+
+# Settings: Static layers ----
+akland_color <- "grey70"
+akland_fill <- "#FFEABE"
 
 allocation_color = "black"
 allocation_fill <- c("blue", "red")
@@ -29,7 +30,8 @@ allocation_color <- allocation_fill
 
 
 wrecks_color <- c("Wrecks and obstructions" = "#FF48DC")
-wrecks_shape <- "\u2605"
+wrecks_fill <- wrecks_color
+wrecks_starshape <- 1
 
 ch_sea_otter_color <- "grey20"
 ch_sea_otter_fill <- c("Sea Otters" =  "#D86ECC")
@@ -47,8 +49,13 @@ ch_beluga_color <- "grey20"
 ch_beluga_fill <- c("Cook Inlet Beluga Whales" = "gold2")
 ch_beluga_alpha <- 0.3
 
-hazards_color <- c("Buoys/moorings" = "grey20")
-hazards_shape <- 10
+ch_semidi_color <- "grey20"
+ch_semidi_fill <- c("ANWR Semidi Islands" = "black")
+ch_semidi_alpha <- 0.3
+
+hazards_color <- c("Buoys/moorings" = "#FF48DC")
+hazards_fill <- hazards_color
+hazards_shape <- 8
 
 performance_color <- c(
   "Good tow" = "darkgreen", 
@@ -85,60 +92,62 @@ read_transform <- function(fpath, crs = 3338) {
   
 }
 
-get_top_inner_edge <- function(
+get_top_inner_label <- function(
     sf_obj,
     label_col,
     inset_dist = NULL,
-    top_quantile = 0.70,
-    smooth_tol = NULL,
+    top_quantile = 0.85,
     largest_only = TRUE
 ) {
-  
-  if (st_is_longlat(sf_obj)) {
-    warning("Input sf object uses geographic coordinates (degrees). Project to a planar CRS (e.g., EPSG:3338) for uniform inset buffering.")
-  }
-  
   results <- lapply(seq_len(nrow(sf_obj)), function(i) {
     feat <- sf_obj[i, ]
-    lbl <- pull(feat, {{ label_col }})[1]
-    geom <- st_geometry(feat)
+    lbl <- dplyr::pull(feat, {{ label_col }})[1]
+    geom <- sf::st_geometry(feat)
     
     if (largest_only && inherits(geom, "sfc_MULTIPOLYGON")) {
-      polys <- st_cast(st_sfc(geom, crs = st_crs(sf_obj)), "POLYGON")
-      geom <- polys[which.max(st_area(polys))]
+      polys <- sf::st_cast(sf::st_sfc(geom, crs = sf::st_crs(sf_obj)), "POLYGON")
+      geom <- polys[which.max(sf::st_area(polys))]
     }
     
-    bb <- st_bbox(geom)
+    bb <- sf::st_bbox(geom)
     dist <- if (is.null(inset_dist)) {
       -0.05 * (bb["ymax"] - bb["ymin"])
     } else {
       -abs(inset_dist)
     }
     
-    inner_poly <- st_buffer(geom, dist = dist)
-    if (st_is_empty(inner_poly)) {
-      stop(sprintf("Inset distance (%s) is too large for feature '%s', resulting in an empty geometry.", dist, lbl))
-    }
-    
-    if (!is.null(smooth_tol)) {
-      inner_poly <- st_simplify(inner_poly, dTolerance = smooth_tol, preserveTopology = TRUE)
+    inner_poly <- sf::st_buffer(geom, dist = dist)
+    if (sf::st_is_empty(inner_poly)) {
+      stop(sprintf("Inset distance (%s) is too large for feature '%s'.", dist, lbl))
     }
     
     if (inherits(inner_poly, "sfc_MULTIPOLYGON")) {
-      polys <- st_cast(inner_poly, "POLYGON")
-      inner_poly <- polys[which.max(st_area(polys))]
+      polys <- sf::st_cast(inner_poly, "POLYGON")
+      inner_poly <- polys[which.max(sf::st_area(polys))]
     }
     
-    inner_line <- st_cast(inner_poly, "LINESTRING")
-    coords <- st_coordinates(inner_line)
+    inner_line <- sf::st_cast(inner_poly, "LINESTRING")
+    coords <- sf::st_coordinates(inner_line)
     
     y_cutoff <- quantile(coords[, "Y"], probs = top_quantile, na.rm = TRUE)
     top_coords <- coords[coords[, "Y"] >= y_cutoff, , drop = FALSE]
     
     top_coords <- top_coords[order(top_coords[, "X"]), , drop = FALSE]
+    p1 <- top_coords[1, c("X", "Y")]
+    p2 <- top_coords[nrow(top_coords), c("X", "Y")]
     
-    line_sfc <- st_sfc(st_linestring(top_coords[, c("X", "Y")]), crs = st_crs(sf_obj))
-    st_sf(label = lbl, geometry = line_sfc)
+    dx <- p2["X"] - p1["X"]
+    dy <- p2["Y"] - p1["Y"]
+    angle_deg <- atan2(dy, dx) * (180 / pi)
+    if (angle_deg > 90) angle_deg <- angle_deg - 180
+    if (angle_deg < -90) angle_deg <- angle_deg + 180
+    
+    mid_pt <- sf::st_sfc(
+      sf::st_point(c((p1["X"] + p2["X"]) / 2, (p1["Y"] + p2["Y"]) / 2)),
+      crs = sf::st_crs(sf_obj)
+    )
+    
+    sf::st_sf(label = lbl, angle = as.numeric(angle_deg), geometry = mid_pt)
   })
   
   do.call(rbind, results)
@@ -213,15 +222,17 @@ cable_files <- list.files(here::here("assets", "data", "cables"), pattern = "\\.
 cables <- lapply(cable_files, FUN = read_transform) |>
   do.call(what = dplyr::bind_rows)
 
-mb_annotation <- read_transform(here::here("assets", "data", "goa_multibeam_annotations.gpkg"))
+mb_annotation <- read_transform(here::here("assets", "data", "goa_multibeam_annotations.gpkg")) |>
+  dplyr::mutate(label_text = gsub(pattern = "Look for ", replacement = "", x = label_text))
 
-semidi_islands <- read_transform(here::here("assets", "data", "anwr", "anwr_semidi_islands.gpkg"))
+ch_semidi_islands <- read_transform(here::here("assets", "data", "anwr", "anwr_semidi_islands.gpkg")) |>
+  sf::st_set_geometry("geometry")
 
-semidi_label <- semidi_islands |>
-  dplyr::mutate(
-    label = "ANWR Semidi Islands: Ok to tow,\nbut no anchoring or visiting the islands."
-  ) |>
-  get_top_inner_edge(label_col = label)
+# semidi_label <- semidi_islands |>
+#   dplyr::mutate(
+#     label = "ANWR Semidi Islands: Ok to tow,\nbut no anchoring or visiting the islands."
+#   ) |>
+#   get_top_inner_label(label_col = label, inset_dist = 1500, top_quantile = 0.85)
 
 # Load special project layers ----
 
@@ -345,9 +356,15 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       color = ch_beluga_color,
       alpha = ch_beluga_alpha
     ) +
+    geom_sf(
+      data = ch_semidi_islands,
+      mapping = aes(fill = "ANWR Semidi Islands"),
+      color = ch_semidi_color,
+      alpha = ch_semidi_alpha
+    ) +
     scale_fill_manual(
       name = "Critical Habitat Areas",
-      values = c(ch_nprw_fill, ch_sea_otter_fill, ch_humpback_fill, ch_beluga_fill),
+      values = c(ch_nprw_fill, ch_sea_otter_fill, ch_humpback_fill, ch_beluga_fill, ch_semidi_fill),
       guide = guide_legend(order = 6)
     ) +
     
@@ -415,21 +432,13 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       values = c(crabpot_colors),
       guide = guide_legend(order = 8)
     ) +
-    geom_sf_text(
-      data = island_names_large,
-      mapping = aes(label = NAME),
-      size = txt_island
-    ) +
-    geom_sf_text(
-      data = island_names_small,
-      mapping = aes(label = NAME),
-      size = txt_island*0.4
-    ) +
     
     new_scale_color() +
+    new_scale_color() +
+    new_scale_fill() +
     geom_sf(
       data = hazards,
-      mapping = aes(color = "Buoys/moorings"),
+      mapping = aes(color = "Buoys/moorings", fill = "Buoys/moorings"),
       shape = hazards_shape,
       size = 3
     ) +
@@ -437,18 +446,17 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       data = wrecks_obstructions,
       aes(geometry = geometry, color = "Wrecks and obstructions", fill = "Wrecks and obstructions"),
       stat = "sf_coordinates",
-      starshape = 1,
-      size = 3
+      starshape = wrecks_starshape,
+      size = 4
     ) +
-    # geom_sf(
-    #   data = wrecks_obstructions,
-    #   mapping = aes(color = "Wrecks and obstructions"),
-    #   shape = wrecks_shape,
-    #   family = "DejaVu Sans"
-    # ) +
     scale_color_manual(
       name = "Hazards",
       values = c(hazards_color, wrecks_color),
+      guide = guide_legend(order = 7)
+    ) +
+    scale_fill_manual(
+      name = "Hazards",
+      values = c(hazards_fill, wrecks_fill),
       guide = guide_legend(order = 7)
     ) +
     
@@ -477,18 +485,13 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       data = region_boundaries,
       color = region_boundary_color
     ) +
-    geom_sf(
-      data = semidi_islands,
-      color = "red",
-      linewidth = 1.3,
-      fill = NA
-    ) +
-    geomtextpath::geom_textsf(
-      data = semidi_label,
-      mapping = aes(label = label),
-      size = txt_island*0.4,
-      vjust = 0.5
-    ) +
+    # geom_sf_text(
+    #   data = semidi_label,
+    #   mapping = aes(label = label, angle = angle),
+    #   size = txt_island * 0.4,
+    #   vjust = 0.5,
+    #   lineheight = 0.95
+    # ) +
     
     new_scale_fill() +
     new_scale_color() +
@@ -508,29 +511,29 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       segment.size = 0.25,
       max.overlaps = Inf,
       seed = 42,
-      hjust = -0.1
+      hjust = -0.15
     ) +
     
     # Smooth sheet & multibeam arrows and rotated labels
-    geom_sf(
-      data = dplyr::filter(mb_annotation, arrow_type == "single", feature == "arrow"),
-      color = "black",
-      linewidth = arrow_lwd,
-      arrow = arrow(ends = "last", type = "closed", length = arrow_len_s)
-    ) +
-    geom_sf(
-      data = dplyr::filter(mb_annotation, arrow_type %in% c("double", "double_bent"), feature == "arrow"),
-      color = "black",
-      linewidth = arrow_lwd * 1.15,
-      arrow = arrow(ends = "both", type = "closed", length = arrow_len_d)
-    ) +
-    geom_sf_text(
-      data = dplyr::filter(mb_annotation, feature == "label"),
-      aes(label = label_text, angle = angle),
-      color = "firebrick3",
-      size = txt_mb,
-      fontface = "bold"
-    ) +
+    # geom_sf(
+    #   data = dplyr::filter(mb_annotation, arrow_type == "single", feature == "arrow"),
+    #   color = "black",
+    #   linewidth = arrow_lwd,
+    #   arrow = arrow(ends = "last", type = "closed", length = arrow_len_s)
+    # ) +
+    # geom_sf(
+    #   data = dplyr::filter(mb_annotation, arrow_type %in% c("double", "double_bent"), feature == "arrow"),
+    #   color = "black",
+    #   linewidth = arrow_lwd * 1.15,
+    #   arrow = arrow(ends = "both", type = "closed", length = arrow_len_d)
+    # ) +
+    # geom_sf_text(
+    #   data = dplyr::filter(mb_annotation, feature == "label"),
+    #   aes(label = label_text, angle = angle),
+    #   color = "firebrick3",
+    #   size = txt_mb,
+    #   fontface = "bold"
+    # ) +
     
     scale_fill_manual(
       name = "Vessel",
@@ -542,6 +545,16 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
       name = "Vessel",
       values = allocation_shape,
       guide = guide_legend(order = 1)
+    ) +
+    geom_sf_text(
+      data = island_names_large,
+      mapping = aes(label = NAME),
+      size = txt_island
+    ) +
+    geom_sf_text(
+      data = island_names_small,
+      mapping = aes(label = NAME),
+      size = txt_island*0.4
     ) +
     
     # Set individual chart extent in EPSG:3338 with WGS84 graticule ticks
@@ -580,8 +593,6 @@ build_goa_chart <- function(chart_num, mode = c("pdf", "preview")) {
     )
 }
 
-set_year <- 2027
-
 # Generate and export 42 x 34 inch PDFs
 pdf_plots <- lapply(chart_boudaries$chart_number, function(i, yr) {
   p <- build_goa_chart(i, mode = "pdf")
@@ -592,7 +603,8 @@ pdf_plots <- lapply(chart_boudaries$chart_number, function(i, yr) {
     device   = cairo_pdf,
     width    = 42,
     height   = 34,
-    units    = "in"
+    units    = "in",
+    dpi = 1200
   )
   p
 }, yr = set_year)
@@ -610,3 +622,4 @@ print(preview_plots$map1)
 print(preview_plots$map2)
 print(preview_plots$map3)
 print(preview_plots$map4)
+
