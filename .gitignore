@@ -53,6 +53,8 @@ Meta
 /assets/data/*.dbh
 /assets/data/crabpots/
 /assets/edit_crabpot/
+/assets/survey_charts/GOA/*.pdf
+/analysis/make_anwr_boundary/*.gpkg
 *.TzBackup
 *.tfw
 /assets/data/ex_pots/
